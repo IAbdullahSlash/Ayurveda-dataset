@@ -1,0 +1,339 @@
+<title>Prakṛti Questionnaire</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single narrow form column (a clinic intake sheet) - consent, three trait sections, then the result with three share bars */
+:root {
+  --bg: #f6f8f3; --surface: #fcfdf9; --ink: #17201b; --ink-2: #4b5a51; --muted: #6f7d74; --rule: #dfe5dd;
+  --accent: #9a5f0c; --series: #0f8a5f; --series-best: #c07a12; --chosen-bg: #e6f2eb; --warn: #8a5a00; --warn-bg: #f8eed6;
+  --font-display: "Tiro Devanagari Sanskrit", "Noto Serif Devanagari", Georgia, serif;
+  --font-body: "Noto Sans", "Noto Sans Devanagari", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1411; --surface: #161c19; --ink: #e5ebe6; --ink-2: #b3c0b7; --muted: #8b978e; --rule: #2a332e;
+    --accent: #d9a54a; --series: #26a46f; --series-best: #b9801a; --chosen-bg: #183126; --warn: #e8b85a; --warn-bg: #352a12;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1411; --surface: #161c19; --ink: #e5ebe6; --ink-2: #b3c0b7; --muted: #8b978e; --rule: #2a332e;
+  --accent: #d9a54a; --series: #26a46f; --series-best: #b9801a; --chosen-bg: #183126; --warn: #e8b85a; --warn-bg: #352a12;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); margin: 0; }
+.wrap { max-width: 720px; margin: 0 auto; padding-block: 24px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 20px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; margin: 0; line-height: 1.2; text-wrap: balance; }
+h1 { font-size: clamp(2rem, 5vw, 2.7rem); }
+h2 { font-size: 1.4rem; }
+p { margin: 0; max-width: 64ch; }
+.eyebrow { font: 500 0.72rem/1 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.muted { color: var(--muted); }
+header { display: grid; gap: 10px; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.lang { display: inline-flex; border: 1px solid var(--rule); border-radius: 9px; overflow: hidden; background: var(--surface); }
+.lang button { font: inherit; font-size: 0.85rem; border: 0; background: transparent; color: var(--ink-2); padding: 5px 12px; cursor: pointer; }
+.lang button + button { border-left: 1px solid var(--rule); }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.sheet { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; gap: 14px; }
+.check { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; font-size: 0.95rem; }
+.check input { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--series); }
+ul.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: 0.93rem; color: var(--ink-2); }
+.row { display: flex; flex-wrap: wrap; gap: 12px; }
+.row label { display: grid; gap: 4px; font-size: 0.8rem; color: var(--muted); }
+select { font: inherit; font-size: 0.95rem; color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 7px 10px; }
+.btn { font: inherit; font-size: 0.95rem; border-radius: 9px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); padding: 9px 16px; cursor: pointer; }
+.btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.btn:disabled { opacity: 0.5; cursor: default; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: center; }
+.meter { height: 8px; border-radius: 999px; background: var(--rule); overflow: hidden; }
+.meter > div { height: 100%; width: 0; background: var(--series); border-radius: 999px; transition: width 200ms ease; }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; }
+legend { font-weight: 600; padding: 0; margin-bottom: 6px; font-size: 1rem; }
+legend .n { font: 500 0.75rem var(--font-mono); color: var(--muted); margin-right: 8px; }
+.opts { display: grid; gap: 8px; }
+.opt { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; border: 1px solid var(--rule); border-radius: 10px; padding: 9px 12px;
+  cursor: pointer; background: var(--bg); font-size: 0.94rem; }
+.opt input { width: 17px; height: 17px; margin-top: 3px; accent-color: var(--series); }
+.opt:has(input:checked) { border-color: var(--series); background: var(--chosen-bg); }
+.opt.skip { font-size: 0.85rem; color: var(--ink-2); padding: 6px 12px; }
+.opt:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+.q { display: grid; gap: 8px; padding-block: 14px; border-top: 1px solid var(--rule); }
+.q:first-of-type { border-top: 0; padding-top: 0; }
+.result { display: grid; gap: 14px; }
+.label-big { font-family: var(--font-display); font-size: clamp(1.9rem, 5vw, 2.5rem); line-height: 1.15; }
+.bars { display: grid; gap: 10px; }
+.bar { display: grid; grid-template-columns: 7.5em 1fr 3.4em; gap: 10px; align-items: center; font-size: 0.92rem; }
+.bar .track { height: 14px; background: var(--rule); border-radius: 4px; overflow: hidden; }
+.bar .fill { height: 100%; background: var(--series); border-radius: 0 4px 4px 0; }
+.bar.top .fill { background: var(--series-best); }
+.bar .v { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.note { border: 1px solid var(--warn); background: var(--warn-bg); border-radius: 10px; padding: 10px 14px; font-size: 0.9rem; }
+.code { font-family: var(--font-mono); font-size: 1.05rem; letter-spacing: 0.06em; user-select: all; }
+.tbl { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--rule); }
+th { font-size: 0.75rem; color: var(--ink-2); background: var(--bg); } td.num { text-align: right; font-variant-numeric: tabular-nums; }
+button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .meter > div { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="top">
+      <span class="eyebrow" data-t="eyebrow">AyurKB · constitution questionnaire</span>
+      <div class="lang" role="group" aria-label="Language / भाषा">
+        <button type="button" id="lang-en" data-lang="en" aria-pressed="true">English</button>
+        <button type="button" id="lang-hi" data-lang="hi" aria-pressed="false">हिन्दी</button>
+      </div>
+    </div>
+    <h1 data-t="title">Prakṛti questionnaire</h1>
+    <p class="muted" data-t="lede">24 questions about traits you have had most of your life. The answers are scored the classical way, by counting vāta, pitta and kapha features, using items grounded in the WHO Ayurveda terminology (ITA-2.8.3 to 2.8.5).</p>
+  </header>
+
+  <section class="sheet" id="step-consent">
+    <h2 data-t="before">Before you start</h2>
+    <ul class="plain">
+      <li data-t="c1">This is an educational tool, not a diagnosis. For any health concern, see a qualified Ayurveda practitioner or doctor.</li>
+      <li data-t="c2">Answer for how you usually are, not how you feel today. If unsure, choose "Not sure".</li>
+      <li data-t="c3">Your answers stay on this page. They are stored only if the study team saves them, with a random response code and no name, e-mail or account details.</li>
+      <li data-t="c4">You can ask the study team to delete a saved response by quoting its code.</li>
+    </ul>
+    <label class="check"><input type="checkbox" id="adult"><span data-t="adult">I am 18 years or older.</span></label>
+    <label class="check"><input type="checkbox" id="consent-research"><span data-t="consent">I agree that my anonymous answers may be stored for research (optional - you can take the questionnaire without agreeing).</span></label>
+    <div class="row">
+      <label for="age"><span data-t="age">Age group</span>
+        <select id="age"><option value="">-</option><option>18-29</option><option>30-44</option><option>45-59</option><option>60+</option></select></label>
+      <label for="sex"><span data-t="sex">Sex (optional)</span>
+        <select id="sex"><option value="" data-t="na">Prefer not to say</option><option value="F" data-t="f">Female</option><option value="M" data-t="m">Male</option><option value="O" data-t="o">Other</option></select></label>
+    </div>
+    <div class="actions"><span class="muted" id="consent-hint" data-t="hint">Please confirm you are 18 or older to begin.</span>
+      <button type="button" class="btn primary" id="start" disabled data-t="start">Start</button></div>
+  </section>
+
+  <section class="sheet" id="step-q" hidden>
+    <div class="actions"><h2 id="sec-title"></h2><span class="muted" id="answered"></span></div>
+    <div class="meter" aria-hidden="true"><div id="meter"></div></div>
+    <form id="qform" novalidate></form>
+    <div class="actions">
+      <button type="button" class="btn" id="back" data-t="back">Back</button>
+      <button type="button" class="btn primary" id="fwd" data-t="next">Next</button>
+    </div>
+  </section>
+
+  <section class="sheet result" id="step-r" hidden>
+    <span class="eyebrow" data-t="yours">Your result</span>
+    <div class="label-big" id="r-label"></div>
+    <p id="r-text"></p>
+    <div class="bars" id="r-bars"></div>
+    <p class="muted" id="r-basis"></p>
+    <div class="note" data-t="disclaimer">A questionnaire estimate only. Prakṛti assessment by a practitioner also uses examination (darśana, sparśana, praśna) and history.</div>
+    <div class="sheet" id="save-box" hidden>
+      <h3 data-t="studyteam">Study team</h3>
+      <label class="check"><input type="checkbox" id="interviewer"><span data-t="interviewer">I entered these answers for a participant (interviewer mode).</span></label>
+      <label class="check"><input type="checkbox" id="consent-given"><span data-t="given">The participant has given informed consent to store their anonymous answers.</span></label>
+      <div class="actions"><span class="muted" id="save-msg"></span><button type="button" class="btn primary" id="save" data-t="save">Save anonymous response</button></div>
+    </div>
+    <div class="actions"><button type="button" class="btn" id="again" data-t="again">Start again</button></div>
+  </section>
+
+  <section class="sheet" id="owner" hidden>
+    <span class="eyebrow" data-t="owneronly">Owner only</span>
+    <h2 data-t="studydata">Study data</h2>
+    <div class="actions"><button type="button" class="btn" id="load" data-t="load">Load saved responses</button>
+      <button type="button" class="btn" id="export" disabled data-t="export">Export CSV</button></div>
+    <div id="owner-out"></div>
+  </section>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;            // {items:[{id, domain, q:{en,hi}, opts:{V:{en,hi},P:..,K:..}}], generated}
+const T = {
+  en: { eyebrow: "AyurKB · constitution questionnaire", title: "Prakṛti questionnaire", before: "Before you start", start: "Start", back: "Back", next: "Next", finish: "See my result",
+        lede: "24 questions about traits you have had most of your life. The answers are scored the classical way, by counting vāta, pitta and kapha features, using items grounded in the WHO Ayurveda terminology (ITA-2.8.3 to 2.8.5).",
+        c1: "This is an educational tool, not a diagnosis. For any health concern, see a qualified Ayurveda practitioner or doctor.",
+        c2: "Answer for how you usually are, not how you feel today. If unsure, choose \"Not sure\".",
+        c3: "Your answers stay on this page. They are stored only if the study team saves them, with a random response code and no name, e-mail or account details.",
+        c4: "You can ask the study team to delete a saved response by quoting its code.",
+        adult: "I am 18 years or older.", consent: "I agree that my anonymous answers may be stored for research (optional - you can take the questionnaire without agreeing).",
+        age: "Age group", sex: "Sex (optional)", na: "Prefer not to say", f: "Female", m: "Male", o: "Other", hint: "Please confirm you are 18 or older to begin.",
+        physical: "Body and appearance", physiological: "Digestion, sleep and body functions", psychological: "Behaviour, mind and temperament", unsure: "Not sure",
+        answered: (n, t) => `${n} of ${t} answered`, yours: "Your result", need: (n) => `Answer at least ${n} questions to see a result.`,
+        disclaimer: "A questionnaire estimate only. Prakṛti assessment by a practitioner also uses examination (darśana, sparśana, praśna) and history.",
+        studyteam: "Study team", interviewer: "I entered these answers for a participant (interviewer mode).", given: "The participant has given informed consent to store their anonymous answers.",
+        save: "Save anonymous response", again: "Start again", owneronly: "Owner only", studydata: "Study data", load: "Load saved responses", export: "Export CSV",
+        saved: (c) => `Saved. Response code: `, needConsent: "Saving needs the participant's consent.", saveFail: "Not saved. This account cannot store responses.",
+        basis: (a, n) => `Based on ${a} answered questions (${n} answered "Not sure"). Classical rule: one doṣa leads by more than 15 points → single type; two lead the third by more than 10 → dual type; otherwise sama.` },
+  hi: { eyebrow: "आयुर्वेद ज्ञानकोश · प्रकृति प्रश्नावली", title: "प्रकृति प्रश्नावली", before: "शुरू करने से पहले", start: "शुरू करें", back: "पीछे", next: "आगे", finish: "मेरा परिणाम देखें",
+        lede: "आपके जीवन भर के स्वभाव और शरीर-लक्षणों के बारे में 24 प्रश्न। उत्तरों को शास्त्रीय विधि से, वात, पित्त और कफ लक्षणों की गिनती करके आँका जाता है; प्रश्न WHO आयुर्वेद शब्दावली (ITA-2.8.3 से 2.8.5) पर आधारित हैं।",
+        c1: "यह एक शैक्षिक साधन है, निदान नहीं। किसी भी स्वास्थ्य समस्या के लिए योग्य आयुर्वेद चिकित्सक या डॉक्टर से मिलें।",
+        c2: "आप सामान्यतः जैसे हैं वैसा उत्तर दें, आज जैसा महसूस कर रहे हैं वैसा नहीं। निश्चित न हों तो \"पता नहीं\" चुनें।",
+        c3: "आपके उत्तर इसी पृष्ठ पर रहते हैं। वे तभी संग्रहीत होते हैं जब अध्ययन दल उन्हें सहेजे — एक यादृच्छिक उत्तर-कोड के साथ, बिना नाम, ई-मेल या खाते की जानकारी के।",
+        c4: "सहेजे गए उत्तर को हटवाने के लिए आप अध्ययन दल को उसका कोड बता सकते हैं।",
+        adult: "मेरी आयु 18 वर्ष या अधिक है।", consent: "मैं सहमत हूँ कि मेरे गुमनाम उत्तर शोध के लिए संग्रहीत किए जा सकते हैं (वैकल्पिक — सहमति के बिना भी प्रश्नावली भर सकते हैं)।",
+        age: "आयु वर्ग", sex: "लिंग (वैकल्पिक)", na: "बताना नहीं चाहते", f: "महिला", m: "पुरुष", o: "अन्य", hint: "शुरू करने के लिए पुष्टि करें कि आपकी आयु 18 वर्ष या अधिक है।",
+        physical: "शरीर और रूप", physiological: "पाचन, नींद और शारीरिक क्रियाएँ", psychological: "व्यवहार, मन और स्वभाव", unsure: "पता नहीं",
+        answered: (n, t) => `${t} में से ${n} उत्तर दिए`, yours: "आपका परिणाम", need: (n) => `परिणाम देखने के लिए कम से कम ${n} प्रश्नों के उत्तर दें।`,
+        disclaimer: "यह केवल प्रश्नावली पर आधारित अनुमान है। चिकित्सक प्रकृति-परीक्षा में दर्शन, स्पर्शन, प्रश्न और इतिहास का भी उपयोग करते हैं।",
+        studyteam: "अध्ययन दल", interviewer: "मैंने ये उत्तर किसी प्रतिभागी के लिए भरे हैं (साक्षात्कार विधि)।", given: "प्रतिभागी ने अपने गुमनाम उत्तर संग्रहीत करने की सूचित सहमति दी है।",
+        save: "गुमनाम उत्तर सहेजें", again: "फिर से शुरू करें", owneronly: "केवल स्वामी", studydata: "अध्ययन डेटा", load: "सहेजे गए उत्तर लोड करें", export: "CSV निर्यात करें",
+        saved: (c) => `सहेजा गया। उत्तर-कोड: `, needConsent: "सहेजने के लिए प्रतिभागी की सहमति आवश्यक है।", saveFail: "सहेजा नहीं गया। यह खाता उत्तर संग्रहीत नहीं कर सकता।",
+        basis: (a, n) => `${a} उत्तरित प्रश्नों पर आधारित (${n} में "पता नहीं")। शास्त्रीय नियम: एक दोष 15 अंकों से अधिक आगे → एकदोषज; दो दोष तीसरे से 10 अंकों से अधिक आगे → द्विदोषज; अन्यथा सम।` },
+};
+const NAMES = { V: ["Vāta", "वात"], P: ["Pitta", "पित्त"], K: ["Kapha", "कफ"], VP: ["Vāta-Pitta", "वात-पित्त"], VK: ["Vāta-Kapha", "वात-कफ"],
+                PK: ["Pitta-Kapha", "पित्त-कफ"], VPK: ["Sama (all three in balance)", "सम (त्रिदोषज)"] };
+const ABOUT = {
+  V: ["Vāta features lead: light build, quick movement and speech, variable appetite and sleep, a lively but changeable mind.",
+      "वात लक्षण प्रमुख: हल्का शरीर, तेज़ गति और वाणी, अनियमित भूख व नींद, चंचल और सक्रिय मन।"],
+  P: ["Pitta features lead: medium build, strong appetite and digestion, warmth, sharp intellect and a decisive, sometimes irritable temperament.",
+      "पित्त लक्षण प्रमुख: मध्यम शरीर, तीव्र भूख व पाचन, उष्णता, तीक्ष्ण बुद्धि और निर्णायक, कभी-कभी चिड़चिड़ा स्वभाव।"],
+  K: ["Kapha features lead: sturdy build, steady energy, deep sleep, slow but lasting memory and a calm, patient temperament.",
+      "कफ लक्षण प्रमुख: सुगठित शरीर, स्थिर ऊर्जा, गहरी नींद, धीमी पर स्थायी स्मृति और शांत, धैर्यवान स्वभाव।"],
+};
+const MIN_ANSWERED = 18;
+const $ = (s) => document.querySelector(s);
+const el = (tag, attrs = {}, text) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); if (text != null) e.textContent = text; return e; };
+let lang = "en";
+try { const s = localStorage.getItem("ayurkb-lang"); lang = s || ((navigator.language || "").startsWith("hi") ? "hi" : "en"); } catch (e) {}
+const L = () => (lang === "hi" ? 1 : 0);
+const SECTIONS = ["physical", "physiological", "psychological"];
+const SEC_OF = { physical: 0, physiological: 1, behavioural: 2, psychological: 2 };   // behaviour and mind share the last page
+const answers = {};                       // item id -> "V" | "P" | "K" | "U"
+let sec = 0, db = null, writable = false, owner = false, rows = null, result = null;
+
+// deterministic option order per item (no doṣa always first)
+function order(id) { let h = 0; for (const c of id) h = (h * 131 + c.charCodeAt(0)) >>> 0; const o = ["V", "P", "K"];
+  for (let i = 2; i > 0; i--) { h = (h * 1103515245 + 12345) >>> 0; const j = h % (i + 1); [o[i], o[j]] = [o[j], o[i]]; } return o; }
+
+function applyLang() {
+  document.documentElement.lang = lang === "hi" ? "hi" : "en";
+  for (const b of document.querySelectorAll(".lang button")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+  for (const n of document.querySelectorAll("[data-t]")) { const v = T[lang][n.dataset.t]; if (typeof v === "string") n.textContent = v; }
+  if (!$("#step-q").hidden) renderSection();
+  if (!$("#step-r").hidden && result) renderResult();
+  try { localStorage.setItem("ayurkb-lang", lang); } catch (e) {}
+}
+for (const b of document.querySelectorAll(".lang button")) b.addEventListener("click", () => { lang = b.dataset.lang; applyLang(); });
+
+$("#adult").addEventListener("change", (e) => { $("#start").disabled = !e.target.checked; $("#consent-hint").hidden = e.target.checked; });
+$("#start").addEventListener("click", () => { $("#step-consent").hidden = true; $("#step-q").hidden = false; sec = 0; renderSection(); scrollTo({ top: 0 }); });
+
+function items(s) { return DATA.items.filter(x => (SEC_OF[x.domain] ?? 2) === s); }
+function count() { const n = Object.values(answers).filter(v => v && v !== "U").length; return n; }
+function renderSection() {
+  $("#sec-title").textContent = T[lang][SECTIONS[sec]] + ` (${sec + 1}/3)`;
+  const f = $("#qform"); f.replaceChildren();
+  for (const x of items(sec)) {
+    const fs = el("fieldset", { class: "q" });
+    const lg = el("legend"); lg.append(el("span", { class: "n" }, x.id), document.createTextNode(x.q[lang])); fs.append(lg);
+    const opts = el("div", { class: "opts" });
+    for (const d of [...order(x.id), "U"]) {
+      const lab = el("label", { class: "opt" + (d === "U" ? " skip" : "") });
+      const inp = el("input", { type: "radio", name: x.id, value: d, id: `${x.id}-${d}` }); if (answers[x.id] === d) inp.checked = true;
+      inp.addEventListener("change", () => { answers[x.id] = d; progress(); });
+      lab.append(inp, el("span", {}, d === "U" ? T[lang].unsure : x.opts[d][lang])); opts.append(lab);
+    }
+    fs.append(opts); f.append(fs);
+  }
+  $("#back").disabled = sec === 0;
+  $("#fwd").textContent = sec === 2 ? T[lang].finish : T[lang].next;
+  progress();
+}
+function progress() {
+  const n = Object.keys(answers).length;
+  $("#answered").textContent = T[lang].answered(n, DATA.items.length);
+  $("#meter").style.width = (100 * n / DATA.items.length) + "%";
+}
+$("#back").addEventListener("click", () => { if (sec > 0) { sec--; renderSection(); scrollTo({ top: 0 }); } });
+$("#fwd").addEventListener("click", () => {
+  if (sec < 2) { sec++; renderSection(); scrollTo({ top: 0 }); return; }
+  if (count() < MIN_ANSWERED) { $("#answered").textContent = T[lang].need(MIN_ANSWERED); return; }
+  score(); $("#step-q").hidden = true; $("#step-r").hidden = false; renderResult(); scrollTo({ top: 0 });
+});
+
+// classical scoring (identical to the rule benchmarked in experiment E4)
+function labelFromShares(s) {
+  const o = [0, 1, 2].sort((a, b) => s[b] - s[a]); const [a, b, c] = o.map(i => s[i]);
+  if (a - b > 0.15) return "VPK"[o[0]];
+  if (b - c > 0.10) return [o[0], o[1]].sort().map(i => "VPK"[i]).join("");
+  return "VPK";
+}
+function score() {
+  const vals = Object.values(answers).filter(v => v !== "U");
+  const n = vals.length, c = ["V", "P", "K"].map(d => vals.filter(v => v === d).length);
+  const shares = c.map(x => x / n);
+  result = { shares, label: labelFromShares(shares), answered: n, unsure: Object.values(answers).filter(v => v === "U").length };
+}
+function renderResult() {
+  const r = result, i = L();
+  $("#r-label").textContent = NAMES[r.label][i];
+  const lead = r.label === "VPK" ? ["V", "P", "K"] : r.label.split("");
+  $("#r-text").textContent = lead.map(d => ABOUT[d][i]).join(" ");
+  const bars = $("#r-bars"); bars.replaceChildren();
+  const top = Math.max(...r.shares);
+  ["V", "P", "K"].forEach((d, k) => {
+    const row = el("div", { class: "bar" + (r.shares[k] === top ? " top" : "") });
+    const tr = el("div", { class: "track" }); const fill = el("div", { class: "fill" }); fill.style.width = (r.shares[k] * 100).toFixed(1) + "%"; tr.append(fill);
+    row.append(el("span", {}, NAMES[d][i]), tr, el("span", { class: "v" }, Math.round(r.shares[k] * 100) + "%"));
+    row.setAttribute("aria-label", `${NAMES[d][i]} ${Math.round(r.shares[k] * 100)}%`); bars.append(row);
+  });
+  $("#r-basis").textContent = T[lang].basis(r.answered, r.unsure);
+  $("#save-box").hidden = !writable;
+}
+$("#again").addEventListener("click", () => { for (const k of Object.keys(answers)) delete answers[k]; result = null;
+  $("#step-r").hidden = true; $("#step-consent").hidden = false; $("#save-msg").textContent = ""; $("#save").disabled = false; scrollTo({ top: 0 }); });
+
+$("#save").addEventListener("click", async () => {
+  const msg = $("#save-msg");
+  const interviewer = $("#interviewer").checked;
+  const consented = interviewer ? $("#consent-given").checked : ($("#consent-research").checked || $("#consent-given").checked);
+  if (!consented) { msg.textContent = T[lang].needConsent; return; }
+  if (!db) return;
+  const code = Array.from(crypto.getRandomValues(new Uint8Array(5)), b => "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"[b % 32]).join("");
+  const body = { code, created: Date.now(), mode: interviewer ? "interviewer" : "self", lang, consent_research: true,
+                 age_band: $("#age").value, sex: $("#sex").value, answers: { ...answers },
+                 shares: { V: result.shares[0], P: result.shares[1], K: result.shares[2] }, label: result.label,
+                 answered: result.answered, questionnaire_version: DATA.version };
+  $("#save").disabled = true;
+  try { await db.doc(`responses/${code}`).set(body); msg.replaceChildren(document.createTextNode(T[lang].saved(code)), el("span", { class: "code" }, code)); }
+  catch (e) { $("#save").disabled = false; msg.textContent = T[lang].saveFail; }
+});
+
+// owner: saved responses and CSV export
+$("#load").addEventListener("click", async () => {
+  const out = $("#owner-out"); out.replaceChildren(el("p", { class: "muted" }, "…"));
+  try {
+    rows = (await db.collection("responses").get()).docs.map(d => d.data());
+    const dist = {}; for (const r of rows) dist[r.label] = (dist[r.label] || 0) + 1;
+    const t = el("table"); const hr = el("tr"); ["Prakṛti", "Responses"].forEach((h, i) => hr.append(el("th", i ? { class: "num" } : {}, h))); t.append(hr);
+    for (const k of ["V", "P", "K", "VP", "VK", "PK", "VPK"]) { const tr = el("tr"); tr.append(el("td", {}, NAMES[k][L()]), el("td", { class: "num" }, String(dist[k] || 0))); t.append(tr); }
+    const w = el("div", { class: "tbl" }); w.append(t);
+    out.replaceChildren(el("p", {}, `${rows.length} saved responses`), w); $("#export").disabled = !rows.length;
+  } catch (e) { out.replaceChildren(el("p", { class: "muted" }, "Could not load responses. Try again in a moment.")); }
+});
+$("#export").addEventListener("click", async () => {
+  const dl = await window.claude?.use?.("downloads").catch(() => null);
+  if (!dl || !rows) return;
+  const ids = DATA.items.map(x => x.id), esc = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
+  const lines = [["code", "created", "mode", "lang", "age_band", "sex", "label", "share_V", "share_P", "share_K", "answered", ...ids].join(",")];
+  for (const r of rows) lines.push([r.code, new Date(r.created).toISOString(), r.mode, r.lang, r.age_band, r.sex, r.label, r.shares?.V, r.shares?.P, r.shares?.K, r.answered,
+                                    ...ids.map(i => r.answers?.[i] || "")].map(esc).join(","));
+  try { await dl.save({ filename: `prakriti_responses_${new Date().toISOString().slice(0, 10)}.csv`, data: lines.join("\n") }); } catch (e) {}
+});
+
+applyLang();
+(async () => {
+  const C = window.claude; if (!C?.use) return;
+  const [user, store] = await Promise.all([C.use("user").catch(() => null), C.use("db").catch(() => null)]);
+  if (!user || !store) return;
+  db = store; owner = await user.isOwner(); writable = owner || (await user.canEdit());
+  if (owner) $("#owner").hidden = false;
+  if (!$("#step-r").hidden && result) renderResult();
+})();
+</script>
