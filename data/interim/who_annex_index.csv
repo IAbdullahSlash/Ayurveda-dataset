@@ -1,0 +1,4113 @@
+term_id,iast_annex,devanagari_annex,iast_found,deva_found
+ITA-6.2.7.2,abhaktam,अभक्तम्,True,True
+ITA-4.4.6,ābhyantarahetuḥ,आभ्यन्तरहेतुः,True,True
+ITA-1.9.7.1,abhāvaḥ,अभावः,True,True
+ITA-9.2.5,ābhyantarasnehaḥ,आभ्यन्तरस्नेहः,True,True
+ITA-9.1.30,abheṣajam,अभेषजम्,True,True
+ITA-1.7.7,abhyanujñā,अभ्यनुज्ञा,True,True
+ITA-5.76.67,abhighāta-virecanavyāpat,अभिघात-विरे चनव्यापत्,True,True
+ITA-1.9.4.4.11,abhyāsaḥ,अभ्यासः,True,True
+ITA-5.22.6,abhighātaja-arocakaḥ,अभिघातज-अरोचकः,True,True
+ITA-2.6.28,abhyavaharaṇa-śaktiḥ,अभ्यवहरणशक्तिः,True,True
+ITA-5.66.37,abhighātaja-liṅganāśaḥ,अभिघातज-लिङ्गनाशः,True,True
+ITA-10.2.13,abrahmacharyam,अब्रह्मचर्यम्,False,False
+ITA-5.63.10,abhighātaja-oṣṭhaprakopaḥ,अभिघातज-ओष्ठप्रकोपः,True,True
+ITA-5.76.234,abudhnavraṇaḥ,अबुध्नव्रणः,True,True
+ITA-5.44.7,abhighātajaśophaḥ,अभिघातजशोफः,True,True
+ITA-9.8.7,ācārarasāyanam,आचाररसायनम्,True,True
+ITA-5.53.7,abhighātajavraṇaśophaḥ,अभिघातजव्रणशोफः,True,True
+ITA-10.3.8,ācārarasāyanam,आचाररसायनम्,True,True
+ITA-5.66.2,abhiṣyandaḥ,अभिष्यन्दः,True,True
+ITA-9.2.7,acchasnehaḥ,अच्छस्नेहः,True,True
+ITA-6.2.6.47,abhiṣyandi,अभिष्यन्दि,True,True
+ITA-1.9.3.7.16,acetana-dravyam,अचेतन-द्रव्यम्,True,True
+ITA-7.2.2.2,abhrakam,अभ्रकम्,True,True
+ITA-9.6.32,ācūṣaṇakarma,आचूषणकर्म,True,True
+ITA-5.76.120,abhukta bhaktasya,अभुक्तभक्तस्य अनुवासनस्य,False,False
+ITA-9.6.216,ācūṣaṇakarma,आचूषणकर्म,True,True
+ITA-3.1.19,adhaḥkāyaḥ,अधःकायः,True,True
+ITA-5.76.131,abhukte ca praṇītasya sneha,अभुक्ते च प्रणीतस्य स्नेह बस्ति,False,False
+ITA-5.55.6,basti vyāpad adhaḥkṣipta-sandhimuktam,अधःक्षिप्त-सन्धिमुक्तम्,False,True
+ITA-7.2.10,adhaḥpātanam,अधःपातनम्,True,True
+ITA-9.2.12,abhyaṅgaḥ,,True,False
+ITA-2.5.5,adhaḥsrotaḥ,अधःस्रोतः,True,True
+ITA-9.6.123,abhyaṅgakarma (vraṇacikitsā),,False,False
+ITA-7.1.4.14,āḍhakam,आढकम्,True,True
+ITA-5.13.4,ābhyantara-kṛmiḥ,,True,False
+ITA-5.76.72,adharagudam ITA.3.11.29 ādhmānavirecanavyāpat,आध्मानविरे चनव्यापत्,False,True
+ITA-3.2.4.7,adharaḥ,अधरः,True,True
+ITA-5.76.65,ādhmāta-virecanavyāpat,आध्मात-विरे चनव्यापत्,True,True
+ITA-3.13.71,ādhāraḥ,आधारः,True,True
+ITA-6.2.7.5,adhobhaktaḥ,अधोभक्तः,True,True
+ITA-5.33.3,adharamārgaḥ ITA.3.11.30 adhoga-amlapittam,अधोग-अम्लपित्तम्,False,True
+ITA-2.7.3,adhāraṇīya-vegaḥ,अधारणीयवेगः,True,True
+ITA-5.76.59,adhogaraktapitta-,अधोगरक्तपित्त-विरे चनव्यापत्,False,True
+ITA-3.7.26,adharatrikam,अधरत्रिकम्,True,True
+ITA-5.75.9,adhovātavegarodhaḥ,अधोवातवेगरोधः,True,True
+ITA-3.2.4.7,adharauṣṭhaḥ,अधरौष्ठः,True,True
+ITA-5.63.41,adhruṣaḥ,अध्रुषः,True,True
+ITA-4.2.21,ādhibhautikarogaḥ,आधिभौतिकरोगः,True,True
+ITA-5.17.9,adhvajanyarājayakṣmā,अध्वजन्यराजयक्ष्मा,True,True
+ITA-4.2.25,ādhidaivikarogaḥ,आधिदैविकरोगः,True,True
+ITA-5.50.4,adhyarbudaḥ,अध्यर्बुदः,True,True
+ITA-5.63.36,adhijihvā,अधिजिह्वा,True,True
+ITA-1.9.3.2.7,ādhyātmika,आध्यात्मिक,True,True
+ITA-3.2.4.27,adhijihvikā,अधिजिह्विका,True,True
+ITA-4.2.11,ādhyātmikarogaḥ,आध्यात्मिकरोगः,True,True
+ITA-1.6.4,adhikaraṇam,अधिकरणम्,True,True
+ITA-4.2.12,ādibalapravṛttarogaḥ,आदिबलप्रवृत्तरोगः,True,True
+ITA-5.63.20,adhimāṃsaḥ,अधिमांसः,True,True
+ITA-7.2.1.13,ādityapāka,आदित्यपाक,True,True
+ITA-5.66.50,adhimāṃsajārma,अधिमांसजार्म,True,True
+ITA-9.1.61,adravyabhūtacikitsā,अद्रव्यभूतचिकित्सा,True,True
+ITA-5.66.7,adhimanthaḥ,अधिमन्थः,True,True
+ITA-1.9.3.2.13,adṛṣṭam,अदृष्टम्,True,True
+ITA-3.16.23,adhipatiḥ (marma),अधिपतिः (मर्म),False,False
+ITA-6.2.6.37,agadaḥ,अगदः,True,True
+ITA-5.76.89,ādhmānabastivyāpat,आध्मानबस्तिव्यापत्,True,True
+ITA-9.7.1,agadatantram,अगदतन्त्रम्,True,True
+ITA-5.2.1.53,ādhmānam,आध्मानम्,True,True
+ITA-5.65.7,āgantu kṣavathuḥ,आगन्तु क्षवथुः,True,True
+ITA-5.36.1,ādhmānam,आध्मानम्,True,True
+ITA-5.23.6,āgantujachardiḥ,आगन्तुजछर्दिः,True,True
+ITA-5.76.41,ādhmānam-vamanavyāpat,आध्मानम्-वमनव्यापत्,True,True
+ITA-5.6.13,āgantujajvaraḥ,आगन्तुजज्वरः,True,True
+ITA-5.54.11,āgantujavraṇaḥ,आगन्तुजव्रणः अग्न्याशयः,True,False
+ITA-9.6.197,āgantukaśalyam,आगन्तुकशल्यम्,True,True
+ITA-3.2.2.2,agranāsikā,अग्रनासिका,True,True
+ITA-4.5.16,āgatiḥ,आगतिः,True,True
+ITA-3.8.20,agraparva,अग्रपर्व,True,True
+ITA-5.74.8,āgneya-dravyātiyogaḥ,आग्नेय-द्रव्यातियोगः,True,True
+ITA-9.6.3,agropaharaṇīyaḥ,अग्रोपहरणीयः,True,True
+ITA-6.2.1.17,āgneyarasaḥ,आग्नेयरसः,True,True
+ITA-6.1.13,agryasaṅgrahaḥ,अग्र्यसङ्ग्रहः,False,False
+ITA-4.2.8,āgneyarogaḥ,आग्नेयरोगः,True,True
+ITA-1.9.3.3.24,ahaṅkāraḥ,अहङ्कारः,True,True
+ITA-5.76.226,agni-atidagdhaḥ,अग्नि-अतिदग्धः,True,True
+ITA-9.1.28,āhāradravyayojanam,आहारद्रव्ययोजनम्,True,True
+ITA-5.60.6,agnidāhajavisarpaḥ,अग्निदाहजविसर्पः,True,True
+ITA-8.1.2,āhāraḥ,आहारः,True,True
+ITA-2.6.1,agniḥ,अग्निः,True,True
+ITA-10.2.2,āhāraḥ,आहारः,True,True
+ITA-9.6.93,agnikarma,अग्निकर्म,True,True
+ITA-9.6.178,āhāraḥ (vraṇacikitsā),आहारः (व्रणचिकित्सा),False,False
+ITA-9.7.27,agnikarma (viṣopakramaḥ),अग्निकर्म (विषोपक्रमः),False,False
+ITA-8.1.1,āhārakalpanā,आहारकल्पना,True,True
+ITA-9.6.158,agnikarma (vraṇacikitsā),अग्निकर्म (व्रणचिकित्सा),False,False
+ITA-5.74.4,āhāramithyāyogaḥ,आहारमिथ्यायोगः,True,True
+ITA-5.76.224,agnikarma-apacāraḥ,अग्निकर्म-अपचारः,True,True
+ITA-9.6.26,āharaṇakarma,आहरणकर्म,True,True
+ITA-5.62.16,agnirohiṇī,अग्निरोहिणी,True,True
+ITA-9.6.137,āharaṇakarma,आहरणकर्म,True,True
+ITA-8.3.1,agnisiddhaḥ,अग्निसिद्धः,True,True
+ITA-9.6.69,āharaṇam,आहरणम्,True,True
+ITA-10.2.4,agnisthānam ITA.3.11.34 āhārapariṇāmakarabhāvaḥ,आहारपरिणामकरभावः,False,True
+ITA-9.2.39,agnisvedaḥ,अग्निस्वेदः,True,True
+ITA-2.6.22,āhārarasaḥ,आहाररसः,True,True
+ITA-5.76.225,agnivibhramaḥ,अग्निविभ्रमः,True,True
+ITA-8.1.6,āhārasvarūpabhedaḥ,आहारस्वरूपभेदः,True,True
+ITA-5.60.6,agnivisarpaḥ,अग्निविसर्पः,True,True
+ITA-5.74.3,āhārātiyogaḥ,आहारातियोगः,False,False
+ITA-5.74.1,agnyadhiṣṭhānam ITA.3.11.34 āhāravaiṣamyam,आहारवैषम्यम्,False,True
+ITA-8.2.1,āhāravargaḥ,आहारवर्गः,True,True
+ITA-5.76.142,ajīrṇabhukta bhakte nasya,अजीर्णभुक्त भक्ते नस्य व्यापदः,False,False
+ITA-10.2.3,āhāravidhiviśeṣāyatanam,आहारविधिविशेषायतनम्,True,True
+ITA-5.11.4,ajīrṇam,अजीर्णम्,True,True
+ITA-8.2.12,āhārayogivargaḥ,आहारयोगिवर्गः,True,True
+ITA-5.76.161,akāladhūmapānaḥ,अकालधूमपानः,True,True
+ITA-9.9.14,aharṣaṇam,अहर्षणम्,True,True
+ITA-4.2.36,akālajarogaḥ,अकालजरोगः,True,True
+ITA-9.5.48,āhārya,आहार्य:,True,True
+ITA-5.75.4,akālaśayanam,अकालशयनम्,True,True
+ITA-9.2.66,āhavaḥ,आहवः,True,True
+ITA-1.9.3.1.3,ākāśaḥ,आकाशः,True,True
+ITA-1.8.2.3,ahetuḥ,अहेतुः,True,True
+ITA-4.2.33,ākasmikarogaḥ,आकस्मिकरोगः,True,True
+ITA-5.71.7,ahipūtana,अहिपूतन,True,True
+ITA-5.72.17,ākhuviṣaḥ,आखुविषः,True,True
+ITA-5.62.39,ahipūtanakaḥ,अहिपूतनकः,True,True
+ITA-8.3.22,akṛtayūṣaḥ,अकृ तयूषः,True,True
+ITA-1.2.3,ahitāyuḥ,अहितायुः,True,True
+ITA-4.5.5,ākṛtiḥ,आकृ तिः,True,True
+ITA-9.3.2,ahitebhyoarthebhyomanoni-,अहितेभ्योऽर्थेभ्योमनोनिग्रह,False,True
+ITA-9.7.12,graha akṛtrimaviṣam,अकृ त्रिमविषम,False,False
+ITA-7.1.4.36,ahorātraḥ,अहोरात्रः,True,True
+ITA-3.13.15,akṣaḥ,अक्षः,True,True
+ITA-6.2.6.35,ahṛdyam,अहृद्यम्,True,True
+ITA-3.13.15,akṣakaḥ,अक्षकः,True,True
+ITA-5.62.2,ajagallikā,अजगल्लिका,True,True
+ITA-3.13.48,akṣakasandhiḥ,अक्षकसन्धिः,True,True
+ITA-5.71.6,ajagallikā,अजगल्लिका,True,True
+ITA-3.13.15,akṣakāsthi,अक्षकास्थि,True,True
+ITA-5.66.25,ajakā,अजका,True,True
+ITA-3.10.1,akṣam,अक्षम्,True,True
+ITA-9.8.5,ājasrikarasāyanam,आजस्रिकरसायनम्,True,True
+ITA-6.2.6.36,akṣaprasādanam,अक्षप्रसादनम्,True,True
+ITA-5.76.62,ajīrṇa-virecanavyāpat,अजीर्ण-विरे चनव्यापत्,True,True
+ITA-9.4.35,akṣaralekhanasaṁskāraḥ,अक्षरलेखनसंस्कारः,True,True
+ITA-5.76.102,ajīrṇa; atisnigdha; pītasnehānāṃ,अजीर्ण; अतिस्निग्ध; पीतस्नेहानां,False,False
+ITA-5.62.17,akṣatā,अक्षता,True,True
+ITA-5.2.1.25,ākṣepakaḥ,आक्षेपकः,True,True
+ITA-3.2.1.1,akṣi,अक्षि,True,True
+ITA-5.63.34,alāsaḥ,अलासः,True,True
+ITA-3.2.1.2,akṣi-golakam,अक्षि-गोलकम्,True,True
+ITA-5.11.11,alasaka-ajīrṇam,अलसक-अजीर्णम्,True,True
+ITA-3.2.1.2,akṣigolakatvak,अक्षिगोलकत्वक्,True,True
+ITA-5.59.13,alasakakuṣṭhaḥ,अलसककु ष्ठः,True,True
+ITA-3.2.1.9,akṣikanīnikā,अक्षिकनीनिका,True,True
+ITA-5.76.114,alasaka; visūcika; āma,अलसक; विसूचिक; आम,False,False
+ITA-3.2.1.4,akṣikoṣaḥ,अक्षिकोशः,True,True
+ITA-3.2.1.3,akṣikūṭaḥ,अक्षिकू टः,True,True
+ITA-5.59.13,alasakuṣṭhaḥ,अलसकु ष्ठः,True,True
+ITA-2.4.8,akṣimalaḥ,अक्षिमलः,True,True
+ITA-9.6.222,ālepaḥ,आलेपः,True,True
+ITA-5.76.15,akṣīṇabalamāṃsasya,अक्षीणबलमांसस्य,False,False
+ITA-9.6.121,ālepakarma (vraṇacikitsā),आलेपकर्म (व्रणचिकित्सा),False,False
+ITA-3.2.5,alikam,अलिकम्,True,True
+ITA-5.66.24,akṣipākaḥ,अक्षिपाकः,True,True
+ITA-1.9.3.3.32,alobhaḥ,अलोभः,True,True
+ITA-3.2.1.23,akṣipakṣma,अक्षिपक्ष्म,True,True
+ITA-2.1.2.4,ālocaka-pittam,आलोचकपित्तम्,True,True
+ITA-3.2.1.23,akṣipakṣma,अक्षिपक्ष्म,True,True
+ITA-5.76.211,alpapravṛttaraktaḥ,अल्पप्रवृत्तरक्तः,True,True
+ITA-3.2.1.4,akṣipuṭam,अक्षिपुटम्,True,True
+ITA-9.9.12,alpaśukratā,अल्पशुक्रता,True,True
+ITA-3.2.1.4,akṣivartma,अक्षिवर्त्म,True,True
+ITA-4.6.2,āma,आम,True,True
+ITA-3.2.1.4,akṣivartmakoṣaḥ,अक्षिवर्त्मकोषः,True,False
+ITA-5.6.37,āmajajvaraḥ,आमजज्वरः,True,True
+ITA-9.6.104,alābū-avacaraṇam,अलाबू-अवचरणम्,True,True
+ITA-5.24.8,āmajatṛṣṇā,आमजतृष्णा,True,True
+ITA-5.66.67,alajī,अलजी,True,True
+ITA-5.11.7,āmājīrṇam,आमाजीर्णम्,True,True
+ITA-5.41.1.6,alajī-pramehapiḍakā,अलजी-प्रमेहपिडका,True,True
+ITA-5.58.3,alajīśūkarogaḥ,अलजीशूकरोगः,True,True
+ITA-3.17.4,amarā,अमरा,True,True
+ITA-5.72.21,alarkaviṣaḥ,अलर्क विषः,True,True
+ITA-5.2.1.12,āmāśayagatavātaḥ,आमाशयगतवातः,True,True
+ITA-5.62.24,alasaḥ,अलसः,True,True
+ITA-6.2.1.5,āmāśayaḥ ITA.3.11.22 amlaskandhaḥ,अम्लस्कन्धः,False,True
+ITA-4.2.19,āmāśayasamuttharogaḥ,आमाशयसमुत्थरोगः,True,True
+ITA-8.3.26,amlasūpaḥ,अम्लसूपः,True,True
+ITA-5.73.16,āmāśayastha-rudhiraḥ,आमाशयस्थ-रुधिरः,True,True
+ITA-5.66.18,amloṣitaḥ,अम्लोषितः,True,True
+ITA-5.73.11,āmaśophaḥ,आमशोफः,True,True
+ITA-7.2.1.4,amṛtīkaraṇam,अमृतीकरणम्,True,True
+ITA-5.34.6,āmaśūlaḥ,आमशूलः,True,True
+ITA-3.3.11,aṃsabandhanam,अंसबन्धनम्,True,True
+ITA-5.7.6,āmātisāraḥ,आमातिसारः,True,True
+ITA-3.3.13,aṃsadeśaḥ,अंसदेशः,True,True
+ITA-5.76.13,āmātisārasaṅgrahaḥ,आमातिसारसङ्ग्रहः,True,True
+ITA-3.3.6,aṃsaḥ,अंसः,True,True
+ITA-4.6.2,āmāvastha,आमावस्था,True,True
+ITA-3.3.8,aṃsakūṭaḥ,अंसकू टः,True,True
+ITA-5.32.1,āmavātaḥ,आमवातः,True,True
+ITA-3.3.12,aṃsamūlam,अंसमूलम्,True,True
+ITA-4.2.1,āmayaḥ,आमयः,False,False
+ITA-3.13.16,aṃsaphalakaḥ,अंसफलकः,True,True
+ITA-8.2.35,ambu,अम्बु,True,True
+ITA-3.16.48,aṃsaphalakam (marma),अंसफलकम् (मर्म),False,False
+ITA-2.5.8,ambumārgaḥ,अम्बुमार्गः,True,True
+ITA-3.3.10,aṃsapiṇḍaḥ,अंसपिण्डः,True,True
+ITA-2.5.8,ambuvahasrotas,अम्बुवहस्रोतः,False,True
+ITA-3.3.9,aṃsapiṇḍikā,अंसपिण्डिका,True,True
+ITA-8.2.34,ambuvargaḥ,अम्बुवर्गः,True,True
+ITA-3.3.7,aṃsapīṭham,अंसपीठम्,True,True
+ITA-2.6.24,amla avasthāpākaḥ,अम्लावस्थापाकः,True,True
+ITA-3.13.49,aṃsasandhiḥ,अंससन्धिः,True,True
+ITA-6.2.1.4,amla-rasaḥ,अम्ल-रसः,True,True
+ITA-5.2.1.47,aṃsaśoṣaḥ,अंसशोषः,True,True
+ITA-5.66.18,amlādhyuṣitaḥ,अम्लाध्युषितः,True,True
+ITA-1.9.3.6.1,amūrtadravyam,अमूर्तद्रव्यम्,True,True
+ITA-5.41.24,amlamehaḥ,अम्लमेहः,True,True
+ITA-1.9.3.2.16,anādi,अनादि,True,True
+ITA-5.33.1,amlapittam,अम्लपित्तम्,True,True
+ITA-1.6.5,anāgatavekṣaṇam,अनागतवेक्षणम्,True,True
+ITA-5.74.16,amlarasātiyogaḥ,अम्लरसातियोगः,True,True
+ITA-5.2.1.53,ānāhaḥ,आनाहः,True,True
+ITA-5.36.1,ānāhaḥ,आनाहः,True,True
+ITA-5.76.95,aṅgārtibastivyāpat,अङ्गार्तिबस्तिव्यापत्,True,True
+ITA-3.8.29,anāmikā,अनामिका,True,True
+ITA-7.1.4.24,aṅgulaḥ,अङ्गुलः,True,True
+ITA-8.3.27,anamlasūpaḥ,अनम्लसूपः,True,True
+ITA-3.13.34,aṅgulāsthi,अङ्गुलास्थि,True,True
+ITA-3.2.4.3,ānanam,आननम्,True,True
+ITA-3.8.21,aṅguligranthiḥ,अङ्गुलिग्रन्थिः,True,True
+ITA-6.2.7.2,anannam,अनन्नम्,True,True
+ITA-3.8.18,aṅguliḥ,अङ्गुलिः,True,True
+ITA-5.67.8,anantavātaḥ,अनन्तवातः,True,True
+ITA-3.8.19,aṅguliparva,अङ्गुलिपर्व,True,True
+ITA-1.7.4,ananuyojyam,अननुयोज्यम्,True,True
+ITA-3.8.22,angulyagram,अङ्गुल्यग्रम्,False,True
+ITA-6.2.6.63,anaujasyam,अनौजस्यम्,True,True
+ITA-3.8.23,aṅguṣṭhaḥ,अङ्गुष्टः,True,True
+ITA-9.6.201,anavabaddhaśalyam,अनवबद्धशल्यम्,True,True
+ITA-3.8.24,aṅguṣṭhamūlam,अङ्गुष्टमूलम्,True,True
+ITA-9.6.203,anavabaddhaśalyoddharaṇa-,अनवबद्धशल्योद्धरणहेतुः,False,False
+ITA-3.8.25,aṅguṣṭhodaram,अङ्गुष्टोदरम्,True,True
+ITA-3.16.40,āṇi (marma),आणि (मर्म),False,False
+ITA-6.2.6.61,anāyuṣyam,अनायुष्यम्,True,True
+ITA-2.5.3,anilāyanam,अनिलायनम्,True,True
+ITA-9.6.27,āñchanakarma,आञ्छनकर्म,True,True
+ITA-3.2.4.38,anilāyanam,अनिलायनम्,True,True
+ITA-3.6.15,aṇḍaḥ,अण्डः,True,True
+ITA-5.66.46,animittajanya-dṛṣṭigatarogaḥ,अनिमित्तजन्य-दृष्टिगतरोगः,True,True
+ITA-1.9.3.7.13,aṇḍajaḥ,अण्डजः,True,True
+ITA-9.5.5,aninditaśalākā,अनिन्दितशलाका,True,True
+ITA-3.6.15,aṇḍakoṣaḥ,अण्डकोषः,True,True
+ITA-6.2.1.15,anirdeśyarasaḥ,अनिर्देश्यरसः,True,True
+ITA-5.71.13,andhapūtanāgrahaḥ,अन्धपूतनाग्रहः,True,True
+ITA-1.9.3.3.6,anityam,अनित्यम्,True,True
+ITA-1.6.7,anekāntaḥ,अनेकान्तः,True,True
+ITA-5.76.173,añjana-apacāraḥ,अञ्जन-अपचारः,True,True
+ITA-3.1.16,aṅga-pradeśaḥ,अङ्ग-प्रदेशः,True,False
+ITA-7.2.3.8,añjanam,अञ्जनम्,True,True
+ITA-3.1.6,aṅgaḥ,अङ्गः,True,True
+ITA-9.5.27,añjanam,अञ्जनम्,True,True
+ITA-3.10.1.10,aṅgajam,अङ्गजम्,True,True
+ITA-9.7.35,añjanam (viṣopakramaḥ),अञ्जनम् (विषोपक्रमः) अन्तःकोष्ठः,False,False
+ITA-5.76.174,añjanamithyāyogaḥ,अञ्जनमिथ्यायोगः,True,True
+ITA-3.5.2,antaḥkukṣiḥ,अन्तःकु क्षिः,True,True
+ITA-5.66.76,añjananāmikā,अञ्जननामिका,True,True
+ITA-2.3.3,antaḥpuṣpam,अन्तः पुष्पम्,True,True
+ITA-5.76.175,añjanātiyogaḥ,अञ्जनातियोगः,True,True
+ITA-6.2.7.12,antarabhaktam,अन्तरभक्तम्,True,True
+ITA-9.4.8,annādaḥ,अन्नादः,True,True
+ITA-3.3.5,antarādhiḥ,अन्तराधिः,True,True
+ITA-6.2.7.3,annādau,अन्नादौ,True,True
+ITA-2.6.34,Antarbahirvibhāgaḥ,अन्तर्बहिर्विभागः,True,True
+ITA-5.34.13,annadravaśūlaḥ,अन्नद्रवशूलः,True,True
+ITA-3.2.4.36,antargalaḥ,अन्तर्गलः,True,True
+ITA-5.19.2,annajāhikkā,अन्नजाहिक्का,True,True
+ITA-8.2.36,āntarikṣa-jalam,आन्तरिक्ष-जलम्,True,True
+ITA-9.2.35,annalepana,अन्नलेपन,True,True
+ITA-8.2.36,āntarikṣa-udakam,आन्तरिक्ष-उदकम्,True,True
+ITA-9.6.54,annamārgaḥ ITA.3.11.45 antarmukhaśastram,अन्तर्मुखशस्त्रम्,False,True
+ITA-9.4.33,annaprāśanasaṁskāraḥ,अन्नप्राशनसंस्कारः,True,True
+ITA-2.5.4,antarmukhasrotaḥ,अन्तर्मुखस्रोतः,True,True
+ITA-5.6.35,annasampuṭam ITA.3.11.22 antarvegajvaraḥ,अन्तर्वेगज्वरः,False,True
+ITA-1.9.3.2.24,annāśayaḥ ITA.3.11.22 antaścetana,अन्तश्चेतन,False,True
+ITA-9.4.8,annāśī,अन्नाशी,True,True
+ITA-1.9.3.7.3,antaścetanaḥ,अन्तश्चेतनः,True,True
+ITA-2.5.9,annavahasrotas,अन्नवहस्रोतः,False,True
+ITA-5.46.1,antra-vṛddhiḥ,अन्त्र-वृद्धिः,True,True
+ITA-5.5.4,annavahasrotoduṣṭiḥ,अन्नवहस्रोतोदुष्टिः,True,True
+ITA-5.13.5,antrādaḥ,अन्त्रादः,False,True
+ITA-5.73.25,annavahasrotoviddhaḥ,अन्नवहस्रोतोविद्धः,True,True
+ITA-5.62.4,āntrālajī,आन्त्रालजी,True,True
+ITA-5.76.155,anṛtau durdine nasya vyāpadaḥ,अनृतौ दुर्दिने नस्य व्यापदः अन्त्रम्,True,False
+ITA-3.2.1.6,antaḥ,अन्तः आन्त्रम्,True,False
+ITA-1.11.1,anubandha,अनुबन्ध,True,True
+ITA-5.76.117,anuvāsanātiyoga,अनुवासनातियोग,True,True
+ITA-1.2.1,anubandhaḥ,अनुबन्धः,False,False
+ITA-5.76.118,anuvāsanavastyayoga,अनुवासनवस्त्ययोग,True,True
+ITA-1.11.7,anubandhaḥ,अनुबन्धः,True,True
+ITA-5.76.152,anuvāsitasya nasya vyāpadaḥ,अनुवासितस्य नस्य व्यापदः,True,True
+ITA-4.4.17,anubandhaḥ,अनुबन्धः,True,True
+ITA-9.6.184,anuvellitabandhaḥ,अनुवेल्लितबन्धः,True,True
+ITA-4.4.16,anubandhyaḥ,अनुबन्ध्यः अनुयोगः,True,False
+ITA-1.7.5,anuyogaḥ,,True,False
+ITA-6.2.6.11,anulōmanam,अनुलोमनम्,True,True
+ITA-1.7.6,anuyojyam,अनुयोज्यम्,True,True
+ITA-1.8.2.1,anumānam,अनुमानम्,True,True
+ITA-2.2.12,aṇvasthi,अण्वस्थि,True,True
+ITA-1.6.6,anumataḥ,अनुमतः,True,True
+ITA-3.13.3,aṇvasthi,अण्वस्थि,True,True
+ITA-1.8.2.2,anumitiḥ,अनुमितिः,True,True
+ITA-9.9.10,anyadhātūpahitaśukradoṣaḥ,अन्यधातूपहितशुक्रदोषः,True,True
+ITA-4.8.28,anupakrama,अनुपक्रम,True,True
+ITA-5.66.17,anyatovātaḥ,अन्यतोवातः,True,True
+ITA-7.1.1.1,anupānam,अनुपानम्,True,True
+ITA-5.6.17,anyedyuṣkaviṣamajvaraḥ,अन्येद्युष्कविषमज्वरः,True,True
+ITA-4.5.15,anupaśayaḥ,अनुपशयः,True,True
+ITA-1.9.7.5,anyonyābhāvaḥ,अन्योन्याभावः,True,True
+ITA-6.2.1.14,anurasaḥ,अनुरसः,True,True
+ITA-5.48.2,apacī,अपची,True,True
+ITA-9.6.88,anuśastram,अनुशस्त्रम्,True,True
+ITA-1.6.8,apadeśaḥ,अपदेशः,True,True
+ITA-9.6.101,anuśastravisrāvaṇam,अनुशस्त्रविस्रावणम्,True,True
+ITA-8.2.35,āpaḥ,आपः,True,True
+ITA-5.62.19,anuśayī,अनुशयी,True,True
+ITA-9.1.54,apakarṣaṇam,अपकर्षणम्,True,True
+ITA-1.9.3.3.3,aṇutva,अणुत्व,True,True
+ITA-3.16.28,apalāpaḥ (marma),अपलापः (मर्म),False,False
+ITA-5.76.119,anuvāsana mityāyogaḥ,अनुवासनमिथ्यायोगः,False,False
+ITA-2.1.1.6,apānaḥ,अपानः,True,True
+ITA-5.76.116,anuvāsana/ sneha basti karma,अनुवासन/स्नेह बस्ति,False,False
+ITA-5.2.1.7,apānavātakopaḥ,,True,False
+ITA-3.2.1.8,apāṅgadeśaḥ,अपाङ्गदेशः,True,True
+ITA-9.2.72,anuvāsanabastiḥ,अनुवासनबस्तिः,True,True
+ITA-3.2.1.7,apāṅgaḥ,अपाङ्गः,True,True
+ITA-8.3.30,apūpaḥ,अपूपः,True,True
+ITA-3.2.1.7,apāṅgasandhiḥ,अपाङ्गसन्धिः,True,True
+ITA-9.6.58,ārāśastram,आराशस्त्रम्,True,True
+ITA-3.17.4,aparā,अपरा,True,True
+ITA-3.8.8,aratniḥ,अरत्निः,True,True
+ITA-1.9.4.4.3,aparatvam,अपरत्वम्,True,True
+ITA-7.1.4.26,aratniḥ,अरत्निः,True,True
+ITA-5.76.191,aparihārasevanam,अपरिहारसेवनम्,True,True
+ITA-5.50.1,arbudaḥ,अर्बुदः,True,True
+ITA-5.66.83,apariklinnavartma,अपरिक्लिन्नवर्त्म,True,True
+ITA-9.6.79,ardhacandramaṇḍalavat-,अर्धचन्द्रमण्डलवत्-छेदः,False,True
+ITA-5.29.1,apasmāraḥ,अपस्मारः,True,True
+ITA-9.6.49,ardhadhāraśastram,अर्धधारशस्त्रम्,True,True
+ITA-3.16.29,apastambhaḥ (marma),अपस्तम्भः (मर्म),False,False
+ITA-9.5.52,ardhakapāṭasandhika,अर्धकपाटसन्धिक:,True,True
+ITA-5.2.1.28,apatānakaḥ,अपतानकः,True,True
+ITA-5.67.9,ardhāvabhedakaḥ,अर्धावभेदकः,True,True
+ITA-5.2.1.27,apatantrakaḥ,अपतन्त्रकः,True,True
+ITA-5.2.1.33,arditaḥ,अर्दितः,True,True
+ITA-9.6.120,apatarpaṇakarma (vraṇacikitsā),अपतर्पणकर्म (व्रणचिकित्सा),False,False
+ITA-9.7.23,ariṣṭa-bandhanam,अरिष्ट-बन्धनम् (विषोपक्रमः),False,False
+ITA-9.1.41,apatarpaṇam,अपतर्पणम्,True,True
+ITA-4.5.29,ariṣṭalakṣaṇam,अरिष्टलक्षणम्,True,True
+ITA-8.1.4,apathyam,,True,False
+ITA-5.66.53,arjunaḥ,अर्जुनः,True,True
+ITA-3.6.1,apatyamārgaḥ,,True,False
+ITA-7.1.3.2,arkayantram,अर्क यन्त्रम्,True,True
+ITA-3.6.1,apatyapathaḥ,,True,False
+ITA-5.22.1,arocakaḥ,अरोचकः,True,True
+ITA-1.6.9,apavargaḥ,,True,False
+ITA-5.76.123,arocakārtasya anuvāsanasya,अरोचकार्तस्य अनुवासनस्य,False,False
+ITA-5.65.2,apīnasaḥ,,True,False
+ITA-9.9.11,apraharṣaṇam,अप्रहर्षणम्,True,True
+ITA-10.1.2,ārogyam,आरोग्यम्,True,True
+ITA-1.8.3.1,āptopadeśaḥ,आप्तोपदेशः,True,True
+ITA-5.10.1,arśaḥ,अर्शः,True,True
+ITA-7.2.1.8,apunarbhava,अपुनर्भव,True,True
+ITA-5.76.122,arśasasya anuvāsanasya,अर्शसस्य अनुवासनस्य व्यापदः,False,True
+ITA-5.59.2,aruṇakuṣṭhaḥ,अरुणकु ष्ठः,True,True
+ITA-5.73.18,asādhya-koṣṭhabhedaḥ,असाध्य-कोष्ठभेदः,True,True
+ITA-5.66.74,arśovartma,अर्शोवर्त्म,True,True
+ITA-5.66.22,asādhya-savraṇaśukraḥ,असाध्य-सव्रणशुक्रः,True,True
+ITA-9.1.37,ārtasyaroganut,आर्तस्यरोगनुत्,True,True
+ITA-4.2.41,asādhyarogaḥ,असाध्यरोगः,True,True
+ITA-6.2.6.25,ārtavajananam,आर्तवजननम्,True,True
+ITA-1.8.2.31,asamavāyi-kāraṇam,असमवायि-कारणम्,True,True
+ITA-5.3.28,ārtavakṣayaḥ,आर्तवक्षयः,True,True
+ITA-9.5.46,āsaṅgima,आसङ्गिम:,True,True
+ITA-2.3.3,ārtavam,आर्तवम्,True,True
+ITA-2.9.1.16,āsannaprasavaḥ,आसन्नप्रसवः,True,False
+ITA-2.3.3,ārtavaśoṇitam,आर्तवशोणितम्,True,True
+ITA-9.5.12,aśastrakṛt-rogaḥ,अशस्त्रकृ त्-रोगः,True,True
+ITA-2.5.18,ārtavavaha-srotas,आर्तववहस्रोतः,False,True
+ITA-4.4.10,asātmyendriyārthasamyogaḥ,असात्म्येन्द्रियार्थसंयोगः,True,True
+ITA-5.5.12,ārtavavahasrotoduṣṭiḥ,आर्तववहस्रोतोदुष्टिः,True,True
+ITA-5.73.33,ārtavavahasrotoviddhaḥ,आर्तववहस्रोतोविद्धः,True,False
+ITA-4.4.18,āśayāpakarṣaḥ,आशयापकर्षः,True,True
+ITA-5.3.27,ārtavavaiṣamyam,आर्तववैषम्यम्,True,True
+ITA-5.76.168,āścyotana-apacāraḥ,आश्च्योतन-अपचारः,True,True
+ITA-5.3.29,ārtavavṛddhiḥ,आर्तववृद्धिः,True,True
+ITA-5.76.169,āścyotana-ayogaḥ,आश्च्योतन-अयोगः,True,True
+ITA-1.9.4.1.1,arthaḥ,अर्थः,True,True
+ITA-9.5.23,āścyotanam,आश्च्योतनम्,True,True
+ITA-5.76.170,āścyotanātiyogaḥ,आश्च्योतनातियोगः,True,True
+ITA-1.7.9,arthāntaram,अर्थान्तरम्,True,True
+ITA-9.9.15,āsekyaḥ,आसेक्यः,True,True
+ITA-1.6.10,arthāpattiḥ,अर्थापत्तिः,True,True
+ITA-8.1.7,aśitam,अशितम्,True,True
+ITA-1.7.8,arthaprāptiḥ,अर्थप्राप्तिः,True,True
+ITA-9.2.46,aśmaghanasvedaḥ,अश्मघनस्वेदः,True,True
+ITA-1.6.37,arthāśrayaḥ,अर्थाश्रयः,True,True
+ITA-9.4.14,aśmanoḥsaṃghaṭṭanaṃ-,अश्मनोःसंघटट्नंकर्णयोर्मूले,False,True
+ITA-5.62.27,arūṃṣikā,अरूंशिका,True,True
+ITA-3.14.7,aruṇa-sirā,अरुणसिरा,True,True
+ITA-5.40.1,aśmarī,अश्मरी,True,True
+ITA-5.40.2,aśmarī-pūrvarūpam,अश्मरी-पूर्वरूपम्,True,True
+ITA-9.6.63,aṣṭavidhaśastrakarma,अष्टविधशस्त्रकर्म,True,True
+ITA-5.39.6,aśmarījamūtrakṛcchram,अश्मरीजमूत्रकृच्छ्रम्,True,True
+ITA-9.2.75,āsthāpanabastiḥ,आस्थापनबस्तिः,True,True
+ITA-5.66.13,aśophapākaḥ,अशोफपाकः,True,True
+ITA-5.76.98,āsthāpanāpacāraḥ,आस्थापनापचारः,True,True
+ITA-6.2.6.66,asraviśodhanaḥ,अस्रविशोधनः,True,True
+ITA-3.13.1,asthi,अस्थि,True,True
+ITA-9.6.97,asravisrutiḥ,अस्रविस्रुतिः,True,True
+ITA-2.2.10,asthi-dhātuḥ,अस्थिधातुः,True,True
+ITA-5.68.1,asṛgdaraḥ,असृग्दरः,True,True
+ITA-2.8.1.6,asthi-sāraḥ,अस्थिसारः,True,True
+ITA-3.10.1.3,asṛgdharā,असृग्धरा,True,True
+ITA-5.6.32,asthidhātugatajvaraḥ,अस्थिधातुगतज्वरः,True,True
+ITA-5.2.1.16,asṛggatavātaḥ,असृग्गतवातः,True,True
+ITA-2.6.16,asthidhātvagniḥ,अस्थिधात्वग्निः,True,True
+ITA-2.5.12,asṛgvahā,असृग्वहा,True,True
+ITA-5.73.8,asthigata-śalyaḥ,अस्थिगत-शल्यः,True,True
+ITA-5.27.5,asṛjapūrṇakoṣṭhadāhaḥ,असृजपूर्णकोष्ठदाहः,True,True
+ITA-5.61.19,asthigatamasūrikā,अस्थिगतमसूरिका,True,True
+ITA-3.2.1.17,aśruḥ,अश्रुः,False,True
+ITA-5.2.1.19,asthigatavātaḥ,अस्थिगतवातः,True,True
+ITA-3.2.1.18,aśrumārgaḥ,अश्रुमार्गः,True,True
+ITA-3.13.70,asthijālam,अस्थिजालम्,True,True
+ITA-5.35.9,aśrunigrahaja-udāvartaḥ,अश्रुनिग्रहज-उदावर्तः,True,True
+ITA-3.13.2,asthikhaṇḍaḥ,अस्थिखण्डः,True,True
+ITA-3.2.1.19,aśruvāhinī,अश्रुवाहिनी,True,True
+ITA-5.3.19,asthikṣayaḥ,अस्थिक्षयः,True,True
+ITA-5.75.10,aśruvegarodhaḥ,अश्रुवेगरोधः,True,True
+ITA-5.58.4,aṣṭhīlikā,अष्ठीलिका,True,True
+ITA-2.9.1.13,aṣṭamamāsa-garbha:,अष्टममासगर्भ:,True,True
+ITA-3.16.15,asthimarma,अस्थिमर्म,True,True
+ITA-1.10.1,Aṣṭāṅgahṛdaya,अष्टाङ्गहृदय,True,True
+ITA-2.2.14,asthipañjaraḥ,अस्थिपञ्जरः,True,True
+ITA-1.10.1,Aṣṭāṅgasamgraha,अष्टाङ्गसंग्रह,True,True
+ITA-2.2.13,asthiparva,अस्थिपर्व,True,True
+ITA-1.4.1,aṣṭāṅgāyurvedaḥ,अष्टाङ्गायुर्वेदः,True,True
+ITA-2.2.13,asthisandhayaḥ,अस्थिसन्धयः,True,True
+ITA-4.7.4,aṣṭasthānaparīkṣā,अष्टस्थानपरीक्षा,True,True
+ITA-3.13.64,asthisaṅghātaḥ,अस्थिसङ्घातः,True,True
+ITA-2.2.16,asthisāram,अस्थिसारम्,True,True
+ITA-5.76.228,atidagdha-gudaḥ,अतिदग्ध-गुदः,True,True
+ITA-2.5.15,asthivahasrotas,अस्थिवहस्रोतः,False,True
+ITA-1.6.2,atideśaḥ,अतिदेशः,True,True
+ITA-5.5.9,asthivahasrotoduṣṭiḥ,अस्थिवहस्रोतोदुष्टिः,True,True
+ITA-5.76.105,atidurbala; kṣutārta ttṝṣṇārta;,अतिदुर्बल; क्षुतार्त त्तॄष्णार्त;,False,False
+ITA-5.73.31,asthivahasrotoviddhaḥ,अस्थिवहस्रोतोविद्धः,True,True
+ITA-5.3.18,asthivaiṣamyam,अस्थिवैषम्यम्,True,True
+ITA-5.76.106,atikṝśasya āsthāpanasya,अतिकृ शस्य आस्थापनस्य,False,False
+ITA-2.2.15,asthivivaram,अस्थिविवरम्,True,True
+ITA-5.74.3,atimātrāhāraḥ,अतिमात्राहारः,True,True
+ITA-5.3.20,asthivṛddhiḥ,अस्थिवृद्धिः,True,True
+ITA-9.6.52,āṭīmukhaśastram,आटीमुखशस्त्रम्,True,True
+ITA-2.6.6,asthyagni,अस्थ्यग्नि,True,False
+ITA-9.9.9,atipicchilaśukradoṣaḥ,अतिपिच्छिलशुक्रदोषः,True,True
+ITA-3.2.1.38,asthyāśritaṃpaṭalam,अस्थ्याश्रितंपटलम्,True,True
+ITA-5.76.210,atipravṛttaraktaḥ,अतिप्रवृत्तरक्तः,True,True
+ITA-5.76.14,aśuddharaktastambhanam,अशुद्धरक्तस्तम्भनम्,True,True
+ITA-4.8.5,atipravṛttiḥ,अतिप्रवृत्तिः,True,True
+ITA-6.2.6.38,āśukārī,आशुकारी,True,True
+ITA-5.76.69,atirukṣa-virecanavyāpat,अतिरुक्ष-विरे चनव्यापत्,True,True
+ITA-9.1.53,āśukāricikitsā,आशुकारिचिकित्सा,True,True
+ITA-5.76.235,atirūkṣavraṇavarti-upayogaḥ,अतिरूक्षव्रणवर्ति-उपयोगः,True,True
+ITA-2.8.20,āsurakāyaḥ,आसुरकायः,True,True
+ITA-5.7.1,atisāra,अतिसार,True,True
+ITA-5.75.3,asvapnaḥ,अस्वप्नः,True,True
+ITA-5.7.2,atisārapūrvarūpam,अतिसारपूर्वरूपम्,True,True
+ITA-3.2.4.1,āsyam,आस्यम्,True,True
+ITA-5.76.171,atiśīta-aścyotanaḥ,अतिशीत-आश्च्योतनः,True,False
+ITA-2.4.10,āsyamalaḥ,,True,False
+ITA-4.2.1,ātaṅkaḥ,आतङ्क,False,False
+ITA-5.76.68,atisnigdha-virecanavyāpat,अतिस्निग्ध-विरे चनव्यापत्,True,True
+ITA-9.1.50,ātapaḥ,आतपः,True,True
+ITA-5.76.236,atisnigdhavraṇavarti-upayogaḥ,अतिस्निग्धव्रणवर्ति-उपयोगः,True,True
+ITA-9.2.67,ātapaḥ,आतपः,True,True
+ITA-1.6.3,atītāvekṣaṇam,अतीतावेक्षणम्,True,True
+ITA-5.76.229,atidagdha-arśaḥ,अतिदग्ध-अर्शः,True,True
+ITA-1.9.3.2.8,ativāhika-śarīram,अतिवाहिक-शरीरम्,True,True
+ITA-5.32.5,ativṛddha-āmavātaḥ,अतिवृद्ध-आमवातः,True,True
+ITA-9.1.7,auṣadham,औषधम्,True,True
+ITA-5.75.27,ativyāyāmaḥ,अतिव्यायामः,True,True
+ITA-9.7.39,auṣadham (viṣopakramaḥ),औषधम् (विषोपक्रमः),False,False
+ITA-5.76.87,atiyogabastivyāpat,अतियोगबस्तिव्यापत्,True,True
+ITA-9.6.200,avabaddhaśalyam,अवबद्धशल्यम्,True,True
+ITA-1.9.3.2.1,ātmā,आत्मा,True,True
+ITA-5.2.1.48,avabāhukaḥ,अवबाहुकः,True,True
+ITA-1.9.4.3.1,ātmaguṇaḥ,आत्मगुणः,True,True
+ITA-3.10.1.2,avabhāsinī,अवभासिनी,True,True
+ITA-4.5.26,āturanimittajaḥ,आतुरनिमित्तजः,True,True
+ITA-9.6.151,avacūrṇanam (vraṇacikitsā),अवचूर्णनम् (व्रणचिकित्सा),False,False
+ITA-1.9.7.4,atyantābhāvaḥ,अत्यन्ताभावः,True,True
+ITA-9.7.29,avagāhaḥ (viṣopakramaḥ),अवगाहः (विषोपक्रमः),False,False
+ITA-5.76.172,atyuṣṇatīkṣṇa-āścyotanaḥ,अत्युष्णतीक्ष्ण-आश्च्योतनः,True,True
+ITA-9.2.44,avagāhasvedaḥ,अवगाहस्वेदः,True,True
+ITA-8.2.39,audbhidajalam,औद्भिदजलम्,True,True
+ITA-5.55.6,avakṣipta-sandhimuktam,अवक्षिप्त-सन्धिमुक्तम्,True,True
+ITA-7.2.9.3,audbhidalavaṇam,औद्भिदलवणम्,True,True
+ITA-2.1.3.2,avalambaka-kaphaḥ,अवलम्बककफः,True,True
+ITA-6.1.10,audbhidam,औद्भिदम्,True,True
+ITA-5.58.2,avamanthaḥ,अवमन्थः,True,True
+ITA-5.13.7,audumbaraḥ,औदुम्बरः,True,True
+ITA-5.76.24,avamyānām vamana vyāpadaḥ,अवम्यानां वमन व्यापदः,True,False
+ITA-1.8.2.14,aupādhika,औपाधिक,True,True
+ITA-5.62.37,avapīḍakaḥ,अवपीडकः,True,True
+ITA-3.14.11,aupanāsikya-sirā,औपनासिक्यसिरा,True,True
+ITA-9.2.91,avapīḍanam,अवपीडनम्,True,True
+ITA-5.24.9,aupasargikatṛṣṇā,औपसर्गिकतृष्णा,True,True
+ITA-9.2.108,avara,अवर,True,True
+ITA-1.11.15,auṣadha,औषध,True,True
+ITA-3.16.52,āvartaḥ (marma),आवर्तः (मर्म),False,False
+ITA-9.1.29,auṣadhadravyayojanam,औषधद्रव्ययोजनम्,True,True
+ITA-9.6.154,avasādanam,अवसादनम्,True,True
+ITA-6.2.7.1,auṣadhakālaḥ,औषधकालः,True,True
+ITA-9.9.13,avasādīśukradoṣaḥ,अवसादीशुक्रदोषः,True,True
+ITA-7.1.1,auṣadhakalpanā,औषधकल्पना,True,True
+ITA-9.6.113,avasecanakarma,अवसेचनकर्म,True,True
+ITA-6.1.6,auṣadham,औषधम्,False,False
+ITA-2.6.4,avasthāpākaḥ,अवस्थापाकः,True,False
+ITA-2.6.32,avasthāpākaḥ,अवस्थापाकः,True,True
+ITA-5.76.113,baddhodara; chidrodara;,,False,False
+ITA-3.2.4.28,avaṭuḥ,अवटु ः आस्थापनस्यव्यापदः,True,False
+ITA-3.1.9,avayavaḥ,अवयवः,True,True
+ITA-9.1.31,bādhanam,बाधनम्,True,True
+ITA-5.64.4,bādhiryam,बाधिर्यम्,True,True
+ITA-1.8.2.9,avinābhāvasaṃbandhaḥ,,True,False
+ITA-9.6.60,baḍiśaśastram,बडिशशस्त्रम्,True,True
+ITA-5.66.23,avraṇaśukraḥ,अव्रणशुक्रः,True,True
+ITA-5.66.77,bahalavartma,बहलवर्त्म,True,True
+ITA-1.8.2.10,avyabhicāritva,अव्यभिचारित्व,True,True
+ITA-9.2.9,bahiḥparimārjanam,बहिःपरिमार्जनम्,True,True
+ITA-4.2.28,avyāpannartukṛtarogaḥ,अव्यापन्नर्तुकृतरोगः,True,True
+ITA-1.9.3.7.11,bahirantaścetanaḥ,बहिरन्तश्चेतनः,True,True
+ITA-1.9.3.2.21,avyayaḥ,अव्ययः,True,True
+ITA-5.2.1.30,bahirāyāmaḥ,बहिरायामः,True,True
+ITA-5.75.28,avyāyāmaḥ,अव्यायामः,True,True
+ITA-5.6.36,bahirvegajvaraḥ,बहिर्वेगज्वरः,True,True
+ITA-7.1.4.40,ayanam,अयनम्,True,True
+ITA-3.8.5,bāhu-piṇḍikā,बाहुपिण्डिका,True,True
+ITA-9.6.217,ayaskāntaḥ,अयस्कान्तः,True,True
+ITA-3.8.1,bāhuḥ,बाहुः,True,True
+ITA-4.4.1,āyatanam,आयतनम्,False,True
+ITA-3.8.4,bāhumadhyam,बाहुमध्यम्,True,True
+ITA-5.76.86,ayogabastivyāpat,अयोगबस्तिव्यापत्,True,True
+ITA-3.16.7,Bāhumarma,बाहुमर्म,True,True
+ITA-1.2.1,āyuḥ,आयुः,False,False
+ITA-3.8.6,bāhumūlam,बाहुमूलम्,True,True
+ITA-1.1.1,āyurvedaḥ,आयुर्वेदः,True,True
+ITA-3.13.32,Bāhunalakam,बाहुनलकम्,True,True
+ITA-6.2.6.60,āyuṣyam,आयुष्यम्,True,True
+ITA-9.2.62,bahupānam,बहुपानम्,True,True
+ITA-1.8.2.11,ayutasiddhatvam,अयुतसिद्धत्वम्,True,True
+ITA-3.8.3,bāhupṛṣṭham,बाहुपृष्ठम्,True,True
+ITA-7.2.8.6,badarāśmaḥ,बदराश्मः,True,True
+ITA-3.13.50,bāhusandhiḥ,बाहुसन्धिः,False,True
+ITA-5.43.7,baddhagudodaraḥ,बद्धगुदोदरः,True,True
+ITA-3.3.12,bāhuśiraḥ,बाहुशिरः,True,True
+ITA-3.13.49,bāhuśirasandhiḥ,बाहुशिरसन्धिः,True,True
+ITA-9.6.167,bandhanakarma (vraṇacikitsā),बन्धनकर्म (व्रणचिकित्सा),False,False
+ITA-3.3.12,bāhuśīrṣaḥ,बाहुशीर्षः,True,True
+ITA-5.75.10,bāṣpavegarodhaḥ,बाष्पवेगरोधः,True,True
+ITA-4.4.5,bāhyahetuḥ,बाह्यहेतुः,True,True
+ITA-5.73.39,basti-abhighātaḥ,बस्ति-अभिघातः,True,True
+ITA-5.13.1,bāhyajakṛmiḥ,बाह्यजकृ मिः बस्तिः,True,False
+ITA-9.2.11,bāhyasnehaḥ,बाह्यस्नेहः,True,True
+ITA-9.2.71,bastikarma,बस्तिकर्म,True,True
+ITA-5.2.1.30,bāhyāyāmaḥ,बाह्यायामः,True,True
+ITA-9.6.165,bastikarma (vraṇacikitsā),बस्तिकर्म (व्रणचिकित्सा),False,False
+ITA-9.4.43,bālabheṣajamātrā,बालभेषजमात्रा,True,True
+ITA-5.76.84,bastikarmacikitsāpacāraḥ,बस्तिकर्मचिकित्सापचारः,True,True
+ITA-1.4.4,bālacikitsā,बालचिकित्सा,True,True
+ITA-5.39.23,bastikuṇḍalaḥ,बस्तिकु ण्डलः,True,True
+ITA-9.4.1,bālacikitsā,बालचिकित्सा बस्तिशीर्शम्,True,False
+ITA-3.10.1.10,bālaḥ,बालः,True,True
+ITA-5.76.85,bastivyāpad,बस्तिव्यापद्,True,True
+ITA-9.4.4,bālaḥ,बालः,True,True
+ITA-3.7.15,bhagaḥ,भगः,True,True
+ITA-2.2.27,balam,बलम्,True,True
+ITA-5.56.1.1,bhagandaraḥ,भगन्दरः,True,True
+ITA-5.71.1,bālarogaḥ,बालरोगः,True,True
+ITA-5.56.1.2,bhagandarapūrvarūpam,भगन्दरपूर्वरूपम्,True,True
+ITA-5.63.60,balāsaḥ,बलासः,True,True
+ITA-3.13.25,bhagāsthi,भगास्थि,True,True
+ITA-5.66.57,balāsakaḥ,बलासकः,True,True
+ITA-5.55.1,bhagnaḥ,भग्नः,True,True
+ITA-4.5.22,balasamprāptiḥ,बलसम्प्राप्तिः,True,True
+ITA-6.2.6.79,bhagnasandhānakaraḥ,भग्नसन्धानकरः,True,True
+ITA-9.4.1,bālatantram,बालतन्त्रम्,True,True
+ITA-6.2.6.79,bhagnasandhānam,भग्नसन्धानम्,True,True
+ITA-9.1.18,baliḥ,बलिः,True,True
+ITA-6.2.7.1,bhaiṣajyakālaḥ,भैषज्यकालः,True,True
+ITA-9.6.17,bandhanakarma,बन्धनकर्म,True,True
+ITA-7.1.2,bhaiṣajyakalpanā,भैषज्यकल्पना,True,True
+ITA-9.6.180,bandhanakarma,बन्धनकर्म,True,True
+ITA-8.3.5,bhājanam,भाजनम्,True,True
+ITA-8.1.13,bhakṣyam,भक्ष्यम्,True,True
+ITA-6.1.5,bheṣajagṛham,भेषजगृहम्,True,True
+ITA-6.2.7.8,bhaktasaṃyuktam,भक्तसंयुक्तम्,True,True
+ITA-6.1.4,bheṣajam,भेषजम्,False,False
+ITA-1.9.3.3.26,bhaktiḥ,भक्तिः,True,True
+ITA-9.1.33,bheṣajam,भेषजम्,True,True
+ITA-9.6.30,bhañjanakarma,भञ्जनकर्म,True,True
+ITA-4.5.28,bheṣajanimittajaḥ,भेषजनिमित्तजः,True,True
+ITA-7.2.1.13,bhānupākaḥ,भानुपाकः,True,True
+ITA-5.73.13,bhinna-sadyovraṇaḥ,भिन्न-सद्योव्रणः,True,True
+ITA-7.1.4.2,bhāraḥ,भारः,True,True
+ITA-5.73.14,bhinnaḥ,भिन्नः,True,True
+ITA-7.1.4.20,bhāraḥ,भारः,True,True
+ITA-4.5.27,bhiṣaṅnimittajaḥ,भिषङ्निमित्तजः,True,True
+ITA-7.2.1.7,bhasma,भस्म,True,True
+ITA-6.2.7.5,bhojanottaram,भोजनोत्तरम्,True,True
+ITA-5.11.2,bhasmakaḥ,भस्मकः,True,True
+ITA-2.1.2.5,bhrājakapittam,भ्राजकपित्तम्,True,True
+ITA-7.2.1.8,bhasmaparīkṣā,भस्मपरीक्षा,True,True
+ITA-8.2.32,bhrāmaram,भ्रामरम्,True,True
+ITA-7.1.2.1,bhāvanā,भावना,True,True
+ITA-5.65.8,bhraṃśathuḥ,भ्रंशथुः,True,True
+ITA-1.10.2,bhāvaprakāśa,भावप्रकाश,True,True
+ITA-3.2.1.22,bhrūḥ,भ्रूः,True,True
+ITA-9.2.63,bhayaḥ,भयः,True,True
+ITA-3.8.1,bhujā,भुजा,True,True
+ITA-4.6.12,bhedaḥ,भेदः,True,True
+ITA-3.8.4,bhujamadhyam,भुजमध्यम्,True,True
+ITA-9.6.65,bhedanakarma,भेदनकर्म,True,True
+ITA-3.8.2,bhujaśikharam,भुजशिखरम्,True,True
+ITA-9.6.133,bhedanakarma,भेदनकर्म,True,True
+ITA-5.76.107,bhuktabhakta; pītodakasya,भुक्तभक्त; पीतोदकस्य,False,False
+ITA-9.6.206,bhedanakarma,भेदनकर्म,True,True
+ITA-6.2.7.3,bhuktādiḥ,भुक्तादिः,True,True
+ITA-6.2.6.13,bhedanam,भेदनम्,True,True
+ITA-9.2.49,bhūsvedaḥ,भूस्वेदः,True,True
+ITA-9.5.10,bhedyarogaḥ,भेद्यरोगः,True,True
+ITA-2.6.7,bhūtāgniḥ,भूताग्निः,True,True
+ITA-6.1.5,bheṣajāgāraḥ,भेषजागारः,True,True
+ITA-1.9.3.2.2,bhūtātmā,भूतात्मा,True,True
+ITA-1.4.5,bhūtavidyā,भूतविद्या,True,True
+ITA-9.5.72,bṛṃhaṇadhūmapānam,बृंहणधूमपानम्,True,True
+ITA-9.5.39,biḍālakaḥ,बिडालक:,False,True
+ITA-9.1.43,bṛṁhaṇam,बृंहणम्,True,True
+ITA-3.17.8,bīja,बीज:,True,True
+ITA-9.6.170,bṛmhaṇam (vraṇacikitsā),बृंहणम् (व्रणचिकित्सा),False,False
+ITA-3.17.9,bījabhāgaḥ,बीजभागः,True,True
+ITA-9.2.95,bṛmhaṇanasyam,बृंहणनस्यम्,True,True
+ITA-3.17.10,bījabhāgāvayavaḥ,बीजभागावयवः,True,True
+ITA-6.2.6.44,bṛṃhaṇīyaḥ,बृंहणीयः,True,True
+ITA-5.70.6,bījakaḥ,बीजकः,True,True
+ITA-3.17.3,budbudam,बुद्बुदम्,True,True
+ITA-2.2.20,bījam,बीजम्,True,True
+ITA-1.9.4.3.2,buddhiḥ,बुद्धिः,True,True
+ITA-9.9.35,bījopaghātajanya-klaibyam,बीजोपघातजन्य-क्लैब्यम्,True,True
+ITA-1.9.3.2.17,caitanyam,चैतन्यम्,True,True
+ITA-5.66.89,bisavartma,बिसवर्त्म,True,True
+ITA-3.2.1.1,cakṣuḥ,चक्षुः,True,True
+ITA-2.1.3.4,bodhaka-kaphaḥ,बोधककफः,True,True
+ITA-3.10.6,cakṣurindriyam,चक्षुरिन्द्रियम्,True,True
+ITA-7.2.12,bodhanam,बोधनम्,True,True
+ITA-6.2.6.29,cakṣuṣyam,चक्षुष्यम्,True,True
+ITA-5.46.1,bradhna,ब्रध्न,True,True
+ITA-5.73.22,calācala-sandhikṣataḥ,चलाचल-सन्धिक्षतः,True,True
+ITA-3.7.1,bradhnaḥ,ब्रध्नः,True,True
+ITA-9.6.20,cālanakarma,चालनकर्म,True,True
+ITA-10.2.12,brahmacaryam,ब्रह्मचर्यम्,False,False
+ITA-7.1.1.6,caṇakāmlaḥ,चणकाम्लः,True,True
+ITA-2.8.12,brahmakāyaḥ,ब्रह्मकायः,True,True
+ITA-7.2.7.3,candrakāntaḥ,चन्द्रकान्तः,True,True
+ITA-3.16.36,bṛhatī (marma),बृहती (मर्म),False,False
+ITA-9.6.80,candramaṇḍalavat-chedaḥ,चन्द्रमण्डलवत्-छेदः,True,True
+ITA-1.10.1,bṛhattrayī,बृहत्त्रयी,False,True
+ITA-7.2.2.8,capalaḥ,चपलः,True,True
+ITA-5.76.19,bṛṃhaṇa-apacāraḥ,बृंहण-अपचारः,True,True
+ITA-1.10.1,Carakasaṃhita,चरकसंहिता,False,True
+ITA-5.76.20,bṛṃhaṇa-atiyogaḥ,बृंहण-अतियोगः,True,True
+ITA-3.10.1.1,carma,चर्म,True,True
+ITA-9.1.43,bṛṁhaṇacikitsā,बृंहणचिकित्सा,True,True
+ITA-5.59.15,carmadala-kuṣṭhaḥ,चर्मदल-कु ष्ठः,True,True
+ITA-5.59.25,carmakīlaḥ,चर्मकीलः,True,True
+ITA-1.7.13,chalaḥ,छलः,True,True
+ITA-5.59.10,carmakuṣṭhaḥ,चर्मकु ष्ठः,True,True
+ITA-6.2.6.49,chardighnam,छर्दिघ्नम्,True,True
+ITA-8.1.12,carvyam,चर्व्यम्,True,True
+ITA-5.23.1,chardiḥ,छर्दिः,True,True
+ITA-5.26.5,caturtha-madaḥ,चतुर्थ-मदः,True,True
+ITA-5.35.6,chardinigrahaja-udāvartaḥ,छर्दिनिग्रहज-उदावर्तः,True,True
+ITA-5.6.26,caturthakaviparyayaviṣamaj-,चतुर्थकविपर्ययविषमज्वरः,False,True
+ITA-6.2.6.49,chardinigrahaṇam,छर्दिनिग्रहणम्,True,True
+ITA-5.75.11,chardivegarodhaḥ,छर्दिवेगरोधः,True,True
+ITA-5.6.22,caturthakaviṣamajvaraḥ,चतुर्थकविषमज्वरः,True,True
+ITA-9.6.77,chedanabhedaḥ,छेदनभेदः,True,True
+ITA-2.9.1.9,caturthamāsa-garbhaḥ,चतुर्थमासगर्भः,True,True
+ITA-9.6.64,chedanakarma,छेदनकर्म,True,True
+ITA-5.66.29,caturthapaṭalagata-doṣaḥ,चतुर्थपटलगत-दोषः,True,True
+ITA-9.6.132,chedanakarma,छेदनकर्म,True,True
+ITA-9.4.38,caturvidhadantajanma,चतुर्विधदन्तजन्म,True,True
+ITA-6.2.6.15,chedanam,छेदनम्,True,True
+ITA-4.4.22,caturvidhahetuḥ,चतुर्विधहेतुः,True,True
+ITA-9.5.8,chedyarogaḥ,छेद्यरोगः,True,True
+ITA-3.1.11,1.9.3.2.12 chidram,छिद्रम्,False,True
+ITA-9.6.14,caturviṃśatiyantrakarma,चतुर्विंशतियन्त्रकर्म छिद्रोदरः,True,False
+ITA-5.43.8,chidrodaraḥ,,True,False
+ITA-2.1.1.11,ceṣṭā,चेष्टा छिन्नश्वासः,True,False
+ITA-5.20.4,chinnaśvāsaḥ,,True,False
+ITA-3.13.38,ceṣṭāvantasandhiḥ,चेष्टावन्तसन्धिः चिबुकम्,True,False
+ITA-3.2.4.5,cibukam,,True,False
+ITA-1.9.3.3.1,cetaḥ,चेतः चिह्नम्,True,False
+ITA-4.5.5,cihnam,,True,False
+ITA-3.16.2,cetaḥsthānam,चेतःस्थानम् चिकित्सा,True,False
+ITA-1.4.2,cikitsā,,True,False
+ITA-9.1.3,cikitsā,,True,False
+ITA-5.76.1,cikitsāpacāraḥ,चिकित्सापचारः,True,True
+ITA-1.9.3.7.2,cetana-dravyam,चेतन-द्रव्यम्,True,True
+ITA-3.1.13,chadanam,छदनम्,True,True
+ITA-9.6.190,cīnabandhaḥ,चीनबन्धः,True,True
+ITA-9.6.110,dahanam,दहनम्,True,True
+ITA-1.9.3.3.8,cintanam,चिन्तनम्,True,True
+ITA-9.6.95,dahanopakaraṇam,दहनोपकरणम्,True,True
+ITA-5.62.17,cipyam,चिप्यम्,True,True
+ITA-7.1.4.21,dairghyam,दैर्घ्यम्,True,True
+ITA-8.1.10,coṣyam,चोष्यम्,True,True
+ITA-4.2.29,daivabalapravṛttarogaḥ,दैवबलप्रवृत्तरोगः,True,True
+ITA-3.4.6,cūcukam,चूचुकम्,True,True
+ITA-9.1.14,daivavyapāśrayacikitsā,दैवव्यपाश्रयचिकित्सा,True,True
+ITA-9.4.34,cūḍākaraṇasaṁskāraḥ,चूडाकरणसंस्कारः,True,True
+ITA-9.1.14,daivīcikitsā,दैवीचिकित्सा,True,True
+ITA-5.13.5,curavaḥ,चुरवः,False,True
+ITA-5.63.27,dālanaḥ,दालनः,True,True
+ITA-7.1.8,cūrṇadravaḥ,चूर्णद्रवः,True,True
+ITA-9.6.182,dāmabandhaḥ,दामबन्धः,True,True
+ITA-7.1.5,cūrṇam,चूर्णम्,True,True
+ITA-1.9.3.3.25,damaḥ,दमः,True,True
+ITA-9.5.33,cūrṇāñjanam,चूर्णाञ्जनम्,True,True
+ITA-7.1.3.4,ḍamaruyantram,डमरुयन्त्रम्,True,True
+ITA-7.1.1.7,cūrṇodakam,चूर्णोदकम्,True,True
+ITA-9.7.3,damṣṭrācikitsā,दंष्ट्राचिकित्सा,True,True
+ITA-9.7.26,cūṣaṇam (viṣopakramaḥ),चूषणम् (विषोपक्रमः),False,False
+ITA-5.2.1.26,daṇḍakaḥ,दण्डकः,True,True
+ITA-8.1.10,cūṣyam,चूष्यम्,True,True
+ITA-5.2.1.29,daṇḍāpatānakaḥ,दण्डापतानकः,True,True
+ITA-5.74.13,dadhi-mithyopayogaḥ,दधि-मिथ्योपयोगः,True,True
+ITA-3.2.4.13,danta-tvak,दन्तत्वक्,True,True
+ITA-8.2.24,dadhikūrcikā,दधिकू र्चिका,True,True
+ITA-3.2.4.14,dantabandhanam,दन्तबन्धनम्,True,True
+ITA-8.2.27,dadhimastu,दधिमस्तु,True,True
+ITA-3.2.4.14,dantādhāraḥ,दन्ताधारः,True,True
+ITA-8.2.16,dadhivargaḥ,दधिवर्गः,True,True
+ITA-3.2.4.15,dantāgram,दन्ताग्रम्,True,True
+ITA-5.59.14,dadru-kuṣṭhaḥ,दद्रु-कु ष्ठः,True,True
+ITA-3.2.4.11,dantaḥ,दन्तः,True,True
+ITA-5.27.1,dāhaḥ,दाहः,True,True
+ITA-5.63.29,dantaharṣaḥ,दन्तहर्षः,True,True
+ITA-9.6.94,dahanam,दहनम्,True,True
+ITA-9.4.37,dantajanma,दन्तजन्म,True,True
+ITA-3.2.4.14,dantamāṃsam,दन्तमांसम्,True,True
+ITA-4.7.2,darśana,दर्शन,False,False
+ITA-3.2.4.14,dantamūlam,दन्तमूलम्,True,True
+ITA-2.1.2.10,darśanam,दर्शनम्,True,True
+ITA-5.63.22,dantanāḍī,दन्तनाडी,True,True
+ITA-5.62.26,dāruṇakaḥ,दारुणकः,True,True
+ITA-3.2.4.14,dantapiṇḍikā,दन्तपिण्डिका,True,True
+ITA-9.6.156,dāruṇakarma,दारुणकर्म,True,True
+ITA-5.63.12,dantapuppuṭaḥ,दन्तपुप्पुटः,True,True
+ITA-5.76.70,dāruṇakoṣṭha-virecanavyāpat,दारुणकोष्ठ-विरे चनव्यापत्,True,True
+ITA-9.4.42,dantasampat,दन्तसम्पत्,True,True
+ITA-7.1.3.6,darvikayantram,दर्विकयन्त्रम्,True,True
+ITA-9.6.61,dantaśaṅkuśastram,दन्तशङ्कु शस्त्रम्,True,True
+ITA-3.2.4.6,daśanacchadau,दशनच्छदौ,True,True
+ITA-5.63.30,dantaśarkarā,दन्तशर्करा,True,True
+ITA-3.2.4.11,daśanaḥ,दशनः,True,True
+ITA-5.63.18,dantavaidarbhaḥ,दन्तवैदर्भः,True,True
+ITA-4.7.5,daśavidhaparīkṣā,दशविधपरीक्षा,True,True
+ITA-3.2.4.13,dantavalkam,दन्तवल्कम्,True,True
+ITA-1.11.1,daśavidhaparīkṣyabhāvaḥ,दशविधपरीक्ष्यभावः,False,False
+ITA-3.2.4.14,dantaveṣṭakaḥ,दन्तवेष्टकः,True,True
+ITA-4.2.17,dauhṛdāpacārakṛtarogaḥ,दौहृदापचारकृ तरोगः,True,True
+ITA-5.63.13,dantaveṣṭakaḥ,दन्तवेष्टकः,True,True
+ITA-3.1.2,dehaḥ,देहः,True,True
+ITA-5.63.33,dantavidradhiḥ,दन्तविद्रधिः,True,True
+ITA-1.11.1,deśaḥ,देशः,True,True
+ITA-3.2.4.12,dantolūkhalāni,दन्तोलूखलानि,True,True
+ITA-1.11.8,deśaḥ,देशः,True,True
+ITA-9.6.35,dāraṇakarma,दारणकर्म,True,True
+ITA-3.1.16,deśaḥ,देशः,True,True
+ITA-9.6.134,dāraṇakarma,दारणकर्म,True,True
+ITA-5.28.8,devaśatrujuṣṭonmādaḥ,देवशत्रुजुष्टोन्मादः,True,True
+ITA-9.6.207,dāraṇakarma,दारणकर्म,True,True
+ITA-5.28.8,devonmādaḥ,देवोन्मादः,True,True
+ITA-5.13.5,darbhapuṣpaḥ,दर्भपुष्पः,False,True
+ITA-7.2.1.10,ḍhālanam,ढालनम्,True,True
+ITA-2.1.3.9,dārḍhyam,दार्ढ्यम्,True,True
+ITA-3.15.1,Dhamanī,धमनी,True,True
+ITA-1.9.3.3.33,darpaḥ,दर्पः,True,True
+ITA-5.73.9,dhamanīgata-śalyaḥ,धमनीगत-शल्यः,True,True
+ITA-3.16.17,dhamanīmarma,धमनीमर्म,True,True
+ITA-1.9.3.3.15,dhṛtiḥ,धृतिः,True,True
+ITA-5.2.1.30,dhanuḥstambhaḥ,धनुःस्तम्भः,True,True
+ITA-5.66.40,dhūmadarśī,धूमदर्शी,True,True
+ITA-9.2.38,dhānyāmladhārā,धान्याम्लधारा,True,True
+ITA-9.6.175,dhūmaḥ,धूमः,True,True
+ITA-8.2.43,dhāram,धारम्,True,True
+ITA-9.7.37,dhūmam (viṣopakramaḥ),धूमम् (विषोपक्रमः),False,False
+ITA-2.2.3,dhāraṇam,धारणम्,True,True
+ITA-9.2.93,dhūmanasyam,धूमनस्यम्,True,True
+ITA-2.7.2,dhāraṇīya-vegaḥ,धारणीयवेगः,True,True
+ITA-5.76.160,dhūmapāna-apacāraḥ,धूमपान-अपचारः,True,True
+ITA-1.2.1,dhāri,धारि,False,False
+ITA-5.76.163,dhūmapāna-atiyogaḥ,धूमपान-अतियोगः,True,True
+ITA-9.4.3,dhātrī,धात्री,True,True
+ITA-5.76.162,dhūmapāna-ayogaḥ,धूमपान-अयोगः,True,True
+ITA-6.2.6.3,dhātu-pradūṣaṇam,धातु-प्रदूषणम्,True,True
+ITA-9.5.68,dhūmapānam,धूमपानम्,True,True
+ITA-5.72.12,dhātu-viṣaḥ,धातु-विषः,True,True
+ITA-9.6.175,dhūmapānam (vraṇacikitsā),धूमपानम् (व्रणचिकित्सा),False,False
+ITA-5.72.15,dhātugata-dūṣīviṣam,धातुगत-दूषीविषम्,True,True
+ITA-5.76.164,dhūmapānamithyāyogaḥ,धूमपानमिथ्यायोगः,True,True
+ITA-2.2.1,dhātuḥ,धातुः,True,True
+ITA-5.66.40,dhūmaraḥ,धूमरः,True,True
+ITA-7.2.5.1,dhātuḥ,धातुः,True,True
+ITA-7.2.1.11,dhūpanam,धूपनम्,True,True
+ITA-5.27.6,dhātukṣayajadāhaḥ,धातुक्षयजदाहः,True,True
+ITA-9.9.25,dhvajabhaṅgajanyaklaibyam,ध्वजभङ्गजन्यक्लैब्यम्,True,True
+ITA-2.4.6,dhātumalaḥ,धातुमलः,True,True
+ITA-3.6.8,dhvajaḥ,ध्वजः,True,True
+ITA-2.2.26,dhātusāmyam,धातुसाम्यम्,True,True
+ITA-1.9.3.3.11,dhyānam,ध्यानम्,True,True
+ITA-5.3.1,dhātuvaiṣamyam,धातुवैषम्यम्,True,True
+ITA-10.3.1,dinacaryā,दिनचर्या,True,True
+ITA-2.6.6,dhātvagniḥ,धात्वग्निः,True,False
+ITA-5.11.9,dinapāki-ajīrṇam,दिनपाकि-अजीर्णम्,True,True
+ITA-1.9.3.3.14,dhīḥ,धीः,True,True
+ITA-6.2.6.7,dīpanam,दीपनम्,True,True
+ITA-9.2.92,dhmāpanam,ध्मापनम्,True,True
+ITA-7.2.14,dīpanam,दीपनम्,True,True
+ITA-5.65.9,dīptaḥ,दीप्तः द्रवः,True,False
+ITA-9.8.14,dīrghamāyuḥ,दीर्घमायुः,True,True
+ITA-9.2.37,dravasvedaḥ,द्रवस्वेदः,True,True
+ITA-1.9.3.5.1,diśaḥ,दिशः,True,True
+ITA-1.11.15,dravya,द्रव्य,True,True
+ITA-5.66.38,divāndhyam,दिवान्ध्यम्,True,True
+ITA-1.9.1.2,dravya-sāmānyam,द्रव्य-सामान्यम्,True,True
+ITA-9.4.27,dolāśayanasaṁskāraḥ,दोलाशयनसंस्कारः,True,True
+ITA-1.9.2.2,dravya-viśeṣaḥ,द्रव्य-विशेषः,True,True
+ITA-7.1.3.7,dolāyantram,डोलायन्त्रम्,True,False
+ITA-9.1.60,dravyabhūtacikitsā,द्रव्यभूतचिकित्सा,True,True
+ITA-6.2.6.2,doṣa-praśamanam,दोष-प्रशमनम्,True,True
+ITA-6.1.1,dravyaguṇavignanam,द्रव्यगुणविज्ञानम्,True,True
+ITA-4.2.18,doṣabalapravṛttarogaḥ,दोषबलप्रवृत्तरोगः,True,True
+ITA-1.9.3.1,dravyam,द्रव्यम्,True,True
+ITA-4.8.19,doṣagatiḥ,दोषगतिः,True,True
+ITA-6.1.2,dravyam,द्रव्यम्,True,True
+ITA-9.6.223,doṣaghnalepaḥ,दोषघ्नलेपः,True,True
+ITA-6.2.6.30,dṛkprasādanam,दृक्प्रसादनम्,True,True
+ITA-2.1.1,doṣaḥ,दोषः,True,True
+ITA-7.1.4.15,droṇaḥ,द्रोणः,True,True
+ITA-4.4.13,doṣahetuḥ,दोषहेतुः,True,True
+ITA-7.1.4.17,droṇī,द्रोणी,True,True
+ITA-4.4.19,doṣahetuḥ,दोषहेतुः,True,True
+ITA-3.2.1.2,dṛṣṭi-golakaḥ,दृष्टिगोलकः,True,True
+ITA-5.66.38,doṣāndhyam,दोषान्ध्यम्,True,True
+ITA-3.2.1.31,dṛṣṭi-maṇḍalam,दृष्टिमण्डलम्,True,True
+ITA-2.8.2,doṣaprakṛti,दोषप्रकृ ति,True,True
+ITA-3.2.1.31,dṛṣṭiḥ,दृष्टिः,True,True
+ITA-5.2.1,doṣavaiṣamyam,दोषवैषम्यम्,True,True
+ITA-8.2.13,dugdham,दुग्धम्,True,True
+ITA-9.1.52,doṣāvasecanam,दोषावसेचनम्,True,True
+ITA-9.4.7,dugdhānnāśī,दुग्धान्नाशी,True,True
+ITA-5.2.2,doṣāvasthā,दोषावस्था,True,True
+ITA-7.2.7.9,dugdhapāṣāṇam,दुग्धपाषाणम्,True,True
+ITA-9.1.62,doṣopakramaḥ,दोषोपक्रमः,True,True
+ITA-9.4.6,dugdhāśī,दुग्धाशी,True,True
+ITA-1.9.4.3.4,1.9.3.2.22 duḥkham,दुःखम्,False,True
+ITA-5.64.25,duḥkhavardhanaḥ,दुःखवर्धनः,True,True
+ITA-9.9.24,dviretā,द्विरे ता,True,True
+ITA-1.2.5,duḥkhāyuḥ,दुःखायुः,True,True
+ITA-5.66.27,dvitīya-paṭalagatadoṣaḥ,द्वितीय-पटलगतदोषः,True,True
+ITA-5.76.223,durdagdhaḥ,दुर्दग्धः,True,True
+ITA-2.9.1.7,dvitīyamāsa-garbhaḥ,द्वितीयमासगर्भः,True,True
+ITA-5.76.230,durdagdham,दुर्दग्धम्,True,True
+ITA-4.2.4,dvividha-mānasika-rogaḥ,द्विविध-मानसिक-रोगः,True,True
+ITA-5.72.18,dūṣīviṣa-lūtādaṣṭaḥ,दूषीविष-लूतादष्टः,True,True
+ITA-4.4.2,dvividhahetuḥ,द्विविधहेतुः,True,True
+ITA-5.72.13,dūṣīviṣaḥ,दूषीविषः,True,True
+ITA-9.1.39,dvividhopakramaḥ,द्विविधोपक्रमः,True,True
+ITA-5.65.18,duṣṭapratiśyāyaḥ,दुष्टप्रतिश्यायः,True,True
+ITA-5.59.9,ekakuṣṭhaḥ,एककु ष्ठः,True,True
+ITA-5.76.137,duṣṭaraktastaṃbhanam,दुष्टरक्तस्तंभनम्,True,True
+ITA-1.6.15,ekāntaḥ,एकान्तः,True,True
+ITA-9.9.23,duṣṭaśukram,दुष्टशुक्रम्,True,True
+ITA-5.74.7,ekaśephakṣīrapānam,एकशेफक्षीरपानम्,True,True
+ITA-5.54.7,duṣṭavraṇaḥ,दुष्टव्रणः,True,True
+ITA-1.9.3.3.4,ekatva,एकत्व,True,True
+ITA-2.2.2,dūṣyam,दूष्यम्,True,True
+ITA-5.63.61,ekavṛndaḥ,एकवृन्दः,True,True
+ITA-5.10.8,dvandvaja-arśaḥ,द्वन्द्वज-अर्शः,True,True
+ITA-9.6.33,eṣaṇakarma,एषणकर्म,True,True
+ITA-5.44.5,dvandvaja-śophaḥ,द्वन्द्वज-शोफः,True,True
+ITA-9.6.70,eṣaṇakarma,एषणकर्म,True,True
+ITA-5.37.7,dvandvajagulmaḥ,द्वन्द्वजगुल्मः,True,True
+ITA-9.6.136,eṣaṇakarma,एषणकर्म,True,True
+ITA-5.34.7,dvandvajaśūlaḥ,द्वन्द्वजशूलः,True,True
+ITA-9.6.62,eṣaṇīśastram,एषणीशस्त्रम्,True,True
+ITA-5.61.5,dvandvajavisphoṭakaḥ,द्वन्द्वजविस्फोटकः,True,True
+ITA-4.2.1,gadaḥ,गदः,False,False
+ITA-3.1.11,dvāram,द्वारम्,True,True
+ITA-5.76.237,gāḍhabandhana-vraṇaḥ,गाढबन्धन-व्रणः,True,True
+ITA-1.9.4.3.6,dveṣaḥ,द्वेषः,True,True
+ITA-7.2.3.3,gairikam,गैरिकम्,True,True
+ITA-3.2.4.14,dvijabandhanam,द्विजबन्धनम्,True,True
+ITA-7.2.1.18,gajapuṭaḥ,गजपुटः,True,True
+ITA-5.50.5,dvirarbudaḥ,द्विरर्बुदः,True,True
+ITA-3.2.4.35,galabāhyam,गलबाह्यम्,True,True
+ITA-5.47.1,galagaṇḍaḥ,गलगण्डः,True,True
+ITA-7.2.3.2,gandhakaḥ,गन्धकः,True,True
+ITA-5.63.39,galagrahaḥ,गलग्रहः,True,True
+ITA-5.62.15,gandhamālā,गन्धमाला,True,True
+ITA-3.2.4.34,galaḥ,गलः,True,True
+ITA-5.62.15,gandhanāmā,गन्धनामा,True,True
+ITA-3.2.4.31,galamaṇiḥ,गलमणिः,True,True
+ITA-2.8.16,gandharvakāyaḥ,गन्धर्वकायः,True,True
+ITA-3.2.4.32,galamārgaḥ,गलमार्गः,True,True
+ITA-5.28.9,gandharvonmādaḥ,गन्धर्वोन्मादः,True,True
+ITA-3.2.4.37,galanalakam,गलनलकम्,True,True
+ITA-3.15.6,gandhavahādhamanī,गन्धवहाधमनी,True,True
+ITA-3.2.4.33,galasandhiḥ,गलसन्धिः,True,True
+ITA-9.5.81,gaṇḍūṣaḥ,गण्डू षः,True,True
+ITA-3.2.4.31,galaśuṇḍikā,गलशुण्डिका,True,True
+ITA-8.2.42,gāṅgajalam,गाङ्गजलम्,True,True
+ITA-5.63.38,galaśuṇḍikā,गलशुण्डिका,False,False
+ITA-8.2.36,gaṅgāmbu,गङ्गाम्बु,True,True
+ITA-5.63.66,galaughaḥ,गलौघः,True,True
+ITA-1.4.8,garacikitsā,गरचिकित्सा,True,True
+ITA-5.63.65,galavidradhiḥ,गलविद्रधिः,True,True
+ITA-5.72.20,garaviṣaḥ,गरविषः,True,True
+ITA-3.2.4.4,gallaḥ,गल्लः,True,True
+ITA-9.7.14,garaviṣam,गरविषम्,True,True
+ITA-5.66.43,gambhīrā-dṛṣṭiḥ,गम्भीरा-दृष्टिः गर्भच्छिद्रम्,True,False
+ITA-5.30.3,gambhīra-vātaraktam,गम्भीर-वातरक्तम्,True,True
+ITA-3.17.1,garbhaḥ,गर्भः,True,True
+ITA-5.19.5,gambhīrāhikkā,गम्भीराहिक्का गर्भकोषः,True,False
+ITA-3.2.4.4,gaṇḍaḥ,गण्डः गर्भकोष्ठः,True,False
+ITA-3.6.5,gaṇḍakaḥ,गण्डकः,True,True
+ITA-3.17.5,garbhanābhināḍī,गर्भनाभिनाडी,True,True
+ITA-9.5.47,gaṇḍakarṇaḥ,गण्डकर्णः,True,True
+ITA-5.70.1,garbhapātaḥ,गर्भपातः,True,True
+ITA-5.48.1,gaṇḍamālā,गण्डमाला गर्भाशयद्वारम्,True,False
+ITA-1.9.4.1.2,gandhaḥ,गन्धः गर्भाशयः,True,False
+ITA-3.2.4.31,garbhaśayyā ITA.3.11.46 ghaṇṭikā,घण्टिका,False,True
+ITA-5.70.2,garbhasrāvaḥ,गर्भस्रावः,True,True
+ITA-3.2.4.28,ghāṭā,घाता,True,True
+ITA-6.2.6.26,garbhasthāpanam,गर्भस्थापनम्,True,True
+ITA-7.1.4.33,ghaṭī,घटी,True,True
+ITA-2.9.1.2,garbhavastha,गर्भावस्था,True,True
+ITA-9.6.105,ghaṭiyantrāvacaraṇam,घटियन्त्रावचरणम्,True,True
+ITA-2.9.1.5,garbhavṛddhiḥ,गर्भवृद्धिः,True,True
+ITA-8.2.28,gholaḥ,घोलः,True,True
+ITA-5.76.153,garbhiṇyā nasya vyāpadaḥ,गर्भिण्या नस्य व्यापदः,True,True
+ITA-3.2.2.1,ghrāṇaḥ,घ्राणः,True,True
+ITA-5.76.29,gārbhiṇyām vamanasya,गार्भिण्याम वमनस्य व्यपदः,False,True
+ITA-3.2.2.7,ghrāṇamārgaḥ,घ्राणमार्गः,True,True
+ITA-3.2.2.5,ghrāṇamūlam,घ्राणमूलम्,True,True
+ITA-9.4.16,garbhodakavamana,गर्भोदकवमन,True,True
+ITA-5.65.4,ghrāṇapākaḥ,घ्राणपाकः,True,True
+ITA-5.62.9,gardabhikā,गर्दभिका,True,True
+ITA-5.65.11,ghrāṇasrāvaḥ,घ्राणस्रावः,True,True
+ITA-2.1.1.12,gatiḥ,गतिः,True,True
+ITA-3.10.8,ghrāṇendriyam,घ्राणेन्द्रियम्,True,True
+ITA-5.76.45,gātragrahaḥ-vamanavyāpat,गात्रग्रहः-वमनव्यापत्,True,True
+ITA-7.1.2.4,ghṛtamūrcchanam,घृतमूर्छनम्,True,True
+ITA-5.76.76,gātragrahavirecanavyāpat,गात्रग्रहविरे चनव्यापत्,True,True
+ITA-3.1.2,gātram,गात्रम्,True,True
+ITA-3.9.9,ghuṇṭikā,घुण्टिका,True,True
+ITA-3.1.17,gātrapañcakam,गात्रपञ्चकम्,True,True
+ITA-3.9.9,ghuṭikā,घुटिका,True,True
+ITA-7.2.4.3,gaurīpāṣāṇam,गौरीपाषाणम्,True,True
+ITA-5.63.64,gilāyuḥ,गिलायुः,True,True
+ITA-3.14.6,gauryaḥsirāḥ,गौर्यः सिराः,True,True
+ITA-7.2.4.7,girisindūraḥ,गिरिसिन्दूरः,True,True
+ITA-7.2.8.5,godantī,गोदन्ती,False,True
+ITA-7.1.11,ghanaḥ,घनः,True,True
+ITA-3.2.4.18,gojihvā,गोजिह्वा,True,True
+ITA-7.1.12,ghanasattvam,घनसत्त्वम्,True,True
+ITA-3.2.4.18,gojihvikā,गोजिह्विका,True,True
+ITA-7.1.13,ghanavaṭī,घनवटी,True,True
+ITA-7.2.6.9,gomedakam,गोमेदकम्,True,True
+ITA-3.7.1,gudam,गुदम्,True,True
+ITA-9.6.193,gophaṇābandhaḥ,गोफणाबन्धः,True,True
+ITA-3.7.2,gudamaṇḍalam,गुदमण्डलम्,True,True
+ITA-9.6.74,gophaṇikā,गोफणिका,True,True
+ITA-3.7.3,gudamukham,गुदमुखम्,True,True
+ITA-8.2.10,gorasavargaḥ,गोरसवर्गः,True,True
+ITA-3.7.11,gudāntram,गुदान्त्रम्,True,True
+ITA-1.4.5,grahacikitsā,ग्रहचिकित्सा,True,True
+ITA-3.7.9,gudapārśvakṣetram,गुदपार्श्वक्षेत्रम्,True,True
+ITA-3.13.26,grahaṇī ITA.3.11.34 gudāsthi,गुदास्थि,False,True
+ITA-5.9.1,grahaṇīroga,ग्रहणीरोग,True,True
+ITA-5.2.1.11,gudasthitavātaḥ,गुदस्थितवातः,True,True
+ITA-6.2.6.18,grāhī,ग्राही,True,True
+ITA-3.7.10,gudāsthivivaram,गुदास्थिविवरम्,True,True
+ITA-5.49.1,granthiḥ,ग्रन्थिः,True,True
+ITA-3.7.12,gudauṣṭham,गुदौष्ठम्,True,True
+ITA-5.60.7,granthivisarpaḥ,ग्रन्थिविसर्पः,True,True
+ITA-3.7.4,gudavaliḥ,गुदवलिः,True,True
+ITA-6.2.7.9,grāsam,ग्रासम्,True,True
+ITA-3.7.13,gudopasthadeśaḥ,गुदोपस्थदेशः,True,True
+ITA-6.2.7.10,grāsāntaram,ग्रासान्तरम्,True,True
+ITA-3.6.9,guhyam,गुह्यम्,True,True
+ITA-5.58.7,grathitaḥ,ग्रथितः,True,True
+ITA-3.7.14,guhyapradeśaḥ,गुह्यप्रदेशः,True,True
+ITA-5.2.1.38,gṛdhrasī,गृध्रसी,True,True
+ITA-1.9.3.7.9,gulma,गुल्म,True,True
+ITA-5.72.28,gṛhagodhikādaṣṭaḥ,गृहगोधिकादष्टः,True,True
+ITA-5.37.1,gulmaḥ,गुल्मः,True,True
+ITA-3.3.1,grīvā,ग्रीवा,True,True
+ITA-3.9.9,gulphaḥ,गुल्फः,True,True
+ITA-3.13.48,grīvā-adhaḥsandhiḥ,ग्रीवा-अधःसन्धिः,True,True
+ITA-3.9.11,gulphakarṇaḥ,गुल्फकर्णः,True,True
+ITA-3.3.2,grīvāmūlam,ग्रीवामूलम्,True,True
+ITA-3.13.54,gulphasandhiḥ,गुल्फसन्धिः,True,True
+ITA-3.7.18,grīvāvaṃśaḥ,ग्रीवावंशः,True,True
+ITA-1.9.1.3,guṇa-sāmānyam,गुण-सामान्यम्,True,True
+ITA-5.62.41,gudabhraṃśaḥ,गुदभ्रंशः,True,True
+ITA-1.9.2.3,guṇa-viśeṣaḥ,गुण-विशेषः,True,True
+ITA-1.9.4.1,guṇaḥ,गुणः,True,True
+ITA-3.8.11,hastāgram,हस्ताग्रम्,True,True
+ITA-6.2.2.1,guṇaḥ,गुणः,,
+ITA-3.8.10,hastaḥ,हस्तः,True,True
+ITA-7.1.4.3,guñjā,गुञ्जा,True,True
+ITA-7.1.4.27,hastaḥ,हस्तः,True,True
+ITA-7.1.4.4,Guñjā (bīja),गुञ्जा (बीज),False,False
+ITA-3.8.12,hastatalam,हस्ततलम्,True,True
+ITA-1.9.4.2.2,guruḥ,गुरुः,True,True
+ITA-5.41.28,hastimehaḥ,हस्तिमेहः,True,True
+ITA-9.2.60,guruprāvaraṇam,गुरुप्रावरणम्,True,True
+ITA-5.66.14,hatādhimanthaḥ,हताधिमन्थः,True,True
+ITA-1.9.4.2.1,gurvādi-guṇāḥ,गुर्वादि-गुणाः,True,True
+ITA-1.8.2.4,hetu,हेतु,True,True
+ITA-9.5.31,guṭikāñjanam,गुटिकाञ्जनम्,True,True
+ITA-4.4.1,hetuḥ,हेतुः,True,True
+ITA-8.2.49,haimam,हैमम्,True,True
+ITA-9.1.57,hetuviparītacikitsā,हेतुविपरीतचिकित्सा,True,True
+ITA-5.15.5,halīmakaḥ,हलीमकः,False,False
+ITA-4.5.8,hetuviparītaḥ,हेतुविपरीतः,True,True
+ITA-8.2.48,haṃsodakam,हंसोदकम्,True,True
+ITA-4.5.12,hetuviparītārthakārī,हेतुविपरीतार्थकारी,True,True
+ITA-5.2.1.34,hanugrahaḥ,हनुग्रहः,True,True
+ITA-4.5.10,hetuvyādhiviparītaḥ,हेतुव्याधिविपरीतः,True,True
+ITA-3.2.4.10,hanuḥ,हनुः,True,True
+ITA-4.5.14,hetuvyādhiviparītārthakārī,हेतुव्याधिविपरीतार्थकारी,True,True
+ITA-3.13.13,hanukāsthi,हनुकास्थि,True,True
+ITA-4.8.30,hetuvyādhiviparītārthakārī,हेतुव्याधिविपरीतार्थकारी,True,True
+ITA-3.13.47,hanusandhiḥ,हनुसन्धिः,True,True
+ITA-1.8.2.8,hetvābhāsaḥ,हेत्वाभासः,True,True
+ITA-3.13.13,Hanvasthi,हन्वस्थि,True,True
+ITA-1.7.29,hetvantaram,हेत्वन्तरम्,True,True
+ITA-5.41.23,haridramehaḥ,हरिद्रमेहः,True,True
+ITA-1.6.36,hetvarthaḥ,हेत्वर्थः,True,True
+ITA-7.2.3.6,haritālam,हरितालम्,True,True
+ITA-5.19.1,hidhmā,हिध्मा,False,False
+ITA-8.2.7,haritavargaḥ,हरितवर्गः,True,True
+ITA-5.19.1,hikkā,हिक्का,False,False
+ITA-9.6.218,harṣaḥ,हर्षः,True,True
+ITA-5.76.90,hikkābastivyāpat,हिक्काबस्तिव्यापत्,True,True
+ITA-6.2.6.78,hikkānigrahaṇaḥ,हिक्कानिग्रहणः,True,True
+ITA-9.7.34,hṛdayāvaraṇam (viṣopakramaḥ),हृदयावरणम् (विषोपक्रमः),False,False
+ITA-5.75.12,hikkāvegarodhaḥ,हिक्कावेगरोधः,True,True
+ITA-5.76.44,hṝdayopasaraṇam,हृदयोपसरणम्,True,False
+ITA-7.1.9,himaḥ,हिमः,True,True
+ITA-5.76.75,hṝdayopasaraṇam,हृदयोपसरणम्,True,False
+ITA-7.1.9,himakaṣāyaḥ,हिमकषायः,True,True
+ITA-9.2.23,hṛdbastiḥ,हृद्बस्तिः,True,True
+ITA-5.76.231,hīnadagdha-arśaḥ,हीनदग्ध-अर्शः,True,True
+ITA-5.76.44,hṝdgrahaḥ-vamanavyāpat,हृद्ग्रहः-वमनव्यापत्,False,False
+ITA-9.5.54,hīnakarṇaḥ,हीनकर्णः,True,True
+ITA-5.38.1,hṛdrogaḥ,हृद्रोगः,True,True
+ITA-5.74.2,hīnamātrāhāraḥ,हीनमात्राहारः,True,True
+ITA-5.76.35,hṝdrogi vamanasya vyāpadaḥ,हृद्रोगि वमनस्य व्यापदः,False,False
+ITA-9.2.108,hīnaśuddhiḥ,हीनशुद्धिः,True,True
+ITA-6.2.6.34,hṛdyam,हृद्यम्,True,True
+ITA-7.2.4.8,hiṅgulam,हिङ्गुलम्,True,True
+ITA-5.76.91,hṛtprāptibastivyāpat,हृत्प्राप्तिबस्तिव्यापत्,True,True
+ITA-7.2.6.7,hīrakam,हीरकम्,True,True
+ITA-1.9.4.3.5,icchā,इच्छा,True,True
+ITA-9.1.12,hitam,हितम्,True,True
+ITA-5.41.4,ikṣuvālikāmehaḥ,इक्षुवालिकामेहः,True,True
+ITA-1.2.2,hitāyuḥ,हितायुः,True,True
+ITA-8.2.11,ikṣuvargaḥ,इक्षुवर्गः,True,True
+ITA-9.2.52,holākasvedaḥ,होलाकस्वेदः,True,True
+ITA-3.16.33,indrabastiḥ (marma),इन्द्रबस्तिः (मर्म),False,False
+ITA-9.1.20,homam,होमम्,True,True
+ITA-5.62.25,indraluptaḥ,इन्द्रलुप्तः,True,True
+ITA-5.66.41,hrasvajāḍyam,ह्रस्वजाड्यम्,True,True
+ITA-5.62.8,indraviddhā,इन्द्रविद्धा,True,True
+ITA-5.76.75,hṝdagrahavirecanavyāpat,हृदग्रहविरे चनव्यापत्,True,False
+ITA-3.10.1,indriyam,इन्द्रियम्,True,True
+ITA-5.13.5,hṛdayacaraḥ,हृदयचरः,False,True
+ITA-1.9.3.3.5,indriyāntara-sañcāraḥ,इन्द्रियान्तर-सञ्चारः,True,True
+ITA-5.62.13,hṛdayam ITA.3.11.4 irivellikā,इरिवेल्लिका,False,True
+ITA-3.2.4.37,hṛdayanāḍikā,हृदयनाडिका,True,True
+ITA-9.9.16,īrṣyābhirati,ईर्ष्याभिरति,True,True
+ITA-9.9.16,hṛdayasthānam ITA.3.11.5 īrṣyakaḥ,ईर्ष्यकः,False,True
+ITA-3.13.22,jaghanakapālaḥ,जघनकपालः,True,True
+ITA-3.9.8,jaṅghā-piṇḍikā,जङ्घापिण्डिका,True,True
+ITA-3.7.20,jaghanam,जघनम्,True,True
+ITA-3.13.29,jaṅghāsthinī,जङ्घास्थि,True,True
+ITA-5.66.65,jala-srāvaḥ,जल-स्रावः,True,True
+ITA-4.2.15,janmabalapravṛttarogaḥ,जन्मबलप्रवृत्तरोगः,True,True
+ITA-3.14.15,jāladharā-sirā,जालधरासिरा,True,True
+ITA-3.9.6,jānu,जानु,True,True
+ITA-5.62.12,jālagardabhaḥ,जालगर्दभः,True,True
+ITA-9.2.26,jānubastiḥ,जानुबस्तिः,True,True
+ITA-1.9.3.1.6,jalam,जलम्,False,False
+ITA-3.13.27,jānukapālikā,जानुकपालिका,True,True
+ITA-3.13.66,jālam,जालम्,True,True
+ITA-3.13.52,jānusandhiḥ,जानुसन्धिः,True,True
+ITA-3.14.15,jālandharā,जालन्धरा,True,True
+ITA-3.13.53,jānvadhaḥsandhiḥ,जान्वधःसन्धिः,True,True
+ITA-9.6.103,jalaukāvacaraṇam,जलौकावचरणम्,True,True
+ITA-1.4.9,jarācikitsā,जराचिकित्सा,True,True
+ITA-3.2.1.20,Jalavāhinīsirā,जलवाहिनीसिरा,True,True
+ITA-9.9.21,jarājanyaklaibyam,जराजन्यक्लैब्यम्,True,True
+ITA-8.2.34,jalavargaḥ,जलवर्गः,True,True
+ITA-2.6.27,jaraṇaśaktiḥ,जरणशक्तिः,True,True
+ITA-5.41.1.4,jālinī-pramehapiḍakā,जालिनी-प्रमेहपिडका,True,True
+ITA-5.17.7,jarāśoṣaḥ,जराशोषः,True,True
+ITA-1.7.14,jalpaḥ,जल्पः,True,True
+ITA-3.17.6,jarāyuḥ,जरायुः,True,True
+ITA-5.74.6,jāṅgalamāṃsātyupayogaḥ,जाङ्गलमांसात्युपयोगः,True,True
+ITA-1.9.3.7.12,jarāyujaḥ,जरायुजः,True,True
+ITA-1.9.3.7.11,jaṅgamaḥ,जङ्गमः,True,True
+ITA-9.4.20,jātakarma,जातकर्म,True,True
+ITA-6.1.9,jāṅgamaḥ,जाङ्गमः,True,True
+ITA-9.4.25,jātakarmasaṁskāraḥ,जातकर्मसंस्कारः,True,True
+ITA-9.7.11,jāṅgamaviṣa-adhiṣṭhānam,जाङ्गमविष-अधिष्ठानम्,True,True
+ITA-9.4.9,jātamātraḥ,जातमात्रः,True,True
+ITA-5.72.3,jaṅgamaviṣaḥ,जङ्गमविषः,True,True
+ITA-2.6.3,jāṭharāgniḥ,जाठराग्निः,True,True
+ITA-9.7.8,jāṅgamaviṣam,जाङ्गमविषम्,True,True
+ITA-3.5.1,jaṭharam,जठरम्,True,True
+ITA-3.9.7,jaṅghā,जङ्घा,True,True
+ITA-4.5.16,jātiḥ,जातिः,True,True
+ITA-3.2.4.29,jatru,जत्रु,True,True
+ITA-2.2.6,jīvanam,जीवनम्,True,True
+ITA-3.3.3,jatrumūlam,जत्रुमूलम्,True,True
+ITA-6.2.6.43,jīvanīyaḥ,जीवनीयः,True,True
+ITA-9.5.1,jatrūrdhvacikitsā,जत्रूर्ध्वचिकित्सा,True,True
+ITA-9.8.12,jīvanīyaḥ,जीवनीयः,True,True
+ITA-3.16.11,jatrūrdhvamarma,जत्रूर्ध्वमर्म,True,True
+ITA-1.9.3.2.27,jīvanmuktiḥ,जीवन्मुक्तिः,True,True
+ITA-3.13.48,jatrusandhiḥ,जत्रुसन्धिः जीवरक्ताशयः,True,False
+ITA-5.62.31,jatumaṇiḥ,जतुमणिः,True,True
+ITA-3.16.1,jīvitadhāma,जीवितधाम,True,True
+ITA-9.2.45,jentākasvedaḥ,जेन्ताकस्वेदः,True,True
+ITA-1.2.1,jīvitam,जीवितम्,False,False
+ITA-3.2.4.18,jihvā,जिह्वा,True,True
+ITA-3.16.1,jīvitāyatanam,जीवितायतनम्,True,True
+ITA-3.2.4.21,jihvā-mūlam,जिह्वामूलम्,True,True
+ITA-1.9.3.2.4,jñaḥ,ज्ञः,True,True
+ITA-3.2.4.21,jihvā-prabandhaḥ,जिह्वाप्रबन्धः,True,True
+ITA-1.5.1,jñānam,ज्ञानम्,True,True
+ITA-3.2.4.22,jihvā-sevanī,जिह्वासेवनी,True,True
+ITA-1.5.5,jñānam,ज्ञानम्,True,True
+ITA-3.2.4.21,jihvābandhanam,जिह्वाबन्धनम्,True,True
+ITA-5.2.1.14,Jñānendrayagatavāta,ज्ञानेन्द्रियगतवात,False,True
+ITA-3.2.4.19,jihvāgram,जिह्वाग्रम्,True,True
+ITA-3.10.4,jñānendriyam,ज्ञानेन्द्रियम्,True,True
+ITA-5.4.12,jihvāmūlagatamalaḥ,जिह्वामूलगतमलः,True,True
+ITA-5.35.8,jṛmbhānigrahaja-udāvartaḥ,जृम्भानिग्रहज-उदावर्तः,True,True
+ITA-5.2.1.36,jihvāstambhaḥ,जिह्वास्तम्भः,True,True
+ITA-5.75.13,jṛmbhāvegarodhaḥ,जृम्भावेगरोधः,True,True
+ITA-3.2.4.20,jihvātalam,जिह्वातलम्,True,True
+ITA-4.2.1,jvara,ज्वर,False,False
+ITA-1.7.15,jijñāsā,जिज्ञासा,True,True
+ITA-5.6.1,jvaraḥ,ज्वरः,True,True
+ITA-5.76.46,jīvādānam-vamanavyāpat,जीवादानम्-वमनव्यापत्,True,True
+ITA-5.6.2,jvarapūrvarupam,ज्वरपूर्वरुपम्,True,True
+ITA-5.76.77,jīvādānavirecanavyāpat,जीवादानविरे चनव्यापत् ज्योतिस्थानम्,True,False
+ITA-1.9.3.2.3,jīvaḥ,जीवः,True,True
+ITA-3.10.1.16,kacaḥ,कचः,True,True
+ITA-3.10.1.17,kacāntaḥ,कचान्तः,True,True
+ITA-4.2.26,kālabalapravṛttarogaḥ,कालबलप्रवृत्तरोगः,True,True
+ITA-5.63.42,kacchapaḥ (kacchapī),कच्छपः (कच्छपी),False,False
+ITA-9.2.83,kālabastiḥ,कालबस्तिः,True,True
+ITA-5.62.6,kacchapikā,कच्छपिका,True,True
+ITA-1.9.3.4.1,kālaḥ,कालः,True,True
+ITA-5.41.1.3,kacchapikā-pramehapiḍakā,कच्छपिका-प्रमेहपिडका,True,True
+ITA-1.11.1,kālaḥ,कालः,True,True
+ITA-5.59.16,kacchū,कच्छू,False,False
+ITA-1.11.9,kālaḥ,कालः,True,True
+ITA-5.62.23,kadaraḥ,कदरः,True,True
+ITA-2.9.1,kālaḥ,कालः,True,True
+ITA-7.2.1.22,kajjalī,कज्जली,True,True
+ITA-2.2.30,kālaja-balam,कालजबलम्,True,True
+ITA-3.2.4.31,kākalakam,काकलकम्,True,True
+ITA-4.2.35,kālajarogaḥ,कालजरोगः,True,True
+ITA-3.2.4.31,kākalam,काकलम् कालखण्डः,True,False
+ITA-5.59.8,kākaṇakaḥ,काकणकः,True,True
+ITA-3.17.2,kalalam,कललम्,True,True
+ITA-9.5.57,kākauṣṭhaka,काकौष्ठक:,True,True
+ITA-7.1.4.29,kālamānaḥ,कालमानः,True,True
+ITA-5.13.6,kakerukaḥ,कके रुक,False,False
+ITA-5.41.19,kālamehaḥ,कालमेहः,True,True
+ITA-3.3.17,kakṣā,कक्षा,True,True
+ITA-3.16.19,kālāntaraprāṇaharamarma,कालान्तरप्राणहरमर्म,True,True
+ITA-3.3.18,kakṣābhāgaḥ,कक्षाभागः,True,True
+ITA-8.3.4,kālaprakarṣaḥ,कालप्रकर्षः,True,True
+ITA-3.16.45,kakṣadharaḥ (marma),कक्षधरः (मर्म),False,False
+ITA-9.1.63,kālapratīkṣā,कालप्रतीक्षा,True,True
+ITA-3.16.45,kakṣādharaḥ (marma),कक्षाधरः (मर्म),False,False
+ITA-4.5.23,kālasamprāptiḥ,कालसम्प्राप्तिः,True,True
+ITA-3.3.17,kakṣaḥ,कक्षः,True,True
+ITA-3.8.17,kalāvikā,कलाविका,True,True
+ITA-5.62.14,kakṣāḥ,कक्षाः,True,True
+ITA-5.2.1.43,kalāyakhañjaḥ,कलायखञ्जः,True,True
+ITA-3.12.1,kalā,कला कालेयकम्,True,False
+ITA-7.1.4.32,kalā,कला कालेयम्,True,False
+ITA-3.14.8,Kālikā,कालिका,True,True
+ITA-6.2.6.69,kaṇḍūharaḥ,कण्डूहरः,True,False
+ITA-5.76.203,kālikā,कालिका,True,True
+ITA-6.2.6.69,kaṇḍūpraśamanaḥ,कण्डू प्रशमनः,True,True
+ITA-3.2.1.9,kālīyakam ITA.3.11.9 kanīnasandhiḥ,कनीनसन्धिः,False,True
+ITA-3.2.1.9,kālīyam ITA.3.11.9 Kanīnikā,कनीनिका,False,True
+ITA-7.1.3,kalkaḥ,कल्कः,True,True
+ITA-3.8.30,kaniṣṭhikā,कनिष्टिका,True,True
+ITA-9.6.147,kalkaḥ (vraṇacikitsā),कल्कः (व्रणचिकित्सा),False,False
+ITA-8.3.44,kāñjī,काञ्जी,True,True
+ITA-1.6.38,kalpanā,कल्पना,True,True
+ITA-7.1.1.5,kāñjikam,काञ्जिकम्,True,True
+ITA-5.76.61,kāmādivyagramanaso-,कामादिव्यग्रमनसो-,False,False
+ITA-8.3.44,kāñjikam,काञ्जिकम्,True,True
+ITA-7.2.3.9,kaṅkuṣṭham,कङ्कुष्ठम्,True,True
+ITA-1.9.3.3.18,kāmaḥ,कामः,True,True
+ITA-5.63.50,kaṇṭhagatarogaḥ,कण्ठगतरोगः,True,True
+ITA-5.15.1,kāmalā,कामला,True,True
+ITA-3.2.4.30,kaṇṭhaḥ,कण्ठः,True,True
+ITA-3.14.16,kāmasirā,कामसिरा,True,True
+ITA-3.2.4.37,kaṇṭhanāḍī,कण्ठनाडी,True,True
+ITA-8.3.46,kāmbalikaḥ,काम्बलिकः,True,True
+ITA-5.63.58,kaṇṭhaśālūkaḥ,कण्ठशालूकः,True,True
+ITA-7.2.3.5,kāṃkṣī,कांक्षी,True,True
+ITA-3.14.12,kaṇṭhasirā,कण्ठसिरा,True,True
+ITA-5.2.1.56,kampaḥ,कम्पः,True,True
+ITA-5.63.38,kaṇṭhaśuṇḍī,कण्ठशुण्डी,False,False
+ITA-7.2.4.2,kampillakaḥ,कम्पिल्लकः,True,True
+ITA-6.2.6.31,kaṇṭhyam,कण्ठ्यम्,True,True
+ITA-7.2.5.10,kāṃsyam,कांस्यम्,True,True
+ITA-3.2.3,kapālaḥ,कपालः,True,True
+ITA-9.8.4,kāmyarasāyanam,काम्यरसायनम्,True,True
+ITA-5.59.2,kapālaḥ,कपालः,True,True
+ITA-2.2.11,kāṇḍam,काण्डम्,True,True
+ITA-3.13.5,kapālāsthi,कपालास्थि,True,True
+ITA-2.3.4,kaṇḍarā,कण्डरा,True,True
+ITA-5.63.31,kapālikā,कपालिका,True,True
+ITA-6.2.6.69,kaṇḍūghnaḥ,कण्डूघ्नः,True,True
+ITA-7.2.4.5,kapardakaḥ,कपर्दकः,True,True
+ITA-5.57.4,kaphaja-upadaṃśaḥ,कफज-उपदंशः,True,True
+ITA-9.5.51,kapāṭasandhika,कपाटसन्धिक:,True,True
+ITA-5.45.4,kaphaja-vṛddhiḥ,कफज-वृद्धिः,True,True
+ITA-2.1.3.1,kapha,कफ,True,True
+ITA-5.69.4,kaphaja-yonirogaḥ,कफज-योनिरोगः,True,True
+ITA-2.1.3.7,kapha-karma,कफकर्म,True,True
+ITA-5.6.25,kaphajacaturthakajvaraḥ,कफजचतुर्थकज्वरः,True,True
+ITA-6.2.6.5,kapha-śamanam,कफशमनम्,True,True
+ITA-5.23.4,kaphajachardiḥ,कफजछर्दिः,True,True
+ITA-5.66.5,kaphābhiṣyandaḥ,कफाभिष्यन्दः,True,True
+ITA-5.63.25,kaphajadantanāḍī,कफजदन्तनाडी,True,True
+ITA-5.2.3.1,kaphadoṣāvasthā,कफदोषावस्था,True,True
+ITA-5.9.4,kaphajagrahaṇīroga,कफजग्रहणीरोग,True,True
+ITA-5.76.209,kaphaduṣṭaraktaḥ,कफदुष्टरक्तः,True,True
+ITA-5.49.4,kaphajagranthiḥ,कफजग्रन्थिः,True,True
+ITA-5.66.10,kaphaja-adhimanthaḥ,कफज-अधिमन्थः,True,True
+ITA-5.37.4,kaphajagulmaḥ,कफजगुल्मः,True,True
+ITA-5.32.4,kaphaja-āmavātaḥ,कफज-आमवातः,True,True
+ITA-5.38.4,kaphajahṛdrogaḥ,कफजहृद्रोगः,True,True
+ITA-5.33.5,kaphaja-amlapittam,कफज-अम्लपित्तम्,True,True
+ITA-5.11.7,kaphajājīrṇam,कफजाजीर्णम्,True,True
+ITA-5.29.4,kaphaja-apasmāraḥ,कफज-अपस्मारः,True,True
+ITA-5.6.7,kaphajajvaraḥ,कफजज्वरः,True,True
+ITA-5.22.4,kaphaja-arocakaḥ,कफज-अरोचकः,True,True
+ITA-5.64.19,kaphajakarṇarogaḥ,कफजकर्णरोगः,True,True
+ITA-5.40.5,kaphaja-aśmarī,कफज-अश्मरी,True,True
+ITA-5.18.4,kaphajakāsaḥ,कफजकासः,True,True
+ITA-5.7.5,kaphaja-atisāraḥ,कफज-अतिसारः,True,True
+ITA-5.13.5,kaphajakṛmiḥ,कफजकृ मिः,True,True
+ITA-5.47.3,kaphaja-galagaṇḍaḥ,कफजगलगण्डः,True,True
+ITA-5.70.11,kaphajakṣīradoṣaḥ,कफजक्षीरदोषः,True,True
+ITA-5.63.5,kaphaja-oṣṭhaprakopaḥ,कफज-ओष्ठप्रकोपः,True,True
+ITA-5.59.4,kaphajakuṣṭhaḥ,कफजकु ष्ठः,True,True
+ITA-5.65.16,kaphaja-pratiśyāyaḥ,कफज-प्रतिश्यायः,True,True
+ITA-5.61.12,kaphajamasūrikā,कफजमसूरिका,True,True
+ITA-5.67.4,kaphaja-śirorogaḥ,कफज-शिरोरोगः,True,True
+ITA-5.25.5,kaphajamūrcchā,कफजमूर्च्छा,True,True
+ITA-5.43.4,kaphaja-udararogaḥ,कफज-उदररोगः,True,True
+ITA-5.39.4,kaphajamūtrakṛcchram,कफजमूत्रकृच्छ्रम्,True,True
+ITA-5.56.4,kaphajanāḍīvraṇaḥ,कफजनाडीव्रणः,True,True
+ITA-6.2.6.6,kaphakōpanam,कफकोपनम्,True,True
+ITA-5.65.24,kaphajanāsārśaḥ,कफजनासार्शः,True,True
+ITA-5.2.3.5,kaphakṣayaḥ,कफक्षयः,True,True
+ITA-5.14.4,kaphajapāṇḍurogaḥ,कफजपाण्डुरोगः,True,True
+ITA-5.6.11,kaphapittajajvaraḥ,कफपित्तजज्वरः,True,True
+ITA-5.34.12,kaphajapariṇāmaśūlaḥ,कफजपरिणामशूलः,True,True
+ITA-5.6.19,kaphapittatṛtīyakajvaraḥ,कफपित्ततृतीयकज्वरः,True,True
+ITA-5.41.2,kaphajapramehaḥ,कफजप्रमेहः,True,True
+ITA-5.2.3.3,kaphaprakopaḥ,कफप्रकोपः,True,True
+ITA-5.16.4,kaphajaraktapittam,कफजरक्तपित्तम्,True,True
+ITA-2.8.5,kaphaprakṛtiḥ,कफप्रकृ तिः,True,True
+ITA-5.63.54,kaphajarohiṇī,कफजरोहिणी,True,True
+ITA-5.2.3.4,kaphaprasaraḥ,कफप्रसरः,True,True
+ITA-5.10.4,kaphajārśaḥ,कफजार्शः,True,True
+ITA-5.2.3.2,kaphasañcayaḥ,कफसञ्चयः,True,True
+ITA-5.51.4,kaphajaślīpadaḥ,कफजश्लीपदः कफाशयः,True,False
+ITA-5.44.4,kaphajaśophaḥ,कफजशोफः,True,True
+ITA-3.14.4,Kaphavahā,कफवहा,True,True
+ITA-5.34.4,kaphajaśūlaḥ,कफजशूलः,True,True
+ITA-5.6.9,kaphavātajajvaraḥ,कफवातजज्वरः,True,True
+ITA-5.21.4,kaphajasvarabhedaḥ,कफजस्वरभेदः,True,True
+ITA-2.8.8,kaphavātaprakṛtiḥ,कफवातप्रकृ तिः,True,True
+ITA-5.24.5,kaphajatṛṣṇā,कफजतृष्णा,True,True
+ITA-5.66.39,kaphavidagdhadṛṣṭiḥ,कफविदग्धदृष्टिः,True,True
+ITA-5.52.4,kaphajavidradhiḥ,कफजविद्रधिः,True,True
+ITA-3.8.9,kaphoṇiḥ,कफोणिः,True,True
+ITA-5.60.4,kaphajavisarpaḥ,कफजविसर्पः,True,True
+ITA-5.66.82,kaphotkliṣṭa-vartma,कफोत्क्लिष्ट-वर्त्म,True,True
+ITA-5.61.4,kaphajavisphoṭakaḥ,कफजविस्फोटकः,True,True
+ITA-3.2.4.4,kapolaḥ,कपोलः,True,True
+ITA-5.53.4,kaphajavraṇaśophaḥ,कफजव्रणशोफः,True,True
+ITA-7.2.1.17,kapotapuṭaḥ,कपोतपुटः,True,True
+ITA-5.69.9,kaphajayonikandaḥ,कफजयोनिकन्दः,True,True
+ITA-3.8.10,karaḥ,करः,True,True
+ITA-5.28.4,kaphajonmādaḥ,कफजोन्मादः,True,True
+ITA-3.10.1.18,karajaḥ,करजः,True,True
+ITA-5.6.8,kaphajvarapūrvarūpam,कफज्वरपूर्वरूपम्,True,True
+ITA-5.63.21,karālaḥ,करालः,True,True
+ITA-8.2.40,kāram,कारम्,True,True
+ITA-3.10.2,karmendriyam,कर्मेन्द्रियम्,True,True
+ITA-3.8.13,karamūlam,करमूलम्,True,True
+ITA-2.2.24,kārmuka-bījam,कार्मुकबीजम्,True,True
+ITA-1.11.1,karaṇa,करण,True,True
+ITA-9.9.8,kārmukabījaḥ,कार्मुकबीजः,True,True
+ITA-1.11.1,kāraṇa,कारण,False,False
+ITA-5.64.15,karṇa-arbudaḥ,कर्ण-अर्बुदः,True,True
+ITA-1.9.3.1.1,kāraṇadravyam,कारणद्रव्यम्,True,True
+ITA-5.64.16,karṇa-arśaḥ,कर्ण-अर्शः,True,True
+ITA-1.11.3,karaṇam,करणम्,True,True
+ITA-5.64.8,karṇa-gūthakaḥ,कर्ण-गूथकः,True,True
+ITA-3.9.18,karaṇam,करणम्,True,True
+ITA-5.64.7,karṇa-kaṇḍūḥ,कर्ण-कण्डूः,True,True
+ITA-1.8.2.29,kāraṇam,कारणम्,True,True
+ITA-5.64.5,karṇa-kṣveḍaḥ,कर्ण-क्ष्वेडः,True,True
+ITA-1.11.2,kāraṇam,कारणम्,True,True
+ITA-5.64.3,karṇa-nādaḥ,कर्ण-नादः,True,True
+ITA-4.4.1,kāraṇam,कारणम्,True,True
+ITA-5.64.12,karṇa-pākaḥ,कर्ण-पाकः,True,True
+ITA-9.6.44,karapatraśastram,करपत्रशस्त्रम्,True,True
+ITA-5.64.9,karṇa-pratināhaḥ,कर्ण-प्रतिनाहः,True,True
+ITA-5.60.8,kardamavisarpaḥ,कर्दमविसर्पः,True,True
+ITA-5.64.14,karṇa-śophaḥ,कर्ण-शोफः,True,True
+ITA-7.2.1.21,karīṣaḥ,करीषः,True,True
+ITA-5.64.6,karṇa-srāvaḥ,कर्ण-स्रावः,True,True
+ITA-1.9.5.1,karma,कर्म,True,True
+ITA-3.2.3.12,karṇa-srotaḥ,कर्णस्रोतः,True,True
+ITA-6.2.6.1,karma,कर्म,True,True
+ITA-5.64.11,karṇa-vidradhiḥ,कर्ण-विद्रधिः,True,True
+ITA-1.9.1.4,karma-sāmānyam,कर्म-सामान्यम्,True,True
+ITA-9.5.60,karṇadhūpanam,कर्णधूपनम्,True,True
+ITA-1.9.2.4,karma-viśeṣaḥ,कर्म-विशेषः,True,True
+ITA-3.2.3.1,karṇaḥ,कर्णः,True,True
+ITA-9.2.82,karmabastiḥ,कर्मबस्तिः,True,True
+ITA-3.2.3.7,karṇalatikā,कर्णलतिका,True,True
+ITA-5.76.28,karmabhārādhvahto-,कर्मभाराध्वह्तोपवासमैथुनाध्य,False,False
+ITA-2.4.7,karṇamalaḥ,कर्णमलः,True,True
+ITA-3.2.3.4,yayanavyāyāmacintāprasakta karṇamūlam,कर्णमूलम्,False,True
+ITA-3.2.3.5,karṇanāḍī,कर्णनाडी,True,True
+ITA-5.76.206,karṇavyadhanasandhāna-,कर्णव्यधनसन्धान-अयोगः,False,True
+ITA-3.2.3.7,karṇapālī,कर्णपाली,True,True
+ITA-3.13.5,karparam,कर्परम्,True,True
+ITA-9.5.41,karṇapālī-abhivardhana-,कर्णपाली-अभिवर्धन-अभ्यङ्गः,False,True
+ITA-8.3.3,abhyaṅgaḥ karparapācanam,कर्परपाचनम्,False,True
+ITA-5.64.21,karṇapālirogaḥ,कर्णपालिरोगः,True,True
+ITA-7.1.4.7,karṣaḥ,कर्षः,True,True
+ITA-3.2.3.6,karṇapīṭham,कर्णपीठम्,True,True
+ITA-6.2.6.17,karśanam,कर्शनम्,True,True
+ITA-9.5.61,karṇaprakṣālanam,कर्णप्रक्षालनम्,True,True
+ITA-9.2.47,karṣūsvedaḥ,कर्षूस्वेदः,True,True
+ITA-9.5.62,karṇapramārjanam,कर्णप्रमार्जनम्,True,True
+ITA-1.9.3.2.5,kartā,कर्ता,True,True
+ITA-3.2.3.9,karṇapṛṣṭham,कर्णपृष्ठम्,True,True
+ITA-4.4.1,kartā,कर्ता,False,True
+ITA-9.5.58,karṇapūraṇam,कर्णपूरणम्,True,True
+ITA-1.11.1,kārya,कार्य,True,True
+ITA-3.2.3.8,karṇaputrakaḥ,कर्णपुत्रकः,True,True
+ITA-1.9.3.7.1,kāryadravyam,कार्यद्रव्यम्,True,True
+ITA-9.5.40,karṇarogacikitsā,कर्णरोगचिकित्सा,True,True
+ITA-1.11.5,kāryaḥ,कार्यः,True,True
+ITA-5.64.1,karṇarogaḥ,कर्णरोगः,True,True
+ITA-1.11.1,kāryaphala,कार्यफल,True,True
+ITA-3.2.3.10,karṇaśaṣkulikā,कर्णशष्कुलिका,True,True
+ITA-1.11.6,kāryaphalam,कार्यफलम्,True,True
+ITA-5.64.14,karṇaśothaḥ,कर्णशोथः,True,True
+ITA-1.11.1,kāryayoni,कार्ययोनि,True,True
+ITA-3.13.11,karṇāsthi,कर्णास्थि,True,True
+ITA-1.11.4,kāryayoniḥ,कार्ययोनिः,True,True
+ITA-5.64.2,karṇaśūlaḥ,कर्णशूलः,True,True
+ITA-9.5.78,kāsaghnadhūmapānam,कासघ्नधूमपानम्,True,True
+ITA-9.5.59,karṇasvedanam,कर्णस्वेदनम्,True,True
+ITA-5.18.1,kāsaḥ,कासः,True,True
+ITA-3.2.3.11,karṇāvaṭuḥ,कर्णावटु ः,True,True
+ITA-6.2.1.12,kaṣāya-rasaḥ,कषाय-रसः,True,True
+ITA-9.4.32,karṇavedhanasaṁskāraḥ,कर्णवेधनसंस्कारः,True,True
+ITA-9.2.21,kaṣāyadhārā,कषायधारा,True,True
+ITA-5.76.202,karṇavyadhajanyarogaḥ,कर्णव्यधजन्यरोगः,True,True
+ITA-9.6.145,kaṣāyaḥ (vraṇacikitsā),कषायः (व्रणचिकित्सा),False,False
+ITA-5.76.239,kaṣāyarasa-mithyāyogaḥ,कषायरस-मिथ्यायोगः,True,True
+ITA-8.2.20,kaṭvaram,कट्वरम्,True,True
+ITA-5.74.20,kaṣāyarasātiyogaḥ,कषायरसातियोगः कट्यन्त्रम्,True,False
+ITA-6.2.1.13,kaṣāyaskandhaḥ,कषायस्कन्धः,True,True
+ITA-2.8.15,kauberakāyaḥ,कौबेरकायः,True,True
+ITA-3.7.19,kaśeruḥ,कशेरुः,True,True
+ITA-1.4.4,kaumārabhṛtyam,कौमारभृत्यम्,True,True
+ITA-3.7.19,kaśerukā,कशेरुका,True,True
+ITA-9.4.1,kaumārabhṛtyam,कौमारभृत्यम्,True,True
+ITA-7.2.3.4,kāsīsaḥ,कासीसः,True,True
+ITA-8.2.41,kaupam,कौपम्,True,True
+ITA-7.1.4.31,kāṣṭhā,काष्ठा,True,True
+ITA-5.76.167,kavala-atiyogaḥ,कवल-अतियोगः,True,True
+ITA-1.9.4.2.15,kaṭhinaḥ,कठिनः,True,True
+ITA-5.76.165,kavalacikitsāpacāraḥ,कवलचिकित्सापचारः,True,True
+ITA-3.6.6,kaṭī,कटि,True,True
+ITA-9.6.174,kavaladhāraṇam (vraṇacikitsā),कवलधारणम् (व्रणचिकित्सा),False,False
+ITA-3.7.21,kaṭī-prothaḥ,कटी-प्रोथः,True,True
+ITA-9.5.86,kavalaḥ,कवलः,True,True
+ITA-9.2.25,kaṭibastiḥ,कटिबस्तिः,True,True
+ITA-5.76.166,kavalahīnayogaḥ,कवलहीनयोगः,True,True
+ITA-3.13.22,kaṭikapālaḥ,कटिकपालः,True,True
+ITA-6.2.7.10,kavalāntaram,कवलान्तरम्,True,True
+ITA-3.16.34,kaṭīkataruṇam (marma),कटीकतरुणम् (मर्म),False,False
+ITA-2.5.2,kāyacchidram,कायच्छिद्रम्,True,True
+ITA-3.6.7,kaṭīpradeśaḥ,कटिप्रदेशः,True,True
+ITA-1.4.3,kāyacikitsā,कायचिकित्सा,True,True
+ITA-3.13.51,kaṭisandhiḥ,कटिसन्धिः,True,True
+ITA-9.1.1,kāyacikitsā,कायचिकित्सा,True,True
+ITA-6.2.1.8,kaṭu-rasaḥ,कटु -रसः,True,True
+ITA-2.6.2,kāyāgniḥ,कायाग्निः,True,True
+ITA-2.6.25,kaṭuavasthāpākaḥ,कटु -अवस्थापाकः,True,True
+ITA-2.8.10,kāyaḥ,कायः,True,True
+ITA-6.2.1.9,kaṭukaskandhaḥ,कटु कस्कन्धः,True,True
+ITA-3.1.2,kāyaḥ,कायः,True,True
+ITA-5.74.18,kaṭurasātiyogaḥ,कटु रसातियोगः,True,True
+ITA-9.1.2,kāyaḥ,कायः,True,True
+ITA-6.2.1.9,kaṭuskandhaḥ,कटु स्कन्धः,True,True
+ITA-9.2.18,kāyasekaḥ,कायसेकः,True,True
+ITA-2.6.20,kedārīkulyānyāyaḥ,के दारीकु ल्यन्यायः,True,True
+ITA-7.2.2.9,kharparaḥ,खर्परः,True,True
+ITA-3.10.1.15,keśabhūmiḥ,के शभूमिः,True,True
+ITA-7.2.8.7,khaṭikā,खटिका,True,True
+ITA-5.13.7,keśādaḥ,के शादः,True,True
+ITA-9.6.189,khaṭvābandhaḥ,खट्वाबन्धः,True,True
+ITA-3.10.1.9,keśaḥ,के शः,True,True
+ITA-3.13.54,khuḍaḥ,खुडः,True,True
+ITA-6.2.6.82,keśarañjanam,के शरञ्जनम्,True,True
+ITA-3.9.10,khuḍakaḥ,खुडकः,True,True
+ITA-6.2.6.80,keśavardhanam,के शवर्धनम्,True,True
+ITA-3.9.10,khulakaḥ,खुलकः,True,True
+ITA-6.2.6.81,keśyam,के श्यम्,True,True
+ITA-3.13.15,kīlaka,कीलकः,False,True
+ITA-1.8.2.16,kevalānvayi-anumānam,के वलान्वयि-अनुमानम्,True,True
+ITA-5.70.4,kīlakaḥ,कीलकः,True,True
+ITA-1.8.2.15,kevalavyatireki-anumānam,के वलव्यतिरे कि-अनुमानम्,True,True
+ITA-8.2.21,kilāṭam,किलाटम्,True,True
+ITA-8.3.45,khaḍaḥ,खडः,True,True
+ITA-5.72.22,kīṭaviṣaḥ,कीटविषः,True,True
+ITA-8.1.11,khāditam,खादितम्,True,True
+ITA-5.59.11,kiṭibhaḥ,किटिभः,True,True
+ITA-2.6.21,khalekapotanyāyaḥ,खलेकपोतन्यायः,True,True
+ITA-2.4.2,kiṭṭam,किट्टम्,True,True
+ITA-5.63.19,khaliḥ,खलिः,True,True
+ITA-9.9.18,klaibyam,क्लैब्यम्,True,True
+ITA-5.2.1.57,khallī,खल्ली,True,True
+ITA-5.76.88,klamabastivyāpat,क्लमबस्तिव्यापत्,True,True
+ITA-7.1.3.3,khalvayantram,खल्वयन्त्रम्,True,True
+ITA-5.76.49,klamaḥ-vamanavyāpat,क्लमः-वमनव्यापत्,True,True
+ITA-5.76.81,khanijaḥ ITA- klamavirecanavyāpat,क्लमविरे चनव्यापत्,False,True
+ITA-2.1.3.3,kledaka-kaphaḥ,क्लेदककफः,True,True
+ITA-5.2.1.41,khañjaḥ,खञ्जः,True,True
+ITA-5.66.83,kliṣṭa-vartma,क्लिष्ट-वर्त्म,True,True
+ITA-5.66.80,1.9.4.2.11 kliṣṭavartma,क्लिष्टवर्त्म,False,True
+ITA-7.1.4.18,khāriḥ,खारिः क्लोम,True,False
+ITA-4.6.6,klomanāḍī ITA.3.11.7 kriyākālaḥ,क्रियाकालः,False,True
+ITA-6.2.6.6,kōpanam,कोपनम्,True,True
+ITA-9.5.13,kriyākalpaḥ,क्रियाकल्पः,True,True
+ITA-3.13.39,korasandhiḥ,कोरसन्धिः,True,True
+ITA-5.72.25,kṛkalāsadaṣṭaḥ,कृ कलासदष्टः,True,True
+ITA-9.6.181,kośabandhaḥ,कोशबन्धः,True,True
+ITA-3.16.47,kṛkāṭikā (marma),कृ काटिका (मर्म),False,False
+ITA-3.6.15,kośaḥ,कोशः,True,True
+ITA-5.63.28,kṛmidantakaḥ,कृ मिदन्तकः,True,True
+ITA-3.6.15,koṣaḥ,कोषः,True,True
+ITA-9.6.169,kṝmighnakarma (vraṇacikitsā),कृ मिघ्नकर्म (व्रणचिकित्सा),False,False
+ITA-5.73.14,koṣṭha-abhighātaḥ,कोष्ठ-अभिघातः,True,True
+ITA-5.66.68,kṛmigranthiḥ,कृ मिग्रन्थिः,True,True
+ITA-5.73.10,koṣṭhagata-śalyaḥ,कोष्ठगत-शल्यः,True,True
+ITA-5.67.7,kṛmija-śirorogaḥ,कृ मिज-शिरोरोगः,True,True
+ITA-2.6.37,koṣṭhaḥ,कोष्ठः,True,True
+ITA-5.23.7,kṛmijachardiḥ,कृ मिजछर्दिः,True,True
+ITA-5.38.6,koṣṭhaḥ ITA.3.11.1 kṛmijahṛdrogaḥ,कृ मिजहृद्रोगः,False,True
+ITA-3.13.15,koṣṭhakam,कोष्टकम्,True,True
+ITA-5.14.6,kṛmijapāṇḍurogaḥ,कृ मिजपाण्डुरोगः,True,True
+ITA-3.13.15,koṣṭhakāsthi,कोष्ठकास्थि,True,True
+ITA-5.64.10,kṛmikarṇakaḥ,कृ मिकर्णकः,True,True
+ITA-3.16.8,koṣṭhamarma,कोष्ठमर्म क्रोडः,True,False
+ITA-1.9.3.3.19,koṣṭhāṅgam ITA.3.11.2 krodhaḥ,क्रोधः,False,True
+ITA-5.15.2,koṣṭhāśritakāmalā,कोष्ठाश्रितकामला,True,True
+ITA-9.2.64,krodhaḥ,क्रोधः,True,True
+ITA-5.2.1.10,koṣṭhāśritavātakopaḥ,कोष्ठाश्रितवातकोपः,True,True
+ITA-9.4.46,krośanam,क्रोशनम्,True,True
+ITA-3.2.1.3,koṭaraḥ,कोटरः,True,True
+ITA-5.2.1.40,kroṣṭukaśīrṣaḥ,क्रोष्टुकशीर्षः,True,True
+ITA-5.59.24,koṭhaḥ,कोठः,True,True
+ITA-8.3.47,kṛśarā,कृ शरा,True,True
+ITA-4.2.40,kṛcchrasādhyarogaḥ,कृ च्छ्रसाध्यरोगः,True,True
+ITA-3.2.1.13,kṛṣṇa-dṛṣṭi-sandhiḥ,कृ ष्णदृष्टिसन्धिः,True,True
+ITA-5.76.110,kṝddhabhīta āsthāpanasya,क्रुद्धभीत आस्थापनस्य व्यापदः,False,False
+ITA-3.2.1.30,kṛṣṇa-maṇḍalam,कृ ष्णमण्डलम्,True,True
+ITA-3.2.1.32,kṛṣṇa-tārakā,कृ ष्णतारका,True,True
+ITA-7.2.10.1,kṣāraḥ,क्षारः,True,True
+ITA-9.6.159,kṛṣṇakarma (vraṇacikitsā),कृ ष्णकर्म (व्रणचिकित्सा),False,False
+ITA-9.6.89,kṣārakarma,क्षारकर्म,True,True
+ITA-5.41.19,kṛṣṇamehaḥ,कृ ष्णमेहः,True,True
+ITA-9.6.157,kṣārakarma (vraṇacikitsā),क्षारकर्म (व्रणचिकित्सा),False,False
+ITA-5.76.109,kṝtanastaḥ karmaṇo,कृ तनस्त: कर्मणो आस्थापनं,False,False
+ITA-5.76.215,kṣārakarma-apacāraḥ,क्षारकर्म-अपचारः,True,True
+ITA-5.41.18,kṣāramehaḥ,क्षारमेहः,True,True
+ITA-8.3.10,kṛtānnavargaḥ,कृ तान्नवर्गः,True,True
+ITA-5.76.217,kṣārapāna-atiyogaḥ,क्षारपान-अतियोगः,True,True
+ITA-8.3.25,kṛtarasaḥ,कृ तरसः,True,True
+ITA-9.6.84,kṣārapāyanā,क्षारपायना,True,True
+ITA-8.3.23,kṛtayūṣaḥ,कृ तयूषः,True,True
+ITA-9.6.92,kṣārasūtraḥ,क्षारसूत्रः,True,True
+ITA-5.76.216,1.9.3.7.18 kṣāravibhramaḥ,क्षारविभ्रमः,False,True
+ITA-5.72.13,kṛtrimaviṣaḥ,कृ त्रिमविषः क्षतगुदस्य विरे चनव्यापत्,True,False
+ITA-5.76.57,kṣatagudasya virecanavyāpat,,True,False
+ITA-9.7.13,kṛtrimaviṣam,कृ त्रिमविषम् क्षतज-ओष्ठप्रकोपः,True,False
+ITA-5.63.10,kṣataja-oṣṭhaprakopaḥ,,True,False
+ITA-2.6.40,krūra-koṣṭhaḥ,क्रूरकोष्ठः क्षतजभगन्दरः,True,False
+ITA-5.56.1.7,kṣatajabhagandaraḥ,,True,False
+ITA-2.1.3.8,kṣamā,क्षमा क्षतजदाहः,True,False
+ITA-5.27.7,kṣatajadāhaḥ,,True,False
+ITA-7.1.4.30,kṣaṇam,क्षणम् क्षतजकासः,True,False
+ITA-5.18.5,kṣatajakāsaḥ,,True,False
+ITA-5.76.219,kṣāra-atidagdhagudaḥ,क्षार-अतिदग्धगुदः क्षतजशोफः,True,False
+ITA-5.44.7,kṣatajaśophaḥ,,True,False
+ITA-5.76.218,kṣāra-atidagdhaḥ,क्षार-अतिदग्धः क्षतजतृष्णा,True,False
+ITA-5.24.6,kṣatajatṛṣṇā,,True,False
+ITA-5.76.220,kṣāra-atidagdhanāsā,क्षार-अतिदग्धनासा क्षतजविसर्पः,True,False
+ITA-5.60.9,kṣatajavisarpaḥ,,True,False
+ITA-5.76.221,kṣāra-atidagdhanetram,क्षार-अतिदग्धनेत्रम् क्षतार्म,True,False
+ITA-5.66.49,kṣatārma,,True,False
+ITA-5.76.222,kṣāra-atidagdhaśrotram,क्षार-अतिदग्धश्रोत्रम् क्षतशुक्लः,True,False
+ITA-5.66.21,kṣataśuklaḥ,,True,False
+ITA-5.76.223,kṣāra-hīnadagdhaḥ,क्षार-हीनदग्धः क्षतेषु वमनस्य व्यापदः,True,False
+ITA-5.76.25,kṣateṣu vamanasya vyāpadaḥ,,True,False
+ITA-5.43.8,kṣatodaraḥ,क्षतोदरः,True,True
+ITA-8.2.13,kṣīram,क्षीरम्,True,True
+ITA-8.2.30,kṣaudram,क्षौद्रम्,True,True
+ITA-9.4.7,kṣīrānnādaḥ,क्षीरान्नादः,True,True
+ITA-5.41.29,kṣaudramehaḥ,क्षौद्रमेहः,True,True
+ITA-8.2.15,kṣīrāṣṭakam,क्षीराष्टकम्,True,True
+ITA-9.6.176,kṣaudrasarpi (vraṇacikitsā),क्षौद्रसर्पि: (व्रणचिकित्सा),False,False
+ITA-8.2.14,kṣīravargaḥ,क्षीरवर्गः,True,True
+ITA-5.65.6,kṣavathuḥ,क्षवथुः,True,True
+ITA-7.1.5,kṣodaḥ,क्षोड:,True,True
+ITA-5.35.7,kṣavathunigrahaja-udāvartaḥ,क्षवथुनिग्रहज-उदावर्तः,True,True
+ITA-5.75.22,kṣud-vegarodhaḥ,क्षुद्-वेगरोधः,True,True
+ITA-5.75.14,kṣavathuvegarodhaḥ,क्षवथुवेगरोधः,True,True
+ITA-2.1.2.9,kṣudhā,क्षुधा,True,True
+ITA-5.18.6,kṣayajakāsaḥ,क्षयजकासः,True,True
+ITA-9.1.47,kṣudhā,क्षुधा,True,True
+ITA-5.17.4,kṣayajarājayakṣmā,क्षयजराजयक्ष्मा,True,True
+ITA-9.2.61,kṣudhā,क्षुधा,True,True
+ITA-5.21.5,kṣayajasvarabhedaḥ,क्षयजस्वरभेदः,True,True
+ITA-5.76.145,kṣudhārtasya nasya vyāpadaḥ,क्षुधार्तस्य नस्य व्यापदः,True,True
+ITA-9.9.20,kṣīṇaśukram,क्षीणशुक्रम्,True,True
+ITA-5.19.4,kṣudrāhikkā,क्षुद्राहिक्का,True,True
+ITA-5.76.26,kṣīṇātisthūlakṛśabālavddhadur-,क्षीणातिस्थूलकृ शबालवृद्धदुर्बला क्षुद्रान्त्रम्,False,False
+ITA-5.76.31,samvṝta koṣṭha vamanasya,संवृत कोष्ठ वमनस्य व्यापदः,False,False
+ITA-5.62.1,vyapadaḥ kṣudrarogaḥ,क्षुद्ररोगः,False,True
+ITA-3.16.32,kṣipram (marma),क्षिप्रम् (मर्म),False,False
+ITA-5.20.6,kṣudraśvāsaḥ,क्षुद्रश्वासः,True,True
+ITA-9.9.19,kṣipraśukramocanam,क्षिप्रशुक्रमोचनम्,True,True
+ITA-5.35.11,kṣunnirodhaja-udāvartaḥ,क्षुन्निरोधज-उदावर्तः,True,True
+ITA-5.72.11,kṣīra-viṣaḥ,क्षीर-विषः,True,True
+ITA-3.4.5,kucau,कु चौ,True,True
+ITA-9.4.6,kṣīrāda,क्षीरादः,True,True
+ITA-7.1.4.11,kuḍavaḥ,कु डवः,True,True
+ITA-2.6.19,kṣīradadhinyāyaḥ,क्षीरदधिन्यायः,True,True
+ITA-3.8.9,kuhaṇikā,कु हणिका,True,True
+ITA-9.2.56,kṣīradhūma,क्षीरधूम,True,True
+ITA-3.1.11,kuharam,कु हरम्,True,True
+ITA-7.2.8.8,kukkuṭāṇḍatvak,कु क्कु टाण्डत्वक्,False,False
+ITA-3.16.42,kūrcaḥ (marma),कू र्चः (मर्म),False,False
+ITA-3.16.53,kukṣigolakaḥ ITA.3.11.12 kūrcaśiraḥ (marma),कू र्चशिरः (मर्म),False,False
+ITA-3.5.1,kukṣiḥ,कु क्षिः,True,True
+ITA-8.2.22,kūrcikā,कू र्चिका,True,True
+ITA-8.3.2,kukūlapācanam,कु कू लपाचनम्,True,True
+ITA-3.8.9,kūrparaḥ,कू र्परः,True,True
+ITA-5.71.2,kukūṇaka,कु कू णकः,True,True
+ITA-3.13.50,kūrparasandhiḥ,कू र्परसन्धिः,False,True
+ITA-3.16.44,kukundaraḥ (marma),कु कु न्दरः (मर्म),False,False
+ITA-3.13.33,Kūrparāsthi,कू र्परास्थि,True,True
+ITA-8.3.20,kulmāṣaḥ,कु ल्माषः,True,True
+ITA-9.6.51,kuśapatraśastram,कु शपत्रशस्त्रम्,True,True
+ITA-9.4.2,kumārāgāram,कु मारागारम्,True,True
+ITA-5.59.1,kuṣṭhaḥ,कु ष्ठः,True,True
+ITA-9.4.1,kumāratantram,कु मारतन्त्रम्,True,True
+ITA-3.1.12,kūṭaḥ,कू टः,True,True
+ITA-5.15.4,kumbhakāmalā,कु म्भकामला,True,True
+ITA-3.13.23,kuṭakāsthi,कु टकास्थि,True,True
+ITA-5.58.6,kumbhikā,कु म्भिका,True,True
+ITA-9.6.56,kuṭhārikāśastram,कु ठारिकाशस्त्रम्,True,True
+ITA-5.66.71,kumbhīkā,कु म्भीका,True,True
+ITA-9.8.2,kuṭīprāveśikarasāyanam,कु टीप्रावेशिकरसायनम्,True,False
+ITA-9.9.17,kumbhīkaḥ,कु म्भीकः,True,True
+ITA-9.2.48,kuṭīsvedaḥ,कु टीस्वेदः,True,True
+ITA-9.2.50,kumbhīsvedaḥ,कु म्भीस्वेदः,True,True
+ITA-3.10.1.14,kūyakam,कू यकम्,True,True
+ITA-5.62.18,kunakhaḥ,कु नखः,True,True
+ITA-7.1.4,kvāthaḥ,क्वाथः,True,True
+ITA-5.66.90,kuñcanaḥ,कु ञ्चनः,True,True
+ITA-5.66.88,lagaṇaḥ,लगणः,True,True
+ITA-1.9.4.2.3,kuṇḍalam ITA.3.11.38 laghuḥ,लघुः,False,True
+ITA-9.2.51,kūpasvedaḥ,कू पस्वेदः,True,True
+ITA-1.10.2,Laghutrayī,लघुत्रयी,False,False
+ITA-7.2.1.14,kūpīpākaḥ,कू पीपाकः,True,True
+ITA-8.3.15,lājā,लाजा,True,True
+ITA-3.13.62,kūrcaḥ,कू र्चः,True,True
+ITA-8.3.17,lājamaṇḍaḥ,लाजमण्डः,True,True
+ITA-8.3.16,lājapeyā,लाजपेया,True,True
+ITA-6.2.1.7,lavaṇaskandhaḥ,लवणस्कन्धः,True,True
+ITA-8.3.19,lājasaktuḥ,लाजसक्तुः,True,True
+ITA-8.3.41,lehaḥ,लेहः,True,True
+ITA-1.9.3.3.27,lajjā,लज्जा,True,True
+ITA-9.7.38,lehaḥ (viṣopakramaḥ),लेहः (विषोपक्रमः),False,False
+ITA-1.5.1,lakṣaṇam,लक्षणम्,True,True
+ITA-9.4.44,lehanam,लेहनम्,True,True
+ITA-3.6.8,lakṣaṇam,लक्षणम्,True,True
+ITA-9.5.26,lekhana-āścyotanam,लेखन-आश्च्योतनम्,True,True
+ITA-4.5.5,lakṣaṇam,लक्षणम्,True,True
+ITA-9.6.66,lekhanakarma,लेखनकर्म,True,True
+ITA-7.1.1.8,lākṣārasaḥ,लाक्षारसः,True,True
+ITA-9.6.135,lekhanakarma,लेखनकर्म,True,True
+ITA-5.41.12,lālāmehaḥ,लालामेहः,True,True
+ITA-6.2.6.16,lekhanam,लेखनम्,True,True
+ITA-3.2.5,lalāṭam,ललाटम्,True,True
+ITA-5.76.176,lekhanāñjana-apacāraḥ,लेखनाञ्जन-अपचारः,True,True
+ITA-3.14.13,lalāṭasirā,ललाटसिरा,True,True
+ITA-5.76.178,lekhanāñjana-atiyogaḥ,लेखनाञ्जन-अतियोगः,True,True
+ITA-5.76.17,laṅghana-apacāraḥ,लङ्घन-अपचारः,True,True
+ITA-5.76.177,lekhanāñjana-ayogaḥ,लेखनाञ्जन-अयोगः,True,True
+ITA-5.76.18,laṅghana-atiyogaḥ,लङ्घन-अतियोगः,True,True
+ITA-9.5.28,lekhanāñjanam,लेखनाञ्जनम्,True,True
+ITA-9.1.46,laṅghanam,लङ्घनम्,True,True
+ITA-9.5.18,lekhanapuṭapākaḥ,लेखनपुटपाकः,True,True
+ITA-3.12.9,lasīkā,लसीका,True,True
+ITA-9.5.22,lekhanasekaḥ,लेखनसेकः,True,True
+ITA-1.9.3.7.8,latā,लता,True,True
+ITA-5.76.213,lekhanātiyogaḥ,लेखनातियोगः,True,True
+ITA-7.2.5.5,lauham,लौहम्,True,True
+ITA-5.76.214,lekhanāyogaḥ,लेखनायोगः,True,True
+ITA-6.2.1.6,lavaṇa-rasaḥ,लवण-रसः,True,True
+ITA-9.5.9,lekhyarogaḥ,लेख्यरोगः,True,True
+ITA-7.2.9.1,lavaṇam,लवणम्,True,True
+ITA-5.13.6,lelihaḥ,लेलिहः,False,True
+ITA-5.41.14,lavaṇamehaḥ,लवणमेहः,True,True
+ITA-9.6.219,lepaḥ,लेपः,True,True
+ITA-5.74.17,lavaṇarasātiyogaḥ,लवणरसातियोगः,True,True
+ITA-9.7.43,lepaḥ (viṣopakramaḥ),लेपः (विषोपक्रमः),False,False
+ITA-8.1.9,līḍham,लीढम्,True,True
+ITA-5.13.7,lomādaḥ,लोमादः,True,True
+ITA-5.13.3,likṣā,लिक्षा,True,True
+ITA-5.13.7,lomadvīpaḥ,लोमद्वीपः,False,True
+ITA-4.8.12,līnadoṣāvasthā,लीनदोषावस्था,True,True
+ITA-2.4.11,lomakūpamalaḥ,लोमकू पमलः,True,True
+ITA-4.5.5,liṅga,लिङग,True,True
+ITA-9.6.164,lomāpaharaṇam,लोमापहरणम्,True,True
+ITA-4.5.5,liṅgaḥ,लिङगः,True,True
+ITA-5.13.7,lomavidhvaṃsaḥ,लोमविध्वंसः,True,True
+ITA-3.6.8,liṅgam,लिङ्गम्,True,True
+ITA-5.72.16,lūtāviṣaḥ,लूताविषः,True,True
+ITA-5.66.30,liṅganāśaḥ,लिङ्गनाशः,True,True
+ITA-1.9.3.3.22,madaḥ,मदः,True,True
+ITA-5.76.212,liṅganāśamithyāvedhanam,लिङ्गनाशमिथ्यावेधनम्,True,True
+ITA-5.26.1,madaḥ,मदः,True,True
+ITA-1.9.3.2.8,liṅgaśarīram,लिङ्ग शरीरम्,True,True
+ITA-6.2.6.41,madakārī,मदकारी,True,True
+ITA-3.6.4,lobhaḥ ITA- madanātapatram,मदनातपत्रम्,False,True
+ITA-5.26.6,madātyayaḥ,मदात्ययः,True,True
+ITA-5.15.5,loḍharaḥ,लोढरः,False,False
+ITA-5.76.64,madātyayita-virecanavyāpat,मदात्ययित-विरे चनव्यापत्,True,True
+ITA-7.2.5.5,lohaḥ,लोहः,True,True
+ITA-1.10.2,mādhavanidāna,माधवनिदान,False,False
+ITA-3.10.1.3,lohitā,लोहिता,True,True
+ITA-8.3.8,madhukroḍaḥ,मधुक्रोडः,True,True
+ITA-5.76.205,lohitakā,लोहितका,True,True
+ITA-5.76.115,madhumeha kuṣṭhinorvyādheḥ,मधुमेह कु ष्ठिनोर्व्याधे:,False,False
+ITA-3.16.39,lohitākṣaḥ (marma),लोहिताक्षः (मर्म),False,False
+ITA-5.41.21,lohitamehaḥ,लोहितमेहः,True,True
+ITA-5.41.29,madhumehaḥ,मधुमेहः,True,True
+ITA-5.66.49,lohitārma,लोहितार्म,True,True
+ITA-6.2.1.2,madhura-rasaḥ,मधुर-रसः,True,True
+ITA-5.66.75,lohitārśaḥ,लोहितार्शः,True,True
+ITA-5.74.15,madhurarasātiyogaḥ,मधुररसातियोगः,True,True
+ITA-3.14.10,Lohitikā,लोहितिका,True,True
+ITA-6.2.1.3,madhuraskandhaḥ,मधुरस्कन्धः,True,True
+ITA-3.10.1.10,loma,लोम,True,True
+ITA-2.6.23,madhurāvasthāpākaḥ,मधुरावस्थापाकः,False,True
+ITA-9.2.78,mādhutailikabastiḥ,माधुतैलिकबस्तिः,True,True
+ITA-5.20.2,mahāśvāsaḥ,महाश्वासः,True,True
+ITA-8.2.29,madhuvargaḥ,मधुवर्गः महत्,True,False
+ITA-6.2.7.4,madhyabhaktaḥ,मध्यभक्तः,True,True
+ITA-5.19.6,mahatīhikkā,महतीहिक्का,True,True
+ITA-6.2.7.4,madhyabhojanam,मध्यभोजनम्,True,True
+ITA-3.7.1,mahatsrotaḥ,महत्स्रोतः,True,True
+ITA-3.8.28,madhyamā,मध्यमा,True,True
+ITA-9.7.6,mahāviṣam,महाविषम्,True,True
+ITA-2.6.38,madhyama-koṣṭhaḥ,मध्यमकोष्ठः,True,True
+ITA-2.8.13,māhendrakāyaḥ,माहेन्द्रकायः,True,True
+ITA-9.5.70,madhyamadhūmapānam,मध्यमधूमपानम्,True,True
+ITA-5.75.23,maithunāpacāram,मैथुनापचारम्,True,True
+ITA-4.8.22,madhyamagatiḥ,मध्यमगतिः,True,True
+ITA-9.9.38,maithunāśaktiḥ,मैथुनाशक्तिः,True,True
+ITA-9.2.107,madhyamaśuddhiḥ,मध्यमशुद्धिः,True,True
+ITA-2.2.16,majjā-dhātuḥ,मज्जाधातुः,True,True
+ITA-5.26.3,madyajamadaḥ,मद्यजमदः,True,True
+ITA-5.6.33,majjādhātugatajvaraḥ,मज्जाधातुगतज्वरः,True,True
+ITA-5.25.8,madyajamūrcchā,मद्यजमूर्च्छा,True,True
+ITA-2.6.6,majjādhātvagniḥ,मज्जाधात्वग्निः,True,True
+ITA-5.74.12,madyapānātiyogaḥ,मद्यपानातियोगः,True,True
+ITA-2.6.17,majjādhātvagniḥ,मज्जाधात्वग्निः,True,True
+ITA-8.2.9,madyavargaḥ,मद्यवर्गः,True,True
+ITA-5.61.20,majjāgatamasūrikā,मज्जागतमसूरिका,True,True
+ITA-5.13.5,mahāgudā,महागुदा,False,True
+ITA-5.2.1.20,majjāgatavātaḥ,मज्जागतवातः,True,True
+ITA-1.9.4.2,mahāguṇaḥ,महागुणः,True,True
+ITA-5.3.22,majjākṣayaḥ,मज्जाक्षयः,True,True
+ITA-5.41.27,mahānimnam ITA.3.11.1 majjāmehaḥ,मज्जामेहः,False,True
+ITA-5.71.5,mahāpadmaḥ,महापद्मः,True,True
+ITA-2.8.1.7,majjasāraḥ,मज्जासारः,True,True
+ITA-7.2.2.1,mahārasaḥ,महारसः,True,True
+ITA-2.5.16,majjāvahasrotas,मज्जावहस्रोतः,False,True
+ITA-5.63.15,mahāśauṣiraḥ,महाशौषिरः,True,True
+ITA-5.5.10,majjāvahasrotoduṣṭiḥ,मज्जावहस्रोतोदुष्टिः,True,True
+ITA-5.3.21,mahāsrotas ITA.3.11.1 majjāvaiṣamyam,मज्जावैषम्यम्,False,True
+ITA-5.3.23,majjāvṛddhiḥ,मज्जावृद्धिः,True,True
+ITA-5.50.3,māṃsajārbudaḥ,मांसजार्बुदः,True,True
+ITA-5.13.6,makerukaḥ,मके रुकः,False,True
+ITA-5.3.13,māṃsakṣayaḥ,मांसक्षयः,False,True
+ITA-5.72.29,makṣikā-daṣṭaḥ,मक्षिका-दष्टः,True,True
+ITA-2.2.8,māṃsam,मांसम्,True,True
+ITA-7.2.2.4,mākṣikam,माक्षिकम्,True,True
+ITA-3.16.12,māṃsamarma,मांसमर्म,True,True
+ITA-8.2.33,mākṣikam,माक्षिकम्,True,True
+ITA-5.58.11,māṃsapākaḥ,मांसपाकः,True,True
+ITA-3.13.61,malādhāraḥ ITA.3.11.13 māṃsarajjuḥ,मांसरज्जुः,False,True
+ITA-2.4.1,malaḥ,मलः,True,True
+ITA-8.3.50,māṃsarasaḥ,मांसरसः,True,True
+ITA-5.4.1,malavaiṣamyam,मलवैषम्यम्,True,True
+ITA-5.58.12,māṃsārbudaḥ,मांसार्बुदः,True,True
+ITA-2.2.8,māṃsa-dhātuḥ,मांसधातुः,True,True
+ITA-5.63.44,māṃsasaṅghātaḥ,मांससङ्घातः,True,True
+ITA-2.8.1.4,māṃsa-sāraḥ,मांससारः,True,True
+ITA-5.63.68,māṃsatānaḥ (arbudaḥ),मांसतानः (अर्बुदः),False,False
+ITA-3.10.1.8,māṃsadharā,मांसधरा,True,True
+ITA-2.5.13,māṃsavahasrotas,मांसवहस्रोतः,False,True
+ITA-3.12.2,māṃsadharākalā,मांसधराकला,True,True
+ITA-5.5.7,māmsavahasrotoduṣṭiḥ,मांसवहस्रोतोदुष्टिः,True,True
+ITA-5.6.30,māṃsadhātugatajvaraḥ,मांसधातुगतज्वरः,True,True
+ITA-5.73.29,māmsavahasrotoviddhaḥ,मांसवहस्रोतोविद्धः,False,True
+ITA-2.6.14,māṃsadhātvagniḥ,मांसधात्वग्निः,True,True
+ITA-5.3.12,māṃsavaiṣamyam,मांसवैषम्यम्,False,True
+ITA-5.73.3,māṃsagata-śalyaḥ,मांसगत-शल्यः,True,True
+ITA-8.2.4,māṃsavargaḥ,मांसवर्गः,True,True
+ITA-5.61.17,māṃsagatamasūrikā,मांसगतमसूरिका,True,True
+ITA-5.3.14,māṃsavṛddhiḥ,मांसवृद्धिः,False,True
+ITA-5.2.1.17,māṃsagatavātaḥ,मांसगतवातः,True,True
+ITA-1.9.3.3.1,manaḥ,मनः,True,True
+ITA-2.6.6,māṃsāgni,मांसाग्नि,True,False
+ITA-7.2.3.7,manaḥśilā,मन:शिला,True,True
+ITA-5.63.8,māṃsaja-oṣṭhaprakopaḥ,मांसज-ओष्ठप्रकोपः,True,True
+ITA-7.1.4.1,mānam,मानम्,True,True
+ITA-3.13.67,māṃsajālam,मांसजालम्,True,True
+ITA-9.9.36,mānasaklaibyam,मानसक्लैब्यम्,True,True
+ITA-2.8.10,mānasaprakṛti,मानसप्रकृ ति,True,True
+ITA-7.2.6.2,māṇikyam,माणिक्यम्,True,True
+ITA-1.9.3.3.13,mānasika-bhāvaḥ,मानसिक-भावः,True,True
+ITA-5.41.22,mañjiṣṭhāmehaḥ,मञ्जिष्ठामेहः,True,True
+ITA-4.4.8,mānasikahetuḥ,मानसिकहेतुः,True,True
+ITA-1.9.3.3.7,manoarthaḥ,मनोऽर्थः,True,True
+ITA-5.76.124,mandāgni durbalayora,मन्दाग्नि दुर्बलयोर अनुवासनस्य,False,False
+ITA-4.8.31,manodhiśṭānam,मनोधिष्ठानम्,False,True
+ITA-1.9.3.3.2,manoguṇaḥ,मनोगुणः,True,True
+ITA-2.6.11,mandāgniḥ,मन्दाग्निः,True,True
+ITA-8.3.7,manthanam,मन्थनम्,True,True
+ITA-5.11.1,mandāgniḥ,मन्दाग्निः,True,True
+ITA-9.1.15,mantracikitsā,मन्त्रचिकित्सा,True,True
+ITA-1.9.4.2.4,mandaḥ,मन्दः,True,True
+ITA-9.7.22,mantraḥ (viṣopakramaḥ),मन्त्रः (विषोपक्रमः),False,False
+ITA-8.3.11,maṇḍaḥ,मण्डः,True,True
+ITA-9.1.26,mānuṣīcikitsā,मानुषीचिकित्सा,True,True
+ITA-9.6.186,maṇḍalabandhaḥ,मण्डलबन्धः,True,True
+ITA-3.3.4,manyā,मन्या,True,True
+ITA-9.6.43,maṇḍalāgraśastram,मण्डलाग्रशस्त्रम्,True,True
+ITA-3.16.50,manyā (marma),मन्या (मर्म),False,False
+ITA-5.59.4,maṇḍalakuṣṭhaḥ,मण्डलकु ष्ठः,True,True
+ITA-9.2.22,manyābastiḥ,मन्याबस्तिः,True,True
+ITA-3.2.1.26,maṇḍalam,मण्डलम्,True,True
+ITA-5.2.1.35,manyāstambhaḥ,मन्यास्तम्भः,True,True
+ITA-3.13.45,maṇḍalasandhiḥ,मण्डलसन्धिः,True,True
+ITA-2.9.3,maraṇam,मरणम्,True,True
+ITA-5.72.23,maṇḍūkadaṣṭaḥ,मण्डूकदष्टः,True,True
+ITA-7.2.1.6,māraṇam,मारणम्,True,True
+ITA-7.2.5.12,maṇḍūram,मण्डूरम्,True,True
+ITA-7.1.2.2,mardanam,मर्दनम्,True,True
+ITA-9.1.17,maṅgalam,मङ्गलम्,True,True
+ITA-7.2.5,mardanam,मर्दनम्,True,True
+ITA-3.8.13,maṇibandhaḥ,मणिबन्धः,True,True
+ITA-9.2.28,mardanam,मर्दनम्,True,True
+ITA-9.1.16,maṇidhāraṇam,मणिधारणम्,True,True
+ITA-9.6.24,mārgaviśodhanam,मार्गविशोधनम्,True,True
+ITA-3.6.10,maṇiḥ,मणिः,True,True
+ITA-3.16.4,marma,मर्म,True,True
+ITA-7.1.4.12,mānikā,मानिका,True,True
+ITA-5.73.1,marmābhighātaḥ,मर्माभिघातः,True,True
+ITA-5.41.1.10,masūrikā-pramehapiḍakā,मसूरिका-प्रमेहपिडका,True,True
+ITA-5.27.8,marmābhighātajadāhaḥ,मर्माभिघातजदाहः,True,True
+ITA-5.61.9,masūrikāpūrvarūpam,मसूरिकापूर्वरूपम्,True,True
+ITA-5.73.1,marmakṣataḥ,मर्मक्षतः,True,True
+ITA-8.2.17,mathitaḥ,मथितः,True,True
+ITA-3.14.9,marmarikā,मर्मरिका,True,True
+ITA-6.2.7.13,mātrā,मात्रा,True,True
+ITA-5.76.204,marmarikā,मर्मरिका,True,True
+ITA-9.2.74,mātrābastiḥ,मात्राबस्तिः,True,True
+ITA-5.73.1,marmaviddhaḥ,मर्मविद्धः,True,True
+ITA-4.2.13,mātṛjarogaḥ,मातृजरोगः,True,True
+ITA-9.2.89,marśaḥ,मर्शः,True,True
+ITA-3.16.25,mātṛkā (marma),मातृका (मर्म),False,False
+ITA-9.1.49,mārutaḥ,मारुतः,True,True
+ITA-1.9.3.3.23,mātsaryam,मात्सर्यम्,True,True
+ITA-7.1.4.38,māsaḥ,मासः,True,True
+ITA-2.8.28,matsyakāyaḥ,मत्स्यकायः,True,False
+ITA-7.1.4.5,māṣaḥ,माषः,True,True
+ITA-5.76.111,matta mūrcchitayora,मत्त मूर्च्छितयोर आस्थापनस्य,False,False
+ITA-7.1.4.6,māṣaḥ(bīja),माषः(बीज),False,False
+ITA-3.13.23,mayūrāsthi,मयूरास्थि,True,True
+ITA-5.72.30,maśaka-daṣṭaḥ,मशक-दष्टः,True,True
+ITA-5.3.16,medaḥkṣayaḥ,मेदःक्षयः,True,True
+ITA-5.62.32,maṣakaḥ,मषकः,True,True
+ITA-5.63.57,medajarohiṇī,मेदजरोहिणी,True,True
+ITA-3.10.1.9,mastakabālaḥ,मस्तकबालः,True,True
+ITA-3.2.1.37,medasāśritaṃpaṭalam,मेदसाश्रितंपटलम्,True,True
+ITA-3.2.2,mastakam,मस्तकम्,True,True
+ITA-3.6.13,meḍhracarma,मेढ्रचर्म,True,True
+ITA-3.6.11,meḍhradvāram,मेढ्रद्वारम्,True,True
+ITA-3.6.12,meḍhrāgram,मेढ्राग्रम्,True,True
+ITA-3.6.8,meḍhraḥ,मेढ्रः,True,False
+ITA-9.9.37,meḍhrarogajaklaibyam,मेढ्ररोगजक्लैब्यम्,True,True
+ITA-5.61.8,masūrikā,मसूरिका,True,True
+ITA-9.8.10,medhyarasāyanam,मेध्यरसायनम्,True,True
+ITA-9.8.11,medhyāyuṣyakāmīyara-,मेध्यायुष्यकामीयरसायनम्,False,True
+ITA-5.2.1.50,minminaḥ,मिन्मिनः,True,True
+ITA-5.76.5,mithyāsnehanam,मिथ्यास्नेहनम्,True,True
+ITA-2.6.6,medo-agni,मेदो-अग्नि,True,False
+ITA-5.76.54,mithyāvirecanam,मिथ्याविरे चनम्,True,True
+ITA-2.2.9,medo-dhātuḥ,मेदोधातुः,True,True
+ITA-5.76.238,mithyāvraṇopacāraḥ,मिथ्याव्रणोपचारः,True,True
+ITA-3.12.4,medodharākalā,मेदोधराकला,True,True
+ITA-5.75.24,mithyāvyavāyam,मिथ्याव्यवायम्,True,True
+ITA-5.6.31,medodhātugatajvaraḥ,मेदोधातुगतज्वरः,True,True
+ITA-1.9.3.3.21,mohaḥ,मोहः,True,True
+ITA-2.6.15,medodhātvagniḥ,मेदोधात्वग्निः,True,True
+ITA-1.9.3.2.25,mokṣaḥ,मोक्षः,True,True
+ITA-5.61.18,medogatamasūrikā,मेदोगतमसूरिका,True,True
+ITA-5.14.6,mṛdbhakṣaṇajanya,मृद्भक्षणजन्य,True,True
+ITA-5.2.1.18,medogatavātaḥ,मेदोगतवातः,True,True
+ITA-7.2.4.9,mṛddāraśrṛṃgaḥ,मृद्दारश्रृंगः,True,True
+ITA-5.47.4,medoja-galagaṇḍaḥ,मेदोज-गलगण्डः,True,True
+ITA-5.58.19,mṛditaḥ,मृदितः,True,True
+ITA-5.63.9,medoja-oṣṭhaprakopaḥ,मेदोज-ओष्ठप्रकोपः,True,True
+ITA-9.5.74,mṛdudhūmapānam,मृद ध ु ूमपानम्,True,True
+ITA-5.45.6,medoja-vṛddhiḥ,मेदोज-वृद्धिः,True,True
+ITA-1.9.4.2.14,mṛduḥ,मृद ः ु,True,True
+ITA-5.49.5,medojagranthiḥ,मेदोजग्रन्थिः,True,True
+ITA-9.6.155,mṛdukarma,मृद कर्म ु,True,True
+ITA-5.21.6,medojasvarabhedaḥ,मेदोजस्वरभेदः,True,True
+ITA-2.6.39,mṛdukoṣṭhaḥ,मृद क ु ोष्ठः,True,True
+ITA-5.42.1,medorogaḥ,मेदोरोगः,True,True
+ITA-7.2.8.2,mṛgaśrṛṃgam,मृगश्रृंगम्,True,True
+ITA-2.8.1.5,medosāraḥ,मेदोसारः,True,True
+ITA-5.70.8,mṛtagarbhaḥ,मृतगर्भः,True,True
+ITA-2.5.14,medovahasrotas,मेदोवहस्रोतः,False,True
+ITA-9.7.44,mṛtasañjīvanam (viṣopakrama),मृतसञ्जीवनम् (विषोपक्रम),False,False
+ITA-5.5.8,medovahasrotoduṣṭiḥ,मेदोवहस्रोतोदुष्टिः,True,True
+ITA-5.70.3,mūḍhagarbhaḥ,मूढगर्भः,True,True
+ITA-5.73.30,medovahasrotoviddhaḥ,मेदोवहस्रोतोविद्धः,True,True
+ITA-9.6.47,mudrikāśastram,मुद्रिकाशस्त्रम्,True,True
+ITA-5.3.15,medovaiṣamyam,मेदोवैषम्यम्,True,True
+ITA-6.2.7.6,muhurmuhuḥ,मुहुर्मुहुः,True,True
+ITA-5.3.17,medovṛddhiḥ,मेदोवृद्धिः,True,True
+ITA-7.1.4.34,muhūrtaḥ,मुहूर्तः,True,True
+ITA-7.2.1.1,mūṣā,मूषा,True,True
+ITA-5.2.1.49,mūkatvam,मूकत्वम्,True,True
+ITA-5.72.17,mūṣikāviṣaḥ,मूषिकाविषः,True,True
+ITA-9.4.18,mukha-viśodhana,मुख-विशोधन,True,True
+ITA-3.6.15,muṣkaḥ,मुष्कः,True,True
+ITA-5.62.29,mukhadūṣikā,मुखदूषिका,False,False
+ITA-5.73.40,muṣkasroto abhighātaḥ,मुष्कस्रोतोऽभिघातः,True,True
+ITA-6.2.6.83,mukhagandhaharaḥ,मुखगन्धहरः,True,True
+ITA-5.75.15,mūtra-vegarodhaḥ,मूत्र-वेगरोधः,True,True
+ITA-3.2.4.2,mukhakuharam,मुखकु हरम्,True,True
+ITA-5.35.3,mūtrābhighātaja-udāvartaḥ,मूत्राभिघातज-उदावर्तः,True,True
+ITA-3.2.4.1,mukham,मुखम्,True,True
+ITA-5.76.37,mūtrāghāta vamanasya,मूत्राघातवमनस्य व्यापदः,False,True
+ITA-5.71.15,mukhamaṇḍikāgrahaḥ,मुखमण्डिकाग्रहः,True,True
+ITA-5.39.10,mūtrāghātaḥ,मूत्राघातः,True,True
+ITA-9.5.66,mukharogacikitsā,मुखरोगचिकित्सा,True,True
+ITA-5.75.15,mūtragrahaḥ,मूत्रग्रहः,True,True
+ITA-5.63.1,mukharogaḥ,मुखरोगः,True,True
+ITA-5.39.18,mūtragranthiḥ,मूत्रग्रन्थिः,True,True
+ITA-5.76.58,muktanāla-virecanavyāpat,मुक्तनाल-विरे चनव्यापत्,True,True
+ITA-5.45.7,mūtraja-vṛddhiḥ,मूत्रज-वृद्धिः,True,True
+ITA-7.2.6.3,muktāphalam,मुक्ताफलम्,True,True
+ITA-6.2.6.53,mūtrajananam,मूत्रजननम्,True,True
+ITA-5.72.4,mūlaviṣaḥ,मूलविषः,True,True
+ITA-5.39.14,mūtrajaṭharaḥ,मूत्रजठरः,True,True
+ITA-5.25.1,mūrcchā,मूर्च्छा,True,True
+ITA-5.39.1,mūtrakṛcchram,मूत्रकृच्छ्रम्,True,True
+ITA-5.25.2,mūrcchā-pūrvarūpam,मूर्च्छा-पूर्वरूपम्,True,True
+ITA-5.4.3,mūtrakṣayaḥ,मूत्रक्षयः,True,True
+ITA-7.1.2.3,mūrcchanam,मूर्च्छनम्,True,True
+ITA-5.39.16,mūtrakṣayaḥ,मूत्रक्षयः,True,True
+ITA-7.2.6,mūrcchanam,मूर्छनम्,True,True
+ITA-2.4.4,mūtram,मूत्रम्,True,True
+ITA-3.2.2,mūrdhā,मूर्धा,True,True
+ITA-9.2.13,mūrdhatailam,मूर्धतैलम्,True,True
+ITA-1.9.3.6.2,mūrtadravya,मूर्तद्रव्य,True,True
+ITA-5.73.37,mūtrapraseka-kṣaṇanam,मूत्रप्रसेक-क्षणनम्,True,True
+ITA-9.4.22,mūtrāśayaḥ ITA.3.11.13 nābhinālapatanam,नाभिनालपतनम्,False,True
+ITA-5.39.19,mūtraśukraḥ,मूत्रशुक्रः,True,True
+ITA-8.2.37,nādeya-udakam,नादेय-उदकम्,True,True
+ITA-5.39.17,mūtrātītaḥ,मूत्रातीतः,True,True
+ITA-7.1.4.33,nāḍikā,नाडिका,True,True
+ITA-5.39.21,mūtraukasādaḥ,मूत्रौकसादः,True,True
+ITA-9.2.42,nāḍīsvedaḥ,नाडीस्वेदः,True,True
+ITA-5.56.1,mūtravahā ITA.3.11.19 nāḍīvraṇaḥ,नाडीव्रणः,False,True
+ITA-9.6.11,mūtravahānāḍī ITA.3.11.20 nāḍīyantram,नाडीयन्त्रम्,False,True
+ITA-2.5.19,mūtravahasrotas,मूत्रवहस्रोतः,False,True
+ITA-7.2.5.7,nāgam,नागम्,True,True
+ITA-5.5.13,mūtravahasrōtōduṣṭiḥ,मूत्रवहस्रोतोदुष्टिः,True,True
+ITA-7.2.7.8,nāgapāṣāṇam,नागपाषाणम्,True,True
+ITA-5.73.34,mūtravahasrotoviddhaḥ,मूत्रवहस्रोतोविद्धः,True,True
+ITA-5.71.16,naigameṣagrahaḥ,नैगमेषग्रहः,True,True
+ITA-5.4.2,mūtravaiṣamyam,मूत्रवैषम्यम्,True,True
+ITA-9.8.6,naimittikarasāyanam,नैमित्तिकरसायनम्,True,True
+ITA-9.1.27,mūtravasti ITA.3.11.13 naiṣṭhikīcikitsā,नैष्ठिकीचिकित्सा,False,True
+ITA-5.4.4,mūtravṛddhiḥ,मूत्रवृद्धिः,True,True
+ITA-3.10.1.20,nakha-māṃsam,नखमांसम्,True,True
+ITA-5.39.15,mūtrotsaṅgaḥ,मूत्रोत्सङ्गः,True,True
+ITA-3.10.1.21,nakha-sandhiḥ,नखसन्धिः,True,True
+ITA-9.6.185,muttoliḥ,मुत्तोलिः,True,True
+ITA-3.10.1.18,nakhaḥ,नखः,True,True
+ITA-9.6.46,nābhibandhanam ITA.3.11.50 nakhaśastram,नखशस्त्रम्,False,True
+ITA-5.66.42,nābhiḥ ITA.3.11.49 nakulāndhyam,नकु लान्ध्यम्,False,True
+ITA-9.4.19,nābhikalpanavidhi,नाभिकल्पनविधिः,False,True
+ITA-3.13.9,nalakāsthi,नलकास्थि,True,True
+ITA-3.6.8,nābhimaṇḍalam ITA.3.11.51 nālam,नालम्,False,True
+ITA-3.17.5,nābhināḍī,नाभिनाडी,True,True
+ITA-9.4.26,nāmakaraṇasaṁskāraḥ,नामकरणसंस्कारः,True,True
+ITA-4.8.32,nānātmajavikāra,नानात्मजविकार,True,True
+ITA-5.65.11,nāsāsrāvaḥ,नासास्रावः,True,True
+ITA-9.9.26,napumsakatvam,नपुंसकत्वम्,True,True
+ITA-3.2.2.8,nāsāsrotaḥ,नासास्रोतः,True,True
+ITA-9.9.27,naraṣaṇḍaḥ,नरषण्डः,True,True
+ITA-3.2.2.4,nāsāsthidaṇḍaḥ,नासास्थिदण्डः,True,True
+ITA-7.2.4.4,narasāraḥ,नरसारः,True,True
+ITA-3.13.12,nāsātaruṇāsthi,नासातरुणास्थि,True,True
+ITA-9.9.28,nārīṣaṇḍaḥ,नारीषण्डः,True,True
+ITA-3.2.2.4,nāsāvaṃśaḥ,नासावंशः,True,True
+ITA-3.2.2.1,nāsā,नासा,True,True
+ITA-3.2.2.11,nāsāvivaram,नासाविवरम्,True,True
+ITA-5.76.227,nāsā-atidagdhaḥ,नासा-अतिदग्धः,True,True
+ITA-3.2.2.1,nāsikā,नासिका,True,True
+ITA-3.2.2.2,nāsāgram,नासाग्रम्,True,True
+ITA-2.4.9,nāsikāmalaḥ,नासिकामलः,True,True
+ITA-3.2.2.10,nāsākṣi-sandhiḥ,नासाक्षिसन्धिः,True,True
+ITA-3.2.2.12,nāsikāpuṭam,नासिकापुटम्,True,True
+ITA-3.2.2.6,nāsānāḍī,नासानाडी,True,True
+ITA-9.2.86,nastam,नस्तम्,True,True
+ITA-5.65.4,nāsāpākaḥ,नासापाकः,True,True
+ITA-5.76.138,nasyakarmacikitsāpacāraḥ,नस्यकर्मचिकित्सापचारः,True,True
+ITA-3.2.2.9,nāsāpuṭa-bahirbhāgaḥ,नासापुटबहिर्भागः,True,True
+ITA-9.2.86,nasyam,नस्यम्,True,True
+ITA-3.2.2.3,nāsāpuṭam,नासापुटम्,True,True
+ITA-9.7.36,nasyam (viṣopakramaḥ),नस्यम् (विषोपक्रमः),False,False
+ITA-3.2.2.11,nāsārandhram,नासारन्ध्रम्,True,True
+ITA-9.6.173,Nasyam (vraṇacikitsā),नस्यम् (व्रणचिकित्सा),False,False
+ITA-5.65.20,nāsārbudaḥ,नासार्बुदः,True,True
+ITA-5.76.141,nasyamithyāyogaḥ,नस्यमिथ्यायोगः,True,True
+ITA-9.5.63,nāsārogacikitsā,नासारोगचिकित्सा,True,True
+ITA-5.76.139,nasyātiyogaḥ,नस्यातियोगः,True,True
+ITA-5.65.1,nāsārogaḥ,नासारोगः,True,True
+ITA-5.76.141,nasyavyāpat,नस्यव्यापत्,True,True
+ITA-5.65.21,nāsārśaḥ,नासार्शः,True,True
+ITA-5.76.140,nasyāyogaḥ,नस्यायोगः,True,True
+ITA-9.5.64,nāsāsandhānavidhiḥ,नासासन्धानविधिः,True,True
+ITA-5.74.9,navaguḍa-atyupayogaḥ,नवगुड-अत्युपयोगः,True,True
+ITA-5.65.12,nāsāśoṣaḥ,नासाशोषः,True,True
+ITA-9.4.10,navajāta,नवजातः,True,True
+ITA-5.76.121,navajvara pāṇḍuroga kāmalā,नवज्वर पाण्डुरोग कामला,False,False
+ITA-6.2.6.29,netryam,नेत्र्यम्,True,True
+ITA-3.1.15,vyāpadaḥ nibandhinī,निबन्धिनी,False,True
+ITA-5.76.150,navajvare śoke nasya,नवज्वरे शोके नस्य व्यापदः,False,True
+ITA-4.4.1,nidānam,निदानम्,True,True
+ITA-4.3.2,nidānapañcakaḥ,निदानपञ्चकः,,
+ITA-5.76.63,navajvari-virecanavyāpat,नवज्वरि-विरे चनव्यापत्,True,True
+ITA-9.1.56,nidānaparivarjanam,निदानपरिवर्जनम्,True,True
+ITA-9.2.87,nāvanam,नावनम्,True,True
+ITA-4.8.34,nidānārthakararoga,निदानार्थकररोग,True,True
+ITA-5.76.154,navapratiśyāyārtasya nasya,नवप्रतिश्यायार्तस्य नस्य व्यापदः,False,False
+ITA-1.6.16,nidarśanam,,True,False
+ITA-7.2.4.4,navasādaraḥ,नवसादरः,True,True
+ITA-10.2.10,nidrā,निद्रा,True,True
+ITA-3.2.1.2,nayana-budbudaḥ,नयन-बुद्बुदः,True,False
+ITA-5.75.2,nidrā-vaiṣamyam,निद्रा-वैषम्यम्,True,True
+ITA-9.5.43,nemisandhānakaḥ,नेमिसन्धानकः,True,True
+ITA-5.75.3,nidrānāśaḥ,निद्रानाशः,True,True
+ITA-3.2.1.4,netra-chādanam,नेत्र-छादनम्,True,True
+ITA-5.75.16,nidrāvegarodhaḥ,निद्रावेगरोधः,True,True
+ITA-3.2.1.4,netrakośaḥ,नेत्रकोशः,True,True
+ITA-1.7.17,nigamanam,निगमनम्,True,True
+ITA-3.2.1.1,netram,नेत्रम्,True,True
+ITA-1.10.3,nighaṇṭuḥ,निघण्टुः,True,True
+ITA-3.2.1.16,netranāḍī,नेत्रनाडी,True,True
+ITA-1.7.18,nigrahasthānam,निग्रहस्थानम्,True,True
+ITA-3.2.1.4,netrapuṭam,नेत्रपुटम्,True,True
+ITA-2.1.1.10,niḥśvāsaḥ,निःश्वासः,True,True
+ITA-9.5.7,netrarogacikitsā,नेत्ररोगचिकित्सा,True,True
+ITA-5.54.2,nijavraṇaḥ,निजव्रणः,True,True
+ITA-5.66.1,netrarogaḥ,नेत्ररोगः,True,True
+ITA-3.16.49,nīlā (marma),नीला (मर्म),False,False
+ITA-3.2.1.5,netrasandhiḥ,नेत्रसन्धिः,True,True
+ITA-7.2.6.8,nīlam,नीलम्,True,True
+ITA-9.5.14,netratarpaṇam,नेत्रतर्पणम्,True,True
+ITA-5.41.20,nīlamehaḥ,नीलमेहः,True,True
+ITA-3.2.1.33,netratvak,नेत्रत्वक्,True,True
+ITA-5.62.35,nīlikā,नीलिका,True,True
+ITA-7.2.1.9,nimajjanam,निमज्जनम्,True,True
+ITA-9.2.75,nirūhabastiḥ,निरूहबस्तिः,True,True
+ITA-2.1.1.13,nimeṣaḥ,निमेषः,True,True
+ITA-5.76.98,nirūhabastyapacāraḥ,निरूहबस्त्यपचारः,True,True
+ITA-5.66.86,nimeṣaḥ,निमेषः,True,True
+ITA-5.76.100,nirūhabastyayogaḥ,निरूहबस्त्ययोगः,True,True
+ITA-7.1.4.30,nimeṣaḥ,निमेषः,True,True
+ITA-5.76.101,nirūhamithyāyogaḥ,निरूहमिथ्यायोगः,True,True
+ITA-1.8.2.32,nimitta-kāraṇam,निमित्त-कारणम्,True,True
+ITA-5.76.99,nirūhātiyogaḥ,निरूहातियोगः,True,True
+ITA-5.66.45,nimittajanya-dṛṣṭigatarogaḥ,निमित्तजन्य-दृष्टिगतरोगः,True,True
+ITA-7.2.1.8,niruttha,निरुत्थ,True,True
+ITA-4.4.1,nimittam,निमित्तम्,True,True
+ITA-1.6.20,nirvacanam,निर्वचनम्,True,True
+ITA-9.5.6,ninditaśalākā,निन्दितशलाका,True,True
+ITA-9.6.143,nirvāpaṇakarma (vraṇacikitsā),निर्वापणकर्म (व्रणचिकित्सा),False,False
+ITA-9.2.65,niragni-upanāhasvedaḥ,निरग्नि-उपनाहस्वेदः,True,True
+ITA-7.2.1.9,nirvāpaṇam,निर्वापणम्,True,True
+ITA-9.2.57,niragnisvedaḥ,निरग्निस्वेदः,True,True
+ITA-9.5.49,nirvedhima,निर्वेधिम:,True,True
+ITA-4.8.24,nirāmadoṣaḥ,निरामदोषः,True,True
+ITA-1.8.1.3,nirvikalpakam,निर्विकल्पकम्,True,True
+ITA-5.6.39,nirāmajvaraḥ,निरामज्वरः,False,True
+ITA-1.9.3.2.19,nirvikāram,निर्विकारम्,True,True
+ITA-4.6.5,nirāmāvasthā,निरामावस्था,True,True
+ITA-5.72.10,niryāsa-viṣaḥ,निर्यास-विषः,True,True
+ITA-9.9.29,nirbījaśukram,निर्बीजशुक्रम्,True,True
+ITA-7.1.4,niryūhaḥ,निर्यूहः,True,True
+ITA-1.6.19,nirdeśaḥ,निर्देशः,True,True
+ITA-7.2.1.8,niścandra,निश्चन्द्र,True,True
+ITA-9.6.210,nirdhmāpanakarma,निर्ध्मापनकर्म,True,True
+ITA-6.2.7.11,niśi,निशि,True,True
+ITA-9.6.15,nirghātanakarma,निर्घातनकर्म,True,True
+ITA-9.4.29,niṣkrāmaṇasaṁskāraḥ,निष्क्रामणसंस्कारः,True,True
+ITA-1.9.3.2.14,nirindriyaḥ ITA- niṣkriyaḥ,निष्क्रियः,False,True
+ITA-9.9.30,niṣphalaśukram,निष्फलशुक्रम्,True,True
+ITA-7.2.1.5,nirmalīkaraṇam,निर्मलीकरणम्,True,True
+ITA-9.7.25,niṣpīḍanam (viṣopakramaḥ),निष्पीडनम् (विषोपक्रमः),False,False
+ITA-1.6.18,nirṇayaḥ,निर्णयः,True,True
+ITA-2.6.5,niṣṭhāpākaḥ,निष्ठापाकः,True,True
+ITA-3.2.4.6,oṣṭhaḥ,ओष्ठः,True,True
+ITA-2.6.33,niṣṭhāpākaḥ,निष्ठापाकः,True,True
+ITA-9.4.13,oṣṭhakaṇṭhajihvāpramārjanam,ओष्ठकण्ठजिह्वाप्रमार्जनम्,True,True
+ITA-3.7.21,nitambaḥ,नितम्ब,True,False
+ITA-3.2.4.9,oṣṭhaprāntaḥ,ओष्ठप्रान्तः,True,True
+ITA-1.2.1,nityaga,नित्यग,False,False
+ITA-5.63.2,oṣṭharogaḥ,ओष्ठरोगः,True,True
+ITA-1.9.3.2.18,nityam,नित्यम्,True,True
+ITA-9.5.67,oṣṭhasandhānavidhiḥ,ओष्ठसन्धानविधिः,True,True
+ITA-9.8.15,nivṛttasantāpīyarasāyanam,निवृत्तसन्तापीयरसायनम्,True,True
+ITA-2.1.2.2,pācaka-pittam,पाचकपित्तम्,True,True
+ITA-9.1.21,niyamaḥ,नियमः,True,True
+ITA-9.6.205,pācanakarma,पाचनकर्म,True,True
+ITA-7.2.13,niyamanam,नियमनम्,True,True
+ITA-2.6.30,pācanam,पाचनम्,True,True
+ITA-1.6.17,niyogaḥ,नियोगः,True,True
+ITA-6.2.6.8,pācanam,पाचनम्,True,True
+ITA-5.62.34,nyacchaḥ,न्यच्छः,True,True
+ITA-9.6.109,pācanam,पाचनम्,True,True
+ITA-8.3.14,odanam,ओदनम्,True,True
+ITA-5.6.38,pacyamānajvaraḥ,पच्यमानज्वरः,True,True
+ITA-2.8.1.10,oja-sāraḥ,ओजस्सारः पच्यमानाशयः,True,False
+ITA-5.3.34,ojakṣayaḥ,ओजक्षयः,True,True
+ITA-4.6.3,pacyamānāvasthā,पच्यमानावस्था,True,True
+ITA-2.2.25,ojas,ओजस्,True,True
+ITA-1.11.13,pādacatuṣṭayam,पादचतुष्टयम्,True,True
+ITA-5.3.33,ojovaiṣamyam,ओजोवैषम्यम्,True,True
+ITA-5.2.1.45,pādadāhaḥ,पाददाहः,True,True
+ITA-5.3.35,ojovisraṃsaḥ,ओजोविस्रंसः,False,True
+ITA-5.62.22,pādadārī,पाददारी,True,True
+ITA-5.3.37,ojovṛddhiḥ,ओजोवृद्धिः,True,True
+ITA-9.2.33,pādāghātaḥ,पादाघातः,True,True
+ITA-5.3.36,ojovyāpat,ओजोव्यापत्,True,True
+ITA-3.9.14,pādāgram,पादाग्रम्,True,True
+ITA-3.9.12,oṣadhī ITA- pādaḥ,पादः,False,True
+ITA-5.2.1.46,pādaharṣaḥ,पादहर्षः,True,True
+ITA-6.1.3,oṣadhiḥ,ओषधिः,False,False
+ITA-3.13.31,Pādakurcāsthi,पादकू र्चास्थि,True,True
+ITA-1.8.2.22,pakṣaḥ,पक्षः,True,True
+ITA-3.9.17,pādamadhyam,पादमध्यम्,True,True
+ITA-3.1.21,pakṣaḥ,पक्षः,True,True
+ITA-10.2.5,pādāṃśikakramaḥ,पादांशिकक्रमः,True,True
+ITA-7.1.4.37,pakṣaḥ,पक्षः,True,True
+ITA-3.9.15,pādāṅguliḥ,पादाङ्गुलिः,True,True
+ITA-5.2.1.31,pakṣavadhaḥ,पक्षवधः,True,True
+ITA-1.8.3.5,padārthaḥ,पदार्थः,True,True
+ITA-3.2.1.24,pakṣmāgram,पक्ष्माग्रम्,True,True
+ITA-3.9.16,pādatalam,पादतलम्,True,True
+ITA-5.66.91,pakṣmakopaḥ,पक्ष्मकोपः,True,True
+ITA-5.62.30,padminīkaṇṭakaḥ,पद्मिनीकण्टकः,True,True
+ITA-3.2.1.27,pakṣmamaṇḍalam,पक्ष्ममण्डलम्,True,True
+ITA-7.2.7.5,pairojakaḥ,पैरोजकः,True,True
+ITA-5.66.92,pakṣmaśātaḥ,पक्ष्मशातः,True,True
+ITA-2.8.24,paiśācakāyaḥ,पैशाचकायः,True,True
+ITA-3.2.1.25,pakṣmāśayaḥ,पक्ष्माशयः,True,True
+ITA-5.32.3,paittika-āmavātaḥ,पैत्तिक-आमवातः,True,True
+ITA-3.2.1.10,pakṣmavartma-sandhiḥ,पक्ष्मवर्त्मसन्धिः,True,True
+ITA-5.68.3,paittika-asṛgdaraḥ,पैत्तिक-असृग्दरः,True,True
+ITA-5.66.91,pakṣmoparodhaḥ,पक्ष्मोपरोधः,True,True
+ITA-5.66.32,paittika-liṅganāśaḥ,पैत्तिक-लिङ्गनाशः,True,True
+ITA-2.1.2.11,paktiḥ,पक्तिः,True,True
+ITA-5.6.5,paittikajvaraḥ,पैत्तिकज्वरः पक्तिस्थानम्,True,False
+ITA-5.6.6,paittikajvarapūrvarūpam,पैत्तिकज्वरपूर्वरूपम् पक्वाधानम्,True,False
+ITA-5.59.3,paittikakuṣṭhaḥ,पैत्तिककुष्ठः,True,True
+ITA-5.2.1.13,pakvāśayagatavātaḥ,पक्वाशयगतवातः,True,True
+ITA-5.34.11,paittikapariṇāmaśūlaḥ,पैत्तिकपरिणामशूलः पक्वाशयः,True,False
+ITA-5.3.9,paittikaraktaduṣṭiḥ,पैत्तिकरक्तदुष्टिः,True,True
+ITA-4.2.20,pakvāśayasamuttharogaḥ,पक्वाशयसमुत्थरोगः,True,True
+ITA-5.69.8,paittikayonikandaḥ,पैत्तिकयोनिकन्दः,True,True
+ITA-5.72.14,pakvāśayastha-dūṣīviṣam,पक्वाशयस्थ-दूषीविषम्,True,True
+ITA-2.6.26,pākaḥ,पाकः,True,True
+ITA-5.73.17,pakvāśayastha-rudhiraḥ,पक्वाशयस्थ-रुधिरः,True,True
+ITA-5.2.1.31,pakṣāghātaḥ,पक्षाघातः पक्वस्थानम्,True,False
+ITA-4.6.4,pakvāvasthā,पक्वावस्था,True,True
+ITA-3.8.13,pāṇimūlam,पाणिमूलम्,True,True
+ITA-7.1.4.9,palam,पलम्,True,True
+ITA-3.13.35,pāṇiśalākādhiṣṭhānam,पाणिशलाकाधिष्ठानम्,True,True
+ITA-5.62.28,palitaḥ,पलितः,True,True
+ITA-3.8.12,pāṇitalam,पाणितलम्,True,True
+ITA-5.59.16,pāmā,पामा,False,False
+ITA-3.8.15,pāṇitalam,पाणितलम्,True,True
+ITA-5.26.8,pānājīrṇam,पानाजीर्णम्,True,True
+ITA-9.6.91,pānīyakṣāraḥ,पानीयक्षारः,True,True
+ITA-8.3.38,pānakam,पानकम्,True,True
+ITA-4.2.1,pāpmā,पाप्मा,False,False
+ITA-5.62.11,panasikā,पनसिका,True,True
+ITA-7.2.3,pārada-aṣṭasaṃskāraḥ,पारद-अष्टसंस्कारः,True,True
+ITA-5.26.6,pānātyayaḥ,पानात्ययः,True,True
+ITA-7.2.2,pāradaḥ,पारदः,True,True
+ITA-5.26.9,pānavibhramaḥ,पानविभ्रमः,True,True
+ITA-7.1.2.6,paradamūrcchanam,पारदमूर्छनम्,True,True
+ITA-9.5.42,pañcadaśakarṇabandhākṛti,पञ्चदशकर्णबन्धाकृ ति,True,True
+ITA-1.9.4.4.1,parādiguṇaḥ,परादिगुणः,True,True
+ITA-9.2.2,pañcakarma,पञ्चकर्म,True,True
+ITA-5.26.7,paramadaḥ,परमदः,True,True
+ITA-1.9.3.1.2,pañcamahābhūta,पञ्चमहाभूत,True,True
+ITA-1.9.3.3.3,paramāṇu,परमाणु,True,True
+ITA-2.9.1.10,pañcamamāsa-garbhaḥ,पञ्चममासगर्भः,True,True
+ITA-1.9.3.6.2,paramāṇuḥ,परमाणुः,True,True
+ITA-9.6.194,pañcāṅgībandhaḥ,पञ्चाङ्गीबन्धः,True,True
+ITA-1.8.2.21,parāmarśaḥ,परामर्शः,True,True
+ITA-1.8.2.27,pañcāvayava-vākyam,पञ्चावयव-वाक्यम्,True,True
+ITA-1.8.2.19,parārthānumānam,परार्थानुमानम्,True,True
+ITA-9.6.160,pāṇḍukarma (vraṇacikitsā),पाण्डुकर्म (व्रणचिकित्सा),False,False
+ITA-4.8.35,paratantra,परतन्त्र,True,True
+ITA-5.14.1,pāṇḍurogaḥ,पाण्डुरोगः,True,True
+ITA-1.9.4.4.2,paratvam,परत्वम्,True,True
+ITA-5.2.1.42,paṅguḥ,पङ्गुः,True,True
+ITA-5.63.16,paridaraḥ,परिदरः,True,True
+ITA-3.8.10,pāṇiḥ,पाणिः,True,True
+ITA-5.71.3,pārigarbhikaḥ,पारिगर्भिकः,True,True
+ITA-3.8.15,pāṇihṛdayam,पाणिहृदयम्,True,True
+ITA-5.70.7,parighaḥ,परिघः,True,True
+ITA-1.7.19,parihāraḥ,परिहारः,True,True
+ITA-5.64.22,paripoṭakaḥ,परिपोटकः,True,True
+ITA-5.76.191,parihārakāla-vyāpadaḥ,परिहारकाल-व्यापदः,True,True
+ITA-9.7.28,pariṣekaḥ (viṣopakramaḥ),परिषेकः (विषोपक्रमः),False,False
+ITA-9.2.111,parihārakālaḥ,परिहारकालः,True,True
+ITA-9.6.122,pariṣekakarma (vraṇacikitsā),परिषेककर्म (व्रणचिकित्सा),False,False
+ITA-5.76.197,parihārakāle ahitabhojanam,परिहारकाले अहितभोजनम्,True,True
+ITA-9.2.43,pariṣekasvedaḥ,परिषेकस्वेदः,True,True
+ITA-5.76.196,parihārakāle ajīrṇabhojanam,परिहारकाले अजीर्णभोजनम्,True,True
+ITA-5.76.43,parisrāva-vamanavyāpat,परिस्राव-वमनव्यापत्,True,True
+ITA-5.76.195,parihārakāle ati-āsanam,परिहारकाले अति-आसनम्,True,True
+ITA-5.76.97,parisrāvabastivyāpat,परिस्रावबस्तिव्यापत्,True,True
+ITA-5.76.194,parihārakāle aticaṅkramaṇam,परिहारकाले अतिचङ्क्रमणम्,True,True
+ITA-5.76.74,parisrāvavirecanavyāpat,परिस्रावविरे चनव्यापत्,True,True
+ITA-5.76.198,parihārakāle divāsvapnaḥ,परिहारकाले दिवास्वप्नः,True,True
+ITA-5.56.1.5,parisrāvībhagandaraḥ,परिस्रावीभगन्दरः,True,True
+ITA-5.76.199,parihārakāle mithyāvyavāyaḥ,परिहारकाले मिथ्याव्यवायः,True,True
+ITA-5.62.36,parivartikā,परिवर्तिका,True,True
+ITA-5.76.193,parihārakāle rathakṣobhaḥ,परिहारकाले रथक्षोभः,True,True
+ITA-7.2.1.23,parpaṭī,पर्पटी,True,True
+ITA-5.76.192,parihārakāle uccabhāṣyam,परिहारकाले उच्चभाष्यम्,True,True
+ITA-3.9.13,pārṣṇiḥ,पार्ष्णिः,True,True
+ITA-5.76.42,parikartikā-vamanavyāpat,परिकर्तिका-वमनव्यापत्,True,True
+ITA-3.13.30,pārṣṇyasthi,पार्ष्ण्यस्थि,True,True
+ITA-5.76.96,parikartikābastivyāpat,परिकर्तिकाबस्तिव्यापत्,True,True
+ITA-3.13.18,parśukā,पर्शुका,True,True
+ITA-5.76.73,parikartikāvirecanavyāpat,परिकर्तिकाविरे चनव्यापत्,True,True
+ITA-3.13.19,parśukāgram,पर्शुकाग्रम्,True,True
+ITA-1.8.1,parīkṣā,परीक्षा,True,True
+ITA-3.7.24,pārśvajaghanam,पार्श्वजघनम्,True,True
+ITA-5.64.26,parilehī,परिलेही,True,True
+ITA-3.5.4,pārśvam,पार्श्वम्,True,True
+ITA-1.9.4.4.8,parimāṇaḥ,परिमाणः,True,True
+ITA-3.16.35,pārśvasandhiḥ (marma),पार्श्वसन्धिः (मर्म),False,False
+ITA-5.66.36,parimlāyi-liṅganāśaḥ,परिम्लायि-लिङ्गनाशः,True,True
+ITA-6.1.11,pārthivam,पार्थिवम्,True,True
+ITA-4.4.12,pariṇāmaḥ,परिणामः,True,True
+ITA-2.2.13,parva,पर्व,True,True
+ITA-5.34.9,pariṇāmaśūlaḥ,परिणामशूलः,True,True
+ITA-5.66.66,parvaṇikā,पर्वणिका,True,True
+ITA-5.62.10,pāṣāṇagardabhaḥ,पाषाणगर्दभः,True,True
+ITA-3.7.1,pāyuḥ,पायुः,True,True
+ITA-2.8.27,pāśavakāyaḥ,पाशवकायः,True,True
+ITA-3.7.13,pāyumeḍhrāntaram,पायुमेढ्रान्तरम्,True,True
+ITA-6.2.7.5,paścādbhaktaḥ,पश्चाद्भक्तः,False,True
+ITA-3.7.4,pāyuvaliḥ,पायुवलिः,True,True
+ITA-9.2.109,paścāt-karma,पश्चात्-कर्म,True,True
+ITA-7.1.4.21,pāyyamānam,पाय्यमानम्,True,True
+ITA-3.2.4.16,paścimahānavyadantaḥ,पश्चिमहानव्यदन्तः,True,True
+ITA-2.2.8,peśī,पेशी,True,True
+ITA-3.2.1.33,paṭalam,पटलम्,True,True
+ITA-5.73.4,peśyantaragata-śalyaḥ,पेश्यन्तरगत-शल्यः,True,True
+ITA-9.6.115,pāṭanakarma,पाटनकर्म,True,True
+ITA-8.3.12,peyā,पेया,True,True
+ITA-7.2.8,pātanam,पातनम्,True,True
+ITA-3.6.15,phalakośaḥ,फलकोशः,True,True
+ITA-8.1.3,pathyam,पथ्यम्,True,True
+ITA-3.6.15,phalam,फलम्,True,True
+ITA-9.1.5,pathyam,पथ्यम्,True,True
+ITA-9.4.31,phalaprāśanasaṁskāraḥ,फलप्राशनसंस्कारः,True,True
+ITA-5.55.7,pāṭitabhagnaḥ,पाटितभग्नः,True,True
+ITA-8.2.6,phalavargaḥ,फलवर्गः,True,True
+ITA-5.72.5,patra-viṣaḥ,पत्र-विषः,True,True
+ITA-5.72.6,phalaviṣaḥ,फलविषः,True,True
+ITA-9.6.168,patradānakarma,पत्रदानकर्म फलयोनिः,True,False
+ITA-6.2.1.6,paṭuḥ,पटु ः,True,True
+ITA-3.16.51,phaṇam (marma),फणम् (मर्म),False,False
+ITA-3.6.8,pauruṣam,पौरुषम्,True,True
+ITA-7.1.8,phāṇṭam,फाण्टम्,True,True
+ITA-7.1.4.2,pautavamānam,पौतवमानम्,True,True
+ITA-5.41.16,phenamehaḥ,फे नमेहः,True,True
+ITA-8.2.31,pauttikam,पौत्तिकम्,True,True
+ITA-9.9.34,phenilaretodoṣaḥ,फे निलरे तोदोषः,True,True
+ITA-9.9.31,pavanendriyaḥ,पवनेन्द्रियः फु फ्फु सः,True,False
+ITA-8.2.13,payaḥ,पयः,True,True
+ITA-9.2.80,picchā,पिच्छा,True,True
+ITA-3.4.5,payodharau,पयोधरौ,True,True
+ITA-9.2.80,picchila-bastiḥ,पिच्छिल-बस्तिः,True,True
+ITA-1.9.4.2.21,picchilaḥ,पिच्छिलः,True,True
+ITA-6.2.6.5,pitta-śamanam,पित्तशमनम्,True,True
+ITA-9.6.23,pīḍanakarma,पीडनकर्म,True,True
+ITA-5.66.64,pitta-srāvaḥ,पित्त-स्रावः,True,True
+ITA-9.6.208,pīḍanakarma,पीडनकर्म,True,True
+ITA-5.66.4,pittābhiṣyandaḥ,पित्ताभिष्यन्दः,True,True
+ITA-9.6.141,pīḍanakarma (vraṇacikitsā),पीडनकर्म (व्रणचिकित्सा),False,False
+ITA-3.12.7,pittadharā-kalā,पित्तधराकला,True,True
+ITA-5.65.13,pīnasaḥ,पीनसः,True,True
+ITA-5.2.2.2,pittadoṣāvasthā,पित्तदोषावस्था,True,True
+ITA-9.2.53,piṇḍasvedaḥ,पिण्डस्वेदः,True,True
+ITA-5.76.208,pittaduṣṭaraktaḥ,पित्तदुष्टरक्तः,True,True
+ITA-9.5.38,piṇḍī,पिण्डी,True,True
+ITA-5.9.3,pittaja grahaṇīroga,पित्तज ग्रहणीरोग,True,True
+ITA-3.1.14,piṇḍikā,पिण्डिका,True,True
+ITA-5.66.9,pittaja-adhimanthaḥ,पित्तज-अधिमन्थः,True,True
+ITA-8.3.48,piṇyākaḥ,पिण्याकः,True,True
+ITA-5.29.3,pittaja-apasmāraḥ,पित्तज-अपस्मारः,True,True
+ITA-2.1.2.13,pipāsā,पिपासा,True,True
+ITA-5.22.3,pittaja-arocakaḥ,पित्तज-अरोचकः,True,True
+ITA-5.72.24,pipīlikā-daṣṭaḥ,पिपीलिका-दष्टः,True,True
+ITA-5.40.4,pittaja-aśmarī,पित्तज-अश्मरी,True,True
+ITA-4.2.31,piśācādikṛtarogaḥ,पिशाचादिकृ तरोगः,True,True
+ITA-5.7.4,pittaja-atisāraḥ,पित्तज-अतिसारः,True,True
+ITA-3.2.1.36,piśitāśritaṃpaṭalam,पिशिताश्रितंपटलम्,True,True
+ITA-5.63.4,pittaja-oṣṭhaprakopaḥ,पित्तज-ओष्ठप्रकोपः,True,True
+ITA-5.66.54,piṣṭakaḥ,पिष्टकः,True,True
+ITA-5.65.15,pittaja-pratiśyāyaḥ,पित्तज-प्रतिश्यायः,True,True
+ITA-5.41.15,piṣṭamehaḥ,पिष्टमेहः,True,True
+ITA-5.67.3,pittaja-śirorogaḥ,पित्तज-शिरोरोगः,True,True
+ITA-8.1.8,pītam,पीतम्,True,True
+ITA-5.43.3,pittaja-udararogaḥ,पित्तज-उदररोगः,True,True
+ITA-5.76.143,pītasnehamadyatoyapātu-,पीतस्नेहमद्यतोयपातुकामानां,False,False
+ITA-5.57.3,pittaja-upadaṃśaḥ,पित्तज-उपदंशः,True,True
+ITA-5.45.3,pittaja-vṛddhiḥ,पित्तज-वृद्धिः,True,True
+ITA-5.28.11,pitṛ-unmādaḥ,पितृ-उन्मादः,True,True
+ITA-5.69.3,pittaja-yonirogaḥ,पित्तज-योनिरोगः,True,True
+ITA-4.2.14,pitṛjarogaḥ,पितृजरोगः,True,True
+ITA-5.56.1.4,pittajabhagandaraḥ,पित्तजभगन्दरः,True,True
+ITA-2.1.2.7,pitta-karma,पित्तकर्म,True,True
+ITA-5.6.24,pittajacaturthakajvaraḥ,पित्तजचतुर्थकज्वरः,True,True
+ITA-5.10.3,pittajārśaḥ,पित्तजार्शः,True,True
+ITA-5.23.3,pittajachardiḥ,पित्तजछर्दिः,True,True
+ITA-5.51.3,pittajaślīpadaḥ,पित्तजश्लीपदः,True,True
+ITA-5.27.3,pittajadāhaḥ,पित्तजदाहः,True,True
+ITA-5.44.3,pittajaśophaḥ,पित्तजशोफः,True,True
+ITA-5.63.24,pittajadantanāḍī,पित्तजदन्तनाडी,True,True
+ITA-5.34.3,pittajaśūlaḥ,पित्तजशूलः,True,True
+ITA-5.49.3,pittajagranthiḥ,पित्तजग्रन्थिः,True,True
+ITA-5.21.3,pittajasvarabhedaḥ,पित्तजस्वरभेदः,True,True
+ITA-5.37.3,pittajagulmaḥ,पित्तजगुल्मः,True,True
+ITA-5.24.4,pittajatṛṣṇā,पित्तजतृष्णा,True,True
+ITA-5.38.3,pittajahṛdrogaḥ,पित्तजहृद्रोगः,True,True
+ITA-5.52.3,pittajavidradhiḥ,पित्तजविद्रधिः,True,True
+ITA-5.11.6,pittajājīrṇam,पित्तजाजीर्णम्,True,True
+ITA-5.60.3,pittajavisarpaḥ,पित्तजविसर्पः,True,True
+ITA-5.64.18,pittajakarṇarogaḥ,पित्तजकर्णरोगः,True,True
+ITA-5.61.3,pittajavisphoṭakaḥ,पित्तजविस्फोटकः,True,True
+ITA-5.18.3,pittajakāsaḥ,पित्तजकासः,True,True
+ITA-5.54.4,pittajavraṇaḥ,पित्तजव्रणः,True,True
+ITA-5.70.12,pittajakṣīradoṣaḥ,पित्तजक्षीरदोषः,True,True
+ITA-5.53.3,pittajavraṇaśophaḥ,पित्तजव्रणशोफः,True,True
+ITA-5.61.11,pittajamasūrikā,पित्तजमसूरिका,True,True
+ITA-5.28.3,pittajonmādaḥ,पित्तजोन्मादः,True,True
+ITA-5.25.4,pittajamūrcchā,पित्तजमूर्च्छा,True,True
+ITA-5.60.8,pittakaphajavisarpaḥ,पित्तकफजविसर्पः,True,True
+ITA-5.39.3,pittajamūtrakṛcchram,पित्तजमूत्रकृच्छ्रम्,True,True
+ITA-2.8.7,pittakaphaprakṛtiḥ,पित्तकफप्रकृ तिः,True,True
+ITA-5.56.3,pittajanāḍīvraṇaḥ,पित्तजनाडीव्रणः,True,True
+ITA-6.2.6.6,pittakōpanam,पित्तकोपनम्,True,True
+ITA-5.65.23,pittajanāsārśaḥ,पित्तजनासार्शः,True,True
+ITA-5.2.2.6,pittakṣayaḥ,पित्तक्षयः,True,True
+ITA-5.14.3,pittajapāṇḍurogaḥ,पित्तजपाण्डुरोगः,True,True
+ITA-7.2.5.9,pittalam,पित्तलम्,True,True
+ITA-5.41.17,pittajapramehaḥ,पित्तजप्रमेहः,True,True
+ITA-2.1.2.1,pittam,पित्तम्,True,True
+ITA-5.16.3,pittajaraktapittam,पित्तजरक्तपित्तम्,True,True
+ITA-5.2.2.4,pittaprakopaḥ,पित्तप्रकोपः,True,True
+ITA-5.63.53,pittajarohiṇī,पित्तजरोहिणी,True,True
+ITA-2.8.4,pittaprakṛtiḥ,पित्तप्रकृ तिः,True,True
+ITA-5.2.2.5,pittaprasaraḥ,पित्तप्रसरः,True,True
+ITA-1.6.23,pradeśaḥ,प्रदेशः,True,True
+ITA-5.2.2.3,pittasañcayaḥ,पित्तसञ्चयः,True,True
+ITA-3.8.26,pradeśini,प्रदेशिनि,False,True
+ITA-9.6.37,pittāśayaḥ ITA.3.11.42 pradhamanakarma,प्रधमनकर्म,False,True
+ITA-3.14.3,Pittavahā,पित्तवहा,True,True
+ITA-9.2.92,pradhamanam,प्रधमनम्,True,True
+ITA-3.14.3,Pittavāhinī,पित्तवाहिनी,True,True
+ITA-9.2.68,pradhāna-karma,प्रधान-कर्म,True,True
+ITA-5.66.38,pittavidagdhadṛṣṭiḥ,पित्तविदग्धदृष्टिः,True,True
+ITA-4.4.26,prādhānikahetuḥ,प्राधानिकहेतुः,True,True
+ITA-5.2.2.1,pittavikāraḥ,पित्तविकारः,True,True
+ITA-4.5.19,Prādhānyasamprāptiḥ,प्राधान्यसम्प्राप्तिः,True,True
+ITA-5.2.2.4,pittavṛddhi-lakṣaṇam,पित्तवृद्धि-लक्षणम्,True,True
+ITA-1.9.7.3,pradhvaṃsābhāvaḥ,प्रध्वंसाभावः,True,True
+ITA-8.2.25,pīyūṣaḥ,पीयूषः,True,True
+ITA-1.9.7.2,prāgabhāvaḥ,प्रागभावः,True,True
+ITA-6.2.7.3,plīhā ITA.3.11.11 prāgbhaktaḥ,प्राग्भक्तः,False,True
+ITA-5.43.6,plīhodaraḥ,प्लीहोदरः,True,True
+ITA-2.9.1.14,prajananakālaḥ,प्रजननकालः,True,True
+ITA-5.66.72,pothakī,पोथकी,True,True
+ITA-3.6.8,prajananam,प्रजननम्,True,True
+ITA-3.7.8,poṭṭalakaḥ,पोट्टलकः,True,True
+ITA-2.4.12,prajananamalaḥ,प्रजननमलः,True,True
+ITA-3.8.7,prabāhuḥ,प्रबाहुः,True,True
+ITA-6.2.6.26,prajāsthāpanam,प्रजास्थापनम्,True,True
+ITA-2.1.2.8,prabhā,प्रभा,True,True
+ITA-2.9.1.14,prajāyanī,प्रजायनी,True,True
+ITA-6.2.5.1,prabhāvaḥ,प्रभावः,,
+ITA-4.4.11,prajñāparādhaḥ,प्रज्ञापराधः,True,True
+ITA-9.8.16,prabhāvardhanam,प्रभावर्धनम्,True,True
+ITA-4.8.36,prajñāparādhaḥ,प्रज्ञापराधः,True,True
+ITA-9.6.99,pracchānam,प्रच्छानम्,True,True
+ITA-1.9.3.2.20,prākāmyam,प्राकाम्यम्,True,True
+ITA-9.2.69,pracchardanam,प्रच्छर्दनम्,True,True
+ITA-1.8.2.20,prakaraṇasamaḥ,प्रकरणसमः,True,True
+ITA-9.6.221,pradehaḥ,प्रदेहः,True,True
+ITA-5.66.82,praklinnavartma,प्रक्लिन्नवर्त्म,True,True
+ITA-4.6.8,prakopaḥ,प्रकोपः,True,True
+ITA-1.8.3.4,prameyaḥ,प्रमेयः,True,True
+ITA-3.8.16,prakoṣṭhaḥ,प्रकोष्ठः,True,True
+ITA-2.1.1.2,prāṇaḥ,प्राणः,True,True
+ITA-4.4.14,prākṛtadoṣaḥ,प्राकृ तदोषः,True,True
+ITA-9.4.12,prāṇapratyāgamanam,प्राणप्रत्यागमनम्,True,True
+ITA-2.8.1,prakṛtiḥ,प्रकृ तिः,True,True
+ITA-9.6.198,pranaṣṭaśalyam,प्रनष्टशल्यम्,True,True
+ITA-4.8.17,prakṛtiḥ,प्रकृ तिः,True,True
+ITA-2.5.6,prāṇavahasrotaḥ,प्राणवहस्रोतः,True,True
+ITA-4.8.15,prakṛtisamasamavetasanni-,प्रकृ तिसमसमवेतसन्निपातजरोगः,False,True
+ITA-5.5.2,prāṇavahasrotoduṣṭiḥ,प्राणवहस्रोतोदुष्टिः,True,True
+ITA-5.73.24,prāṇavahasrotoviddhaḥ,प्राणवहस्रोतोविद्धः,True,True
+ITA-9.1.11,prakṛtisthāpanam,प्रकृ तिस्थापनम्,True,True
+ITA-5.2.1.3,prāṇavātakopaḥ,प्राणवातकोपः,True,True
+ITA-9.1.55,prakṛtivighātaḥ,प्रकृ तिविघातः,True,True
+ITA-3.16.1,prāṇāyatanam,प्राणायतनम्,True,True
+ITA-9.6.36,prakṣālanakarma,प्रक्षालनकर्म,True,True
+ITA-9.1.25,praṇipātagamanam,प्रणिपातगमनम्,True,True
+ITA-9.6.213,prakṣālanakarma,प्रक्षालनकर्म,True,True
+ITA-3.9.13,prapadam,प्रपदम्,True,True
+ITA-7.1.2.8,prakṣepaḥ,प्रक्षेपः,True,True
+ITA-3.8.8,prapāṇiḥ,प्रपाणिः,True,True
+ITA-9.6.220,pralepaḥ,प्रलेपः,True,True
+ITA-2.6.31,prasādaḥ,प्रसादः,True,True
+ITA-1.8.2,pramā,प्रमा,True,True
+ITA-9.5.88,prasādanakavalaḥ,प्रसादनकवलः,True,True
+ITA-1.8.3,pramāṇaḥ,प्रमाणः,True,True
+ITA-9.5.30,prasādanāñjanam,प्रसादनाञ्जनम्,True,True
+ITA-3.1.5,pramāṇam,प्रमाणम्,True,True
+ITA-5.76.179,prasādāñjana-apacāraḥ,प्रसादाञ्जन-अपचारः,True,True
+ITA-9.6.38,pramārjanakarma,प्रमार्जनकर्म,True,True
+ITA-5.76.181,prasādāñjana-atiyogaḥ,प्रसादाञ्जन-अतियोगः,True,True
+ITA-9.6.209,pramārjanakarma,प्रमार्जनकर्म,True,True
+ITA-5.76.180,prasādāñjana-ayogaḥ,प्रसादाञ्जन-अयोगः,True,True
+ITA-6.2.6.42,pramāthī,प्रमाथी,True,True
+ITA-5.76.33,prasaktacchardi vamanasya,प्रसक्तच्छर्दि वमनस्य व्यापदः,False,False
+ITA-5.41.1,pramehaḥ,प्रमेहः,True,True
+ITA-5.41.1.1,pramehapiḍakā,प्रमेहपिडका,True,True
+ITA-5.76.112,prasaktacchardirniṣṭhīvikā,प्रसक्तच्छर्दिर्निष्ठीविका श्वास,False,False
+ITA-3.2.1.23,pratibālāḥ,प्रतिबालाः,True,False
+ITA-1.7.20,āsthāpanasya vyāpadaḥ pratijñā,प्रतिज्ञा,False,True
+ITA-1.7.21,pratijñāhāniḥ,प्रतिज्ञाहानिः,True,True
+ITA-9.1.10,praśamanam,प्रशमनम्,True,True
+ITA-5.70.5,pratikhuraḥ,प्रतिखुरः,True,True
+ITA-1.6.25,prasaṅgaḥ,प्रसङ्गः,True,True
+ITA-9.2.90,pratimarśaḥ,प्रतिमर्शः,True,True
+ITA-7.1.1.4,prasannā,प्रसन्ना,True,True
+ITA-9.6.214,pratimarśaḥ,प्रतिमर्शः,True,True
+ITA-4.6.9,prasaraḥ,प्रसरः,True,True
+ITA-5.65.10,pratīnāhaḥ,प्रतीनाहः,True,True
+ITA-10.2.6,praśasta-āhārakālaḥ,प्रशस्त-आहारकालः,True,True
+ITA-6.1.12,pratinidhidravyam,प्रतिनिधिद्रव्यम्,False,False
+ITA-3.6.2,praśastayoniḥ,प्रशस्तयोनिः,True,True
+ITA-7.1.2.7,pratinidhidravyam,प्रतिनिधिद्रव्यम्,True,True
+ITA-4.7.2,praśna,प्रश्न,True,True
+ITA-1.8.2.13,prātiniyamikīsiddhiḥ,प्रातिनियमिकीसिद्धिः,True,True
+ITA-8.2.44,prāsravaṇam,प्रास्रवणम्,True,True
+ITA-1.11.12,pratipattiḥ,प्रतिपत्तिः,True,True
+ITA-7.1.4.10,prasṛtiḥ,प्रसृतिः,True,True
+ITA-9.6.162,pratisāraṇakarma (vraṇacikitsā),प्रतिसारणकर्म (व्रणचिकित्सा),False,False
+ITA-9.2.41,prastarasvedaḥ,प्रस्तरस्वेदः,True,True
+ITA-9.5.91,pratisāraṇam,प्रतिसारणम्,True,True
+ITA-5.66.47,prastāryarma,प्रस्तार्यर्म,True,True
+ITA-9.7.40,pratisāraṇam (viṣopakramaḥ),प्रतिसारणम् (विषोपक्रमः),False,False
+ITA-7.1.4.13,prasthaḥ,प्रस्थः,True,True
+ITA-9.6.90,pratisāraṇīyakṣāraḥ,प्रतिसारणीयक्षारः,True,True
+ITA-1.4.11,prasūtitantra,प्रसूतितन्त्र,False,True
+ITA-1.7.22,pratiṣṭhāpanā,प्रतिष्ठापना,True,True
+ITA-3.13.57,pratānavatīsnāyuḥ,प्रतानवतीस्नायुः,True,True
+ITA-5.76.125,pratiśyāya plīhādayoḥ,प्रतिश्याय प्लीहादयोः,False,False
+ITA-3.13.42,pratarasandhiḥ,प्रतरसन्धिः,True,True
+ITA-5.26.2,prathama-madaḥ,प्रथम-मदः,True,True
+ITA-5.65.13,pratiśyāyaḥ,प्रतिश्यायः,True,True
+ITA-5.66.26,prathama-paṭalagatadoṣaḥ,प्रथम-पटलगतदोषः,True,True
+ITA-5.2.1.52,pratitūnī,प्रतितूनी,True,True
+ITA-2.9.1.6,prathamamāsa-garbhaḥ,प्रथममासगर्भः,True,True
+ITA-5.11.10,prativāsara-ajīrṇam,प्रतिवासर-अजीर्णम्,True,True
+ITA-9.7.41,prativiṣam (viṣopakramaḥ),प्रतिविषम् (विषोपक्रमः),False,False
+ITA-1.9.4.3.7,prayatnaḥ,प्रयत्नः,True,True
+ITA-9.6.185,pratolībandhaḥ,प्रतोलीबन्धः,True,True
+ITA-9.5.71,prāyogikadhūmapānam,प्रायोगिकधूमपानम्,True,True
+ITA-5.2.1.54,pratyādhmānam,प्रत्याध्मानम्,True,True
+ITA-1.6.24,prayojanam,प्रयोजनम्,True,True
+ITA-4.8.28,pratyākhyeyaroga,प्रत्याख्येयरोग,True,True
+ITA-2.8.25,pretakāyaḥ,प्रेतकायः,True,True
+ITA-4.2.43,pratyākhyeyarogaḥ,प्रत्याख्येयरोगः,True,True
+ITA-1.9.3.2.29,pretya,प्रेत्य,True,True
+ITA-1.8.1.1,pratyakṣam,प्रत्यक्षम्,True,True
+ITA-3.7.21,prothau,प्रोथौ,True,True
+ITA-5.2.1.54,pratyānāhaḥ,प्रत्यानाहः,True,True
+ITA-9.2.24,pṛṣṭhabastiḥ,पृष्ठबस्तिः,True,True
+ITA-9.5.36,pratyañjanam,प्रत्यञ्जनम्,True,True
+ITA-3.7.16,pṛṣṭham,पृष्ठम्,True,True
+ITA-1.7.23,pratyanuyogaḥ,प्रत्यनुयोगः,True,True
+ITA-3.16.10,pṛṣṭhamarma,पृष्ठमर्म,True,True
+ITA-4.4.1,pratyayam,प्रत्ययम्,True,True
+ITA-3.7.17,pṛṣṭhavaṃśaḥ,पृष्ठवंशः,True,True
+ITA-1.6.22,pratyutsāraḥ,प्रत्युत्सारः,True,True
+ITA-3.7.17,pṛṣṭheṣikā,पृष्ठेषिका,True,True
+ITA-9.6.215,pravāhaṇakarma,प्रवाहणकर्म,True,True
+ITA-1.9.4.4.7,pṛthaktvam,पृथक्त्वम्,True,True
+ITA-5.8.1,pravāhikā,प्रवाहिका,True,True
+ITA-8.3.37,pṛthukaḥ,पृथुकः,True,True
+ITA-5.76.93,pravāhikābastivyāpat,प्रवाहिकाबस्तिव्यापत्,True,True
+ITA-3.13.59,pṛthulā-snāyuḥ,पृथुलस्नायुः,True,True
+ITA-3.7.5,pravāhiṇī,प्रवाहिणी,True,True
+ITA-1.9.3.1.7,pṛthvī,पृथ्वी,False,False
+ITA-9.2.8,pravicāraṇāsnehaḥ,प्रविचारणास्नेहः,True,True
+ITA-2.2.21,puṃbījam,पुंबीजम्,True,True
+ITA-1.11.1,pravṛttiḥ,प्रवृत्ति,True,True
+ITA-6.2.6.24,puṃstvanāśanaḥ,पुंस्त्वनाशनः,True,False
+ITA-1.11.10,pravṛttiḥ,प्रवृत्तिः,True,True
+ITA-9.9.32,puṁstvopaghātajaklaibyam,पुंस्त्वोपघातजक्लैब्यम्,True,True
+ITA-9.1.9,prāyaścittam,प्रायश्चित्तम्,True,True
+ITA-6.2.6.24,puṃstvopaghātin,पुंस्त्वोपघातिन्,False,False
+ITA-9.1.22,prāyaścittam,प्रायश्चित्तम्,True,True
+ITA-5.59.6,puṇḍarīkaḥ,पुण्डरीकः,True,True
+ITA-8.3.34,pūpaḥ,पूपः,True,True
+ITA-1.9.3.2.9,puruṣaḥ,पुरुषः,True,True
+ITA-8.3.35,pūpalikā,पूपलिका,True,True
+ITA-3.6.8,puruṣendriyam,पुरुषेन्द्रियम्,True,True
+ITA-9.6.16,pūraṇakarma,पूरणकर्म,True,True
+ITA-9.2.4,pūrvakarma,पूर्वकर्म,True,True
+ITA-2.2.17,pūraṇam,पूरणम्,True,True
+ITA-1.6.21,pūrvapakṣaḥ,पूर्वपक्षः,True,True
+ITA-5.35.4,purīṣābhighātaja-udāvartaḥ,पुरीषाभिघातज-उदावर्तः,True,True
+ITA-2.6.36,pūrvapaścima-vibhāgaḥ,पूर्वपश्चिमविभागः,True,True
+ITA-4.8.37,purīṣādhāraḥ ITA.3.11.27 pūrvarūpa,पूर्वरूप,False,True
+ITA-3.12.6,purīṣadharākalā,पुरीषधराकला,True,True
+ITA-4.5.2,pūrvarūpabhedaḥ,पूर्वरूपभेदः,True,True
+ITA-5.13.6,purīṣajakṛmiḥ,पुरीषजकृ मिः,True,True
+ITA-4.5.1,pūrvarūpam,पूर्वरूपम्,True,True
+ITA-6.2.6.52,purīṣajananam,पुरीषजननम्,True,True
+ITA-5.58.10,puṣkarikā,पुष्करिका,True,True
+ITA-5.4.6,purīṣakṣayaḥ,पुरीषक्षयः,True,True
+ITA-5.72.7,puṣpa-viṣaḥ,पुष्प-विषः,True,True
+ITA-2.4.3,purīṣam,पुरीषम्,True,True
+ITA-2.3.3,puṣpam,पुष्पम्,True,True
+ITA-5.39.7,purīṣarodhajamūtrakṛcchram,पुरीषरोधजमूत्रकृच्छ्रम्,True,True
+ITA-7.2.6.6,puṣparāgam,पुष्परागम्,False,True
+ITA-6.2.6.51,purīṣasaṅgrahaṇīya,पुरीषसङ्ग्रहणीय,True,True
+ITA-1.9.3.2.28,puṣpitaḥ,पुष्पितः,True,True
+ITA-5.5.14,purīṣavaha-srōtōduṣṭi,पुरीषवहस्रोतोदुष्टिः,True,True
+ITA-7.2.1.16,puṭaḥ,पुटः,True,True
+ITA-2.5.20,purīṣavahasrotas,पुरीषवहस्रोतः,False,True
+ITA-5.71.12,pūtanāgrahaḥ,पूतनाग्रहः,True,True
+ITA-5.73.35,purīṣavahasrotoviddhaḥ,पुरीषवहस्रोतोविद्धः,True,True
+ITA-5.76.188,puṭapāka-apacāraḥ,पुटपाक-अपचारः,True,True
+ITA-5.4.5,purīṣavaiṣamyam,पुरीषवैषम्यम्,True,True
+ITA-5.76.190,puṭapāka-atiyogaḥ,पुटपाक-अतियोगः,True,True
+ITA-5.75.17,purīṣavegarodhaḥ,पुरीषवेगरोधः,True,True
+ITA-5.76.189,puṭapāka-hīnayogaḥ,पुटपाक-हीनयोगः,True,True
+ITA-6.2.6.50,purīṣavirajanīya,पुरीषविरजनीय,True,True
+ITA-9.5.15,puṭapākaḥ,पुटपाकः,True,True
+ITA-5.4.7,purīṣavṛddhiḥ,पुरीषवृद्धिः,True,True
+ITA-7.1.7,puṭapākasvarasaḥ,पुटपाकस्वरसः,True,True
+ITA-5.64.13,pūtikarṇaḥ,पूतिकर्णः,True,True
+ITA-2.8.23,rākṣasakāyaḥ,राक्षसकायः,True,True
+ITA-5.65.3,pūtīnāsā,पूतीनासा,True,True
+ITA-9.6.179,rakṣāvidhānam (vraṇacikitsā),रक्षाविधानम् (व्रणचिकित्सा),False,False
+ITA-9.9.33,pūtiśukradoṣaḥ,पूतिशुक्रदोषः,True,True
+ITA-2.2.5,rakta-dhātuḥ,रक्तधातुः,True,True
+ITA-5.41.1.9,putriṇī-pramehapiḍakā,पुत्रिणी-प्रमेहपिडका,True,True
+ITA-2.8.1.3,rakta-sāraḥ,रक्तसारः,True,True
+ITA-5.65.5,pūya-śoṇitam,पूय-शोणितम्,True,True
+ITA-5.66.63,rakta-srāvaḥ,रक्त-स्रावः,True,True
+ITA-5.66.58,pūyālasaḥ,पूयालसः,True,True
+ITA-5.66.6,raktābhiṣyandaḥ,रक्ताभिष्यन्दः,True,True
+ITA-5.65.5,pūyaraktam,पूयरक्तम्,True,True
+ITA-3.12.3,Raktadharākalā,रक्तधराकला,True,True
+ITA-5.66.61,pūyasrāvaḥ,पूयस्रावः,True,True
+ITA-5.6.29,raktadhātugatajvaraḥ,रक्तधातुगतज्वरः,True,True
+ITA-8.3.39,rāgaḥ,रागः,True,True
+ITA-2.6.13,raktadhātvagniḥ,रक्तधात्वग्निः,True,True
+ITA-2.3.3,raja,रज,True,True
+ITA-5.61.16,raktagatamasūrikā,रक्तगतमसूरिका,True,True
+ITA-1.9.4.4,rajaḥ,रजः,True,True
+ITA-5.2.1.16,raktagatavātaḥ,रक्तगतवातः,True,True
+ITA-7.1.5,rajaḥ,रजः,True,True
+ITA-2.6.6,raktāgni,रक्ताग्नि,True,False
+ITA-4.2.5,rājasarogaḥ,राजसरोगः,True,True
+ITA-5.66.11,raktaja-adhimanthaḥ,रक्तज-अधिमन्थः,True,True
+ITA-2.8.19,rājasikakāyaḥ,राजसिककायः,True,True
+ITA-5.66.34,raktaja-liṅganāśaḥ,रक्तज-लिङ्गनाशः,True,True
+ITA-2.3.3,rajasrāvaḥ,रजस्रावः,True,True
+ITA-5.63.7,raktaja-oṣṭhaprakopaḥ,रक्तज-ओष्ठप्रकोपः,True,True
+ITA-7.2.5.3,rajatam,रजतम्,True,True
+ITA-5.65.19,raktaja-pratiśyāyaḥ,रक्तज-प्रतिश्यायः,True,True
+ITA-7.2.7.4,rājāvartaḥ,राजावर्तः,True,True
+ITA-5.67.6,raktaja-śirorogaḥ,रक्तज-शिरोरोगः,True,True
+ITA-5.17.1,rājayakṣmā,राजयक्ष्मा,True,True
+ITA-5.57.6,raktaja-upadaṃśaḥ,रक्तज-उपदंशः,True,True
+ITA-3.13.61,rajjuḥ,रज्जुः,True,True
+ITA-5.45.5,raktaja-vṛddhiḥ,रक्तज-वृद्धिः,True,True
+ITA-9.4.21,rakṣākarma,रक्षाकर्म,True,True
+ITA-5.27.2,raktajadāhaḥ,रक्तजदाहः,True,True
+ITA-5.49.7,raktajagranthiḥ,रक्तजग्रन्थिः,True,True
+ITA-5.76.136,raktamokṣaṇamithyāyogaḥ,रक्तमोक्षणमिथ्यायोगः,True,True
+ITA-5.37.5,raktajagulmaḥ,रक्तजगुल्मः,True,True
+ITA-3.6.1,raktapathaḥ,रक्तपथः,True,True
+ITA-5.13.7,raktajakṛmiḥ,रक्तजकृ मिः,True,True
+ITA-5.16.1,raktapittam,रक्तपित्तम्,True,True
+ITA-5.61.14,raktajamasūrikā,रक्तजमसूरिका,True,True
+ITA-5.68.1,raktapradaraḥ,रक्तप्रदरः,True,True
+ITA-5.25.7,raktajamūrcchā,रक्तजमूर्च्छा,True,True
+ITA-5.73.15,raktapūrṇakoṣṭhaḥ,रक्तपूर्णकोष्ठः,True,True
+ITA-5.50.2,raktajārbudaḥ,रक्तजार्बुदः,True,True
+ITA-2.2.7,raktapuṣṭiḥ,रक्तपुष्टिः,True,True
+ITA-5.63.56,raktajarohiṇī,रक्तजरोहिणी रक्ताशयः,True,False
+ITA-5.10.5,raktajārśaḥ,रक्तजार्शः,True,True
+ITA-6.2.6.66,raktaśodhanaḥ,रक्तशोधनः,True,True
+ITA-5.52.6,raktajavidradhiḥ,रक्तजविद्रधिः,True,True
+ITA-5.76.16,raktātipravṛttiḥ,रक्तातिप्रवृत्तिः,True,True
+ITA-5.61.7,raktajavisphoṭakaḥ,रक्तजविस्फोटकः,True,True
+ITA-5.7.7,raktātisāraḥ,रक्तातिसारः,True,True
+ITA-5.54.6,raktajavraṇaḥ,रक्तजव्रणः,True,True
+ITA-3.14.5,Raktavahā,रक्तवहा,True,True
+ITA-5.53.6,raktajavraṇaśophaḥ,रक्तजव्रणशोफः,True,True
+ITA-2.5.11,raktavahasrotas,रक्तवहस्रोतः,False,True
+ITA-5.3.6,raktakṣayaḥ,रक्तक्षयः,True,True
+ITA-5.5.6,raktavahasrotoduṣṭiḥ,रक्तवहस्रोतोदुष्टिः,True,True
+ITA-2.2.5,raktam,रक्तम्,True,True
+ITA-5.73.28,raktavahasrotoviddhaḥ,रक्तवहस्रोतोविद्धः,True,True
+ITA-5.41.21,raktamehaḥ,रक्तमेहः,True,True
+ITA-5.3.5,raktavaiṣamyam,रक्तवैषम्यम्,True,True
+ITA-5.76.133,raktamokṣaṇa-apacāraḥ,रक्तमोक्षण-अपचारः,True,True
+ITA-5.3.7,raktavṛddhiḥ,रक्तवृद्धिः,True,True
+ITA-5.76.135,raktamokṣaṇa-atiyogaḥ,रक्तमोक्षण-अतियोगः,True,True
+ITA-2.1.2.3,rañjaka-pittam,रञ्जकपित्तम्,True,True
+ITA-5.76.134,raktamokṣaṇa-ayogaḥ,रक्तमोक्षण-अयोगः,True,True
+ITA-2.8.1.2,rasa sāraḥ,रससारः,True,True
+ITA-9.6.97,raktamokṣaṇam,रक्तमोक्षणम्,True,True
+ITA-2.2.4,rasa-dhātuḥ,रसधातुः,True,True
+ITA-9.7.30,raktamokṣaṇam,रक्तमोक्षणम् (विषोपक्रमः),False,False
+ITA-5.6.28,rasadhātugatajvaraḥ,रसधातुगतज्वरः,True,True
+ITA-5.61.15,rasadhātugatamasūrikā,रसधातुगतमसूरिका,True,True
+ITA-7.2.1,rasaśāstram,रसशास्त्रम्,True,True
+ITA-2.6.12,rasadhātvagniḥ,रसधात्वग्निः,True,True
+ITA-5.11.8,rasaśeṣajanya-ajīrṇam,रसशेषजन्य-अजीर्णम्,True,True
+ITA-2.6.6,rasāgni,रसाग्नि रसस्थानम्,True,False
+ITA-1.9.4.1.3,rasaḥ,रसः,True,True
+ITA-5.74.14,rasātiyogaḥ,रसातियोगः,True,True
+ITA-2.2.4,rasaḥ,रसः,True,True
+ITA-3.15.5,rasavahādhamanī,रसवहाधमनी,True,True
+ITA-6.2.1.1,rasaḥ,रसः,True,True
+ITA-2.5.10,rasavahasrotas,रसवहस्रोतः,False,True
+ITA-8.3.50,rasaḥ,रसः,True,True
+ITA-5.5.5,rasavahasrotoduṣṭiḥ,रसवहस्रोतोदष्टिः,True,True
+ITA-7.2.2.9,rasakaḥ,रसकः,True,True
+ITA-5.73.27,rasavahasrotoviddhaḥ,रसवहस्रोतोविद्धः,True,True
+ITA-7.1.10,rasakriyā,रसक्रिया,True,True
+ITA-5.3.2,rasavaiṣamyam,रसवैषम्यम्,True,True
+ITA-9.6.150,rasakriyā (vraṇacikitsā),रसक्रिया (व्रणचिकित्सा),False,False
+ITA-5.3.4,rasavṛddhiḥ,रसवृद्धिः,True,True
+ITA-9.5.35,rasakriyā kṣudrāñjanam,रसक्रिया क्षुद्राञ्जनम्,True,True
+ITA-9.8.1,rasāyana-cikitsā,रसायन-चिकित्सा,True,True
+ITA-4.2.16,rasakṛtarogaḥ,रसकृ तरोगः,True,True
+ITA-1.4.9,rasāyanacikitsā,रसायनचिकित्सा,True,True
+ITA-5.3.3,rasakṣayaḥ,रसक्षयः,True,True
+ITA-9.1.35,rasāyanam,रसायनम्,True,True
+ITA-5.24.7,rasakṣayajatṛṣṇā,रसक्षयजतृष्णा,True,True
+ITA-7.2.6.1,ratnam,रत्नम्,True,True
+ITA-8.2.26,rasālā,रसाला,True,True
+ITA-10.3.2,rātricaryā,रात्रिचर्या,True,True
+ITA-3.2.4.18,rasanā,रसना,True,True
+ITA-5.66.39,rātryāndhyam,रात्र्यान्ध्यम्,True,True
+ITA-3.2.4.21,rasanabandhanam,रसनबन्धनम्,True,True
+ITA-7.1.4.3,rattī,रत्ती,True,True
+ITA-3.10.7,rasanendriyam,रसनेन्द्रियम्,True,True
+ITA-6.2.6.14,recana-karma,रे चनकर्म,True,True
+ITA-9.5.32,rasāñjanam,रसाञ्जनम्,True,True
+ITA-9.2.94,recananasyam,रे चननस्यम्,True,True
+ITA-6.2.1,rasapañcakam,रसपञ्चकम्,True,True
+ITA-7.2.1.8,rekhāpurṇatā,रे खापूर्णता,True,True
+ITA-2.2.19,retas,रे तस्,True,True
+ITA-5.13.7,romādaḥ,रोमादः,True,True
+ITA-9.9.40,retodoṣaḥ,रे तोदोषः,True,True
+ITA-7.2.9.7,romakalavaṇam,रोमकलवणम्,False,True
+ITA-5.71.11,revatīgrahaḥ,रे वतीग्रहः,True,True
+ITA-3.10.1.14,romakūpaḥ,रोमकू पः,True,True
+ITA-9.6.76,ṛjugranthiḥ,ऋजुग्रन्थिः,True,True
+ITA-3.10.1.12,romāntaḥ,रोमान्तः,True,True
+ITA-9.6.34,ṛjūkaraṇakarma,ऋजूकरणकर्म,True,True
+ITA-3.10.1.11,romarājī,रोमराजी,True,True
+ITA-6.2.6.33,rocanaḥ,रोचनः,True,True
+ITA-9.6.163,romasañjananakarma,रोमसञ्जननकर्म,True,True
+ITA-6.2.6.33,rociṣṇuḥ,रोचिष्णुः,True,True
+ITA-6.2.6.81,romasañjananam,रोमसञ्जननम्,True,True
+ITA-9.4.46,rodanam,रोदनम्,True,True
+ITA-3.10.1.13,romāvartaḥ,रोमावर्तः,True,True
+ITA-7.2.12,rodhanam,रोधनम्,True,True
+ITA-9.5.25,ropaṇa-āścyotanam,रोपण-आश्च्योतनम्,True,True
+ITA-4.2.1,roga,रोग,False,False
+ITA-9.5.85,ropaṇagaṇḍūṣaḥ,रोपणगण्डू षः,True,True
+ITA-4.8.11,rogādhiṣṭhānam,रोगाधिष्ठानम्,True,True
+ITA-9.6.117,ropaṇakarma,रोपणकर्म,True,True
+ITA-4.8.10,rogānīkaḥ,रोगानीकः,True,True
+ITA-9.5.90,ropaṇakavalaḥ,रोपणकवलः,True,True
+ITA-4.3.1,rogaparīkṣā,रोगपरीक्षा,False,False
+ITA-5.76.182,ropaṇāñjana-apacāraḥ,रोपणाञ्जन-अपचारः,True,True
+ITA-4.6.1,rogāvasthā,रोगावस्था,True,True
+ITA-5.76.184,ropaṇāñjana-atiyogaḥ,रोपणाञ्जन-अतियोगः,True,True
+ITA-4.1.1,rogaviniścayaḥ,रोगविनिश्चयः,True,True
+ITA-5.76.183,ropaṇāñjana-ayogaḥ,रोपणाञ्जन-अयोगः,True,True
+ITA-1.11.17,rogi,रोगि,True,True
+ITA-9.5.29,ropaṇāñjanam,रोपणाञ्जनम्,True,True
+ITA-4.7.1,rogīparīkṣā,रोगीपरीक्षा,True,True
+ITA-9.5.17,ropaṇapuṭapākaḥ,रोपणपुटपाकः,True,True
+ITA-3.10.1.7,rohiṇī,रोहिणी,True,True
+ITA-9.5.21,ropaṇasekaḥ,रोपणसेकः,True,True
+ITA-5.63.51,rohiṇī,रोहिणी,True,True
+ITA-2.8.18,ṛṣikāyaḥ,ऋषिकायः,True,True
+ITA-3.10.1.10,roma,रोम,True,True
+ITA-5.59.5,ṛṣyajihvakaḥ,ऋष्यजिह्वकः,True,True
+ITA-10.3.3,ṛtucaryā,ऋतुचर्या,True,True
+ITA-1.9.4.1.4,rūpaḥ,रूपः,True,True
+ITA-7.1.4.39,ṛtuḥ,ऋतुः,True,True
+ITA-4.5.5,rūpam,रूपम्,True,True
+ITA-5.75.5,ṛtukālacaryā-vaiṣamyam,ऋतुकालचर्या-वैषम्यम्,True,True
+ITA-3.15.4,Rūpavahādhamanī,रूपवहाधमनी,True,True
+ITA-2.9.1.1,ṛtumatiḥ,ऋतुमतिः,True,True
+ITA-3.2.3.3,śabdābhivahā,शब्दाभिवहा,True,True
+ITA-10.3.4,ṛtusandhiḥ,ऋतुसन्धिः,True,True
+ITA-1.9.4.1.6,śabdaḥ,शब्दः,True,True
+ITA-10.3.6,ṛtuśodhanam,ऋतुशोधनम्,True,True
+ITA-3.2.3.3,śabdānuvahā,शब्दानुवहा,True,True
+ITA-10.3.5,ṛtuviparyayaḥ,ऋतुविपर्ययः,True,True
+ITA-3.2.3.3,śabdapathaḥ,शब्दपथः,True,True
+ITA-3.13.6,rucakāsthi,रुचकास्थि,True,True
+ITA-3.15.2,śabdavahādhamanī,शब्दवहाधमनी,True,True
+ITA-6.2.6.33,rucikṛt,रुचिकृ त्,True,True
+ITA-3.2.3.3,śabdavahasrotas,शब्दवहस्रोतस्,True,True
+ITA-6.2.6.33,rucyam,रुच्यम्,True,True
+ITA-6.2.7.8,sabhaktaḥ,सभक्तः,True,True
+ITA-9.6.106,rudhira-nivāraṇam (caturvidha),रुधिर-निवारणम् (चतुर्विध),False,False
+ITA-3.1.8,ṣaḍaṅgam,षडङ्गम्,True,True
+ITA-8.3.40,rudhirasthānam ITA.3.11.44 ṣāḍavaḥ,षाडवः,False,True
+ITA-5.62.25,rūhyā,रुह्या,True,True
+ITA-1.9.3.2.11,ṣaḍdhātupuruṣa,षड्धातुपुरुष,True,True
+ITA-5.54.9,ruhyamāṇavraṇaḥ,रुह्यमाणव्रणः,True,True
+ITA-2.1.2.6,sādhakapittam,साधकपित्तम्,True,True
+ITA-3.16.22,rujākaramarma,रुजाकरमर्म,True,True
+ITA-1.8.2.6,sādhana,साधन,True,True
+ITA-1.9.4.2.9,rūkṣaḥ,रूक्षः,True,True
+ITA-9.1.6,sādhanam,साधनम्,True,True
+ITA-5.76.9,rūkṣaṇa-apacāraḥ,रूक्षण-अपचारः,True,True
+ITA-7.2.4.1,sādhāraṇarasaḥ,साधारणरसः,True,True
+ITA-5.76.10,rūkṣaṇa-atiyogaḥ,रूक्षण-अतियोगः,True,True
+ITA-1.8.2.5,sadhetu,सद्हेतु,True,True
+ITA-6.2.6.45,rukṣaṇam,रुक्षणम्,True,True
+ITA-1.8.2.7,sādhya,साध्य,True,True
+ITA-9.9.39,rūkṣaretodoṣaḥ,रूक्षरे तोदोषः,True,True
+ITA-4.2.38,sādhyarogaḥ,साध्यरोगः,True,True
+ITA-4.2.37,sādhyāsādhyatā,साध्यासाध्यता,True,True
+ITA-3.1.23,śākhā,शाखा,True,True
+ITA-4.8.21,ṣaḍripuḥ ITA- śākhāgatiḥ,शाखागतिः,False,True
+ITA-3.16.5,Śākhāmarma,शाखामर्म,True,True
+ITA-4.7.3,ṣaḍvidhaparīkṣā,षड्विधपरीक्षा,True,True
+ITA-5.15.3,śākhāśritakāmalā,शाखाश्रितकामला,True,True
+ITA-9.1.42,ṣaḍvidhopakramāḥ,षड्विधोपक्रमाः,True,True
+ITA-3.7.1,śakṛnmārgaḥ,शकृ न्मार्गः,True,True
+ITA-10.3.7,sadvṛttam,सद्वृत्तम्,True,True
+ITA-2.4.3,śakṛt,शकृ त्,True,False
+ITA-6.2.6.57,sadyaḥkṣataghnam,सद्यःक्षतघ्नम्,True,True
+ITA-1.9.3.2.6,sākṣī,साक्षी,True,True
+ITA-3.16.18,sadyaḥprāṇaharamarma,सद्यःप्राणहरमर्म,True,True
+ITA-3.9.1,sakthi,सक्थि,True,True
+ITA-9.2.6,sadyasnehaḥ,सद्यस्नेहः,True,True
+ITA-3.16.6,Sakthimarma,सक्थिमर्म,True,True
+ITA-2.9.1.4,sadyogarbhaḥ,सद्योगर्भः,True,True
+ITA-6.2.3.1,śaktiḥ,शक्तिः,,
+ITA-9.4.9,sadyojāta,सद्योजातः,True,True
+ITA-8.3.28,saktuḥ,सक्तुः,True,True
+ITA-9.4.11,sadyojātaśiśuparicaryā,सद्योजातशिशुपरिचर्या,True,True
+ITA-5.71.10,śakunīgrahaḥ,शकु नीग्रहः,True,True
+ITA-5.54.12,sadyovraṇaḥ,सद्योव्रणः,True,True
+ITA-2.8.22,śākunikāyaḥ,शाकु निकायः,True,True
+ITA-9.2.54,sāgni-upanāhasvedaḥ,साग्नि-उपनाहस्वेदः,True,True
+ITA-9.5.3,śalākā,शलाका,True,True
+ITA-6.2.7.9,sagrāsam,सग्रासम्,True,True
+ITA-9.6.12,śalākāyantram,शलाकायन्त्रम्,True,True
+ITA-2.2.28,sahaja-balam,सहजबलम्,True,True
+ITA-9.5.2,śalākī,शलाकी,True,True
+ITA-5.10.7,sahajārśaḥ,सहजार्शः,True,True
+ITA-9.5.2,śālākin,शालाकिन्,True,True
+ITA-7.2.9.2,saindhavalavaṇam,सैन्धवलवणम्,True,True
+ITA-1.4.6,śālakyatantra,शालाक्यतन्त्र,True,True
+ITA-8.2.5,śākavargaḥ,शाकवर्गः,True,True
+ITA-9.5.1,śālākyatantram,शालाक्यतन्त्रम्,True,True
+ITA-1.5.1,śākhā,शाखा,False,False
+ITA-5.74.10,śālidhānya-atiyogaḥ,शालिधान्य-अतियोगः,True,True
+ITA-1.5.3,śākhā,शाखा,True,True
+ITA-8.3.29,śālisaktuḥ,शालिसक्तुः,True,True
+ITA-4.8.33,sāmānyajavikāraḥ,सामान्यजविकारः,True,True
+ITA-1.4.7,śalyacikitsā,शल्यचिकित्सा,True,True
+ITA-1.9.1.1,sāmānyam,सामान्यम्,True,True
+ITA-9.6.199,śalyagatiḥ,शल्यगतिः,True,True
+ITA-4.5.4,sāmānyapūrvarūpam,सामान्यपूर्वरूपम्,True,True
+ITA-5.56.1.7,śalyajanyabhagandaraḥ,शल्यजन्यभगन्दरः,True,True
+ITA-10.2.8,samaśanam,समशनम्,True,True
+ITA-9.6.195,śalyam,शल्यम्,True,True
+ITA-1.9.6.1,samavāyaḥ,समवायः,True,True
+ITA-5.56.6,śalyanimittajanāḍīvraṇaḥ,शल्यनिमित्तजनाडीव्रणः,True,True
+ITA-1.8.2.30,samavāyikāraṇam,समवायिकारणम्,True,True
+ITA-5.76.66,śalyārdita-virecanavyāpat,शल्यार्दित-विरे चनव्यापत्,True,True
+ITA-1.6.34,sambhavaḥ,सम्भवः,True,True
+ITA-9.6.1,śalyatantram,शल्यतन्त्रम्,True,True
+ITA-6.2.7.8,sambhojyam,सम्भोज्यम्,True,True
+ITA-4.8.23,sāmadoṣaḥ,सामदोषः,True,True
+ITA-5.56.1.6,śambūkāvartabhagandaraḥ,शम्बूकावर्तभगन्दरः,True,True
+ITA-2.6.8,samāgniḥ,समाग्निः,True,True
+ITA-4.2.22,samghātabalapravṛttarogaḥ,संघातबलप्रवृत्तरोगः,True,True
+ITA-9.6.39,samāhitayantraḥ,समाहितयन्त्रः,True,True
+ITA-8.2.3,śamīdhānyavargaḥ,शमीधान्यवर्गः,True,True
+ITA-5.4.8,sāmamalaḥ,साममलः,True,True
+ITA-9.1.64,samjñāprabodhanam,संज्ञाप्रबोधनम्,True,True
+ITA-9.5.69,śamanadhūmapānam,शमनधूमपानम्,True,True
+ITA-6.2.6.71,saṃjñāsthāpanam,संज्ञास्थापनम्,True,True
+ITA-9.5.83,śamanagaṇḍūṣaḥ,शमनगण्डू षः,True,True
+ITA-9.7.42,samjñāsthāpanam,संज्ञास्थापनम् (विषोपक्रम),False,False
+ITA-2.1.1.5,samānaḥ,समानः,True,True
+ITA-7.2.8.3,śaṃkhaḥ,शंखः,True,True
+ITA-9.5.88,śamanakavalaḥ,शमनकवलः,True,True
+ITA-3.13.46,śaṃkhāvartasandhiḥ,शंखावर्तसन्धिः,True,True
+ITA-6.2.6.5,śamanam,शमनम्,True,True
+ITA-1.9.4.4.4,saṃkhyā,संख्या,True,True
+ITA-9.2.96,śamananasyam,शमननस्यम्,True,True
+ITA-6.1.7,samānapratyayārabdhadravyaḥ,समानप्रत्ययारब्धद्रव्यः,False,False
+ITA-5.58.17,saṃmūḍhapiḍakā,संमूढपिडका,True,True
+ITA-5.2.1.6,samānavātakopaḥ,,True,False
+ITA-5.25.11,saṃnyāsaḥ,संन्यासः,True,True
+ITA-8.2.46,sāmudrajalam,सामुद्रजलम्,True,True
+ITA-4.5.17,samprāptibhedaḥ,सम्प्राप्तिभेदः,True,True
+ITA-7.2.9.5,sāmudralavaṇam,सामुद्रलवणम्,True,True
+ITA-4.5.16,samprāptiḥ,सम्प्राप्तिः,True,True
+ITA-4.4.1,samutthānam.,समुत्थानम्,True,True
+ITA-6.2.6.9,saṃśamana-karma,संशमन-कर्म,True,True
+ITA-9.2.27,samvāhanam,संवाहनम्,False,True
+ITA-9.1.38,saṁśamanam,संशमनम्,True,True
+ITA-3.7.6,saṃvaraṇī,संवरणी,True,True
+ITA-4.8.38,saṃsarga,संसर्ग,True,True
+ITA-7.1.4.41,saṃvatsaraḥ,संवत्सरः,True,True
+ITA-4.2.32,samsargajarogaḥ,संसर्गजरोगः,True,True
+ITA-9.4.40,saṃvṛtadantaḥ,संवृतदन्तः,True,True
+ITA-9.2.110,samsarjanakramaḥ,संसर्जनक्रमः,False,True
+ITA-5.54.10,samyagrūḍhavraṇaḥ,सम्यग्रूढव्रणः,True,True
+ITA-1.6.32,saṃśayaḥ,संशयः,True,True
+ITA-9.6.96,samyak-dagdhaḥ,सम्यक् -दग्धः,True,True
+ITA-9.4.24,saṁskāraḥ,संस्कारः,True,True
+ITA-1.9.4.4.5,saṃyogaḥ,संयोगः,True,True
+ITA-9.7.13,saṃskāraḥ ITA- saṁyogajaviṣam,संयोगजविषम्,False,True
+ITA-5.41.10,śanairmehaḥ,शनैर्मेहः,True,True
+ITA-8.3.18,saṃskṛtalājamaṇḍaḥ,संस्कृ तलाजमण्डः,True,True
+ITA-4.8.20,sañcārasthānam,सञ्चारस्थानम्,True,True
+ITA-9.2.1,saṁśodhanakarma,संशोधनकर्म,True,True
+ITA-4.6.7,sañcayaḥ,सञ्चयः,True,True
+ITA-9.2.3,saṁśodhanārhaḥ,संशोधनार्हः,True,True
+ITA-9.6.9,sandaṃśayantram,सन्दंशयन्त्रम्,True,True
+ITA-4.5.5,samsthānam,संस्थानम्,True,True
+ITA-6.2.6.73,sandhānakaraḥ,सन्धानकरः,True,True
+ITA-4.2.1,samuccaya,समुच्चय,True,False
+ITA-9.6.140,sandhānakarma,सन्धानकर्म,True,True
+ITA-1.6.33,samuccayaḥ,समुच्चयः,True,True
+ITA-7.1.1.3,sandhānam,सन्धानम्,True,True
+ITA-9.4.39,sāmudgadantaḥ,सामुद्गदन्तः,True,True
+ITA-9.6.107,sandhānam,सन्धानम्,True,True
+ITA-6.2.7.7,sāmudgam,सामुद्गम्,True,True
+ITA-6.2.6.72,sandhānīya,सन्धानीय,True,True
+ITA-3.13.41,sāmudgasandhiḥ,सामुद्गसन्धिः,True,True
+ITA-1.7.31,sandhāyasaṃbhāṣā,सन्धायसंभाषा,True,True
+ITA-9.5.53,saṅkṣiptaḥ,सङ्क्षिप्त:,False,True
+ITA-5.73.7,sandhigata-śalyaḥ,सन्धिगत-शल्यः,True,True
+ITA-6.2.7.8,sānnam,सान्नम्,True,True
+ITA-5.2.1.24,sandhigatavātaḥ,सन्धिगतवातः,True,True
+ITA-1.8.1.2,sannikarṣaḥ,सन्निकर्षः,True,True
+ITA-3.13.36,sandhiḥ,सन्धिः,True,True
+ITA-4.4.23,sannikṛṣṭahetuḥ,सन्निकृ ष्टहेतुः,True,True
+ITA-7.2.1.15,sandhilēpanam,सन्धिलेपनम्,True,True
+ITA-4.8.9,sannipātaḥ,सन्निपातः,True,True
+ITA-3.16.16,sandhimarma,सन्धिमर्म,True,True
+ITA-5.9.5,sannipātaja grahaṇīroga,सन्निपातजग्रहणीरोग,True,True
+ITA-6.2.6.24,ṣāṇḍhyakaraḥ,षाण्ढ्यकरः,True,True
+ITA-5.29.5,sannipātaja-apasmāraḥ,सन्निपातज-अपस्मारः,True,True
+ITA-5.22.5,sāndraḥ ITA- sannipātaja-arocakaḥ,सन्निपातज-अरोचकः,False,True
+ITA-5.63.6,sannipātaja-oṣṭhaprakopaḥ,सन्निपातज-ओष्ठप्रकोपः,True,True
+ITA-5.41.5,sāndramehaḥ,सान्द्रमेहः,True,True
+ITA-5.65.17,sannipātaja-pratiśyāyaḥ,सन्निपातज-प्रतिश्यायः,True,True
+ITA-5.41.6,sāndraprasādamehaḥ,सान्द्रप्रसादमेहः,True,True
+ITA-5.67.5,sannipātaja-śirorogaḥ,सन्निपातज-शिरोरोगः,True,True
+ITA-4.8.6,saṅgaḥ,सङ्गः,True,True
+ITA-5.66.61,sannipātaja-srāvaḥ,सन्निपातज-स्रावः,True,True
+ITA-3.13.64,saṅghātaḥ,सङ्घातः,True,True
+ITA-5.43.5,sannipātaja-udararogaḥ,सन्निपातज-उदररोगः,True,True
+ITA-5.57.5,1.9.3.3.12 sannipātaja-upadaṃśaḥ,सन्निपातज-उपदंशः,False,True
+ITA-9.2.40,saṅkarasvedaḥ,सङ्करस्वेदः सन्निपातज-योनिरोगः,True,False
+ITA-5.69.5,sannipātaja-yonirogaḥ,,True,False
+ITA-9.7.16,śaṅkāviṣam,शङ्काविषम् सन्निपातजभगन्दरः,True,False
+ITA-5.56.1.6,sannipātajabhagandaraḥ,,True,False
+ITA-3.2.4,śaṅkhaḥ,शङ्खः सन्निपातजछर्दिः,True,False
+ITA-5.23.5,sannipātajachardiḥ,,True,False
+ITA-5.67.11,śaṅkhakaḥ,शङ्खकः सन्निपातजगुल्मः,True,False
+ITA-5.37.6,sannipātajagulmaḥ,,True,False
+ITA-3.2.6,śaṅkhapradeśaḥ,शङ्खप्रदेशः सन्निपातजहृद्रोगः,True,False
+ITA-5.38.5,sannipātajahṛdrogaḥ,,True,False
+ITA-4.5.18,saṅkhyāsamprāptiḥ,सङ्ख्यासम्प्राप्तिः सन्निपातजज्वरः,True,False
+ITA-5.6.12,sannipātajajvaraḥ,,True,False
+ITA-5.64.20,sannipātajakarṇarogaḥ,सन्निपातजकर्णरोगः,True,True
+ITA-5.3.11,sānnipātikaraktaduṣṭiḥ,सान्निपातिकरक्तदुष्टिः,True,True
+ITA-5.70.13,sannipātajakṣīradoṣaḥ,सन्निपातजक्षीरदोषः,True,True
+ITA-5.16.5,sannipātikaraktapittam,सन्निपातिकरक्तपित्तम्,True,True
+ITA-5.25.6,sannipātajamūrcchā,सन्निपातजमूर्च्छा,True,True
+ITA-5.34.5,sānnipātikaśūlaḥ,सान्निपातिकशूलः,True,True
+ITA-5.56.5,sannipātajanāḍīvraṇaḥ,सन्निपातजनाडीव्रणः,True,True
+ITA-5.62.38,sanniruddhagudaḥ,सन्निरुद्धगुदः,True,True
+ITA-5.65.25,sannipātajanāsārśaḥ,सन्निपातजनासार्शः,True,True
+ITA-1.6.17,sanniyogaḥ,सन्नियोगः,True,True
+ITA-5.14.5,sannipātajapāṇḍurogaḥ,सन्निपातजपाण्डुरोगः,True,True
+ITA-9.1.40,santarpaṇam,सन्तर्पणम्,True,True
+ITA-5.63.55,sannipātajarohiṇī,सन्निपातजरोहिणी,True,True
+ITA-5.6.16,santataviṣamajvaraḥ,सन्ततविषमज्वरः,True,True
+ITA-5.10.6,sannipātajārśaḥ,सन्निपातजार्शः,True,True
+ITA-9.1.32,sānubādhanam,सानुबाधनम्,True,True
+ITA-5.44.6,sannipātajaśophaḥ,सन्निपातजशोफः,True,True
+ITA-1.8.2.23,sapakṣaḥ,सपक्षः,True,True
+ITA-5.52.5,sannipātajavidradhiḥ,सन्निपातजविद्रधिः,True,True
+ITA-8.3.9,sapiṇḍikaḥ,सपिण्डिकः,True,True
+ITA-5.60.5,sannipātajavisarpaḥ,सन्निपातजविसर्पः,True,True
+ITA-2.9.1.12,saptamamāsa-garbhaḥ,सप्तममासगर्भः,True,True
+ITA-5.61.6,sannipātajavisphoṭakaḥ,सन्निपातजविस्फोटकः,True,True
+ITA-5.72.9,sāra-viṣaḥ,सार-विषः,True,True
+ITA-5.53.5,sannipātajavraṇaśophaḥ,सन्निपातजव्रणशोफः सरः,True,False
+ITA-5.69.10,sannipātajayonikandaḥ,सन्निपातजयोनिकन्दः,True,True
+ITA-2.8.1.1,sāraḥ,सारः,True,True
+ITA-5.28.5,sannipātajonmādaḥ,सन्निपातजोन्मादः,True,True
+ITA-9.6.53,śarārimukhaśastram,शरारिमुखशस्त्रम्,True,True
+ITA-5.39.5,sannipātamūtrakṛcchram,सन्निपातमूत्रकृच्छ्रम्,True,True
+ITA-8.2.47,sārasam,सारसम्,True,True
+ITA-5.68.5,sannipātika-asṛgdaraḥ,सन्निपातिक-असृग्दरः,False,False
+ITA-7.1.4.12,śarāvaḥ,शरावः,True,True
+ITA-5.63.26,sānnipātika-dantanāḍī,सान्निपातिक-दन्तनाडी,True,True
+ITA-7.2.1.2,śarāvaḥ,शरावः,True,True
+ITA-5.66.35,sānnipātika-liṅganāśaḥ,सान्निपातिक-लिङ्गनाशः,True,True
+ITA-5.41.1.2,śarāvikā-pramehapiḍakā,शराविका-प्रमेहपिडका,True,True
+ITA-5.64.20,sānnipātikakarṇaśūlam,सान्निपातिककर्णशूलम्,True,True
+ITA-1.9.4.2.1,śārīra-guṇāḥ,शारीर-गुणाः,True,True
+ITA-3.1.4,śarīra-sampat,शरीरसम्पत्,True,True
+ITA-5.41.1.7,sarṣapikā-pramehapiḍakā,सर्षपिका-प्रमेहपिडका,True,True
+ITA-3.1.3,śarīra-vṛddhikara-bhāvaḥ,शरीरवृद्धिकरभावः,True,True
+ITA-2.8.1.10,sarva-sāraḥ,सर्वसारः,True,True
+ITA-4.8.39,śarīrādhiṣṭānaṃ,शरीराधिष्टानम्,True,True
+ITA-5.73.36,sarvāṅgābhihataḥ,सर्वाङ्गाभिहतः,False,True
+ITA-3.1.2,śarīraḥ,शरीरः,True,True
+ITA-3.1.7,sarvāṅgaḥ,सर्वाङ्गः,True,True
+ITA-3.1.1,śārīraḥ,शारीरः,True,True
+ITA-5.2.1.32,sarvāṅgarogaḥ,सर्वाङ्गरोगः,True,True
+ITA-5.2.1.32,śarīramadhyam ITA.3.11.1 sarvāṅgavātaḥ,सर्वाङ्गवातः,False,True
+ITA-3.1.18,śarīrārdham,शरीरार्धम्,True,True
+ITA-5.63.70,sarvasaramukharogaḥ,सर्वसरमुखरोगः,True,True
+ITA-9.6.196,śārīraśalyam,शारीरशल्यम्,True,True
+ITA-9.8.18,sarvopaghātaśamanīya-,सर्वोपघातशमनीयरसायनम्,False,True
+ITA-3.1.9,śarīrāvayavaḥ,शरीरावयवः,True,True
+ITA-5.54.13,saśalyavraṇaḥ,सशल्यव्रणः,True,True
+ITA-2.1.2,śārīrikadoṣa,शारीरिकदोष,True,True
+ITA-3.2.3.13,śaṣkulī,शष्कु ली,True,True
+ITA-4.4.7,śārīrikahetuḥ,शारीरिकहेतुः,True,True
+ITA-8.3.33,śaṣkuliḥ,शष्कुलिः,True,True
+ITA-7.2.10.3,sarjikākṣāraḥ,सर्जिकाक्षारः,True,True
+ITA-5.66.12,saśophapākaḥ,सशोफपाकः,True,True
+ITA-7.2.10.3,sarjikṣāraḥ,सर्जिक्षारः,True,True
+ITA-2.9.1.11,ṣaṣṭamamāsa-garbhaḥ,षष्ठमासगर्भः,True,True
+ITA-5.39.8,śarkarā-aśmarī,शर्करा-अश्मरी,True,True
+ITA-5.76.148,śastradaṇḍahate nasya,शस्त्रदण्डहते नस्य व्यापदः,False,True
+ITA-5.39.8,śarkarājamūtrakṛcchram,शर्कराजमूत्रकृच्छ्रम्,True,True
+ITA-9.6.87,śastradhārā,शस्त्रधारा,True,True
+ITA-5.62.21,śarkarārbudaḥ,,True,False
+ITA-9.6.82,śastradoṣaḥ,शस्त्रदोषः,True,True
+ITA-1.10.2,Śārṅgadharasaṃhita,,True,False
+ITA-1.5.9,śāstraguṇāḥ,शास्त्रगुणाः,True,True
+ITA-2.8.21,sarpakāyaḥ,,True,False
+ITA-5.76.200,śastrakarma-apacāraḥ,शस्त्रकर्म-अपचारः,True,True
+ITA-9.6.148,sarpiḥ (vraṇacikitsā),,False,False
+ITA-9.6.2,śastrakarmayogya-,शस्त्रकर्मयोग्यवैद्यलक्षण:,False,True
+ITA-5.58.16,sarṣapikā,,True,False
+ITA-4.2.23,śastrakṛtarogaḥ,शस्त्रकृ तरोगः,True,True
+ITA-2.8.1.9,sattva-sāraḥ,सत्त्वसारः,True,True
+ITA-9.6.41,śastram,शस्त्रम्,True,True
+ITA-2.8.11,sattvakāyaḥ,सत्त्वकायः,True,True
+ITA-1.5.1,śāstram,शास्त्रम्,True,True
+ITA-1.9.4.3,sattvam,सत्त्वम्,True,True
+ITA-9.6.83,śastrapāyanā,शस्त्रपायना,True,True
+ITA-9.3.1,satvāvajayacikitsā,सत्वावजयचिकित्सा,True,True
+ITA-4.8.40,śastrasādhya,शस्त्रसाध्य सत्यबुद्धिः,True,False
+ITA-9.6.81,śastrasampat,शस्त्रसम्पत्,True,True
+ITA-5.13.5,saugandhikaḥ,सौगन्धिकः,False,True
+ITA-5.76.201,śastravibhramaḥ,शस्त्रविभ्रमः,True,True
+ITA-9.9.48,saumyadhātukṣayajaklaibyam,सौम्यधातुक्षयजक्लैब्यम्,True,True
+ITA-9.6.98,śastravisrāvaṇam,शस्त्रविस्रावणम्,True,True
+ITA-6.2.1.16,saumyarasaḥ,सौम्यरसः,True,True
+ITA-5.13.6,saśūlakaḥ,सशूलकः,False,True
+ITA-4.2.9,saumyarogaḥ,सौम्यरोगः,True,True
+ITA-7.2.2.7,sasyakaḥ,सस्यकः,True,True
+ITA-5.13.7,saurasaḥ,सौरसः,False,True
+ITA-9.6.7,ṣaṭ-yantraprakāraḥ,षट् -यन्त्रप्रकारः,True,True
+ITA-2.1.2.12,śauryam,शौर्यम्,True,True
+ITA-5.63.63,śataghnī,शतघ्नी,True,True
+ITA-5.63.14,śauṣiraḥ,शौषिरः,True,True
+ITA-5.72.31,śatapadī-daṣṭaḥ,शतपदी-दष्टः,True,True
+ITA-5.13.6,sausūlakaḥ,सौसूलकः,True,True
+ITA-5.56.1.3,śataponakabhagandaraḥ,शतपोनकभगन्दरः,True,True
+ITA-5.13.6,sausurādaḥ,सौसुरादः,True,True
+ITA-5.58.14,śataponakaḥ,शतपोनकः,True,True
+ITA-7.2.9.6,sauvarcalalavaṇam,सौवर्चललवणम्,True,True
+ITA-5.59.18,śatārukuṣṭhaḥ,शतारुकु ष्ठः,True,True
+ITA-9.6.161,savarṇakaraṇam (vraṇacikitsā),सवर्णकरणम् (व्रणचिकित्सा),False,False
+ITA-5.6.15,satataviṣamajvaraḥ,सततविषमज्वरः,True,True
+ITA-5.76.83,sāvaśeṣauṣadhavyāpat,सावशेषौषधव्यापत्,True,True
+ITA-4.6.6,ṣaṭkriyākālaḥ,षट्क्रियाकालः,True,True
+ITA-1.8.1.4,savikalpakam,सविकल्पकम्,True,True
+ITA-10.2.7,sātmyam,सात्म्यम्,True,True
+ITA-5.72.26,saviṣa-jalaukādaṣṭaḥ,सविष-जलौकादष्टः,True,True
+ITA-1.9.1,ṣaṭpadārthāḥ,षट् -पदार्थाः,True,True
+ITA-5.72.27,saviṣa-matsyadaṣṭaḥ,सविष-मत्स्यदष्टः,True,True
+ITA-5.66.21,savraṇaśukraḥ,सव्रणशुक्रः,True,True
+ITA-5.2.1.23,sirāgatavātaḥ,सिरागतवातः,True,True
+ITA-9.5.19,sekaḥ,सेकः,True,True
+ITA-5.2.1.37,sirāgrahaḥ,सिराग्रहः,True,True
+ITA-1.9.3.7.2,sendriyaḥ,सेन्द्रियः,True,True
+ITA-4.8.8,sirāgranthiḥ,सिराग्रन्थिः,True,True
+ITA-3.6.8,śephaḥ,शेफः,True,False
+ITA-3.2.2,śiraḥ,शिरः,True,True
+ITA-3.6.14,śephasevanī,शेफसेवनी,True,True
+ITA-3.13.10,śiraḥkapālam,शिरःकपालम्,True,True
+ITA-3.13.63,sevanī,सेवनी,True,True
+ITA-9.2.15,śiraḥpicuḥ,शिरःपिचुः,True,True
+ITA-5.73.12,sevanī-chedaḥ,सेवनी-छेदः,True,True
+ITA-9.2.14,śiraḥsekaḥ,शिरःसेकः,True,True
+ITA-5.5.11,shukravahasrotoduṣṭiḥ,शुक्रवहस्रोतोदुष्टिः,True,True
+ITA-5.76.39,śiraḥśūlaḥ vamanasya,शिरःशूलःवमनस्य व्यापदः,False,True
+ITA-9.2.81,siddhabastiḥ,सिद्धबस्तिः,True,True
+ITA-5.67.1,śiraḥśūlam,शिरःशूलम्,True,True
+ITA-1.7.1,siddhāntaḥ,सिद्धान्तः,True,True
+ITA-5.49.6,sirājagranthiḥ,सिराजग्रन्थिः,True,True
+ITA-5.59.7,sidhmaḥ,सिध्मः,True,True
+ITA-5.66.55,sirājālaḥ,सिराजालः,True,True
+ITA-9.9.19,śīghraśukramuñcanam,शीघ्रशुक्रमुञ्चनम्,True,True
+ITA-3.13.68,sirājālam,सिराजालम्,True,True
+ITA-5.41.11,sikatāmehaḥ,सिकतामेहः,True,True
+ITA-5.66.56,sirājapiḍakā,सिराजपिडका,True,True
+ITA-7.2.2.6,śilājatu,शिलाजतु,True,True
+ITA-3.16.13,Sirāmarma,सिरामर्म,True,True
+ITA-3.13.65,sīmantaḥ,सीमन्तः,True,True
+ITA-5.66.20,sirāpraharṣaḥ,सिराप्रहर्षः,True,True
+ITA-3.16.30,sīmantaḥ (marma),सीमन्तः (मर्म),False,False
+ITA-9.2.13,śirastailam,शिरस्तैलम्,True,True
+ITA-8.2.3,śimbīdhānyavargaḥ,शिम्बीधान्यवर्गः,True,True
+ITA-5.67.1,śirastāpaḥ,शिरस्तापः,True,True
+ITA-8.3.43,śiṇḍākī,शिण्डाकी,True,True
+ITA-9.6.100,sirāvedhaḥ,सिरावेधः,True,True
+ITA-3.14.1,Sirā,सिरा,True,True
+ITA-5.73.20,sirāviddhaḥ,सिराविद्धः,True,True
+ITA-5.73.5,sirāgata-śalyaḥ,सिरागत-शल्यः,True,True
+ITA-5.76.94,śiro-artibastivyāpat,शिरो-अर्तिबस्तिव्यापत्,True,True
+ITA-9.2.16,śirobastiḥ,शिरोबस्तिः,True,True
+ITA-1.9.4.2.6,śītaḥ,शीतः,True,True
+ITA-5.73.38,śirobhighātaḥ,शिरोभिघातः,True,True
+ITA-7.1.9,śītaḥ,शीतः,True,True
+ITA-5.67.1,śirobhitāpaḥ,शिरोभितापः,True,True
+ITA-7.1.9,śītakaṣāya,शीतकषायः,False,True
+ITA-9.2.17,śirobhyaṅgaḥ,शिरोऽभ्यङ्गः,True,True
+ITA-5.41.9,śītamehaḥ,शीतमेहः,True,True
+ITA-6.2.6.64,śirogatasnehaḥ ITA.3.11.3 śītāpanayanam,शीतापनयनम्,False,True
+ITA-3.16.11,Śiromarma,शिरोमर्म,True,True
+ITA-5.59.22,śītapittam,शीतपित्तम्,True,True
+ITA-9.4.17,śiropicu,शिरोपिचुः,False,True
+ITA-6.2.6.64,śītapraśamanam,शीतप्रशमनम्,True,True
+ITA-9.5.65,śirorogacikitsā,शिरोरोगचिकित्सा,True,True
+ITA-5.71.14,śītapūtanāgrahaḥ,शीतपूतनाग्रहः,True,True
+ITA-5.67.1,śirorogaḥ,शिरोरोगः,True,True
+ITA-9.4.15,śītodaka (mukhapariṣekaḥ),शीतोदक (मुखपरिषेकः),False,False
+ITA-5.66.19,sirotpātaḥ,सिरोत्पातः,True,True
+ITA-9.6.72,sīvanabhedaḥ,सीवनभेदः,True,True
+ITA-5.66.19,śirotpātaḥ,शिरोत्पातः,True,True
+ITA-9.6.139,sīvanakarma,सीवनकर्म,True,True
+ITA-9.2.88,śirovirecanam,शिरोविरे चनम्,True,True
+ITA-9.6.71,sīvanam,सीवनम्,True,True
+ITA-9.6.172,śirovirecanam (vraṇacikitsā),शिरोविरे चनम् (व्रणचिकित्सा),False,False
+ITA-3.13.63,Sīvanī,सीवनी,True,True
+ITA-5.76.141,śirovirecanamithyāyogaḥ,शिरोविरे चनमिथ्यायोगः,True,True
+ITA-5.71.8,skandagraha,स्कन्दग्रहः,False,True
+ITA-5.76.159,śirovirecananasya-atiyogaḥ,शिरोविरे चननस्य-अतियोगः,True,True
+ITA-9.6.108,skandanam,स्कन्दनम्,True,True
+ITA-5.76.158,śirovirecananasya-ayogaḥ,शिरोविरे चननस्य-अयोगः,True,True
+ITA-5.71.9,skandāpasmāraḥ,स्कन्दापस्मारः,True,True
+ITA-5.76.158,śirovirecananasya-hīnayogaḥ,शिरोविरे चननस्य-हीनयोगः,True,True
+ITA-3.3.6,skandhaḥ,स्कन्धः,True,True
+ITA-9.4.5,śiśu,शिशुः,True,True
+ITA-5.68.4,ślaiṣmika-asṛgdaraḥ,श्लैष्मिक-असृग्दरः,True,True
+ITA-5.73.41,śītābhihataḥ,शीताभिहतः,True,True
+ITA-5.66.33,ślaiṣmika-liṅganāśaḥ,श्लैष्मिक-लिङ्गनाशः,True,True
+ITA-5.63.11,śītādaḥ,शीतादः,True,True
+ITA-5.3.10,ślaiṣmikaraktaduṣṭiḥ,श्लैष्मिकरक्तदुष्टिः,True,True
+ITA-5.76.144,ślakṣṇaḥ ITA- snātaśirasaḥ nasya vyāpadaḥ,स्नातशिरसः नस्य व्यापदः,False,True
+ITA-5.73.6,snāyugata-śalyaḥ,स्नायुगत-शल्यः,True,True
+ITA-2.1.3.6,śleṣaka-kaphaḥ,श्लेषककफः,True,True
+ITA-5.2.1.22,snāyugatavātaḥ,स्नायुगतवातः,True,True
+ITA-2.1.3.1,śleṣmā,श्लेष्मा,True,True
+ITA-3.13.55,snāyuḥ,स्नायुः,True,True
+ITA-5.66.62,śleṣmā-srāvaḥ,श्लेष्मा-स्रावः,True,True
+ITA-3.13.69,snāyujālam,स्नायुजालम्,True,True
+ITA-3.3.16,śleṣmabhuvaḥ,श्लेष्मभुवः,True,True
+ITA-3.16.14,Snāyumarma,स्नायुमर्म,True,True
+ITA-3.12.5,śleṣmadharākalā,श्लेष्मधराकला,True,True
+ITA-3.13.56,snāyupratānaḥ,स्नायुप्रतानः,True,True
+ITA-5.56.1.5,śleṣmajabhagandaraḥ,श्लेष्मजभगन्दरः,True,True
+ITA-5.73.21,snāyuviddhaḥ,स्नायुविद्धः,True,True
+ITA-5.54.5,śleṣmajavraṇaḥ,श्लेष्मजव्रणः,True,True
+ITA-5.66.51,snāyvarma,स्नाय्वर्म,True,True
+ITA-5.33.5,śleṣmapittam,श्लेष्मपित्तम्,True,True
+ITA-5.76.129,sneha aśanāvṛtam sneha basti,स्नेहं अशनावृतं स्नेह बस्ति व्यापद्,False,False
+ITA-5.51.1,ślīpadaḥ,श्लीपदः,True,True
+ITA-5.76.116,sneha basti vyāpad,स्नेहबस्ति व्यापद्,True,False
+ITA-3.6.3,smaramandiram,स्मरमन्दिरम्,True,True
+ITA-5.76.127,sneha pittāvṛtam sneha basti,स्नेहं पित्तावृतं स्नेह बस्ति व्यापद्,False,False
+ITA-3.6.4,smarātapatram,स्मरातपत्रम्,True,True
+ITA-5.76.128,sneha śleśmāvṛtam sneha basti,स्नेहं श्लेष्मावृतं स्नेह बस्ति व्यापद्,False,False
+ITA-2.4.13,śmaśru,श्मश्रु,True,True
+ITA-5.76.126,sneha vātāvṛtam sneha basti,स्नेहं वातावृतं स्नेह बस्ति व्यापद्,False,False
+ITA-5.76.130,sneha viḍāvṛtam sneha basti,स्नेहं विडावृतं स्नेह बस्ति व्यापद्,False,False
+ITA-9.8.19,smṛtivardhakaḥ,,True,False
+ITA-9.5.73,snaihikadhūmapānam,स्नैहिकधूमपानम्,True,True
+ITA-9.2.73,snehabastiḥ,स्नेहबस्तिः,True,True
+ITA-9.5.87,snaihikakavalaḥ,स्नैहिककवलः,True,True
+ITA-9.2.10,snehakarma,स्नेहकर्म,True,True
+ITA-5.75.6,snāna-vaiṣamyam,स्नान-वैषम्यम्,True,True
+ITA-9.2.10,snehana,स्नेहन,True,True
+ITA-5.76.2,snehana-apacāraḥ,स्नेहन-अपचारः,True,True
+ITA-9.2.1,śodhana cikitsa,शोधन चिकित्सा,True,True
+ITA-9.5.24,snehana-āścyotanam,स्नेहन-आश्च्योतनम्,True,True
+ITA-9.5.76,śodhanadhūmapānam,शोधनधूमपानम्,True,True
+ITA-5.76.4,snehana-atiyogaḥ,स्नेहन-अतियोगः,True,True
+ITA-9.5.84,śodhanagaṇḍūṣaḥ,शोधनगण्डू षः,True,True
+ITA-5.76.3,snehana-ayogaḥ,स्नेहन-अयोगः,True,True
+ITA-9.2.1,śodhanakarma,शोधनकर्म,True,True
+ITA-5.76.5,snehana-vyāpadaḥ,स्नेहन-व्यापदः,True,True
+ITA-9.6.116,śodhanakarma (vraṇacikitsā),शोधनकर्म (व्रणचिकित्सा),False,False
+ITA-9.1.44,snehanakarma,स्नेहनकर्म,True,True
+ITA-9.5.89,śodhanakavalaḥ,शोधनकवलः,True,True
+ITA-9.1.44,snehanam,स्नेहनम्,True,True
+ITA-7.2.1.3,śodhanam,शोधनम्,True,True
+ITA-5.76.5,snehanamithyāyogaḥ,स्नेहनमिथ्यायोगः शोकः,True,False
+ITA-5.76.157,snehananasya-atiyogaḥ,स्नेहननस्य-अतियोगः,True,True
+ITA-5.17.6,śokajanyarājayakṣmā,शोकजन्यराजयक्ष्मा,True,True
+ITA-5.76.156,snehananasya-ayogaḥ,स्नेहननस्य-अयोगः,False,False
+ITA-5.28.6,śokajonmādaḥ,शोकजोन्मादः,True,True
+ITA-5.76.156,snehananasyahīnayogaḥ,स्नेहननस्यहीनयोगः,True,True
+ITA-5.13.7,śoṇitajakṛmiḥ,शोणितजकृ मिः,True,True
+ITA-9.5.16,snehanapuṭapākaḥ,स्नेहनपुटपाकः,True,True
+ITA-2.2.5,śoṇitam,शोणितम्,True,True
+ITA-9.5.20,snehanasekaḥ,स्नेहनसेकः,True,True
+ITA-2.3.3,śoṇitam,शोणितम्,True,True
+ITA-9.2.5,snehapāna,स्नेहपान,True,True
+ITA-5.58.15,śoṇitārbudaḥ,शोणितार्बुदः,True,True
+ITA-9.6.129,snehapānakarma (vraṇacikitsā),स्नेहपानकर्म (व्रणचिकित्सा),False,False
+ITA-5.66.87,śoṇitārśaḥ,शोणितार्शः,True,True
+ITA-5.76.117,snehavastiatiyoga,स्नेहवस्तिअतियोग,True,True
+ITA-5.76.118,snehavastiayoga,स्नेहवस्तिअयोग,True,True
+ITA-9.6.142,śoṇitāsthāpanakarma,शोणितास्थापनकर्म,True,True
+ITA-5.76.5,snehavibhramam,स्नेहविभ्रमम्,True,True
+ITA-5.44.1,śophaḥ,शोफः,True,True
+ITA-9.5.82,snigdhagaṇḍūṣaḥ,स्निग्धगण्डू षः,True,True
+ITA-6.2.6.67,śothaghnaḥ,शोथघ्नः,True,True
+ITA-1.9.4.2.8,snigdhaḥ,स्निग्धः,True,True
+ITA-5.44.1,śothaḥ,शोथः,True,True
+ITA-6.2.6.67,śothaharaḥ,शोथहरः,True,True
+ITA-3.13.23,śroṇīkāṇḍam,श्रोणिकाण्डम्,True,True
+ITA-1.9.4.1.5,sparśaḥ,स्पर्शः,True,True
+ITA-3.13.23,śroṇikāṇḍāsthi,श्रोणिकाण्डास्थि,True,True
+ITA-5.58.18,sparśahāniḥ,स्पर्शहानिः,True,True
+ITA-3.13.24,śroṇīkarṇaḥ,श्रोणीकर्णः,True,True
+ITA-4.7.2,sparśana,स्पर्शन,True,True
+ITA-3.7.23,śroṇīpradeśaḥ,श्रोणीप्रदेशः,True,True
+ITA-3.10.9,sparśanendriyam,स्पर्शनेन्द्रियम्,True,True
+ITA-2.5.1,srotaḥ,स्रोतः,True,True
+ITA-3.15.3,sparśavahādhamanī,स्पर्शवहाधमनी,True,True
+ITA-4.8.3,srotoduṣṭihetuḥ,स्रोतोदुष्टिह त े ुः,True,True
+ITA-7.2.3.5,sphaṭikā,स्फटिका,True,True
+ITA-4.8.4,srotoduṣṭiprakāraḥ,स्रोतोदुष्टिप्रकारः,True,True
+ITA-7.2.7.7,sphaṭikaḥ,स्फटिकः,True,True
+ITA-9.5.37,srotoñjana,स्रोतोऽञ्जन,True,True
+ITA-3.7.21,sphik,स्फिक्,True,True
+ITA-4.8.1,srotorodhaḥ,स्रोतोरोधः,True,True
+ITA-5.55.8,sphuṭita-bhagnaḥ,स्फुटित-भग्नः,True,True
+ITA-4.8.2,srotovaiguṇyam,स्रोतोवैगुण्यम्,True,True
+ITA-5.76.147,śrāmārtamattamūrcchitānām,श्रामार्तमत्तमूर्च्छितानां नस्य,False,False
+ITA-5.5.1,srotovaiṣamyam,स्रोतोवैषम्यम्,True,True
+ITA-5.73.23,srotoviddhaḥ,स्रोतोविद्धः,True,True
+ITA-5.75.18,śramaśvāsavegarodhaḥ,श्रमश्वासवेगरोधः,True,True
+ITA-5.2.1.14,śrotrādīndriyagatavātaḥ,श्रोत्रादीन्द्रियगतवातः,True,True
+ITA-6.2.6.12,sraṃsana-karma,स्रंसन-कर्म,True,True
+ITA-3.2.3.1,śrotram,श्रोत्रम्,True,True
+ITA-5.76.27,śrāntapipāsitakṣudhiteṣu,श्रान्तपिपासितक्षुधितेषु वमनस्य,False,False
+ITA-3.10.5,vamanasya vyāpadaḥ śrotrendriyam,श्रोत्रेन्द्रियम्,False,True
+ITA-3.16.24,śrṛṅgāṭakam (marma),शृङ्गाटकम् (मर्म),False,False
+ITA-5.66.60,srāvaḥ,स्रावः,True,True
+ITA-9.6.102,śrṛṅgāvacaraṇam,श्रृङ्गावचरणम्,True,True
+ITA-3.2.3.1,śravaṇam,श्रवणम्,True,True
+ITA-7.1.4,śṛtaḥ,शृतः,True,True
+ITA-3.2.3.2,śravaṇasrotas,श्रवणस्रोतस्,True,True
+ITA-9.9.5,srutivṛddhikaram,स्रुतिवृध्दिकरम्,False,True
+ITA-3.2.4.9,sṛkkaṇī,सृक्कणी,True,True
+ITA-5.76.48,stambhaḥ-vamanavyāpat,स्तम्भः-वमनव्यापत्,True,True
+ITA-3.7.22,śroṇiḥ,श्रोणिः,True,True
+ITA-5.76.11,stambhana-apacāraḥ,स्तम्भन-अपचारः,True,True
+ITA-3.13.20,sthālakam,स्थालकम्,True,True
+ITA-5.76.12,stambhana-atiyogaḥ,स्तम्भन-अतियोगः,True,True
+ITA-3.13.21,sthālakārbudam,स्थालकार्बुदम्,True,True
+ITA-9.1.45,stambhanakarma,स्तम्भनकर्म,True,True
+ITA-7.2.1.12,sthālīpākaḥ,स्थालीपाकः,True,True
+ITA-6.2.6.19,stambhanam,स्तम्भनम्,True,True
+ITA-4.8.13,sthānāntaragatadoṣaḥ,स्थानान्तरगतदोषः,True,True
+ITA-9.1.45,stambhanam,स्तम्भनम्,True,True
+ITA-4.6.10,sthānasamśrayaḥ,स्थानसंश्रयः,True,True
+ITA-5.76.79,stambhavirecanavyāpat,स्तम्भविरे चनव्यापत्,True,True
+ITA-4.8.14,sthānikadoṣaḥ,स्थानिकदोषः,True,True
+ITA-3.4.5,stanaḥ,स्तनः,True,True
+ITA-1.7.28,sthāpanā,स्थापना,True,True
+ITA-3.16.26,stanamūlam (marma),स्तनमूलम् (मर्म),False,False
+ITA-3.16.38,sthapanī (marma),स्थपनी (मर्म),False,False
+ITA-3.4.5,stanapiṇḍaḥ,स्तनपिण्डः,True,True
+ITA-1.9.3.7.3,sthāvaraḥ,स्थावरः,True,True
+ITA-3.16.27,stanarohitam (marma),स्तनरोहितम् (मर्म),False,False
+ITA-9.7.10,sthāvaraviṣa-adhiṣṭhānam,स्थावरविष-अधिष्ठानम्,True,True
+ITA-6.2.6.27,stanyajananam,स्तन्यजननम्,True,True
+ITA-5.72.2,sthāvaraviṣaḥ,स्थावरविषः,True,True
+ITA-6.2.6.27,stanyakṛt,स्तन्यकृ त् स्थिरः,True,False
+ITA-5.3.31,stanyakṣayaḥ,स्तन्यक्षयः,True,True
+ITA-3.13.37,sthirasandhiḥ,स्थिरसन्धिः,True,True
+ITA-2.3.2,stanyam,स्तन्यम्,True,True
+ITA-9.4.47,stanyāpanayanam,स्तन्यापनयनम्,True,True
+ITA-6.2.6.28,stanyaśodhanam,,True,False
+ITA-3.13.4,sthūlāsthi,स्थूलास्थि,True,True
+ITA-5.3.30,stanyavaiṣamyam,,True,False
+ITA-2.2.22,strībījam,स्त्रीबीजम्,True,True
+ITA-5.3.32,stanyavṛddhiḥ,,True,False
+ITA-1.4.11,strīroga,स्त्रीरोग,True,True
+ITA-9.6.187,sthagikābandhaḥ,,True,False
+ITA-5.76.55,subhaga-virecanavyāpat,सुभग-विरे चनव्यापत्,True,True
+ITA-6.2.6.74,sthairyakaraḥ,,True,False
+ITA-9.6.50,sūcīśastram,सूचीशस्त्रम्,True,True
+ITA-2.6.6,śukradhātvagniḥ,शुक्रधात्वग्निः,True,True
+ITA-5.54.8,śuddhavraṇaḥ,शुद्धव्रणः,True,True
+ITA-2.6.18,śukradhātvagniḥ,शुक्रधात्वग्निः,True,True
+ITA-9.2.105,śuddhiḥ,शुद्धिः,True,True
+ITA-5.61.21,śukragatamasūrikā,शुक्रगतमसूरिका,True,True
+ITA-7.1.1.7,śuddhodakam,शुद्धोदकम्,True,False
+ITA-5.2.1.21,śukragatavātaḥ,शुक्रगतवातः,True,True
+ITA-7.2.8.1,sudhāvargaḥ,सुधावर्गः,True,True
+ITA-9.9.49,śukragatavātaḥ,शुक्रगतवातः,True,True
+ITA-8.2.2,śūkadhānyavargaḥ,शूकधान्यवर्गः,True,True
+ITA-6.2.6.23,śukraghnam,शुक्रघ्नम्,True,True
+ITA-5.58.1,śūkarogaḥ,शूकरोगः,True,True
+ITA-6.2.6.23,śukraharaḥ,शुक्रहरः,True,True
+ITA-1.9.4.3.3,sukham,सुखम्,True,True
+ITA-6.2.6.20,śukrajananam,शुक्रजननम्,True,True
+ITA-4.2.39,sukhasādhyarogaḥ,सुखसाध्यरोगः,True,True
+ITA-9.9.6,śukrajananam,शुक्रजननम्,True,True
+ITA-1.2.4,sukhāyuḥ,सुखायुः,True,True
+ITA-9.9.50,śukrajananam,शुक्रजननम्,True,True
+ITA-3.2.1.12,śukla-kṛṣṇa-sandhiḥ,शुक्लकृ ष्णसन्धिः,True,True
+ITA-5.39.9,śukrajanyamūtrakṛcchram,शुक्रजन्यमूत्रकृच्छ्रम्,True,True
+ITA-3.2.1.29,śuklamaṇḍalam,शुक्लमण्डलम्,True,True
+ITA-5.3.25,śukrakṣayaḥ,शुक्रक्षयः,True,True
+ITA-5.41.7,śuklamehaḥ,शुक्लमेहः,True,True
+ITA-9.9.32,śukrakṣayajanya-klaibyam,शुक्रक्षयजन्य-क्लैब्यम्,True,True
+ITA-5.66.48,śuklārma,शुक्लार्म,True,True
+ITA-9.9.48,śukrakṣayajanyaklaibyam,शुक्रक्षयजन्यक्लैब्यम्,True,True
+ITA-7.2.8.1,śuklavargaḥ,शुक्लवर्गः,True,True
+ITA-6.2.6.21,śukralaḥ,शुक्रलः,True,True
+ITA-2.8.1.8,śukra-sāraḥ,शुक्रसारः,True,True
+ITA-9.9.52,śukralaḥ,शुक्रलः,True,True
+ITA-5.35.5,śukrābhighātaja-udāvartaḥ,शुक्राभिघातज-उदावर्तः,True,True
+ITA-5.41.8,śukramehaḥ,शुक्रमेहः,True,True
+ITA-3.12.8,śukradharākalā,शुक्रधराकला,True,True
+ITA-9.9.51,śukraprasādanam,शुक्रप्रसादनम्,True,True
+ITA-5.6.34,śukradhātugatajvaraḥ,शुक्रधातुगतज्वरः,True,True
+ITA-9.9.55,śukrāpyāyanam,शुक्राप्यायनम्,True,True
+ITA-2.2.18,śukradhātuḥ,शुक्रधातुः,True,True
+ITA-9.9.54,śukrasamvāhakaḥ,शुक्रसंवाहकः,False,True
+ITA-5.40.6,śukrāśmarī,शुक्राश्मरी,True,True
+ITA-7.2.8.4,śuktiḥ,शुक्तिः,True,True
+ITA-6.2.6.22,śukraśodhanam,शुक्रशोधनम्,True,True
+ITA-5.76.30,sukumāra vamanasya,सुकुमार वमनस्य व्यापदः,False,False
+ITA-9.9.7,śukraśodhanam,शुक्रशोधनम्,True,True
+ITA-5.76.56,sukumāra-virecanavyāpat,सुकुमार-विरे चनव्यापत्,True,True
+ITA-9.9.53,śukraśodhanam,शुक्रशोधनम्,True,True
+ITA-5.34.1,śūlaḥ,शूलः,True,True
+ITA-9.9.3,śukrasrutikaram,शुक्रस्रुतिकरम्,True,True
+ITA-6.2.6.65,śūlapraśamanam,शूलप्रशमनम्,True,True
+ITA-9.9.47,śukrastambhanimittajaklaibyam,शुक्रस्तम्भनिमित्तजक्लैब्यम्,True,True
+ITA-8.2.8,sūpyam,सूप्यम्,True,True
+ITA-2.5.17,śukravahasrotas,शुक्रवहस्रोतः,False,True
+ITA-7.1.1.4,surā,सुरा,True,True
+ITA-5.73.32,śukravahasrotoviddhaḥ,शुक्रवहस्रोतोविद्धः,False,False
+ITA-5.41.13,surāmehaḥ,सुरामेहः,True,True
+ITA-5.3.24,śukravaiṣamyam,शुक्रवैषम्यम्,True,True
+ITA-7.1.4.16,śūrpaḥ,शूर्पः,True,True
+ITA-5.75.19,śukravegarodhaḥ,शुक्रवेगरोधः,True,True
+ITA-9.4.28,sūryacandradarśanasaṁskāraḥ,सूर्यचन्द्रदर्शनसंस्कारः,True,True
+ITA-9.9.46,śukravikṛtiḥ,शुक्रविकृ तिः,True,True
+ITA-7.2.7.2,sūryakāntaḥ,सूर्यकान्तः,True,True
+ITA-9.9.4,śukravivardhanam,शुक्रविवर्धनम्,True,True
+ITA-7.2.10.2,sūryakṣāraḥ,सूर्यक्षारः,True,True
+ITA-5.3.26,śukravṛddhiḥ,शुक्रवृद्धिः,True,True
+ITA-5.67.10,sūryāvartaḥ,सूर्यावर्तः,True,True
+ITA-9.9.57,śukropacayaḥ,शुक्रोपचयः,True,True
+ITA-3.13.60,suṣirā-snāyuḥ,सुषिरस्नायुः,True,True
+ITA-9.9.56,śukrotpādakaḥ,शुक्रोत्पादकः,True,True
+ITA-3.1.11,suṣiram,सुशिरम्,True,True
+ITA-5.66.16,1.9.4.2.16 śuṣkākṣipākaḥ,शुष्काक्षिपाकः,False,True
+ITA-1.9.3.2.8,sūkṣmaśarīram,सूक्ष्मशरीरम्,True,True
+ITA-5.66.75,śuṣkārśaḥ,शुष्कार्शः,True,True
+ITA-8.3.42,śuktam,शुक्तम्,True,True
+ITA-1.10.1,Suśrutasaṃhita,सुश्रुतसंहिता,True,True
+ITA-5.66.52,śuktiḥ,शुक्तिः,True,True
+ITA-2.9.1.17,sūtikā,सूतिका,True,True
+ITA-7.1.4.8,śuktiḥ,शुक्तिः,True,True
+ITA-5.70.9,sūtikārogaḥ,सूतिकारोगः,True,True
+ITA-1.5.1,sūtram,सूत्रम्,True,True
+ITA-5.20.1,śvāsaḥ,श्वासः,True,True
+ITA-1.5.2,sūtram,सूत्रम्,True,True
+ITA-6.2.6.70,śvāsaharaḥ,श्वासहरः,True,True
+ITA-9.4.45,suvarṇaprāśanam,सुवर्णप्राशनम्,True,True
+ITA-3.2.4.37,śvasanā,श्वसना,True,True
+ITA-4.2.34,svabhāvabalapravṛttarogaḥ,स्वभावबलप्रवृत्तरोगः,True,True
+ITA-1.6.35,svasañjñā,स्वसञ्ज्ञा,True,True
+ITA-9.6.204,svabhāvaḥ,स्वभावः,True,True
+ITA-3.2.4.37,śvāsavahānāḍī,श्वासवहानाडी,True,True
+ITA-9.8.8,svabhāvavyādhipratiṣedhī-,स्वभावव्याधिप्रतिषेधीय-,False,False
+ITA-10.1.1,svasthaḥ,स्वस्थः,True,True
+ITA-9.1.34,svasthasyorjaskaram,स्वस्थस्योर्जस्करम्,True,True
+ITA-6.2.1.2,svāduḥ,स्वादुः,True,True
+ITA-10.1.3,svasthavṛttaḥ,स्वस्थवृत्तः,True,True
+ITA-7.2.1.20,svāṅgaśītam,स्वाङ्गशीतम्,True,True
+ITA-6.2.6.4,svasthavṛttahitam,स्वस्थवृत्तहितम्,True,True
+ITA-6.2.6.75,svapnajananam,स्वप्नजननम्,True,True
+ITA-10.1.2,svāsthyam,स्वास्थ्यम्,True,True
+ITA-6.2.7.11,svapnakālaḥ,स्वप्नकालः,True,True
+ITA-9.6.183,svastikabandhaḥ,स्वस्तिकबन्धः,True,True
+ITA-10.2.11,svapnam,स्वप्नम्,True,True
+ITA-9.6.8,svastikayantram,स्वस्तिकयन्त्रम्,True,True
+ITA-5.21.1,svarabhedaḥ,स्वरभेदः,True,True
+ITA-9.1.24,svastyayanam,स्वस्त्ययनम्,True,True
+ITA-5.63.67,svaraghnam,स्वरघ्नम्,True,True
+ITA-7.1.6,svarasaḥ,स्वरसः,True,True
+ITA-4.8.41,svatantra,स्वतन्त्र,True,True
+ITA-7.2.10.3,svarjikṣāraḥ,स्वर्जिक्षारः,True,True
+ITA-6.2.6.67,śvayathughnaḥ,श्वयथुघ्नः,True,True
+ITA-7.2.5.2,svarṇam,स्वर्णम्,True,True
+ITA-5.44.1,śvayathuḥ,श्वयथुः,True,True
+ITA-7.2.2.4,svarṇamākṣikam,स्वर्णमाक्षिकम्,True,True
+ITA-6.2.6.67,śvayathuharaḥ,श्वयथुहरः,True,True
+ITA-1.8.2.18,svārthānumānam,स्वार्थानुमानम्,True,True
+ITA-2.4.5,svedaḥ,स्वेदः,True,True
+ITA-1.9.3.3.2,svarūpam,स्वरूपम्,True,True
+ITA-6.2.6.32,svaryam,स्वर्यम्,True,True
+ITA-1.7.16,svedajaḥ ITA- tadvidyasambhāṣā,तद्विद्यसम्भाषा,False,True
+ITA-1.7.30,"tadvidyasaṃbhāṣā,",तद्विद्यसंभाषा,False,True
+ITA-6.2.6.76,svedajananam,स्वेदजननम्,True,True
+ITA-3.5.3,taila-vartikā,तैलवर्तिका,True,True
+ITA-5.4.10,svedakṣayaḥ,स्वेदक्षयः,True,True
+ITA-9.2.19,tailadhārā,तैलधारा,True,True
+ITA-9.2.36,svedana,स्वेदन,True,True
+ITA-9.6.149,tailam (vraṇacikitsā),तैलम् (व्रणचिकित्सा),False,False
+ITA-5.76.6,svedana-apacāraḥ,स्वेदन-अपचारः,True,True
+ITA-7.1.2.5,tailamūrcchanam,तैलमूर्छनम्,True,True
+ITA-5.76.8,svedana-atiyogaḥ,स्वेदन-अतियोगः,True,True
+ITA-9.6.86,tailapāyanā,तैलपायना,True,True
+ITA-5.76.7,svedana-ayogaḥ,स्वेदन-अयोगः,True,True
+ITA-5.74.11,tailasevana-atiyogaḥ,तैलसेवन-अतियोगः,True,True
+ITA-9.6.124,svedanakarma (vraṇacikitsā),स्वेदनकर्म (व्रणचिकित्सा),False,False
+ITA-9.2.20,takradhārā,तक्रधारा,True,True
+ITA-7.2.4,svedanam,स्वेदनम्,True,True
+ITA-8.2.23,takrakūrcikā,तक्रकू र्चिका,True,True
+ITA-6.2.6.77,svedāpanayanaḥ,स्वेदापनयनः,True,True
+ITA-8.2.19,takram,तक्रम्,True,True
+ITA-5.5.15,svedavahasrotoduṣṭiḥ,स्वेदवहस्रोतोदुष्टिः,True,True
+ITA-3.16.31,talahṛdayam (marma),तलहृदयम् (मर्म),False,False
+ITA-5.4.9,svedavaiṣamyam,स्वेदवैषम्यम्,True,True
+ITA-3.8.14,talam,तलम्,True,True
+ITA-5.4.11,svedavṛddhiḥ,स्वेदवृद्धिः,True,True
+ITA-9.2.34,talaṁ,तलम्,True,True
+ITA-3.10.1.4,śvetā,श्वेता,True,True
+ITA-9.6.10,tālayantram,तालयन्त्रम्,True,True
+ITA-3.2.1.29,śvetamaṇḍalam,श्वेतमण्डलम्,True,True
+ITA-3.2.4.23,tālu,तालु,True,True
+ITA-5.59.21,śvitraḥ,श्वित्रः,True,True
+ITA-5.63.43,tālu-arbudaḥ,तालु-अर्बुदः,True,True
+ITA-5.66.81,śyāva-vartma,श्याव-वर्त्म,True,True
+ITA-3.2.4.24,tāludeśaḥ,तालुद श े ः,True,True
+ITA-5.63.32,śyāvadantakaḥ,श्यावदन्तकः,True,True
+ITA-5.63.37,tālugatarogaḥ,तालुगतरोगः,True,True
+ITA-1.6.39,tācchilyam,ताच्छिल्यम्,True,True
+ITA-5.71.4,tālukaṇṭakaḥ,तालुकण्टकः,True,True
+ITA-8.2.50,tāḍāgam,ताडागम्,True,True
+ITA-3.2.4.25,tālumāṃsam,तालुमांसम्,True,True
+ITA-1.5.1,tantram,तन्त्रम्,True,True
+ITA-3.2.4.31,tālumūlam,तालुमूलम्,True,True
+ITA-1.5.6,tantram,तन्त्रम्,True,True
+ITA-5.63.47,tālupākaḥ,तालुपाकः,True,True
+ITA-1.6.1,tantrayuktiḥ,तन्त्रयुक्तिः,True,True
+ITA-5.63.48,tālupiḍakā,तालुपिडका,True,True
+ITA-3.1.2,tanuḥ,तनुः,True,True
+ITA-3.2.4.24,tālupradeśaḥ,तालुप्रदेशः,True,True
+ITA-8.3.24,tanurasaḥ,तनुरसः,True,True
+ITA-5.63.45,tālupuppuṭaḥ,तालुपुप्पुटः,True,True
+ITA-9.9.22,tanuretodoṣaḥ,तनुरेतोदोषः,True,True
+ITA-5.63.44,tālusaṃhatiḥ,तालुसंहतिः,True,True
+ITA-9.2.55,tāpasvedaḥ,तापस्वेदः,True,True
+ITA-5.63.46,tāluśoṣaḥ,तालुशोषः,True,True
+ITA-3.2.1.32,tārakā,तारका,True,True
+ITA-5.63.47,tāluśothaḥ,तालुशोथः,True,True
+ITA-3.8.27,tarjani,तर्जनि,True,True
+ITA-5.63.49,tāluvidradhiḥ,तालुविद्रधिः,True,True
+ITA-1.8.2.17,tarkaḥ,तर्कः,True,True
+ITA-3.13.14,tālvasthi,ताल्वस्थि,True,True
+ITA-7.2.6.5,tārkṣyam,तार्क्ष्यम्,True,True
+ITA-1.9.4.5,tamaḥ,तमः,True,True
+ITA-2.1.3.5,tarpaka-kaphaḥ,तर्पककफः,True,True
+ITA-5.20.5,tamakaśvāsaḥ,तमकश्वासः,True,True
+ITA-5.76.185,tarpaṇa-apacāraḥ,तर्पण-अपचारः,True,True
+ITA-2.8.26,tāmasakāyaḥ,तामसकायः,True,True
+ITA-5.76.186,tarpaṇahīnayogaḥ,तर्पणहीनयोगः,True,True
+ITA-4.2.6,tāmasarogaḥ,तामसरोगः,True,True
+ITA-5.76.187,tarpaṇātiyogaḥ,तर्पणातियोगः,True,True
+ITA-3.10.1.5,tāmrā,ताम्रा,True,True
+ITA-3.13.7,taruṇāsthi,तरुणास्थि,True,True
+ITA-7.2.5.4,tāmram,ताम्रम्,True,True
+ITA-8.2.38,tauṣāram,तौषारम्,True,True
+ITA-5.25.10,tandrā,तन्द्रा,True,True
+ITA-1.9.3.1.5,Tejaḥ,तेजः,False,False
+ITA-7.2.10.5,ṭaṅkaṇam,टङ्कणम्,True,True
+ITA-3.2.1.15,tejojalam,तेजोजलम्,True,True
+ITA-1.9.3.1.8,tanmātrā,तन्मात्रा,False,False
+ITA-3.2.1.35,tejojalāśrita-bāhya-paṭalam,तेजोजलाश्रितबाह्यपटलम्,True,True
+ITA-9.5.77,tīkṣṇadhūmapānam,तीक्ष्णधूमपानम्,True,True
+ITA-2.8.9,ṭridoṣajaprakṛtiḥ,त्रिदोषजप्रकृ तिः,True,True
+ITA-2.6.9,tīkṣṇāgniḥ,तीक्ष्णाग्निः,True,True
+ITA-5.24.8,tridoṣajatṛṣṇā,त्रिदोषजतृष्णा,True,True
+ITA-5.11.2,tīkṣṇāgniḥ,तीक्ष्णाग्निः,False,False
+ITA-1.9.4.2,triguṇāḥ,त्रिगुणा,True,True
+ITA-1.9.4.2.5,tīkṣṇaḥ,तीक्ष्णः,True,True
+ITA-3.7.25,trikam,त्रिकम्,True,True
+ITA-6.2.1.10,tikta-rasaḥ,तिक्त-रसः,True,True
+ITA-9.6.55,trikūrcakaśastram,त्रिकू र्चकशस्त्रम्,True,True
+ITA-5.74.19,tiktarasātiyogaḥ,तिक्तरसातियोगः,True,True
+ITA-3.16.3,trimarma,त्रिमर्म,True,True
+ITA-6.2.1.11,tiktaskandhaḥ,तिक्तस्कन्धः,True,True
+ITA-1.3.1,triskandhaḥ,त्रिस्कन्ध,True,True
+ITA-5.58.8,tilakālakaḥ,तिलकालकः,True,True
+ITA-1.3.1,trisūtrāyurvedaḥ,त्रिसूत्रायुर्वेदः,True,True
+ITA-5.62.33,tilakālakaḥ,तिलकालकः,True,True
+ITA-2.6.29,trividha-kukṣiḥ,त्रिविधकु क्षिः,True,True
+ITA-4.2.7,tilakam ITA.3.11.8 trividha-śārīrika-rogaḥ,त्रिविध-शारीरिक-रोगः,False,True
+ITA-4.4.9,tilam ITA.3.11.8 trividhahetuḥ,त्रिविधहेतुः,False,True
+ITA-5.76.38,timira vamanasya vyāpadaḥ,तिमिरवमनस्य व्यापदः,False,True
+ITA-4.7.2,trividhaparīkṣā,त्रिविधपरीक्षा,False,False
+ITA-9.6.78,tiryak-chedaḥ,तिर्यक् -छेदः,True,True
+ITA-7.2.7.10,tṛṇakāntaḥ,तृणकान्तः,True,True
+ITA-7.2.11,tiryak-pātanam,तिर्यक् -पातनम्,True,True
+ITA-2.1.2.13,tṛṣṇā,तृष्णा,True,True
+ITA-5.55.5,tiryakakṣipta-sandhimuktam,तिर्यकक्षिप्त-सन्धिमुक्तम्,True,True
+ITA-5.24.1,tṛṣṇā,तृष्णा,True,True
+ITA-7.1.3.5,tiryakpātanayantram,तिर्यक्पातनयन्त्रम्,False,False
+ITA-9.1.48,tṛṣṇā,तृष्णा,True,True
+ITA-7.1.4.7,tolā,तोला,True,True
+ITA-5.27.4,tṛṣṇānirodhajadāhaḥ,तृष्णानिरोधजदाहः,True,True
+ITA-10.2.1,trayopastambhaḥ,त्रयोपस्तम्भः,True,True
+ITA-5.24.2,tṛṣṇāpūrvarūpam,तृष्णापूर्वरूपम्,True,True
+ITA-2.1.2,tridoṣaḥ,त्रिदोषः,True,True
+ITA-5.76.146,tṝṣṇārtasya nasya vyāpadaḥ,तृष्णार्तस्य नस्य व्यापदः,True,False
+ITA-5.61.13,tridoṣajamasūrikā,त्रिदोषजमसूरिका,True,True
+ITA-5.75.20,tṛṣṇāvegarodhaḥ,तृष्णावेगरोधः,True,True
+ITA-5.26.4,tṛtīya-madaḥ,तृतीय-मदः,True,True
+ITA-5.2.1.15,tvakgatavātaḥ,त्वक्गतवातः,True,True
+ITA-5.6.18,tṛtīyakaviṣamajvaraḥ,तृतीयकविषमज्वरः,True,True
+ITA-5.58.9,tvakpākaḥ,त्वक्पाकः,True,True
+ITA-2.9.1.8,tṛtīyamāsa-garbhaḥ,तृतीयमासगर्भः,True,True
+ITA-4.4.21,ubhayahetuḥ,उभयहेतुः,True,True
+ITA-5.66.28,tṛtīyapaṭalagata-doṣaḥ,तृतीयपटलगत-दोषः,True,True
+ITA-9.1.59,ubhayārthakāricikitsā,उभयार्थकारिचिकित्सा,True,True
+ITA-7.1.4.19,tulā,तुला,True,True
+ITA-2.1.1.9,ucchvāsaḥ,उच्छ्वासः,True,True
+ITA-5.63.40,tuṇḍikerī,तुण्डिकेरी,True,True
+ITA-2.5.7,ucchvāsamārgaḥ,उच्छ्वासमार्गः,True,True
+ITA-5.2.1.51,tūnī,तूनी,True,True
+ITA-1.8.2.28,udāharaṇam,उदाहरणम्,True,True
+ITA-3.13.43,Tunnasevanī,तुन्नसेवनी,True,True
+ITA-3.10.1.2,udakadharā,उदकधरा,True,True
+ITA-9.6.75,tunnasevanī,तुन्नसेवनी,True,True
+ITA-9.4.23,udakakumbhasthāpana,उदककु म्भस्थापन,True,True
+ITA-7.1.1.2,tuṣāmbuḥ,तुषाम्बुः,True,True
+ITA-5.41.3,udakamehaḥ,उदकमेहः,True,True
+ITA-5.76.232,tuttha-dagdhaḥ,तुत्थ-दग्धः,True,True
+ITA-9.6.85,udakapāyanā,उदकपायना,True,True
+ITA-7.2.2.7,tutthaḥ,तुत्थः,True,True
+ITA-2.5.8,udakavahasrotas,उदकवहस्रोतः,False,True
+ITA-6.2.1.12,tuvaraḥ,तुवरः,True,True
+ITA-5.5.3,udakavahasrotoduṣṭiḥ,उदकवहस्रोतोदुष्टिः,True,True
+ITA-5.73.2,tvaggata-śalyaḥ,त्वग्गत-शल्यः,True,True
+ITA-5.73.26,udakavahasrotoviddhaḥ,उदकवहस्रोतोविद्धः,True,True
+ITA-5.59.20,tvaggatakuṣṭhaḥ,त्वग्गतकु ष्ठः,True,True
+ITA-2.1.1.3,udānaḥ,उदानः,True,True
+ITA-3.10.9,tvagindriyam,त्वगिन्द्रियम्,True,True
+ITA-5.2.1.4,udānavātakopaḥ,उदानवातकोपः,True,True
+ITA-3.10.1.1,tvak,त्वक्,True,True
+ITA-5.13.5,udarādaḥ,उदरादः,False,True
+ITA-2.8.1.2,tvak-sāraḥ,त्वक्सारः,True,True
+ITA-3.5.1,udaram,उदरम्,True,True
+ITA-5.72.8,tvak-viṣaḥ,त्वक् -विषः,True,True
+ITA-3.16.8,Udaramarma,उदरमर्म,True,True
+ITA-5.61.15,tvakgatamasūrikā,त्वक्गतमसूरिका,True,True
+ITA-3.5.5,udarapārśvam,उदरपार्श्वम्,True,True
+ITA-5.43.1,udararogaḥ,उदररोगः,True,True
+ITA-3.17.7,ulvam,उल्वम्,True,True
+ITA-5.59.23,udardaḥ,उदर्दः,True,True
+ITA-3.7.8,uṇḍukaḥ,उण्डुकः,True,True
+ITA-3.4.7,udaroraḥsandhānam,उदरोरःसन्धानम्,True,True
+ITA-5.28.1,unmādaḥ,उन्मादः,True,True
+ITA-8.2.18,udaśvit,उदश्वित्,True,True
+ITA-9.2.32,unmardanam,उन्मर्दनम्,True,True
+ITA-5.76.36,udāvartā vamanasya vyāpadaḥ,उदावर्ता वमनस्य व्यापदः,False,True
+ITA-5.56.1.7,unmārgagāmībhagandaraḥ,उन्मार्गगामीभगन्दरः,True,True
+ITA-5.35.1,udāvartaḥ,उदावर्तः,True,True
+ITA-5.64.24,unmathakaḥ,उन्मथकः,True,True
+ITA-9.6.31,udbhijaḥ ITA- unmathanakarma,उन्मथनकर्म,False,True
+ITA-2.1.1.14,unmeṣaḥ,उन्मेषः,True,True
+ITA-1.6.11,uddeśaḥ,उद्देशः,True,True
+ITA-3.2.1.21,Unmeṣiṇīsirā,उन्मेषिणीसिरा,True,True
+ITA-1.6.12,uddhāraḥ,उद्धारः,True,True
+ITA-9.6.28,unnamanakarma,उन्नमनकर्म,False,True
+ITA-9.6.202,uddharaṇakarma,उद्धरणकर्म,True,True
+ITA-6.2.6.48,upacayaḥ,उपचयः,True,True
+ITA-5.75.21,udgāragrahaḥ,उद्गारग्रहः,True,True
+ITA-5.57.1,upadaṃśaḥ,उपदंशः,True,True
+ITA-5.35.10,udgāranigrahaja-udāvartaḥ,उद्गारनिग्रहज-उदावर्तः,True,True
+ITA-1.6.13,upadeśaḥ,उपदेशः,True,True
+ITA-9.2.31,udgharṣaṇam,उद्घर्षणम्,True,True
+ITA-9.7.33,upadhānam (viṣopakramaḥ),उपधानम् (विषोपक्रमः),False,False
+ITA-5.59.3,udumbarakuṣṭhaḥ,उदुम्बरकु ष्ठः,True,True
+ITA-2.3.1,upadhātuḥ,उपधातुः,True,True
+ITA-9.2.29,udvartanam,उद्वर्तनम्,True,True
+ITA-5.76.1,upadrava,उपद्रवः,True,True
+ITA-4.5.24,1.9.3.3.10 upadravaḥ,उपद्रवः,False,True
+ITA-1.6.14,ūhyam,ऊह्यम् उपद्रवरोग,True,False
+ITA-4.8.42,upadravaroga,,True,False
+ITA-3.3.15,ukhā,उखा उपद्रवविरे चनव्यापत्,True,False
+ITA-5.76.80,upadravavirecanavyāpat,,True,False
+ITA-3.13.40,ulūkhalasandhiḥ,उलूखलसन्धिः उपहारः,True,False
+ITA-9.1.19,upahāraḥ,,True,False
+ITA-3.2.4.26,upajihvikā,उपजिह्विका,True,True
+ITA-2.9.1.3,upasthitagarbhaḥ,उपस्थितगर्भा,True,True
+ITA-5.63.35,upajihvikā,उपजिह्विका,True,True
+ITA-2.9.1.15,upasthitaprasavaḥ,उपस्थितप्रसवः,True,False
+ITA-9.1.8,upakramaḥ,उपक्रमः,True,True
+ITA-9.1.23,upavāsaḥ,उपवासः,True,True
+ITA-5.63.17,upakuśaḥ,उपकु शः,True,True
+ITA-9.4.30,upaveśanasaṁskāraḥ,उपवेशनसंस्कारः,True,True
+ITA-1.7.12,upālambhaḥ,उपालम्भः,True,True
+ITA-9.7.7,upaviṣam,उपविषम्,True,True
+ITA-1.8.3.3,upamānaḥ,उपमानः,True,True
+ITA-1.11.1,upāyaḥ,उपायः,True,True
+ITA-5.66.59,upanāhaḥ,उपनाहः,True,True
+ITA-1.11.11,upāyaḥ,उपायः,True,True
+ITA-9.6.126,upanāhakarma,उपनाहकर्म,True,True
+ITA-9.6.13,upayantram,उपयन्त्रम्,True,True
+ITA-9.6.114,upanāhakarma (vraṇacikitsā),उपनाहकर्म (व्रणचिकित्सा),False,False
+ITA-3.4.1,uraḥ,उरः,True,True
+ITA-5.62.17,upanakha,उपनख,True,True
+ITA-3.4.3,uraḥkoṣṭhaḥ,उरःकोष्ठः,True,True
+ITA-3.10.1.19,upanakham,उपनखम्,True,True
+ITA-5.17.11,uraḥkṣatajanyarājayakṣmā,उरःक्षतजन्यराजयक्ष्मा,True,True
+ITA-3.14.11,upanāsikā-sirā,उपनासिकासिरा,True,True
+ITA-3.13.17,uraḥphalakaḥ,उरःफलकः,True,True
+ITA-1.7.11,upanayaḥ,उपनयः,True,True
+ITA-6.2.6.10,ūrdhvabhāgahara-karma,ऊर्ध्वभागहर-कर्म,True,True
+ITA-3.1.10,upāṅgaḥ,उपाङ्गः,True,True
+ITA-3.2.4.17,ūrdhvadantapaṅktiḥ,ऊर्ध्वदन्तपङ्क्तिः,True,True
+ITA-7.2.3.1,uparasaḥ,उपरसः,True,True
+ITA-5.33.2,ūrdhvaga-amlapittam,ऊर्ध्वग-अम्लपित्तम्,True,True
+ITA-7.2.7.1,uparatnam,उपरत्नम्,True,True
+ITA-5.76.32,ūrdhvagaraktapitta vamanasya,ऊर्ध्वगरक्तपित्त वमनस्य व्यापदः,False,False
+ITA-4.5.7,upaśayabhedaḥ,उपशयभेदः,True,True
+ITA-3.1.22,ūrdhvajatru,ऊर्ध्वजत्रु,True,True
+ITA-4.5.6,upaśayaḥ,उपशयः,True,True
+ITA-3.1.20,ūrdhvakāyaḥ,ऊर्ध्वकायः,True,True
+ITA-3.6.8,upasthaḥ,उपस्थः,True,True
+ITA-9.5.1,urdhvāṅgacikitsā,उर्ध्वाङ्गचिकित्सा,True,True
+ITA-1.11.16,upasthātā,उपस्थाता,True,True
+ITA-1.4.6,ūrdhvāṅgacikitsā,ऊर्ध्वाङ्गचिकित्सा,True,True
+ITA-3.2.1,ūrdhvāṅgam,ऊर्ध्वाङ्गम्,True,True
+ITA-6.2.1.8,ūṣaṇaḥ,ऊषणः,True,True
+ITA-7.2.9,ūrdhvapātanam,ऊर्ध्वपातनम्,True,True
+ITA-1.9.4.2.7,uṣṇaḥ,उष्णः,True,True
+ITA-5.20.3,ūrdhvaśvāsaḥ,ऊर्ध्वश्वासः,True,True
+ITA-5.75.7,uṣṇajala-śiraḥsnānaḥ,उष्णजल-शिरःस्नानः,True,True
+ITA-5.76.92,ūrdhvatābastivyāpat,ऊर्ध्वताबस्तिव्यापत्,True,True
+ITA-5.39.20,uṣṇamārutaḥ,उष्णमारुतः,True,True
+ITA-3.3.14,ūrdhvatrikam,ऊर्ध्वत्रिकम्,True,True
+ITA-9.2.59,uṣṇasadanam,उष्णसदनम्,True,True
+ITA-5.2.1.58,ūrdhvavātaḥ,ऊर्ध्ववातः,True,True
+ITA-5.39.20,uṣṇavātaḥ,उष्णवातः,True,True
+ITA-5.76.34,ūrdhvavātāsthāpitānuvāsita,ऊर्ध्ववातास्थापितानुवासित,False,False
+ITA-5.74.8,uṣṇavīrya-dravyātiyogaḥ,उष्णवीर्य-द्रव्यातियोगः,True,True
+ITA-9.4.15,uṣṇodakamukhapariṣekaḥ,उष्णोदकमुखपरिषेकः,True,True
+ITA-9.8.13,ūrjaskaraḥ,ऊर्जस्करः,True,True
+ITA-5.56.1.4,uṣṭragrīvabhagandaraḥ,उष्ट्रग्रीवभगन्दरः,True,True
+ITA-3.4.4,urogrīvam,उरोग्रीवम्,True,True
+ITA-9.6.144,utkārikākarma (vraṇacikitsā),उत्कारिकाकर्म (व्रणचिकित्सा),False,False
+ITA-3.16.9,Uromarma,उरोमर्म,True,True
+ITA-9.7.24,utkartanam (viṣopakramaḥ),उत्कर्तनम् (विषोपक्रमः),False,False
+ITA-3.9.2,ūru,ऊरु,True,True
+ITA-5.76.103,utkliṣṭadoṣamandāgneḥ,उत्क्लिष्टदोषमन्दाग्नेः,False,False
+ITA-3.9.3,ūrumūlam,ऊरुमूलम् आस्थापनस्य व्यापदः,True,False
+ITA-3.9.5,ūrumūlam,ऊरुमूलम्,True,True
+ITA-3.16.37,utkṣepaḥ (marma),उत्क्षेपः (मर्म),False,False
+ITA-3.13.28,ūrunalakam,ऊरुनालकम्,True,True
+ITA-4.4.3,utpādakahetuḥ,उत्पादकहेतुः,True,True
+ITA-3.9.4,ūrupiṇḍikā,ऊरुपिण्डिका,True,True
+ITA-9.5.44,utpalabhedakaḥ,उत्पलभेदकः,True,True
+ITA-3.13.51,ūrusandhiḥ,ऊरुसन्धिः,True,True
+ITA-9.6.48,utpalaśastram,उत्पलशस्त्रम्,True,True
+ITA-5.31.1,ūrustambhaḥ,ऊरुस्तम्भः,True,True
+ITA-5.64.23,utpātaḥ,उत्पातः,True,True
+ITA-3.13.28,ūrvasthi,ऊर्वस्थि,True,True
+ITA-5.55.2,utpiṣṭa-sandhimuktam,उत्पिष्ट-सन्धिमुक्तम्,True,True
+ITA-3.16.41,ūrvī (marma),ऊर्वी (मर्म),False,False
+ITA-9.6.153,utsādanakarma,उत्सादनकर्म,True,True
+ITA-3.14.14,ūrvīsirā,ऊर्वीसिरा,True,True
+ITA-9.2.30,utsādanam,उत्सादनम्,True,True
+ITA-2.1.1.8,utsāhaḥ,उत्साहः,True,True
+ITA-3.10.3,vāgindriyam,वागिन्द्रियम्,True,True
+ITA-5.66.70,utsaṅginī,उत्सङ्गिनी,True,True
+ITA-7.1.4.17,vāhi,वाहि,True,True
+ITA-5.58.5,uttamā,उत्तमा,True,True
+ITA-7.2.4.6,vahnijāraḥ,वह्निजारः,True,True
+ITA-9.5.1,uttamāṅgacikitsā,उत्तमाङ्गचिकित्सा,True,True
+ITA-8.2.3,vaidalavargaḥ,वैदलवर्गः,True,True
+ITA-3.2.2,uttamāṅgam,उत्तमाङ्गम्,True,True
+ITA-7.2.6.10,vaidūryam,वैद र्य ू म्,True,True
+ITA-9.2.106,uttamaśuddhiḥ,उत्तमशुद्धिः,True,True
+ITA-7.2.6.10,vaiḍūryam,वैडूर्यम्,True,True
+ITA-5.30.2,uttāna-vātaraktam,उत्तान-वातरक्तम्,True,True
+ITA-1.11.14,vaidyaḥ,वैद्यः,True,True
+ITA-9.2.104,uttarabasti,उत्तरबस्ति,True,True
+ITA-3.16.21,vaikalyakaramarma,वैकल्यकरमर्म,True,True
+ITA-9.2.85,uttarabastiḥ,उत्तरबस्तिः,True,True
+ITA-7.2.2.3,vaikrāntam,वैक्रान्तम्,True,True
+ITA-9.6.166,uttarabastikarma (vraṇacikitsā),उत्तरबस्तिकर्म (व्रणचिकित्सा),False,False
+ITA-4.4.15,vaikṛtadoṣaḥ,वैकृतदोषः,True,True
+ITA-3.2.4.17,uttaradantaḥ,उत्तरदन्तः,True,True
+ITA-9.6.118,vaikṛtāpahakarma (vraṇacikitsā),वैकृतापहकर्म (व्रणचिकित्सा),False,False
+ITA-2.6.35,uttarādhara-vibhāgaḥ,उत्तराधरविभागः,True,True
+ITA-9.5.75,vairecanikadhūmapānam,वैरेचनिकधूमपानम्,True,True
+ITA-1.9.4.1.1,uttaragudam ITA.3.11.28 vaiśeṣikaguṇāḥ,वैशेषिकगुणाः,False,True
+ITA-1.7.10,uttaram,उत्तरम्,True,True
+ITA-9.2.79,vaitaraṇabastiḥ,वैतरणबस्तिः,True,True
+ITA-3.2.4.8,uttarauṣṭhaḥ,उत्तरौष्ठः,True,True
+ITA-9.9.1,vājīkaraṇacikitsā,वाजीकरणचिकित्सा,True,True
+ITA-7.2.7,utthāpanam,उत्थापनम्,True,True
+ITA-1.4.10,vājīkaraṇacikitsa ̄,वाजीकरणचिकित्सा,True,True
+ITA-1.7.2,vādaḥ,वादः,True,True
+ITA-9.1.36,vājīkaraṇam,वाजीकरणम्,True,True
+ITA-1.7.3,vādamārgaḥ,वादमार्गः,True,True
+ITA-7.2.6.7,vajra,वज्र,True,True
+ITA-3.2.4.1,vadanam,वदनम्,True,True
+ITA-9.8.17,vāk-siddhiḥ,वाक् -सिद्धिः,True,True
+ITA-3.2.4.2,vadanāntaram,वदनान्तरम्,True,True
+ITA-9.9.41,vakrī,वक्री,True,True
+ITA-3.4.1,vakṣaḥ,वक्षः,True,True
+ITA-9.2.69,vamanakarma,वमनकर्म,True,True
+ITA-3.4.2,vakṣasthalam,वक्षस्थलम्,True,True
+ITA-9.6.211,vamanakarma,वमनकर्म,True,True
+ITA-3.2.4.1,vaktram,वक्त्रम्,True,True
+ITA-9.6.130,vamanakarma (vraṇacikitsā),वमनकर्म (व्रणचिकित्सा),False,False
+ITA-1.7.24,vākyadoṣaḥ,वाक्यदोषः,True,True
+ITA-9.7.31,vamanam (viṣopakramaḥ),वमनम् (विषोपक्रमः),False,False
+ITA-1.7.25,vākyapraśaṃsā,वाक्यप्रशंसा,True,True
+ITA-5.76.24,vamanamithyāyogaḥ,वमनमिथ्यायोगः,True,False
+ITA-1.6.27,vākyaśeṣaḥ,वाक्यशेषः,True,True
+ITA-5.76.108,vamitaviriktayostu,वमितविरिक्तयोस्तु आस्थापनस्य,False,False
+ITA-5.63.59,valayaḥ,वलयः,True,True
+ITA-1.9.3.7.4,vanaspatiḥ,वनस्पतिः,True,True
+ITA-3.13.8,valayāsthi,वलयास्थि,True,True
+ITA-1.9.3.7.5,vānaspatya,वानस्पत्य,True,True
+ITA-3.7.4,valiḥ,वलिः,True,True
+ITA-2.8.29,vānaspatyakāyaḥ,वानस्पत्यकायः,True,True
+ITA-3.10.1.1,valkam,वल्कम्,True,True
+ITA-7.2.5.6,vaṅgam,वङ्गम्,True,True
+ITA-9.5.55,vallīkarṇaḥ,वल्लीकर्णः,True,True
+ITA-3.6.5,vaṅkṣaṇaḥ,वङ्क्षणः,True,True
+ITA-9.5.45,vallūrakaḥ,वल्लूरकः,True,True
+ITA-3.13.51,vaṅkṣaṇasandhiḥ,वङ्क्षणसन्धिः,True,False
+ITA-5.62.7,valmīkaḥ,वल्मीकः,True,True
+ITA-7.2.1.21,vanopalā,वनोपला,True,True
+ITA-7.1.3.8,vālukāyantram,वालुकायन्त्रम्,True,True
+ITA-7.2.1.21,vanotpalā,वनोत्पला,True,True
+ITA-9.5.79,vāmakadhūmapānam,वामकधूमपानम्,True,True
+ITA-7.2.1.21,vanyopalā,वन्योपला,True,True
+ITA-5.76.21,vamana-apacāraḥ,वमन-अपचारः,True,True
+ITA-5.76.23,vamana-atiyogaḥ,वमन-अतियोगः,True,True
+ITA-5.76.22,vamana-ayogaḥ,वमन-अयोगः,True,True
+ITA-3.1.2,vapuḥ,वपुः,True,True
+ITA-6.2.6.10,vamana-karma,वमन-कर्म,True,True
+ITA-8.2.45,vāpyam,वाप्यम्,True,True
+ITA-5.76.40,vamana-vyāpadaḥ,वमन-व्यापदः,True,True
+ITA-5.62.42,varāhadaṃṣṭrakaḥ,वराहदंष्ट्रकः,True,True
+ITA-7.2.1.19,varāhapuṭaḥ,वराहपुटः,True,True
+ITA-5.66.85,vartmārbudaḥ,वर्त्मार्बुदः,True,True
+ITA-9.1.13,vāraṇam,वारणम्,True,True
+ITA-3.2.1.14,vartmasandhiḥ,वर्त्मसन्धिः,True,True
+ITA-5.17.7,vārdhakyajanyarājayakṣmā,वार्धक्यजन्यराजयक्ष्मा,True,True
+ITA-5.66.73,vartmaśarkarā,वर्त्मशर्करा,True,True
+ITA-2.9.2,vārdhakyam,वार्धक्यम्,True,True
+ITA-5.66.78,vartmāvabandhakaḥ,वर्त्मावबन्धकः,True,True
+ITA-5.63.19,vardhanaḥ,वर्धनः,True,True
+ITA-2.8.14,vāruṇakāyaḥ,वारुणकायः,True,True
+ITA-7.2.1.8,vāritara,वारितर,False,True
+ITA-2.3.5,vasā,वसा,True,True
+ITA-9.8.20,varṇyaḥ,वर्ण्यः,True,True
+ITA-5.41.26,vasāmehaḥ,वसामेहः,True,True
+ITA-9.6.225,varṇyalepaḥ,वर्ण्यलेपः,True,True
+ITA-8.3.6,vāsanam,वासनम्,True,True
+ITA-7.2.5.11,vartalauham,वर्तलौहम् वशी,True,False
+ITA-7.2.5.11,vartalohaḥ,वर्तलोहम्,True,True
+ITA-9.6.19,vartanakarma,वर्तनकर्म,True,True
+ITA-9.5.34,vartiḥ,वर्तिः,True,True
+ITA-9.6.146,vartiḥ (vraṇacikitsā),वर्तिः (व्रणचिकित्सा),False,False
+ITA-3.2.1.4,vartma,वर्त्म,True,True
+ITA-5.66.69,vartma-rogaḥ,वर्त्म-रोगः,True,True
+ITA-2.1.1.7,vāta-karma,वात-कर्म,True,True
+ITA-3.2.1.11,vartma-śukla-sandhiḥ,वर्त्मशुक्लसन्धिः,True,True
+ITA-6.2.6.5,vata-śamanam,वातशमनम्,False,True
+ITA-5.66.87,vartmagata-raktārśaḥ,वर्त्मगत-रक्तार्शः,True,True
+ITA-5.6.27,vātabalāsakajvaraḥ,वातबलासकज्वरः,True,True
+ITA-5.66.79,vartmakardamaḥ,वर्त्मकर्दमः,True,True
+ITA-5.39.13,vātabastiḥ,वातबस्तिः,True,True
+ITA-3.2.1.28,vartmamaṇḍalam,वर्त्ममण्डलम्,True,True
+ITA-5.66.3,vātābhiṣyandaḥ,वाताभिष्यन्दः,True,True
+ITA-3.2.1.34,vartmapaṭalam,वर्त्मपटलम्,True,True
+ITA-5.76.207,vātaduṣṭaraktaḥ,वातदुष्टरक्तः,True,True
+ITA-2.1.1.1,vātaḥ,वातः,True,True
+ITA-5.49.2,vātajagranthiḥ,वातजग्रन्थिः,True,True
+ITA-5.66.84,vātāhata-vartma,वाताहत-वर्त्म,True,True
+ITA-5.37.2,vātajagulmaḥ,वातजगुल्मः,True,True
+ITA-5.9.2,vātaja grahaṇīroga,वातज ग्रहणीरोग,True,True
+ITA-5.38.2,vātajahṛdrogaḥ,वातजहृद्रोगः,True,True
+ITA-5.66.8,vātaja-adhimanthaḥ,वातज-अधिमन्थः,True,True
+ITA-5.11.5,vātajājīrṇam,वातजाजीर्णम्,True,True
+ITA-5.29.2,vātaja-apasmāraḥ,वातज-अपस्मारः,True,True
+ITA-5.64.17,vātajakarṇarogaḥ,वातजकर्णरोगः,True,True
+ITA-5.22.2,vātaja-arocakaḥ,वातज-अरोचकः,True,True
+ITA-5.64.17,vātajakarṇaśūlam,वातजकर्णशूलम्,True,True
+ITA-5.40.3,vātaja-aśmarī,वातज-अश्मरी,True,True
+ITA-5.18.2,vātajakāsaḥ,वातजकासः,True,True
+ITA-5.7.3,vataja-atisāraḥ,वातज-अतिसारः,True,True
+ITA-5.70.10,vātajakṣīradoṣaḥ,वातजक्षीरदोषः,True,True
+ITA-5.47.2,vātaja-galagaṇḍaḥ,वातजगलगण्डः,True,True
+ITA-5.61.10,vātajamasūrikā,वातजमसूरिका,True,True
+ITA-5.63.3,vātaja-oṣṭhaprakopaḥ,वातज-ओष्ठप्रकोपः,True,True
+ITA-5.25.3,vātajamūrcchā,वातजमूर्च्छा,True,True
+ITA-5.65.14,vātaja-pratiśyāyaḥ,वातज-प्रतिश्यायः,True,True
+ITA-5.39.2,vātajamūtrakṛcchram,वातजमूत्रकृच्छ्रम्,True,True
+ITA-5.67.2,vātaja-śirorogaḥ,वातज-शिरोरोगः,True,True
+ITA-5.56.2,vātajanāḍīvraṇaḥ,वातजनाडीव्रणः,True,True
+ITA-5.43.2,vātaja-udararogaḥ,वातज-उदररोगः,True,True
+ITA-5.65.22,vātajanāsārśaḥ,वातजनासार्शः,True,True
+ITA-5.57.2,vātaja-upadaṃśaḥ,वातज-उपदंशः,True,True
+ITA-5.14.2,vātajapāṇḍurogaḥ,वातजपाण्डुरोगः,True,True
+ITA-5.45.2,vātaja-vṛddhiḥ,वातज-वृद्धिः,True,True
+ITA-5.41.25,vātajapramehaḥ,वातजप्रमेहः,True,True
+ITA-5.69.2,vātaja-yonirogaḥ,वातज-योनिरोगः,True,True
+ITA-5.16.2,vātajaraktapittam,वातजरक्तपित्तम्,True,True
+ITA-5.56.1.3,vātajabhagandaraḥ,वातजभगन्दरः,True,True
+ITA-5.63.52,vātajarohiṇī,वातजरोहिणी,True,True
+ITA-5.6.23,vātajacaturthakajvaraḥ,वातजचतुर्थकज्वरः,True,True
+ITA-5.10.2,vātajārśaḥ,वातजार्शः,True,True
+ITA-5.23.2,vātajachardiḥ,वातजछर्दिः,True,True
+ITA-5.51.2,vātajaślīpadaḥ,वातजश्लीपदः,True,True
+ITA-5.63.23,vātajadantanāḍī,वातजदन्तनाडी,True,True
+ITA-5.44.2,vātajaśophaḥ,वातजशोफः,True,True
+ITA-5.34.2,vātajaśūlaḥ,वातजशूलः,True,True
+ITA-5.6.10,vātapittajajvaraḥ,वातपित्तजज्वरः,True,True
+ITA-5.21.2,vātajasvarabhedaḥ,वातजस्वरभेदः,True,True
+ITA-5.60.6,vātapittajavisarpaḥ,वातपित्तजविसर्पः,True,True
+ITA-5.24.3,vātajatṛṣṇā,वातजतृष्णा,True,True
+ITA-2.8.6,vātapittaprakṛtiḥ,वातपित्तप्रकृ तिः,True,True
+ITA-5.52.2,vātajavidradhiḥ,वातजविद्रधिः,True,True
+ITA-5.6.21,vātapittatṛtīyakajvaraḥ,वातपित्ततृतीयकज्वरः,True,True
+ITA-5.60.2,vātajavisarpaḥ,वातजविसर्पः,True,True
+ITA-5.2.1.2,vātaprakopaḥ,वातप्रकोप,True,False
+ITA-5.61.2,vātajavisphoṭakaḥ,वातजविस्फोटकः,True,True
+ITA-2.8.3,vātaprakṛtiḥ,वातप्रकृ तिः,True,True
+ITA-5.54.3,vātajavraṇaḥ,वातजव्रणः,True,True
+ITA-5.2.1.8,vātaprasaraṇam,वातप्रसरणम्,True,True
+ITA-5.53.2,vātajavraṇaśophaḥ,वातजव्रणशोफः,True,True
+ITA-5.30.1,vātaraktam,वातरक्तम्,True,True
+ITA-5.28.2,vātajonmādaḥ,वातजोन्माद,True,False
+ITA-5.2.1.1,vātasañcayaḥ,वातसञ्चयः,True,True
+ITA-5.6.3,vātajvaraḥ,वातज्वरः वाताशयः,True,False
+ITA-5.2.1.44,vātakaṇṭakaḥ,वातकण्टकः,True,True
+ITA-5.2.1.55,vātāṣṭhīlā,वाताष्ठीला,True,True
+ITA-5.60.7,vātakaphajavisarpaḥ,वातकफजविसर्पः,True,True
+ITA-5.39.12,vātāṣṭhīlā,वाताष्ठीला,True,True
+ITA-5.6.20,vātakaphatṛtīyakajvaraḥ,वातकफतृतीयकज्वरः,True,True
+ITA-5.76.50,vātaśūlavyāpat,वातशूलव्यापत्,True,True
+ITA-5.2.1.44,vātakhuḍḍatā,वातखुड्डता,True,True
+ITA-9.8.3,vātātapikarasāyanam,वातातपिकरसायनम्,True,True
+ITA-6.2.6.6,vātakōpanam,वातकोपनम्,True,True
+ITA-3.14.2,Vātavahā,वातवहा,True,True
+ITA-5.2.1.9,vātakṣayaḥ,वातक्षयः,True,True
+ITA-5.2.1.2,vātavṛddhilakṣaṇam,वातवृद्धिलक्षणम्,True,True
+ITA-5.39.11,vātakuṇḍalikā,वातकु ण्डलिका,True,True
+ITA-5.32.2,vātika-āmavātaḥ,वातिक-आमवातः,True,True
+ITA-5.35.2,vātanigrahaja-udāvartaḥ,वातनिग्रहज-उदावर्तः,True,True
+ITA-5.33.4,vātika-amlapittam,वातिक-अम्लपित्तम्,True,True
+ITA-5.34.8,vātapaittikaśūlaḥ,वातपैत्तिकशूलः,True,True
+ITA-5.68.2,vātika-asṛgdaraḥ,वातिक-असृग्दरः,True,True
+ITA-5.66.15,vātaparyāyaḥ,वातपर्यायः,True,True
+ITA-5.66.31,vātika-liṅganāśaḥ,वातिक-लिङ्गनाशः,True,True
+ITA-5.6.4,Vātikajvarapūrvarūpam,वातिकज्वरपूर्वरूपम्,True,True
+ITA-5.2.1.56,vepathuḥ,वेपथुः,True,True
+ITA-5.59.2,vātikakuṣṭhaḥ,वातिककु ष्ठः,True,True
+ITA-8.3.36,veśavāraḥ,वेशवारः,True,True
+ITA-5.34.10,vātikapariṇāmaśūlaḥ,वातिकपरिणामशूलः,True,True
+ITA-9.6.59,vetasapatraśastram,वेतसपत्रशस्त्रम्,True,True
+ITA-5.3.8,vātikaraktaduṣṭiḥ,वातिकरक्तदुष्टिः,True,True
+ITA-9.6.191,vibandhaḥ,विबन्धः,True,True
+ITA-9.9.42,vātikaṣaṇḍaḥ,वातिकषण्डः,True,True
+ITA-5.76.82,vibandhavyāpat,विबन्धव्यापत्,True,True
+ITA-5.69.7,vātikayonikandaḥ,वातिकयोनिकन्दः,True,True
+ITA-1.9.4.4.6,vibhāgaḥ,विभागः,True,True
+ITA-8.3.31,vāṭyaḥ,वाट्यः,True,True
+ITA-5.76.47,vibhraṃśaḥ-vamanavyāpat,विभ्रंश:-वमनव्यापत्,False,True
+ITA-8.3.49,vāṭyamaṇḍaḥ,वाट्यमण्डः,True,True
+ITA-5.76.78,vibhramśavirecanavyāpat,विभ्रंशविरे चनव्यापत्,True,True
+ITA-2.9.1,vayaḥ,वयः विभु,True,False
+ITA-3.13.44,vāyasatuṇḍasandhiḥ,वायसतुण्डसन्धिः,True,True
+ITA-1.9.3.3.9,vicāraḥ,विचारः,True,True
+ITA-9.8.9,vayasthāpanam,वयस्थापनम्,True,True
+ITA-9.2.8,vicāraṇāsnehaḥ,विचारणास्नेहः,True,True
+ITA-4.2.10,vāyavyarogaḥ,वायव्यरोगः,True,True
+ITA-5.59.19,vicarcikā,विचर्चिका,True,True
+ITA-1.9.3.1.4,vāyuḥ,वायुः,False,False
+ITA-6.1.8,vicitrapratyayārabdhadravyaḥ,विचित्रप्रत्ययारब्धद्रव्यः,True,True
+ITA-3.2.4.38,vāyumārgaḥ,वायुमार्गः,True,True
+ITA-5.39.22,viḍ-vighātaḥ,विड् -विघातः,True,True
+ITA-9.5.11,vedhyarogaḥ,वेध्यरोगः,True,True
+ITA-5.11.6,vidagdhājīrṇam,विदग्धाजीर्णम्,True,True
+ITA-3.10.1.6,vedinī,वेदिनी,True,True
+ITA-5.66.44,vidagdhāmlam,विदग्धाम्लम्,True,True
+ITA-2.7.1,vegaḥ,वेगः,True,True
+ITA-6.2.6.58,vidāhī,विदाही,True,True
+ITA-5.17.2,vegarodhajarājayakṣmā,वेगरोधजराजयक्ष्मा,True,True
+ITA-7.2.9.4,viḍalavaṇam,विडलवणम्,True,True
+ITA-5.75.8,vegāvarodhaḥ,वेगावरोधः,True,True
+ITA-5.63.69,vidārī,विदारी,True,True
+ITA-9.6.73,vellitakam,वेल्लितकम्,True,True
+ITA-5.62.20,vidārikā,विदारिका,True,True
+ITA-5.41.1.11,vidārikā-pramehapiḍakā,विदारिका-प्रमेहपिडका,True,True
+ITA-1.6.28,vikalpanam,विकल्पनम्,True,True
+ITA-5.73.19,viddhaḥ,विद्धः,True,True
+ITA-4.5.21,vikalpasamprāptiḥ,विकल्पसम्प्राप्तिः,True,True
+ITA-1.6.29,vidhānam,विधानम्,True,True
+ITA-4.2.1,vikāraḥ,विकारः,False,False
+ITA-1.5.1,vidhiḥ,विधिः,True,True
+ITA-5.1.1,vikāraḥ,विकारः,True,True
+ITA-1.5.7,vidhiḥ,विधिः,True,True
+ITA-9.6.25,vikarṣaṇakarma,विकर्षणकर्म,True,True
+ITA-4.5.20,vidhisamprāptiḥ,विधिसम्प्राप्तिः,True,True
+ITA-6.2.6.40,vikāśī,विकाशी,True,True
+ITA-3.16.46,vidhurā (marma),विधुरा (मर्म),False,False
+ITA-4.8.18,vikṛtiḥ,विकृ तिः,True,True
+ITA-5.41.1.8,vidradhi-pramehapiḍakā,विद्रधि-प्रमेहपिडका,True,True
+ITA-4.8.16,vikṛtiviṣamasamavetasannipāta-,विकृ तिविषमसमवेतसन्नि-,False,False
+ITA-5.52.1,vidradhiḥ,विद्रधिः,True,True
+ITA-5.76.60,vilaṃghitadurbalendriyālpāgnini,विलंघितदुर्बलेन्द्रियाल्पाग्निनि,True,False
+ITA-5.41.1.8,vidradhikā,विद्रधिका,True,True
+ITA-5.58.13,vidradhiśūkarogaḥ,विद्रधिशूकरोगः,True,True
+ITA-8.3.13,vilepī,विलेपी,True,True
+ITA-7.2.6.4,vidrumam,विद्रुमम्,True,True
+ITA-7.2.2.5,vimalam,विमलम्,True,True
+ITA-1.5.1,vidyā,विद्या,False,False
+ITA-4.8.7,vimārgagamanam,विमार्गगमनम्,True,True
+ITA-1.5.4,vidyā,विद्या,True,True
+ITA-9.6.112,vimlāpanakarma,विम्लापनकर्म,True,True
+ITA-4.2.30,vidyudaśanikṛtarogaḥ,विद्युदशनिकृ तरोगः,True,True
+ITA-9.6.125,vimlāpanakarma (vraṇacikitsā),विम्लापनकर्म (व्रणचिकित्सा),False,False
+ITA-1.7.32,vigṛhyasaṃbhāṣā,विगृह्यसंभाषा,True,True
+ITA-9.6.42,viṃśatiśastrāṇi,विंशतिशस्त्राणि,True,True
+ITA-10.2.14,vihāraḥ,विहारः,True,True
+ITA-9.6.29,vinamanakarma,विनमनकर्म,True,True
+ITA-5.75.1,vihāravaiṣamyam,विहारवैषम्यम्,True,True
+ITA-5.41.1.5,vinatā-pramehapiḍakā,विनता-प्रमेहपिडका,True,True
+ITA-1.5.1,vijñānam,विज्ञानम्,True,True
+ITA-1.5.8,vijñānam,विज्ञानम्,True,True
+ITA-5.59.12,vipādikā,विपादिका,True,True
+ITA-6.2.4.1,vipākaḥ,विपाकः,,
+ITA-8.1.5,viruddhānnam,विरुद्धान्नम्,True,True
+ITA-1.8.2.24,vipakṣaḥ,विपक्षः,True,True
+ITA-1.9.3.7.7,vīrudha,वीरुध,True,True
+ITA-4.5.11,viparītārthakārī,विपरीतार्थकारी,True,True
+ITA-8.3.32,virūḍhādhakaḥ,विरूढाढकः,False,True
+ITA-1.6.30,viparyayaḥ,विपर्ययः,True,True
+ITA-8.3.32,virūḍhadhānāḥ,विरूढधानाः,True,True
+ITA-4.4.24,viprakṛṣṭahetuḥ,विप्रकृ ष्टहेतुः,True,True
+ITA-6.2.3.1,vīryam,वीर्यम्,,
+ITA-6.2.6.14,virecana-karma,विरे चन-कर्म,True,True
+ITA-9.9.45,vīryavāhinīsirāchedana-,वीर्यवाहिनीसिराछेदनजन्यक्लै,False,False
+ITA-9.5.75,virecanadhūmapānam,विरे चनधूमपानम्,True,True
+ITA-9.7.9,viṣa-adhiṣṭhānam,विष-अधिष्ठानम्,True,True
+ITA-9.2.70,virecanakarma,विरे चनकर्म,True,True
+ITA-1.4.8,viṣacikitsā,विषचिकित्सा,True,True
+ITA-9.6.212,virecanakarma,विरे चनकर्म,True,True
+ITA-9.6.131,virecanakarma (vraṇacikitsā),विरे चनकर्म (व्रणचिकित्सा),False,False
+ITA-5.76.51,virecanakarma-cikitsāpacāraḥ,विरे चनकर्म-चिकित्सापचारः,True,True
+ITA-9.7.2,viṣagaravairodhikacikitsā,विषगरवैरोधिकचिकित्सा,True,True
+ITA-5.76.54,virecanamithyāyogaḥ,विरे चनमिथ्यायोगः,True,True
+ITA-9.6.224,viṣaghnalepaḥ,विषघ्नलेपः,True,True
+ITA-5.76.52,virecanātiyogaḥ,विरे चनातियोगः,True,True
+ITA-9.6.171,viṣaghnam (vraṇacikitsā),विषघ्नम् (व्रणचिकित्सा),False,False
+ITA-5.76.71,virecanavyāpat,विरे चनव्यापत्,True,True
+ITA-5.72.1,viṣaḥ,विषः,True,True
+ITA-5.76.53,virecanāyogaḥ,विरे चनायोगः,True,True
+ITA-9.7.18,viṣahara-agadaḥ,विषहर-अगदः,True,True
+ITA-9.7.32,virekam (viṣopakramaḥ),विरे कम् (विषोपक्रमः),False,False
+ITA-5.25.9,viṣajamūrcchā,विषजमूर्च्छा,True,True
+ITA-5.76.151,viriktasya nasya vyāpadaḥ,विरिक्तस्य नस्य व्यापदः,True,True
+ITA-5.44.8,viṣajaśophaḥ,विषजशोफः,True,True
+ITA-5.74.5,viruddhāhāraḥ,विरुद्धाहारः,True,True
+ITA-5.28.7,viṣajonmādaḥ,विषजोन्मादः,True,True
+ITA-8.1.5,viruddhāhāraḥ,विरुद्धाहारः,True,True
+ITA-9.7.17,viṣakanyā,विषकन्या,True,True
+ITA-5.74.5,viruddhānnabhojanam,विरुद्धान्नभोजनम्,True,True
+ITA-3.16.20,viśalyaghnamarma,विशल्यघ्नमर्म,True,True
+ITA-9.7.4,viṣam,विषम्,True,True
+ITA-9.6.67,visrāvaṇakarma,विस्रावणकर्म,True,True
+ITA-2.6.10,viṣamāgniḥ,विषमाग्निः,True,True
+ITA-9.6.128,visrāvaṇakarma (vraṇacikitsā),विस्रावणकर्म (व्रणचिकित्सा),False,False
+ITA-5.11.3,viṣamāgniḥ,विषमाग्निः,True,True
+ITA-5.11.5,viṣṭabdhājīrṇam,विष्टब्धाजीर्णम्,True,True
+ITA-5.6.14,viṣamajvaraḥ,विषमज्वरः,True,True
+ITA-5.12.1,visūcikā,विसूचिका,True,True
+ITA-5.17.3,viṣamāśanajarājayakṣmā,विषमाशनजराजयक्ष्मा,True,True
+ITA-5.12.2,visūcikā-upadravaḥ,विसूचिका-उपद्रवः,True,True
+ITA-10.2.9,viṣamāśanam,विषमाशनम्,True,True
+ITA-9.9.44,viśuṣkaśukram,विशुष्कशुक्रम्,True,True
+ITA-9.7.15,viṣapradātā,विषप्रदाता,True,True
+ITA-5.2.1.39,viśvācī,विश्वाची,True,True
+ITA-3.7.7,visarjinī,विसर्जिनी,False,True
+ITA-6.2.6.46,viṣyandaḥ,विष्यन्दः,True,True
+ITA-5.60.1,visarpaḥ,विसर्पः,True,True
+ITA-2.4.3,viṭ,विट्,True,False
+ITA-9.7.20,viṣasaṅkaṭam,विषसङ्कटम्,True,True
+ITA-9.6.192,vitānabandhaḥ,वितानबन्धः,True,True
+ITA-9.7.19,viṣavegāntaraḥ,विषवेगान्तरः,True,True
+ITA-1.7.26,vitaṇḍā,वितण्डा,True,True
+ITA-9.7.5,viṣayoniḥ,विषयोनिः,True,True
+ITA-3.16.43,viṭapaḥ (marma),विटपः (मर्म),False,False
+ITA-1.9.2.1,viśeṣam,विशेषम्,True,True
+ITA-7.1.4.25,vitastiḥ,वितस्तिः,True,True
+ITA-4.5.3,viśeṣapūrvarūpam,विशेषपूर्वरूपम्,True,True
+ITA-9.4.36,vivāhasamskāra,विवाहसंस्कारः,True,True
+ITA-3.6.1,viśikhāntaram,विशिखान्तरम्,True,True
+ITA-3.1.11,vivaram,विवरम्,True,True
+ITA-9.6.5,viśikhānupraveśaḥ,विशिखानुप्रवेशः,True,True
+ITA-9.6.22,vivaraṇakarma,विवरणकर्म,True,True
+ITA-5.55.3,viśliṣṭa-sandhimuktam,विश्लिष्ट-सन्धिमुक्तम्,True,True
+ITA-9.9.43,vivarṇaretodoṣaḥ,विवर्णरे तोदोषः,True,True
+ITA-9.7.21,viṣopakramaḥ,विषोपक्रमः,True,True
+ITA-9.6.21,vivartanakarma,विवर्तनकर्म,True,True
+ITA-5.61.1,visphoṭakaḥ,विस्फोटकः,True,True
+ITA-5.55.4,vivartita-sandhimuktam,विवर्तित-सन्धिमुक्तम्,True,True
+ITA-5.59.17,visphoṭakakuṣṭhaḥ,विस्फोटककु ष्ठः विवेकः,True,False
+ITA-5.62.5,vivṛtā,विवृता,True,True
+ITA-1.4.10,vṛṣacikitsā,वृषचिकित्सा,True,True
+ITA-9.4.41,vivṛtadantaḥ,विवृतदन्तः,True,True
+ITA-3.6.15,vṛṣaṇaḥ,वृषणः,True,True
+ITA-5.76.233,vraṇa-apacāraḥ,व्रण-अपचारः,True,True
+ITA-5.62.40,vṛṣaṇakacchūḥ,वृषणकच्छूः,True,True
+ITA-6.2.6.55,vraṇa-ropaṇaḥ,व्रण-रोपणः,True,True
+ITA-2.2.23,vṛṣatā,वृषता,True,True
+ITA-6.2.6.68,vraṇa-śodhanam,व्रण-शोधनम्,True,True
+ITA-5.72.19,vṛścikaviṣaḥ,वृश्चिकविषः,True,True
+ITA-9.5.80,vraṇadhūpanam,व्रणधूपनम्,True,True
+ITA-9.9.2,vṛṣyaḥ,वृष्यः,True,True
+ITA-9.6.152,vraṇadhūpanam,व्रणधूपनम्,True,True
+ITA-6.2.6.62,vṛṣyam,वृष्यम्,True,True
+ITA-5.54.1,vraṇaḥ,व्रणः,True,True
+ITA-3.13.58,vṛttasnāyuḥ,वृत्तस्नायुः,True,True
+ITA-5.17.10,vraṇajanyarājayakṣmā,व्रणजन्यराजयक्ष्मा,True,True
+ITA-6.2.6.59,vṛttikaraḥ,वृत्तिकरः,True,True
+ITA-9.6.127,vraṇapācanakarma,व्रणपाचनकर्म,True,True
+ITA-4.4.25,vyabhicārihetuḥ,व्यभिचारिहेतुः,True,True
+ITA-5.53.1,vraṇaśophaḥ,व्रणशोफः,True,True
+ITA-9.6.68,vyadhana karma,व्यधनकर्म,True,True
+ITA-9.6.111,vraṇaśophasyasaptopakramāḥ,व्रणशोफस्यसप्तोपक्रमाः,False,True
+ITA-9.6.138,vyadhanavisrāvaṇakarma,व्यधनविस्रावणकर्म,True,True
+ITA-9.6.119,vraṇasyaṣaṣṭi-upakramāḥ,व्रणस्यषष्टि-उपक्रमाः,True,True
+ITA-4.8.26,vyādhibalavirodhitatvam,व्याधिबलविरोधितत्वम्,True,True
+ITA-6.2.6.56,vraṇyaḥ,व्रण्यः,True,True
+ITA-4.2.3,vyādhibhedaḥ,व्याधिभेदः,True,True
+ITA-5.45.1,vṛddhiḥ,वृद्धिः,True,True
+ITA-4.2.1,vyādhiḥ,व्याधिः,False,False
+ITA-9.6.45,vṛddhipatraśastram,वृद्धिपत्रशस्त्रम्,True,True
+ITA-9.1.4,vyādhiharam,व्याधिहरम्,True,True
+ITA-9.6.57,vrīhimukhaśastram,व्रीहिमुखशस्त्रम्,True,True
+ITA-4.4.20,vyādhihetuḥ,व्याधिहेतुः,True,True
+ITA-10.3.9,vṛkkā ITA.3.11.12 vyādhikṣamatva,व्याधिक्षमत्व,False,True
+ITA-1.9.3.7.6,vṛkṣaḥ,वृक्षः,True,True
+ITA-2.2.27,vyādhikṣamatvam,व्याधिक्षमत्वम्,True,True
+ITA-5.63.62,vṛndaḥ,वृन्दः,True,True
+ITA-4.8.25,vyādhikṣamatvam,व्याधिक्षमत्वम्,True,True
+ITA-4.2.2,vyādhisaṅkaraḥ,व्याधिसङ्करः,True,True
+ITA-5.76.1,vyāpat,व्यापत्,True,True
+ITA-4.8.29,vyādhisaṅkaraḥ,व्याधिसङ्कर,True,True
+ITA-5.19.3,vyapetāhikkā,व्यपेताहिक्का,True,True
+ITA-4.1.1,vyādhiviniścayaḥ,व्याधिविनिश्चयः,True,True
+ITA-1.8.2.25,vyāptiḥ,व्याप्तिः,True,True
+ITA-9.1.58,vyādhiviparītacikitsā,व्याधिविपरीतचिकित्सा,True,True
+ITA-1.8.2.26,vyatirekavyāptiḥ,व्यतिरे कव्याप्तिः,True,True
+ITA-4.5.9,vyādhiviparītaḥ,व्याधिविपरीतः,True,True
+ITA-1.7.27,vyavasāyaḥ,व्यवसायः,True,True
+ITA-4.5.13,vyādhiviparītārthakārī,व्याधिविपरीतार्थकारी,True,True
+ITA-5.76.149,vyavāya vyāyāma,व्यवाय व्यायाम पानक्लान्तानां,False,False
+ITA-4.8.27,vyādhyudpādapratibandha-,व्याध्युद्पादप्रतिबन्धकत्वम्,False,True
+ITA-5.75.23,vyavāya-vaiṣamyam,व्यवाय-वैषम्यम्,True,True
+ITA-1.6.40,vyākhyā,व्याख्या,True,True
+ITA-5.17.5,vyavāyajanyarājayakṣmā,व्यवायजन्यराजयक्ष्मा,True,True
+ITA-1.6.31,vyākhyānam,व्याख्यानम्,True,True
+ITA-5.75.24,vyavāyamithyāyogaḥ,व्यवायमिथ्यायोगः,True,True
+ITA-2.9.1.2,vyakta-garbhaḥ,व्यक्तगर्भः,True,True
+ITA-5.75.25,vyavāyātiyogaḥ,व्यवायातियोगः,True,True
+ITA-4.6.11,vyaktiḥ,व्यक्तिः,True,True
+ITA-6.2.6.39,vyavāyī,व्यवायी,True,True
+ITA-4.2.24,vyālakṛtarogaḥ,व्यालकृ तरोगः,True,True
+ITA-5.75.26,vyāyāma-vaiṣamyam,व्यायाम-वैषम्यम्,True,True
+ITA-7.1.4.28,vyāmaḥ,व्यामः,True,True
+ITA-9.1.51,vyāyāmaḥ,व्यायामः,True,True
+ITA-2.1.1.4,vyānaḥ,व्यानः,True,True
+ITA-9.2.58,vyāyāmaḥ,व्यायामः,True,True
+ITA-5.2.1.5,vyānavātakopaḥ,व्यानवातकोपः,True,True
+ITA-5.17.8,vyāyāmajanyarājayakṣmā,व्यायामजन्यराजयक्ष्मा,True,True
+ITA-4.4.4,vyañjakahetuḥ,व्यञ्जकहेतुः,True,True
+ITA-5.75.27,vyāyāmatiyogaḥ,व्यायामतियोगः,True,True
+ITA-4.5.5,vyañjanam,व्यञ्जनम्,True,True
+ITA-9.5.50,vyāyojimaḥ,व्यायोजिमः,True,True
+ITA-4.5.25,vyāpad,व्यापद्,True,True
+ITA-7.2.7.6,vyomāśmaḥ,व्योमाश्मः,True,True
+ITA-10.3.5,vyāpannaṛtu,व्यापन्नऋतु,True,True
+ITA-9.6.18,vyūhanakarma,व्यूहनकर्म,True,True
+ITA-4.2.27,vyāpannartukṛtarogaḥ,व्यापन्नर्तुकृतरोगः,True,True
+ITA-1.8.2.12,yadṛcchāsiddhiḥ,यदृच्छासिद्धिः,True,True
+ITA-7.2.10.4,yavakṣāraḥ,यवक्षारः,True,True
+ITA-5.62.3,yakṛt ITA.3.11.9 yavaprakhyā,यवप्रख्या,False,True
+ITA-9.5.4,yakṛtpradeśaḥ ITA.3.11.10 yavavakraśalākā,यववक्रशलाका,False,True
+ITA-4.2.1,yakṣmā,यक्ष्मा,False,False
+ITA-7.1.4.22,yavodaraḥ,यवोदरः,True,True
+ITA-5.28.10,yakṣonmādaḥ,यक्षोन्मादः,True,True
+ITA-9.2.84,yogabastiḥ,योगबस्तिः,True,True
+ITA-7.1.4.35,yāmaḥ,यामः,True,True
+ITA-1.6.26,yogaḥ,योगः,True,True
+ITA-9.6.188,yamakabandhaḥ,यमकबन्धः,True,True
+ITA-6.2.6.54,yogavāhī,योगवाही,True,True
+ITA-5.19.3,yamalāhikkā,यमलाहिक्का,True,True
+ITA-9.6.4,yogyā,योग्या,True,True
+ITA-2.8.17,yāmyakāyaḥ,याम्यकायः,True,True
+ITA-9.2.97,yoni dhāvana,योनिधावन,True,True
+ITA-5.76.104,yānaklāntasya āsthāpanasya,यानक्लान्तस्य आस्थापनस्य,False,False
+ITA-9.2.100,yoni dhūpana,योनिधूपन,True,True
+ITA-9.2.103,yoni kalkadhāraṇa,योनिकल्कधारण,True,True
+ITA-9.6.40,yantradoṣaḥ,यन्त्रदोषः,True,True
+ITA-9.2.102,yoni lepana,योनिलेपन,True,True
+ITA-7.1.3.1,yantram,यन्त्रम्,True,True
+ITA-9.2.98,yoni picu,योनिपिचु,True,True
+ITA-9.6.6,yantram,यन्त्रम्,True,True
+ITA-9.2.97,yoni prakṣālana,योनिप्रक्षालन,True,True
+ITA-9.6.177,yantram (vraṇacikitsā),यन्त्रम् (व्रणचिकित्सा),False,False
+ITA-9.2.99,yoni pūraṇa,योनिपूरण,True,True
+ITA-9.2.76,yāpanabastiḥ,यापनबस्तिः,True,True
+ITA-9.2.101,yoni vartī,योनिवर्ति,True,True
+ITA-5.76.132,yāpanavasti-atiyogaḥ,यापनवस्ति-अतियोगः,True,True
+ITA-3.6.1,yoniḥ,योनिः,True,True
+ITA-4.2.42,yāpyarogaḥ,याप्यरोगः,True,True
+ITA-5.69.6,yonikandaḥ,योनिकन्दः,True,True
+ITA-7.2.5.8,yaśadam,यशदम्,True,True
+ITA-9.5.56,yaṣṭikarṇaḥ,यष्टिकर्णः,True,True
+ITA-5.69.1,yonirogaḥ,योनिरोगः,True,True
+ITA-7.1.4.23,yava,यव,True,True

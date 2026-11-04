@@ -1,0 +1,305 @@
+sat_id,name_phonetic,name_sa_iast,name_sa_deva,name_hi_usage,botanical_name,botanical_author,botanical_synonyms,english_names,substitutes,formula_synonyms_iast,short_definition,long_definition
+SAT-F.261,agastya,agastya,अगस्त्य,अगस्त्य,Sesbania grandiflora,(L.) Pers.,,"Swamp pea, sesban",,,Sesbania grandiflora (L.) Pers.,"Swamp pea, sesban"
+SAT-F.262,aguru,aguru,अगुरु,अगुरु,Aquilaria malaccensis,Lam.,Aquilaria agallocha,"Agarwood, Aloewood, Eaglewood, Lign-aloes",,,Aquilaria malaccensis Lam. synonymous withAquilaria agallocha Roxb.,"Agarwood, Aloewood, Eaglewood, Lign-aloes"
+SAT-F.263,agnimantha,agnimantha,अग्निमन्थ,अग्निमंथ,Clerodendrum phlomidis,L.f.,Clerodendrum multiflorum,"Arni, dusky fire brand bark",Premna integrifolia; Premna mucronata,,Clerodendrum phlomidis L.f. synonymous with Clerodendrum multiflorum (Burn.) Kuntze,"Arni, dusky fire brand bark; can be substituted with 1. Premna integrifolia L. 2. Premna mucronata Roxb."
+SAT-F.264,ajagandhA,ajagandhā,अजगन्धा,अजगंधा,Cleome gynandra,L.,,"Shona cabbage,African cabbage, Spiderwisp, Cat's whiskers, Chinsaga, Stinkweed",,,Cleome gynandra L.,"Shona cabbage,African cabbage, Spiderwisp, Cat's whiskers, Chinsaga, Stinkweed"
+SAT-F.265,ajamodA,ajamodā,अजमोदा,अजमोदा,Apium leptophyllum,(Pers) F.Muell. ex Benth.,,"marsh parsley, slender celery, fir-leaved celery",,,Apium leptophyllum (Pers) F.Muell. ex Benth.,"marsh parsley, slender celery, fir-leaved celery"
+SAT-F.266,atasI,atasī,अतसी,अतसी,Linum usitatissimum,L.,,"Linseed, Flax plant",,,Linum usitatissimum L.,"Linseed, Flax plant"
+SAT-F.267,atibalA,atibalā,अतिबला,अतिबला,Abutilon indicum,(L.),,"Indian mallow, velvetleaf",,,Abutilon indicum (L.),"Indian mallow, velvetleaf"
+SAT-F.268,ativiShA,ativiṣā,अतिविषा,अतिविषा,Aconitum heterophyllum,Wall. ex Royle,,Atis root,,,Aconitum heterophyllum Wall. ex Royle,Atis root
+SAT-F.269,apAmArga,apāmārga,अपामार्ग,अपामार्ग,Achyranthes aspera,L.,,Prickly chaff-flower plant,,,Achyranthes aspera L.,Prickly chaff-flower plant
+SAT-F.270,amlavetasa,amlavetasa,अम्लवेतस,अम्लवेतस,Hippophae tibetana,Schltdl.,Hippophae rhamnoides,sea buckthorns,Rheum emodi,,Hippophae tibetana Schltdl. synonymous withHippophae rhamnoides L.,sea buckthornscan be substituted with Rheum emodi Wall. ex Meisn.
+SAT-F.271,arka,arka,अर्क,अर्क,Calotropis procera,(Aiton) Dryand.,,"apple of Sodom, Sodom apple, kapok tree, king's crown,rubber bush",,,Calotropis procera (Aiton) Dryand.,"apple of Sodom, Sodom apple, kapok tree, king's crown,rubber bush"
+SAT-F.272,arjuna,arjuna,अर्जुन,अर्जुन,Terminalia arjuna,(Roxb. ex DC.) Wight & Arn.,,Arjun tree,,,Terminalia arjuna (Roxb. ex DC.) Wight & Arn.,Arjun tree
+SAT-F.273,aSoka,aśoka,अशोक,अशोक,Saraca asoca,(Roxb.) Willd.,,Ashoka tree,,,Saraca asoca (Roxb.) Willd.,Ashoka tree
+SAT-F.274,aSmantaka,aśmantaka,अश्मन्तक,अश्मंतक,Bauhinia malabarica,Roxb.,,"Mountain ebony, Malabar bauhinia",Bauhinia semla,,Bauhinia malabarica Roxb.,"Mountain ebony, Malabar bauhinia can be substituted with Bauhinia semla Wunderlin synonymous with Bauhinia retusa Roxb."
+SAT-F.275,aSvagandhA,aśvagandhā,अश्वगन्धा,अश्वगंधा,Withania somnifera,(L.) Dunal,,Winter cherry,,,Withania somnifera (L.) Dunal,Winter cherry
+SAT-F.276,aSvagola,aśvagola,अश्वगोल,अश्वगोल,Plantago ovata,Forssk.,,"Ispaghula, Blond psyllium, Spogel seeds",,,Plantago ovata Forssk.,"Ispaghula, Blond psyllium, Spogel seeds"
+SAT-F.277,aSvattha,aśvattha,अश्वत्थ,अश्वत्थ,Ficus religiosa,L.,,"Peepal tree, Sacred fig",,,Ficus religiosa L.,"Peepal tree, Sacred fig"
+SAT-F.278,asana,asana,असन,असन,Pterocarpus marsupium,Roxb.,,"Indian kino tree, Malabar kino tree",,,Pterocarpus marsupium Roxb.,"Indian kino tree, Malabar kino tree"
+SAT-F.279,ahiPena/KasaKasa,ahiphena/khasakhasa,अहिफेन/खसखस,अहिफेन/खसखस,Papaver somniferum,L.,,"Opium poppy, White poppy",,,Papaver somniferum L.,"Opium poppy, White poppy"
+SAT-F.280,AkArakaraBa,ākārakarabha,आकारकरभ,आकारकरभ,Anacyclus pyrethrum,(L.) Lag.,,Pellitory,,,Anacyclus pyrethrum (L.) Lag.,Pellitory
+SAT-F.281,AKuparNI,ākhuparṇī,आखुपर्णी,आखुपर्णी,Ipomoea reniformis,Choisy.,,"Undarkani, Kidney Leaf Morning Glory",,,Ipomoea reniformis Choisy.,"Undarkani, Kidney Leaf Morning Glory"
+SAT-F.282,AtmaguptA,ātmaguptā,आत्मगुप्ता,आत्मगुप्ता,Mucuna pruriens,(L.) DC.,Mucuna prurita,"Common cowitch, Cowhage plant",,,Mucuna pruriens (L.) DC. synonymous withMucuna prurita Hook.,"Common cowitch, Cowhage plant"
+SAT-F.283,AmalakI,āmalakī,आमलकी,आमलकी,Phyllanthus emblica,L.,Emblilca officinalis,"Emblic myrobalan, Indian gooseberry",,,Phyllanthus emblica L. synonymous withEmblilca officinalis Gaertn,"Emblic myrobalan, Indian gooseberry"
+SAT-F.284,Amra,āmra,आम्र,आम्र,Mangifera indica,L.,,"Mango tree, Spring tree, Cupid's favourite, Cuckoo's joy",,,Mangifera indica L.,"Mango tree, Spring tree, Cupid's favourite, Cuckoo's joy"
+SAT-F.285,Aragvadha,āragvadha,आरग्वध,आरग्वध,Cassia fistula,L.,,"Indian laburnum, purging fistula",,,Cassia fistula L.,"Indian laburnum, purging fistula"
+SAT-F.286,Ardraka,ārdraka,आर्द्रक,आर्द्रक,Zingiber officinale,Rosc.,,Ginger,,,Zingiber officinale Rosc.,Ginger
+SAT-F.287,ikShu,ikṣu,इक्षु,इक्षु,Saccharum officinarum,L.,,Sugarcane,,,Saccharum officinarum L.,Sugarcane
+SAT-F.289,indravAruNI,indravāruṇī,इन्द्रवारुणी,इंद्रवारुणी,Citrullus colocynthis,(L.) Schrad.,,"Colocynth, Bitter apple",,,Citrullus colocynthis (L.) Schrad.,"Colocynth, Bitter apple"
+SAT-F.290,ISvarI,īśvarī,ईश्वरी,ईश्वरी,Aristolochia indica,L.,,Indian birthwort,,,Aristolochia indica L.,Indian birthwort
+SAT-F.291,utpala,utpala,उत्पल,उत्पल,Nymphaea nouchali,Burm. f.,Nymphaea stellata,Indian water lily,,,Nymphaea nouchali Burm. f. synonymous withNymphaea stellataWilld.,Indian water lily
+SAT-F.292,udumbara,udumbara,उदुम्बर,उदुंबर,Ficus racemosa,L.,Ficus glomerata,"Gular fig, Cluster fig, Country fig",,,Ficus racemosa L. synonymous withFicus glomerata Roxb.,"Gular fig, Cluster fig, Country fig"
+SAT-F.293,upaku~jcikA,upakuñcikā,उपकुञ्चिका,उपकुंचिका,Nigella sativa,L.,,"Small fennel, Black cumin",,,Nigella sativa L.,"Small fennel, Black cumin"
+SAT-F.294,uSIra,uśīra,उशीर,उशीर,Vetiveria zizanioides,(L.) Nash,,"Vetiver, Khas-khas, Khus-khus plant",,,Vetiveria zizanioides (L.) Nash,"Vetiver, Khas-khas, Khus-khus plant"
+SAT-F.295,uSabA,uśabā,उशबा,उशबा,Smilax ornata,Lem.,,"Honduran sarsaparilla, Jamaican sarsaparilla",Smilax macrophylla,,Smilax ornata Lem.,"Honduran sarsaparilla, Jamaican sarsaparilla; can be substituted with Smilax macrophylla Roxb."
+SAT-F.296,Ruddhi,ṛddhi,ऋद्धि,ऋद्धि,Habenaria intermedia,D. Don,,Intermediate Habenaria,,,Habenaria intermedia D. Don,Intermediate Habenaria
+SAT-F.297,RuShaBaka,ṛṣabhaka,ऋषभक,ऋषभक,Malaxis acuminata,D. Don,Microstylis wallichii,Adder's mouth,Dioscorea bulbifera,,Malaxis acuminata D. Don synonymous withMicrostylis wallichii Lindl.,Adder's mouth can be substituted with Dioscorea bulbifera L.
+SAT-F.298,RuShyaproktA,ṛṣyaproktā,ऋष्यप्रोक्ता,ऋष्यप्रोक्ता,Withania coagulans,(Stocks) Dunal,,"Indian cheese maker, Indian rennet, vegetable rennet",Pueraria tuberosa; Malaxis muscifera,,Withania coagulans (Stocks) Dunal,"Indian cheese maker, Indian rennet, vegetable rennet; can be substituted with 1. Pueraria tuberosa (Roxb. ex Willd) DC. 2. Malaxis muscifera (Lindl.) Kuntze"
+SAT-F.299,eraNDa,eraṇḍa,एरण्ड,एरंड,Ricinus communis,L.,,"Castor, Castor-oil",,,Ricinus communis L.,"Castor, Castor-oil"
+SAT-F.300,ervAru,ervāru,एर्वारु,एर्वारु,Cucumis melo,L.,,Muskmelon,,,Cucumis melo L.,Muskmelon
+SAT-F.301,elavAluka,elavāluka,एलवालुक,एलवालुक,Prunus avium,(L.)L.,,"wild cherry,sweet cherry,gean",,,Prunus avium (L.)L.,"wild cherry,sweet cherry,gean"
+SAT-F.302,ka~gkola,kaṅkola,कङ्कोल,कंकोल,Piper cubeba,L.f.,,"Cubebs, Tailed pepper, Tailed cubebs, Java pepper",,,Piper cubeba L.f.,"Cubebs, Tailed pepper, Tailed cubebs, Java pepper"
+SAT-F.303,kaTukA,kaṭukā,कटुका,कटुका,Picrorhiza kurroa,Royle ex Benth.,,Picrorhiza,,,Picrorhiza kurroa Royle ex Benth.,Picrorhiza
+SAT-F.304,kaTutumbI,kaṭutumbī,कटुतुम्बी,कटुतुंबी,Lagenaria siceraria,(Molina) Standl.,,"Bitter bottle gourd, Bitter calbash gourd",,,Lagenaria siceraria (Molina) Standl.,"Bitter bottle gourd, Bitter calbash gourd"
+SAT-F.305,kaTPala,kaṭphala,कट्फल,कट्फल,Myrica esculenta,Buch.-Ham. ex D. Don,,"Box myrtle, bayberry and kaphal",,,Myrica esculenta Buch.-Ham. ex D. Don,"Box myrtle, bayberry and kaphal."
+SAT-F.306,kaNTakArI,kaṇṭakārī,कण्टकारी,कंटकारी,Solanum virginianum,L.,Solanum surratense,Yellow berried night-shade,,,Solanum virginianum L. synonymous withSolanum surratense Burm. f,Yellow berried night-shade
+SAT-F.307,kadalI,kadalī,कदली,कदली,Musa paradisiaca,L.,,"Banana, Plantain",,,Musa paradisiaca L.,"Banana, Plantain"
+SAT-F.308,kadamba,kadamba,कदम्ब,कदंब,Breonia chinensis,(Lam.) Capuron,Anthocephalus indicus,"burflower tree, iaran",,,Breonia chinensis (Lam.) Capuron synonymous with Anthocephalus indicus A. Rich.,"burflower tree, iaran"
+SAT-F.309,kapittha,kapittha,कपित्थ,कपित्थ,Limonia acidissima,Groff,Feronia limonia,"Elephant apple, Wood apple, Curd fruit, Monkey fruit",,,Limonia acidissima Groff synonymous withFeronia limonia (L.) Swingle,"Elephant apple, Wood apple, Curd fruit, Monkey fruit"
+SAT-F.310,kapItana,kapītana,कपीतन,कपीतन,Thespesia populnea,(L.) Sol. ex Correa,,Portia tree,,,Thespesia populnea (L.) Sol. ex Correa,Portia tree
+SAT-F.311,kamala,kamala,कमल,कमल,Nelumbo nucifera,Gaertn.,,"Sacred lotus, Indian lotus, Chinese water lily",,,Nelumbo nucifera Gaertn.,"Sacred lotus, Indian lotus, Chinese water lily"
+SAT-F.312,kampillaka,kampillaka,कम्पिल्लक,कंपिल्लक,Mallotus philippensis,(Lam.) Muell.Arg.,,Kamala tree,,,Mallotus philippensis (Lam.) Muell.Arg.,Kamala tree
+SAT-F.313,kara~jja,karañja,करञ्ज,करंज,Pongamia pinnata,(L.)Pierre.,,"Indian beech, Pongam oil tree, Karanj",,,Pongamia pinnata (L.)Pierre.,"Indian beech, Pongam oil tree, Karanj"
+SAT-F.314,karavIra,karavīra,करवीर,करवीर,Nerium indicum,Mill.,,"Indian oleander, Sweet-scented oleander",,,Nerium indicum Mill.,"Indian oleander, Sweet-scented oleander"
+SAT-F.315,karkaTSRu~ggI,karkaṭśṛṅgī,कर्कट्शृङ्गी,कर्कट्शृंगी,Pistacia chinensis subsp. integerrima,(J. L. Stewart ex Brandis) Rech. f. Synonymous withPistacia integerrima J. L. Stewart ex Brandis,,zebrawood,,,Pistacia chinensis subsp. integerrima (J. L. Stewart ex Brandis) Rech. f. Synonymous withPistacia integerrima J. L. Stewart ex Brandis,zebrawood
+SAT-F.316,karcura,karcura,कर्चुर,कर्चुर,Curcuma aromatica,Salisb.,Curcuma zedoaria,wild turmeric,,,Curcuma aromatica Salisb. synonymous withCurcuma zedoaria (Christm.) Roscoe,wild turmeric
+SAT-F.317,karpUra,karpūra,कर्पूर,कर्पूर,Cinnamomum camphora,(L.) Nees & Eberm.,,Camphor tree,,,Cinnamomum camphora (L.) Nees & Eberm.,Camphor tree
+SAT-F.318,kalambA,kalambā,कलम्बा,कलंबा,Jateorhiza palmata,(Lam.) Miers,,Jateorhiza,,,Jateorhiza palmata (Lam.) Miers,Jateorhiza
+SAT-F.319,kAkanaja,kākanaja,काकनज,काकनज,Physalis alkekengi,L.,,"bladder cherry, Chinese lantern,Japanese-lantern,strawberry groundcherry,winter cherry",,,Physalis alkekengi L.,"bladder cherry, Chinese lantern,Japanese-lantern,strawberry groundcherry,winter cherry"
+SAT-F.320,kAkamAcI,kākamācī,काकमाची,काकमाची,Solanum nigrum,L.,,Black night-shade,,,Solanum nigrum L.,Black night-shade
+SAT-F.321,kAkolI,kākolī,काकोली,काकोली,Lilium polyphyllum,D. Don,,kakoli,Roscoea alpina,,Lilium polyphyllum D. Don,kakoli can be substituted with Roscoea alpina Royle
+SAT-F.322,kAravellaka,kāravellaka,कारवेल्लक,कारवेल्लक,Momordica charantia,L.,,"Bitter gourd, Carilla fruit",,,Momordica charantia L.,"Bitter gourd, Carilla fruit"
+SAT-F.323,kAlameGa,kālamegha,कालमेघ,कालमेघ,Andrographis paniculata,(Burm. f) Wall. ex Nees,,"Green chiretta, Kalmegh, Creat",,,Andrographis paniculata (Burm. f) Wall. ex Nees,"Green chiretta, Kalmegh, Creat"
+SAT-F.324,kAlIyaka,kālīyaka,कालीयक,कालीयक,Coscinium fenestratum,(Gaertn) Colebr.,,"Tree turmeric, Flase calumba",,,Coscinium fenestratum (Gaertn) Colebr.,"Tree turmeric, Flase calumba"
+SAT-F.325,kASa,kāśa,काश,काश,Saccharum spontaneum,L.,,"Thatch grass, wild sugarcane",,,Saccharum spontaneum L.,"Thatch grass, wild sugarcane"
+SAT-F.326,kAsanI,kāsanī,कासनी,कासनी,Cichorium intybus,L.,,"Chicory, Endive",,,Cichorium intybus L.,"Chicory, Endive"
+SAT-F.327,kirAtatikta,kirātatikta,किराततिक्त,किराततिक्त,Swertia chirayita,(Roxb. ex Fleming,Swertia chirata,"Chirata, Brown chiretta, White chiretta",,,Swertia chirayita (Roxb. ex Fleming synonymous with Swertia chirata (Wall.) Clarke,"Chirata, Brown chiretta, White chiretta"
+SAT-F.328,kITamArI/kirmANI,kīṭamārī/kirmāṇī,कीटमारी/किर्माणी,कीटमारी/किर्माणी,Artemisia maritima,L.,,"sea wormwood, old woman",,,Artemisia maritima L.,"sea wormwood, old woman"
+SAT-F.329,ku~gkuma,kuṅkuma,कुङ्कुम,कुंकुम,Crocus sativus,L.,,Saffron,,,Crocus sativus L.,Saffron
+SAT-F.330,kuTajaH,kuṭajaḥ,कुटजः,कुटज,Holarrhena pubescens,Wall. ex G. Don,Holarrhena antidysenterica,"Kurchi, Conessi or Tellicherry bark",,,Holarrhena pubescens Wall. ex G. Don synonymous withHolarrhena antidysenterica (Rot) Wall. ex A.DC.,"Kurchi, Conessi or Tellicherry bark"
+SAT-F.331,kupIlu/viShamuShTi,kupīlu/viṣamuṣṭi,कुपीलु/विषमुष्टि,कुपीलु/विषमुष्टि,Strychnos nux-vomica,L.,,Strychnine tree/Snake-wood/Nux-vomica/Poison nut/Quaker button,,,Strychnos nux-vomica L.,Strychnine tree/Snake-wood/Nux-vomica/Poison nut/Quaker button
+SAT-F.332,kumArI,kumārī,कुमारी,कुमारी,Aloe vera,(L.) Burm.f.,Aloe barbadensis,"Indian aloe, Curacao aloe, Barbados aloe, Jaffarabad aloe",,,Aloe vera (L.) Burm.f. synonymous with Aloe barbadensis Mill.,"Indian aloe, Curacao aloe, Barbados aloe, Jaffarabad aloe"
+SAT-F.333,kuSa,kuśa,कुश,कुश,Desmostachya bipinnata,(L.) Stapf,,Sacrificial grass,,,Desmostachya bipinnata (L.) Stapf,Sacrificial grass
+SAT-F.334,kuShTha,kuṣṭha,कुष्ठ,कुष्ठ,Saussurea costus,(Falc.) Lipsch. Synonymous withSaussurea lappa (Decne) Sch.Bip.,,"Kuth, Costus",,,Saussurea costus (Falc.) Lipsch. Synonymous withSaussurea lappa (Decne) Sch.Bip.,"Kuth, Costus"
+SAT-F.335,kusumBa,kusumbha,कुसुम्भ,कुसुंभ,Carthamus tinctorius,L.,,"Safflower, Bastard saffron",,,Carthamus tinctorius L.,"Safflower, Bastard saffron"
+SAT-F.336,kUShmANDa,kūṣmāṇḍa,कूष्माण्ड,कूष्मांड,Benincasa hispida,(Thunb.) Cogn.,,"Ash gourd, White gourd melon",,,Benincasa hispida (Thunb.) Cogn.,"Ash gourd, White gourd melon"
+SAT-F.337,kRuShNa jIraka,kṛṣṇa jīraka,कृष्ण जीरक,कृष्ण जीरक,Carum carvi,L.,,"meridian fennel,persian cumin",,,Carum carvi L.,"meridian fennel,persian cumin"
+SAT-F.338,kRuShNa sArivA,kṛṣṇa sārivā,कृष्ण सारिवा,कृष्ण सारिवा,Cryptolepis buchanani,Roem. & Schult.,,Dudlat,,,Cryptolepis buchanani Roem. & Schult.,Dudlat
+SAT-F.339,kRuShNabIja,kṛṣṇabīja,कृष्णबीज,कृष्णबीज,Ipomoea nil,(L.) Roth,Ipomoea hederacea,"Blue Morning Glory, Japanese Morning Glory, White-Edge Morning Glory",,,Ipomoea nil (L.) Roth synonymous with Ipomoea hederacea (L.)Jacq.,"Blue Morning Glory, Japanese Morning Glory, White-Edge Morning Glory"
+SAT-F.340,ketakI,ketakī,केतकी,केतकी,Pandanus odoratissimus,L.f.,Pandanus tectorius,"Screw pine, Umbrella tree",,,Pandanus odoratissimus L.f. synonymous with Pandanus tectorius Parkinson ex Du Roi,"Screw pine, Umbrella tree"
+SAT-F.341,kebuka,kebuka,केबुक,केबुक,Cheilocostus speciosus,(J.Koenig) C.D.Spechtsynonymous withCostus speciosus (J.Koenig) Sm.,Costus speciosus,crepe ginger,,,Cheilocostus speciosus (J.Koenig) C.D.Spechtsynonymous withCostus speciosus (J.Koenig) Sm.,crepe ginger
+SAT-F.342,kaiDarya,kaiḍarya,कैडर्य,कैडर्य,Melia azedarach,L.,,"Neem tree, Margosa tree, Indian lilac",,,Melia azedarachL.,"Neem tree, Margosa tree, Indian lilac"
+SAT-F.343,kokilAkSha,kokilākṣa,कोकिलाक्ष,कोकिलाक्ष,Hygrophila auriculata,(Schumach.) Heine,Asteracantha longifolia,"Hygrophila, Temple plant, Marsh Barbel",,,Hygrophila auriculata (Schumach.) Heine synonymous with Asteracantha longifolia Nees,"Hygrophila, Temple plant, Marsh Barbel"
+SAT-F.344,koSAtakI,kośātakī,कोशातकी,कोशातकी,Luffa acutangula,(L.) Roxb.,,"Ridged gourd, Ribbed gourd",,,Luffa acutangula (L.) Roxb.,"Ridged gourd, Ribbed gourd"
+SAT-F.345,kShIrakAkolI,kṣīrakākolī,क्षीरकाकोली,क्षीरकाकोली,Fritillaria roylei,Hook.,,Fritillary,Roscoea procera; Roscoea alpina,,Fritillaria roylei Hook.,Fritillarycan be substituted with 1. Roscoea proceraWall 2. Roscoea alpina Royle
+SAT-F.346,Kadira,khadira,खदिर,खदिर,Acacia catechu,(L.f) Willd.,,Cutch tree,,,Acacia catechu (L.f) Willd.,Cutch tree
+SAT-F.347,KarjUra,kharjūra,खर्जूर,खर्जूर,Phoenix dactylifera,L.,,"Date palm, Edible date",,,Phoenix dactylifera L.,"Date palm, Edible date"
+SAT-F.348,gajapippalI,gajapippalī,गजपिप्पली,गजपिप्पली,Scindapsus officinalis,(Roxb.) Schott,,Gajapippali,,,Scindapsus officinalis (Roxb.) Schott,Gajapippali
+SAT-F.349,gamBArI,gambhārī,गम्भारी,गंभारी,Gmelina arborea,Roxb.,,"Coomb teak, Cashmeri tree",,,Gmelina arborea Roxb.,"Coomb teak, Cashmeri tree"
+SAT-F.350,guggulu/pala~gkaShA,guggulu/palaṅkaṣā,गुग्गुलु/पलङ्कषा,गुग्गुलु/पलंकषा,Commiphora wightii,(Arn.) Bhandari,,Hill-mango,,,Commiphora wightii (Arn.) Bhandari,Hill-mango
+SAT-F.351,gu~jjA,guñjā,गुञ्जा,गुंजा,Abrus precatorius,L.,,"Jequirity, Indian liquorice, Wild liquorice",,,Abrus precatorius L.,"Jequirity, Indian liquorice, Wild liquorice"
+SAT-F.352,guDUcI,guḍūcī,गुडूची,गुडूची,Tinospora cordifolia,(Willd.) Hook. f. & Thomson,,"Gulancha tinospora, Tinospora",,,Tinospora cordifolia (Willd.) Hook. f. & Thomson,"Gulancha tinospora, Tinospora"
+SAT-F.353,gundrA,gundrā,गुन्द्रा,गुंद्रा,Typha australis,K. Schum.&Thonner,,"lesser bulrush,narrow leaf cattail,lesser reedmace",,,Typha australis K. Schum.&Thonner,"lesser bulrush,narrow leaf cattail,lesser reedmace"
+SAT-F.354,gokShura,gokṣura,गोक्षुर,गोक्षुर,Tribulus terrestris,L.,,"Land-caltrops, Puncture-vine",,,Tribulus terrestris L.,"Land-caltrops, Puncture-vine"
+SAT-F.355,granthiparNI,granthiparṇī,ग्रन्थिपर्णी,ग्रंथिपर्णी,Leonotis nepetaefolia,(L.) R. Br.,,"klip dagga, Christmas candlestick, lion's ear",,,Leonotis nepetaefolia (L.) R. Br.,"klip dagga, Christmas candlestick, lion's ear"
+SAT-F.356,cakramarda/prapunnADa,cakramarda/prapunnāḍa,चक्रमर्द/प्रपुन्नाड,चक्रमर्द/प्रपुन्नाड,Cassia tora,L.,,Foetid cassia,,,Cassia tora L.,Foetid cassia
+SAT-F.357,cavya,cavya,चव्य,चव्य,Piper retrofractum,Vahl,,"Balinese long pepper, Javanese long pepper",Piper betle,,Piper retrofractum Vahl,"Balinese long pepper, Javanese long pepper can be substituted with Piper betle L."
+SAT-F.358,cAya,cāya,चाय,चाय,Camellia sinensis,(L.) Kuntze,,Tea plant,,,Camellia sinensis (L.) Kuntze,Tea plant
+SAT-F.359,ci~jcA,ciñcā,चिञ्चा,चिंचा,Tamarindus indica,L.,,Tamarind Tree,,,Tamarindus indica L.,Tamarind Tree
+SAT-F.360,citraka,citraka,चित्रक,चित्रक,Plumbago zeylanica,L.,,"Ceylon leadwort, doctorbush, wild leadwort",,,Plumbago zeylanica L.,"Ceylon leadwort, doctorbush, wild leadwort"
+SAT-F.361,cirabilva,cirabilva,चिरबिल्व,चिरबिल्व,Holoptelea integrifolia,(Roxb.) Planch.,,"Indian elm, Kanju",,,Holoptelea integrifolia (Roxb.) Planch.,"Indian elm, Kanju"
+SAT-F.362,coraka,coraka,चोरक,चोरक,Angelica glauca,Edgew.,,smooth angelica,,,Angelica glauca Edgew.,smooth angelica
+SAT-F.363,jaTAmAMsI,jaṭāmāṃsī,जटामांसी,जटामांसी,Nardostachys jatamansi,DC.,,"Spikenard, Indian nard, Musk root",,,Nardostachys jatamansi DC.,"Spikenard, Indian nard, Musk root"
+SAT-F.364,japA,japā,जपा,जपा,Hibiscus rosa-sinensis,L.,,"Shoe-flower plant, Chinese hibiscus",,,Hibiscus rosa-sinensis L.,"Shoe-flower plant, Chinese hibiscus"
+SAT-F.365,jambU,jambū,जम्बू,जंबू,Syzygium cumini,(L.) Skeels,,"Skeels Jaman, Jambolan, Black plum",,,Syzygium cumini (L.) Skeels,"Skeels Jaman, Jambolan, Black plum"
+SAT-F.366,jayantI,jayantī,जयन्ती,जयंती,Sesbania sesban,(L.) Merr.,,Egyptian riverhemp,,,Sesbania sesban (L.) Merr.,Egyptian riverhemp
+SAT-F.367,jayapAla,jayapāla,जयपाल,जयपाल,Croton tiglium,L.,,"Purging croton, Croton oil plant",,,Croton tiglium L.,"Purging croton, Croton oil plant"
+SAT-F.368,jalakumBI,jalakumbhī,जलकुम्भी,जलकुंभी,Pistia stratiotes,L.,,"water cabbage, water lettuce, Nile cabbage, shellflower",,,Pistia stratiotes L.,"water cabbage, water lettuce, Nile cabbage, shellflower"
+SAT-F.369,jAtI,jātī,जाती,जाती,Jasminum officinale,L.,,"Spanish jasmine Common jasmine, Catalonian jasmine",,,Jasminum officinale L.,"Spanish jasmine Common jasmine, Catalonian jasmine"
+SAT-F.370,jAtIPala,jātīphala,जातीफल,जातीफल,Myristica fragrans,Houtt.,,"Nutmeg tree, Mace tree",,,Myristica fragrans Houtt.,"Nutmeg tree, Mace tree"
+SAT-F.371,jIvaka,jīvaka,जीवक,जीवक,Malaxis muscifera,(Lindl.) Kuntze,,Jeevak,Microstylis wallichii; Pueraria tuberosa,,Malaxis muscifera (Lindl.) Kuntze,Jeevak; can be substituted with 1. Microstylis wallichii Lindl. 2. Pueraria tuberosa (Roxb. ex Willd) DC.
+SAT-F.372,jIvantI,jīvantī,जीवन्ती,जीवंती,Leptadenia recticulata,(Retz.)Wight & Arn.,,Cork Swallow-Wort,,,Leptadenia recticulata (Retz.)Wight & Arn.,Cork Swallow-Wort
+SAT-F.373,jyotiShmatI,jyotiṣmatī,ज्योतिष्मती,ज्योतिष्मती,Celastrus paniculatus,Willd.,,Climbing staff plant,,,Celastrus paniculatus Willd.,Climbing staff plant
+SAT-F.374,tagara,tagara,तगर,तगर,Valeriana jatamansi,Jones,Valeriana wallichii,Indian valerian,,,Valeriana jatamansi Jones synonymous withValeriana wallichii DC.,Indian valerian
+SAT-F.375,taNDulIya,taṇḍulīya,तण्डुलीय,तंडुलीय,Amaranthus spinosus,L.,,Prickly amaranth,,,Amaranthus spinosus L.,Prickly amaranth
+SAT-F.376,tamAlapatra,tamālapatra,तमालपत्र,तमालपत्र,Cinnamomum tamala,(Buch.-Ham.) T. Nees & Eberm.,,"Indian cassia lingnea, Cassia cinnamon",,,Cinnamomum tamala (Buch.-Ham.) T. Nees & Eberm.,"Indian cassia lingnea, Cassia cinnamon"
+SAT-F.377,tavakShIrI,tavakṣīrī,तवक्षीरी,तवक्षीरी,Curcuma angustifolia,Roxb.,,"East Indian Arrowroot, narrow-leaved turmeric",,,Curcuma angustifolia Roxb.,"East Indian Arrowroot, narrow-leaved turmeric"
+SAT-F.378,tAmalakI,tāmalakī,तामलकी,तामलकी,Phyllanthus amarus,Schumach. & Thonn.,,"gale of the wind, stonebreaker, seed-under-leaf",Phyllanthus urinaria,,Phyllanthus amarus Schumach. & Thonn.,"gale of the wind, stonebreaker, seed-under-leaf can be substituted with Phyllanthus urinaria L."
+SAT-F.379,tAmbUla,tāmbūla,ताम्बूल,तांबूल,Piper betle,L.,,"Betel, Betel leaf vine, Betel pepper",,,Piper betle L.,"Betel, Betel leaf vine, Betel pepper"
+SAT-F.380,tAla,tāla,ताल,ताल,Borassus flabellifer,L.,,Palmyra palm,,,Borassus flabellifer L.,Palmyra palm
+SAT-F.381,tAlamUlI,tālamūlī,तालमूली,तालमूली,Curculigo orchioides,Gaertn.,,"olden eye-grass, xian mao, weevil-wort, black musli,Kali musli, Kali Musali",,,Curculigo orchioides Gaertn.,"olden eye-grass, xian mao, weevil-wort, black musli,Kali musli, Kali Musali"
+SAT-F.382,tAlIsa,tālīsa,तालीस,तालीस,Abies spectabilis,(D. Don) Mirb.,Abies webbiana,East Himalayan silver fir,Abies pindrow,,Abies spectabilis (D. Don) Mirb. synonymous withAbies webbiana (Wall.ex D.Don) Lindl.,East Himalayan silver fir can be substituted with Abies pindrow (Royle ex D. Don) Royle
+SAT-F.383,tintiDIka,tintiḍīka,तिन्तिडीक,तिंतिडीक,Rhus parviflora,Roxb.,,Sumac,,,Rhus parviflora Roxb.,Sumac
+SAT-F.384,tila,tila,तिल,तिल,Sesamum indicum,L.,Sesamum orientale,"Sesame, Gingelly",,,Sesamum indicum L. synonymous with Sesamum orientale L.,"Sesame, Gingelly"
+SAT-F.385,tumbinI,tumbinī,तुम्बिनी,तुंबिनी,Lagenaria siceraria,(Molina) Standl.,,"Bitter bottle gourd, Bitter calbash gourd",,,Lagenaria siceraria (Molina) Standl.,"Bitter bottle gourd, Bitter calbash gourd"
+SAT-F.386,turuShka,turuṣka,तुरुष्क,तुरुष्क,Altingia excelsa,Noronha,,Rasamala,Liquidambar orientalis,,Altingia excelsa Noronha,Rasamala can be substituted with Liquidambar orientalis Mill.
+SAT-F.387,tulasI,tulasī,तुलसी,तुलसी,Ocimum tenuiflorum,L.,Ocimum sanctum,"Holy basil, Sacred basil",,,Ocimum tenuiflorum L. synonymous withOcimum sanctum L.,"Holy basil, Sacred basil"
+SAT-F.388,tejovatI,tejovatī,तेजोवती,तेजोवती,Zanthoxylum armatum,DC.,,Toothache tree,,,Zanthoxylum armatum DC.,Toothache tree
+SAT-F.389,trapuSha,trapuṣa,त्रपुष,त्रपुष,Cucumis sativus,L.,,"Cucumber, Common cucumber",,,Cucumis sativus L.,"Cucumber, Common cucumber"
+SAT-F.390,trAyamANA,trāyamāṇā,त्रायमाणा,त्रायमाणा,Gentiana kurroo,Royle,,Indian Gentian,,,Gentiana kurroo Royle,Indian Gentian
+SAT-F.391,trivRut,trivṛt,त्रिवृत्,त्रिवृत्,Operculina turpethum,(L.)Silva Manso,Ipomoea turpethum,"Indian jalap, Turpeth",,,Operculina turpethum (L.)Silva Manso synonymous with Ipomoea turpethum (L.) R.Br.,"Indian jalap, Turpeth"
+SAT-F.392,tvak,tvak,त्वक्,त्वक्,Cinnamomum verum,J. Presl,Cinnamomum zeylanicum,Cinnamon,,,Cinnamomum verum J. Presl synonymous withCinnamomum zeylanicum Blume,Cinnamon
+SAT-F.393,dantI,dantī,दन्ती,दंती,Baliospermum solanifolium,(Burm.) Suresh,Baliospermum montanum,"red physic nut, wild castor, wild croton, wild sultan seed",,,Baliospermum solanifolium (Burm.) Suresh synonymous withBaliospermum montanum (Willd.) Muell. Arg.,"red physic nut, wild castor, wild croton, wild sultan seed"
+SAT-F.394,darBa,darbha,दर्भ,दर्भ,Imperata cylindrica,(L.) Raeusch.,,"blady grass, alang-alang, cotton wool grass, kura-kura",,,Imperata cylindrica (L.) Raeusch.,"blady grass, alang-alang, cotton wool grass, kura-kura"
+SAT-F.395,dADima,dāḍima,दाडिम,दाडिम,Punica granatum,L.,,Pomegranate,,,Punica granatum L.,Pomegranate
+SAT-F.396,dAruharidrA,dāruharidrā,दारुहरिद्रा,दारुहरिद्रा,Berberis aristata,DC.,,"Indian barberry, tree turmeric",,,Berberis aristataDC.,"Indian barberry, tree turmeric"
+SAT-F.397,dUrvA,dūrvā,दूर्वा,दूर्वा,Cynodon dactylon,(L.) Pers.,,"Dhub grass, Barmuda or Bahama grass, Conch grass",,,Cynodon dactylon (L.) Pers.,"Dhub grass, Barmuda or Bahama grass, Conch grass"
+SAT-F.398,devadAru,devadāru,देवदारु,देवदारु,Cedrus deodara,(Roxb. ex D. Don) G.Don,,"Deodar, Himalayan cedar",,,Cedrus deodara (Roxb. ex D. Don) G.Don,"Deodar, Himalayan cedar"
+SAT-F.399,drAkShA,drākṣā,द्राक्षा,द्राक्षा,Vitis vinifera,L.,,"Common grape-vine, Wine grape, European grape",,,Vitis vinifera L.,"Common grape-vine, Wine grape, European grape"
+SAT-F.400,dhattUra,dhattūra,धत्तूर,धत्तूर,Datura metal,L.,,Thorn apple,Datura inoxia,,Datura metal L.,Thorn apple; can be substituted with Datura inoxia Mill. or Datura stramonium L.
+SAT-F.401,dhanvayAsa/dhanvayAsaka,dhanvayāsa/dhanvayāsaka,धन्वयास/धन्वयासक,धन्वयास/धन्वयासक,Fagonia cretica,L.,Fagonia indica,Virgin's Mantle,,,Fagonia cretica L. synonymous with Fagonia indica Burm.f.,Virgin's Mantle
+SAT-F.402,dhAtakI,dhātakī,धातकी,धातकी,Woodfordia fruticosa,(L.) Kurz,,"Fire-flame bush, Shiranjitea, Woodfordia",,,Woodfordia fruticosa (L.) Kurz,"Fire-flame bush, Shiranjitea, Woodfordia"
+SAT-F.403,dhAnyaka,dhānyaka,धान्यक,धान्यक,Coriandrum sativum,L.,,Coriander,,,Coriandrum sativum L.,Coriander
+SAT-F.404,nala,nala,नल,नल,Arundo donax,L.,,"giant cane, Carrizo, Arundo, Spanish cane, Colorado river reed, wild cane, giant reed",Phragmites karka,,Arundo donax L.,"giant cane, Carrizo, Arundo, Spanish cane, Colorado river reed, wild cane, giant reed; can be substituted with Phragmites karka (Retz) Trin. ex Steud."
+SAT-F.405,nAgakeSara,nāgakeśara,नागकेशर,नागकेशर,Mesua ferrea,L.,,"Mesua, Iron-wood tree",,,Mesua ferrea L.,"Mesua, Iron-wood tree"
+SAT-F.406,nAgabalA,nāgabalā,नागबला,नागबला,Grewia hirsuta,Vahl.,,Veronicalolia,Sida cordata,,Grewia hirsutaVahl.,Veronicalolia can be substituted with Sida cordata (Burm.f.) Borss.Waalk. synonymous with Sida humulis Cav.
+SAT-F.407,nADIhi~ggu,nāḍīhiṅgu,नाडीहिङ्गु,नाडीहिंगु,Gardenia gummifera,L.f.,,"Cumbi-gum tree, Dekamella-gum gardenia",,,Gardenia gummifera L.f.,"Cumbi-gum tree, Dekamella-gum gardenia"
+SAT-F.408,nArikela,nārikela,नारिकेल,नारिकेल,Cocos nucifera,L.,,coconut tree,,,Cocos nucifera L.,coconut tree
+SAT-F.409,nimba,nimba,निम्ब,निंब,Azadirachta indica,A. Juss.,,"Neem tree, Margosa tree, Indian lilac",,,Azadirachta indica A. Juss.,"Neem tree, Margosa tree, Indian lilac"
+SAT-F.410,nimbUka,nimbūka,निम्बूक,निंबूक,Citrus limon,(L.) Osbeck,,Lemon,,,Citrus limon (L.) Osbeck,Lemon
+SAT-F.411,nirguNDI,nirguṇḍī,निर्गुण्डी,निर्गुंडी,Vitex negundo,L.,,Five-leaved chaste tree,Vitex trifolia; Vitex agnus-castus,,Vitex negundo L.,Five-leaved chaste tree; can be substituted with 1. Vitex trifolia L. 2. Vitex agnus-castus L.
+SAT-F.412,nIlaJiNTI/nIlakuraNTaka,nīlajhiṇṭī/nīlakuraṇṭaka,नीलझिण्टी/नीलकुरण्टक,नीलझिंटी/नीलकुरंटक,Barleria strigosa,Willd.,,"dense-spiked blue nail dye, Western Ghats blue nail dye",,,Barleria strigosa Willd.,"dense-spiked blue nail dye, Western Ghats blue nail dye"
+SAT-F.413,nIlI,nīlī,नीली,नीली,Indigofera tinctoria,L.,,Indian Indigo,,,Indigofera tinctoria L.,Indian Indigo
+SAT-F.414,paTola,paṭola,पटोल,पटोल,Trichosanthes cucumerina,L.,,Snake gourd,Trichosanthes dioica,,Trichosanthes cucumerina L.,Snake gourd; can be substituted with Trichosanthes dioica Roxb.
+SAT-F.415,patta~gga,pattaṅga,पत्तङ्ग,पत्तंग,Caesalpinia sappan,L.,,"Sappan wood, Brazil wood",,,Caesalpinia sappan L.,"Sappan wood, Brazil wood"
+SAT-F.416,padmaka,padmaka,पद्मक,पद्मक,Prunus cerasoides,Buch.-Ham. ex D.Don,,"Himalayan wild cherry, Bird cherry",,,Prunus cerasoides Buch.-Ham. ex D.Don,"Himalayan wild cherry, Bird cherry"
+SAT-F.417,parpaTa,parpaṭa,पर्पट,पर्पट,Fumaria parviflora,Lam.,,"fineleaf fumitory, fine-leaved fumitory, Indian fumitory",,,Fumaria parviflora Lam.,"fineleaf fumitory, fine-leaved fumitory, Indian fumitory"
+SAT-F.418,palANDu,palāṇḍu,पलाण्डु,पलांडु,Allium cepa,L.,,Onion,,,Allium cepa L.,Onion
+SAT-F.419,palASa,palāśa,पलाश,पलाश,Butea monosperma,(Lam.) Taub.,,"Flame of the forest, Bastard teak",,,Butea monosperma (Lam.) Taub.,"Flame of the forest, Bastard teak"
+SAT-F.420,pATalA,pāṭalā,पाटला,पाटला,Stereospermum chelonoides,(L.f) DC.,Stereospermum suaveolens,Patala tree,,,Stereospermum chelonoides (L.f) DC. synonymous withStereospermum suaveolens (Roxb.) DC.,Patala tree
+SAT-F.421,pAThA,pāṭhā,पाठा,पाठा,Cissampelos pareira,L. var. hirsuta (Buch.-Ham. ex DC) Forman,Cissampelos pareira,Velvet leaf,,,Cissampelos pareira L. var. hirsuta (Buch.-Ham. ex DC) Forman synonymous withCissampelos pareira L.,Velvet leaf
+SAT-F.422,pArasIka yavAnI,pārasīka yavānī,पारसीक यवानी,पारसीक यवानी,Hyoscyamus niger,L.,,"Henbane, Black henbane",,,Hyoscyamus niger L.,"Henbane, Black henbane"
+SAT-F.423,pAriBadra,pāribhadra,पारिभद्र,पारिभद्र,Erythrina variegata,L.,Erythrina indica,Indian coral tree,,,Erythrina variegata L. synonymous with Erythrina indica Lam.,Indian coral tree
+SAT-F.424,pAShANaBeda,pāṣāṇabheda,पाषाणभेद,पाषाणभेद,Bergenia ligulata,(Wall.) Engl.,,winter begonia,,,Bergenia ligulata (Wall.) Engl.,winter begonia
+SAT-F.425,pippalI,pippalī,पिप्पली,पिप्पली,Piper longum,L.,,"Indian long pepper, Long pepper",,,Piper longum L.,"Indian long pepper, Long pepper; can be substituted with P. retrofractum Vahl"
+SAT-F.426,pItaBRu~ggarAja,pītabhṛṅgarāja,पीतभृङ्गराज,पीतभृंगराज,Wedelia chinensis,(Osbeck) Merr.,Wedelia calendulacea,creeping-oxeyes,,,Wedelia chinensis (Osbeck) Merr. synonymous withWedelia calendulacea(L.) Less.,creeping-oxeyes
+SAT-F.427,pudInA/pUtihA,pudīnā/pūtihā,पुदीना/पूतिहा,पुदीना/पूतिहा,Mentha arvensis,L.,,Mint,,,Mentha arvensis L.,Mint
+SAT-F.428,puShkaramUla,puṣkaramūla,पुष्करमूल,पुष्करमूल,Inula racemosa,Hook. f.,,Elicampane,,,Inula racemosa Hook. f.,Elicampane
+SAT-F.429,pUga,pūga,पूग,पूग,Areca catechu,L.,,"Arecanut tree, Betelnut tree",,,Areca catechu L.,"Arecanut tree, Betelnut tree"
+SAT-F.430,pRuSniparNI,pṛśniparṇī,पृश्निपर्णी,पृश्निपर्णी,Uraria picta,(Jacq.) DC.,,,,,Uraria picta (Jacq.) DC.,
+SAT-F.431,prativiShA,prativiṣā,प्रतिविषा,प्रतिविषा,Aconitum palmatum,D.Don,Aconitum bisma,Indian Aconite,,,Aconitum palmatum D.Don synonymous with Aconitum bisma(Buch.-Ham.) Rapaics,Indian Aconite
+SAT-F.432,prapauNDarIka,prapauṇḍarīka,प्रपौण्डरीक,प्रपौंडरीक,Saussurea obvallata,(DC.) Edgew.,,Sacred Saussurea,Nelumbo nucifera,,Saussurea obvallata (DC.) Edgew.,Sacred Saussurea; can be substituted with Nelumbo nucifera Gaertn.
+SAT-F.433,prasAriNI/gandha prasAriNI,prasāriṇī/gandha prasāriṇī,प्रसारिणी/गन्ध प्रसारिणी,प्रसारिणी/गंध प्रसारिणी,Paedaria foetida,L.,Paederia scandens,Skunk vine,Merremia tridentata subsp. tridentata; Merremia tridentata subsp. hastata,,Paedaria foetida L. synonymous withPaederia scandens (Lour.) Merr.,Skunk vine; can be substituted with 1. Merremia tridentata subsp. tridentata 2. Merremia tridentata subsp. hastata (Hallier f.) Ooststr. synonymous with Merremia hastata Hallier f.
+SAT-F.434,priya~ggu,priyaṅgu,प्रियङ्गु,प्रियंगु,Callicarpa macrophylla,Vahl,,beautyberry,Prunus mahaleb,,Callicarpa macrophylla Vahl,beautyberry; can be substituted with Prunus mahaleb L.
+SAT-F.435,priyAla,priyāla,प्रियाल,प्रियाल,Buchanania lanzan,Spreng.,,"charoli, chironji",,,Buchanania lanzan Spreng.,"charoli, chironji"
+SAT-F.436,plakSha,plakṣa,प्लक्ष,प्लक्ष,Ficus virens,Aitonsynonymous withFicus lacor Buch.- Ham.,Ficus lacor,white fig,,,Ficus virens Aitonsynonymous withFicus lacor Buch.- Ham.,white fig
+SAT-F.437,Palgu,phalgu,फल्गु,फल्गु,Ficus hispida,L.f.,,tropical fig tree,,,Ficus hispida L.f.,tropical fig tree
+SAT-F.438,badara/kola,badara/kola,बदर/कोल,बदर/कोल,Ziziphus mauritiana,Lam.,Ziziphus jujuba,"Indian jujube, Common jujube, Chinese date",,,Ziziphus mauritiana Lam. synonymous with Ziziphus jujuba Mill.,"Indian jujube, Common jujube, Chinese date"
+SAT-F.439,badarI,badarī,बदरी,बदरी,Ziziphus nummularia,(Burm.f.) Wight & Arn.,,jhar beri,,,Ziziphus nummularia (Burm.f.) Wight & Arn.,jhar beri
+SAT-F.440,babbUla,babbūla,बब्बूल,बब्बूल,Acacia nilotica,(L.) Delilesynonymous withAcacia arabica (Lam.) Willd.,Acacia arabica,"Babul, Black babool, indian gum arabic tree",,,Acacia nilotica (L.) Delilesynonymous withAcacia arabica (Lam.) Willd.,"Babul, Black babool, indian gum arabic tree"
+SAT-F.441,balA,balā,बला,बला,Sida cordifolia,L.,,"ilima, flannel weed bala, country mallow, heart-leaf sida",,,Sida cordifolia L.,"ilima, flannel weed bala, country mallow, heart-leaf sida"
+SAT-F.442,bAkucI,bākucī,बाकुची,बाकुची,Cullen corylifolium,(L.) Medik.,Psoralea corylilfolia,Babchi seeds,,,Cullen corylifolium (L.) Medik. synonymous withPsoralea corylilfolia L.,Babchi seeds
+SAT-F.443,biBItaka,bibhītaka,बिभीतक,बिभीतक,Terminalia bellirica,(Gaertn.) Roxb.,,Belliric myrobalan,,,Terminalia bellirica (Gaertn.) Roxb.,Belliric myrobalan
+SAT-F.444,bilva,bilva,बिल्व,बिल्व,Aegle marmelos,(L.),,"Correa Bael tree, Holy fruit tree",,,Aegle marmelos (L.),"Correa Bael tree, Holy fruit tree"
+SAT-F.445,bIjapUra,bījapūra,बीजपूर,बीजपूर,Citrus medica,L.,,Citron,,,Citrus medica L.,Citron
+SAT-F.446,buka,buka,बुक,बुक,Spermacoce hispida,L.,,Shaggy Button Weed,,,Spermacoce hispida L.,Shaggy Button Weed.
+SAT-F.447,bRuhatI,bṛhatī,बृहती,बृहती,Solanum anguivi,Lam.,Solanum indicum,Poison berry,,,Solanum anguivi Lam. synonymous with Solanum indicum L.,Poison berry
+SAT-F.448,bola,bola,बोल,बोल,Commiphora myrrha,(Nees) Engl.,,Myrrh,,,Commiphora myrrha (Nees) Engl.,Myrrh
+SAT-F.449,brAhmI,brāhmī,ब्राह्मी,ब्राह्मी,Bacopa monnieri,(L.) Wettst.,,Thyme leaved gratiola,,,Bacopa monnieri (L.) Wettst.,Thyme leaved gratiola
+SAT-F.450,Ba~ggA/vijayA,bhaṅgā/vijayā,भङ्गा/विजया,भंगा/विजया,Cannabis sativa,L.,,True hemp/Soft hemp/Indian hemp,,,Cannabis sativa L.,True hemp/Soft hemp/Indian hemp
+SAT-F.451,BallAtaka,bhallātaka,भल्लातक,भल्लातक,Semecarpus anacardium,L.f.,,"Marking nut tree, Oriental cashew",,,Semecarpus anacardium L.f.,"Marking nut tree, Oriental cashew"
+SAT-F.452,BAr~ggI,bhārṅgī,भार्ङ्गी,भार्ंगी,Clerodendrum serratum,(L.) Moon,,"Turk's turban moon, Blue glory, Beetle killer",,,Clerodendrum serratum(L.) Moon,"Turk's turban moon, Blue glory, Beetle killer"
+SAT-F.453,BUtakeSI,bhūtakeśī,भूतकेशी,भूतकेशी,Selinum vaginatum,C.B. Clarke,,peacock fern,,,Selinum vaginatum C.B. Clarke,peacock fern
+SAT-F.454,BRu~ggarAja,bhṛṅgarāja,भृङ्गराज,भृंगराज,Eclipta prostrata,(L.) L.,Eclipta alba,Trailing Eclipta,,,Eclipta prostrata (L.) L. synonymous withEclipta alba (L.) Hassk.,Trailing Eclipta
+SAT-F.455,ma~jjiShThA,mañjiṣṭhā,मञ्जिष्ठा,मंजिष्ठा,Rubia cordifolia,L.,,Indian madder,,,Rubia cordifolia L.,Indian madder
+SAT-F.456,maNDUkaparNI,maṇḍūkaparṇī,मण्डूकपर्णी,मंडूकपर्णी,Centella asiatica,(L.) Urb.,,Indian pennywort,,,Centella asiatica (L.) Urb.,Indian pennywort
+SAT-F.457,madana/madanaPala,madana/madanaphala,मदन/मदनफल,मदन/मदनफल,Catunaregam spinosa,(Thunb.) Tirveng.,Xeromphis spinosa; Randia dumetorum,"Emetic nut tree, Common emetic nut, mountain pomegranate",,,Catunaregam spinosa (Thunb.) Tirveng. synonymous withXeromphis spinosa (Thunb.) Keaysynonymous withRandia dumetorum (Retz.) Lam.,"Emetic nut tree, Common emetic nut, mountain pomegranate"
+SAT-F.458,madayantI,madayantī,मदयन्ती,मदयंती,Lawsonia intermis,L.,,"Henna, Egyptian priven, Cypress shrub",Jasminum sambac,,Lawsonia intermis L.,"Henna, Egyptian priven, Cypress shrub; can be substituted with Jasminum sambac (L.) Ait."
+SAT-F.459,madhusnuhI/copacinI,madhusnuhī/copacinī,मधुस्नुही/चोपचिनी,मधुस्नुही/चोपचिनी,Smilax china,L.,,China root,,,Smilax china L.,China root
+SAT-F.460,mamIrA,mamīrā,ममीरा,ममीरा,Coptis teeta,Wall.,,"Gold thread, coptis",,,Coptis teeta Wall.,"Gold thread, coptis"
+SAT-F.461,marica,marica,मरिच,मरिच,Piper nigrum,L.,,"Black pepper, Common pepper, Pepper",,,Piper nigrum L.,"Black pepper, Common pepper, Pepper"
+SAT-F.462,mahAbalA,mahābalā,महाबला,महाबला,Sida rhombifolia,L.,,Arrow leaf sida,,,Sida rhombifolia L.,Arrow leaf sida
+SAT-F.463,mahAmedA,mahāmedā,महामेदा,महामेदा,Polygonatum cirrhifolium,(Wall.) Royle,,"Coiling leaf Solomon seal, Coiling leaf Polygonatum",Polygonatum multiflorum; Polygonatum verticillatum,,Polygonatum cirrhifolium (Wall.) Royle,"Coiling leaf Solomon seal, Coiling leaf Polygonatumcan be substituted with 1. Polygonatum multiflorum (L.) All. 2. Polygonatum verticillatum (L.) All."
+SAT-F.464,mANakanda,māṇakanda,माणकन्द,माणकंद,Alocasia macrorhizos,(L.) G. Don,Alocasia indica,"giant taro, ape, giant alocasia, pai",,,Alocasia macrorhizos (L.) G. Don synonymous withAlocasia indica (Lour.) Spach.,"giant taro, ape, giant alocasia, pai"
+SAT-F.465,mAyAPala/ mAyukam,māyāphala/ māyukam,मायाफल/ मायुकम्,मायाफल/ मायुक,Quercus infectoria,G.Olivier,,"Eak gall, Magin nut, Dyers' oak gall",Quercus incana,,Quercus infectoria G.Olivier,"Eak gall, Magin nut, Dyers' oak gall can be substituted with Quercus incana Roxb."
+SAT-F.466,mASha,māṣa,माष,माष,Vigna mungo,(L.) Hepper,Phaseolus mungo,Black gram,,,Vigna mungo (L.) Hepper synonymous withPhaseolus mungo L.,Black gram
+SAT-F.467,mAShaparNI,māṣaparṇī,माषपर्णी,माषपर्णी,Teramnus labialis,(L.f) Spreng.,,"Blue Wiss, Pistache Marronne, horse vine, rabbit vine",,,Teramnus labialis (L.f) Spreng.,"Blue Wiss, Pistache Marronne, horse vine, rabbit vine"
+SAT-F.468,miSreyA,miśreyā,मिश्रेया,मिश्रेया,Foeniculum vulgare,Mill.,,Fennel,,,Foeniculum vulgare Mill.,Fennel
+SAT-F.469,mucakunda,mucakunda,मुचकुन्द,मुचकुंद,Pterospermum acerifolium,(L.) Willd.,,"Dinner Plate Tree, Karnikara tree",,,Pterospermum acerifolium (L.) Willd.,"Dinner Plate Tree, Karnikara tree"
+SAT-F.470,mu~jjAtaka,muñjātaka,मुञ्जातक,मुंजातक,Dactylorhiza incarnata,(L.) Soo,Orchis latifolia,Salam Panja,Eulophia dabia,,Dactylorhiza incarnata (L.) Soo synonymous with Orchis latifolia L.,Salam Panja; can be substituted with Eulophia dabia (D.Don) Hochr. synonymous with Eulophia campestris Wall. ex Lindl.
+SAT-F.471,muNDItikA,muṇḍītikā,मुण्डीतिका,मुंडीतिका,Sphaeranthus indicus,L.,,East Indian globe-thistle,,,Sphaeranthus indicus L.,East Indian globe-thistle
+SAT-F.472,mudagaparNI,mudagaparṇī,मुदगपर्णी,मुदगपर्णी,Vigna trilobata,(L.) Verdc.,,"Wild Gram, Three-lobe-leaf",,,Vigna trilobata (L.) Verdc.,"Wild Gram, Three-lobe-leaf"
+SAT-F.473,murA,murā,मुरा,मुरा,Selinum wallichianum,(DC) Raizada & H.O.Saxena,Selinum tenuifolium,Milk Parsley,Selinum vaginatum,,Selinum wallichianum (DC) Raizada & H.O.Saxena synonymous withSelinum tenuifolium Salisb.,Milk Parsley; can be substituted with Selinum vaginatum (Edgew) C.B. Clarke
+SAT-F.474,muShkaka,muṣkaka,मुष्कक,मुष्कक,Schrebera swietenioides,Roxb.,,Weaver's beam tree,,,Schrebera swietenioides Roxb.,Weaver's beam tree
+SAT-F.475,musalI,musalī,मुसली,मुसली,Chlorophytum tuberosum,(Roxb.) Baker,,edible Chlorophytum,Chlorophytum borivilianum,,Chlorophytum tuberosum (Roxb.) Baker,edible Chlorophytum can be substituted with Chlorophytum borivilianum Santapau & R.R. Fern.
+SAT-F.476,mustA,mustā,मुस्ता,मुस्ता,Cyperus rotundus,L.,,Nut grass,,,Cyperus rotundus L.,Nut grass
+SAT-F.477,mUrvA,mūrvā,मूर्वा,मूर्वा,Marsdenia tenacissima,(Roxb) Moon,,"Rajmahal-creeper, Rajmahal-hemp",Chonemorpha macrophylla,,Marsdenia tenacissima (Roxb) Moon,"Rajmahal-creeper, Rajmahal-hemp; can be substituted with Chonemorpha macrophylla G.Don"
+SAT-F.478,mUlaka,mūlaka,मूलक,मूलक,Raphanus sativus,L.,,Raddish,,,Raphanus sativus L.,Raddish
+SAT-F.479,methI,methī,मेथी,मेथी,Trigonella foenum-graecum,L.,,"Fenugreek, Greek hayes",,,Trigonella foenum-graecum L.,"Fenugreek, Greek hayes"
+SAT-F.480,medA,medā,मेदा,मेदा,Polygonatum verticillatum,(L.) All.,,whorled Solomon's-seal,Polygonatum multiflorum; Polygonatum cirrhifolium; Asparagus racemosus,,Polygonatum verticillatum (L.) All.,whorled Solomon's-seal can be substituted with 1. Polygonatum multiflorum (L.) All. 2. Polygonatum cirrhifolium (Wall.) Royle 3. Asparagus racemosus Willd.
+SAT-F.481,meShaSRu~ggI,meṣaśṛṅgī,मेषशृङ्गी,मेषशृंगी,Gymnema sylvestre,(Retz) R. Br. ex Sm.,,"Periploca of the woods, Gymnema, cowplant",,,Gymnema sylvestre (Retz) R. Br. ex Sm.,"Periploca of the woods, Gymnema, cowplant"
+SAT-F.482,yava,yava,यव,यव,Hordeum vulgare,L.,,Barley,,,Hordeum vulgareL.,Barley
+SAT-F.483,yavAnI,yavānī,यवानी,यवानी,Trachyspermum ammi,(L.) Sprague,,"Ajowan caraway, bishop's weed",,,Trachyspermum ammi (L.) Sprague,"Ajowan caraway, bishop's weed"
+SAT-F.484,yaShTImadhu,yaṣṭīmadhu,यष्टीमधु,यष्टीमधु,Glycyrrhiza glabra,L.,,"Liquorice, licorice",,,Glycyrrhiza glabra L.,"Liquorice, licorice"
+SAT-F.485,rakta candana,rakta candana,रक्त चन्दन,रक्त चंदन,Pterocarpus santalinus,L.f.,,"Red sanders, Red sandalwood, Ruby wood",,,Pterocarpus santalinus L.f.,"Red sanders, Red sandalwood, Ruby wood"
+SAT-F.486,rakta punarnavA,rakta punarnavā,रक्त पुनर्नवा,रक्त पुनर्नवा,Boerhavia repens,L.var.diffusa (L.) Hook.f.synonymous withBoerhaavia diffusa L.,Boerhaavia diffusa,"Hogweed, Pigweed",Boerhaavia repanda,,Boerhavia repens L.var.diffusa (L.) Hook.f.synonymous withBoerhaavia diffusa L.,"Hogweed, Pigweed; can be substituted with Boerhaavia repanda Willd."
+SAT-F.487,rAsnA,rāsnā,रास्ना,रास्ना,Pluchea lanceolata,(DC.)C.B. Clarke,,"Pluchea, Indian Camphorweed, Indian Fleabane",Alpinia galanga; Alpinia officinarum,,Pluchea lanceolata (DC.)C.B. Clarke,"Pluchea, Indian Camphorweed, Indian Fleabane; can be substituted with 1. Alpinia galanga (L.) Willd. 2. Alpinia officinarum Hance"
+SAT-F.488,rumI mastagI,rumī mastagī,रुमी मस्तगी,रुमी मस्तगी,Pistacia lentiscus,L.,,mastic tree,,,Pistacia lentiscus L.,mastic tree
+SAT-F.489,revanda cInI,revanda cīnī,रेवन्द चीनी,रेवंद चीनी,Rheum emodii,Wall. ex Meisn.,,Himalayan rhubarb,Rheum nobile; Rheum moorcroftianum; Rheum spiciforme,,Rheum emodii Wall. ex Meisn.,Himalayan rhubarb can be substituted with 1. Rheum nobile Hook. f. & Thomson2. Rheum moorcroftianum Royle 3. Rheum spiciforme Royle
+SAT-F.490,rohItaka,rohītaka,रोहीतक,रोहीतक,Tecomella undulata,(Sm.) Seem.,,desert teak /marwar teak,,,Tecomella undulata (Sm.) Seem.,desert teak /marwar teak
+SAT-F.491,lajjAlu,lajjālu,लज्जालु,लज्जालु,Mimosa pudica,L.,,"Sensitive plant, Humble plant",Mimosa himalayana,,Mimosa pudica L.,"Sensitive plant, Humble plant; can be substituted with Mimosa himalayana Gamble"
+SAT-F.492,latAkara~jja,latākarañja,लताकरञ्ज,लताकरंज,Caesalpinia crista,L.,,"Fever nut, Bonduc nut",,,Caesalpinia crista L.,"Fever nut, Bonduc nut"
+SAT-F.493,lava~gga,lavaṅga,लवङ्ग,लवंग,Syzygium aromaticum,(L.) Merr. & L.M. Perry,,"Clove tree, Cloves",,,Syzygium aromaticum (L.) Merr. & L.M. Perry,"Clove tree, Cloves"
+SAT-F.494,laSuna,laśuna,लशुन,लशुन,Allium sativum,L.,,Garlic,,,Allium sativum L.,Garlic
+SAT-F.495,lA~ggalI,lāṅgalī,लाङ्गली,लांगली,Gloriosa superba,L.,,Malabar glory lily,Costus speciosus,,Gloriosa superba L.,Malabar glory lily; can be substituted with Costus speciosus (J. Koenig) Sm.
+SAT-F.496,lodhra,lodhra,लोध्र,लोध्र,Symplocos racemosa,Roxb.,,"Symplocos tree, Lodh tree, Symplocos bark",,,Symplocos racemosa Roxb.,"Symplocos tree, Lodh tree, Symplocos bark"
+SAT-F.497,vaMSa,vaṃśa,वंश,वंश,Bambusa bambos,(L.) Voss,Bambusa arundinacea,Indian thorny Bamboo,,,Bambusa bambos (L.) Voss synonymous withBambusa arundinacea Willd.,Indian thorny Bamboo
+SAT-F.498,vaMSalocana,vaṃśalocana,वंशलोचन,वंशलोचन,Bambusa sp,.,,"abasheer, Bamboo Silica,Bamboo Manna",,,Bambusa sp.,"abasheer, Bamboo Silica,Bamboo Manna"
+SAT-F.499,vacA,vacā,वचा,वचा,Acorus calamus,L.,,Sweet flag,,,Acorus calamusL.,Sweet flag
+SAT-F.500,vaTa/nyagrodha,vaṭa/nyagrodha,वट/न्यग्रोध,वट/न्यग्रोध,Ficus benghalensis,L.,,Banyan,,,Ficus benghalensis L.,Banyan
+SAT-F.501,vatsanABa,vatsanābha,वत्सनाभ,वत्सनाभ,Aconitum chasmanthum,Stapf ex Holmes,,"aconite, monkshood",Aconitum ferox; Aconitum napellus; Aconitum deinorrhizum,,Aconitum chasmanthum Stapf ex Holmes,"aconite, monkshood; can be substituted with 1. Aconitum ferox Wall. ex Ser. 2. Aconitum napellus Pall. 3. Aconitum deinorrhizum Stapf."
+SAT-F.502,vandA,vandā,वन्दा,वंदा,Dendrophthoe falcata,(L.f) Ettingsh.,,Mistletoe,,,Dendrophthoe falcata (L.f) Ettingsh.,Mistletoe
+SAT-F.503,vanya ajamodA,vanya ajamodā,वन्य अजमोदा,वन्य अजमोदा,Trachyspermum roxburghianum,(DC.)H. Wolff,,Ajowan,,,Trachyspermum roxburghianum (DC.)H. Wolff,Ajowan
+SAT-F.504,varuNa,varuṇa,वरुण,वरुण,Crataeva nurvala,Buch.-Ham.,Crateva religiosa,Three-leaved caper,,,Crataeva nurvala Buch.-Ham. synonymous with Crateva religiosa var. nurvula (Buch.-Ham.) Hook.f. & Thomson,Three-leaved caper
+SAT-F.505,varShABU,varṣābhū,वर्षाभू,वर्षाभू,Trianthema portulacastrum,L.,,"desert horse purslane, black pigweed, giant pigweed",,,Trianthema portulacastrum L.,"desert horse purslane, black pigweed, giant pigweed"
+SAT-F.506,vArtAka,vārtāka,वार्ताक,वार्ताक,Solanum melongena,L.,,"Brinjal, Egg plant",,,Solanum melongena L.,"Brinjal, Egg plant"
+SAT-F.507,vAsA,vāsā,वासा,वासा,Justicia adhatoda,L.,Adhatoda zeylanica,Malabar nut/adhatoda/vasa/vasaka,,,Justicia adhatoda L. synonymous withAdhatoda zeylanica Medik,Malabar nut/adhatoda/vasa/vasaka
+SAT-F.508,viDa~gga,viḍaṅga,विडङ्ग,विडंग,Embelia ribes,Burm.f.,,Embelia,Embelia robusta,,Embelia ribes Burm.f.,Embelia can be substituted with Embelia robusta Roxb.
+SAT-F.509,vidArI,vidārī,विदारी,विदारी,Pueraria tuberosa,(Willd.) DC.,,indian kudzu,,,Pueraria tuberosa (Willd.) DC.,indian kudzu
+SAT-F.510,viSAlA,viśālā,विशाला,विशाला,Trichosanthes bracteata,(Lam.) Viogt,Trichosanthes palmata,chinese cucumber,,,Trichosanthes bracteata (Lam.) Viogt synonymous withTrichosanthes palmata Roxb.,chinese cucumber
+SAT-F.511,vIrataru,vīrataru,वीरतरु,वीरतरु,Dichrostachys cinerea,(L.) Wight & Arn.,Dichrostachys cinerea,"sicklebush, Bell mimosa, Chinese lantern tree or Kalahari Christmas tree",,,Dichrostachys cinerea (L.) Wight & Arn. synonymous with Dichrostachys cinerea var. indica Brenan & Brummit,"sicklebush, Bell mimosa, Chinese lantern tree or Kalahari Christmas tree"
+SAT-F.512,vRukShAmla,vṛkṣāmla,वृक्षाम्ल,वृक्षाम्ल,Garcinia indica,(Thouars) Choisy,,Kokum,,,Garcinia indica (Thouars) Choisy,Kokum
+SAT-F.513,vRudhdadAruka,vṛdhdadāruka,वृध्ददारुक,वृध्ददारुक,Argyreia nervosa,(Burm.f.) Bojer,Argyreia speciosa,Elephant creeper,,,Argyreia nervosa (Burm.f.) Bojer synonymous withArgyreia speciosa (L. f.) Sweet,Elephant creeper
+SAT-F.514,vRudhdi,vṛdhdi,वृध्दि,वृध्दि,Habenaria intermedia,D.Don,,Edgeworth's Habenaria,Dioscorea bulbifera,,Habenaria intermedia D.Don,Edgeworth's Habenaria; can be substituted with Dioscorea bulbifera L.
+SAT-F.515,vRuScikAlI,vṛścikālī,वृश्चिकाली,वृश्चिकाली,Urtica dioca,L.,,common nettle/stinging nettle or nettle leaf,,,Urtica dioca L.,common nettle/stinging nettle or nettle leaf
+SAT-F.516,vetra,vetra,वेत्र,वेत्र,Calamus rotang,L.,,"Comman rattan, Rattan",,,Calamus rotang L.,"Comman rattan, Rattan"
+SAT-F.517,SaTI,śaṭī,शटी,शटी,Hedychium spicatum,Sm.,,"Spiked Ginger Lily,Perfume ginger",,,Hedychium spicatum Sm.,"Spiked Ginger Lily,Perfume ginger"
+SAT-F.518,Sa~gKapuShpI,śaṅkhapuṣpī,शङ्खपुष्पी,शंखपुष्पी,Convolvulus prostratus,Forssk.,Convolvulus pluricaulis,Prostrate Bindweed,,,Convolvulus prostratus Forssk. synonymous withConvolvulus pluricaulis Choisy,Prostrate Bindweed
+SAT-F.519,SatapatrikA,śatapatrikā,शतपत्रिका,शतपत्रिका,Rosa centifolia,L.,,Cabbage rose/Hundred-leaved rose/Pale rose,,,Rosa centifolia L.,Cabbage rose/Hundred-leaved rose/Pale rose
+SAT-F.520,SatAvarI,śatāvarī,शतावरी,शतावरी,Asparagus racemosus,Willd.,,Wild asparagus,,,Asparagus racemosus Willd.,Wild asparagus
+SAT-F.521,SatAhvA,śatāhvā,शताह्वा,शताह्वा,Anethum sowa,Roxb. ex Fleming,Anethum graveolens,"Dill, Garden dill, Anet",,,Anethum sowa Roxb. ex Fleming synonymous with Anethum graveolens subsp. sowa (Roxb. ex Fleming) N.F.Koren,"Dill, Garden dill, Anet"
+SAT-F.522,Sara,śara,शर,शर,Saccharum munja,Roxb.,,munja,,,Saccharum munja Roxb.,munja
+SAT-F.523,SallakI,śallakī,शल्लकी,शल्लकी,Boswellia serrata,Roxb. ex Colebr.,,Indian Olibanum tree,,,Boswellia serrata Roxb. ex Colebr.,Indian Olibanum tree
+SAT-F.524,SAka,śāka,शाक,शाक,Tectona grandis,L.f.,,Teak,,,Tectona grandis L.f.,Teak
+SAT-F.525,SAla,śāla,शाल,शाल,Shorea robusta,Gaertn.,,Sal,,,Shorea robusta Gaertn.,Sal; can be substituted with ateria indica L.
+SAT-F.526,SAlaparNI,śālaparṇī,शालपर्णी,शालपर्णी,Desmodium gangeticum,(L.) DC.,,ticktree,,,Desmodium gangeticum (L.) DC.,ticktree
+SAT-F.527,SAli,śāli,शालि,शालि,Oryza sativa,L.,,Paddy/Rice,,,Oryza sativa L.,Paddy/Rice
+SAT-F.528,SAlmalI,śālmalī,शाल्मली,शाल्मली,Bombax ceiba,L.,Salmalia malabarica,Red silk cotton tree,,,Bombax ceiba L. synonymous with Salmalia malabarica (DC.) Schott & Endl,Red silk cotton tree
+SAT-F.529,Sigru,śigru,शिग्रु,शिग्रु,Moringa oleifera,Lam.,,Horse-radish tree/Drumstick tree,,,Moringa oleifera Lam.,Horse-radish tree/Drumstick tree
+SAT-F.530,SitivAraka,śitivāraka,शितिवारक,शितिवारक,Celosia argentea,L.,,plumed cockscomb/the silver cock's comb,,,Celosia argentea L.,plumed cockscomb/the silver cock's comb
+SAT-F.531,SirISha,śirīṣa,शिरीष,शिरीष,Albizia lebbeck,(L.) Benth.,,"lebbeck/lebbek tree/flea tree, frywood/koko/woman's tongue tree",,,Albizia lebbeck (L.) Benth.,"lebbeck/lebbek tree/flea tree, frywood/koko/woman's tongue tree"
+SAT-F.532,SuNThI,śuṇṭhī,शुण्ठी,शुंठी,Zingiber officinale,Roscoe,,Ginger,,,Zingiber officinale Roscoe,Ginger
+SAT-F.533,Saileya,śaileya,शैलेय,शैलेय,Parmelia perlata,(Huds.) Ach.,,Stone flower,,,Parmelia perlata (Huds.) Ach.,Stone flower
+SAT-F.534,SyonAka,śyonāka,श्योनाक,श्योनाक,Oroxylum indicum,(L.) Kurz,,Indian trumpet tree,,,Oroxylum indicum (L.) Kurz,Indian trumpet tree
+SAT-F.535,SrIpadI,śrīpadī,श्रीपदी,श्रीपदी,Jasminum sambac,(L.) Aiton,,Arabian jasmine/Tuscan jasmine/Sambac jasmine,,,Jasminum sambac (L.) Aiton,Arabian jasmine/Tuscan jasmine/Sambac jasmine
+SAT-F.536,Sveta candana,śveta candana,श्वेत चन्दन,श्वेत चंदन,Santalum album,L.,,"Sandal tree, White-sandal tree",,,Santalum album L.,"Sandal tree, White-sandal tree"
+SAT-F.537,Sveta jIraka,śveta jīraka,श्वेत जीरक,श्वेत जीरक,Cuminum cyminum,L.,,Cumin,,,Cuminum cyminum L.,Cumin
+SAT-F.538,Sveta punarnavA,śveta punarnavā,श्वेत पुनर्नवा,श्वेत पुनर्नवा,Boerhavia verticillata,Poir.,,horse purslene/blunt leaved hogweed,,,Boerhavia verticillata Poir.,horse purslene/blunt leaved hogweed
+SAT-F.539,Sveta sarShapa,śveta sarṣapa,श्वेत सर्षप,श्वेत सर्षप,Sinapis alba,L.,Brassica alba,White mustard,,,Sinapis alba L. synonymous with Brassica alba (L.) Rabenh.,White mustard
+SAT-F.540,SvetasahacaraH,śvetasahacaraḥ,श्वेतसहचरः,श्वेतसहचर,Barleria cristata,L.,,"Philippine Violet, bluebell barleria, crested Philippine violet, crested purple nail dye",,,Barleria cristata L.,"Philippine Violet, bluebell barleria, crested Philippine violet, crested purple nail dye"
+SAT-F.541,saptaparNaH,saptaparṇaḥ,सप्तपर्णः,सप्तपर्ण,Alstonia scholaris,(L.) R. Br.,,Devil tree/Shaitan wood,,,Alstonia scholaris (L.) R. Br.,Devil tree/Shaitan wood
+SAT-F.542,saralaH,saralaḥ,सरलः,सरल,Pinus roxburghii,Sarg.,,Chir pine/Himalayan long-leaved pine/ Three leaved pine,,,Pinus roxburghii Sarg.,Chir pine/Himalayan long-leaved pine/ Three leaved pine
+SAT-F.543,sarjaH,sarjaḥ,सर्जः,सर्ज,Vateria indica,L.,,Indian copal tree/Piney varnish-tree/White-dammar,,,Vateria indica L.,Indian copal tree/Piney varnish-tree/White-dammar
+SAT-F.544,sarpagandhA,sarpagandhā,सर्पगन्धा,सर्पगंधा,Rauvolfia serpentina,(L.) Benth. ex Kurz,,Rauvlolfia root/Serpentina root/Sepentine root,,,Rauvolfia serpentina (L.) Benth. ex Kurz,Rauvlolfia root/Serpentina root/Sepentine root
+SAT-F.545,sarShapaH,sarṣapaḥ,सर्षपः,सर्षप,Brassica rapa,L.,Brassica campestris,"Napa cabbage/bomdong/bok choy, cime di rapa",,,Brassica rapa L. synonymous with Brassica campestrisL.,"Napa cabbage/bomdong/bok choy, cime di rapa"
+SAT-F.546,sahacaraH,sahacaraḥ,सहचरः,सहचर,Barleria prionitis,L.,,Porcupine flower,,,Barleria prionitis L.,Porcupine flower
+SAT-F.547,sArivA,sārivā,सारिवा,सारिवा,Hemidesmus indicus,(L.) R. Br. ex Schult.,,Indian sarasaparilla/Country sarasaparilla,,,Hemidesmus indicus (L.) R. Br. ex Schult.,Indian sarasaparilla/Country sarasaparilla
+SAT-F.548,sura~jjAna,surañjāna,सुरञ्जान,सुरंजान,Colchicum luteum,Baker,,autumn crocus/meadow saffron,,,Colchicum luteumBaker,autumn crocus/meadow saffron
+SAT-F.549,sUkShmailA,sūkṣmailā,सूक्ष्मैला,सूक्ष्मैला,Elettaria cardamomum,(L.) Maton,,Cardamom,,,Elettaria cardamomum (L.) Maton,Cardamom
+SAT-F.550,sevantI /guladA^^udI,sevantī /guladāudī,सेवन्ती /गुलदाउदी,सेवंती /गुलदाउदी,Chrysanthemum indicum,L.,,Indian chrysanthemum,,,Chrysanthemum indicumL.,Indian chrysanthemum
+SAT-F.551,somaH,somaḥ,सोमः,सोम,Ephedra gerardiana,Wall. ex Stapf,,ephedra herb,,,Ephedra gerardiana Wall. ex Stapf,ephedra herb
+SAT-F.552,sthUlailA,sthūlailā,स्थूलैला,स्थूलैला,Amomum subulatum,Roxb.,,Greater Cardamom/Nepal cardamom,,,Amomum subulatum Roxb.,Greater Cardamom/Nepal cardamom
+SAT-F.553,snuhI,snuhī,स्नुही,स्नुही,Euphorbia neriifolia,L.,,Common milk hedge,,,Euphorbia neriifolia L.,Common milk hedge
+SAT-F.554,spRukkA,spṛkkā,स्पृक्का,स्पृक्का,Anisomeles malabarica,(L.) R.Br. ex Sims,,Malabar catmint,Delphinium zalil,,Anisomeles malabarica (L.) R.Br. ex Sims,Malabar catmint; can be substituted with Delphinium zalil Aitch. & Hemsl.
+SAT-F.555,svarNakShIrI,svarṇakṣīrī,स्वर्णक्षीरी,स्वर्णक्षीरी,Euphorbia thomsoniana,Boiss.,,Indian plum and coffee palm,Argemone mexicana,,Euphorbia thomsoniana Boiss.,Indian plum and coffee palm; can be substituted with Argemone mexicana L.
+SAT-F.556,svarNapatrI,svarṇapatrī,स्वर्णपत्री,स्वर्णपत्री,Cassia senna,L.,Cassia angustifolia,Indian senna/Tinnevelly senna,,,Cassia senna L. synonymous with Cassia angustifolia (Vahl) Batka,Indian senna/Tinnevelly senna
+SAT-F.557,hapuShA,hapuṣā,हपुषा,हपुषा,Juniperus communis,L.,,common juniper,,,Juniperus communis L.,common juniper
+SAT-F.558,haridrA,haridrā,हरिद्रा,हरिद्रा,Curcuma longa,L.,,Turmeric,,,Curcuma longa L.,Turmeric
+SAT-F.559,harItakI,harītakī,हरीतकी,हरीतकी,Terminalia chebula,Retz.,,Chebulic myrobalan,,,Terminalia chebula Retz.,Chebulic myrobalan
+SAT-F.560,hastiSuNDI,hastiśuṇḍī,हस्तिशुण्डी,हस्तिशुंडी,Heliotropium indicum,L.,,Indian turnsole,,,Heliotropium indicum L.,Indian turnsole
+SAT-F.561,hi~ggu,hiṅgu,हिङ्गु,हिंगु,Ferula foetida,(Bunge) Regel,Ferula asafoetida,Asafoetida (Asafetida),,,Ferula foetida (Bunge) Regel synonymous with Ferula asafoetida L.,Asafoetida (Asafetida)
+SAT-F.562,hi~ggupatrI,hiṅgupatrī,हिङ्गुपत्री,हिंगुपत्री,Ferula jaeschkeana,Vatke,,Wild Asafoetida,,,Ferula jaeschkeanaVatke,Wild Asafoetida
+SAT-F.563,hijjala/nicula,hijjala/nicula,हिज्जल/निचुल,हिज्जल/निचुल,Barringtonia actuangula,(L.) Gaertn.,,"Indian oak, Small Indian oak",,,Barringtonia actuangula (L.) Gaertn.,"Indian oak, Small Indian oak"
+SAT-F.564,hiMsrA,hiṃsrā,हिंस्रा,हिंस्रा,Capparis spinosa,L.,,"caper bush, Flinders rose",,,Capparis spinosa L.,"caper bush, Flinders rose"
+SAT-F.565,hrIveram,hrīveram,ह्रीवेरम्,ह्रीवेर,Plectranthus vettiveroides,(Jaco) N.P.Singh & B.D. Sharma,Coleus vettiveroides,,,,Plectranthus vettiveroides (Jaco) N.P.Singh & B.D. Sharma synonymous with Coleus vettiveroides Jacob,

@@ -1,0 +1,196 @@
+section_id,section_title
+1.1,Ayurveda
+1.2,Terms related to life
+1.3,Defining characteristics of Ayurveda knowledge
+1.4,Specialities of Ayurveda
+1.5,Characteristics of technical discipline
+1.6,Tools for technical writing and understanding
+1.7,Terms of reference for scientific debates
+1.8,"Methods of investigation, examination"
+1.8.1,"Direct perception, observation"
+1.8.2,Inference based on observations
+1.8.3,"Codified knowledge, expert opinion"
+1.9,Six ontological categories of an object
+1.9.1,Shared features
+1.9.2,Distinct feature
+1.9.3,"Substance, entity"
+1.9.3.1,Causal material
+1.9.3.2,Self
+1.9.3.3,Mind
+1.9.3.4,Time
+1.9.3.5,Direction
+1.9.3.6,"Unmanifested, manifested substances"
+1.9.3.7,"Resultant material(s), product or effect"
+1.9.4,"Property, quality or trait"
+1.9.4.1,Objects of special senses
+1.9.4.2,"Physical attributes, properties or qualities"
+1.9.4.3,Qualities of the soul or self
+1.9.4.4,Qualities beginning with term “priority (paratva)”
+1.9.5,Action
+1.9.6,Inherence
+1.9.7,Miscellaneous ontological categories
+1.10,Ayurvedic texts
+1.11,Essentials for medical practice
+2.1,Three regulatory functional factors
+2.1.1,Vata
+2.1.2,Pitta
+2.1.3,Kapha
+2.2,Fundamental structural components
+2.3,Supportive structural components
+2.4,Excretory products
+2.5,Body channels
+2.6,Digestion and metabolism
+2.7,Natural urges
+2.8,Body constitution
+2.8.1,Predominance of a specific fundamental structural component
+2.9,Inevitable life events
+2.9.1,"Conception, pregnancy"
+3.1,Whole body
+3.2,Head
+3.2.1,Eye
+3.2.2,Nose
+3.2.3,Ear
+3.2.4,"Oral cavity, teeth, throat"
+3.3,"Neck, shoulders"
+3.4,Chest
+3.5,Abdomen
+3.6,Female and male reproductive organs
+3.7,Perineum and vertebral column
+3.8,Upper limb
+3.9,Lower limb
+3.10,Motor or sensory faculties
+3.10.1,"Skin, hair and nails"
+3.12,Boundary between tissues
+3.13,"Bones, joints"
+3.14,Veins
+3.15,Arteries
+3.16,Vulnerable locations (marma)
+3.17,Fetus or embryo
+4.1,Diagnosis
+4.2,"Disease, disorder"
+4.5,Pathology
+4.6,Staging of the disease
+4.7,Clinical methods
+4.8,Diagnosis: miscellaneous terms
+5.1,Disorder
+5.2,Derangement of dosha
+5.2.1,Disorders of vitiated vata
+5.2.2,Disorders of vitiated pitta
+5.2.3,Disorders of vitiated kapha
+5.3,Disorders of vitiated fundamental structural components
+5.4,Disorders of vitiated excretory products
+5.5,Disorders of vitiated channels
+5.6,Fevers
+5.7,Diarrhoea
+5.8,Dysentery
+5.9,Chronic diarrhoea with malabsorption of nutrients
+5.10,Haemorrhoids
+5.11,Indigestion
+5.12,"Acute, severe gastroenteritis"
+5.13,Worm infestations
+5.14,Anaemic syndrome
+5.15,Jaundice
+5.16,Bleeding disorders
+5.17,Consumption disorder complex
+5.18,Cough
+5.19,Hiccup
+5.20,Dyspnoea
+5.21,Hoarse voice
+5.22,Anorexia
+5.23,Vomiting
+5.24,Morbid thirst
+5.25,Syncope and related conditions
+5.26,Intoxication
+5.27,Burning sensation
+5.31,Stiff thigh(s) with loss of sensation
+5.32,Polyarthritis due to ama
+5.33,Hyperacidity
+5.34,Abdominal colic
+5.35,Disorders of reversed or altered visceral movement
+5.36,Constipation and abdominal distension
+5.37,Abdominal lumps
+5.38,Heart disease
+5.39,Dysuria
+5.40,Urinary calculi
+5.41,Polyuria disorders
+5.41.1,Carbuncles associated with polyuria disorders
+5.42,Obesity
+5.43,Abdominal enlargement
+5.44,Oedema
+5.45,Hydrocoele
+5.46,Hernia
+5.47,Goitre
+5.48,Scrofula
+5.49,"Nodular swelling, cyst"
+5.50,Tumour
+5.51,Filariasis
+5.52,Abscess
+5.53,Pre-ulcerative inflammation
+5.54,Ulcers
+5.55,Fractures and dislocations
+5.56,Deep-seated ulcer with fistula formation
+5.56.1,Anal fistula
+5.57,Sexually transmitted penile inflammation
+5.58,Complications of forced increase of penile size
+5.59,Multiple dermatological manifestations
+5.60,Rapidly spreading skin lesions covering large areas of the body
+5.61,Eruptive skin disorders
+5.62,Group of disorders in which dosha pathogenesis has a single definitive diagnostic outcome
+5.63,Disorders of oral cavity
+5.64,Disorders of the ear
+5.65,Disorders of the nose
+5.66,Disorders of the eye
+5.67,Disorders of the head
+5.68,Dysfunctional uterine bleeding
+5.69,Disorders of the female genitalia
+5.70,"Conditions pertaining to pregnancy, peri- and postnatal periods"
+5.71,Paediatric disorders
+5.72,Poisoning
+5.73,Injuries
+5.74,Disorders related to faulty diet and eating habits
+5.75,Disorders related to faulty lifestyle
+5.76,Conditions due to faulty treatment
+6.1,Pharmacognosy
+6.2,Five pharmaco-therapeutic principles of substance
+6.2.1,Taste
+6.2.2,"Property, quality or attribute"
+6.2.2.1,"Property, quality or For detailed information see Chapter 1, ITA-1.9.4.1 to ITA- guṇaḥ गुणः"
+6.2.3,Potency
+6.2.3.1,"Potency The innate quality of a substance, its ability to effectuate a vīryam, śaktiḥ वीर्यम्, शक्तिः"
+6.2.4,Post-digestive state
+6.2.4.1,Post digestive state Taste of a substance after undergoing complete digestion vipākaḥ विपाकः
+6.2.5,Unique therapeutic action
+6.2.5.1,"Unique therapeutic An observed pharmacological action, the mechanism of which prabhāvaḥ प्रभावः"
+6.2.6,Pharmacological activity
+6.2.7,Drug Administration
+7.1,Single and multi-ingredient Ayurvedic dosage forms
+7.1.1,Adjuvants and miscellaneous dosage forms
+7.1.2,Pharmaceutical manufacturing procedures
+7.1.3,Pharmaceutical equipment
+7.1.4,Units of measurement
+7.2,Pharmaceutics of mercury and other minerals
+7.2.1,Tools and processes for mineral and metal processing
+7.2.2,Group of eight superior minerals
+7.2.3,Group of eight subsidiary minerals
+7.2.4,Group of eight supplementary mineral substances
+7.2.5,List of important metals used for medicinal purposes
+7.2.6,Gems and other precious stones
+7.2.7,"Subsidiary gems, semi-precious stones"
+7.2.8,"Group of white-coloured substances of mineral, plant and animal origin"
+7.2.9,Salts
+7.2.10,Alkalis
+8.1,General terms related to food
+8.2,Categories of food ingredients
+8.3,Cooked food items and processing methods
+9.1,General medicine
+9.2,Cleansing therapy
+9.3,Psychotherapy and counselling
+9.4,Paediatrics
+9.5,Treatment of the diseases of the head and neck region
+9.6,Surgery
+9.7,Treatment of poisoning
+9.8,Rejuvenation and revitalization therapy
+9.9,Aphrodisiac or virility treatment
+10.1,Health
+10.2,Three pillars to maintain health and longevity
+10.3,Healthy lifestyle routine

@@ -1,0 +1,90 @@
+sat_id,karma_sa_iast,karma_sa_deva,karma_hi_usage,short_definition,long_definition
+SAT-F.60,dīpanam,दीपनम्,दीपन,digestion and metabolism enhancing,therapeutic action which kindles the agni but cannot digest the āma
+SAT-F.61,pācanam,पाचनम्,पाचन,enhancing digestion,"process by which the undigested food, doṣa, āma etc are digested"
+SAT-F.62,saṃśamana-karma,संशमन-कर्म,संशमन-कर्म,"pacifying therapy, alleviating therapy",therapy which neither removes doṣa from the body nor increases normal doṣa but only corrects the imbalance of doṣa
+SAT-F.63,anulomanam,अनुलोमनम्,अनुलोमन,mild purgative action/regularizing physiological movement,"therapeutic action of digesting or transforming the undigested materials (food, doṣa etc.) and propels them downward by acting as mild laxatives or normalizing the physiological movements of doṣa"
+SAT-F.64,sraṃsana-karma,स्रंसन-कर्म,स्रंसन-कर्म,laxative,kind of purgatives which separate and remove the undigested substances and toxins adhered to the linings of the intestines without digesting them
+SAT-F.65,bhedanam,भेदनम्,भेदन,drastic purgatives,purgatives which breaks down the hardness of stool and eliminate them
+SAT-F.66,recana-karma/ virecana-karma/ praskandana-karma,रेचन-कर्म/ विरेचन-कर्म/ प्रस्कन्दन-कर्म,रेचन-कर्म/ विरेचन-कर्म/ प्रस्कंदन-कर्म,a form of osmotic laxative,class of purgatives which liquefies the doṣa and eliminate them or substances that expels excreta by increasing its liquid content;
+SAT-F.67,saṃśodhanam,संशोधनम्,संशोधन,eliminative,"expelling out vitiated doṣa and mala through various body openings viz mouth, nose, anus, etc"
+SAT-F.68,chedanam,छेदनम्,छेदन,detachment of vitiated doṣa,therapeutic action which forcefully separate the doṣa completely and remove them out of body
+SAT-F.69,lekhanam,लेखनम्,लेखन,therapeutic scrapping,therapeutic action which dries up body tissues and then literally scraps up the unwanted substances out from the body
+SAT-F.70,grāhī,ग्राही,ग्राही,absorptive,substances with therapeutic action of both dīpana and pācana which dries up excessive liquid portion due to its uṣṇa property
+SAT-F.71,stambhanam,स्तम्भनम्,स्तंभन,check any flow through or out of the body,"action of rūkṣa, vāta and kaṣāya dravya which increase vāta and check any flow through or out of the body or has styptic action"
+SAT-F.72,śukrajananam,शुक्रजननम्,शुक्रजनन,reproductive tissue promoting,therapeutic measure having spermatogenic properties
+SAT-F.73,śukraprasādanam,शुक्रप्रसादनम्,शुक्रप्रसादन,normalizers of semen,substances or therapeutic action which bring back normalcy in quality/ quanity of semen/sperm
+SAT-F.74,śukralaḥ,शुक्रलः,शुक्रल,semenogague,therapeutic action that causes increase of semen
+SAT-F.75,śukraśodhanam,शुक्रशोधनम्,शुक्रशोधन,reproductive tissue depurant,therapy or medicines which have the potency of purifying the semen
+SAT-F.76,śukrotpādakaḥ,शुक्रोत्पादकः,शुक्रोत्पादक,semenogague/ spematogenic,therapeutic action that generates semen and androgens
+SAT-F.77,śukrasya āpyāyanam,शुक्रस्य आप्यायनम्,शुक्रस्य आप्यायन,maintaining normal production of semen,therapeutic measures done to maintain the normal production of the semen
+SAT-F.78,śukrapravartakaḥ,शुक्रप्रवर्तकः,शुक्रप्रवर्तक,promoting ejaculation,therapeutic action that causes ejaculation
+SAT-F.79,ṣāṇḍhyakara/ puṃstvopaghātin,षाण्ढ्यकर/ पुंस्त्वोपघातिन्,षांढ्यकर/ पुंस्त्वोपघातिन्,dravya that hamper male sexual and reproductive ability,dravya hampering male sexual and reproductive ability
+SAT-F.80,ārtavajanana,आर्तवजनन,आर्तवजनन,drugs stimulating menstrual blood flow or ovulation,dravya producing/inducing menstrual blood flow or ovulation
+SAT-F.81,garbhasthāpakaḥ,गर्भस्थापकः,गर्भस्थापक,preventive measures for abortion and promotive measures for fetal health and quality,medicines used to prevent the abortion and to promote health and qualities of intrauterine fetus.
+SAT-F.82,garbhasthāpanam/ prajāsthāpanam,गर्भस्थापनम्/ प्रजास्थापनम्,गर्भस्थापन/ प्रजास्थापन,substances which helps sustenance of fetus,therapeutic measure which counteract the effect of harmful factors (acting as anti abortifacient) and helps in proper maintenance of fetus or pregnancy and also promotes fertility
+SAT-F.83,garbhaśātana-dravyam/garbhapātana-dravyam,गर्भशातन-द्रव्यम्/गर्भपातन-द्रव्यम्,गर्भशातन-द्रव्य/गर्भपातन-द्रव्य,abortificient drugs,drugs which induces abortion
+SAT-F.84,garbhapratibandhakayogaḥ/vandhyākarayogaḥ,गर्भप्रतिबन्धकयोगः/वन्ध्याकरयोगः,गर्भप्रतिबंधकयोग/वंध्याकरयोग,contraceptive drugs,drugs which prevent conception
+SAT-F.85,āvijananam,आविजननम्,आविजनन,labor inducing drugs,dravya having ability to induce labor pain
+SAT-F.86,stanyajananam,स्तन्यजननम्,स्तन्यजनन,galactagogue,substances which increases the volume of breast milk
+SAT-F.87,stanyaśodhanam,स्तन्यशोधनम्,स्तन्यशोधन,galacto depurant,substances which rectifies vitiated breast milk
+SAT-F.88,netryam,नेत्र्यम्,नेत्र्य,dravya or intervention good for eye and eye sight,treatment modalities or drugs which are beneficial for the the eye
+SAT-F.89,cakṣuṣyam,चक्षुष्यम्,चक्षुष्य,dravya or intervention good for eye and eye sight,synonym of netrya
+SAT-F.90,tvacyam,त्वच्यम्,त्वच्य,beneficial for skin,dravya or procedures which are beneficial to the skin
+SAT-F.91,varṇyam,वर्ण्यम्,वर्ण्य,complexion promoting/normal skin colour restorer,dravya which enhance complexion of skin or restores normal colour of skin
+SAT-F.92,kaṇṭhyam,कण्ठ्यम्,कंठ्य,beneficial for throat or voice,dravya which can be used in diseases of throat
+SAT-F.93,svaryam,स्वर्यम्,स्वर्य,beneficial for voice,"therapeutic regime, diet or food beneficial for throat and voice"
+SAT-F.94,rucyam,रुच्यम्,रुच्य,taste enhancers,medicine or diet which enhance taste
+SAT-F.95,hṛdyam,हृद्यम्,हृद्य,beneficial for heart / palatable and pleasing to mind,"treatment modalities or medicinal drugs which are beneficial for the heart, palatable or pleasing to mind"
+SAT-F.96,praśamanam,प्रशमनम्,प्रशमन,pacification of doṣa,therapy aimed at normalization or subsiding the doṣa up to the limit of equilibrium unlike śodhana where the doṣa are removed outside the body
+SAT-F.97,prasādanam,प्रसादनम्,प्रसादन,quality enhancing,procedure which enhances the quality of body constituents
+SAT-F.98,ṣaḍindriya-prasādanam,षडिन्द्रिय-प्रसादनम्,षडिंद्रिय-प्रसादन,substances which are pleasing to all cognitive organs,substances which soothes the five sensory organs along with the mind
+SAT-F.99,agadaḥ,अगदः,अगद,antitoxic,medicince which counteract the action of various poisons
+SAT-F.100,aviṣam/ nirviṣam,अविषम्/ निर्विषम्,अविष/ निर्विष,non-toxic,dravya which are not toxic / state where toxins have been removed
+SAT-F.101,avipāki/apāki,अविपाकि/अपाकि,अविपाकि/अपाकि,indigestible,one of the attributes or properties of viṣa
+SAT-F.102,āśukārī,आशुकारी,आशुकारी,fast acting,ability of the dravya of being fast acting
+SAT-F.103,vyavāyī,व्यवायी,व्यवायी,substances with quick spread even without digestion,quality due to which a substance permeates all over the body before getting digested
+SAT-F.104,vikāṣī/ vikāsī,विकाषी/ विकासी,विकाषी/ विकासी,property of substance resulting in quick spread and action,property of a substance by virtue of which it gets distributed all over the body without passing through routine digestive process and causes depletion of ojas and displaces tissues from their physiological places
+SAT-F.105,madakārī,मदकारी,मदकारी,narcotics or delirifacients,dravya which intoxicates the body and affects the intellect
+SAT-F.106,pramāthi,प्रमाथि,प्रमाथि,stirring or agitating action,kind of eliminative therapeutic action which breaks the amalgamation of impaired doṣa and removes them out of body
+SAT-F.107,ūrjaskaraḥ,ऊर्जस्करः,ऊर्जस्कर,therapy to enhance ojas,therapeutic measures or medicines which are used to enhance ojas
+SAT-F.108,jīvanīyaḥ,जीवनीयः,जीवनीय,vitalization/vitalizers,therapy or medicines which increase vitality
+SAT-F.109,tarpaṇam,तर्पणम्,तर्पण,satiating,substances that has the ability to produce satiating effect
+SAT-F.110,balya,बल्य,बल्य,"strength, stamina and immunity promoter","tonic or beneficial for strength, stamina and immunity"
+SAT-F.111,śramaharaḥ,श्रमहरः,श्रमहर,fatigue relieving/energy providing,substances having the property of relieving generalized fatigue
+SAT-F.112,bṛṃhaṇīya,बृंहणीय,बृंहणीय,anabolic/bulk promoting,promoters of tissue growth
+SAT-F.113,saumanasyajananaḥ,सौमनस्यजननः,सौमनस्यजनन,substances which are pleasing to mind,substances that cause gladness or cheerfulness of mind
+SAT-F.114,rukṣaṇam,रुक्षणम्,रुक्षण,dryness inducing,dravya which induce dryness
+SAT-F.115,aṅgamardapraśamanaḥ,अङ्गमर्दप्रशमनः,अंगमर्दप्रशमन,bodyache relieving,drugs which relieve generalized body ache
+SAT-F.116,viṣyandaḥ,विष्यन्दः,विष्यंद,liquefication,caused due to jala mah?bh?ta predominance
+SAT-F.117,abhiṣyandi,अभिष्यन्दि,अभिष्यंदि,srotas-obstructing dravya,dravya which cause obstruction to srotas due to its picchila and guru properties such as curd
+SAT-F.118,upakledaḥ,उपक्लेदः,उपक्लेद,wet / moistening;,an action attributed to jala mah?bh?ta
+SAT-F.119,upacayaḥ,उपचयः,उपचय,anabolism/growth,an action attributed to pṛthva mah?bh?ta
+SAT-F.120,upaśoṣaṇam,उपशोषणम्,उपशोषण,drying up,action of drying up; an attribute of vāyu mah?bh?ta
+SAT-F.121,chardinigrahaṇam,छर्दिनिग्रहणम्,छर्दिनिग्रहण,anti-emetics,substances having the anti emetic property
+SAT-F.122,purīṣavirajanīyaḥ,पुरीषविरजनीयः,पुरीषविरजनीय,substances imparting normal fecal colour,substances used for imparting normal colour to the faecal matter
+SAT-F.123,purīṣasaṅgrahaṇīyaḥ,पुरीषसङ्ग्रहणीयः,पुरीषसंग्रहणीय,substances imparting solidity to fecal matter,substances used to solidify faecal matter
+SAT-F.124,yogavāhī,योगवाही,योगवाही,carrier of properties,"one that takes the properties of other substances along with its own; vehicle for drug action; substances that when administered with/after the drug work in harmony with the drug to facilitate the purported action of the drug; eg honey, warm water, etc"
+SAT-F.125,vraṇa-ropaṇaḥ,व्रण-रोपणः,व्रण-रोपण,substances facilitating wound healing,substances having property of causing healing of wounds
+SAT-F.126,romaśātanadravyam,रोमशातनद्रव्यम्,रोमशातनद्रव्य,hair removing subtances,substances causing falling of hair when applied
+SAT-F.127,vidāhī,विदाही,विदाही,substances that produces burning sensation,"substances that produces belching,thirst, burning sensation and are difficult to digest"
+SAT-F.128,vṛttikara,वृत्तिकर,वृत्तिकर,life sustaining,dravya which helps in the sustenance of life
+SAT-F.129,āyuṣya,आयुष्य,आयुष्य,life span enhancers,life sustaining or enhancing dravya
+SAT-F.130,vṛddhiḥ,वृद्धिः,वृद्धि,"growth, increase; gain",state of gain of any body constituent resulting in a positive balance
+SAT-F.131,vṛṣya,वृष्य,वृष्य,eugenics/aphrodisiacs,substances that enhance the sexual power like that of bull
+SAT-F.132,śītapraśamanam,शीतप्रशमनम्,शीतप्रशमन,cold pacifying substances,substances pacifies feeling of cold and chill
+SAT-F.133,śuklavargaḥ,शुक्लवर्गः,शुक्लवर्ग,group of five white substances,group of five substances having white colour which contain natural calcium
+SAT-F.134,śuṣkaḥ,शुष्कः,शुष्क,dryness,"dryness of dravya due to pṛthva, vāyu and agni predominance"
+SAT-F.135,śūlapraśamanam,शूलप्रशमनम्,शूलप्रशमन,analgesic,substances relieving pain
+SAT-F.136,śoṇitasthāpanam,शोणितस्थापनम्,शोणितस्थापन,substances which normalize blood,substances that restore the normal properties of blood or arrest bleeding
+SAT-F.137,śothaharaḥ,शोथहरः,शोथहर,susbstances reducing inflammation and swelling,substances which have the property of reducing swelling and inflammation
+SAT-F.138,vraṇa-śodhanam,व्रण-शोधनम्,व्रण-शोधन,wound cleansing substances,substances having the property of cleansing the wounds
+SAT-F.139,śvāsaharaḥ,श्वासहरः,श्वासहर,substances which removes breathing difficulty,substances having the ability to reduce difficulty in breathing and thus restores normal breathing
+SAT-F.140,saṃjñā-sthāpanam,संज्ञा-स्थापनम्,संज्ञा-स्थापन,substances that restore consciousness,substances having the ability to preserve the consciousness of a person
+SAT-F.141,saṃvejanam,संवेजनम्,संवेजन,horripilation causing substances,dravya which has the ability to induce horrripilation
+SAT-F.142,sandhānīya,सन्धानीय,संधानीय,tissue binding,substances that helps in tissue aggregration and healing of wounds or fractures
+SAT-F.143,sthairyam,स्थैर्यम्,स्थैर्य,stability,that provides stability to body
+SAT-F.144,svapnajananam,स्वप्नजननम्,स्वप्नजनन,somniferous,substances that facilitates normal sleep
+SAT-F.145,svedāpanayanaḥ,स्वेदापनयनः,स्वेदापनयन,substances that reduces excessive sweating,substances having ability to reduce excessive sweating
+SAT-F.146,hikkānigrahaṇaḥ,हिक्कानिग्रहणः,हिक्कानिग्रहण,hiccough releiving,substances having ability to reduce hiccough
+SAT-F.147,hrāsaḥ,ह्रासः,ह्रास,reduction,diminution
+SAT-F.148,strīpuṣpaharaṇa,स्त्रीपुष्पहरण,स्त्रीपुष्पहरण,helps in arresting the menustrual bleeding as observed in yellow orpiment,stopping the menstrual cycle
