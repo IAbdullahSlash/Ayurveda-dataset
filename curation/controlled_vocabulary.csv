@@ -1,0 +1,136 @@
+vocab_type,source_key,sa_iast,sa_deva,hi,en,note
+dosha,Vata,vāta,वात,वात,Vata (air & space principle; movement),WHO ITA-2.1.1
+dosha,Pitta,pitta,पित्त,पित्त,Pitta (fire & water principle; transformation),WHO ITA-2.1.2
+dosha,Kapha,kapha,कफ,कफ,Kapha (water & earth principle; cohesion/stability),WHO ITA-2.1.3
+rasa,Madhura,madhura,मधुर,मधुर (मीठा),sweet,taste
+rasa,Amla,amla,अम्ल,अम्ल (खट्टा),sour,taste
+rasa,Lavana,lavaṇa,लवण,लवण (नमकीन),salty,taste
+rasa,Katu,kaṭu,कटु,कटु (तीखा/चरपरा),pungent,taste
+rasa,Tikta,tikta,तिक्त,तिक्त (कड़वा),bitter,taste
+rasa,Kashaya,kaṣāya,कषाय,कषाय (कसैला),astringent,taste
+guna,Guru,guru,गुरु,गुरु (भारी),heavy,gurvādi guṇa
+guna,Laghu,laghu,लघु,लघु (हल्का),light,gurvādi guṇa
+guna,Sheeta,śīta,शीत,शीत (ठंडा),cold,gurvādi guṇa
+guna,Ushna,uṣṇa,उष्ण,उष्ण (गर्म),hot,gurvādi guṇa
+guna,Snigdha,snigdha,स्निग्ध,स्निग्ध (चिकना),unctuous / oily,gurvādi guṇa
+guna,Ruksha,rūkṣa,रूक्ष,रूक्ष (रूखा),dry / non-unctuous,gurvādi guṇa
+guna,Manda,manda,मन्द,मंद (धीमा),slow / dull,gurvādi guṇa
+guna,Tikshna,tīkṣṇa,तीक्ष्ण,तीक्ष्ण (तेज़),sharp / penetrating,gurvādi guṇa
+guna,Sthira,sthira,स्थिर,स्थिर,stable,gurvādi guṇa
+guna,Sara,sara,सर,सर (गतिशील),mobile / laxative,gurvādi guṇa
+guna,Mridu,mṛdu,मृदु,मृदु (मुलायम),soft,gurvādi guṇa
+guna,Kathina,kaṭhina,कठिन,कठिन (कठोर),hard,gurvādi guṇa
+guna,Vishada,viśada,विशद,विशद (स्वच्छ),clear / non-slimy,gurvādi guṇa
+guna,Picchila,picchila,पिच्छिल,पिच्छिल (चिपचिपा),slimy / sticky,gurvādi guṇa
+guna,Shlakshna,ślakṣṇa,श्लक्ष्ण,श्लक्ष्ण (चिकना),smooth,gurvādi guṇa
+guna,Khara,khara,खर,खर (खुरदरा),rough,gurvādi guṇa
+guna,Sthula,sthūla,स्थूल,स्थूल,gross / bulky,gurvādi guṇa
+guna,Sukshma,sūkṣma,सूक्ष्म,सूक्ष्म,subtle / penetrating into minute channels,gurvādi guṇa
+guna,Sandra,sāndra,सान्द्र,सांद्र (गाढ़ा),dense / solid,gurvādi guṇa
+guna,Drava,drava,द्रव,द्रव (तरल),liquid,gurvādi guṇa
+virya,Ushna,uṣṇa,उष्ण,उष्ण वीर्य,hot potency,vīrya
+virya,Sheeta,śīta,शीत,शीत वीर्य,cold potency,vīrya
+vipaka,Madhura,madhura,मधुर,मधुर विपाक,sweet post-digestive effect,vipāka
+vipaka,Amla,amla,अम्ल,अम्ल विपाक,sour post-digestive effect,vipāka
+vipaka,Katu,kaṭu,कटु,कटु विपाक,pungent post-digestive effect,vipāka
+part,Moola,mūla,मूल,मूल (जड़),root,plant part
+part,Patra,patra,पत्र,पत्र (पत्ती),leaf,plant part
+part,Bija,bīja,बीज,बीज,seed,plant part
+part,Phala,phala,फल,फल,fruit,plant part
+part,Twak,tvak,त्वक्,त्वक् (छाल),bark,plant part
+part,Panchanga,pañcāṅga,पञ्चाङ्ग,पंचांग (पूरा पौधा),whole plant (five parts),plant part
+part,Kanda,kanda,कन्द,कंद,tuber / rhizome / bulb,plant part
+part,Pushpa,puṣpa,पुष्प,पुष्प (फूल),flower,plant part
+part,Niryasa,niryāsa,निर्यास,निर्यास (गोंद/राल),exudate (gum / resin),plant part
+part,Moola Twak,mūlatvak,मूलत्वक्,मूल त्वक् (जड़ की छाल),root bark,plant part
+part,Kandasara,kāṇḍasāra,काण्डसार,कांडसार (अंतःकाष्ठ),heartwood,plant part
+part,Taila,taila,तैल,तैल (तेल),oil,plant part
+part,Ksheera,kṣīra,क्षीर,क्षीर (दूधिया रस),latex,plant part
+part,Phala Majja,phalamajjā,फलमज्जा,फल मज्जा (गूदा),fruit pulp,plant part
+part,Bija Taila,bījataila,बीजतैल,बीज तैल (बीज का तेल),seed oil,plant part
+part,Swarasa,svarasa,स्वरस,स्वरस (ताज़ा रस),fresh juice,plant part
+part,Bija Majja,bījamajjā,बीजमज्जा,बीज मज्जा (गिरी),seed kernel,plant part
+part,Kshara,kṣāra,क्षार,क्षार,alkaline preparation (ash extract),plant part
+part,Phalatwak,phalatvak,फलत्वक्,फल त्वक् (फल का छिलका),fruit rind,plant part
+part,Phala Twak,phalatvak,फलत्वक्,फल त्वक् (फल का छिलका),fruit rind,plant part
+part,Pushpakalika,puṣpakalikā,पुष्पकलिका,पुष्प कलिका (कली),flower bud,plant part
+part,Pumkeshara,puṃkeśara,पुंकेशर,पुंकेसर,stamens,plant part
+part,Jatipatri,jātīpatrī,जातीपत्री,जावित्री,mace (aril of nutmeg),plant part
+part,Galla,galla,गल्ल,गॉल (माजूफल),plant gall,plant part
+part,Phala (Gall),galla,गल्ल,गॉल (माजूफल),plant gall,plant part
+part,Patra Majja,patramajjā,पत्रमज्जा,पत्र मज्जा (पत्ती का गूदा),leaf pulp (gel),plant part
+part,Phala Asthi,phalāsthi,फलास्थि,फल अस्थि (गुठली),fruit stone,plant part
+part,Bija Twak,bījatvak,बीजत्वक्,बीज त्वक् (बीज का छिलका),seed coat,plant part
+part,Phalaraja,phalarajas,फलरजस्,फल रज (फल का चूर्ण/ग्रंथि रोम),fruit glands / powder,plant part
+part,Pushpagra,puṣpāgra,पुष्पाग्र,पुष्पाग्र,flower tip,plant part
+part,Jala,jala,जल,जल,water (e.g. coconut water),plant part
+part,Bhavana Taila,bhāvanātaila,भावनातैल,भावना तैल,processed oil,plant part
+karma,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,karma
+karma,Pachana,pācana,पाचन,पाचन,digestive (digests āma),karma
+karma,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,karma
+karma,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,karma
+karma,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,karma
+karma,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,karma
+karma,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,karma
+karma,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,karma
+karma,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,karma
+karma,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,karma
+karma,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,karma
+karma,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,karma
+karma,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,karma
+karma,Hridya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,karma
+karma,Virechana,virecana,विरेचन,विरेचन,purgative,karma
+karma,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,karma
+karma,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,karma
+karma,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,karma
+karma,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,karma
+karma,Pittahara,pittahara,पित्तहर,पित्तहर,pacifies pitta,karma
+karma,Kaphahara,kaphahara,कफहर,कफहर,pacifies kapha,karma
+karma,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),karma
+karma,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,karma
+karma,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,karma
+karma,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,karma
+karma,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,karma
+karma,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,karma
+karma,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,karma
+karma,Stambhana,stambhana,स्तम्भन,स्तंभन,astringent / arresting,karma
+karma,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,karma
+karma,Vranashodhana,vraṇaśodhana,व्रणशोधन,व्रणशोधन,wound cleansing,karma
+karma,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,karma
+karma,Kanthya,kaṇṭhya,कण्ठ्य,कंठ्य (गले के लिए हितकर),beneficial to throat / voice,karma
+karma,Swarya,svarya,स्वर्य,स्वर्य,voice improving,karma
+karma,Anulomana,anulomana,अनुलोमन,अनुलोमन,carminative / promotes downward movement,karma
+karma,Bhedana,bhedana,भेदन,भेदन,drastic purgative / breaks hard masses,karma
+karma,Chhedana,chedana,छेदन,छेदन,expectorant / cutting (kapha),karma
+karma,Nidrajanana,nidrājanana,निद्राजनन,निद्राजनन (नींद लाने वाला),hypnotic / sleep inducing,karma
+karma,Stanyajanana,stanyajanana,स्तन्यजनन,स्तन्यजनन,galactagogue,karma
+karma,Garbhasthapana,garbhasthāpana,गर्भस्थापन,गर्भस्थापन,supports pregnancy,karma
+karma,Jeevaniya,jīvanīya,जीवनीय,जीवनीय,vitalising,karma
+karma,Sandhaniya,sandhānīya,सन्धानीय,संधानीय,union promoting (fracture / wound),karma
+karma,Mutravirechaniya,mūtravirecanīya,मूत्रविरेचनीय,मूत्रविरेचनीय,diuretic,karma
+karma,Ashmaribhedana,aśmarībhedana,अश्मरीभेदन,अश्मरीभेदन (पथरी तोड़ने वाला),lithotriptic,karma
+karma,Arshoghna,arśoghna,अर्शोघ्न,अर्शोघ्न (बवासीर नाशक),anti-haemorrhoidal,karma
+karma,Kandughna,kaṇḍūghna,कण्डूघ्न,कंडूघ्न (खुजली नाशक),antipruritic,karma
+karma,Pramehaghna,pramehaghna,प्रमेहघ्न,प्रमेहघ्न,anti-diabetic,karma
+karma,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,karma
+karma,Truptighna,tṛptighna,तृप्तिघ्न,तृप्तिघ्न,relieves false satiety,karma
+karma,Hikkanigrahana,hikkānigrahaṇa,हिक्कानिग्रहण,हिक्कानिग्रहण (हिचकी रोधक),anti-hiccup,karma
+karma,Chhardinigrahana,chardinigrahaṇa,छर्दिनिग्रहण,छर्दिनिग्रहण (वमनरोधक),anti-emetic,karma
+karma,Trishnanigrahana,tṛṣṇānigrahaṇa,तृष्णानिग्रहण,तृष्णानिग्रहण (प्यास शामक),quenches morbid thirst,karma
+karma,Dahaprashamana,dāhapraśamana,दाहप्रशमन,दाहप्रशमन (जलन शामक),relieves burning sensation,karma
+karma,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,karma
+karma,Sangyasthapana,saṃjñāsthāpana,संज्ञास्थापन,संज्ञास्थापन,restores consciousness,karma
+karma,Vayahsthapana,vayaḥsthāpana,वयःस्थापन,वयःस्थापन,anti-ageing,karma
+karma,Shukrala,śukrala,शुक्रल,शुक्रल,spermatogenic,karma
+karma,Artavajanana,ārtavajanana,आर्तवजनन,आर्तवजनन,emmenagogue,karma
+karma,Swedajanana,svedajanana,स्वेदजनन,स्वेदजनन (पसीना लाने वाला),diaphoretic,karma
+karma,Kaphanissaraka,kaphaniḥsāraka,कफनिःसारक,कफ निःसारक,expectorant,karma
+karma,Vamaka,vāmaka,वामक,वामक,emetic,karma
+karma,Krimighna Kushtaghna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic,karma
+karma,Agnideepana,agnidīpana,अग्निदीपन,अग्नि दीपन,digestive stimulant,karma
+karma,Ruchya,rucya,रुच्य,रुच्य (रुचिकर),relish promoting,karma
+karma,Hridya Balya,hṛdya,हृद्य,हृद्य,cardiotonic,karma
+karma,Jantughna,jantughna,जन्तुघ्न,जंतुघ्न,antimicrobial,karma
+karma,Raktaprasadana,raktaprasādana,रक्तप्रसादन,रक्त प्रसादन,blood purifying,karma
+karma,Mada-kari,madakārī,मदकारी,मदकारी (मादक),intoxicating,karma
+karma,Vedanahara,vedanāhara,वेदनाहर,वेदनाहर (दर्द नाशक),analgesic,karma

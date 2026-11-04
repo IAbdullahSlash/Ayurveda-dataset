@@ -1,0 +1,287 @@
+en,hi,note
+therapeutic emesis,चिकित्सीय वमन,pañcakarma
+emesis,वमन,pañcakarma
+therapeutic purgation,चिकित्सीय विरेचन,pañcakarma
+purgation,विरेचन,pañcakarma
+purgative,विरेचक,
+medicated decoction enema,औषधीय क्वाथ बस्ति,pañcakarma
+unctuous enema,स्नेह बस्ति,pañcakarma
+decoction enema,क्वाथ बस्ति,pañcakarma
+therapeutic enema,चिकित्सीय बस्ति,pañcakarma
+enema,बस्ति,pañcakarma
+nasal instillation,नस्य,pañcakarma
+nasal medication,नस्य,pañcakarma
+nasal therapy,नस्य चिकित्सा,pañcakarma
+bloodletting,रक्तमोक्षण,pañcakarma
+blood letting,रक्तमोक्षण,pañcakarma
+leech therapy,जलौकावचारण,
+oleation,स्नेहन,pūrvakarma
+sudation,स्वेदन,pūrvakarma
+fomentation,स्वेदन,pūrvakarma
+bio-cleansing,शोधन,
+purification therapy,शोधन चिकित्सा,
+palliative therapy,शमन चिकित्सा,
+rejuvenation therapy,रसायन चिकित्सा,
+rejuvenation,रसायन,
+rejuvenative,रसायन,
+aphrodisiac,वाजीकर,
+decoction,क्वाथ,dosage form
+cold infusion,हिम,dosage form
+hot infusion,फाण्ट,dosage form
+fresh juice,स्वरस,dosage form
+paste,कल्क,dosage form
+medicated ghee,औषधीय घृत,dosage form
+medicated oil,औषधीय तैल,dosage form
+fermented decoction,अरिष्ट,dosage form
+fermented infusion,आसव,dosage form
+linctus,अवलेह,dosage form
+confection,अवलेह,dosage form
+calx,भस्म,dosage form
+herbal powder,चूर्ण,dosage form
+pill,वटी,dosage form
+tablet,वटी,dosage form
+pulse examination,नाड़ी परीक्षा,diagnosis
+examination of pulse,नाड़ी परीक्षा,diagnosis
+pulse,नाड़ी,diagnosis
+urine examination,मूत्र परीक्षा,diagnosis
+tongue examination,जिह्वा परीक्षा,diagnosis
+eightfold examination,अष्टविध परीक्षा,diagnosis
+tenfold examination,दशविध परीक्षा,diagnosis
+body constitution,देह प्रकृति,core concept
+constitution,प्रकृति,core concept
+digestive fire,जठराग्नि,core concept
+digestive power,पाचक अग्नि,core concept
+structural components,धातु,core concept
+structural component,धातु,core concept
+body channels,स्रोतस्,core concept
+body channel,स्रोतस्,core concept
+excretory products,मल,core concept
+vital spots,मर्म,core concept
+vital spot,मर्म,core concept
+morbid humour,दोष,core concept
+humour,दोष,core concept
+undigested food,आम,core concept
+sputum,कफ (बलगम),symptom
+phlegm,कफ,symptom
+fever,ज्वर (बुखार),disease
+cough,कास (खांसी),disease
+dyspnoea,श्वास (सांस फूलना),disease
+dyspnea,श्वास (सांस फूलना),disease
+asthma,तमक श्वास (दमा),disease
+diarrhoea,अतिसार (दस्त),disease
+diarrhea,अतिसार (दस्त),disease
+dysentery,प्रवाहिका (पेचिश),disease
+constipation,विबंध (कब्ज़),disease
+indigestion,अजीर्ण (अपच),disease
+vomiting,छर्दि (उल्टी),disease
+hiccup,हिक्का (हिचकी),disease
+morbid thirst,तृष्णा,disease
+burning sensation,दाह (जलन),symptom
+oedema,शोथ (सूजन),disease
+edema,शोथ (सूजन),disease
+swelling,शोथ (सूजन),symptom
+jaundice,कामला (पीलिया),disease
+anaemia,पाण्डु (रक्ताल्पता),disease
+anemia,पाण्डु (रक्ताल्पता),disease
+haemorrhoids,अर्श (बवासीर),disease
+hemorrhoids,अर्श (बवासीर),disease
+piles,अर्श (बवासीर),disease
+fistula-in-ano,भगन्दर,disease
+anal fistula,भगन्दर,disease
+obesity,स्थौल्य (मोटापा),disease
+diabetes,मधुमेह,disease
+polyuria,प्रमेह,disease
+urinary calculi,अश्मरी (पथरी),disease
+urinary calculus,अश्मरी (पथरी),disease
+dysuria,मूत्रकृच्छ्र,disease
+skin disease,त्वचा रोग (कुष्ठ),disease
+skin diseases,त्वचा रोग (कुष्ठ),disease
+leprosy,कुष्ठ,disease
+worm infestation,कृमि रोग,disease
+worms,कृमि,disease
+epilepsy,अपस्मार (मिर्गी),disease
+insanity,उन्माद,disease
+heart disease,हृद्रोग,disease
+abdominal lump,गुल्म,disease
+abdominal enlargement,उदर रोग,disease
+ascites,जलोदर,disease
+tuberculosis,राजयक्ष्मा (क्षय रोग),disease
+gout,वातरक्त,disease
+rheumatoid arthritis,आमवात,disease
+sciatica,गृध्रसी,disease
+paralysis,पक्षाघात (लकवा),disease
+hemiplegia,पक्षाघात,disease
+headache,शिरःशूल (सिरदर्द),disease
+insomnia,अनिद्रा (नींद न आना),disease
+wound,व्रण (घाव),disease
+ulcer,व्रण,disease
+abscess,विद्रधि,disease
+fracture,भग्न (अस्थिभंग),disease
+poisoning,विष,disease
+poison,विष,
+antidote,विषघ्न,
+digestive,पाचक,
+appetiser,दीपक,
+appetizer,दीपक,
+diuretic,मूत्रल,
+anthelmintic,कृमिघ्न,
+antipyretic,ज्वरघ्न,
+expectorant,कफनिःसारक,
+haemostatic,रक्तस्तंभक,
+hemostatic,रक्तस्तंभक,
+wound healing,व्रणरोपण,
+nervine tonic,मेध्य,
+tonic,बल्य,
+daily routine,दिनचर्या,lifestyle
+night routine,रात्रिचर्या,lifestyle
+seasonal routine,ऋतुचर्या,lifestyle
+seasonal regimen,ऋतुचर्या,lifestyle
+code of conduct,सद्वृत्त,lifestyle
+wholesome,पथ्य,diet
+unwholesome,अपथ्य,diet
+incompatible food,विरुद्ध आहार,diet
+incompatible diet,विरुद्ध आहार,diet
+meat soup,मांसरस,diet
+gruel,यवागू,diet
+rice gruel,पेया,diet
+honey,मधु (शहद),material
+ghee,घृत (घी),material
+cow urine,गोमूत्र,material
+sesame oil,तिल तैल,material
+mercury,पारद,material
+sulphur,गंधक,material
+herb,औषधि,
+herbs,औषधियाँ,
+drug,द्रव्य,
+drugs,द्रव्य,
+dravya,द्रव्य,sanskrit-in-english
+dosha,दोष,sanskrit-in-english
+doshas,दोष,sanskrit-in-english
+dosa,दोष,sanskrit-in-english
+vata,वात,sanskrit-in-english
+pitta,पित्त,sanskrit-in-english
+kapha,कफ,sanskrit-in-english
+agni,अग्नि,sanskrit-in-english
+ama,आम,sanskrit-in-english
+ojas,ओज,sanskrit-in-english
+dhatu,धातु,sanskrit-in-english
+dhatus,धातु,sanskrit-in-english
+srotas,स्रोतस्,sanskrit-in-english
+mala,मल,sanskrit-in-english
+marma,मर्म,sanskrit-in-english
+prakriti,प्रकृति,sanskrit-in-english
+vikriti,विकृति,sanskrit-in-english
+rasa,रस,sanskrit-in-english
+guna,गुण,sanskrit-in-english
+virya,वीर्य,sanskrit-in-english
+vipaka,विपाक,sanskrit-in-english
+prabhava,प्रभाव,sanskrit-in-english
+rasayana,रसायन,sanskrit-in-english
+panchakarma,पंचकर्म,sanskrit-in-english
+ayurveda,आयुर्वेद,sanskrit-in-english
+nidana,निदान,sanskrit-in-english
+sattva,सत्त्व,sanskrit-in-english
+rajas,रजस्,sanskrit-in-english
+tamas,तमस्,sanskrit-in-english
+vitiated,प्रकुपित,doṣa state
+vitiation,दुष्टि (प्रकोप),doṣa state
+aggravated,प्रकुपित,doṣa state
+aggravation,प्रकोप,doṣa state
+pacification,शमन,doṣa state
+pacifies,शमन करता है,doṣa state
+derangement,वैषम्य,doṣa state
+morbid,विकृत,doṣa state
+occluded,आवृत,doṣa state
+roughness,रूक्षता (खुरदरापन),guṇa
+dryness,रूक्षता (सूखापन),guṇa
+heaviness,गुरुता (भारीपन),guṇa
+lightness,लघुता (हल्कापन),guṇa
+unctuousness,स्निग्धता (चिकनाई),guṇa
+oiliness,स्निग्धता (चिकनाई),guṇa
+sliminess,पिच्छिलता,guṇa
+stickiness,पिच्छिलता (चिपचिपापन),guṇa
+sharpness,तीक्ष्णता,guṇa
+hotness,उष्णता,guṇa
+coldness,शीतता,guṇa
+softness,मृदुता (कोमलता),guṇa
+hardness,कठिनता (कठोरता),guṇa
+stability,स्थिरता,guṇa
+mobility,चलता (गतिशीलता),guṇa
+clarity,विशदता,guṇa
+subtlety,सूक्ष्मता,guṇa
+density,सान्द्रता (घनत्व),guṇa
+liquidity,द्रवता,guṇa
+smoothness,श्लक्ष्णता (चिकनापन),guṇa
+grossness,स्थूलता,guṇa
+dullness,मन्दता,guṇa
+eyebrows,भौंहें,anatomy
+eyebrow,भौंह,anatomy
+glabella,भ्रूमध्य,anatomy
+eyelid,पलक,anatomy
+eyelids,पलकें,anatomy
+sclera,श्वेत पटल,anatomy
+buccal cavity,मुख गुहा,anatomy
+anorexia,अरुचि (भूख न लगना),disease
+loss of appetite,अरुचि (भूख न लगना),symptom
+prodrome,पूर्वरूप,diagnosis
+prodromal,पूर्वरूप संबंधी,diagnosis
+prodromes,पूर्वरूप,diagnosis
+pathogenesis,सम्प्राप्ति (रोगजनन),diagnosis
+aetiology,निदान (कारण),diagnosis
+etiology,निदान (कारण),diagnosis
+vulnerable point,मर्म स्थान,anatomy
+intake,सेवन,diet
+over consumption,अति सेवन,diet
+overconsumption,अति सेवन,diet
+groins,वंक्षण (जांघ का मूल),anatomy
+groin,वंक्षण (जांघ का मूल),anatomy
+inguinal region,वंक्षण प्रदेश,anatomy
+fistulous tracts,नाड़ीव्रण (भगन्दर मार्ग),lesion
+fistulous tract,नाड़ीव्रण (भगन्दर मार्ग),lesion
+fistula,भगन्दर (नाड़ीव्रण),lesion
+sinus tract,नाड़ीव्रण,lesion
+carbuncle,पिडका,lesion
+carbuncles,पिडकाएँ,lesion
+eruptions,पिडिकाएँ (फुंसियाँ),lesion
+eruption,पिडिका (फुंसी),lesion
+vesicles,स्फोट (फफोले),lesion
+vesicle,स्फोट (फफोला),lesion
+pustules,पूयपिडिकाएँ,lesion
+pustule,पूयपिडिका,lesion
+suppuration,पाक (पूय निर्माण),lesion
+pus,पूय (मवाद),lesion
+itching,कण्डू (खुजली),symptom
+discharge,स्राव,symptom
+tenderness,स्पर्शासहत्व (छूने पर दर्द),symptom
+emaciation,कृशता (दुबलापन),symptom
+lassitude,तन्द्रा (शिथिलता),symptom
+drowsiness,तन्द्रा (उनींदापन),symptom
+giddiness,भ्रम (चक्कर),symptom
+vertigo,भ्रम (चक्कर),symptom
+delirium,प्रलाप,symptom
+fainting,मूर्च्छा (बेहोशी),symptom
+syncope,मूर्च्छा (बेहोशी),symptom
+flatulence,आध्मान (पेट फूलना),symptom
+distension,आनाह (पेट फूलना),symptom
+salivation,प्रसेक (लार आना),symptom
+excessive salivation,प्रसेक (अधिक लार आना),symptom
+eructation,उद्गार (डकार),symptom
+eructations,उद्गार (डकारें),symptom
+precordium,हृदय प्रदेश,anatomy
+flanks,पार्श्व (पसलियों के किनारे),anatomy
+scapular region,अंसफलक प्रदेश,anatomy
+semen,शुक्र (वीर्य),anatomy
+menstrual blood,आर्तव,anatomy
+menstruation,आर्तव (मासिक धर्म),physiology
+urination,मूत्र प्रवृत्ति (पेशाब),physiology
+defecation,मल प्रवृत्ति (शौच),physiology
+haemorrhoid,अर्श (बवासीर),disease
+hemorrhoid,अर्श (बवासीर),disease
+papules,पिडिकाएँ,lesion
+papule,पिडिका,lesion
+blisters,स्फोट (फफोले),lesion
+blister,स्फोट (फफोला),lesion
+ear lobule,कर्णपालि (कान की लौ),anatomy
+ulceration,व्रण निर्माण,lesion
+ulcers,व्रण (घाव),lesion
+stiffness,जकड़न,NLLB rendered it as कड़वाहट (bitterness) in some glosses; fixed by rule

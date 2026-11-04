@@ -1,0 +1,4 @@
+name_in_source,accepted_name,reason
+Prunus dulcis,Prunus amygdalus,"Almond (vātāda / bādāma). The GBIF backbone search returns P. avium (cherry) for a homonym of 'Prunus dulcis'; the almond is accepted there as Prunus amygdalus Batsch."
+Ipomoea paniculata,Ipomoea mauritiana,"SAT-F gives the author R.Br.: Ipomoea paniculata (L.) R.Br. is a synonym of Ipomoea mauritiana Jacq.; the GBIF search hit Jacquemontia paniculata is a different homonym."
+Ipomea paniculata,Ipomoea mauritiana,"Misspelling of Ipomoea paniculata (L.) R.Br. = Ipomoea mauritiana Jacq. (see above)."

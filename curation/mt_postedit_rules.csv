@@ -1,0 +1,5 @@
+en_regex,en_exclude_regex,hi_wrong_regex,hi_right,note
+\bstiff,bitter,कड़वाहट|कड़वापन,जकड़न,"NLLB rendered 'stiffness' as bitterness"
+\bstiff,bitter,कड़वी,अकड़ी,"adjective form of the same error"
+\bstiff,bitter,कड़वे,अकड़े,"adjective form of the same error"
+\bstiff,bitter,कड़वा,अकड़ा,"adjective form of the same error"

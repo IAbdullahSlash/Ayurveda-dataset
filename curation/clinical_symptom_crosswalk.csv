@@ -1,0 +1,184 @@
+clinical_term,symptom_ids,method,best_similarity,sat_glosses,review_status
+joint pain,SYM-04722;SYM-04988;SYM-08279;SYM-08289;SYM-08293;SYM-N00631,exact_gloss,0.923,joint pain/ pain in small joints | pain in joints | pain in the joints | pain of joints,auto-mapped; needs expert review
+knee pain,SYM-03353,exact_gloss,0.911,knee pain,auto-mapped; needs expert review
+back pain,SYM-05180;SYM-05196,exact_gloss,0.893,back pain,auto-mapped; needs expert review
+low back pain,SYM-00479;SYM-01894;SYM-01897;SYM-01905;SYM-01908;SYM-02500;SYM-02501,all_words_entry,0.902,severe pain in low back | splitting type of pain in low back | pricking type of pain low back | breaking type of pain in low back | cutting type of pain in low back | gradual pricking pain in gluteal region - low back- upper back- thigh- knee- calf muscles- feet | gradual pain in gluteal region- low,auto-mapped; needs expert review
+lower back pain,SYM-01894;SYM-01897;SYM-01905;SYM-01908;SYM-N00040,embedding_neighbours,0.89,splitting type of pain in low back | pricking type of pain low back | breaking type of pain in low back | cutting type of pain in low back | lower back,auto-mapped; needs expert review
+neck pain,SYM-05893,exact_gloss,0.914,neck pain,auto-mapped; needs expert review
+shoulder pain,SYM-00003;SYM-00005;SYM-00008;SYM-00012;SYM-00014;SYM-00016;SYM-08800;SYM-08803,all_words_entry,0.887,splitting type of pain in shoulder | breaking type of pain in shoulder | cutting type of pain in shoulder | squeezing pain in shoulder | pain in shoulders | pain in shoulder,auto-mapped; needs expert review
+hip pain,SYM-01772;SYM-N01392,all_words_entry,0.901,pain in the hip joint | pain in the hip joints,auto-mapped; needs expert review
+abdominal pain,SYM-01592;SYM-02489,exact_gloss,0.912,abdominal pain,auto-mapped; needs expert review
+epigastric pain,SYM-N00535,exact_gloss,0.933,epigastric pain,auto-mapped; needs expert review
+chest pain,SYM-01688,exact_gloss,0.895,chest pain,auto-mapped; needs expert review
+headache,SYM-06294;SYM-07590;SYM-07619;SYM-07623,exact_gloss,0.891,headache | distress in the head/ headache,auto-mapped; needs expert review
+pain on movement,SYM-03022;SYM-04648;SYM-06999;SYM-07002;SYM-07005,all_words_entry,0.878,catching pain/restricted movement | movement of gas inside the abdomen accompanied with pain | downward movement of vāyu with pain | upward movement of vāyu with pain | random movement of vāyu with pain,auto-mapped; needs expert review
+radiating pain,SYM-01910;SYM-N00039;SYM-N00105;SYM-N00168;SYM-N00556,all_words_entry,0.895,pain radiating all over back region | pain in the anal region radiating to rest of perineum | spasmodic pain in loin radiating to pubic region | radiating pain to loin | pain radiating to umbilicus,auto-mapped; needs expert review
+burning pain,SYM-N00889,exact_gloss,0.9,burning pain,auto-mapped; needs expert review
+pricking pain,SYM-03686;SYM-07428;SYM-08237,exact_gloss,0.902,pricking pain,auto-mapped; needs expert review
+throbbing pain,SYM-N00243,exact_gloss,0.932,throbbing pain,auto-mapped; needs expert review
+muscle pain,SYM-02500;SYM-02501;SYM-03285;SYM-03287;SYM-04933;SYM-08597;SYM-N00099,all_words_entry,0.896,gradual pricking pain in gluteal region - low back- upper back- thigh- knee- calf muscles- feet | gradual pain in gluteal region- low back- upper back- thigh- knee- calf muscles- feet | initial affliction of calf muscles pain in fever | pain in calf muscles/region | pain in calf muscles | pain in th,auto-mapped; needs expert review
+body ache,SYM-00168;SYM-02815,exact_gloss,0.893,body ache,auto-mapped; needs expert review
+bone pain,SYM-N00580,exact_gloss,0.901,bone pain,auto-mapped; needs expert review
+heel pain,SYM-N00115,all_words_entry,0.911,pain in heel especially during walking,auto-mapped; needs expert review
+painful micturition,SYM-08413;SYM-08571,all_words_entry,0.914,painful micturition,auto-mapped; needs expert review
+painful defecation,SYM-00369;SYM-00579;SYM-02353;SYM-03931;SYM-08412;SYM-08537,all_words_entry,0.896,painful defecation | painful or painless defecation | difficulty in passing stool/ painful defecation | painful defecation of dry feces,auto-mapped; needs expert review
+painful menstruation,SYM-00884;SYM-02355;SYM-03687;SYM-06603;SYM-06604;SYM-06605;SYM-06606;SYM-08414,all_words_entry,0.895,painful menstruation/ dysmenorrhoea | painful menstruation with difficulty | painful menstruation | painful scanty menstruation | painful frothy menstruation | painful dry menstruation | painful blackish menstruation,auto-mapped; needs expert review
+morning stiffness,,unmapped,0.859,,auto-mapped; needs expert review
+joint stiffness,SYM-01769;SYM-01900;SYM-03354;SYM-09244,all_words_entry,0.881,stiffness in hip joint | stiffness in the joints of lower back | stiffness in knee joint | stiffness of mandibular joints,auto-mapped; needs expert review
+restricted movement,SYM-00160;SYM-02701;SYM-03022;SYM-N00082;SYM-N00118;SYM-N00140;SYM-N01289,all_words_entry,0.922,restricted movement of body parts | restricted movement | catching pain/restricted movement | restricted movements of the shoulder joint | restricted movements. May be associated | restricted movements of the joint | restricted movements,auto-mapped; needs expert review
+restricted range of motion,SYM-N00118;SYM-N01289,embedding_neighbours,0.882,restricted movements. May be associated | restricted movements,auto-mapped; needs expert review
+difficulty in walking,SYM-02705,all_words_entry,0.891,inability/difficulty in walking,auto-mapped; needs expert review
+difficulty walking,SYM-02705,all_words_entry,0.892,inability/difficulty in walking,auto-mapped; needs expert review
+limping,SYM-04745;SYM-05202,all_words_entry,0.883,limping (of both legs) | limping,auto-mapped; needs expert review
+joint swelling,SYM-01773;SYM-02779;SYM-02949;SYM-03358;SYM-04723;SYM-04823;SYM-07624;SYM-08296,all_words_entry,0.88,swelling in the hip joint | swelling in the joint of throat | swelling in ankle joint | swelling in knee joint | swelling in the joints/ swelling in small joints | swelling in joints of feet | swelling in joints of head | swelling in the joints,auto-mapped; needs expert review
+swelling of joints,SYM-04723;SYM-08296,exact_gloss,0.887,swelling in the joints/ swelling in small joints | swelling in the joints,auto-mapped; needs expert review
+pedal oedema,SYM-04817;SYM-07839,exact_gloss,0.892,oedema or swelling in legs/ pedal oedema | pedal oedema,auto-mapped; needs expert review
+facial puffiness,SYM-04143,embedding_neighbours,0.861,puffy face,auto-mapped; needs expert review
+swelling of feet,SYM-04809;SYM-04823,all_words_entry,0.88,mild swelling of legs or feet | swelling in joints of feet,auto-mapped; needs expert review
+localized swelling,SYM-04396,all_words_entry,0.889,localized swelling in throat,auto-mapped; needs expert review
+itching,SYM-01995,exact_gloss,0.892,itching,auto-mapped; needs expert review
+pruritus,SYM-01995,exact_gloss,0.861,itching,auto-mapped; needs expert review
+scaling,SYM-04077;SYM-04668;SYM-04669;SYM-07524;SYM-07527;SYM-N00037;SYM-N00651;SYM-N00656,all_words_entry,0.904,scaling or breaking of teeth | peeling or scaling of skin | associated with peeling or scaling of skin | scaling of enamel of teeth with small particles | scaling if ignored gradually disrupts tooth enamel | scaling of scalp / forehead skin | whitish scaling | or without scaling,auto-mapped; needs expert review
+scaly lesions,,unmapped,0.857,,auto-mapped; needs expert review
+erythema,,unmapped,0.838,,auto-mapped; needs expert review
+redness of skin,SYM-06521;SYM-N00226,exact_gloss,0.916,redness of skin/body parts | redness of the skin,auto-mapped; needs expert review
+plaques,SYM-01611,all_words_entry,0.847,elevated ring shaped plaque,auto-mapped; needs expert review
+papules,SYM-01150;SYM-02537;SYM-04921;SYM-04924;SYM-04930;SYM-05012;SYM-08078;SYM-N01341,all_words_entry,0.874,blackish papule | wet papules | covered with papules | papules or eruptions | manifestation of papules | yellowish papule or papules | whitish papule | inflammatory papules,auto-mapped; needs expert review
+vesicles,SYM-01944;SYM-02451;SYM-03487;SYM-04392;SYM-04995;SYM-07295;SYM-08317;SYM-08516,all_words_entry,0.868,hard vesicle | covered with black vesicles | small vesicle | painful vesicle | yellowish vesicle | vesicles in the earlobe | vesicle with suppuration | painful vesicles,auto-mapped; needs expert review
+blisters,SYM-09062;SYM-09068;SYM-N01312,exact_gloss,0.886,blister | blisters,auto-mapped; needs expert review
+discoloration,SYM-02412;SYM-03732;SYM-03969;SYM-04513;SYM-04999;SYM-05002;SYM-07170;SYM-07172,all_words_entry,0.881,blackish discoloration | skin discoloration | discoloration of eyes | bluish discoloration | yellow discoloration | yellowish discoloration | discoloration,auto-mapped; needs expert review
+hyperpigmentation,SYM-N00994,embedding_neighbours,0.863,hypersalivation,auto-mapped; needs expert review
+hypopigmentation,SYM-N00667,embedding_neighbours,0.872,hypopigmented patches of the skin,auto-mapped; needs expert review
+white patches,SYM-08620,all_words_entry,0.871,white coloured patch,auto-mapped; needs expert review
+dryness of skin,SYM-03731;SYM-N00123,exact_gloss,0.915,dryness of skin | dryness of the skin,auto-mapped; needs expert review
+dry skin,SYM-02251;SYM-04692;SYM-06630;SYM-N00852,all_words_entry,0.903,a type of skin disease categorized under kuṣṭha with rough dry skin | rough or dry skin | dry skin | rough/dry skin,auto-mapped; needs expert review
+cracking of skin,SYM-01589;SYM-03716;SYM-03721;SYM-03746;SYM-03750;SYM-03751;SYM-07874;SYM-09052,all_words_entry,0.89,cracking of abdominal skin | cracking or fissuring of skin | cracking of skin | severe cracking of skin | cracking of penile skin,auto-mapped; needs expert review
+fissures,SYM-02889,exact_gloss,0.863,fissure,auto-mapped; needs expert review
+oozing,SYM-01042;SYM-02240;SYM-02315;SYM-05370;SYM-07353;SYM-08038;SYM-08128;SYM-09108,all_words_entry,0.858,absence of oozing and moistness | oozing similar to palita (Butea monosperma) water | oozing of serous fluid for long time from cut | continuously oozing | blood with speedy oozing | salivation/kapha oozing out | oozing of discharges | swelling in the gums with oozing of blood,auto-mapped; needs expert review
+discharge,SYM-02541;SYM-05379;SYM-09099;SYM-09107,exact_gloss,0.896,excessively moist/wet/discharge | discharge,auto-mapped; needs expert review
+pus discharge,SYM-05151;SYM-05153,exact_gloss,0.911,pus discharge,auto-mapped; needs expert review
+foul smell,SYM-00295;SYM-02187;SYM-02801;SYM-03949;SYM-03956;SYM-05138;SYM-07613;SYM-N00543,all_words_entry,0.9,excessive foul smell | foul smell like crow | foul smell from the body | foul smell | foul smell of breath | warm and foul smell discharge | foul smell from head | sour or foul smell,auto-mapped; needs expert review
+crusting,SYM-N01127,exact_gloss,0.942,crusting,auto-mapped; needs expert review
+ulcer,SYM-07421;SYM-N01016,exact_gloss,0.919,wound/ulcer/sore | ulcers,auto-mapped; needs expert review
+non healing ulcer,SYM-04183,exact_gloss,0.894,non healing ulcer,auto-mapped; needs expert review
+wound,SYM-00988;SYM-01939;SYM-01942;SYM-02099;SYM-02558;SYM-02566;SYM-02722;SYM-03274,all_words_entry,0.897,small wound | indurated wound | hard wound | rough wound | suppuration in wound | augmentation of wounds | deep wounds | excised wound,auto-mapped; needs expert review
+rash,SYM-01537;SYM-01731;SYM-02845;SYM-04927;SYM-05593;SYM-06561;SYM-N00638;SYM-N01274,all_words_entry,0.887,urticarial rash/ wheal like skin eruptions that recur again and again | papular rash which are hot | appearance of rash or scabs on the body | papular rash all over body | multiple circular lesions or rashes | reddish circular rash | itching of the body without the appearance of eruptions or rashes ,auto-mapped; needs expert review
+urticaria,SYM-01606,all_words_entry,0.885,circular elevated patches on body/urticaria,auto-mapped; needs expert review
+wheals,SYM-01537;SYM-02475,all_words_entry,0.848,urticarial rash/ wheal like skin eruptions that recur again and again | wheal like skin eruptions,auto-mapped; needs expert review
+hair fall,SYM-02465;SYM-02498;SYM-05234;SYM-06680;SYM-06759;SYM-08899;SYM-N00274;SYM-N00276,all_words_entry,0.905,scalp hair fall/ hair fall | gradual hair fall | hair fall | body hair fall/thinning | stable hair (minimal hair fall) | scalp hair fall | body hair fall,auto-mapped; needs expert review
+dandruff,,unmapped,0.837,,auto-mapped; needs expert review
+burning sensation,SYM-00143;SYM-00740;SYM-01842;SYM-03528;SYM-03829;SYM-03839;SYM-03866;SYM-03878;SYM-03880;SYM-04671;SYM-05265;SYM-07097;SYM-08250;SYM-08275;SYM-08316;SYM-08580,exact_gloss,0.898,burning sensation | burning sensation/ hotness/ fever | with burning sensation | burning sensation/ internal burning sensation,auto-mapped; needs expert review
+loss of appetite,SYM-00736;SYM-02637;SYM-02638;SYM-02640;SYM-N00212,all_words_entry,0.922,loss of appetite | loss of appetite and obstruct eructation | loss of appetite associated,auto-mapped; needs expert review
+decreased appetite,SYM-N01259,all_words_entry,0.908,decreased or increased appetite,auto-mapped; needs expert review
+anorexia,SYM-N00025,exact_gloss,0.934,anorexia,auto-mapped; needs expert review
+indigestion,SYM-00246;SYM-00691;SYM-00710;SYM-01046,exact_gloss,0.888,indigestion,auto-mapped; needs expert review
+acidity,SYM-00675;SYM-00677,all_words_entry,0.866,acidity due to indigestion | increase of pain and acidity during digestion of food,auto-mapped; needs expert review
+heartburn,SYM-N00052,exact_gloss,0.908,heartburn,auto-mapped; needs expert review
+sour belching,SYM-00796;SYM-00813;SYM-N00152,exact_gloss,0.889,sour belching/ sour eructation | sour belching/eructation | sour eructation,auto-mapped; needs expert review
+bloating,SYM-00348;SYM-02281;SYM-06993;SYM-N00214;SYM-N00465,all_words_entry,0.935,severe bloating | gurgling sound in abdomen or bloating of abdomen | bloating in abdomen | bloating. (a) | bloating,auto-mapped; needs expert review
+abdominal distension,SYM-01299;SYM-04716,exact_gloss,0.891,abdominal distension,auto-mapped; needs expert review
+flatulence,SYM-N00524,exact_gloss,0.943,flatulence,auto-mapped; needs expert review
+constipation,SYM-05089;SYM-05101;SYM-05462;SYM-05470;SYM-05928;SYM-06875;SYM-07071;SYM-07075;SYM-07272;SYM-07456;SYM-08513,exact_gloss,0.899,constipation | retention of feces/constipation | constipation/ retention of stool | retention of stools/ constipation | constipation/fullness in the abdomen,auto-mapped; needs expert review
+hard stools,SYM-02097;SYM-02795;SYM-02796;SYM-03000;SYM-03005;SYM-06168;SYM-08175;SYM-N00006,all_words_entry,0.934,hard passage of stool | hard/compact stool | hard stool | passing hard stools | hard compact stools | frequent hard stools | defecation of hard stools | hard stools,auto-mapped; needs expert review
+diarrhoea,SYM-00381;SYM-00383;SYM-06876;SYM-07080,exact_gloss,0.885,diarrhoea | diarrhoea/altered stools | diarrhoea/loose motions,auto-mapped; needs expert review
+loose stools,SYM-00381;SYM-00383;SYM-06876;SYM-07080,exact_gloss,0.878,diarrhoea | diarrhoea/altered stools | diarrhoea/loose motions,auto-mapped; needs expert review
+frequent stools,SYM-01006;SYM-05106;SYM-06168;SYM-06176;SYM-06188;SYM-06199;SYM-08512;SYM-N00516,all_words_entry,0.905,"frequent scanty stool coloured discharge from anus | frequent voiding of stool in small quantities | frequent hard stools | frequent passing of stools | frequent alternate passage of formed and loose stools | frequent defecation of formed hard stools | passing of frequent stools, similar in colour t",auto-mapped; needs expert review
+mucus in stools,SYM-04896;SYM-08046;SYM-08536;SYM-N00425,all_words_entry,0.88,"stools with mucus | defecation of stools with mucus | defecation of stools with froth, mucus and cutting pain in anus | defecation of stools with mucus and cutting pain in anus",auto-mapped; needs expert review
+blood in stool,SYM-04581;SYM-06443;SYM-06471;SYM-06495;SYM-08394;SYM-08542;SYM-N00435;SYM-N00520,all_words_entry,0.882,defecation of stool resembling cooked blood | stools with blood | stools with blood and pitta | defecation of stool resembling mature blood | passing of blood mixed stools,auto-mapped; needs expert review
+bleeding per rectum,SYM-02886,exact_gloss,0.897,bleeding per rectum,auto-mapped; needs expert review
+nausea,SYM-01538;SYM-07802;SYM-08570;SYM-09346;SYM-09369;SYM-N00394,exact_gloss,0.919,nausea/provocation of doṣa | dry vomiting/nausea | with nausea | nausea | nausea/provocation of dōṣa,auto-mapped; needs expert review
+vomiting,SYM-03254;SYM-06859;SYM-08051,exact_gloss,0.908,vomiting,auto-mapped; needs expert review
+hiccups,SYM-N00455;SYM-N01235;SYM-N01375,exact_gloss,0.924,hiccup,auto-mapped; needs expert review
+excessive thirst,SYM-00289;SYM-00482;SYM-03638;SYM-05283,exact_gloss,0.921,excessive thirst | severe thirst/ excessive thirst,auto-mapped; needs expert review
+dry mouth,SYM-07807,all_words_entry,0.871,dryness of mouth/dry mouth/ feeling of dryness in mouth,auto-mapped; needs expert review
+bitter taste,SYM-03590;SYM-03593;SYM-06107;SYM-N01550,all_words_entry,0.882,bitter taste in mouth | desire of consuming bitter taste food | bitter taste in the mouth | bitter & astringent taste,auto-mapped; needs expert review
+coated tongue,SYM-N00163,embedding_neighbours,0.874,tongue,auto-mapped; needs expert review
+incomplete evacuation,,unmapped,0.859,,auto-mapped; needs expert review
+tenesmus,SYM-08335;SYM-N00518,all_words_entry,0.921,faeces passed with tenesmus | tenesmus,auto-mapped; needs expert review
+weight loss,SYM-N00035;SYM-N00750;SYM-N00793,all_words_entry,0.906,sudden or gradual loss of body weight | multiple constitutional symptoms like weight loss | weight loss,auto-mapped; needs expert review
+weight gain,SYM-02750,all_words_entry,0.866,especially more gain in weight in a pregnant women,auto-mapped; needs expert review
+cough,SYM-02220,exact_gloss,0.88,cough,auto-mapped; needs expert review
+productive cough,,unmapped,0.847,,auto-mapped; needs expert review
+dry cough,SYM-07792;SYM-07797,exact_gloss,0.881,dry cough,auto-mapped; needs expert review
+breathlessness,SYM-N00207;SYM-N00456,exact_gloss,0.927,breathlessness | breathlessness/difficult breathing,auto-mapped; needs expert review
+shortness of breath,SYM-N00207;SYM-N00456,exact_gloss,0.884,breathlessness | breathlessness/difficult breathing,auto-mapped; needs expert review
+wheezing,SYM-N00414,exact_gloss,0.938,wheezing,auto-mapped; needs expert review
+chest tightness,SYM-01703;SYM-N00403;SYM-N00413,all_words_entry,0.921,chest tightness | tightness in the chest | tightness of chest,auto-mapped; needs expert review
+sneezing,SYM-00749;SYM-02578,exact_gloss,0.886,sneezing/excessive sneezing | sneezing,auto-mapped; needs expert review
+nasal discharge,SYM-03104;SYM-08611,exact_gloss,0.868,rhinorrhoea/ nasal discharge | nasal discharge,auto-mapped; needs expert review
+nasal blockage,SYM-04323,all_words_entry,0.883,intermittent nasal blockage,auto-mapped; needs expert review
+sore throat,SYM-N00031;SYM-N00263;SYM-N01037;SYM-N01039;SYM-N01040,embedding_neighbours,0.883,irritation of throat | throat | redness of throat | inflammation of throat | swelling redness in throat,auto-mapped; needs expert review
+hoarseness of voice,SYM-01979;SYM-06945;SYM-08850;SYM-09168,exact_gloss,0.896,hoarseness of voice | roughness of voice/hoarseness of voice,auto-mapped; needs expert review
+fever,SYM-03433;SYM-03436;SYM-03440;SYM-03528;SYM-03828,exact_gloss,0.904,fever | due to fever | with fever | burning sensation/ hotness/ fever | heat/fever,auto-mapped; needs expert review
+chills,SYM-03858;SYM-06200;SYM-07627;SYM-07658;SYM-07666;SYM-07708;SYM-N00582;SYM-N00632,all_words_entry,0.939,extreme chills | repeatedly cold/chills | pyrexia with chills | feeling of cold/chills | fever with chills | recovery from cold/ chill | chills,auto-mapped; needs expert review
+night sweats,,unmapped,0.844,,auto-mapped; needs expert review
+frequent urination,SYM-06197;SYM-06206;SYM-06279;SYM-N00078;SYM-N00779,embedding_neighbours,0.881,frequent micturition | increased frequency of urination | frequent,auto-mapped; needs expert review
+increased frequency of urination,SYM-N00078,all_words_entry,0.918,increased frequency of urination,auto-mapped; needs expert review
+burning micturition,SYM-08249,exact_gloss,0.876,burning micturition,auto-mapped; needs expert review
+painful urination,SYM-06260;SYM-06877;SYM-N00064;SYM-N01396;SYM-N01647,embedding_neighbours,0.89,pain subsides when the gravel passes out through urine | pain travels down from rectum and urinary bladder | painful penile erection | pain in urinary bladder | painful discharge of urine that is hot,auto-mapped; needs expert review
+urgency of urination,SYM-01916;SYM-06243;SYM-N00078;SYM-N00782;SYM-N01370,embedding_neighbours,0.881,passing acrid urine | urination | increased frequency of urination | increased urination | retention in passage of urine,auto-mapped; needs expert review
+nocturia,,unmapped,0.847,,auto-mapped; needs expert review
+incontinence of urine,SYM-01916;SYM-N00150;SYM-N00833;SYM-N01204;SYM-N01370,embedding_neighbours,0.869,passing acrid urine | urine | Involuntary flow of urine | urine flow from wound in bladder (perforated bladder) | retention in passage of urine,auto-mapped; needs expert review
+retention of urine,SYM-05468;SYM-05469;SYM-06239;SYM-06266;SYM-06278;SYM-07085;SYM-08514;SYM-N01370,all_words_entry,0.912,retention of urine in child | retention of urine | retention or stasis of urine | retention of faeces and urine | retention in passage of urine,auto-mapped; needs expert review
+blood in urine,SYM-01184;SYM-06485;SYM-06487;SYM-06488;SYM-06489;SYM-08389;SYM-08398;SYM-N00781,all_words_entry,0.91,"urine with blood/ blood colured urine | urine with blood, blood coloured urine/hematuria | reddish urine/ passes urine with blood | urine consist of frank blood | passes blood with urine | urine with blood | urine with the colour of blood | passing of blood in the urine",auto-mapped; needs expert review
+numbness,SYM-05365;SYM-06420;SYM-08722;SYM-09030;SYM-09190,exact_gloss,0.896,numbness | numbness / loss of sensation | numbness/ sleep,auto-mapped; needs expert review
+tingling,SYM-00162;SYM-00216;SYM-01851;SYM-03191;SYM-03192;SYM-04828;SYM-06135;SYM-06804,all_words_entry,0.879,tingling sensation in limbs | tingling sensation | tingling sensation in lips | haemorrhoids with a tingling sensations | tingling sensation of feet | tingling sensation in mouth/ face | tingling sensation in mouth or face,auto-mapped; needs expert review
+paresthesia,SYM-07432,embedding_neighbours,0.861,bristling sense of delightening/paraesthesia at wound site/ hyperesthesia,auto-mapped; needs expert review
+weakness of limbs,SYM-08312,exact_gloss,0.893,weakness of limbs/motionless,auto-mapped; needs expert review
+weakness,SYM-00166;SYM-04057;SYM-04061;SYM-05493,exact_gloss,0.894,weakness | loss of physical strength/ weakness,auto-mapped; needs expert review
+fatigue,SYM-00207;SYM-01038;SYM-01701;SYM-02526;SYM-04650;SYM-07983;SYM-08158;SYM-09081,exact_gloss,0.899,fatigue | fatigue/ weakness in thighs | exhaustion/fatigue | dislocation/ displacement/ exhaustion/ fatigue,auto-mapped; needs expert review
+giddiness,SYM-03078;SYM-05732;SYM-05740;SYM-07618,exact_gloss,0.884,giddiness | giddiness / dizziness/ vertigo,auto-mapped; needs expert review
+dizziness,SYM-03078;SYM-05732;SYM-05740;SYM-07138;SYM-07618;SYM-N00575,exact_gloss,0.926,giddiness | giddiness / dizziness/ vertigo | dizziness/confusion | dizziness,auto-mapped; needs expert review
+vertigo,SYM-05732;SYM-07602,exact_gloss,0.891,giddiness / dizziness/ vertigo | vertigo,auto-mapped; needs expert review
+tremors,SYM-02078;SYM-02079;SYM-02081;SYM-05328;SYM-07376;SYM-08517;SYM-N00121,exact_gloss,0.927,tremors/ trembling/ shaking | tremor | with tremor | tremor/shaking | shivering/tremors | tremors,auto-mapped; needs expert review
+loss of sensation,SYM-00225;SYM-02473;SYM-05364;SYM-08716;SYM-08721;SYM-08722;SYM-09023;SYM-N00668,all_words_entry,0.924,loss of sensation in thigh | loss of tactile sensation in hairs | loss of taste sensation | loss of touch sensation | loss of sensation of body parts | numbness / loss of sensation | loss of tactile sensation | loss of sensation,auto-mapped; needs expert review
+facial deviation,SYM-N01391,all_words_entry,0.922,facial deviation,auto-mapped; needs expert review
+slurred speech,SYM-N00059,embedding_neighbours,0.864,strained speech,auto-mapped; needs expert review
+difficulty in speech,SYM-N00070,all_words_entry,0.935,difficulty in speech,auto-mapped; needs expert review
+inability to walk,SYM-02712;SYM-08148,all_words_entry,0.904,inability to walk | inability of child to walk on his feet even after one year,auto-mapped; needs expert review
+paralysis,SYM-00888;SYM-03572;SYM-04071;SYM-05189;SYM-06824;SYM-08804;SYM-08859;SYM-N00142,all_words_entry,0.868,facial paralysis | paralysis of palate | paralysis of both lower limbs or thighs | paralysis or loss of function in the muscles of back | paralysis of the muscles in the shoulder girdle | paralysis of speech | paralysis etc,auto-mapped; needs expert review
+convulsions,SYM-01260;SYM-01264,exact_gloss,0.919,convulsion | convulsions,auto-mapped; needs expert review
+seizures,SYM-00758;SYM-03212;SYM-03227,all_words_entry,0.87,intermittent seizures | less frequent seizures | seizures are slow,auto-mapped; needs expert review
+loss of consciousness,SYM-03240;SYM-04237;SYM-05237;SYM-05254;SYM-06208;SYM-06215;SYM-07273;SYM-08115,all_words_entry,0.905,loss of consciousness,auto-mapped; needs expert review
+insomnia,SYM-00545;SYM-01238;SYM-04240;SYM-04379;SYM-04381,exact_gloss,0.888,sleeplessness/ insomnia | insomnia/sleeplessness | insomnia | loss of sleep/insomnia | loss of sleep/ insomnia,auto-mapped; needs expert review
+disturbed sleep,SYM-00545;SYM-01238;SYM-04240;SYM-04379;SYM-04381,exact_gloss,0.872,sleeplessness/ insomnia | insomnia/sleeplessness | insomnia | loss of sleep/insomnia | loss of sleep/ insomnia,auto-mapped; needs expert review
+excessive sleep,SYM-00302;SYM-00303;SYM-00393;SYM-04385;SYM-05563;SYM-05976,all_words_entry,0.894,excessive sleep | excessive sleep/ hypersomnia | excessive sleep during daytime,auto-mapped; needs expert review
+anxiety,SYM-01630;SYM-N00988,exact_gloss,0.923,agitation/ anxiety | anxiety,auto-mapped; needs expert review
+depression,SYM-07247;SYM-07267,exact_gloss,0.881,sadness/depression | depression,auto-mapped; needs expert review
+irritability,SYM-02479;SYM-N00936,exact_gloss,0.93,anger/irritability | irritability,auto-mapped; needs expert review
+anger,SYM-00371;SYM-00978;SYM-01399;SYM-02479;SYM-02518;SYM-03126;SYM-03679;SYM-06688,all_words_entry,0.893,frequent anger | slight anger | quick anger | anger/irritability | anger | full of anger | has anger,auto-mapped; needs expert review
+fear,SYM-00033;SYM-03696;SYM-03821;SYM-04176;SYM-05645;SYM-06968;SYM-08718;SYM-N00566,all_words_entry,0.885,sudden distress or fear | fear | never surrender or submits in fear | fear of aggravation of vāyu | fear on sleep/ fearful look on sleep | intolerance to fear,auto-mapped; needs expert review
+poor concentration,SYM-N00018;SYM-N01358,embedding_neighbours,0.88,difficulty to concentrate | lack of concentration,auto-mapped; needs expert review
+forgetfulness,,unmapped,0.857,,auto-mapped; needs expert review
+memory loss,SYM-04244;SYM-05842;SYM-09072;SYM-N00980,all_words_entry,0.878,loss of memory | loss of memory/ confusion state of mind | possible loss of memory of the episode,auto-mapped; needs expert review
+restlessness,SYM-00493;SYM-00818;SYM-04643;SYM-04681;SYM-07405;SYM-N00346;SYM-N00404;SYM-N00458;SYM-N00681;SYM-N00709,exact_gloss,0.896,restlessness | distress/discontent/restlessness | severe distress/discontent/restlessness | severe distress/dicontent/restlessness,auto-mapped; needs expert review
+low mood,,unmapped,0.851,,auto-mapped; needs expert review
+irregular menstruation,SYM-01179,all_words_entry,0.883,irregular or excessive menstruation,auto-mapped; needs expert review
+irregular periods,SYM-N00594,embedding_neighbours,0.865,irregular onset,auto-mapped; needs expert review
+heavy menstrual bleeding,SYM-02910;SYM-07902;SYM-N00323,embedding_neighbours,0.89,heavy menstrual flow | heavy bleeding | excessive menstrual bleeding,auto-mapped; needs expert review
+excessive bleeding,SYM-06446;SYM-06522;SYM-06523,exact_gloss,0.909,excessive bleeding,auto-mapped; needs expert review
+scanty menstruation,SYM-04262;SYM-04263;SYM-06603,all_words_entry,0.883,not too scanty menstruation each month | not too scanty menstruation each day | painful scanty menstruation,auto-mapped; needs expert review
+absence of menstruation,SYM-01375;SYM-N00892,all_words_entry,0.885,absence of menstruation | absence of menstruation may be primary or secondary,auto-mapped; needs expert review
+white discharge,SYM-08631,exact_gloss,0.882,white discharge,auto-mapped; needs expert review
+vaginal discharge,SYM-N00904,exact_gloss,0.918,vaginal discharge,auto-mapped; needs expert review
+infertility,SYM-00720;SYM-02731,exact_gloss,0.893,infertility,auto-mapped; needs expert review
+blurred vision,SYM-01391,all_words_entry,0.882,blurred vision,auto-mapped; needs expert review
+diminished vision,SYM-03987;SYM-04004,all_words_entry,0.907,diminished vision,auto-mapped; needs expert review
+redness of eyes,SYM-00088;SYM-00089;SYM-03122;SYM-04540;SYM-06466;SYM-06493;SYM-06777,exact_gloss,0.903,redness in the eyes | redness of the eyes | redness of eyes | redness of eyes/ reddish coloured eyes,auto-mapped; needs expert review
+watering of eyes,SYM-04157;SYM-07021;SYM-N01062,all_words_entry,0.876,not much watering of eyes | tearful eyes/ watering of eyes | abnormal watering from the eyes,auto-mapped; needs expert review
+itching of eyes,SYM-00069;SYM-04014,exact_gloss,0.891,itching in eyes,auto-mapped; needs expert review
+ear pain,SYM-02107;SYM-02112;SYM-02130;SYM-03621;SYM-07988;SYM-08258;SYM-08408;SYM-N01137,all_words_entry,0.916,pricking type of pain in ear | pain in the ear lobe | pain in ear | severe pain in ear like that of sting | pain in ear/otalgia | pain in the ear associated with burning sensation | purulent discharge from ear with pain | pain in the ear,auto-mapped; needs expert review
+ear discharge,SYM-02139,exact_gloss,0.895,ear discharge,auto-mapped; needs expert review
+tinnitus,SYM-02102;SYM-02105;SYM-02124;SYM-04265;SYM-07500;SYM-08012,all_words_entry,0.867,tinnitus/ constant flute like sound in the ear | ringing in the ears/ tinnitus | tinnitus | buzzing or musical sound in ear/ tinnitus,auto-mapped; needs expert review
+hearing loss,SYM-01096;SYM-07493;SYM-07502;SYM-07999;SYM-08008;SYM-N00119;SYM-N01140;SYM-N01398,all_words_entry,0.894,loss of hearing | hearing loss | dull hearing/ hearing impairment or loss | temporary loss of hearing | complete loss of hearing | temporary hearing loss,auto-mapped; needs expert review
+lethargy,SYM-00207;SYM-01038;SYM-01701;SYM-02526;SYM-04650;SYM-07983;SYM-08158;SYM-09081;SYM-N00173;SYM-N00187,exact_gloss,0.922,fatigue | fatigue/ weakness in thighs | exhaustion/fatigue | dislocation/ displacement/ exhaustion/ fatigue | lethargy,auto-mapped; needs expert review
+heaviness of body,SYM-00158;SYM-00159;SYM-02809;SYM-02923;SYM-07610;SYM-N00851,exact_gloss,0.907,heaviness of body | heaviness in the body | heaviness of the body | heaviness/ heaviness of the body | heaviness in body,auto-mapped; needs expert review
+pallor,SYM-00109;SYM-04759;SYM-04780;SYM-N00223;SYM-N00874,exact_gloss,0.937,pallor/whitish discolouration of eyes | pallor/ anemia | pallor/clinical features of pāṇḍu | pallor,auto-mapped; needs expert review
+jaundice,SYM-N00240,exact_gloss,0.923,jaundice,auto-mapped; needs expert review
+yellowish discoloration,SYM-04001;SYM-05002;SYM-05004;SYM-05021;SYM-05032;SYM-05033;SYM-05047;SYM-09293,all_words_entry,0.907,yellowish discoloration of eyes | yellowish discoloration | yellowish discoloration of skin | yellowish discoloration of maṇḍala | yellowish discoloration of body | yellowish discoloration of nails,auto-mapped; needs expert review
+palpitations,SYM-04062;SYM-09331;SYM-09351,exact_gloss,0.891,palpitation,auto-mapped; needs expert review
+sweating,SYM-02834,exact_gloss,0.9,sweating,auto-mapped; needs expert review
+excessive sweating,SYM-00394;SYM-09198,exact_gloss,0.898,excessive sweating,auto-mapped; needs expert review
+generalized weakness,SYM-00166;SYM-04057;SYM-04061;SYM-05493,exact_gloss,0.882,weakness | loss of physical strength/ weakness,auto-mapped; needs expert review
+body pain,SYM-00165;SYM-00185;SYM-08548,exact_gloss,0.883,body pain | with body pain,auto-mapped; needs expert review
+malaise,SYM-00168;SYM-02815;SYM-N00743,exact_gloss,0.881,body ache | malaise,auto-mapped; needs expert review

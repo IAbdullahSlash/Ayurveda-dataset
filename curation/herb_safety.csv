@@ -1,0 +1,31 @@
+botanical_name,sa_iast,safety_class,hazard_en,hazard_hi,requires_shodhana,basis
+Aconitum ferox,vatsanābha,mahāviṣa (high-potency poison),cardiotoxic and neurotoxic diterpenoid alkaloids (aconitine); fatal in small doses,हृदय व तंत्रिका विषाक्त एल्कलॉइड (एकोनिटीन); अल्प मात्रा में घातक,yes,WHO ITA-9.7.6 (example of mahāviṣa); toxicology literature
+Aconitum chasmanthum,vatsanābha,mahāviṣa (high-potency poison),cardiotoxic diterpenoid alkaloids (aconitine type),हृदय विषाक्त एल्कलॉइड,yes,SAT-F vatsanābha entry; toxicology literature
+Aconitum napellus,vatsanābha (substitute),mahāviṣa (high-potency poison),cardiotoxic diterpenoid alkaloids (aconitine),हृदय विषाक्त एल्कलॉइड,yes,SAT-F substitute of vatsanābha; toxicology literature
+Strychnos nux-vomica,kupīlu / viṣamuṣṭi,upaviṣa (mild-potency poison),strychnine and brucine; convulsant,स्ट्रिक्नीन; आक्षेपकारी (ऐंठन),yes,WHO ITA-9.7.7 (example of upaviṣa); toxicology literature
+Datura metel,dhattūra,upaviṣa (mild-potency poison),tropane alkaloids (anticholinergic toxicity),ट्रोपेन एल्कलॉइड (एंटीकोलिनर्जिक विषाक्तता),yes,classical upaviṣa group; toxicology literature
+Datura stramonium,dhattūra,upaviṣa (mild-potency poison),tropane alkaloids (anticholinergic toxicity),ट्रोपेन एल्कलॉइड (एंटीकोलिनर्जिक विषाक्तता),yes,classical upaviṣa group; toxicology literature
+Abrus precatorius,guñjā,upaviṣa (mild-potency poison),abrin in seeds (ribosome-inactivating protein); seeds highly toxic if chewed,बीजों में एब्रिन; चबाने पर अत्यंत विषैला,yes,classical upaviṣa group; toxicology literature
+Semecarpus anacardium,bhallātaka,upaviṣa (mild-potency poison),irritant phenolic oil (bhilawanol); severe contact dermatitis,उत्तेजक फिनोलिक तेल; गंभीर त्वचा शोथ,yes,classical upaviṣa group; toxicology literature
+Croton tiglium,jayapāla,upaviṣa (mild-potency poison),drastic purgative; croton oil phorbol esters (irritant),तीव्र विरेचक; क्रोटन तेल (उत्तेजक),yes,classical upaviṣa group; toxicology literature
+Papaver somniferum,ahiphena,upaviṣa (mild-potency poison),opioid alkaloids; dependence; legally controlled,ओपिओइड एल्कलॉइड; व्यसनकारी; कानूनी रूप से नियंत्रित,yes,classical upaviṣa group; narcotics regulations
+Gloriosa superba,lāṅgalī,upaviṣa (mild-potency poison),colchicine toxicity (multi-organ),कोल्चिसीन विषाक्तता,yes,classical upaviṣa group; toxicology literature
+Nerium oleander,karavīra,upaviṣa (mild-potency poison),cardiac glycosides (oleandrin),कार्डियक ग्लाइकोसाइड (ओलिएंड्रिन),yes,classical upaviṣa group; toxicology literature
+Nerium indicum,karavīra,upaviṣa (mild-potency poison),cardiac glycosides (oleandrin),कार्डियक ग्लाइकोसाइड,yes,classical upaviṣa group; toxicology literature
+Cascabela thevetia,pītakaravīra,upaviṣa (mild-potency poison),cardiac glycosides (thevetin),कार्डियक ग्लाइकोसाइड (थेवेटिन),yes,classical upaviṣa group; toxicology literature
+Thevetia peruviana,pītakaravīra,upaviṣa (mild-potency poison),cardiac glycosides (thevetin),कार्डियक ग्लाइकोसाइड (थेवेटिन),yes,classical upaviṣa group; toxicology literature
+Calotropis procera,arka,upaviṣa (mild-potency poison),cardiac glycosides; irritant latex,कार्डियक ग्लाइकोसाइड; उत्तेजक दूधिया रस,yes,classical upaviṣa group; toxicology literature
+Calotropis gigantea,arka,upaviṣa (mild-potency poison),cardiac glycosides; irritant latex,कार्डियक ग्लाइकोसाइड; उत्तेजक दूधिया रस,yes,classical upaviṣa group; toxicology literature
+Euphorbia neriifolia,snuhī,upaviṣa (mild-potency poison),irritant latex (diterpene esters),उत्तेजक दूधिया रस,yes,classical upaviṣa group; toxicology literature
+Cannabis sativa,bhaṅgā / vijayā,upaviṣa (mild-potency poison),psychoactive cannabinoids; legally controlled,मनःप्रभावी कैनाबिनॉइड; कानूनी रूप से नियंत्रित,yes,classical upaviṣa group; narcotics regulations
+Hyoscyamus niger,pārasīkayavānī,upaviṣa (mild-potency poison),tropane alkaloids (anticholinergic),ट्रोपेन एल्कलॉइड,yes,classical upaviṣa group; toxicology literature
+Aristolochia indica,īśvarī,caution (modern toxicology),aristolochic acids: nephrotoxic and carcinogenic (IARC Group 1),एरिस्टोलोकिक अम्ल: वृक्क-विषाक्त व कैंसरकारी,n/a,IARC Monographs (aristolochic acids Group 1)
+Aristolochia bracteolata,kīṭamārī,caution (modern toxicology),aristolochic acids: nephrotoxic and carcinogenic (IARC Group 1),एरिस्टोलोकिक अम्ल: वृक्क-विषाक्त व कैंसरकारी,n/a,IARC Monographs (aristolochic acids Group 1)
+Plumbago zeylanica,citraka,caution (classical + modern),vesicant naphthoquinone (plumbagin); avoid in pregnancy,त्वचा पर फफोले कारक (प्लम्बेगिन); गर्भावस्था में वर्जित,yes,classical śodhana practice; toxicology literature
+Ricinus communis,eraṇḍa,caution (modern toxicology),seeds contain ricin (oil itself is processed and widely used),बीजों में रिसिन (तेल प्रसंस्कृत रूप में प्रयुक्त),n/a,toxicology literature
+Glycyrrhiza glabra,yaṣṭīmadhu,caution (modern pharmacology),prolonged high intake: pseudo-aldosteronism (hypertension; hypokalaemia),लंबे समय तक अधिक सेवन: रक्तचाप वृद्धि; पोटैशियम की कमी,n/a,glycyrrhizin pharmacology literature
+Psoralea corylifolia,bākucī,caution (modern pharmacology),furanocoumarins (psoralens): phototoxicity,फ्यूरानोकौमारिन (सोरालेन): प्रकाश-विषाक्तता,yes,phototoxicity literature
+Cullen corylifolium,bākucī,caution (modern pharmacology),furanocoumarins (psoralens): phototoxicity,फ्यूरानोकौमारिन (सोरालेन): प्रकाश-विषाक्तता,yes,phototoxicity literature (accepted name of Psoralea corylifolia)
+Citrullus colocynthis,indravāruṇī,caution (classical + modern),drastic purgative (cucurbitacins); bloody diarrhoea in overdose,तीव्र विरेचक (कुकुर्बिटासिन),n/a,toxicology literature
+Baliospermum montanum,dantī,caution (classical),drastic purgative; irritant,तीव्र विरेचक,yes,classical purgative group
+Operculina turpethum,trivṛt,caution (classical),purgative; avoid in pregnancy and weakness,विरेचक; गर्भावस्था व दुर्बलता में सावधानी,n/a,classical purgative group
