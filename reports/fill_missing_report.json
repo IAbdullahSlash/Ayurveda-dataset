@@ -1,0 +1,45 @@
+{
+  "mt_postedits": {
+    "symptom_glosses": 11,
+    "disorder_definitions": 24
+  },
+  "definitions_filled_from_WHO": 415,
+  "disorders_with_definition": {
+    "before": 0.555,
+    "after": 0.698
+  },
+  "who_sign_lists": {
+    "signs": 7011,
+    "signs_mapped": 5135,
+    "edges": 13639,
+    "disorders": 490,
+    "new_disorders_with_a_profile": 178
+  },
+  "inherited_profiles": {
+    "disorders": 470,
+    "edges": 10082
+  },
+  "disorders_with_any_profile": {
+    "before": 1595,
+    "after": 2243
+  },
+  "dosha_suggestions": {
+    "suggested": 1420,
+    "cv_macro_f1_on_labelled": 0.786,
+    "cv_accuracy": 0.899,
+    "confidence>=0.6": 621,
+    "labels": {
+      "vata": 188,
+      "pitta": 115,
+      "kapha": 107,
+      "vata+pitta+kapha": 58,
+      "vata+pitta": 16
+    }
+  },
+  "virya_from_family_and_chemistry": {
+    "cv_macro_f1": 0.575,
+    "n_train": 344,
+    "suggested": 0,
+    "note": "below the 0.65 macro-F1 bar: no suggestions written"
+  }
+}

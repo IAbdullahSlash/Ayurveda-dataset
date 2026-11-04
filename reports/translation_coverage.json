@@ -1,0 +1,58 @@
+{
+  "diseases.name_en": {
+    "nonempty": 2892,
+    "translated": 2892,
+    "qe_flagged": 327
+  },
+  "terminology.term_en": {
+    "nonempty": 6226,
+    "translated": 6226,
+    "qe_flagged": 235
+  },
+  "herbs.name_en": {
+    "nonempty": 453,
+    "translated": 453,
+    "qe_flagged": 2
+  },
+  "herb_groups.action_en": {
+    "nonempty": 50,
+    "translated": 50,
+    "qe_flagged": 11
+  },
+  "diagnostic_methods.what_is_assessed_en": {
+    "nonempty": 43,
+    "translated": 43,
+    "qe_flagged": 1
+  },
+  "formulations.indications_en": {
+    "nonempty": 43,
+    "translated": 43,
+    "qe_flagged": 2
+  },
+  "formulations.safety_note": {
+    "nonempty": 22,
+    "translated": 22,
+    "qe_flagged": 0
+  },
+  "symptoms.gloss_en": {
+    "nonempty": 11081,
+    "translated": 11081,
+    "qe_flagged": 572
+  },
+  "herbs.description_en": {
+    "nonempty": 344,
+    "translated": 344,
+    "qe_flagged": 58
+  },
+  "terminology.definition_en": {
+    "nonempty": 5506,
+    "translated": 5497,
+    "qe_flagged": 1101
+  },
+  "diseases.definition_en": {
+    "nonempty": 1604,
+    "translated": 1604,
+    "qe_flagged": 413,
+    "composed": 1595
+  }
+}

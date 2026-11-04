@@ -1,0 +1,48 @@
+{
+  "names_total": 4177,
+  "names_from_ayurveda_sources": 605,
+  "gbif_status_counts": {
+    "ACCEPTED": 487,
+    "SYNONYM": 116,
+    "HOMOTYPIC_SYNONYM": 1,
+    "HETEROTYPIC_SYNONYM": 1
+  },
+  "gbif_match_type_counts": {
+    "EXACT": 523,
+    "HIGHERRANK": 43,
+    "FUZZY": 39
+  },
+  "resolved_to_species_rate": 0.9702,
+  "resolution_methods": {
+    "gbif_match": 562,
+    "gbif_search_exact": 12,
+    "ambiguous_synonym_left_unresolved": 12,
+    "spelling_corrected_to": 10,
+    "": 6,
+    "manual_override": 3
+  },
+  "still_unresolved": [
+    "Asphaltum punjabianum",
+    "Bambusa sp",
+    "Boerhavia verticillata",
+    "Brunus cerasus",
+    "Clerodendrum multiflorum",
+    "Elaeocarpus ganitrus",
+    "Ferrum haematite",
+    "Indigofera enneaphylla",
+    "Indigofera ennephylla",
+    "Luffa cylindrica",
+    "Nymphaea stellata",
+    "Orchis latifolia",
+    "Phaseolous trilobus",
+    "Phaseolus trilobus",
+    "Selinum tenuifolium",
+    "Terminalia tomentosa",
+    "Trichosanthes palmata",
+    "Wedelia calendulacea"
+  ],
+  "synonyms_resolved": 116,
+  "wikidata_taxa": 2553,
+  "wikidata_with_hindi": 234,
+  "wikidata_with_sanskrit": 104
+}

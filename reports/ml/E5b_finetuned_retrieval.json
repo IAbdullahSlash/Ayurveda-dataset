@@ -1,0 +1,77 @@
+{
+  "base": {
+    "diseases": {
+      "hindi_headword": {
+        "recall_at_1": 0.08375,
+        "recall_at_5": 0.1825,
+        "recall_at_10": 0.2375,
+        "mrr": 0.13778555693046926
+      },
+      "hindi_text": {
+        "recall_at_1": 0.74875,
+        "recall_at_5": 0.885,
+        "recall_at_10": 0.92,
+        "mrr": 0.8090190549960202
+      }
+    },
+    "symptoms": {
+      "hindi_headword": {
+        "recall_at_1": 0.06875,
+        "recall_at_5": 0.16,
+        "recall_at_10": 0.19625,
+        "mrr": 0.11813940372983656
+      },
+      "hindi_text": {
+        "recall_at_1": 0.6925,
+        "recall_at_5": 0.82625,
+        "recall_at_10": 0.85875,
+        "mrr": 0.7521417463288891
+      }
+    }
+  },
+  "finetuned": {
+    "diseases": {
+      "hindi_headword": {
+        "recall_at_1": 0.25875,
+        "recall_at_5": 0.465,
+        "recall_at_10": 0.55875,
+        "mrr": 0.3592364479581285
+      },
+      "hindi_text": {
+        "recall_at_1": 0.80875,
+        "recall_at_5": 0.9275,
+        "recall_at_10": 0.96375,
+        "mrr": 0.8644414261861695
+      }
+    },
+    "symptoms": {
+      "hindi_headword": {
+        "recall_at_1": 0.1875,
+        "recall_at_5": 0.36375,
+        "recall_at_10": 0.45375,
+        "mrr": 0.2770568620491811
+      },
+      "hindi_text": {
+        "recall_at_1": 0.82375,
+        "recall_at_5": 0.93125,
+        "recall_at_10": 0.965,
+        "mrr": 0.8725999941063785
+      }
+    }
+  },
+  "training_pairs": 7500,
+  "pair_kinds": {
+    "term_headword": 2687,
+    "symptom_headword": 2500,
+    "symptom_gloss": 872,
+    "disease_headword": 564,
+    "term_gloss": 530,
+    "herb_headword": 156,
+    "disease_gloss": 98,
+    "herb_hindi": 93
+  },
+  "epochs": 1,
+  "train_seconds": 632,
+  "leakage_guard": "test records and any pair sharing a test headword skeleton excluded",
+  "model_dir": "models/multilingual-e5-small-ayurkb"
+}

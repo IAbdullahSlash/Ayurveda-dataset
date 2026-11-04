@@ -1,0 +1,76 @@
+{
+  "summary": [
+    {
+      "model": "LightGBM",
+      "accuracy_mean": 0.810702614379085,
+      "macro_f1_mean": 0.6044318008681066,
+      "roc_auc_ovr_mean": 0.7009226217787239
+    },
+    {
+      "model": "XGBoost",
+      "accuracy_mean": 0.8178495311167945,
+      "macro_f1_mean": 0.6020704831511691,
+      "roc_auc_ovr_mean": 0.703350447104437
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.6928175618073317,
+      "macro_f1_mean": 0.5922575987494688,
+      "roc_auc_ovr_mean": 0.7085989781483578
+    },
+    {
+      "model": "Random Forest",
+      "accuracy_mean": 0.8258329781187838,
+      "macro_f1_mean": 0.5890856953838269,
+      "roc_auc_ovr_mean": 0.7057164225144054
+    },
+    {
+      "model": "k-Nearest Neighbours",
+      "accuracy_mean": 0.8292252770673487,
+      "macro_f1_mean": 0.5653077638514535,
+      "roc_auc_ovr_mean": 0.679510399292309
+    },
+    {
+      "model": "MLP (neural net)",
+      "accuracy_mean": 0.8256820119352088,
+      "macro_f1_mean": 0.4928335054644004,
+      "roc_auc_ovr_mean": 0.558352460060597
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.8284988633134414,
+      "macro_f1_mean": 0.45266513350784393,
+      "roc_auc_ovr_mean": 0.5
+    }
+  ],
+  "labels": [
+    "Raktapitta",
+    "Kushta",
+    "Kasa",
+    "Vrana",
+    "Jwara",
+    "Krimi",
+    "Mutrakrichha",
+    "Shwasa",
+    "Trishna",
+    "Daha",
+    "Prameha",
+    "Atisara"
+  ],
+  "label_prevalence": {
+    "Raktapitta": 0.30523255813953487,
+    "Kushta": 0.24709302325581395,
+    "Kasa": 0.1744186046511628,
+    "Vrana": 0.16569767441860464,
+    "Jwara": 0.16279069767441862,
+    "Krimi": 0.1569767441860465,
+    "Mutrakrichha": 0.15406976744186046,
+    "Shwasa": 0.1511627906976744,
+    "Trishna": 0.1511627906976744,
+    "Daha": 0.13372093023255813,
+    "Prameha": 0.12790697674418605,
+    "Atisara": 0.12790697674418605
+  },
+  "n": 344,
+  "data_origin": "real (Amidha S5)"
+}

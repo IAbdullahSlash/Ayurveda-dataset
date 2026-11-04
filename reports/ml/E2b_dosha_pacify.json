@@ -1,0 +1,89 @@
+{
+  "summary": [
+    {
+      "model": "SVM (RBF)",
+      "accuracy_mean": 0.8657573174197215,
+      "macro_f1_mean": 0.8570118881520107,
+      "roc_auc_ovr_mean": 0.9322721631091059
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.8565501562944018,
+      "macro_f1_mean": 0.8488775484390936,
+      "roc_auc_ovr_mean": 0.9281629832686927
+    },
+    {
+      "model": "Extra Trees",
+      "accuracy_mean": 0.8585393577720944,
+      "macro_f1_mean": 0.8486337253806077,
+      "roc_auc_ovr_mean": 0.9236116249882307
+    },
+    {
+      "model": "Random Forest",
+      "accuracy_mean": 0.8585535663540779,
+      "macro_f1_mean": 0.8477438045684328,
+      "roc_auc_ovr_mean": 0.9256797055036955
+    },
+    {
+      "model": "LightGBM",
+      "accuracy_mean": 0.8483873259448708,
+      "macro_f1_mean": 0.838341737223875,
+      "roc_auc_ovr_mean": 0.9166902187006309
+    },
+    {
+      "model": "XGBoost",
+      "accuracy_mean": 0.8478687127024723,
+      "macro_f1_mean": 0.8375192237413249,
+      "roc_auc_ovr_mean": 0.9110137470716427
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy_mean": 0.8468456947996591,
+      "macro_f1_mean": 0.837333156332506,
+      "roc_auc_ovr_mean": 0.9179096842132587
+    },
+    {
+      "model": "Gradient Boosting (HistGB)",
+      "accuracy_mean": 0.8401108269394714,
+      "macro_f1_mean": 0.8312747428112349,
+      "roc_auc_ovr_mean": 0.9045960416740666
+    },
+    {
+      "model": "k-Nearest Neighbours",
+      "accuracy_mean": 0.8405512929809604,
+      "macro_f1_mean": 0.8272551008881602,
+      "roc_auc_ovr_mean": 0.9101190995217863
+    },
+    {
+      "model": "MLP (neural net)",
+      "accuracy_mean": 0.8342782040352373,
+      "macro_f1_mean": 0.8120654116449821,
+      "roc_auc_ovr_mean": 0.8989452013111584
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy_mean": 0.7844558113100314,
+      "macro_f1_mean": 0.7755866578276328,
+      "roc_auc_ovr_mean": 0.8328809817505972
+    },
+    {
+      "model": "Classical rule (Ayurvedic theory)",
+      "accuracy_mean": 0.748062015503876,
+      "macro_f1_mean": 0.7426486002063643,
+      "roc_auc_ovr_mean": 0.7563593134557643
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.6036800227337312,
+      "macro_f1_mean": 0.37581484341153715,
+      "roc_auc_ovr_mean": 0.5
+    }
+  ],
+  "prevalence": {
+    "Vata": 0.5784883720930233,
+    "Pitta": 0.5581395348837209,
+    "Kapha": 0.6744186046511628
+  },
+  "n": 344,
+  "data_origin": "real (Amidha S5)"
+}

@@ -1,0 +1,423 @@
+{
+  "tables": {
+    "case_report_entities": {
+      "rows": 8023,
+      "columns": 4
+    },
+    "case_report_links": {
+      "rows": 867,
+      "columns": 10
+    },
+    "case_report_symptoms_semantic": {
+      "rows": 1539,
+      "columns": 4
+    },
+    "case_reports": {
+      "rows": 565,
+      "columns": 28
+    },
+    "clinical_trials": {
+      "rows": 6435,
+      "columns": 12
+    },
+    "concept_members": {
+      "rows": 8597,
+      "columns": 7
+    },
+    "controlled_vocabulary": {
+      "rows": 135,
+      "columns": 7
+    },
+    "diagnostic_methods": {
+      "rows": 43,
+      "columns": 21
+    },
+    "diet_lifestyle": {
+      "rows": 381,
+      "columns": 25
+    },
+    "disease_symptom": {
+      "rows": 11884,
+      "columns": 7
+    },
+    "disease_symptom_from_cases": {
+      "rows": 3905,
+      "columns": 7
+    },
+    "disease_symptom_inferred": {
+      "rows": 10082,
+      "columns": 5
+    },
+    "disease_symptom_who": {
+      "rows": 13639,
+      "columns": 7
+    },
+    "diseases": {
+      "rows": 2892,
+      "columns": 49
+    },
+    "dosha_suggestions": {
+      "rows": 1420,
+      "columns": 8
+    },
+    "evidence_queries": {
+      "rows": 1539,
+      "columns": 6
+    },
+    "formulation_indication_evidence": {
+      "rows": 121,
+      "columns": 16
+    },
+    "formulation_indications": {
+      "rows": 155,
+      "columns": 3
+    },
+    "formulation_ingredients": {
+      "rows": 500,
+      "columns": 7
+    },
+    "formulations": {
+      "rows": 43,
+      "columns": 29
+    },
+    "headword_concepts": {
+      "rows": 3347,
+      "columns": 9
+    },
+    "herb_ethnobotany": {
+      "rows": 2872,
+      "columns": 6
+    },
+    "herb_group_members": {
+      "rows": 500,
+      "columns": 7
+    },
+    "herb_groups": {
+      "rows": 50,
+      "columns": 11
+    },
+    "herb_image_datasets": {
+      "rows": 214,
+      "columns": 11
+    },
+    "herb_indication": {
+      "rows": 1693,
+      "columns": 8
+    },
+    "herb_indication_evidence": {
+      "rows": 1427,
+      "columns": 16
+    },
+    "herb_karma": {
+      "rows": 829,
+      "columns": 8
+    },
+    "herb_names": {
+      "rows": 3639,
+      "columns": 4
+    },
+    "herb_phytochemicals": {
+      "rows": 23771,
+      "columns": 9
+    },
+    "herbs": {
+      "rows": 466,
+      "columns": 54
+    },
+    "multiscript_names": {
+      "rows": 20895,
+      "columns": 12
+    },
+    "pharmaceutics": {
+      "rows": 393,
+      "columns": 25
+    },
+    "phytochemical_activities": {
+      "rows": 13538,
+      "columns": 5
+    },
+    "phytochemicals": {
+      "rows": 1959,
+      "columns": 13
+    },
+    "prakriti_synthetic_cohort": {
+      "rows": 3000,
+      "columns": 33
+    },
+    "qa_pairs": {
+      "rows": 4836,
+      "columns": 7
+    },
+    "sources": {
+      "rows": 14,
+      "columns": 5
+    },
+    "symptoms": {
+      "rows": 11081,
+      "columns": 14
+    },
+    "terminology": {
+      "rows": 6233,
+      "columns": 25
+    },
+    "therapies": {
+      "rows": 1325,
+      "columns": 26
+    },
+    "therapy_disease": {
+      "rows": 6474,
+      "columns": 11
+    },
+    "therapy_evidence": {
+      "rows": 12,
+      "columns": 3
+    }
+  },
+  "pk:terminology.term_uid": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:diseases.disease_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:symptoms.symptom_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:herbs.herb_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:herb_groups.group_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:diagnostic_methods.dx_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:formulations.form_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:sources.source_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:therapies.therapy_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:pharmaceutics.pharmaceutic_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:diet_lifestyle.lifestyle_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:case_reports.case_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:headword_concepts.concept_id": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "pk:phytochemicals.chemical": {
+    "duplicates": 0,
+    "empty": 0
+  },
+  "fk:disease_symptom.disease_id->diseases.disease_id": {
+    "checked": 11884,
+    "orphans": 0
+  },
+  "fk:disease_symptom.symptom_id->symptoms.symptom_id": {
+    "checked": 11884,
+    "orphans": 0
+  },
+  "fk:herb_indication.herb_id->herbs.herb_id": {
+    "checked": 1693,
+    "orphans": 0
+  },
+  "fk:herb_indication.disease_id->diseases.disease_id": {
+    "checked": 1432,
+    "orphans": 0
+  },
+  "fk:herb_karma.herb_id->herbs.herb_id": {
+    "checked": 829,
+    "orphans": 0
+  },
+  "fk:herb_names.herb_id->herbs.herb_id": {
+    "checked": 3639,
+    "orphans": 0
+  },
+  "fk:herb_group_members.group_id->herb_groups.group_id": {
+    "checked": 500,
+    "orphans": 0
+  },
+  "fk:herb_group_members.herb_id->herbs.herb_id": {
+    "checked": 476,
+    "orphans": 0
+  },
+  "fk:herb_phytochemicals.herb_id->herbs.herb_id": {
+    "checked": 23771,
+    "orphans": 0
+  },
+  "fk:herb_ethnobotany.herb_id->herbs.herb_id": {
+    "checked": 2872,
+    "orphans": 0
+  },
+  "fk:formulation_ingredients.form_id->formulations.form_id": {
+    "checked": 500,
+    "orphans": 0
+  },
+  "fk:formulation_ingredients.herb_id->herbs.herb_id": {
+    "checked": 385,
+    "orphans": 0
+  },
+  "fk:formulation_indications.form_id->formulations.form_id": {
+    "checked": 155,
+    "orphans": 0
+  },
+  "fk:formulation_indications.disease_id->diseases.disease_id": {
+    "checked": 121,
+    "orphans": 0
+  },
+  "fk:diseases.parent_disease_id->diseases.disease_id": {
+    "checked": 2873,
+    "orphans": 0
+  },
+  "fk:therapy_disease.disease_id->diseases.disease_id": {
+    "checked": 6474,
+    "orphans": 0
+  },
+  "fk:therapy_disease.therapy_id->therapies.therapy_id": {
+    "checked": 6474,
+    "orphans": 0
+  },
+  "fk:herb_indication_evidence.herb_id->herbs.herb_id": {
+    "checked": 1427,
+    "orphans": 0
+  },
+  "fk:herb_indication_evidence.disease_id->diseases.disease_id": {
+    "checked": 1427,
+    "orphans": 0
+  },
+  "fk:formulation_indication_evidence.form_id->formulations.form_id": {
+    "checked": 121,
+    "orphans": 0
+  },
+  "fk:formulation_indication_evidence.disease_id->diseases.disease_id": {
+    "checked": 121,
+    "orphans": 0
+  },
+  "fk:case_report_entities.case_id->case_reports.case_id": {
+    "checked": 8023,
+    "orphans": 0
+  },
+  "fk:case_report_links.disease_id->diseases.disease_id": {
+    "checked": 867,
+    "orphans": 0
+  },
+  "fk:concept_members.concept_id->headword_concepts.concept_id": {
+    "checked": 8597,
+    "orphans": 0
+  },
+  "fk:herb_image_datasets.herb_id->herbs.herb_id": {
+    "checked": 133,
+    "orphans": 0
+  },
+  "fk:disease_symptom_who.disease_id->diseases.disease_id": {
+    "checked": 13639,
+    "orphans": 0
+  },
+  "fk:disease_symptom_who.symptom_id->symptoms.symptom_id": {
+    "checked": 13639,
+    "orphans": 0
+  },
+  "fk:disease_symptom_inferred.disease_id->diseases.disease_id": {
+    "checked": 10082,
+    "orphans": 0
+  },
+  "fk:disease_symptom_inferred.symptom_id->symptoms.symptom_id": {
+    "checked": 10082,
+    "orphans": 0
+  },
+  "fk:disease_symptom_inferred.inherited_from->diseases.disease_id": {
+    "checked": 10082,
+    "orphans": 0
+  },
+  "fk:disease_symptom_from_cases.disease_id->diseases.disease_id": {
+    "checked": 3905,
+    "orphans": 0
+  },
+  "fk:disease_symptom_from_cases.symptom_id->symptoms.symptom_id": {
+    "checked": 3905,
+    "orphans": 0
+  },
+  "fk:dosha_suggestions.disease_id->diseases.disease_id": {
+    "checked": 1420,
+    "orphans": 0
+  },
+  "fk:case_report_symptoms_semantic.case_id->case_reports.case_id": {
+    "checked": 1539,
+    "orphans": 0
+  },
+  "fk:case_report_symptoms_semantic.symptom_id->symptoms.symptom_id": {
+    "checked": 1539,
+    "orphans": 0
+  },
+  "mojibake_cells": {},
+  "non_devanagari_in_devanagari_columns": {},
+  "iast_devanagari_roundtrip_rate": 1.0,
+  "bilingual_coverage": {
+    "diseases.term_hi": 0.9986,
+    "diseases.name_en_hi": 1.0,
+    "diseases.definition_hi": 0.998,
+    "symptoms.gloss_hi": 1.0,
+    "symptoms.term_hi": 1.0,
+    "terminology.term_en_hi": 1.0,
+    "terminology.definition_hi": 0.9984,
+    "herbs.name_hi_ayurvedic": 0.766,
+    "herbs.name_hi_common": 0.4106,
+    "herbs.description_hi": 1.0,
+    "herbs.any_hindi_or_devanagari_name": 0.9936
+  },
+  "dosha_label_consistent_with_flags": true,
+  "toxic_herbs_flagged": 16,
+  "toxic_herbs_without_shodhana_flag": [],
+  "formulations_with_metal_or_toxic_flag": 7,
+  "licence_missing_rows": {
+    "case_reports": 0,
+    "diagnostic_methods": 0,
+    "diet_lifestyle": 0,
+    "diseases": 0,
+    "formulations": 0,
+    "herb_image_datasets": 0,
+    "pharmaceutics": 0,
+    "phytochemicals": 0,
+    "sources": 0,
+    "symptoms": 0,
+    "terminology": 0,
+    "therapies": 0
+  },
+  "failures": [],
+  "qa_pairs": {
+    "total": 4836,
+    "by_language": {
+      "en": 2420,
+      "hi": 2416
+    },
+    "by_topic": {
+      "disease_definition": 4014,
+      "herb_properties": 492,
+      "herbs_for_condition": 158,
+      "diagnostic_method": 86,
+      "formulation": 86
+    }
+  },
+  "corpus_documents": 20758,
+  "sqlite_bytes": 55668736
+}

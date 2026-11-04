@@ -1,0 +1,58 @@
+{
+  "terminology": {
+    "who_terms": 3554,
+    "sat_terms": 2679,
+    "who_terms_with_sat_xref": 0.5048
+  },
+  "diseases": {
+    "rows": 2892,
+    "duplicates_removed": 18,
+    "with_tm2_code": 789,
+    "linked_to_who_term": 1188,
+    "dosha_from_term": 832,
+    "dosha_inherited": 104,
+    "dosha_unspecified": 1956
+  },
+  "symptoms": {
+    "symptoms_sat": 9400,
+    "symptoms_new_from_namaste": 1681,
+    "edges": 11884,
+    "diseases_with_symptoms": 1595,
+    "link_methods": {
+      "sanskrit_headword": 8095,
+      "new_from_namaste": 2123,
+      "english_gloss": 1666
+    }
+  },
+  "herbs": {
+    "herbs": 466,
+    "with_iast_name": 357,
+    "with_hindi_common_name": 186,
+    "with_properties": 344,
+    "with_gbif_key": 453,
+    "in_sat": 301,
+    "in_amidha": 344,
+    "in_both_sat_and_amidha": 216,
+    "with_safety_flag": 24,
+    "indication_links": 1693,
+    "indication_link_rate": 0.8458,
+    "karma_links": 829,
+    "mahakashaya_members_linked": 0.952
+  },
+  "duke": {
+    "herbs_with_phytochemicals": 224,
+    "phytochemical_rows": 23771,
+    "distinct_chemicals": 8371,
+    "activity_rows": 13538,
+    "herbs_with_indian_ethnobotany": 322,
+    "ethnobotany_rows": 2872
+  },
+  "formulations": {
+    "formulations": 43,
+    "ingredients": 500,
+    "ingredients_linked_to_herbs": 385,
+    "ingredient_link_rate_plant": 0.8518,
+    "indications": 155,
+    "indications_linked": 0.7806
+  }
+}

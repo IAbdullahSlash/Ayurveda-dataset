@@ -1,0 +1,483 @@
+{
+  "query": "(TITLE:ayurved* OR ABSTRACT:ayurved* OR KW:ayurved* OR TITLE:panchakarma OR ABSTRACT:panchakarma) AND (PUB_TYPE:\"Case Reports\" OR TITLE:\"case report\" OR TITLE:\"case study\" OR TITLE:\"case series\" OR KW:\"case report\") AND (SRC:MED OR SRC:PMC)",
+  "n_records": 565,
+  "n_fulltext_mined": 374,
+  "n_therapeutic": 450,
+  "n_adverse_event": 115,
+  "dx_mapped_to_namaste": 0.378,
+  "cases_with_>=2_presenting_symptoms": 272,
+  "cases_with_kb_herbs": 313,
+  "cases_with_curated_formulation": 215,
+  "distinct_formulation_names_not_in_kb_(>=2 reports)": 40,
+  "top_diagnoses": [
+    [
+      "duṣṭavraṇaḥ",
+      9
+    ],
+    [
+      "vraṇaḥ",
+      8
+    ],
+    [
+      "vātavyādhiḥ",
+      8
+    ],
+    [
+      "kuṣṭham",
+      6
+    ],
+    [
+      "jvaraḥ",
+      6
+    ],
+    [
+      "āmavātaḥ",
+      5
+    ],
+    [
+      "grahaṇīdoṣaḥ",
+      4
+    ],
+    [
+      "vidradhiḥ; vidradhikā/vidradhiḥ/pramehapiḍakā",
+      4
+    ],
+    [
+      "vipādikā",
+      4
+    ],
+    [
+      "snāyugatavātaḥ",
+      3
+    ],
+    [
+      "hṛdrogaḥ",
+      3
+    ],
+    [
+      "pāṇḍurogaḥ",
+      3
+    ],
+    [
+      "ardhāvabhedakaḥ",
+      3
+    ],
+    [
+      "visarpaḥ",
+      3
+    ],
+    [
+      "pramehaḥ",
+      2
+    ],
+    [
+      "anantavātaḥ",
+      2
+    ],
+    [
+      "śuṣkākṣipākaḥ",
+      2
+    ],
+    [
+      "nāḍīvraṇaḥ",
+      2
+    ],
+    [
+      "śītapittam",
+      2
+    ],
+    [
+      "gambhīrā/dṛṣṭiḥ",
+      2
+    ],
+    [
+      "arbudaḥ",
+      2
+    ],
+    [
+      "sarvāṅgavātaḥ/sarvāṅgarogaḥ; sarvāṅgarogaḥ/sarvāṅgavātaḥ",
+      2
+    ],
+    [
+      "avabāhukaḥ",
+      2
+    ],
+    [
+      "granthiḥ",
+      2
+    ],
+    [
+      "pravāhikā",
+      2
+    ]
+  ],
+  "top_herbs": [
+    [
+      "HERB-0132",
+      116
+    ],
+    [
+      "HERB-0431",
+      77
+    ],
+    [
+      "HERB-0460",
+      66
+    ],
+    [
+      "HERB-0426",
+      56
+    ],
+    [
+      "HERB-0361",
+      52
+    ],
+    [
+      "HERB-0324",
+      48
+    ],
+    [
+      "HERB-0153",
+      43
+    ],
+    [
+      "HERB-0331",
+      39
+    ],
+    [
+      "HERB-0463",
+      39
+    ],
+    [
+      "HERB-0210",
+      38
+    ],
+    [
+      "HERB-0044",
+      29
+    ],
+    [
+      "HERB-0047",
+      29
+    ],
+    [
+      "HERB-0452",
+      26
+    ],
+    [
+      "HERB-0332",
+      25
+    ],
+    [
+      "HERB-0161",
+      21
+    ],
+    [
+      "HERB-0067",
+      20
+    ],
+    [
+      "HERB-0388",
+      20
+    ],
+    [
+      "HERB-0425",
+      20
+    ],
+    [
+      "HERB-0457",
+      19
+    ],
+    [
+      "HERB-0049",
+      18
+    ],
+    [
+      "HERB-0326",
+      18
+    ],
+    [
+      "HERB-0179",
+      17
+    ],
+    [
+      "HERB-0136",
+      17
+    ],
+    [
+      "HERB-0286",
+      15
+    ],
+    [
+      "HERB-0023",
+      15
+    ]
+  ],
+  "top_procedures": [
+    [
+      "rasāyana",
+      91
+    ],
+    [
+      "basti",
+      85
+    ],
+    [
+      "abhyaṅga",
+      68
+    ],
+    [
+      "svedana",
+      68
+    ],
+    [
+      "dīpana-pācana",
+      68
+    ],
+    [
+      "virecana",
+      66
+    ],
+    [
+      "nasya",
+      45
+    ],
+    [
+      "snehapāna",
+      35
+    ],
+    [
+      "anuvāsana basti",
+      26
+    ],
+    [
+      "mātrā basti",
+      25
+    ],
+    [
+      "nirūha basti",
+      24
+    ],
+    [
+      "lepa",
+      23
+    ],
+    [
+      "saṃsarjana krama",
+      20
+    ],
+    [
+      "śirodhārā",
+      19
+    ],
+    [
+      "pathya (diet regimen)",
+      19
+    ],
+    [
+      "yoga / prāṇāyāma",
+      17
+    ],
+    [
+      "jalaukāvacaraṇa (leech therapy)",
+      16
+    ],
+    [
+      "vamana",
+      15
+    ],
+    [
+      "pichu",
+      12
+    ],
+    [
+      "kṣārasūtra",
+      10
+    ],
+    [
+      "yoga basti",
+      10
+    ],
+    [
+      "bāṣpa sveda",
+      9
+    ],
+    [
+      "agnikarma",
+      8
+    ],
+    [
+      "uttara basti",
+      8
+    ],
+    [
+      "kāla basti",
+      7
+    ]
+  ],
+  "top_modern_assessments": [
+    [
+      "haemoglobin / CBC",
+      158
+    ],
+    [
+      "SF-36 / QoL",
+      148
+    ],
+    [
+      "blood pressure",
+      120
+    ],
+    [
+      "liver function (LFT)",
+      120
+    ],
+    [
+      "ultrasonography",
+      95
+    ],
+    [
+      "renal function (creatinine/urea)",
+      92
+    ],
+    [
+      "biopsy / histopathology",
+      89
+    ],
+    [
+      "CT scan",
+      83
+    ],
+    [
+      "blood glucose (FBS/PPBS/RBS)",
+      78
+    ],
+    [
+      "serum heavy metals",
+      74
+    ],
+    [
+      "MRI",
+      66
+    ],
+    [
+      "ESR",
+      64
+    ],
+    [
+      "X-ray",
+      60
+    ],
+    [
+      "BMI / anthropometry",
+      54
+    ],
+    [
+      "VAS (pain)",
+      50
+    ],
+    [
+      "lipid profile",
+      44
+    ],
+    [
+      "CRP",
+      43
+    ],
+    [
+      "vitamin D / B12",
+      35
+    ],
+    [
+      "urine routine / culture",
+      34
+    ],
+    [
+      "thyroid profile (TSH/T3/T4)",
+      33
+    ],
+    [
+      "endoscopy / colonoscopy",
+      33
+    ],
+    [
+      "ECG / echocardiography",
+      27
+    ],
+    [
+      "serum uric acid",
+      24
+    ],
+    [
+      "HbA1c",
+      23
+    ],
+    [
+      "nerve conduction / EMG",
+      17
+    ],
+    [
+      "visual acuity / IOP",
+      17
+    ],
+    [
+      "DEXA (bone density)",
+      16
+    ],
+    [
+      "HAM-A / HAM-D / BDI (mental health)",
+      15
+    ],
+    [
+      "hormones (FSH/LH/AMH/prolactin)",
+      13
+    ],
+    [
+      "PASI (psoriasis)",
+      11
+    ]
+  ],
+  "metals_in_adverse_event_reports": [
+    [
+      "lead",
+      61
+    ],
+    [
+      "arsenic",
+      13
+    ],
+    [
+      "mercury",
+      11
+    ]
+  ],
+  "kb_link_concordance": {
+    "observed_disorder_herb_pairs": 649,
+    "share_recorded_in_kb": 0.129,
+    "observed_disorder_formulation_pairs": 218,
+    "share_formulation_pairs_recorded_in_kb": 0.147
+  },
+  "E6_matcher_on_real_presentations": {
+    "n_cases_evaluated": 85,
+    "n_candidate_disorders": 1595,
+    "median_presenting_phrases": 6.0,
+    "exact_hit@1": 0.0,
+    "family_hit@1": 0.024,
+    "baseline_popularity_family_hit@1": 0.012,
+    "baseline_random_exact_hit@1": 0.0006,
+    "exact_hit@3": 0.035,
+    "family_hit@3": 0.106,
+    "baseline_popularity_family_hit@3": 0.012,
+    "baseline_random_exact_hit@3": 0.0019,
+    "exact_hit@10": 0.071,
+    "family_hit@10": 0.2,
+    "baseline_popularity_family_hit@10": 0.094,
+    "baseline_random_exact_hit@10": 0.0063,
+    "exact_hit@30": 0.106,
+    "family_hit@30": 0.318,
+    "baseline_popularity_family_hit@30": 0.188,
+    "baseline_random_exact_hit@30": 0.0188,
+    "exact_MRR": 0.026,
+    "family_MRR": 0.087
+  }
+}

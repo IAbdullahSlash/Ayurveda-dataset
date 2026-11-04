@@ -1,0 +1,26 @@
+{
+  "n_terms": 3554,
+  "n_sections": 195,
+  "n_annex_entries": 4112,
+  "annex_ids_found_in_parse": 0.9985,
+  "parsed_ids_found_in_annex": 0.989,
+  "annex_iast_synonym_recovered": 0.9126,
+  "annex_devanagari_synonym_recovered": 0.9126,
+  "empty_english": 2,
+  "empty_description": 712,
+  "empty_iast": 5,
+  "rows_with_stray_id_col_text": 2,
+  "terms_per_chapter": {
+    "1": 323,
+    "2": 208,
+    "3": 444,
+    "4": 159,
+    "5": 1298,
+    "6": 127,
+    "7": 195,
+    "8": 113,
+    "9": 661,
+    "10": 26
+  },
+  "sanskrit_filled_from_annex": 5
+}

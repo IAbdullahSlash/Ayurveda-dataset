@@ -1,0 +1,198 @@
+{
+  "diseases": {
+    "hindi_headword": {
+      "transliteration_char_tfidf": {
+        "recall_at_1": 0.16125,
+        "recall_at_5": 0.37375,
+        "recall_at_10": 0.46375,
+        "mrr": 0.25845088754567347
+      },
+      "multilingual_e5_dense": {
+        "recall_at_1": 0.09875,
+        "recall_at_5": 0.19375,
+        "recall_at_10": 0.27,
+        "mrr": 0.15260991895087056
+      },
+      "hybrid_rrf": {
+        "recall_at_1": 0.17875,
+        "recall_at_5": 0.3625,
+        "recall_at_10": 0.43375,
+        "mrr": 0.267925814807132
+      },
+      "examples": [
+        {
+          "query": "रूह्या/ इंद्रलुप्त",
+          "gold": "Patchy alopecia disorder. It is characterised by falling of hair in the form of patches from scalp, beard and eyebrows l",
+          "top1_dense": "nirūhavyāpad in intoxicated and faint. the disorder is characterized by cittōpaghātaḥ [mental damage]"
+        },
+        {
+          "query": "धूमपान-अतियोग",
+          "gold": "over administration of dhūmapāna. the disorder is characterized by tāluśōṣaḥ [dryness of palate], mūrdhaśōṣaḥ [feeling, ",
+          "top1_dense": "suffocation by smoke/smoke poisoning. the disorder is characterized by śvāsaḥ [breathlessness/difficult breathing], kṣav"
+        },
+        {
+          "query": "शुद्धशुक्र-कर्म",
+          "gold": "normal functions of śukra. the pattern is characterized by dhairyam [steadiness/ courage], cyavanam [ejaculation], prīti",
+          "top1_dense": "normal functions of ārtava. the pattern is characterized by garbhakr̥t [responsible for conception]"
+        },
+        {
+          "query": "दारुणक",
+          "gold": "Dandruff disorder. It is characterised by dryness of the scalp, appearance of husk like flakes on the scalp, itching, ul",
+          "top1_dense": "infestation-dāruṇa. the disorder is characterized by śirōrōga [diseases of head], hr̥drōga [diseases of heart], vamathu "
+        },
+        {
+          "query": "पैत्तिक-विसूचिका",
+          "gold": "viśūcikā due to pitta. the disorder is characterized by jvaraḥ [fever], atisāraḥ [diarrhoea], antardāhaḥ [burning sensat",
+          "top1_dense": "about to conceive. the pattern is characterized by rujā [pain]"
+        }
+      ]
+    },
+    "hindi_text": {
+      "transliteration_char_tfidf": {
+        "recall_at_1": 0.77375,
+        "recall_at_5": 0.79875,
+        "recall_at_10": 0.81125,
+        "mrr": 0.7866311682199175
+      },
+      "multilingual_e5_dense": {
+        "recall_at_1": 0.7925,
+        "recall_at_5": 0.905,
+        "recall_at_10": 0.93125,
+        "mrr": 0.8468590782573671
+      },
+      "hybrid_rrf": {
+        "recall_at_1": 0.775,
+        "recall_at_5": 0.84125,
+        "recall_at_10": 0.87875,
+        "mrr": 0.8120354766878009
+      },
+      "examples": [
+        {
+          "query": "पैच एलोपेसी डिसऑर्डर। लक्षण: सिर की त्वचा से बाल के पैच के रूप में गिरना; दाढ़ी; भौंहें चमकदार धब्बे छोड़ रहे हैं। इसका कारण निम्न हो सकता है- (क) प्रकुपित वातोधा और पिटडोधा बाल की जड़ों को प्रभावित करते हैं।",
+          "gold": "Patchy alopecia disorder. It is characterised by falling of hair in the form of patches from scalp, beard and eyebrows l",
+          "top1_dense": "Patchy alopecia disorder. It is characterised by falling of hair in the form of patches from scalp, beard and eyebrows l"
+        },
+        {
+          "query": "धूम्रपान के सेवन पर। लक्षण: तालुशोषः (गला की रुक्षता (सूखापन)); मूर्धशोषः (सिर में रुक्षता); कण्ठशोषः/गलशोषः (गर्दन में रुक्षता); तालुपरितापः/तालुपरिदाहः (गला में गर्मी); मूर्धपरितापः/शिरोऽभितापः (सिर में गर्मी); कण्ठपरितापः/गलपरिदाहः (गले में गर्मी या दाह (जलन)); तृषा/पिपासा (प्यास); मोहः (भ्रम/गर्जना); रक्तम् अधिकं स्रवते/रक्तपित्तः (घने रक्तस्राव); अत्यर्थं शिरोभ्रमः (गंभीर भ्रम (चक्कर) या पसीना); मूर्च्छा (मूर्च्छा (बेहोशी) / बेहोश होने के हमले); इन्द्रियोपतापः (संवेदी अंगों के कार्यों में कमी); भ्रमः (भ्रम (चक्कर) या उलझन); मदः (नशा); कर्णक्ष्वेडः (कान में शोर की तरह टिनिटस/ लगातार फ्लोट); दृष्टिरोगः (आंखों की बीमारियां); नासारोगः (नाक की बीमारियां); दौर्बल्यम् (कमजोरी); ज्वरः (ज्वर (बुखार)); इन्द्रियोपघातः (संवेदी अंगों की समस्या); तालुपाकः (दांत में सूजन या पाक (पूय निर्माण)); धूमायनम् (धुआं या धुआं की भावना); छर्दिः (छर्दि (उल्टी)); मृत्युः (मृत्यु)।",
+          "gold": "over administration of dhūmapāna. the disorder is characterized by tāluśōṣaḥ [dryness of palate], mūrdhaśōṣaḥ [feeling, ",
+          "top1_dense": "rājayakṣma due to pitta. the disorder is characterized by jvaraḥ [fever], dāhaḥ [burning sensation], raktasya āgamaḥ/asr"
+        },
+        {
+          "query": "शुक्र के सामान्य कार्य। लक्षण: धैर्यम् (स्थिरता/ साहस); च्यवनम् (विस्थापन/ उत्सर्जन); प्रीतिः (स्नेह); देहबलम्/बलोप्तादनम् (शरीर की शक्ति/ उत्पादक शरीर की शक्ति); हर्षः (भयावहता); बीजार्थः/गर्भोत्पादः (प्रजनन)।",
+          "gold": "normal functions of śukra. the pattern is characterized by dhairyam [steadiness/ courage], cyavanam [ejaculation], prīti",
+          "top1_dense": "normal functions of śukra. the pattern is characterized by dhairyam [steadiness/ courage], cyavanam [ejaculation], prīti"
+        },
+        {
+          "query": "डैंड्रफ विकार। लक्षण: सिर की त्वचा की रुक्षता (सूखापन); सिर की त्वचा पर शेल जैसे फ्लेक्स की उपस्थिति; कण्डू (खुजली); घाव। इसका कारण यह हो सकता है कि: (क) वात और कफ से सिर की त्वचा पर असर पड़ने के कारण रुक्षता (सूखापन) में वृद्धि हो।",
+          "gold": "Dandruff disorder. It is characterised by dryness of the scalp, appearance of husk like flakes on the scalp, itching, ul",
+          "top1_dense": "Dandruff disorder. It is characterised by dryness of the scalp, appearance of husk like flakes on the scalp, itching, ul"
+        },
+        {
+          "query": "पित्त के कारण विशुचिका। लक्षण: ज्वरः (ज्वर (बुखार)); अतिसारः (अतिसार (दस्त)); अन्तर्दाहः (शरीर के अंदर दाह (जलन)); तृट्/तृष्णा (प्यास); वैवर्ण्यम् (रंग परिवर्तन); मदः (नशा); भ्रमः (भ्रम (चक्कर) या उलझन); प्रलापः (अधिक बोलना/असंदिग्ध बोलना/असंदिग्ध बोलना); प्रलयः (मूर्च्छा (बेहोशी))।",
+          "gold": "viśūcikā due to pitta. the disorder is characterized by jvaraḥ [fever], atisāraḥ [diarrhoea], antardāhaḥ [burning sensat",
+          "top1_dense": "viśūcikā due to pitta. the disorder is characterized by jvaraḥ [fever], atisāraḥ [diarrhoea], antardāhaḥ [burning sensat"
+        }
+      ]
+    },
+    "n_candidates": 800
+  },
+  "symptoms": {
+    "hindi_headword": {
+      "transliteration_char_tfidf": {
+        "recall_at_1": 0.04125,
+        "recall_at_5": 0.07125,
+        "recall_at_10": 0.0825,
+        "mrr": 0.05917306594670626
+      },
+      "multilingual_e5_dense": {
+        "recall_at_1": 0.06875,
+        "recall_at_5": 0.16,
+        "recall_at_10": 0.19625,
+        "mrr": 0.11813940372983656
+      },
+      "hybrid_rrf": {
+        "recall_at_1": 0.0425,
+        "recall_at_5": 0.08625,
+        "recall_at_10": 0.12625,
+        "mrr": 0.07641329455381939
+      },
+      "examples": [
+        {
+          "query": "दंतविनाशिन/ दशनविनाश",
+          "gold": "destruction of teeth",
+          "top1_dense": "damaged/decayed penis"
+        },
+        {
+          "query": "अस्थिलेश प्रविशेन्मध्यमस्थ्नो विदारित",
+          "gold": "pieces of bones have entered into the marrow cavity",
+          "top1_dense": "stickiness in the piles leading to abdominal distension"
+        },
+        {
+          "query": "उदरं अंबुना पूर्णं इव",
+          "gold": "as if full of water",
+          "top1_dense": "occupying whole abdomen"
+        },
+        {
+          "query": "नाभेरधस्ताद् तीव्रवेदन",
+          "gold": "severe pain below umbilicus",
+          "top1_dense": "severe nodular swelling"
+        },
+        {
+          "query": "काये बैभत्स्यदर्शन",
+          "gold": "disgusted appearance",
+          "top1_dense": "heaviness in the abdomen"
+        }
+      ]
+    },
+    "hindi_text": {
+      "transliteration_char_tfidf": {
+        "recall_at_1": 0.07875,
+        "recall_at_5": 0.13,
+        "recall_at_10": 0.14625,
+        "mrr": 0.10723769016646813
+      },
+      "multilingual_e5_dense": {
+        "recall_at_1": 0.6925,
+        "recall_at_5": 0.82625,
+        "recall_at_10": 0.85875,
+        "mrr": 0.7521417463288891
+      },
+      "hybrid_rrf": {
+        "recall_at_1": 0.17875,
+        "recall_at_5": 0.30125,
+        "recall_at_10": 0.4475,
+        "mrr": 0.26775207905728576
+      },
+      "examples": [
+        {
+          "query": "दांतों का विनाश",
+          "gold": "destruction of teeth",
+          "top1_dense": "destruction of teeth"
+        },
+        {
+          "query": "हड्डियों के टुकड़े मेधावी गुहा में प्रवेश कर चुके हैं",
+          "gold": "pieces of bones have entered into the marrow cavity",
+          "top1_dense": "pieces of bones have entered into the marrow cavity"
+        },
+        {
+          "query": "जैसे पानी से भरा हुआ",
+          "gold": "as if full of water",
+          "top1_dense": "as if full of water"
+        },
+        {
+          "query": "कंधे के नीचे तीव्र दर्द",
+          "gold": "severe pain below umbilicus",
+          "top1_dense": "severe pricking pain in upper part of the body or head"
+        },
+        {
+          "query": "अप्रिय रूप",
+          "gold": "disgusted appearance",
+          "top1_dense": "impaired behavior"
+        }
+      ]
+    },
+    "n_candidates": 800
+  },
+  "note": "Q-text queries are machine translations of the English side, so they measure cross-lingual alignment of the retriever (bitext retrieval), not independent user queries. Q-term queries are independent Sanskrit/Hindi headwords.",
+  "seconds": 109.0
+}

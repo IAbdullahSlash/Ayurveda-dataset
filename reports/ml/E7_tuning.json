@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "task": "E1a organ-system from text",
+      "model": "Logistic Regression",
+      "default_macro_f1_mean": 0.8006322084189582,
+      "default_macro_f1_std": 0.03536423891446571,
+      "tuned_macro_f1_mean": 0.8039805678497605,
+      "tuned_macro_f1_std": 0.04039403988067107,
+      "gain": 0.00334835943080225,
+      "wilcoxon_p": 0.4375,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"C\": 32}, {\"C\": 4}, {\"C\": 4}, {\"C\": 4}, {\"C\": 4}]"
+    },
+    {
+      "task": "E1a organ-system from text",
+      "model": "Linear SVM",
+      "default_macro_f1_mean": 0.8300090957237531,
+      "default_macro_f1_std": 0.03719409563806096,
+      "tuned_macro_f1_mean": 0.8297914177407171,
+      "tuned_macro_f1_std": 0.042499245673053875,
+      "gain": -0.00021767798303606867,
+      "wilcoxon_p": 1.0,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"C\": 0.5}, {\"C\": 0.5}, {\"C\": 0.3}, {\"C\": 0.5}, {\"C\": 1}]"
+    },
+    {
+      "task": "E1a organ-system from text",
+      "model": "Complement Naive Bayes",
+      "default_macro_f1_mean": 0.7075840302510745,
+      "default_macro_f1_std": 0.026950693848854717,
+      "tuned_macro_f1_mean": 0.7811432942687021,
+      "tuned_macro_f1_std": 0.054944876025823194,
+      "gain": 0.07355926401762758,
+      "wilcoxon_p": 0.0625,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"alpha\": 0.03}, {\"alpha\": 0.1}, {\"alpha\": 0.1}, {\"alpha\": 0.03}, {\"alpha\": 0.03}]"
+    },
+    {
+      "task": "E1a organ-system from text",
+      "model": "SGD (modified Huber)",
+      "default_macro_f1_mean": 0.7819054895724897,
+      "default_macro_f1_std": 0.025139894957426034,
+      "tuned_macro_f1_mean": 0.7867020870013042,
+      "tuned_macro_f1_std": 0.036811166276725635,
+      "gain": 0.004796597428814442,
+      "wilcoxon_p": 0.625,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"alpha\": 1e-05}, {\"alpha\": 1e-05}, {\"alpha\": 1e-05}, {\"alpha\": 1e-05}, {\"alpha\": 0.0003}]"
+    },
+    {
+      "task": "E2a herb v\u012brya",
+      "model": "Logistic Regression",
+      "default_macro_f1_mean": 0.7844502904865709,
+      "default_macro_f1_std": 0.0458863364071079,
+      "tuned_macro_f1_mean": 0.764697042459732,
+      "tuned_macro_f1_std": 0.03510854687655782,
+      "gain": -0.019753248026838865,
+      "wilcoxon_p": 0.0390625,
+      "n_outer_folds": 10,
+      "chosen_params_per_fold": "[{\"C\": 0.31489116479568624}, {\"C\": 0.017073967431528128}, {\"C\": 0.31489116479568624}, {\"C\": 0.017073967431528128}, {\"C\": 0.31489116479568624}, {\"C\": 2.481040974867813}, {\"C\": 0.04207988669606638}, {\"C\": 0.017073967431528128}, {\"C\": 2.481040974867813}, {\"C\": 0.017073967431528128}]"
+    },
+    {
+      "task": "E2a herb v\u012brya",
+      "model": "SVM (RBF)",
+      "default_macro_f1_mean": 0.7813704014879905,
+      "default_macro_f1_std": 0.04416643466064254,
+      "tuned_macro_f1_mean": 0.7746182430163012,
+      "tuned_macro_f1_std": 0.04525287607296546,
+      "gain": -0.006752158471689307,
+      "wilcoxon_p": 0.25,
+      "n_outer_folds": 10,
+      "chosen_params_per_fold": "[{\"C\": 31.428808908401084, \"gamma\": 0.004335281794951565}, {\"C\": 0.7523742884534856, \"gamma\": 0.01256277350380703}, {\"C\": 2.334586407601624, \"gamma\": 0.22673986523780384}, {\"C\": 1.976218934028007, \"gamma\": 0.007476312062252299}, {\"C\": 2.334586407601624, \"gamma\": 0.22673986523780384}, {\"C\": 2.334586407601624, \"gamma\": 0.22673986523780384}, {\"C\": 6.358358856676251, \"gamma\": 0.13311216080736885}, {\"C\": 2.334586407601624, \"gamma\": 0.22673986523780384}, {\"C\": 0.8179499475211672, \"gamma\": 0.03752055855124281}, {\"C\": 0.3972110727381912, \"gamma\": 0.034890188454913866}]"
+    },
+    {
+      "task": "E2a herb v\u012brya",
+      "model": "k-Nearest Neighbours",
+      "default_macro_f1_mean": 0.7672191066321292,
+      "default_macro_f1_std": 0.053822470239352174,
+      "tuned_macro_f1_mean": 0.7628322629848924,
+      "tuned_macro_f1_std": 0.04067310065771109,
+      "gain": -0.004386843647236849,
+      "wilcoxon_p": 0.546875,
+      "n_outer_folds": 10,
+      "chosen_params_per_fold": "[{\"n_neighbors\": 21, \"weights\": \"distance\"}, {\"n_neighbors\": 7, \"weights\": \"distance\"}, {\"n_neighbors\": 21, \"weights\": \"uniform\"}, {\"n_neighbors\": 9, \"weights\": \"uniform\"}, {\"n_neighbors\": 21, \"weights\": \"uniform\"}, {\"n_neighbors\": 5, \"weights\": \"uniform\"}, {\"n_neighbors\": 21, \"weights\": \"uniform\"}, {\"n_neighbors\": 15, \"weights\": \"uniform\"}, {\"n_neighbors\": 21, \"weights\": \"distance\"}, {\"n_neighbors\": 15, \"weights\": \"uniform\"}]"
+    },
+    {
+      "task": "E2a herb v\u012brya",
+      "model": "Random Forest",
+      "default_macro_f1_mean": 0.7939980414620351,
+      "default_macro_f1_std": 0.03930484018026666,
+      "tuned_macro_f1_mean": 0.775082270031507,
+      "tuned_macro_f1_std": 0.03626572818717047,
+      "gain": -0.01891577143052814,
+      "wilcoxon_p": 0.193359375,
+      "n_outer_folds": 10,
+      "chosen_params_per_fold": "[{\"min_samples_leaf\": 1, \"max_features\": \"log2\", \"max_depth\": null}, {\"min_samples_leaf\": 1, \"max_features\": 0.3, \"max_depth\": 6}, {\"min_samples_leaf\": 1, \"max_features\": 0.3, \"max_depth\": 12}, {\"min_samples_leaf\": 1, \"max_features\": 0.3, \"max_depth\": 12}, {\"min_samples_leaf\": 1, \"max_features\": \"log2\", \"max_depth\": null}, {\"min_samples_leaf\": 1, \"max_features\": 0.3, \"max_depth\": 12}, {\"min_samples_leaf\": 2, \"max_features\": \"log2\", \"max_depth\": 12}, {\"min_samples_leaf\": 1, \"max_features\": \"log2\", \"max_depth\": null}, {\"min_samples_leaf\": 1, \"max_features\": 0.5, \"max_depth\": null}, {\"min_samples_leaf\": 1, \"max_features\": \"log2\", \"max_depth\": null}]"
+    },
+    {
+      "task": "E2a herb v\u012brya",
+      "model": "LightGBM",
+      "default_macro_f1_mean": 0.7911923618537586,
+      "default_macro_f1_std": 0.03378813700679981,
+      "tuned_macro_f1_mean": 0.7752054339624557,
+      "tuned_macro_f1_std": 0.03889212781493786,
+      "gain": -0.01598692789130296,
+      "wilcoxon_p": 0.232421875,
+      "n_outer_folds": 10,
+      "chosen_params_per_fold": "[{\"learning_rate\": 0.015958237752949748, \"min_child_samples\": 21, \"n_estimators\": 314, \"num_leaves\": 14, \"reg_lambda\": 0.068706142826133}, {\"learning_rate\": 0.010715314115595202, \"min_child_samples\": 29, \"n_estimators\": 158, \"num_leaves\": 13, \"reg_lambda\": 0.0015369603110608836}, {\"learning_rate\": 0.017322667470546258, \"min_child_samples\": 14, \"n_estimators\": 413, \"num_leaves\": 25, \"reg_lambda\": 0.0010672476836323724}, {\"learning_rate\": 0.017262139284006217, \"min_child_samples\": 6, \"n_estimators\": 101, \"num_leaves\": 9, \"reg_lambda\": 0.00678838791242122}, {\"learning_rate\": 0.05477661047824165, \"min_child_samples\": 20, \"n_estimators\": 317, \"num_leaves\": 15, \"reg_lambda\": 5.727904470799623}, {\"learning_rate\": 0.017322667470546258, \"min_child_samples\": 14, \"n_estimators\": 413, \"num_leaves\": 25, \"reg_lambda\": 0.0010672476836323724}, {\"learning_rate\": 0.0271747096730583, \"min_child_samples\": 10, \"n_estimators\": 251, \"num_leaves\": 6, \"reg_lambda\": 0.0012087541473056963}, {\"learning_rate\": 0.017262139284006217, \"min_child_samples\": 6, \"n_estimators\": 101, \"num_leaves\": 9, \"reg_lambda\": 0.00678838791242122}, {\"learning_rate\": 0.0271747096730583, \"min_child_samples\": 10, \"n_estimators\": 251, \"num_leaves\": 6, \"reg_lambda\": 0.0012087541473056963}, {\"learning_rate\": 0.013399060561509796, \"min_child_samples\": 22, \"n_estimators\": 191, \"num_leaves\": 18, \"reg_lambda\": 0.5408216580718497}]"
+    },
+    {
+      "task": "E4 prak\u1e5bti (synthetic)",
+      "model": "Logistic Regression",
+      "default_macro_f1_mean": 0.6319404759895364,
+      "default_macro_f1_std": 0.015948246454145245,
+      "tuned_macro_f1_mean": 0.644088707951153,
+      "tuned_macro_f1_std": 0.017375888488617357,
+      "gain": 0.012148231961616629,
+      "wilcoxon_p": 0.0625,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"C\": 0.31489116479568624}, {\"C\": 0.017073967431528128}, {\"C\": 0.017073967431528128}, {\"C\": 0.04207988669606638}, {\"C\": 0.04207988669606638}]"
+    },
+    {
+      "task": "E4 prak\u1e5bti (synthetic)",
+      "model": "Random Forest",
+      "default_macro_f1_mean": 0.49179288783190156,
+      "default_macro_f1_std": 0.015529924034851884,
+      "tuned_macro_f1_mean": 0.5929584880267528,
+      "tuned_macro_f1_std": 0.02117107095359408,
+      "gain": 0.10116560019485121,
+      "wilcoxon_p": 0.0625,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"min_samples_leaf\": 6, \"max_features\": \"sqrt\", \"max_depth\": 10}, {\"min_samples_leaf\": 6, \"max_features\": \"sqrt\", \"max_depth\": 10}, {\"min_samples_leaf\": 6, \"max_features\": \"sqrt\", \"max_depth\": 10}, {\"min_samples_leaf\": 6, \"max_features\": \"sqrt\", \"max_depth\": 10}, {\"min_samples_leaf\": 6, \"max_features\": \"sqrt\", \"max_depth\": 10}]"
+    },
+    {
+      "task": "E4 prak\u1e5bti (synthetic)",
+      "model": "LightGBM",
+      "default_macro_f1_mean": 0.5649750295328799,
+      "default_macro_f1_std": 0.012441672317977255,
+      "tuned_macro_f1_mean": 0.5724770515746358,
+      "tuned_macro_f1_std": 0.017592136199434696,
+      "gain": 0.007502022041755874,
+      "wilcoxon_p": 0.3125,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"learning_rate\": 0.02277411842751364, \"min_child_samples\": 28, \"n_estimators\": 393, \"num_leaves\": 8}, {\"learning_rate\": 0.08182441148887568, \"min_child_samples\": 32, \"n_estimators\": 287, \"num_leaves\": 22}, {\"learning_rate\": 0.02277411842751364, \"min_child_samples\": 28, \"n_estimators\": 393, \"num_leaves\": 8}, {\"learning_rate\": 0.02277411842751364, \"min_child_samples\": 28, \"n_estimators\": 393, \"num_leaves\": 8}, {\"learning_rate\": 0.1204262037029521, \"min_child_samples\": 25, \"n_estimators\": 202, \"num_leaves\": 25}]"
+    },
+    {
+      "task": "E4 prak\u1e5bti (synthetic)",
+      "model": "MLP (neural net)",
+      "default_macro_f1_mean": 0.629012832989979,
+      "default_macro_f1_std": 0.03171799128716261,
+      "tuned_macro_f1_mean": 0.6374228570451821,
+      "tuned_macro_f1_std": 0.012231520689006603,
+      "gain": 0.00841002405520308,
+      "wilcoxon_p": 0.625,
+      "n_outer_folds": 5,
+      "chosen_params_per_fold": "[{\"alpha\": 0.00021618942406574428, \"hidden_layer_sizes\": [256, 128]}, {\"alpha\": 5.4167545832474595e-05, \"hidden_layer_sizes\": [256, 128]}, {\"alpha\": 0.00021618942406574428, \"hidden_layer_sizes\": [256, 128]}, {\"alpha\": 1.7073967431528103e-05, \"hidden_layer_sizes\": [256, 128]}, {\"alpha\": 0.00021618942406574428, \"hidden_layer_sizes\": [256, 128]}]"
+    }
+  ],
+  "method": "nested CV: inner 3-fold grid/random search on macro-F1 inside each outer fold; default vs tuned on identical outer folds; Wilcoxon signed-rank test on the paired fold scores",
+  "outer_cv": {
+    "E1a": "5-fold",
+    "E2a": "5-fold x 2 repeats",
+    "E4": "5-fold"
+  }
+}

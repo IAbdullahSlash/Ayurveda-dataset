@@ -1,0 +1,174 @@
+{
+  "case_report_entities": {
+    "rows": 8023,
+    "columns": 4
+  },
+  "case_report_links": {
+    "rows": 867,
+    "columns": 10
+  },
+  "case_report_symptoms_semantic": {
+    "rows": 1539,
+    "columns": 4
+  },
+  "case_reports": {
+    "rows": 565,
+    "columns": 28
+  },
+  "clinical_trials": {
+    "rows": 6435,
+    "columns": 12
+  },
+  "concept_members": {
+    "rows": 8597,
+    "columns": 7
+  },
+  "controlled_vocabulary": {
+    "rows": 135,
+    "columns": 7
+  },
+  "diagnostic_methods": {
+    "rows": 43,
+    "columns": 21
+  },
+  "diet_lifestyle": {
+    "rows": 381,
+    "columns": 25
+  },
+  "disease_symptom": {
+    "rows": 11884,
+    "columns": 7
+  },
+  "disease_symptom_from_cases": {
+    "rows": 3905,
+    "columns": 7
+  },
+  "disease_symptom_inferred": {
+    "rows": 10082,
+    "columns": 5
+  },
+  "disease_symptom_who": {
+    "rows": 13639,
+    "columns": 7
+  },
+  "diseases": {
+    "rows": 2892,
+    "columns": 49
+  },
+  "dosha_suggestions": {
+    "rows": 1420,
+    "columns": 8
+  },
+  "evidence_queries": {
+    "rows": 1539,
+    "columns": 6
+  },
+  "formulation_indication_evidence": {
+    "rows": 121,
+    "columns": 16
+  },
+  "formulation_indications": {
+    "rows": 155,
+    "columns": 3
+  },
+  "formulation_ingredients": {
+    "rows": 500,
+    "columns": 7
+  },
+  "formulations": {
+    "rows": 43,
+    "columns": 29
+  },
+  "headword_concepts": {
+    "rows": 3347,
+    "columns": 9
+  },
+  "herb_ethnobotany": {
+    "rows": 2872,
+    "columns": 6
+  },
+  "herb_group_members": {
+    "rows": 500,
+    "columns": 7
+  },
+  "herb_groups": {
+    "rows": 50,
+    "columns": 11
+  },
+  "herb_image_datasets": {
+    "rows": 214,
+    "columns": 11
+  },
+  "herb_indication": {
+    "rows": 1693,
+    "columns": 8
+  },
+  "herb_indication_evidence": {
+    "rows": 1427,
+    "columns": 16
+  },
+  "herb_karma": {
+    "rows": 829,
+    "columns": 8
+  },
+  "herb_names": {
+    "rows": 3639,
+    "columns": 4
+  },
+  "herb_phytochemicals": {
+    "rows": 23771,
+    "columns": 9
+  },
+  "herbs": {
+    "rows": 466,
+    "columns": 54
+  },
+  "multiscript_names": {
+    "rows": 20895,
+    "columns": 12
+  },
+  "pharmaceutics": {
+    "rows": 393,
+    "columns": 25
+  },
+  "phytochemical_activities": {
+    "rows": 13538,
+    "columns": 5
+  },
+  "phytochemicals": {
+    "rows": 1959,
+    "columns": 13
+  },
+  "prakriti_synthetic_cohort": {
+    "rows": 3000,
+    "columns": 33
+  },
+  "qa_pairs": {
+    "rows": 4836,
+    "columns": 7
+  },
+  "sources": {
+    "rows": 14,
+    "columns": 5
+  },
+  "symptoms": {
+    "rows": 11081,
+    "columns": 14
+  },
+  "terminology": {
+    "rows": 6233,
+    "columns": 25
+  },
+  "therapies": {
+    "rows": 1325,
+    "columns": 26
+  },
+  "therapy_disease": {
+    "rows": 6474,
+    "columns": 11
+  },
+  "therapy_evidence": {
+    "rows": 12,
+    "columns": 3
+  }
+}

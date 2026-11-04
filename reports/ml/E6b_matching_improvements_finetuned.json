@@ -1,0 +1,144 @@
+{
+  "variants": {
+    "V0 baseline (lexical, flat ranking)": {
+      "hit@1": 0.024,
+      "hit@3": 0.094,
+      "hit@10": 0.2,
+      "hit@30": 0.318,
+      "MRR": 0.085,
+      "n_cases": 85.0
+    },
+    "V1 + clinical-term crosswalk": {
+      "hit@1": 0.035,
+      "hit@3": 0.082,
+      "hit@10": 0.235,
+      "hit@30": 0.365,
+      "MRR": 0.095,
+      "n_cases": 85.0
+    },
+    "V2 + semantic clause matching": {
+      "hit@1": 0.035,
+      "hit@3": 0.082,
+      "hit@10": 0.235,
+      "hit@30": 0.365,
+      "MRR": 0.095,
+      "n_cases": 85.0
+    },
+    "V3 + disorder-group ranking": {
+      "hit@1": 0.035,
+      "hit@3": 0.082,
+      "hit@10": 0.271,
+      "hit@30": 0.4,
+      "MRR": 0.1,
+      "n_cases": 85.0
+    },
+    "V4 + profiles learned from real cases (5-fold CV)": {
+      "hit@1": 0.151,
+      "hit@3": 0.256,
+      "hit@10": 0.468,
+      "hit@30": 0.701,
+      "MRR": 0.252,
+      "n_cases": 85.0,
+      "hit@10_sd_over_seeds": 0.019,
+      "cv_seeds": 5
+    },
+    "V4-ablation: case-learned profiles only, no KB knowledge": {
+      "hit@1": 0.132,
+      "hit@3": 0.242,
+      "hit@10": 0.447,
+      "hit@30": 0.692,
+      "MRR": 0.229,
+      "n_cases": 85.0,
+      "hit@10_sd_over_seeds": 0.028,
+      "cv_seeds": 5
+    },
+    "V5 + modern diagnosis (MeSH) [diagnosis known]": {
+      "hit@1": 0.151,
+      "hit@3": 0.256,
+      "hit@10": 0.478,
+      "hit@30": 0.701,
+      "MRR": 0.251,
+      "n_cases": 85.0,
+      "hit@10_sd_over_seeds": 0.022,
+      "cv_seeds": 5
+    },
+    "baseline_training_diagnosis_frequency (no symptoms)": {
+      "hit@1": 0.042,
+      "hit@3": 0.169,
+      "hit@10": 0.348,
+      "hit@30": 0.666,
+      "MRR": 0.142,
+      "n_cases": 85.0
+    },
+    "V4 on all cases with 2+ symptoms after V2": {
+      "hit@1": 0.175,
+      "hit@3": 0.27,
+      "hit@10": 0.481,
+      "hit@30": 0.721,
+      "MRR": 0.269,
+      "n_cases": 89.0,
+      "hit@10_sd_over_seeds": 0.018,
+      "cv_seeds": 5
+    },
+    "baseline_popularity_group_level": {
+      "hit@1": 0.012,
+      "hit@3": 0.012,
+      "hit@10": 0.129,
+      "hit@30": 0.235,
+      "MRR": 0.041,
+      "n_cases": 85
+    },
+    "V3e group ranking, enriched KB profiles": {
+      "hit@1": 0.0,
+      "hit@3": 0.024,
+      "hit@10": 0.118,
+      "hit@30": 0.341,
+      "MRR": 0.04,
+      "n_cases": 85.0
+    },
+    "V4e case-learned + enriched KB profiles (5-fold CV)": {
+      "hit@1": 0.103,
+      "hit@3": 0.193,
+      "hit@10": 0.393,
+      "hit@30": 0.621,
+      "MRR": 0.189,
+      "n_cases": 85.0,
+      "hit@10_sd_over_seeds": 0.019,
+      "cv_seeds": 5
+    },
+    "V3w group ranking, + WHO sign lists only": {
+      "hit@1": 0.0,
+      "hit@3": 0.012,
+      "hit@10": 0.106,
+      "hit@30": 0.341,
+      "MRR": 0.039,
+      "n_cases": 85.0
+    },
+    "V4w case-learned + WHO sign lists (5-fold CV)": {
+      "hit@1": 0.101,
+      "hit@3": 0.179,
+      "hit@10": 0.374,
+      "hit@30": 0.623,
+      "MRR": 0.185,
+      "n_cases": 85.0,
+      "hit@10_sd_over_seeds": 0.027,
+      "cv_seeds": 5
+    },
+    "V3i group ranking, + inherited profiles only": {
+      "hit@1": 0.035,
+      "hit@3": 0.082,
+      "hit@10": 0.271,
+      "hit@30": 0.494,
+      "MRR": 0.105,
+      "n_cases": 85.0
+    }
+  },
+  "n_crosswalk_terms": 183,
+  "n_crosswalk_mapped": 155,
+  "median_symptom_ids": {
+    "V0": 23.0,
+    "V2": 28.0
+  },
+  "notes": "Same cases and gold labels as stage 14 (diagnosis named in title/keywords/abstract). Group = disorder or its depth-3 ancestor. V4 uses 5-fold CV over cases; V5 assumes the biomedical diagnosis is known.",
+  "search_model": "domain fine-tuned (stage 23)"
+}

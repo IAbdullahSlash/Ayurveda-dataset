@@ -1,0 +1,31 @@
+{
+  "herb_indication": {
+    "links": 1427,
+    "queryable": 1394,
+    "tiers": {
+      "no_literature": 518,
+      "sparse": 431,
+      "literature_supported": 241,
+      "clinical_evidence": 204,
+      "not_queryable": 33
+    },
+    "share_with_any_literature": 0.628,
+    "share_enriched_lift>=2": 0.406,
+    "share_with_clinical_study": 0.146,
+    "median_lift_when_cooccurring": 3.8049999999999997
+  },
+  "formulation_indications": {
+    "links": 121,
+    "queryable": 121,
+    "tiers": {
+      "no_literature": 73,
+      "sparse": 33,
+      "literature_supported": 9,
+      "clinical_evidence": 6
+    },
+    "share_with_any_literature": 0.397,
+    "share_enriched_lift>=2": 0.364,
+    "share_with_clinical_study": 0.05,
+    "median_lift_when_cooccurring": 20.66
+  }
+}

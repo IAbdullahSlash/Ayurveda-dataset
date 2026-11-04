@@ -1,0 +1,62 @@
+{
+  "morbidity": {
+    "n": 2910,
+    "official_iast_empty": 0.1405,
+    "deva_official_used": 0.988,
+    "tm2_linked": 807,
+    "with_long_definition": 1619
+  },
+  "sat": {
+    "n": 12080,
+    "per_section": {
+      "A": 319,
+      "B": 514,
+      "C": 176,
+      "D": 9401,
+      "F": 566,
+      "G": 198,
+      "H": 117,
+      "I": 664,
+      "J": 125
+    },
+    "corrupted_tokens": 2251,
+    "repaired_by_vocabulary": 1817,
+    "repaired_by_char_ngram": 213,
+    "unresolved": 221,
+    "repair_rate": 0.9018,
+    "rows_still_flagged": 146,
+    "vocab_size": 32907,
+    "char_ngram_heldout_evaluation": {
+      "n_train": 23161,
+      "n_test": 1500,
+      "exact_word_accuracy": 0.8567,
+      "precision_coverage_by_margin": {
+        "0.0": {
+          "coverage": 1.0,
+          "precision": 0.8567
+        },
+        "0.5": {
+          "coverage": 0.9213,
+          "precision": 0.8936
+        },
+        "1.0": {
+          "coverage": 0.858,
+          "precision": 0.92
+        },
+        "1.5": {
+          "coverage": 0.7767,
+          "precision": 0.9365
+        },
+        "2.0": {
+          "coverage": 0.686,
+          "precision": 0.9592
+        },
+        "3.0": {
+          "coverage": 0.4693,
+          "precision": 0.9815
+        }
+      }
+    },
+    "char_ngram_min_margin": 2.0
+  }
+}

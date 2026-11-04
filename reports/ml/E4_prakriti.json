@@ -1,0 +1,589 @@
+{
+  "results": [
+    {
+      "model": "Naive Bayes",
+      "accuracy_mean": 0.7296666666666667,
+      "accuracy_std": 0.016189845926107865,
+      "balanced_accuracy_mean": 0.6573488713382257,
+      "balanced_accuracy_std": 0.017418350553665782,
+      "macro_f1_mean": 0.6531886467289796,
+      "macro_f1_std": 0.017230771460662007,
+      "weighted_f1_mean": 0.7332843055572215,
+      "weighted_f1_std": 0.014782625000686759,
+      "roc_auc_ovr_mean": 0.942088596258049,
+      "roc_auc_ovr_std": 0.004290537193835888,
+      "log_loss_mean": 1.1930754467561373,
+      "log_loss_std": 0.09676326257584131,
+      "ece_mean": 0.17161058542465674,
+      "ece_std": 0.015926418938102652,
+      "fit_s_mean": 0.005718326568603516,
+      "fit_s_std": 0.00019175670607323497,
+      "top3_accuracy_mean": 0.944,
+      "top3_accuracy_std": 0.00856997342145495
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.6980000000000001,
+      "accuracy_std": 0.008491826135237995,
+      "balanced_accuracy_mean": 0.6455036604948228,
+      "balanced_accuracy_std": 0.013758896322809749,
+      "macro_f1_mean": 0.6337938007836794,
+      "macro_f1_std": 0.011867740204446375,
+      "weighted_f1_mean": 0.7113349194942737,
+      "weighted_f1_std": 0.00974189303256266,
+      "roc_auc_ovr_mean": 0.9305946276640261,
+      "roc_auc_ovr_std": 0.004796657422887917,
+      "log_loss_mean": 0.8537690239721207,
+      "log_loss_std": 0.0364529448212532,
+      "ece_mean": 0.06023012277262674,
+      "ece_std": 0.007879281890774189,
+      "fit_s_mean": 0.10267031192779541,
+      "fit_s_std": 0.03226615556028555,
+      "top3_accuracy_mean": 0.943,
+      "top3_accuracy_std": 0.0050442486501405155
+    },
+    {
+      "model": "Stacking Ensemble (LR,RF,SVM -> LR)",
+      "accuracy_mean": 0.7341666666666666,
+      "accuracy_std": 0.016111590031195965,
+      "balanced_accuracy_mean": 0.6372599784881013,
+      "balanced_accuracy_std": 0.02084856803892218,
+      "macro_f1_mean": 0.633686286563871,
+      "macro_f1_std": 0.02239607689438417,
+      "weighted_f1_mean": 0.723995438728652,
+      "weighted_f1_std": 0.01717499744396537,
+      "roc_auc_ovr_mean": 0.9404222089342882,
+      "roc_auc_ovr_std": 0.005048496715614852,
+      "log_loss_mean": 0.7253212982293984,
+      "log_loss_std": 0.028448600625317552,
+      "ece_mean": 0.041500440691581056,
+      "ece_std": 0.011886981685695233,
+      "fit_s_mean": 9.490914583206177,
+      "fit_s_std": 0.1915799139979284,
+      "top3_accuracy_mean": 0.9494999999999999,
+      "top3_accuracy_std": 0.008532617157446794
+    },
+    {
+      "model": "MLP (neural net)",
+      "accuracy_mean": 0.7271666666666666,
+      "accuracy_std": 0.02071030339388263,
+      "balanced_accuracy_mean": 0.6309365234176317,
+      "balanced_accuracy_std": 0.026275027486353835,
+      "macro_f1_mean": 0.6298677782411991,
+      "macro_f1_std": 0.026173502070128158,
+      "weighted_f1_mean": 0.7186294187611001,
+      "weighted_f1_std": 0.02188385263556509,
+      "roc_auc_ovr_mean": 0.9377897894708594,
+      "roc_auc_ovr_std": 0.005784021943922689,
+      "log_loss_mean": 0.7479815540723239,
+      "log_loss_std": 0.05031576125673707,
+      "ece_mean": 0.045523290418809495,
+      "ece_std": 0.02188934131886568,
+      "fit_s_mean": 0.32844974994659426,
+      "fit_s_std": 0.08663186809337163,
+      "top3_accuracy_mean": 0.9445,
+      "top3_accuracy_std": 0.007675719293112963
+    },
+    {
+      "model": "SVM (RBF)",
+      "accuracy_mean": 0.7203333333333333,
+      "accuracy_std": 0.01322455628325157,
+      "balanced_accuracy_mean": 0.6216777131146419,
+      "balanced_accuracy_std": 0.021851271507929416,
+      "macro_f1_mean": 0.621710807975423,
+      "macro_f1_std": 0.022302783487581673,
+      "weighted_f1_mean": 0.7113367341366523,
+      "weighted_f1_std": 0.014915705691764279,
+      "roc_auc_ovr_mean": 0.9346338700854352,
+      "roc_auc_ovr_std": 0.004383523598332771,
+      "log_loss_mean": 0.7426727556959712,
+      "log_loss_std": 0.024880599894006712,
+      "ece_mean": 0.039133403915561,
+      "ece_std": 0.01139283915300158,
+      "fit_s_mean": 1.098874855041504,
+      "fit_s_std": 0.03790280524646328,
+      "top3_accuracy_mean": 0.9426666666666665,
+      "top3_accuracy_std": 0.006839428176227704
+    },
+    {
+      "model": "Classical questionnaire scoring (count V/P/K answers)",
+      "accuracy_mean": 0.7216666666666667,
+      "accuracy_std": 0.0,
+      "balanced_accuracy_mean": NaN,
+      "balanced_accuracy_std": NaN,
+      "macro_f1_mean": 0.6179923553243859,
+      "macro_f1_std": 0.0,
+      "weighted_f1_mean": NaN,
+      "weighted_f1_std": NaN,
+      "roc_auc_ovr_mean": NaN,
+      "roc_auc_ovr_std": NaN,
+      "log_loss_mean": NaN,
+      "log_loss_std": NaN,
+      "ece_mean": NaN,
+      "ece_std": NaN,
+      "fit_s_mean": NaN,
+      "fit_s_std": NaN,
+      "top3_accuracy_mean": NaN,
+      "top3_accuracy_std": NaN
+    },
+    {
+      "model": "Soft-Voting Ensemble (LR+RF+LGBM)",
+      "accuracy_mean": 0.7099999999999999,
+      "accuracy_std": 0.01278019300845388,
+      "balanced_accuracy_mean": 0.6105630113227323,
+      "balanced_accuracy_std": 0.018391369110118714,
+      "macro_f1_mean": 0.6124211734030329,
+      "macro_f1_std": 0.018383110954268596,
+      "weighted_f1_mean": 0.7023755402449711,
+      "weighted_f1_std": 0.01376623707145576,
+      "roc_auc_ovr_mean": 0.9338361487907927,
+      "roc_auc_ovr_std": 0.004263924406099864,
+      "log_loss_mean": 0.7787748286326173,
+      "log_loss_std": 0.01904640356813222,
+      "ece_mean": 0.05929072898490519,
+      "ece_std": 0.015520540430770917,
+      "fit_s_mean": 2.721735715866089,
+      "fit_s_std": 0.07563008758545918,
+      "top3_accuracy_mean": 0.9391666666666667,
+      "top3_accuracy_std": 0.004297932319409199
+    },
+    {
+      "model": "XGBoost",
+      "accuracy_mean": 0.6991666666666665,
+      "accuracy_std": 0.011528949070347507,
+      "balanced_accuracy_mean": 0.5866908927623266,
+      "balanced_accuracy_std": 0.019398126512900835,
+      "macro_f1_mean": 0.590584223817591,
+      "macro_f1_std": 0.021631060806633254,
+      "weighted_f1_mean": 0.6847164675223718,
+      "weighted_f1_std": 0.01347441613787508,
+      "roc_auc_ovr_mean": 0.9268025661309858,
+      "roc_auc_ovr_std": 0.005775523145238047,
+      "log_loss_mean": 0.8114283893906362,
+      "log_loss_std": 0.03353959518618799,
+      "ece_mean": 0.06736890333890913,
+      "ece_std": 0.014757248464343783,
+      "fit_s_mean": 1.1722093582153321,
+      "fit_s_std": 0.10917519866720146,
+      "top3_accuracy_mean": 0.9338333333333333,
+      "top3_accuracy_std": 0.004219662967057386
+    },
+    {
+      "model": "LightGBM",
+      "accuracy_mean": 0.6895,
+      "accuracy_std": 0.008661857640124197,
+      "balanced_accuracy_mean": 0.5648820681871164,
+      "balanced_accuracy_std": 0.012351506679954292,
+      "macro_f1_mean": 0.5659895430997073,
+      "macro_f1_std": 0.014184156863906946,
+      "weighted_f1_mean": 0.6682521657980687,
+      "weighted_f1_std": 0.008816062394240404,
+      "roc_auc_ovr_mean": 0.9213339653028851,
+      "roc_auc_ovr_std": 0.005382397890629327,
+      "log_loss_mean": 0.8775925432799392,
+      "log_loss_std": 0.03866914149124181,
+      "ece_mean": 0.10188250873671474,
+      "ece_std": 0.013774133268703926,
+      "fit_s_mean": 0.8805745601654053,
+      "fit_s_std": 0.08219193236821086,
+      "top3_accuracy_mean": 0.93,
+      "top3_accuracy_std": 0.008399735445569425
+    },
+    {
+      "model": "Gradient Boosting (HistGB)",
+      "accuracy_mean": 0.6843333333333332,
+      "accuracy_std": 0.01059874206372309,
+      "balanced_accuracy_mean": 0.5605384929208543,
+      "balanced_accuracy_std": 0.01658253298795825,
+      "macro_f1_mean": 0.5620418423819509,
+      "macro_f1_std": 0.01745119080462119,
+      "weighted_f1_mean": 0.6636656004671865,
+      "weighted_f1_std": 0.011570869257937115,
+      "roc_auc_ovr_mean": 0.917418896528998,
+      "roc_auc_ovr_std": 0.003940924229857551,
+      "log_loss_mean": 1.3238750596222935,
+      "log_loss_std": 0.07350980050078346,
+      "ece_mean": 0.20413572765710541,
+      "ece_std": 0.013169024901428145,
+      "fit_s_mean": 8.85253186225891,
+      "fit_s_std": 0.16799991765514205,
+      "top3_accuracy_mean": 0.9223333333333334,
+      "top3_accuracy_std": 0.009580071908799939
+    },
+    {
+      "model": "Extra Trees",
+      "accuracy_mean": 0.6668333333333332,
+      "accuracy_std": 0.013893443697578306,
+      "balanced_accuracy_mean": 0.4998946633145665,
+      "balanced_accuracy_std": 0.018451606033345967,
+      "macro_f1_mean": 0.4878187587334855,
+      "macro_f1_std": 0.024516431284117426,
+      "weighted_f1_mean": 0.6122992282320211,
+      "weighted_f1_std": 0.018679831897021406,
+      "roc_auc_ovr_mean": 0.9201796134960267,
+      "roc_auc_ovr_std": 0.003763631420521025,
+      "log_loss_mean": 0.9286534653566536,
+      "log_loss_std": 0.014103124170217212,
+      "ece_mean": 0.11735666666666664,
+      "ece_std": 0.014274924863588986,
+      "fit_s_mean": 1.7727178812026978,
+      "fit_s_std": 0.021964993223809445,
+      "top3_accuracy_mean": 0.9158333333333333,
+      "top3_accuracy_std": 0.010226599304428308
+    },
+    {
+      "model": "Random Forest",
+      "accuracy_mean": 0.6673333333333333,
+      "accuracy_std": 0.011455226851626397,
+      "balanced_accuracy_mean": 0.4950328089462638,
+      "balanced_accuracy_std": 0.013203513082305987,
+      "macro_f1_mean": 0.4803167716485096,
+      "macro_f1_std": 0.017235382399073854,
+      "weighted_f1_mean": 0.6077575214896379,
+      "weighted_f1_std": 0.013794640444153556,
+      "roc_auc_ovr_mean": 0.9241676646246386,
+      "roc_auc_ovr_std": 0.004060038284259797,
+      "log_loss_mean": 0.9407651464087066,
+      "log_loss_std": 0.011485064901720089,
+      "ece_mean": 0.13460833333333336,
+      "ece_std": 0.014369792293403382,
+      "fit_s_mean": 1.7544963359832764,
+      "fit_s_std": 0.04530813532608352,
+      "top3_accuracy_mean": 0.9205,
+      "top3_accuracy_std": 0.009130230616534884
+    },
+    {
+      "model": "k-Nearest Neighbours",
+      "accuracy_mean": 0.6553333333333333,
+      "accuracy_std": 0.007520342781785632,
+      "balanced_accuracy_mean": 0.4714997071253898,
+      "balanced_accuracy_std": 0.007460867313867636,
+      "macro_f1_mean": 0.4454761610822617,
+      "macro_f1_std": 0.009598392261224163,
+      "weighted_f1_mean": 0.5823057841232967,
+      "weighted_f1_std": 0.008952260609608477,
+      "roc_auc_ovr_mean": 0.8550724995507227,
+      "roc_auc_ovr_std": 0.006847467851459661,
+      "log_loss_mean": 2.1866423677779485,
+      "log_loss_std": 0.10204210457753547,
+      "ece_mean": 0.12700167823702574,
+      "ece_std": 0.01274636764389673,
+      "fit_s_mean": 0.0011286020278930664,
+      "fit_s_std": 0.00014351828318978133,
+      "top3_accuracy_mean": 0.8863333333333333,
+      "top3_accuracy_std": 0.010770329614269018
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy_mean": 0.4836666666666667,
+      "accuracy_std": 0.021145002036204938,
+      "balanced_accuracy_mean": 0.4177167183579248,
+      "balanced_accuracy_std": 0.021247479897098513,
+      "macro_f1_mean": 0.4187769518401292,
+      "macro_f1_std": 0.01856027046130314,
+      "weighted_f1_mean": 0.5090349811631654,
+      "weighted_f1_std": 0.01769686619454331,
+      "roc_auc_ovr_mean": 0.7052746274714282,
+      "roc_auc_ovr_std": 0.010417925460059672,
+      "log_loss_mean": 6.192980765394512,
+      "log_loss_std": 0.243514279354872,
+      "ece_mean": 0.3657803848528202,
+      "ece_std": 0.020903073645053154,
+      "fit_s_mean": 0.022378182411193846,
+      "fit_s_std": 0.0008071590726662326,
+      "top3_accuracy_mean": 0.7088333333333333,
+      "top3_accuracy_std": 0.017951323071016257
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.22566666666666668,
+      "accuracy_std": 0.0008164965809277177,
+      "balanced_accuracy_mean": 0.14285714285714285,
+      "balanced_accuracy_std": 0.0,
+      "macro_f1_mean": 0.052604892888832556,
+      "macro_f1_std": 0.00015524716331494044,
+      "weighted_f1_mean": 0.08309908311150546,
+      "weighted_f1_std": 0.0005462630186508456,
+      "roc_auc_ovr_mean": 0.5,
+      "roc_auc_ovr_std": 0.0,
+      "log_loss_mean": 12.48077873239206,
+      "log_loss_std": 0.0131603699900739,
+      "ece_mean": 0.7743333333333334,
+      "ece_std": 0.0008164965809277449,
+      "fit_s_mean": 0.0006191015243530273,
+      "fit_s_std": 0.00017008555010814341,
+      "top3_accuracy_mean": 0.39133333333333337,
+      "top3_accuracy_std": 0.0006666666666666598
+    }
+  ],
+  "n": 3000,
+  "class_counts": {
+    "V": 677,
+    "VP": 332,
+    "VK": 272,
+    "PK": 275,
+    "K": 616,
+    "P": 663,
+    "VPK": 165
+  },
+  "best_model": "Naive Bayes",
+  "post_processing": {
+    "model": "Naive Bayes",
+    "test_accuracy_raw": 0.7586666666666667,
+    "test_accuracy_calibrated": 0.7493333333333333,
+    "ece_raw": 0.14433366154162885,
+    "ece_calibrated": 0.06102772726109322,
+    "selective_raw": [
+      {
+        "coverage": 1.0,
+        "accuracy": 0.7586666666666667,
+        "threshold": 0.30931685557705735
+      },
+      {
+        "coverage": 0.9093333333333333,
+        "accuracy": 0.7947214076246334,
+        "threshold": 0.6107560948509062
+      },
+      {
+        "coverage": 0.82,
+        "accuracy": 0.8308943089430895,
+        "threshold": 0.7855791097040674
+      },
+      {
+        "coverage": 0.7293333333333333,
+        "accuracy": 0.8628884826325411,
+        "threshold": 0.8877899407705906
+      },
+      {
+        "coverage": 0.64,
+        "accuracy": 0.8958333333333334,
+        "threshold": 0.938171890806759
+      },
+      {
+        "coverage": 0.5493333333333333,
+        "accuracy": 0.9223300970873787,
+        "threshold": 0.9736828656930124
+      },
+      {
+        "coverage": 0.46,
+        "accuracy": 0.9391304347826087,
+        "threshold": 0.9914593497478894
+      },
+      {
+        "coverage": 0.37066666666666664,
+        "accuracy": 0.9568345323741008,
+        "threshold": 0.9973518498636686
+      },
+      {
+        "coverage": 0.28,
+        "accuracy": 0.9809523809523809,
+        "threshold": 0.999479830680872
+      },
+      {
+        "coverage": 0.19066666666666668,
+        "accuracy": 0.986013986013986,
+        "threshold": 0.999914840983434
+      },
+      {
+        "coverage": 0.1,
+        "accuracy": 1.0,
+        "threshold": 0.9999885542574266
+      }
+    ],
+    "selective_calibrated": [
+      {
+        "coverage": 1.0,
+        "accuracy": 0.7493333333333333,
+        "threshold": 0.19965725246149738
+      },
+      {
+        "coverage": 0.9093333333333333,
+        "accuracy": 0.8020527859237536,
+        "threshold": 0.4234669999456543
+      },
+      {
+        "coverage": 0.82,
+        "accuracy": 0.8471544715447155,
+        "threshold": 0.5287252501192229
+      },
+      {
+        "coverage": 0.7293333333333333,
+        "accuracy": 0.8720292504570384,
+        "threshold": 0.593997031176335
+      },
+      {
+        "coverage": 0.64,
+        "accuracy": 0.9020833333333333,
+        "threshold": 0.6593769648999925
+      },
+      {
+        "coverage": 0.5493333333333333,
+        "accuracy": 0.9174757281553398,
+        "threshold": 0.7314192286795344
+      },
+      {
+        "coverage": 0.46,
+        "accuracy": 0.9420289855072463,
+        "threshold": 0.8298142207165723
+      },
+      {
+        "coverage": 0.37066666666666664,
+        "accuracy": 0.960431654676259,
+        "threshold": 0.9358176283014803
+      },
+      {
+        "coverage": 0.28,
+        "accuracy": 0.9857142857142858,
+        "threshold": 0.9737639052574502
+      },
+      {
+        "coverage": 0.19066666666666668,
+        "accuracy": 0.986013986013986,
+        "threshold": 0.9903197279081513
+      },
+      {
+        "coverage": 0.10266666666666667,
+        "accuracy": 0.987012987012987,
+        "threshold": 0.9986206896551725
+      }
+    ],
+    "permutation_importance": [
+      {
+        "feature": "bmi",
+        "question": "bmi",
+        "importance": 0.04159999999999999
+      },
+      {
+        "feature": "Q06",
+        "question": "Hunger and thirst",
+        "importance": 0.03706666666666665
+      },
+      {
+        "feature": "Q03",
+        "question": "Skin",
+        "importance": 0.02959999999999998
+      },
+      {
+        "feature": "Q16",
+        "question": "Learning and memory",
+        "importance": 0.02639999999999998
+      },
+      {
+        "feature": "Q01",
+        "question": "Body build",
+        "importance": 0.02613333333333332
+      },
+      {
+        "feature": "Q11",
+        "question": "Voice",
+        "importance": 0.024266666666666638
+      },
+      {
+        "feature": "Q05",
+        "question": "Climate tolerance",
+        "importance": 0.022933333333333316
+      },
+      {
+        "feature": "Q14",
+        "question": "Sleep",
+        "importance": 0.022933333333333316
+      },
+      {
+        "feature": "Q23",
+        "question": "Weight tendency",
+        "importance": 0.021333333333333315
+      },
+      {
+        "feature": "Q13",
+        "question": "Gait",
+        "importance": 0.019466666666666632
+      },
+      {
+        "feature": "Q07",
+        "question": "Eating habit",
+        "importance": 0.018933333333333312
+      },
+      {
+        "feature": "Q21",
+        "question": "Mouth ulcers",
+        "importance": 0.01626666666666663
+      },
+      {
+        "feature": "Q02",
+        "question": "Joints",
+        "importance": 0.014666666666666672
+      },
+      {
+        "feature": "Q15",
+        "question": "Starting tasks",
+        "importance": 0.01466666666666665
+      },
+      {
+        "feature": "Q09",
+        "question": "Stool and urine",
+        "importance": 0.014400000000000013
+      },
+      {
+        "feature": "Q24",
+        "question": "Body warmth",
+        "importance": 0.011733333333333307
+      },
+      {
+        "feature": "Q20",
+        "question": "Signs of ageing",
+        "importance": 0.010666666666666647
+      },
+      {
+        "feature": "Q17",
+        "question": "Temperament",
+        "importance": 0.009866666666666645
+      },
+      {
+        "feature": "Q04",
+        "question": "Hair",
+        "importance": 0.009333333333333305
+      },
+      {
+        "feature": "Q18",
+        "question": "Attachments",
+        "importance": 0.008800000000000007
+      },
+      {
+        "feature": "Q08",
+        "question": "Sweating",
+        "importance": 0.007999999999999985
+      },
+      {
+        "feature": "Q12",
+        "question": "Speech",
+        "importance": 0.007733333333333303
+      },
+      {
+        "feature": "Q22",
+        "question": "Restlessness",
+        "importance": 0.005866666666666664
+      },
+      {
+        "feature": "Q19",
+        "question": "Sexual vigour",
+        "importance": 0.0040000000000000036
+      },
+      {
+        "feature": "Q10",
+        "question": "Body odour",
+        "importance": 0.003466666666666662
+      },
+      {
+        "feature": "sex",
+        "question": "sex",
+        "importance": 0.0005333333333333412
+      },
+      {
+        "feature": "age",
+        "question": "age",
+        "importance": -2.2204460492503132e-17
+      }
+    ]
+  },
+  "data_origin": "synthetic - metrics measure recovery of the generating model, NOT clinical validity"
+}

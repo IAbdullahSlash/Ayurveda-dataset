@@ -1,0 +1,81 @@
+{
+  "sample": 300,
+  "mean_backtranslation_chrF": 52.43,
+  "mean_chrF_unflagged": 52.62,
+  "mean_chrF_flagged": 51.29,
+  "share_chrF_ge_50": 0.55,
+  "examples": [
+    {
+      "en": "wavering liking and disliking of sound",
+      "hi": "शोर के प्रति संकोच और घृणा",
+      "back": "Reluctance and Loathing of Noise",
+      "chrF": 17.6
+    },
+    {
+      "en": "the part of a seed which acts as a food store for the developing plant embryo, usually containing starch with protein and other nutrients",
+      "hi": "बीज का वह भाग जो विकासशील पौधे के भ्रूण के लिए भोजन भंडार के रूप में कार्य करता है, जिसमें आमतौर पर प्रोटीन और अन्य पोषक तत्वों के साथ स्टार्च होता है",
+      "back": "The portion of the seed that serves as a food store for the developing plant embryo, usually containing starch with protein and other nutrients",
+      "chrF": 84.2
+    },
+    {
+      "en": "appearance of various types of pain",
+      "hi": "विभिन्न प्रकार के दर्द की उपस्थिति",
+      "back": "The presence of various types of pain",
+      "chrF": 75.6
+    },
+    {
+      "en": "Sialorrhoea disorder",
+      "hi": "सियालोरोरिया विकार",
+      "back": "Cialorrhea disorder",
+      "chrF": 72.2
+    },
+    {
+      "en": "fatal signs of madātyaya",
+      "hi": "मदात्यय के घातक लक्षण",
+      "back": "Deadly symptoms of madatya",
+      "chrF": 28.2
+    },
+    {
+      "en": "decayed muscles appearing like mud",
+      "hi": "मिट्टी की तरह दिखने वाली क्षय मांसपेशियां",
+      "back": "Muscles that look like soil decay",
+      "chrF": 32.1
+    },
+    {
+      "en": "A physiological type of bowel habit due to the dominance of vata.. The individual with this type of bowel habit either has hard bowel motions or needs to strain",
+      "hi": "वात की प्रभुत्व के कारण आंत की आदत का एक शारीरिक प्रकार... इस प्रकार की आंत की आदत वाले व्यक्ति में या तो आंत की कठोर गति होती है या उसे मल पर तनाव की आवश्यकता ",
+      "back": "A physical type of bowel habit due to the dominance of the ventricles... a person with this type of bowel habit either has a stiff bowel movement or needs strai",
+      "chrF": 66.2
+    },
+    {
+      "en": "Himalayan rhubarb can be substituted with 1. Rheum nobile Hook. f. & Thomson2. Rheum moorcroftianum Royle 3. Rheum spiciforme Royle",
+      "hi": "हिमालयी रबरब को 1. रेम नोबिल हुक. एफ. एंड थॉमसन2। रेम मूरकोर्टियनम रोयल 3। रेम स्पाइसीफॉर्म रोयल से बदलया जा सकता है।",
+      "back": "Himalayan rubber can be replaced by 1. Rem Nobile Hook. F. & Thompson 2. Rem Moorecortium Royal 3. Rem Spicyform Royal.",
+      "chrF": 43.3
+    },
+    {
+      "en": "rolling of eyes in all directions",
+      "hi": "आंखों की सभी दिशाओं में घूमना",
+      "back": "Moving in all directions of the eye",
+      "chrF": 58.1
+    },
+    {
+      "en": "sudation without involving fire",
+      "hi": "बिना आग के स्वेदन",
+      "back": "Sweden without fire",
+      "chrF": 31.2
+    },
+    {
+      "en": "slow speed of eating",
+      "hi": "खाने की धीमी गति",
+      "back": "Slow eating",
+      "chrF": 36.9
+    },
+    {
+      "en": "unilateral headache (hemicrania) every 10th day",
+      "hi": "एकतरफा सिरःशूल (सिरदर्द) (हेमिक्रैनिया) हर दसवें दिन",
+      "back": "One-sided headache (hemicrania) every tenth day",
+      "chrF": 65.0
+    }
+  ]
+}
