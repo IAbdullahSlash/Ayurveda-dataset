@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------------------------------------------
+# AyurKB - what is NOT versioned (everything here is rebuilt by run_all.sh or downloaded again)
+# ---------------------------------------------------------------------------------------------------------------
+
+# Third-party model weights (NLLB-200 2.4 GB, opus-mt, multilingual-e5) and the fine-tuned e5 (stage 23, 470 MB).
+# Download / rebuild: see README "Rebuild everything". Our own small trained classifiers ARE versioned.
+models/*
+!models/trained/
+
+# Large derived release artefacts (rebuilt by stages 08, 11 and 13 in minutes)
+release/*.zip
+release/ayurkb.sqlite
+release/ayurkb_corpus.jsonl
+release/embeddings/
+release/embeddings_ft/
+release/chembl/
+
+# Parquet copies of the CSV tables (written alongside every CSV; the CSVs are the source of truth)
+data/processed/*.parquet
+
+# Third-party article texts and abstracts from Europe PMC: never redistributed (stage 14 re-downloads them)
+data/interim/cache/epmc_fulltext/
+data/interim/cache/epmc_case_reports.json
+
+# Debug output from early PDF exploration (not used by the pipeline)
+data/interim/who/
+
+# Completed expert reviews contain reviewers' answers: merge them, don't publish the raw files
+review/returned/*.xlsx
+
+# Logs, caches, editor and OS files
+reports/*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+.venv/
+venv/
