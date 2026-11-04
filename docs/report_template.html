@@ -1,0 +1,415 @@
+<title>AyurKB Dataset Report</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column (manuscript folio) with wide figure bands; data tables scroll in their own frames */
+:root {
+  --bg: #f6f8f3;         /* page: leaf-tinted paper, not cream */
+  --surface: #fcfdf9;    /* cards / chart surface */
+  --ink: #17201b;        /* deep green-black */
+  --ink-2: #4b5a51;      /* secondary */
+  --muted: #7a877f;      /* axes, captions */
+  --rule: #dfe5dd;       /* hairlines */
+  --accent: #9a5f0c;     /* turmeric (text-safe) */
+  --series: #0f8a5f;     /* chart: models (validated) */
+  --series-best: #c07a12;/* chart: best model (validated) */
+  --baseline: #b9c2bb;   /* chart: baselines & classical rules */
+  --good: #0c7a2c; --warn: #9a6400;
+  --font-display: "Tiro Devanagari Sanskrit", "Noto Serif Devanagari", Georgia, serif;
+  --font-body: "Noto Sans", "Noto Sans Devanagari", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1411; --surface: #161c19; --ink: #e5ebe6; --ink-2: #b3c0b7; --muted: #879389; --rule: #2a332e;
+    --accent: #d9a54a; --series: #26a46f; --series-best: #b9801a; --baseline: #46524b; --good: #3fbf66; --warn: #e0a83a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1411; --surface: #161c19; --ink: #e5ebe6; --ink-2: #b3c0b7; --muted: #879389; --rule: #2a332e;
+  --accent: #d9a54a; --series: #26a46f; --series-best: #b9801a; --baseline: #46524b; --good: #3fbf66; --warn: #e0a83a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.6 var(--font-body); margin: 0; }
+.wrap { max-width: 1060px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.3rem); letter-spacing: -0.01em; }
+h2 { font-size: 1.7rem; }
+h3 { font-size: 1.2rem; }
+p { margin: 0; max-width: 68ch; }
+.eyebrow { font: 500 0.72rem/1 var(--font-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.lede { font-size: 1.08rem; color: var(--ink-2); }
+.muted { color: var(--muted); }
+.mono { font-family: var(--font-mono); font-size: 0.85em; }
+section { display: grid; gap: 18px; padding-block: 34px; border-top: 1px solid var(--rule); }
+header { display: grid; gap: 14px; padding-bottom: 26px; }
+.deva { font-family: var(--font-display); }
+.hi { font-family: "Noto Sans Devanagari", var(--font-body); }
+/* headline numbers */
+.figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--rule);
+  border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.figures div { background: var(--surface); padding: 14px 16px; display: grid; gap: 2px; }
+.figures b { font-size: 1.6rem; font-weight: 600; line-height: 1.1; }
+.figures span { font-size: 0.8rem; color: var(--ink-2); }
+/* record cards (one subject detail: the same concept in four scripts) */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; display: grid; gap: 8px; min-width: 0; }
+.card .big { font-family: var(--font-display); font-size: 1.9rem; line-height: 1.15; }
+.card dl { display: grid; grid-template-columns: max-content 1fr; gap: 3px 10px; margin: 0; font-size: 0.86rem; }
+.card dt { color: var(--muted); }
+.card dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.tag { display: inline-block; font: 500 0.68rem/1.5 var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--ink-2); border: 1px solid var(--rule); border-radius: 999px; padding: 0 8px; }
+/* pipeline */
+.stages { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+.stage { display: grid; gap: 6px; align-content: start; }
+.stage h3 { font-size: 1.05rem; }
+.stage ol { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; font-size: 0.9rem; color: var(--ink-2); }
+/* tables */
+.tbl { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+th, td { text-align: left; padding: 7px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); font-size: 0.78rem; letter-spacing: 0.02em; background: var(--bg); position: sticky; top: 0; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ok::before { content: "✓ "; color: var(--good); font-weight: 600; }
+.flag::before { content: "! "; color: var(--warn); font-weight: 600; }
+/* experiments */
+.exp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 18px; }
+.exp { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; gap: 10px; min-width: 0; }
+.exp .meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.exp .finding { font-size: 0.9rem; color: var(--ink-2); }
+.chart { width: 100%; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { font-family: var(--font-body); }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.78rem; color: var(--ink-2); }
+.legend i { display: inline-block; width: 12px; height: 8px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+details summary { cursor: pointer; font-size: 0.82rem; color: var(--ink-2); }
+details summary:focus-visible, a:focus-visible, .bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#tip { position: fixed; pointer-events: none; z-index: 20; background: var(--surface); color: var(--ink); border: 1px solid var(--rule);
+  border-radius: 8px; padding: 8px 10px; font-size: 0.8rem; box-shadow: 0 6px 24px rgba(0,0,0,0.12); max-width: 260px; }
+#tip b { font-size: 0.95rem; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 18px; align-items: start; }
+.meter { height: 8px; border-radius: 999px; background: var(--rule); overflow: hidden; }
+.meter > div { height: 100%; background: var(--series); border-radius: 999px; }
+code, pre { font-family: var(--font-mono); font-size: 0.82rem; }
+pre { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; overflow-x: auto; margin: 0; }
+a { color: var(--accent); }
+ul.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; max-width: 75ch; }
+@media (prefers-reduced-motion: no-preference) { .bar { transition: opacity 120ms ease; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Dataset report · v1.2 · <span id="gen"></span></span>
+    <h1>AyurKB <span class="deva muted" style="font-size:0.6em">आयुर्वेद ज्ञानकोश</span></h1>
+    <p class="lede">A bilingual (English · हिन्दी, with Sanskrit in IAST and Devanagari), hybrid Ayurveda knowledge base for expert
+      systems. It joins official terminology, materia medica, remedies and modern evidence, then benchmarks machine-learning
+      models on it. Only authoritative or openly licensed sources are used.</p>
+    <div class="figures" id="figures"></div>
+  </header>
+
+  <section>
+    <span class="eyebrow">One concept, four scripts</span>
+    <h2>What a record looks like</h2>
+    <p class="muted">Every disorder, symptom, herb and term carries its Sanskrit form (IAST and Devanagari), its Hindi usage form and English, plus the codes needed to link it to other systems.</p>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Coverage of the brief</span>
+    <h2>Inside the dataset</h2>
+    <div class="tbl"><table id="tables"></table></div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Sources</span>
+    <h2>Authorized sources only</h2>
+    <p class="muted">Each candidate was checked for licence, provenance and content quality. Rejected candidates and the reasons are listed in <span class="mono">docs/SOURCES.md</span>.</p>
+    <div class="tbl"><table id="sources"></table></div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Pipeline</span>
+    <h2>Pre-processing, integration, post-processing</h2>
+    <div class="stages" id="stages"></div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Quality</span>
+    <h2>Measured, not assumed</h2>
+    <div class="two">
+      <div class="tbl"><table id="quality"></table></div>
+      <div style="display:grid;gap:12px">
+        <h3>Bilingual layer</h3>
+        <div class="tbl"><table id="bilingual"></table></div>
+        <p class="muted" style="font-size:0.85rem">Hindi names of Sanskrit terms are rule-derived. English descriptions are machine-translated (NLLB-200 with an injected Ayurveda glossary) and each carries quality flags.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Machine learning</span>
+    <h2>Algorithms compared</h2>
+    <p class="muted">Repeated stratified k-fold cross-validation with fixed, untuned hyperparameters (one configuration per algorithm, identical across experiments). Bars show the mean; the best model is in turmeric, other models in green, and baselines (majority class, classical Ayurvedic rules, the no-training knowledge-base matcher) in grey. Hover or focus a bar for details; each chart has a table view.</p>
+    <div class="legend"><span><i style="background:var(--series-best)"></i>best model</span><span><i style="background:var(--series)"></i>other ML models</span><span><i style="background:var(--baseline)"></i>baseline / classical rule</span></div>
+    <div class="exp-grid" id="experiments"></div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Post-processing</span>
+    <h2>Calibration and abstain-and-refer</h2>
+    <div class="two">
+      <div class="exp"><h3>Prakṛti classifier: accuracy vs coverage</h3>
+        <p class="finding" id="post-text"></p>
+        <div class="chart" id="selective"></div>
+        <div class="legend" id="selective-legend"></div>
+      </div>
+      <div class="exp"><h3>Bilingual retrieval (E5)</h3>
+        <p class="finding">Can a Hindi query find the right English record? Recall@10 among the candidates.</p>
+        <div class="tbl"><table id="e5"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="real-sec" hidden>
+    <span class="eyebrow">Real-world check · E6</span>
+    <h2>Tested against published case reports</h2>
+    <p class="muted" id="real-text"></p>
+    <div class="figures" id="real-figures"></div>
+    <div class="two">
+      <div class="exp"><h3>Symptom → disorder matcher on real presentations</h3>
+        <p class="finding" id="real-finding"></p>
+        <div class="chart" id="real-chart"></div>
+        <div class="legend"><span><i style="background:var(--series-best)"></i>KB matcher (no training)</span><span><i style="background:var(--baseline)"></i>baselines</span></div>
+      </div>
+      <div class="exp"><h3>What practitioners report using</h3>
+        <div class="tbl"><table id="real-top"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ev-sec" hidden>
+    <span class="eyebrow">Evidence behind each link</span>
+    <h2>Literature and classical support</h2>
+    <p class="muted">Every herb → disorder and formulation → disorder link was searched in PubMed (plant or formulation name with a curated biomedical query for the disorder). Tiers: clinical study (trial, RCT, meta-analysis or systematic review), literature (3+ papers, co-occurring at least twice as often as chance), sparse, none. Co-occurrence is a pointer to evidence, not proof of efficacy.</p>
+    <div class="two">
+      <div class="tbl"><table id="ev-tiers"></table></div>
+      <div style="display:grid;gap:12px">
+        <h3>Procedures linked to disorders</h3>
+        <div class="tbl"><table id="therapy-links"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tune-sec" hidden>
+    <span class="eyebrow">Tuning · E7</span>
+    <h2>Do tuned hyperparameters help?</h2>
+    <p class="muted" id="tune-text"></p>
+    <div class="tbl"><table id="tune"></table></div>
+  </section>
+
+  <section id="link-sec" hidden>
+    <span class="eyebrow">Linked data</span>
+    <h2>Chemistry, plant images and regional scripts</h2>
+    <div class="two">
+      <div class="tbl"><table id="linked"></table></div>
+      <article class="card" id="scripts-card"></article>
+    </div>
+  </section>
+
+  <section id="up-sec" hidden>
+    <span class="eyebrow">Accuracy upgrades · E8</span>
+    <h2>What raised accuracy, measured on the same data</h2>
+    <p class="muted" id="up-text"></p>
+    <div class="two">
+      <div class="tbl"><table id="up-table"></table></div>
+      <div class="exp"><h3>Real case reports: right disorder group in the top 10</h3>
+        <p class="finding" id="up-finding"></p>
+        <div class="chart" id="up-chart"></div>
+        <div class="legend"><span><i style="background:var(--series-best)"></i>final matcher</span><span><i style="background:var(--series)"></i>intermediate steps</span><span><i style="background:var(--baseline)"></i>baselines</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Use it</span>
+    <h2>Files and entry points</h2>
+    <pre id="files"></pre>
+    <ul class="plain" id="limits"></ul>
+  </section>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (s) => document.querySelector(s);
+const el = (tag, attrs = {}, text) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); if (text != null) e.textContent = text; return e; };
+const fmt = (n) => typeof n === "number" ? n.toLocaleString("en-US") : n;
+$("#gen").textContent = DATA.generated;
+
+// headline figures
+for (const [label, value] of DATA.figures) { const d = el("div"); d.append(el("b", {}, fmt(value)), el("span", {}, label)); $("#figures").append(d); }
+
+// record cards
+for (const c of DATA.cards) {
+  const card = el("article", { class: "card" });
+  card.append(el("span", { class: "tag" }, c.kind), el("div", { class: "big", lang: "sa" }, c.deva));
+  const dl = el("dl");
+  for (const [k, v] of c.rows) { dl.append(el("dt", {}, k)); const dd = el("dd", {}, v); if (/[ऀ-ॿ]/.test(v)) dd.className = "hi"; dl.append(dd); }
+  card.append(dl); $("#cards").append(card);
+}
+
+function table(sel, head, rows, numCols = []) {
+  const t = $(sel); const tr = el("tr");
+  head.forEach((h, i) => tr.append(el("th", numCols.includes(i) ? { class: "num" } : {}, h)));
+  const th = el("thead"); th.append(tr); t.append(th);
+  const tb = el("tbody");
+  for (const r of rows) { const row = el("tr"); r.forEach((v, i) => { const td = el("td", numCols.includes(i) ? { class: "num" } : {}, fmt(v)); row.append(td); }); tb.append(row); }
+  t.append(tb);
+}
+table("#tables", ["Area", "Table", "Rows", "What it holds"], DATA.tables, [2]);
+table("#sources", ["ID", "Source", "Licence / terms", "Role"], DATA.sources);
+{ const t = $("#quality"); const tr = el("tr"); ["Check", "Result"].forEach(h => tr.append(el("th", {}, h))); const th = el("thead"); th.append(tr); t.append(th);
+  const tb = el("tbody"); for (const [k, v, ok] of DATA.quality) { const r = el("tr"); r.append(el("td", {}, k)); r.append(el("td", { class: ok ? "ok" : "flag" }, v)); tb.append(r); } t.append(tb); }
+table("#bilingual", ["Field", "Hindi coverage"], DATA.bilingual, [1]);
+
+// pipeline
+for (const s of DATA.pipeline) { const d = el("div", { class: "stage" }); d.append(el("span", { class: "eyebrow" }, s.phase), el("h3", {}, s.title)); const ol = el("ol"); s.steps.forEach(x => ol.append(el("li", {}, x))); d.append(ol); $("#stages").append(d); }
+
+// tooltip
+const tip = $("#tip");
+function showTip(evt, lines) {
+  tip.replaceChildren(); lines.forEach((l, i) => { const n = el(i === 0 ? "b" : "div", {}, l); tip.append(n); });
+  tip.hidden = false; const r = evt.target.getBoundingClientRect ? evt.target.getBoundingClientRect() : { left: evt.clientX, top: evt.clientY };
+  const x = (evt.clientX || r.left + 10) + 14, y = (evt.clientY || r.top) + 14;
+  tip.style.left = Math.min(x, innerWidth - 280) + "px"; tip.style.top = Math.min(y, innerHeight - 120) + "px";
+}
+const hideTip = () => { tip.hidden = true; };
+
+// horizontal bar chart (single series; emphasis by color + text)
+const NS = "http://www.w3.org/2000/svg";
+const sv = (tag, attrs) => { const e = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); return e; };
+function barChart(container, rows, metricLabel) {
+  const W = 520, labelW = 210, valW = 52, rowH = 22, barH = 14, top = 6, bottom = 26;
+  const H = top + rows.length * rowH + bottom, plotW = W - labelW - valW;
+  const svg = sv("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": metricLabel });
+  const x = (v) => labelW + Math.max(0, Math.min(1, v)) * plotW;
+  for (const t of [0, 0.25, 0.5, 0.75, 1]) {
+    svg.append(sv("line", { x1: x(t), x2: x(t), y1: top - 2, y2: H - bottom + 2, stroke: "var(--rule)", "stroke-width": 1 }));
+    const tx = sv("text", { x: x(t), y: H - 8, "text-anchor": "middle", "font-size": 10, fill: "var(--muted)" }); tx.textContent = t.toFixed(2); svg.append(tx);
+  }
+  rows.forEach((r, i) => {
+    const y = top + i * rowH + (rowH - barH) / 2;
+    const color = r.kind === "best" ? "var(--series-best)" : r.kind === "model" ? "var(--series)" : "var(--baseline)";
+    const name = sv("text", { x: labelW - 8, y: y + barH - 3, "text-anchor": "end", "font-size": 11, fill: r.kind === "model" || r.kind === "best" ? "var(--ink)" : "var(--ink-2)" });
+    name.textContent = r.label.length > 34 ? r.label.slice(0, 33) + "…" : r.label; svg.append(name);
+    const w = Math.max(2, x(r.value) - labelW);
+    const p = `M${labelW},${y} h${Math.max(0, w - 4)} a4,4 0 0 1 4,4 v${barH - 8} a4,4 0 0 1 -4,4 h${-Math.max(0, w - 4)} z`;
+    const bar = sv("path", { d: p, fill: color, class: "bar", tabindex: 0, "aria-label": `${r.label}: ${r.value.toFixed(3)}` });
+    const hit = sv("rect", { x: 0, y: top + i * rowH, width: W, height: rowH, fill: "transparent" });
+    const lines = [`${r.value.toFixed(3)} ${metricLabel}`, r.label, ...r.details];
+    for (const t of [bar, hit]) { t.addEventListener("pointermove", (e) => showTip(e, lines)); t.addEventListener("pointerleave", hideTip); }
+    bar.addEventListener("focus", (e) => showTip(e, lines)); bar.addEventListener("blur", hideTip);
+    svg.append(hit, bar);
+    const v = sv("text", { x: x(r.value) + 6, y: y + barH - 3, "font-size": 11, fill: "var(--ink-2)", "font-variant-numeric": "tabular-nums" });
+    v.textContent = r.value.toFixed(3) + (r.kind === "best" ? "  best" : ""); svg.append(v);
+  });
+  container.append(svg);
+}
+
+for (const ex of DATA.experiments) {
+  const card = el("article", { class: "exp" });
+  card.append(el("span", { class: "eyebrow" }, ex.id), el("h3", {}, ex.title));
+  const meta = el("div", { class: "meta" }); ex.tags.forEach(t => meta.append(el("span", { class: "tag" }, t))); card.append(meta);
+  card.append(el("p", { class: "finding" }, ex.finding));
+  const ch = el("div", { class: "chart" }); card.append(ch); barChart(ch, ex.rows, ex.metric);
+  const det = el("details"); det.append(el("summary", {}, "Table view"));
+  const wrap = el("div", { class: "tbl" }); const t = el("table"); const hr = el("tr");
+  ex.table_head.forEach((h, i) => hr.append(el("th", i ? { class: "num" } : {}, h))); const thd = el("thead"); thd.append(hr); t.append(thd);
+  const tb = el("tbody"); ex.table.forEach(r => { const tr = el("tr"); r.forEach((v, i) => tr.append(el("td", i ? { class: "num" } : {}, v))); tb.append(tr); }); t.append(tb);
+  wrap.append(t); det.append(wrap); card.append(det);
+  $("#experiments").append(card);
+}
+
+// selective prediction line chart (2 series: legend + end labels)
+(function () {
+  const P = DATA.post; if (!P) return;
+  $("#post-text").textContent = P.text;
+  const W = 520, H = 240, l = 46, r = 120, t = 10, b = 34;
+  const svg = sv("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "accuracy versus coverage" });
+  const xs = (c) => l + (1 - c) / 0.9 * (W - l - r);  // coverage 1.0 -> 0.1 left to right
+  const lo = Math.floor(Math.min(...P.series.flatMap(s => s.points.map(p => p.accuracy))) * 20) / 20;
+  const ys = (a) => t + (1 - (a - lo) / (1 - lo)) * (H - t - b);
+  for (let a = lo; a <= 1.0001; a += 0.05) { svg.append(sv("line", { x1: l, x2: W - r, y1: ys(a), y2: ys(a), stroke: "var(--rule)" }));
+    const tx = sv("text", { x: l - 6, y: ys(a) + 3, "text-anchor": "end", "font-size": 10, fill: "var(--muted)" }); tx.textContent = a.toFixed(2); svg.append(tx); }
+  for (const c of [1, 0.8, 0.6, 0.4, 0.2]) { const tx = sv("text", { x: xs(c), y: H - 14, "text-anchor": "middle", "font-size": 10, fill: "var(--muted)" }); tx.textContent = Math.round(c * 100) + "%"; svg.append(tx); }
+  const cap = sv("text", { x: (l + W - r) / 2, y: H - 1, "text-anchor": "middle", "font-size": 10, fill: "var(--muted)" }); cap.textContent = "share of cases answered automatically (rest referred to a practitioner)"; svg.append(cap);
+  const colors = ["var(--baseline)", "var(--series)"];
+  P.series.forEach((s, k) => {
+    const d = s.points.map((p, i) => `${i ? "L" : "M"}${xs(p.coverage)},${ys(p.accuracy)}`).join(" ");
+    svg.append(sv("path", { d, fill: "none", stroke: colors[k], "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    s.points.forEach(p => { const c = sv("circle", { cx: xs(p.coverage), cy: ys(p.accuracy), r: 4, fill: colors[k], stroke: "var(--surface)", "stroke-width": 2 });
+      const hit = sv("circle", { cx: xs(p.coverage), cy: ys(p.accuracy), r: 12, fill: "transparent" });
+      const lines = [`${(p.accuracy * 100).toFixed(1)}% accuracy`, s.name, `${(p.coverage * 100).toFixed(0)}% of cases answered`];
+      hit.addEventListener("pointermove", (e) => showTip(e, lines)); hit.addEventListener("pointerleave", hideTip); svg.append(c, hit); });
+    const last = s.points[s.points.length - 1];
+    const lab = sv("text", { x: xs(last.coverage) + 8, y: ys(last.accuracy) + (k ? -6 : 12), "font-size": 10.5, fill: "var(--ink-2)" }); lab.textContent = s.short; svg.append(lab);
+    const lg = el("span"); const sw = el("i"); sw.style.background = colors[k]; sw.style.height = "3px"; lg.append(sw, document.createTextNode(s.name)); $("#selective-legend").append(lg);
+  });
+  $("#selective").append(svg);
+})();
+
+// E5 table with inline meters
+(function () {
+  const t = $("#e5"); const hr = el("tr"); ["Task · query", "Retriever", "Recall@10", ""].forEach((h, i) => hr.append(el("th", i === 2 ? { class: "num" } : {}, h)));
+  const th = el("thead"); th.append(hr); t.append(th); const tb = el("tbody");
+  for (const r of DATA.e5) { const tr = el("tr"); tr.append(el("td", {}, r[0]), el("td", {}, r[1]), el("td", { class: "num" }, r[2].toFixed(3)));
+    const td = el("td"); td.style.minWidth = "90px"; const m = el("div", { class: "meter" }); const f = el("div"); f.style.width = (r[2] * 100) + "%"; m.append(f); td.append(m); tr.append(td); tb.append(tr); }
+  t.append(tb);
+})();
+
+
+// ---- extension sections (rendered only when their data exists)
+(function () {
+  const R = DATA.real;
+  if (R) {
+    $("#real-sec").hidden = false;
+    $("#real-text").textContent = R.text;
+    for (const [label, value] of R.figures) { const d = el("div"); d.append(el("b", {}, fmt(value)), el("span", {}, label)); $("#real-figures").append(d); }
+    $("#real-finding").textContent = R.finding;
+    barChart($("#real-chart"), R.rows, "share of cases");
+    table("#real-top", ["Most reported", "Items (number of case reports)"], R.top);
+  }
+  const E = DATA.evidence;
+  if (E) {
+    $("#ev-sec").hidden = false;
+    const t = $("#ev-tiers"); const hr = el("tr"); ["Links", "Tier", "Count", "Share", ""].forEach((h, i) => hr.append(el("th", i === 2 || i === 3 ? { class: "num" } : {}, h)));
+    const th = el("thead"); th.append(hr); t.append(th); const tb = el("tbody");
+    for (const r of E.tiers) { const tr = el("tr"); tr.append(el("td", {}, r[0]), el("td", {}, r[1]), el("td", { class: "num" }, fmt(r[2])), el("td", { class: "num" }, (r[3] * 100).toFixed(1) + "%"));
+      const td = el("td"); td.style.minWidth = "90px"; const m = el("div", { class: "meter" }); const f = el("div"); f.style.width = (r[3] * 100) + "%"; m.append(f); td.append(m); tr.append(td); tb.append(tr); }
+    t.append(tb);
+    table("#therapy-links", ["Relation", "Links", "Basis"], E.therapy, [1]);
+  }
+  const T = DATA.tuning;
+  if (T) { $("#tune-sec").hidden = false; $("#tune-text").textContent = T.text; table("#tune", ["Task", "Model", "Default", "Tuned", "Change", "p (Wilcoxon)"], T.rows, [2, 3, 4, 5]); }
+  const L = DATA.linked;
+  if (L) {
+    $("#link-sec").hidden = false;
+    table("#linked", ["Layer", "Result"], L.rows);
+    const c = $("#scripts-card"); c.append(el("span", { class: "tag" }, "one term, ten scripts"), el("div", { class: "big", lang: "sa" }, L.script.devanagari));
+    const dl = el("dl"); for (const [k, v] of L.script.rows) { dl.append(el("dt", {}, k)); dl.append(el("dd", {}, v)); } c.append(dl);
+  }
+  const U = DATA.upgrades;
+  if (U) { $("#up-sec").hidden = false; $("#up-text").textContent = U.text; $("#up-finding").textContent = U.finding;
+    table("#up-table", ["Area", "Before", "After", "What changed"], U.rows); barChart($("#up-chart"), U.chart, "share of cases"); }
+})();
+$("#files").textContent = DATA.files;
+for (const x of DATA.limits) $("#limits").append(el("li", {}, x));
+</script>
