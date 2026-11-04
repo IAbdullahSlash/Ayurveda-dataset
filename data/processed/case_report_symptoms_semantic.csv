@@ -1,0 +1,1540 @@
+case_id,clause,symptom_id,similarity
+CASE-PMC13229731,complaints of severe burning sensation,SYM-00127,0.895
+CASE-PMC13229731,complaints of severe burning sensation,SYM-00130,0.894
+CASE-PMC13229731,complaints of severe burning sensation,SYM-00128,0.893
+CASE-PMC13229731,complaints of severe burning sensation,SYM-00129,0.886
+CASE-PMC13229731,complaints of severe burning sensation,SYM-03639,0.88
+CASE-PMC13229731,unsteadiness while walking,SYM-02712,0.879
+CASE-PMC13229731,unsteadiness while walking,SYM-01543,0.875
+CASE-PMC13229731,or thyroid disorders,SYM-N00792,0.885
+CASE-PMC13229731,or thyroid disorders,SYM-N01379,0.871
+CASE-PMC13229731,or thyroid disorders,SYM-01766,0.87
+CASE-PMC13229731,complication of diabetes mellitus,SYM-07903,0.879
+CASE-PMC13229731,burning sensation,SYM-N01297,0.898
+CASE-PMC13229731,burning sensation,SYM-00143,0.891
+CASE-PMC13229731,burning sensation,SYM-03880,0.887
+CASE-PMC13229731,burning sensation,SYM-N00829,0.887
+CASE-PMC13229731,burning sensation,SYM-08580,0.886
+CASE-PMC13229731,reduced reflexes,SYM-N00371,0.882
+CASE-PMC13229731,reduced reflexes,SYM-N01099,0.879
+CASE-PMC13229731,reduced reflexes,SYM-N01520,0.876
+CASE-PMC13229731,reduced reflexes,SYM-N00147,0.872
+CASE-PMC13229731,the burning sensation in his legs was severe,SYM-00129,0.879
+CASE-PMC13229731,the burning sensation in his legs was severe,SYM-00130,0.876
+CASE-PMC13229731,the burning sensation in his legs was severe,SYM-00127,0.874
+CASE-PMC13229731,the burning sensation in his legs was severe,SYM-00128,0.873
+CASE-PMC13229731,the burning sensation in his legs was severe,SYM-N00810,0.87
+CASE-PMC13229731,significantly affecting his sleep,SYM-N00147,0.874
+CASE-PMC13229731,significantly affecting his sleep,SYM-N01369,0.874
+CASE-PMC13229731,following the course of treatment,SYM-01916,0.877
+CASE-PMC13229731,better sleep quality,SYM-N00147,0.875
+CASE-PMC13616667,symptoms of ocular irritation,SYM-N01082,0.895
+CASE-PMC13616667,symptoms of ocular irritation,SYM-02520,0.884
+CASE-PMC13616667,symptoms of ocular irritation,SYM-03620,0.878
+CASE-PMC13616667,symptoms of ocular irritation,SYM-N01078,0.876
+CASE-PMC13616667,symptoms of ocular irritation,SYM-03622,0.875
+CASE-PMC13616667,foreign body sensation,SYM-08111,0.892
+CASE-PMC13616667,foreign body sensation,SYM-08219,0.891
+CASE-PMC13616667,foreign body sensation,SYM-04529,0.88
+CASE-PMC13616667,burning sensation,SYM-N01297,0.898
+CASE-PMC13616667,burning sensation,SYM-00143,0.891
+CASE-PMC13616667,burning sensation,SYM-03880,0.887
+CASE-PMC13616667,burning sensation,SYM-N00829,0.887
+CASE-PMC13616667,burning sensation,SYM-08580,0.886
+CASE-PMC13616667,a predominance of vata,SYM-N01608,0.874
+CASE-PMC13616667,pitta doshas,SYM-N01609,0.871
+CASE-PMC13616667,difficulty in eyelid opening,SYM-02361,0.896
+CASE-PMC13616667,difficulty in eyelid opening,SYM-02342,0.892
+CASE-PMC13616667,difficulty in eyelid opening,SYM-N01065,0.89
+CASE-PMC13616667,difficulty in eyelid opening,SYM-02341,0.888
+CASE-PMC13616667,the aforementioned conditions,SYM-00565,0.875
+CASE-PMC13616667,the aforementioned conditions,SYM-01233,0.87
+CASE-PMC13616667,the aforementioned conditions,SYM-05930,0.87
+CASE-PMC13616667,pricking pain,SYM-02500,0.902
+CASE-PMC13616667,pricking pain,SYM-01207,0.896
+CASE-PMC13616667,pricking pain,SYM-N00298,0.891
+CASE-PMC13616667,pricking pain,SYM-04864,0.885
+CASE-PMC13616667,mucous debris,SYM-N01119,0.878
+CASE-PMC13616667,blurring of vision,SYM-03114,0.884
+CASE-PMC13616667,blurring of vision,SYM-01391,0.871
+CASE-PMC13616667,crusting of lids,SYM-N01127,0.886
+CASE-PMC13427539,poor appetite,SYM-N00212,0.886
+CASE-PMC13427539,poor appetite,SYM-N00879,0.884
+CASE-PMC13427539,poor appetite,SYM-N00538,0.884
+CASE-PMC13427539,poor appetite,SYM-N01357,0.882
+CASE-PMC13427539,or alternating,SYM-N00721,0.881
+CASE-PMC13427539,or alternating,SYM-N00981,0.88
+CASE-PMC13427539,persistent abdominal pain,SYM-N00550,0.882
+CASE-PMC13427539,persistent abdominal pain,SYM-07373,0.876
+CASE-PMC13427539,persistent abdominal pain,SYM-N00095,0.872
+CASE-PMC13427539,persistent abdominal pain,SYM-N00523,0.872
+CASE-PMC13427539,persistent abdominal pain,SYM-N00915,0.871
+CASE-PMC13427539,accompanied by impaired digestion,SYM-03938,0.892
+CASE-PMC13427539,accompanied by impaired digestion,SYM-N01669,0.886
+CASE-PMC13427539,accompanied by impaired digestion,SYM-N00212,0.886
+CASE-PMC13427539,accompanied by impaired digestion,SYM-02332,0.885
+CASE-PMC13427539,accompanied by impaired digestion,SYM-03840,0.884
+CASE-PMC13427539,generalised weakness,SYM-N00880,0.886
+CASE-PMC13427539,depending on the predominant symptoms,SYM-04961,0.882
+CASE-PMC13427539,depending on the predominant symptoms,SYM-02069,0.875
+CASE-PMC13427539,depending on the predominant symptoms,SYM-04351,0.871
+CASE-PMC13427539,clinical symptoms,SYM-N00401,0.881
+CASE-PMC13427539,clinical symptoms,SYM-N00766,0.879
+CASE-PMC13427539,clinical symptoms,SYM-02569,0.873
+CASE-PMC13427539,clinical symptoms,SYM-02501,0.872
+CASE-PMC13427539,clinical symptoms,SYM-06238,0.872
+CASE-PMC13427539,indicated by a coated tongue,SYM-N00163,0.883
+CASE-PMC13427539,indicated by a coated tongue,SYM-06450,0.872
+CASE-PMC13427539,indicated by a coated tongue,SYM-03390,0.87
+CASE-PMC13427539,impaired digestion,SYM-N01669,0.886
+CASE-PMC13427539,impaired digestion,SYM-01126,0.876
+CASE-PMC13427539,impaired digestion,SYM-N00463,0.873
+CASE-PMC13427539,impaired digestion,SYM-00959,0.871
+CASE-PMC13427539,abdominal distension,SYM-01299,0.891
+CASE-PMC13427539,abdominal distension,SYM-08353,0.883
+CASE-PMC13427539,abdominal distension,SYM-02270,0.881
+CASE-PMC13427539,abdominal distension,SYM-04716,0.88
+CASE-PMC13427539,abdominal distension,SYM-00910,0.88
+CASE-PMC13427539,passage of partially digested stools,SYM-N00481,0.901
+CASE-PMC13427539,passage of partially digested stools,SYM-N00520,0.895
+CASE-PMC13427539,passage of partially digested stools,SYM-02249,0.894
+CASE-PMC13427539,passage of partially digested stools,SYM-N00006,0.889
+CASE-PMC13427539,passage of partially digested stools,SYM-N00149,0.886
+CASE-PMC13427539,abdominal pain,SYM-N00915,0.912
+CASE-PMC13427539,abdominal pain,SYM-N00550,0.911
+CASE-PMC13427539,abdominal pain,SYM-N00523,0.907
+CASE-PMC13427539,abdominal pain,SYM-N00536,0.901
+CASE-PMC13427539,abdominal pain,SYM-N00464,0.898
+CASE-PMC13427539,digestive disturbance,SYM-N00370,0.877
+CASE-PMC13427539,digestive disturbance,SYM-N01669,0.873
+CASE-PMC13427539,gaseous distention of the abdomen,SYM-04648,0.879
+CASE-PMC13427539,gaseous distention of the abdomen,SYM-08353,0.877
+CASE-PMC13427539,gaseous distention of the abdomen,SYM-01579,0.873
+CASE-PMC13427539,gaseous distention of the abdomen,SYM-N00165,0.872
+CASE-PMC13427539,gaseous distention of the abdomen,SYM-N00007,0.872
+CASE-PMID39316543,a reduction in symptoms such as frequent urination,SYM-06159,0.888
+CASE-PMID39316543,burning sensation during micturition,SYM-01759,0.894
+CASE-PMID39316543,burning sensation during micturition,SYM-N00829,0.889
+CASE-PMID39316543,burning sensation during micturition,SYM-00127,0.889
+CASE-PMID39316543,burning sensation during micturition,SYM-04620,0.885
+CASE-PMID39316543,burning sensation during micturition,SYM-00130,0.882
+CASE-PMID39316543,reduced flow,SYM-01057,0.882
+CASE-PMC13420482,pain in the abdomen,SYM-N00536,0.912
+CASE-PMC13420482,pain in the abdomen,SYM-04648,0.912
+CASE-PMC13420482,pain in the abdomen,SYM-02276,0.911
+CASE-PMC13420482,pain in the abdomen,SYM-02267,0.91
+CASE-PMC13420482,pain in the abdomen,SYM-01585,0.905
+CASE-PMC13420482,bloating sensation,SYM-N00465,0.899
+CASE-PMC13420482,nausea after taking a meal,SYM-N01260,0.926
+CASE-PMC13420482,no faecal urgency,SYM-04179,0.872
+CASE-PMC13420482,decreased appetite,SYM-N01259,0.908
+CASE-PMC13420482,decreased appetite,SYM-N00212,0.907
+CASE-PMC13420482,decreased appetite,SYM-N01357,0.902
+CASE-PMC13420482,decreased appetite,SYM-N00879,0.889
+CASE-PMC13420482,relieved after food digestion,SYM-03419,0.906
+CASE-PMC13420482,relieved after food digestion,SYM-01450,0.887
+CASE-PMC13420482,gradually his appetite got diminished,SYM-N01357,0.892
+CASE-PMC13420482,gradually his appetite got diminished,SYM-N00212,0.884
+CASE-PMC13420482,gradually his appetite got diminished,SYM-N01259,0.875
+CASE-PMC13420482,reported a poor appetite,SYM-N00212,0.887
+CASE-PMC13420482,reported a poor appetite,SYM-N00538,0.883
+CASE-PMC13420482,reported a poor appetite,SYM-N01357,0.881
+CASE-PMC13420482,reported a poor appetite,SYM-N00879,0.878
+CASE-PMC13420482,characterized by alternating episodes of constipation,SYM-00052,0.873
+CASE-PMC13420482,characterized by alternating episodes of constipation,SYM-06188,0.872
+CASE-PMC13420482,anorexia nervosa,SYM-N00025,0.916
+CASE-PMC13420482,anorexia nervosa,SYM-03624,0.903
+CASE-PMC13420482,vataja grahani,SYM-N01608,0.88
+CASE-PMC13420482,vataja grahani,SYM-N00294,0.879
+CASE-PMC13420482,vataja grahani,SYM-N00001,0.878
+CASE-PMC13420482,vataja grahani,SYM-03667,0.878
+CASE-PMC13420482,vataja grahani,SYM-03014,0.877
+CASE-PMC13400866,he complained of chest pain,SYM-01688,0.89
+CASE-PMC13400866,he complained of chest pain,SYM-03323,0.885
+CASE-PMC13400866,he complained of chest pain,SYM-N00537,0.882
+CASE-PMC13400866,he complained of chest pain,SYM-01691,0.876
+CASE-PMC13400866,he complained of chest pain,SYM-01684,0.873
+CASE-PMC13400866,inability to do his routine chores,SYM-07747,0.871
+CASE-PMC13400866,inability to do his routine chores,SYM-09242,0.871
+CASE-PMC13400866,his clinical symptoms of fatigue,SYM-N00989,0.877
+CASE-PMC13400866,his clinical symptoms of fatigue,SYM-N01202,0.873
+CASE-PMC12996233,he had complaints of aggravated pain,SYM-03645,0.871
+CASE-PMID38819189,intense itching,SYM-02011,0.896
+CASE-PMID38819189,intense itching,SYM-01998,0.891
+CASE-PMID38819189,intense itching,SYM-01549,0.887
+CASE-PMID38819189,intense itching,SYM-01997,0.884
+CASE-PMID38819189,intense itching,SYM-00424,0.884
+CASE-PMID38819189,swelling all over the body,SYM-07920,0.912
+CASE-PMID38819189,swelling all over the body,SYM-04927,0.899
+CASE-PMID38819189,swelling all over the body,SYM-08431,0.897
+CASE-PMID38819189,swelling all over the body,SYM-01605,0.894
+CASE-PMID38819189,swelling all over the body,SYM-N01338,0.893
+CASE-PMID38819189,the severity of the symptoms,SYM-03649,0.879
+CASE-PMID38819189,the severity of the symptoms,SYM-00316,0.878
+CASE-PMID38819189,the severity of the symptoms,SYM-03645,0.878
+CASE-PMID38819189,the severity of the symptoms,SYM-03655,0.878
+CASE-PMID38819189,the severity of the symptoms,SYM-06299,0.877
+CASE-PMID40492749,side effects,SYM-N00401,0.879
+CASE-PMID40492749,side effects,SYM-04744,0.873
+CASE-PMC12307663,abdominal distension,SYM-01299,0.891
+CASE-PMC12307663,abdominal distension,SYM-08353,0.883
+CASE-PMC12307663,abdominal distension,SYM-02270,0.881
+CASE-PMC12307663,abdominal distension,SYM-04716,0.88
+CASE-PMC12307663,abdominal distension,SYM-00910,0.88
+CASE-PMC12307663,he developed breathlessness,SYM-N00207,0.88
+CASE-PMC12307663,the symptoms like abdominal distension,SYM-00910,0.876
+CASE-PMC12307663,the symptoms like abdominal distension,SYM-06372,0.875
+CASE-PMC12307663,the symptoms like abdominal distension,SYM-N00915,0.874
+CASE-PMC12307663,the symptoms like abdominal distension,SYM-N00550,0.873
+CASE-PMC12307663,the symptoms like abdominal distension,SYM-01299,0.873
+CASE-PMID41052103,coronary artery disease,SYM-N01379,0.882
+CASE-PMID41052103,pain in the left ankle,SYM-02501,0.871
+CASE-PMID41052103,relevant risk factors,SYM-N01591,0.874
+CASE-PMC12418819,rapid onset,SYM-01412,0.891
+CASE-PMC12418819,rapid suppuration,SYM-07650,0.89
+CASE-PMC12418819,rapid suppuration,SYM-N00639,0.888
+CASE-PMC12418819,rapid suppuration,SYM-01404,0.886
+CASE-PMC12418819,rapid suppuration,SYM-07648,0.882
+CASE-PMC12418819,rapid suppuration,SYM-00224,0.88
+CASE-PMC12418819,mild pain,SYM-05870,0.899
+CASE-PMC12418819,mild pain,SYM-05875,0.896
+CASE-PMC12418819,mild pain,SYM-00987,0.895
+CASE-PMC12418819,mild pain,SYM-00972,0.894
+CASE-PMC12418819,mild pain,SYM-09182,0.894
+CASE-PMC12418819,or neurological symptoms such as hyperesthesia,SYM-07432,0.878
+CASE-PMC12418819,burning sensation,SYM-N01297,0.898
+CASE-PMC12418819,burning sensation,SYM-00143,0.891
+CASE-PMC12418819,burning sensation,SYM-03880,0.887
+CASE-PMC12418819,burning sensation,SYM-N00829,0.887
+CASE-PMC12418819,burning sensation,SYM-08580,0.886
+CASE-PMC12418819,or fluctuating or severe pain,SYM-03649,0.914
+CASE-PMC12418819,or fluctuating or severe pain,SYM-04860,0.905
+CASE-PMC12418819,or fluctuating or severe pain,SYM-05964,0.905
+CASE-PMC12418819,or fluctuating or severe pain,SYM-01508,0.902
+CASE-PMC12418819,or fluctuating or severe pain,SYM-N00792,0.902
+CASE-PMC12418819,recurrent fever,SYM-05077,0.877
+CASE-PMC12418819,recurrent fever,SYM-N00597,0.87
+CASE-PMC11617052,yellowish discoloration of the sclera,SYM-N01145,0.876
+CASE-PMC11617052,yellowish discoloration of the sclera,SYM-09291,0.874
+CASE-PMC11617052,yellowish discoloration of the sclera,SYM-04001,0.873
+CASE-PMC11617052,yellowish discoloration of the sclera,SYM-N00149,0.872
+CASE-PMC11617052,yellowish discoloration of the sclera,SYM-03747,0.872
+CASE-PMC11617052,distension of the abdomen,SYM-08353,0.905
+CASE-PMC11617052,distension of the abdomen,SYM-02270,0.902
+CASE-PMC11617052,distension of the abdomen,SYM-01299,0.894
+CASE-PMC11617052,distension of the abdomen,SYM-02282,0.888
+CASE-PMC11617052,distension of the abdomen,SYM-N01371,0.887
+CASE-PMC11617052,reduced appetite,SYM-N00156,0.884
+CASE-PMC11617052,reduced appetite,SYM-N00212,0.882
+CASE-PMC11617052,reduced appetite,SYM-N01259,0.88
+CASE-PMC11617052,reduced appetite,SYM-N00147,0.876
+CASE-PMC11617052,reduced appetite,SYM-N01357,0.875
+CASE-PMC11617052,pain in the abdomen for over a month,SYM-N00536,0.89
+CASE-PMC11617052,pain in the abdomen for over a month,SYM-N00550,0.885
+CASE-PMC11617052,pain in the abdomen for over a month,SYM-04648,0.88
+CASE-PMC11617052,pain in the abdomen for over a month,SYM-N00915,0.876
+CASE-PMC11617052,pain in the abdomen for over a month,SYM-N00464,0.876
+CASE-PMC11617052,a half,SYM-00898,0.883
+CASE-PMC11617052,a half,SYM-00899,0.881
+CASE-PMC11617052,a half,SYM-00900,0.881
+CASE-PMC11617052,a half,SYM-N00998,0.879
+CASE-PMC11617052,a half,SYM-07522,0.878
+CASE-PMC11617052,swelling in the lower limbs for days,SYM-N00771,0.879
+CASE-PMC11617052,swelling in the lower limbs for days,SYM-N01053,0.872
+CASE-PMC11617052,body swelling,SYM-N01338,0.905
+CASE-PMC11617052,vaginal bleeding,SYM-00469,0.88
+CASE-PMC11617052,vaginal bleeding,SYM-07897,0.874
+CASE-PMC11617052,vaginal bleeding,SYM-N00904,0.871
+CASE-PMC11617052,complaints of abdominal pain,SYM-N00523,0.894
+CASE-PMC11617052,complaints of abdominal pain,SYM-N00550,0.891
+CASE-PMC11617052,complaints of abdominal pain,SYM-N00915,0.89
+CASE-PMC11617052,complaints of abdominal pain,SYM-N00095,0.886
+CASE-PMC11617052,complaints of abdominal pain,SYM-N00464,0.881
+CASE-PMC11617052,swelling in both lower limbs,SYM-N00771,0.885
+CASE-PMC11617052,swelling in both lower limbs,SYM-N00112,0.876
+CASE-PMC11617052,swelling in both lower limbs,SYM-N00491,0.875
+CASE-PMC11617052,during the course of treatment,SYM-07041,0.88
+CASE-PMC11617052,during the course of treatment,SYM-01916,0.874
+CASE-PMC11617052,during the course of treatment,SYM-06231,0.873
+CASE-PMC11617052,during the course of treatment,SYM-07081,0.872
+CASE-PMC11617052,during the course of treatment,SYM-07867,0.872
+CASE-PMC13681604,pravara samhanana,SYM-N01406,0.884
+CASE-PMC13681604,pravara samhanana,SYM-08552,0.882
+CASE-PMC13681604,pravara samhanana,SYM-08368,0.88
+CASE-PMC13681604,pravara samhanana,SYM-09074,0.879
+CASE-PMC13681604,pravara samhanana,SYM-N00128,0.877
+CASE-PMC13681604,well developed physique,SYM-N01557,0.888
+CASE-PMC13681604,madhyama satva,SYM-N00625,0.879
+CASE-PMC13681604,madhyama satva,SYM-04107,0.871
+CASE-PMC8904594,reddish rashes lasting for days,SYM-N01274,0.875
+CASE-PMC8904594,in all parts of the body,SYM-N00663,0.9
+CASE-PMC8904594,in all parts of the body,SYM-01602,0.894
+CASE-PMC8904594,in all parts of the body,SYM-N00210,0.892
+CASE-PMC8904594,in all parts of the body,SYM-02320,0.892
+CASE-PMC8904594,in all parts of the body,SYM-03296,0.89
+CASE-PMC8904594,no significant relief,SYM-08891,0.886
+CASE-PMC8904594,no significant relief,SYM-08477,0.873
+CASE-PMC8904594,no significant relief,SYM-04167,0.871
+CASE-PMID42727382,behaviour that resonate,SYM-N00932,0.881
+CASE-PMID42727382,behaviour that resonate,SYM-N00935,0.87
+CASE-PMID42322828,characterized by bloody diarrhoea,SYM-08343,0.878
+CASE-PMID42322828,characterized by bloody diarrhoea,SYM-05702,0.875
+CASE-PMID42322828,characterized by bloody diarrhoea,SYM-04371,0.873
+CASE-PMID42322828,characterized by bloody diarrhoea,SYM-08415,0.873
+CASE-PMID42322828,characterized by bloody diarrhoea,SYM-09264,0.871
+CASE-PMID42322828,abdominal pain,SYM-N00915,0.912
+CASE-PMID42322828,abdominal pain,SYM-N00550,0.911
+CASE-PMID42322828,abdominal pain,SYM-N00523,0.907
+CASE-PMID42322828,abdominal pain,SYM-N00536,0.901
+CASE-PMID42322828,abdominal pain,SYM-N00464,0.898
+CASE-PMID42322828,significant weight loss,SYM-N00793,0.882
+CASE-PMC11805220,low backache,SYM-01905,0.89
+CASE-PMC11805220,low backache,SYM-03628,0.886
+CASE-PMC11805220,low backache,SYM-01898,0.884
+CASE-PMC11805220,low backache,SYM-01899,0.883
+CASE-PMC11805220,low backache,SYM-01908,0.881
+CASE-PMC11805220,yoni kandu,SYM-00254,0.877
+CASE-PMC11805220,yoni kandu,SYM-06426,0.871
+CASE-PMC11805220,vulvar itching,SYM-02004,0.883
+CASE-PMC11805220,burning sensation at the vulva,SYM-01759,0.895
+CASE-PMC11805220,burning sensation at the vulva,SYM-N00829,0.894
+CASE-PMC11805220,burning sensation at the vulva,SYM-N00554,0.892
+CASE-PMC11805220,burning sensation at the vulva,SYM-N01297,0.892
+CASE-PMC11805220,burning sensation at the vulva,SYM-03876,0.89
+CASE-PMC11805220,during this period,SYM-N01511,0.874
+CASE-PMC12756344,vata aggravation,SYM-N00790,0.887
+CASE-PMC12756344,vata aggravation,SYM-05900,0.871
+CASE-PMID38905448,it may lead to an array of deformities,SYM-N00077,0.887
+CASE-PMID38905448,cardiovascular diseases,SYM-N01379,0.926
+CASE-PMID38905448,later acquired signs,SYM-N01667,0.875
+CASE-PMC11650016,burning sensation in rectum,SYM-01759,0.9
+CASE-PMC11650016,burning sensation in rectum,SYM-N00829,0.898
+CASE-PMC11650016,burning sensation in rectum,SYM-00127,0.895
+CASE-PMC11650016,burning sensation in rectum,SYM-N00554,0.893
+CASE-PMC11650016,burning sensation in rectum,SYM-00130,0.892
+CASE-PMC11650016,leg pain,SYM-N00631,0.889
+CASE-PMC11650016,leg pain,SYM-02501,0.883
+CASE-PMC11650016,leg pain,SYM-N00131,0.883
+CASE-PMC11650016,leg pain,SYM-N00099,0.883
+CASE-PMC11650016,leg pain,SYM-03346,0.881
+CASE-PMC11650016,chronic low grade fever,SYM-N00577,0.897
+CASE-PMC11650016,chronic low grade fever,SYM-N00340,0.881
+CASE-PMC11650016,jeerna manda jwara,SYM-03450,0.872
+CASE-PMC11650016,jeerna manda jwara,SYM-03437,0.872
+CASE-PMC11650016,jeerna manda jwara,SYM-06864,0.87
+CASE-PMC11650016,right epigastric pain,SYM-N00535,0.908
+CASE-PMC11650016,weight loss,SYM-N00793,0.906
+CASE-PMC11650016,pain in legs,SYM-N00131,0.894
+CASE-PMC11650016,pain in legs,SYM-N00631,0.892
+CASE-PMC11650016,pain in legs,SYM-N00099,0.889
+CASE-PMC11650016,pain in legs,SYM-03346,0.887
+CASE-PMC11650016,pain in legs,SYM-02501,0.887
+CASE-PMC12547734,the ulcer was,SYM-N01016,0.892
+CASE-PMC12547734,the ulcer was,SYM-N00162,0.879
+CASE-PMC12547734,the ulcer was,SYM-N00696,0.875
+CASE-PMC12547734,swelling around the wound,SYM-N00491,0.891
+CASE-PMC12547734,swelling around the wound,SYM-N01027,0.886
+CASE-PMC12547734,swelling around the wound,SYM-N00760,0.885
+CASE-PMC12547734,swelling around the wound,SYM-N01078,0.883
+CASE-PMC12547734,swelling around the wound,SYM-N01338,0.88
+CASE-PMC12547734,a pricking type pain,SYM-02500,0.904
+CASE-PMC12547734,a pricking type pain,SYM-01207,0.903
+CASE-PMC12547734,a pricking type pain,SYM-04864,0.901
+CASE-PMC12547734,a pricking type pain,SYM-00332,0.9
+CASE-PMC12547734,a pricking type pain,SYM-03615,0.899
+CASE-PMC12547734,blackish discoloration,SYM-07935,0.896
+CASE-PMC12547734,blackish discoloration,SYM-07898,0.89
+CASE-PMC12547734,blackish discoloration,SYM-N00657,0.889
+CASE-PMC12547734,blackish discoloration,SYM-02412,0.885
+CASE-PMC12547734,blackish discoloration,SYM-N00882,0.883
+CASE-PMC12547734,despite performing daily wound dressings,SYM-04371,0.873
+CASE-PMC12547734,clinical signs,SYM-N01667,0.883
+CASE-PMC12547734,non healing ulcer resulting from a venomous bite,SYM-N01016,0.872
+CASE-PMC12547734,to facilitate the healing process of the ulcer,SYM-N01016,0.879
+CASE-PMC12547734,to facilitate the healing process of the ulcer,SYM-N00696,0.872
+CASE-PMC12563631,complaints of the chronic pain lower back region,SYM-02501,0.874
+CASE-PMC12563631,stiffness in the lower back region,SYM-02502,0.906
+CASE-PMC12563631,heaviness in both legs,SYM-N00775,0.901
+CASE-PMC12563631,heaviness in both legs,SYM-N00258,0.891
+CASE-PMC12563631,heaviness in both legs,SYM-03345,0.888
+CASE-PMC12563631,loss of appetite,SYM-N00212,0.922
+CASE-PMC9676121,difficulty in closing right eye,SYM-02330,0.874
+CASE-PMC9676121,feeling of heaviness,SYM-N00093,0.888
+CASE-PMC9676121,feeling of heaviness,SYM-00279,0.886
+CASE-PMC9676121,feeling of heaviness,SYM-N00258,0.88
+CASE-PMC9676121,feeling of heaviness,SYM-07600,0.874
+CASE-PMC12684883,the complaints of heavy menstrual flow,SYM-02910,0.883
+CASE-PMC12684883,the complaints of heavy menstrual flow,SYM-N00903,0.882
+CASE-PMC12684883,back pain,SYM-N00129,0.893
+CASE-PMC12684883,back pain,SYM-01905,0.888
+CASE-PMC12684883,back pain,SYM-05180,0.888
+CASE-PMC12684883,back pain,SYM-02501,0.885
+CASE-PMC12684883,back pain,SYM-05190,0.883
+CASE-PMC12684883,heaviness of body,SYM-N00258,0.907
+CASE-PMC12684883,heaviness of body,SYM-03345,0.895
+CASE-PMC12684883,body aches,SYM-N00200,0.882
+CASE-PMC12684883,on taking the detailed history,SYM-N01511,0.877
+CASE-PMC12684883,i have experienced heavy menstrual flow,SYM-N00903,0.888
+CASE-PMC12684883,i have experienced heavy menstrual flow,SYM-02910,0.887
+CASE-PMC12684883,i have experienced heavy menstrual flow,SYM-03465,0.882
+CASE-PMC12630094,frequent stools,SYM-N00516,0.905
+CASE-PMC12630094,frequent stools,SYM-06168,0.895
+CASE-PMC12630094,frequent stools,SYM-06176,0.894
+CASE-PMC12630094,loss of appetite,SYM-N00212,0.922
+CASE-PMC12630094,weight loss,SYM-N00793,0.906
+CASE-PMC12630094,on the basis of clinical symptoms,SYM-N00766,0.872
+CASE-PMC12630094,i had been suffering,SYM-09346,0.874
+CASE-PMC12630094,i had been suffering,SYM-09369,0.872
+CASE-PMC12630094,blood in stool,SYM-N00520,0.882
+CASE-PMC12630094,blood in stool,SYM-N00242,0.882
+CASE-PMC12630094,blood in stool,SYM-N00555,0.879
+CASE-PMC12630094,loose motion,SYM-08134,0.873
+CASE-PMC12630094,loose motion,SYM-02299,0.871
+CASE-PMC12630094,long time,SYM-03233,0.873
+CASE-PMC10828795,generalized weakness,SYM-N00880,0.882
+CASE-PMC10828795,body ache,SYM-N00200,0.893
+CASE-PMC10828795,severe pain in the body,SYM-08431,0.913
+CASE-PMC10828795,severe pain in the body,SYM-01227,0.904
+CASE-PMC10828795,severe pain in the body,SYM-N00550,0.903
+CASE-PMC10828795,severe pain in the body,SYM-03306,0.903
+CASE-PMC10828795,severe pain in the body,SYM-03645,0.901
+CASE-PMC10828795,throat disorders,SYM-N01039,0.882
+CASE-PMC10828795,throat disorders,SYM-N00263,0.88
+CASE-PMC10828795,throat disorders,SYM-N00265,0.876
+CASE-PMC10828795,throat disorders,SYM-N00031,0.873
+CASE-PMC10828795,throat disorders,SYM-N01037,0.871
+CASE-PMC10897883,chills on,SYM-N00632,0.919
+CASE-PMC10897883,off in the successive days,SYM-07657,0.883
+CASE-PMC10897883,off in the successive days,SYM-07041,0.881
+CASE-PMC10897883,off in the successive days,SYM-04068,0.878
+CASE-PMC10897883,off in the successive days,SYM-07082,0.877
+CASE-PMC10897883,off in the successive days,SYM-03915,0.876
+CASE-PMC10897883,associated complaints of anorexia,SYM-N00025,0.872
+CASE-PMC10897883,general weakness,SYM-N00880,0.909
+CASE-PMC10897883,or any other serious ailment,SYM-N00792,0.894
+CASE-PMC10897883,or any other serious ailment,SYM-02602,0.89
+CASE-PMC10897883,or any other serious ailment,SYM-08431,0.888
+CASE-PMC10897883,or any other serious ailment,SYM-03649,0.887
+CASE-PMC10897883,or any other serious ailment,SYM-05703,0.883
+CASE-PMC10885578,difficulty in maintaining sleep,SYM-N01369,0.881
+CASE-PMC10885578,frequent awakenings at night,SYM-05449,0.872
+CASE-PMC10885578,early morning awakening,SYM-05167,0.87
+CASE-PMC10885578,hair fall,SYM-N00276,0.905
+CASE-PMC10885578,hair fall,SYM-N01004,0.898
+CASE-PMC10885578,hair fall,SYM-N00274,0.897
+CASE-PMC10885578,drowsiness throughout the day,SYM-N00206,0.902
+CASE-PMC10885578,drowsiness throughout the day,SYM-N00177,0.886
+CASE-PMC10885578,details of the symptoms,SYM-N00401,0.883
+CASE-PMC10885578,details of the symptoms,SYM-06372,0.879
+CASE-PMC10885578,details of the symptoms,SYM-04744,0.877
+CASE-PMC10885578,details of the symptoms,SYM-01714,0.874
+CASE-PMC10885578,details of the symptoms,SYM-03248,0.873
+CASE-PMC10885578,aggravated for month,SYM-03441,0.871
+CASE-PMC10885578,aggravated for month,SYM-07027,0.871
+CASE-PMC12630100,was satisfied,SYM-05840,0.88
+CASE-PMC10999474,or lymphadenopathy,SYM-N00748,0.889
+CASE-PMC10999474,respiratory system,SYM-N01401,0.883
+CASE-PMC10999474,foreign body,SYM-01542,0.872
+CASE-PMC10999474,on the basis of otorrhea,SYM-01916,0.873
+CASE-PMC10999474,on the basis of otorrhea,SYM-07850,0.873
+CASE-PMC10999474,inflammatory changes,SYM-N00630,0.878
+CASE-PMC10999474,inflammatory changes,SYM-N01045,0.871
+CASE-PMC12955123,having a poor lifestyle,SYM-04155,0.874
+CASE-PMC12955123,having a poor lifestyle,SYM-03938,0.873
+CASE-PMC12955123,hina agnibala,SYM-09218,0.884
+CASE-PMC12955123,hina agnibala,SYM-N01637,0.881
+CASE-PMC12955123,hina agnibala,SYM-08543,0.877
+CASE-PMC12955123,hina agnibala,SYM-N00637,0.875
+CASE-PMC12955123,hina agnibala,SYM-06531,0.874
+CASE-PMC12955123,hina rogibala,SYM-N00637,0.875
+CASE-PMC12955123,hina rogibala,SYM-06531,0.873
+CASE-PMC12955123,hina rogibala,SYM-08543,0.871
+CASE-PMC12955123,hina rogibala,SYM-N01524,0.87
+CASE-PMC12955123,abdominal tightness,SYM-N00413,0.873
+CASE-PMC12955123,loss of appetite,SYM-N00212,0.922
+CASE-PMC12955123,generalised weakness,SYM-N00880,0.886
+CASE-PMC12955123,he subsequently developed cellulitis,SYM-N00228,0.87
+CASE-PMC12955123,including worsening dribbling of urine,SYM-N00828,0.884
+CASE-PMC12955123,including worsening dribbling of urine,SYM-07126,0.88
+CASE-PMC12955123,including worsening dribbling of urine,SYM-01916,0.87
+CASE-PMC12955123,lower limb swelling,SYM-N00771,0.873
+CASE-PMC12955123,lower limb swelling,SYM-N00564,0.871
+CASE-PMC12955123,the abdomen appeared distended,SYM-03979,0.899
+CASE-PMC12955123,the abdomen appeared distended,SYM-05516,0.896
+CASE-PMC12955123,the abdomen appeared distended,SYM-N00461,0.891
+CASE-PMC12955123,the abdomen appeared distended,SYM-01298,0.887
+CASE-PMC12955123,the abdomen appeared distended,SYM-08353,0.886
+CASE-PMC12955123,bulging of flanks,SYM-N00362,0.871
+CASE-PMC12955123,the umbilicus was everted,SYM-08126,0.897
+CASE-PMC12955123,other symptoms such as abdominal heaviness,SYM-03345,0.888
+CASE-PMC12955123,other symptoms such as abdominal heaviness,SYM-N00401,0.87
+CASE-PMC12955123,weakness in both hands,SYM-N00112,0.881
+CASE-PMC12955123,weakness in both hands,SYM-N00544,0.878
+CASE-PMC12955123,weakness in both hands,SYM-N00076,0.87
+CASE-PMC12955123,i was also suffering from loss of appetite,SYM-N00212,0.901
+CASE-PMC10435953,he also complained of excessive sweating,SYM-00295,0.876
+CASE-PMC10435953,he also complained of excessive sweating,SYM-00436,0.874
+CASE-PMC10435953,he also complained of excessive sweating,SYM-06229,0.871
+CASE-PMC10435953,he also complained of excessive sweating,SYM-00288,0.871
+CASE-PMC10435953,he also complained of excessive sweating,SYM-N01540,0.871
+CASE-PMC10435953,body odor,SYM-N01541,0.871
+CASE-PMC10435953,sleep always,SYM-08247,0.891
+CASE-PMC10435953,sleep always,SYM-04377,0.883
+CASE-PMC10435953,sleep always,SYM-08223,0.872
+CASE-PMC10435953,he also complained of excessive thirst,SYM-N00846,0.899
+CASE-PMC10435953,he also complained of excessive thirst,SYM-N00578,0.888
+CASE-PMC10435953,he also complained of excessive thirst,SYM-N00847,0.882
+CASE-PMC10435953,he also complained of excessive thirst,SYM-03671,0.88
+CASE-PMC10435953,dryness of mouth,SYM-07807,0.896
+CASE-PMC10435953,dryness of mouth,SYM-N01118,0.889
+CASE-PMC10435953,dryness of mouth,SYM-N00844,0.888
+CASE-PMC10435953,dryness of mouth,SYM-N00049,0.887
+CASE-PMC10435953,dryness of mouth,SYM-N01412,0.886
+CASE-PMC10435953,sweet taste in mouth,SYM-06074,0.886
+CASE-PMC10435953,sweet taste in mouth,SYM-06115,0.886
+CASE-PMC10435953,sweet taste in mouth,SYM-06842,0.882
+CASE-PMC10435953,sweet taste in mouth,SYM-N00625,0.877
+CASE-PMC10435953,sweet taste in mouth,SYM-05818,0.877
+CASE-PMC10435953,burning sensation of hands,SYM-N01297,0.907
+CASE-PMC10435953,burning sensation of hands,SYM-N00224,0.888
+CASE-PMC10435953,burning sensation of hands,SYM-N01271,0.887
+CASE-PMC10435953,prabhuta mutra,SYM-05254,0.873
+CASE-PMC10435953,prabhuta mutra,SYM-05816,0.872
+CASE-PMC10435953,prabhuta mutra,SYM-08555,0.872
+CASE-PMC10435953,prabhuta mutra,SYM-03725,0.87
+CASE-PMC10435953,excess urine,SYM-N00780,0.901
+CASE-PMC10435953,excess urine,SYM-00436,0.894
+CASE-PMC10435953,excess urine,SYM-06226,0.889
+CASE-PMC10435953,excess urine,SYM-05231,0.887
+CASE-PMC10435953,excess urine,SYM-N00782,0.884
+CASE-PMC10435953,dense urine,SYM-03053,0.884
+CASE-PMC10435953,excess sweating,SYM-00350,0.896
+CASE-PMC10435953,excess sweating,SYM-09198,0.889
+CASE-PMC10435953,excess sweating,SYM-00394,0.88
+CASE-PMC10435953,excess sweating,SYM-00288,0.876
+CASE-PMC10435953,excess body odor,SYM-N01541,0.882
+CASE-PMC10435953,excess body odor,SYM-00295,0.874
+CASE-PMC10435953,excess body odor,SYM-01881,0.874
+CASE-PMC10435953,sayya sukherati,SYM-08222,0.87
+CASE-PMC10435953,coated tongue,SYM-N00163,0.874
+CASE-PMC10435953,galatalu shosha,SYM-01169,0.87
+CASE-PMC10435953,dryness of throat,SYM-N01412,0.903
+CASE-PMC10435953,dryness of throat,SYM-04744,0.894
+CASE-PMC10435953,burning sensation in feet,SYM-N00224,0.925
+CASE-PMC10435953,burning sensation in feet,SYM-N01271,0.913
+CASE-PMC10435953,burning sensation in feet,SYM-04810,0.911
+CASE-PMC10435953,excess thirst,SYM-N00846,0.904
+CASE-PMC10435953,excess thirst,SYM-N00847,0.899
+CASE-PMC10435953,excess thirst,SYM-00482,0.889
+CASE-PMC10435953,excess thirst,SYM-05283,0.889
+CASE-PMC12550122,difficulty in walking,SYM-N01650,0.891
+CASE-PMC12550122,difficulty in walking,SYM-N00115,0.878
+CASE-PMC12550122,standing for a long time,SYM-N00966,0.881
+CASE-PMC12550122,standing for a long time,SYM-02762,0.872
+CASE-PMC12550122,standing for a long time,SYM-03920,0.871
+CASE-PMC12550122,excessive walking,SYM-N00042,0.871
+CASE-PMC12550122,excessive walking,SYM-06229,0.87
+CASE-PMC12550122,family history,SYM-N01511,0.877
+CASE-PMC12550122,or surgical illness,SYM-06565,0.888
+CASE-PMC12550122,or surgical illness,SYM-N01401,0.887
+CASE-PMC12550122,or surgical illness,SYM-N00792,0.883
+CASE-PMC12550122,or surgical illness,SYM-07727,0.882
+CASE-PMC12550122,or surgical illness,SYM-N00517,0.875
+CASE-PMC12991631,complaints of pain,SYM-N00631,0.874
+CASE-PMC12991631,restricted movement in his left shoulder,SYM-N00082,0.894
+CASE-PMC12991631,restricted movement in his left shoulder,SYM-N01289,0.877
+CASE-PMC12991631,including pain,SYM-06597,0.886
+CASE-PMC12991631,including pain,SYM-08538,0.884
+CASE-PMC12991631,including pain,SYM-04648,0.883
+CASE-PMC12991631,including pain,SYM-N00631,0.883
+CASE-PMC12991631,including pain,SYM-00593,0.882
+CASE-PMC12991631,stiffness in the shoulder joint,SYM-02502,0.878
+CASE-PMC12991631,a notable reduction in pain,SYM-N00156,0.879
+CASE-PMC12991631,a notable reduction in pain,SYM-06159,0.878
+CASE-PMC12991631,a notable reduction in pain,SYM-07632,0.872
+CASE-PMC12991631,a notable reduction in pain,SYM-N00371,0.872
+CASE-PMC12991631,a notable reduction in pain,SYM-03256,0.871
+CASE-PMC10945435,complaints of breathlessness on,SYM-N00207,0.876
+CASE-PMC10945435,urgency of micturition,SYM-06261,0.877
+CASE-PMC10945435,urgency of micturition,SYM-06206,0.873
+CASE-PMC10945435,urgency of micturition,SYM-08413,0.872
+CASE-PMC10945435,urgency of micturition,SYM-06229,0.871
+CASE-PMC10945435,urgency of micturition,SYM-06279,0.871
+CASE-PMC10945435,constipation for days,SYM-08513,0.889
+CASE-PMC10945435,constipation for days,SYM-02166,0.881
+CASE-PMC10945435,constipation for days,SYM-07075,0.88
+CASE-PMC10945435,constipation for days,SYM-07456,0.874
+CASE-PMC10945435,constipation for days,SYM-00362,0.872
+CASE-PMC10945435,fever for days,SYM-04093,0.875
+CASE-PMC10945435,fever for days,SYM-01812,0.873
+CASE-PMC10945435,panchasakar churna gm bd,SYM-N00498,0.87
+CASE-PMC10945435,sitopaladichurna gm yashtimadhu churna gm qid,SYM-N01047,0.886
+CASE-PMC10945435,sitopaladichurna gm yashtimadhu churna gm qid,SYM-N00720,0.881
+CASE-PMC10945435,sitopaladichurna gm yashtimadhu churna gm qid,SYM-02945,0.881
+CASE-PMC10945435,sitopaladichurna gm yashtimadhu churna gm qid,SYM-N00942,0.88
+CASE-PMC10945435,sitopaladichurna gm yashtimadhu churna gm qid,SYM-N00615,0.88
+CASE-PMC10879782,the complaints of cough,SYM-00316,0.882
+CASE-PMC10879782,the complaints of cough,SYM-02222,0.881
+CASE-PMC10879782,chest pain,SYM-01688,0.895
+CASE-PMC10879782,chest pain,SYM-N00190,0.891
+CASE-PMC10879782,chest pain,SYM-04855,0.889
+CASE-PMC10879782,chest pain,SYM-04860,0.888
+CASE-PMC10879782,chest pain,SYM-N00537,0.887
+CASE-PMC10879782,these symptoms aggravated during night,SYM-02520,0.879
+CASE-PMC10879782,these symptoms aggravated during night,SYM-06577,0.877
+CASE-PMC10879782,these symptoms aggravated during night,SYM-05449,0.872
+CASE-PMC12246705,watery discharge,SYM-04355,0.879
+CASE-PMC12246705,watery discharge,SYM-03329,0.878
+CASE-PMC12246705,watery discharge,SYM-06010,0.878
+CASE-PMC12246705,watery discharge,SYM-05537,0.875
+CASE-PMC12246705,watery discharge,SYM-08083,0.871
+CASE-PMC12991585,for one,SYM-01821,0.871
+CASE-PMC12991585,involving the left side of the face,SYM-06124,0.88
+CASE-PMC12991585,involving the left side of the face,SYM-06997,0.878
+CASE-PMC12991585,involving the left side of the face,SYM-N00056,0.871
+CASE-PMC12991585,deviation of mouth,SYM-03367,0.877
+CASE-PMC12991585,deviation of mouth,SYM-N01391,0.877
+CASE-PMC12991585,deviation of mouth,SYM-06823,0.876
+CASE-PMC12991585,stiffness in the upper shoulder joint,SYM-02502,0.88
+CASE-PMC12991585,finger joints,SYM-N00631,0.873
+CASE-PMC12991585,impaired speech,SYM-N01139,0.878
+CASE-PMC12991585,impaired speech,SYM-07998,0.877
+CASE-PMC12991585,impaired speech,SYM-03338,0.875
+CASE-PMC12991585,impaired speech,SYM-00734,0.874
+CASE-PMC12991585,impaired speech,SYM-N00585,0.872
+CASE-PMC12991585,struggling to walk,SYM-02712,0.881
+CASE-PMC12991585,struggling to walk,SYM-03948,0.881
+CASE-PMC12991585,struggling to walk,SYM-02349,0.878
+CASE-PMC12991585,struggling to walk,SYM-N00018,0.875
+CASE-PMC12991585,struggling to walk,SYM-04068,0.874
+CASE-PMC12991585,lower limbs,SYM-N00564,0.887
+CASE-PMC12991585,lower limbs,SYM-N01410,0.887
+CASE-PMC12991585,lower limbs,SYM-N00040,0.875
+CASE-PMC12991585,lower limbs,SYM-N00099,0.874
+CASE-PMC9707002,serous discharge,SYM-08557,0.874
+CASE-PMC9707002,serous discharge,SYM-06185,0.872
+CASE-PMC9707002,but started producing intense itching over his scalp,SYM-N01542,0.885
+CASE-PMC9707002,but started producing intense itching over his scalp,SYM-N01004,0.873
+CASE-PMC9707002,intermittent localized pain,SYM-07350,0.873
+CASE-PMC9707002,urinary difficulty,SYM-08066,0.888
+CASE-PMC9707002,urinary difficulty,SYM-06238,0.888
+CASE-PMC9707002,urinary difficulty,SYM-05436,0.887
+CASE-PMC9707002,urinary difficulty,SYM-N01650,0.885
+CASE-PMC9707002,urinary difficulty,SYM-02328,0.884
+CASE-PMC9707002,poor appetite,SYM-N00212,0.886
+CASE-PMC9707002,poor appetite,SYM-N00879,0.884
+CASE-PMC9707002,poor appetite,SYM-N00538,0.884
+CASE-PMC9707002,poor appetite,SYM-N01357,0.882
+CASE-PMC9707002,color of lesion was blackish,SYM-03715,0.892
+CASE-PMC9707002,color of lesion was blackish,SYM-06134,0.874
+CASE-PMC9707002,texture was oily or soft,SYM-N01534,0.873
+CASE-PMC9707002,texture was oily or soft,SYM-N01146,0.871
+CASE-PMC9707002,slimy discharge,SYM-02021,0.878
+CASE-PMC9707002,slimy discharge,SYM-04916,0.878
+CASE-PMC9707002,papular lesion,SYM-02542,0.876
+CASE-PMC9707002,papular lesion,SYM-02543,0.871
+CASE-PMC9707002,numbness present in few areas,SYM-03348,0.876
+CASE-PMC9707002,pricking pain,SYM-02500,0.902
+CASE-PMC9707002,pricking pain,SYM-01207,0.896
+CASE-PMC9707002,pricking pain,SYM-N00298,0.891
+CASE-PMC9707002,pricking pain,SYM-04864,0.885
+CASE-PMC9707002,loss of sensation,SYM-N00668,0.924
+CASE-PMC9707002,burning sensation,SYM-N01297,0.898
+CASE-PMC9707002,burning sensation,SYM-00143,0.891
+CASE-PMC9707002,burning sensation,SYM-03880,0.887
+CASE-PMC9707002,burning sensation,SYM-N00829,0.887
+CASE-PMC9707002,burning sensation,SYM-08580,0.886
+CASE-PMC9707002,feeling of burning,SYM-N01297,0.891
+CASE-PMC9707002,feeling of burning,SYM-01294,0.878
+CASE-PMC9707002,feeling of burning,SYM-00135,0.877
+CASE-PMC9707002,feeling of burning,SYM-06187,0.876
+CASE-PMC9707002,feeling of burning,SYM-03842,0.876
+CASE-PMC9707002,foul smell,SYM-N01012,0.9
+CASE-PMC9707002,foul smell,SYM-N00911,0.898
+CASE-PMC9707002,foul smell,SYM-N00543,0.889
+CASE-PMC9707002,foul smell,SYM-N01255,0.884
+CASE-PMC9707002,foul smell,SYM-N00158,0.883
+CASE-PMC9906598,primary observations of breathlessness,SYM-N00207,0.877
+CASE-PMC9906598,difficulty in lying down flat were,SYM-07507,0.874
+CASE-PMC9307686,unsatisfactory defecation,SYM-08412,0.887
+CASE-PMC9307686,unsatisfactory defecation,SYM-N00559,0.884
+CASE-PMC9307686,unsatisfactory defecation,SYM-00324,0.878
+CASE-PMC9307686,unsatisfactory defecation,SYM-07070,0.877
+CASE-PMC9307686,unsatisfactory defecation,SYM-08536,0.874
+CASE-PMC8078606,not much relief,SYM-08891,0.881
+CASE-PMC11638579,lacrimation in right eye,SYM-01098,0.872
+CASE-PMC11638579,vomiting during the attacks of headache,SYM-07461,0.872
+CASE-PMC11638579,pitta vata,SYM-N00468,0.905
+CASE-PMC11638579,vata dosha dominant tridohsa,SYM-06989,0.882
+CASE-PMC11638579,power of intake of food,SYM-N00156,0.874
+CASE-PMC11638579,power of intake of food,SYM-01450,0.871
+CASE-PMC11638579,madhyamajarana shakti,SYM-N00625,0.87
+CASE-PMC11638579,power of digestion of food,SYM-N00156,0.888
+CASE-PMC11638579,power of digestion of food,SYM-N00370,0.884
+CASE-PMC11638579,power of digestion of food,SYM-01450,0.883
+CASE-PMC11638579,power of digestion of food,SYM-01127,0.873
+CASE-PMC11638579,staying awake in the night,SYM-04444,0.884
+CASE-PMC11638579,staying awake in the night,SYM-03498,0.877
+CASE-PMC11638579,staying awake in the night,SYM-03335,0.871
+CASE-PMC11638579,staying awake in the night,SYM-01652,0.871
+CASE-PMC11638579,sleeping during the day time,SYM-05976,0.884
+CASE-PMC11638579,sleeping during the day time,SYM-09130,0.873
+CASE-PMC11638579,excessive spicy,SYM-05589,0.883
+CASE-PMC11638579,excessive spicy,SYM-07070,0.873
+CASE-PMC11638579,excessive spicy,SYM-06229,0.872
+CASE-PMC11638579,excessive spicy,SYM-N00786,0.87
+CASE-PMC11638579,excessive spicy,SYM-00324,0.87
+CASE-PMC11638579,sour food consumption,SYM-00806,0.871
+CASE-PMC11638579,sour food consumption,SYM-07094,0.871
+CASE-PMC11638579,severe pricking,SYM-N00298,0.884
+CASE-PMC11638579,severe pricking,SYM-03685,0.877
+CASE-PMC11638579,severe pricking,SYM-00332,0.877
+CASE-PMC11638579,severe pricking,SYM-00405,0.875
+CASE-PMC11638579,severe pricking,SYM-03615,0.875
+CASE-PMC11638579,temporal region,SYM-07478,0.875
+CASE-PMC11638579,temporal region,SYM-07446,0.872
+CASE-PMC11638579,temporal region,SYM-07448,0.871
+CASE-PMC11638579,temporal region,SYM-07452,0.871
+CASE-PMC11638579,temporal region,SYM-07479,0.87
+CASE-PMC11638579,forehead region of the affected side,SYM-07548,0.873
+CASE-PMC11638579,ama vidagdham,SYM-07129,0.873
+CASE-PMC11638579,ama vidagdham,SYM-N00185,0.872
+CASE-PMC11638579,ama vidagdham,SYM-02166,0.872
+CASE-PMC11638579,ama vidagdham,SYM-01335,0.871
+CASE-PMC11638579,udbhavasthana amapakwashaya,SYM-N01406,0.887
+CASE-PMC11638579,udbhavasthana amapakwashaya,SYM-04823,0.883
+CASE-PMC11638579,udbhavasthana amapakwashaya,SYM-05624,0.883
+CASE-PMC11638579,udbhavasthana amapakwashaya,SYM-01622,0.881
+CASE-PMC11638579,udbhavasthana amapakwashaya,SYM-08296,0.881
+CASE-PMC11638579,gastrointestinal tract,SYM-N00097,0.897
+CASE-PMC11638579,permeating the whole body,SYM-04927,0.882
+CASE-PMC11638579,permeating the whole body,SYM-N00789,0.88
+CASE-PMC11638579,permeating the whole body,SYM-08429,0.872
+CASE-PMC11638579,vyakta sthana shiras,SYM-08657,0.87
+CASE-PMC11638579,f vyavachedaka nidana,SYM-N01406,0.887
+CASE-PMC11638579,f vyavachedaka nidana,SYM-06871,0.88
+CASE-PMC11638579,f vyavachedaka nidana,SYM-N00387,0.879
+CASE-PMC11638579,f vyavachedaka nidana,SYM-04223,0.877
+CASE-PMC11638579,f vyavachedaka nidana,SYM-N01033,0.876
+CASE-PMC11638579,g vyadhi vinischaya,SYM-07098,0.876
+CASE-PMC11638579,g vyadhi vinischaya,SYM-04046,0.872
+CASE-PMC11638579,g vyadhi vinischaya,SYM-07182,0.87
+CASE-PMC11638579,sense of restlessness or agitation,SYM-01714,0.872
+CASE-PMC12639641,excessive thirst,SYM-N00846,0.921
+CASE-PMC12639641,excessive thirst,SYM-N00847,0.911
+CASE-PMC12639641,dryness of the mouth,SYM-07807,0.903
+CASE-PMC12639641,dryness of the mouth,SYM-N00049,0.899
+CASE-PMC12639641,dryness of the mouth,SYM-N01118,0.899
+CASE-PMC12639641,dryness of the mouth,SYM-N00844,0.898
+CASE-PMC12639641,dryness of the mouth,SYM-N01412,0.898
+CASE-PMC12639641,increased appetite,SYM-N01357,0.882
+CASE-PMC12639641,increased appetite,SYM-01131,0.88
+CASE-PMC12639641,increased appetite,SYM-N01259,0.876
+CASE-PMC12639641,increased appetite,SYM-01450,0.872
+CASE-PMC12639641,increased appetite,SYM-01361,0.871
+CASE-PMC12639641,a burning sensation in both upper,SYM-03143,0.898
+CASE-PMC12639641,a burning sensation in both upper,SYM-N00224,0.895
+CASE-PMC12639641,a burning sensation in both upper,SYM-01759,0.895
+CASE-PMC12639641,a burning sensation in both upper,SYM-N00829,0.891
+CASE-PMC12639641,a burning sensation in both upper,SYM-N00153,0.889
+CASE-PMC12639641,lower limbs,SYM-N00564,0.887
+CASE-PMC12639641,lower limbs,SYM-N01410,0.887
+CASE-PMC12639641,lower limbs,SYM-N00040,0.875
+CASE-PMC12639641,lower limbs,SYM-N00099,0.874
+CASE-PMC12639641,turbidity in the urine,SYM-01393,0.882
+CASE-PMC12639641,turbidity in the urine,SYM-06238,0.88
+CASE-PMC12639641,turbidity in the urine,SYM-06385,0.879
+CASE-PMC12639641,turbidity in the urine,SYM-N00150,0.873
+CASE-PMC12639641,turbidity in the urine,SYM-01916,0.872
+CASE-PMC12639641,disturbed sleep,SYM-N00944,0.872
+CASE-PMC12639641,disturbed sleep,SYM-N01369,0.87
+CASE-PMC12639641,excessive urine,SYM-N00780,0.913
+CASE-PMC12639641,excessive urine,SYM-00436,0.9
+CASE-PMC12639641,excessive urine,SYM-06226,0.894
+CASE-PMC12639641,turbid urine,SYM-06385,0.872
+CASE-PMC12639641,turbid urine,SYM-00458,0.871
+CASE-PMC12639641,turbid urine,SYM-01393,0.871
+CASE-PMC12639641,tingling sensation in feet,SYM-N00224,0.886
+CASE-PMC12639641,tingling sensation in feet,SYM-N01271,0.884
+CASE-PMC12639641,tingling sensation in feet,SYM-04828,0.881
+CASE-PMC12639641,tingling sensation in feet,SYM-04810,0.881
+CASE-PMC12639641,tingling sensation in feet,SYM-09395,0.878
+CASE-PMC11539406,past history,SYM-N01511,0.907
+CASE-PMC11539406,heart disease,SYM-N01379,0.929
+CASE-PMC11539406,eye ent diseases or any other respiratory illnesses,SYM-N01401,0.872
+CASE-PMC12418812,she had complaints of fatigue,SYM-03120,0.874
+CASE-PMC12418812,feeling heavy,SYM-02932,0.873
+CASE-PMC12418812,feeling heavy,SYM-08870,0.871
+CASE-PMC12418812,a feeling of swelling all over,SYM-N01094,0.892
+CASE-PMC12418812,a feeling of swelling all over,SYM-00637,0.888
+CASE-PMC12418812,a feeling of swelling all over,SYM-00789,0.888
+CASE-PMC12418812,a feeling of swelling all over,SYM-05703,0.887
+CASE-PMC12418812,a feeling of swelling all over,SYM-08431,0.887
+CASE-PMC12418812,hair was oily,SYM-N01566,0.887
+CASE-PMC12418812,hair was oily,SYM-08989,0.877
+CASE-PMC12418812,did not complain of hair loss,SYM-07028,0.871
+CASE-PMC12418812,did not complain of hair loss,SYM-N00863,0.87
+CASE-PMC12418812,feeling of heaviness all over,SYM-00279,0.875
+CASE-PMC12418812,feeling of heaviness all over,SYM-N00999,0.875
+CASE-PMC12418812,feeling of heaviness all over,SYM-08464,0.875
+CASE-PMC12418812,feeling of heaviness all over,SYM-N00789,0.872
+CASE-PMC12418812,feeling of heaviness all over,SYM-08430,0.871
+CASE-PMC12418812,a generalised body pain,SYM-N00322,0.938
+CASE-PMC12418812,a generalised body pain,SYM-N00792,0.935
+CASE-PMC12418812,a generalised body pain,SYM-N00200,0.919
+CASE-PMC12418812,feeling fullness of stomach,SYM-N01395,0.886
+CASE-PMC12418812,feeling fullness of stomach,SYM-06825,0.877
+CASE-PMC12418812,feeling fullness of stomach,SYM-N00464,0.877
+CASE-PMC12418812,feeling fullness of stomach,SYM-06372,0.876
+CASE-PMC12418812,feeling fullness of stomach,SYM-N00165,0.875
+CASE-PMC12418812,acid belch often,SYM-N00542,0.876
+CASE-PMC12418812,although currently suffers from fatigue now,SYM-03120,0.889
+CASE-PMC12418812,although currently suffers from fatigue now,SYM-01805,0.875
+CASE-PMC12418812,although currently suffers from fatigue now,SYM-03521,0.871
+CASE-PMC12418812,unlike this,SYM-N01493,0.882
+CASE-PMC12418812,unlike this,SYM-N01666,0.875
+CASE-PMC12418812,unlike this,SYM-N01485,0.87
+CASE-PMC11699455,well being,SYM-N01557,0.872
+CASE-PMC11699455,well being,SYM-05838,0.87
+CASE-PMC11699455,intensity of cough,SYM-07392,0.872
+CASE-PMC11699455,hemoptysis has reduced,SYM-N00157,0.883
+CASE-PMC11699455,hemoptysis has reduced,SYM-N00176,0.873
+CASE-PMC11699455,hemoptysis has reduced,SYM-07410,0.872
+CASE-PMC11805070,burning sensation,SYM-N01297,0.898
+CASE-PMC11805070,burning sensation,SYM-00143,0.891
+CASE-PMC11805070,burning sensation,SYM-03880,0.887
+CASE-PMC11805070,burning sensation,SYM-N00829,0.887
+CASE-PMC11805070,burning sensation,SYM-08580,0.886
+CASE-PMC11805070,elevated circular lesions,SYM-07323,0.893
+CASE-PMC11805070,elevated circular lesions,SYM-N00655,0.883
+CASE-PMC11805070,elevated circular lesions,SYM-01551,0.875
+CASE-PMC11805070,eruptions from two months,SYM-N00231,0.884
+CASE-PMC11805070,eruptions from two months,SYM-08760,0.874
+CASE-PMC11805070,eruptions from two months,SYM-N00664,0.874
+CASE-PMC11805070,eruptions from two months,SYM-N00737,0.873
+CASE-PMC11805070,in present history,SYM-N01511,0.903
+CASE-PMC11805070,eruptions from the last two months,SYM-N00231,0.883
+CASE-PMC11805070,eruptions from the last two months,SYM-N00664,0.871
+CASE-PMC11805070,the symptoms reoccurred,SYM-01537,0.878
+CASE-PMC11805070,the symptoms reoccurred,SYM-04838,0.874
+CASE-PMID39325561,gud vidradhi,SYM-07098,0.872
+CASE-PMID39325561,reduced redness,SYM-N00232,0.871
+CASE-PMID39325561,the wound had healed substantially,SYM-01356,0.871
+CASE-PMID39325561,discomfort were markedly reduced,SYM-06159,0.872
+CASE-PMC12552148,he had been experiencing symptoms including coughing,SYM-05241,0.881
+CASE-PMC12552148,he had been experiencing symptoms including coughing,SYM-02225,0.873
+CASE-PMC12552148,severe weight loss,SYM-N00793,0.883
+CASE-PMC12552148,severe weight loss,SYM-N00035,0.876
+CASE-PMC12552148,blood in his stool,SYM-N00242,0.884
+CASE-PMC12552148,blood in his stool,SYM-N00555,0.876
+CASE-PMC12552148,blood in his stool,SYM-N00520,0.875
+CASE-PMC12552148,over time,SYM-03225,0.878
+CASE-PMC12552148,a higher frequency of loose stools,SYM-07066,0.872
+CASE-PMC12552148,a higher frequency of loose stools,SYM-06168,0.87
+CASE-PMC12552148,weight loss,SYM-N00793,0.906
+CASE-PMC12552148,symptoms findingsinterpretationphysical examinationpain,SYM-02210,0.872
+CASE-PMC12552148,symptoms findingsinterpretationphysical examinationpain,SYM-00130,0.872
+CASE-PMC12552148,symptoms findingsinterpretationphysical examinationpain,SYM-02897,0.871
+CASE-PMC12552148,symptoms findingsinterpretationphysical examinationpain,SYM-N00401,0.87
+CASE-PMC12552148,dadimadi ghrita,SYM-04111,0.883
+CASE-PMC12552148,dadimadi ghrita,SYM-02810,0.877
+CASE-PMC12552148,dadimadi ghrita,SYM-02816,0.877
+CASE-PMC12552148,dadimadi ghrita,SYM-07375,0.877
+CASE-PMC12552148,dadimadi ghrita,SYM-05804,0.876
+CASE-PMC12552148,effortless patterns of bowel movements,SYM-N00361,0.87
+CASE-PMC12552148,frequency of bowel movements,SYM-N00361,0.875
+CASE-PMC8728077,symptoms of stiffness,SYM-02502,0.903
+CASE-PMC8728077,pain in neck,SYM-N00116,0.924
+CASE-PMC8728077,more pain in the right hip joint,SYM-N01392,0.886
+CASE-PMC8728077,more pain in the right hip joint,SYM-N00631,0.878
+CASE-PMC8728077,more pain in the right hip joint,SYM-N00129,0.877
+CASE-PMC8728077,more pain in the right hip joint,SYM-02501,0.874
+CASE-PMC8728077,he also complained of intermittent constipation,SYM-00622,0.892
+CASE-PMC8728077,he also complained of intermittent constipation,SYM-00623,0.878
+CASE-PMC8728077,disturbed sleep due to pain,SYM-N01369,0.876
+CASE-PMC8728077,hip joints,SYM-N01392,0.888
+CASE-PMC8728077,reduced appetite,SYM-N00156,0.884
+CASE-PMC8728077,reduced appetite,SYM-N00212,0.882
+CASE-PMC8728077,reduced appetite,SYM-N01259,0.88
+CASE-PMC8728077,reduced appetite,SYM-N00147,0.876
+CASE-PMC8728077,reduced appetite,SYM-N01357,0.875
+CASE-PMC8728077,lack of enthusiasm in daily activities,SYM-N00014,0.872
+CASE-PMC8728077,burning sensation under the palmar,SYM-03143,0.894
+CASE-PMC8728077,burning sensation under the palmar,SYM-04751,0.885
+CASE-PMC8728077,burning sensation under the palmar,SYM-01759,0.884
+CASE-PMC8728077,burning sensation under the palmar,SYM-00130,0.883
+CASE-PMC8728077,burning sensation under the palmar,SYM-02086,0.881
+CASE-PMC8728077,incomplete bowel evacuation,SYM-N01539,0.888
+CASE-PMC8728077,shifting pain at times,SYM-03163,0.882
+CASE-PMC8728077,shifting pain at times,SYM-00532,0.876
+CASE-PMC8728077,dhamanyangulisandhinam sankocha,SYM-08296,0.898
+CASE-PMC8728077,dhamanyangulisandhinam sankocha,SYM-03878,0.894
+CASE-PMC8728077,dhamanyangulisandhinam sankocha,SYM-N01637,0.89
+CASE-PMC8728077,dhamanyangulisandhinam sankocha,SYM-03190,0.889
+CASE-PMC8728077,dhamanyangulisandhinam sankocha,SYM-03897,0.889
+CASE-PMC8728077,stiffness of body,SYM-02502,0.899
+CASE-PMC8728077,stiffness of body,SYM-08827,0.892
+CASE-PMC8728077,stiffness of body,SYM-03303,0.886
+CASE-PMC8728077,stiffness of body,SYM-08925,0.885
+CASE-PMC8728077,stiffness of body,SYM-08860,0.884
+CASE-PMC8728077,as well as aversion to,SYM-07629,0.895
+CASE-PMC8728077,as well as aversion to,SYM-09016,0.892
+CASE-PMC8728077,as well as aversion to,SYM-04524,0.892
+CASE-PMC8728077,as well as aversion to,SYM-07625,0.892
+CASE-PMC8728077,as well as aversion to,SYM-00737,0.89
+CASE-PMC8728077,itadvesh nupashayau,SYM-01036,0.89
+CASE-PMC8728077,itadvesh nupashayau,SYM-04341,0.89
+CASE-PMC8728077,itadvesh nupashayau,SYM-05626,0.889
+CASE-PMC8728077,itadvesh nupashayau,SYM-04345,0.888
+CASE-PMC8728077,itadvesh nupashayau,SYM-04340,0.887
+CASE-PMC8728077,pain in joints,SYM-N00631,0.923
+CASE-PMC8728077,pain in joints,SYM-N00251,0.907
+CASE-PMC8728077,continuous pain,SYM-04369,0.895
+CASE-PMC8728077,continuous pain,SYM-07539,0.878
+CASE-PMC8728077,stabbing pains in bones,SYM-N00800,0.882
+CASE-PMC8728077,stabbing pains in bones,SYM-N00536,0.88
+CASE-PMC8728077,stabbing pains in bones,SYM-01227,0.874
+CASE-PMC8728077,stabbing pains in bones,SYM-N00299,0.874
+CASE-PMC8728077,stabbing pains in bones,SYM-01206,0.871
+CASE-PMC8728077,or marked decrease in vitality,SYM-01838,0.884
+CASE-PMC8728077,or marked decrease in vitality,SYM-01836,0.879
+CASE-PMC8728077,or marked decrease in vitality,SYM-N00067,0.877
+CASE-PMC8728077,or marked decrease in vitality,SYM-02259,0.874
+CASE-PMC8728077,or marked decrease in vitality,SYM-02630,0.874
+CASE-PMC8728077,chronic inflammation,SYM-N00630,0.88
+CASE-PMC8728077,no pain after the treatment,SYM-N01640,0.896
+CASE-PMC8728077,no pain after the treatment,SYM-06286,0.88
+CASE-PMC10711465,other than the scalp related symptoms,SYM-N01542,0.876
+CASE-PMC10711465,a clear tongue,SYM-N00163,0.897
+CASE-PMC10711465,a clear tongue,SYM-N01570,0.896
+CASE-PMC10711465,a clear tongue,SYM-03468,0.881
+CASE-PMC10711465,regular bowel movements,SYM-N00361,0.877
+CASE-PMC10711465,did not present any additional symptoms,SYM-N01165,0.882
+CASE-PMC10711465,did not present any additional symptoms,SYM-04946,0.874
+CASE-PMC8728067,her pain was provoked,SYM-05703,0.874
+CASE-PMC8728067,she developed local reddish discoloration,SYM-N01296,0.872
+CASE-PMC10597752,neck pain,SYM-N00116,0.914
+CASE-PMC10597752,she had a normal menstrual,SYM-N00903,0.881
+CASE-PMC10597752,she had a normal menstrual,SYM-06169,0.872
+CASE-PMC10597752,kapha dominant tridosha,SYM-02067,0.882
+CASE-PMC10597752,as a dushya,SYM-04134,0.884
+CASE-PMC10597752,a bodily structure,SYM-N01557,0.881
+CASE-PMC10597752,a bodily structure,SYM-N00022,0.88
+CASE-PMC10597752,a bodily structure,SYM-N00270,0.871
+CASE-PMC10597752,a bodily structure,SYM-N00367,0.87
+CASE-PMC10597752,rasavaha srotas,SYM-09093,0.893
+CASE-PMC10597752,rasavaha srotas,SYM-06539,0.891
+CASE-PMC10597752,rasavaha srotas,SYM-09112,0.888
+CASE-PMC10597752,rasavaha srotas,SYM-09115,0.888
+CASE-PMC10597752,rasavaha srotas,SYM-09110,0.886
+CASE-PMC10597752,painless swelling,SYM-N00849,0.908
+CASE-PMC10597752,painless swelling,SYM-N01078,0.894
+CASE-PMC10597752,painless swelling,SYM-N01053,0.893
+CASE-PMC10597752,painless swelling,SYM-04468,0.89
+CASE-PMC10597752,painless swelling,SYM-04479,0.89
+CASE-PMC10994781,the clinical history,SYM-N01511,0.876
+CASE-PMC10994781,after undergoing an endocrinological,SYM-01916,0.894
+CASE-PMC10994781,after undergoing an endocrinological,SYM-04166,0.886
+CASE-PMC10994781,after undergoing an endocrinological,SYM-03292,0.883
+CASE-PMC10994781,after undergoing an endocrinological,SYM-06332,0.883
+CASE-PMC10994781,after undergoing an endocrinological,SYM-03938,0.879
+CASE-PMC10994781,she had engaged in frequent,SYM-06171,0.875
+CASE-PMC10994781,she had engaged in frequent,SYM-06197,0.871
+CASE-PMC10994781,she had engaged in frequent,SYM-06206,0.87
+CASE-PMC10994781,she had engaged in frequent,SYM-06158,0.87
+CASE-PMC10994781,such as hydrocele,SYM-05770,0.875
+CASE-PMC10994781,such as hydrocele,SYM-08420,0.875
+CASE-PMC10994781,such as hydrocele,SYM-05821,0.872
+CASE-PMC10994781,such as hydrocele,SYM-05130,0.872
+CASE-PMC10994781,such as hydrocele,SYM-02312,0.87
+CASE-PMC7936553,body pain,SYM-N00536,0.883
+CASE-PMC7936553,body pain,SYM-00593,0.883
+CASE-PMC7936553,body pain,SYM-00165,0.882
+CASE-PMC7936553,body pain,SYM-N00792,0.882
+CASE-PMC7936553,body pain,SYM-08766,0.882
+CASE-PMC7936553,heaviness of head,SYM-07600,0.899
+CASE-PMC7936553,heaviness of head,SYM-06291,0.884
+CASE-PMC7936553,heaviness of head,SYM-N00258,0.882
+CASE-PMC7936553,heaviness of head etc,SYM-07600,0.891
+CASE-PMC7936553,heaviness of head etc,SYM-07609,0.883
+CASE-PMC7936553,heaviness of head etc,SYM-N00258,0.878
+CASE-PMC7936553,heaviness of head etc,SYM-03345,0.878
+CASE-PMC7936553,heaviness of head etc,SYM-06291,0.877
+CASE-PMC7936553,prior to developing the symptoms,SYM-N00539,0.876
+CASE-PMC10220395,pitta pradhana sarakta tridoshaja dushta vrana,SYM-04958,0.88
+CASE-PMC10220395,pitta pradhana sarakta tridoshaja dushta vrana,SYM-08441,0.879
+CASE-PMC10220395,pitta pradhana sarakta tridoshaja dushta vrana,SYM-03704,0.876
+CASE-PMC10220395,pitta pradhana sarakta tridoshaja dushta vrana,SYM-05496,0.876
+CASE-PMC10220395,pitta pradhana sarakta tridoshaja dushta vrana,SYM-04953,0.875
+CASE-PMC10220395,blackish red colour,SYM-N00657,0.872
+CASE-PMC10220395,ugly looking,SYM-07156,0.882
+CASE-PMC10220395,ugly looking,SYM-03958,0.879
+CASE-PMC10220395,atyartha gandha,SYM-03048,0.884
+CASE-PMC10220395,atyartha gandha,SYM-N00956,0.88
+CASE-PMC10220395,atyartha gandha,SYM-00279,0.878
+CASE-PMC10220395,atyartha gandha,SYM-01232,0.878
+CASE-PMC10220395,atyartha gandha,SYM-01211,0.876
+CASE-PMC10220395,foul smelling,SYM-N01012,0.911
+CASE-PMC10220395,foul smelling,SYM-N00911,0.906
+CASE-PMC10220395,foul smelling,SYM-N00158,0.893
+CASE-PMC10220395,foul smelling,SYM-N01255,0.892
+CASE-PMC10220395,atyartha vedanavan,SYM-07370,0.897
+CASE-PMC10220395,atyartha vedanavan,SYM-00279,0.897
+CASE-PMC10220395,atyartha vedanavan,SYM-00298,0.896
+CASE-PMC10220395,atyartha vedanavan,SYM-N01237,0.895
+CASE-PMC10220395,atyartha vedanavan,SYM-07372,0.892
+CASE-PMC10220395,inflamed red coloured,SYM-N00817,0.886
+CASE-PMC10220395,inflamed red coloured,SYM-06787,0.881
+CASE-PMC10220395,inflamed red coloured,SYM-00824,0.879
+CASE-PMC10220395,inflamed red coloured,SYM-07436,0.878
+CASE-PMC10220395,inflamed red coloured,SYM-N00232,0.878
+CASE-PMC10220395,pitta kapha prakriti,SYM-05496,0.881
+CASE-PMC10220395,slightly coated tongue,SYM-N00163,0.891
+CASE-PMC10220395,slightly coated tongue,SYM-02241,0.877
+CASE-PMC10220395,slightly coated tongue,SYM-N01253,0.876
+CASE-PMC10220395,pittaja nadi,SYM-N01604,0.878
+CASE-PMC10220395,pittaja nadi,SYM-04952,0.872
+CASE-PMC10220395,anavabadha mala,SYM-N00001,0.89
+CASE-PMC10220395,anavabadha mala,SYM-N00011,0.882
+CASE-PMC10220395,anavabadha mala,SYM-N00606,0.881
+CASE-PMC10220395,anavabadha mala,SYM-00735,0.88
+CASE-PMC10220395,anavabadha mala,SYM-08807,0.878
+CASE-PMC10220395,normal bowel movements,SYM-N00361,0.881
+CASE-PMC10220395,normal bowel movements,SYM-N01539,0.873
+CASE-PMC10692380,gross swelling,SYM-03093,0.88
+CASE-PMC10692380,gross swelling,SYM-07291,0.876
+CASE-PMC10692380,gross swelling,SYM-03805,0.875
+CASE-PMC10692380,gross swelling,SYM-N00722,0.874
+CASE-PMC10692380,gross swelling,SYM-05974,0.873
+CASE-PMC10692380,foul smell,SYM-N01012,0.9
+CASE-PMC10692380,foul smell,SYM-N00911,0.898
+CASE-PMC10692380,foul smell,SYM-N00543,0.889
+CASE-PMC10692380,foul smell,SYM-N01255,0.884
+CASE-PMC10692380,foul smell,SYM-N00158,0.883
+CASE-PMC10692380,pus discharge,SYM-N01015,0.911
+CASE-PMC10692380,pus discharge,SYM-N00818,0.906
+CASE-PMC10692380,high grade fever,SYM-03444,0.906
+CASE-PMC10692380,high grade fever,SYM-00481,0.892
+CASE-PMC10692380,high grade fever,SYM-05489,0.888
+CASE-PMC10692380,high grade fever,SYM-N00574,0.887
+CASE-PMC10692380,complaints of pain,SYM-N00631,0.874
+CASE-PMC10692380,swelling over the calf,SYM-01605,0.885
+CASE-PMC10692380,swelling over the calf,SYM-07973,0.871
+CASE-PMC10692380,swelling over the calf,SYM-N00249,0.87
+CASE-PMC10692380,swelling over the calf,SYM-N01403,0.87
+CASE-PMC10692380,extending to the ankle joint,SYM-N00102,0.891
+CASE-PMC10692380,local examination revealed that the ulcer was,SYM-N01016,0.873
+CASE-PMC10692380,after analyzing the signs,SYM-N01667,0.871
+CASE-PMC10692380,symptoms according to ayurvedic principles,SYM-03248,0.893
+CASE-PMC10692380,symptoms according to ayurvedic principles,SYM-03690,0.875
+CASE-PMC10692380,symptoms according to ayurvedic principles,SYM-01714,0.874
+CASE-PMC10692380,symptoms according to ayurvedic principles,SYM-03345,0.874
+CASE-PMC10692380,non healing ulcer,SYM-04179,0.894
+CASE-PMC10692380,non healing ulcer,SYM-N00305,0.891
+CASE-PMC10692380,non healing ulcer,SYM-N00942,0.89
+CASE-PMC10692380,non healing ulcer,SYM-01073,0.888
+CASE-PMC10692380,non healing ulcer,SYM-04183,0.886
+CASE-PMC8614210,around neck region,SYM-N00267,0.882
+CASE-PMC8614210,numbness in right upper limb,SYM-03348,0.876
+CASE-PMC8614210,numbness in right upper limb,SYM-08723,0.874
+CASE-PMC8614210,also not usually,SYM-N00656,0.879
+CASE-PMC8614210,in past,SYM-N01511,0.871
+CASE-PMC8614210,diseases by vata dosha,SYM-N00294,0.885
+CASE-PMC8614210,diseases by vata dosha,SYM-03094,0.871
+CASE-PMC8614210,if it have the symptoms of shosha,SYM-03248,0.89
+CASE-PMC8614210,atrophy weight loss,SYM-N00075,0.886
+CASE-PMC8614210,atrophy weight loss,SYM-N00793,0.875
+CASE-PMC8614210,tingling sensation,SYM-03192,0.879
+CASE-PMC8614210,tingling sensation,SYM-00216,0.87
+CASE-PMC8614210,tanavyo sira in siragata vata disease,SYM-N00294,0.898
+CASE-PMC8614210,tanavyo sira in siragata vata disease,SYM-03091,0.887
+CASE-PMC8614210,tanavyo sira in siragata vata disease,SYM-03094,0.887
+CASE-PMC8614210,tanavyo sira in siragata vata disease,SYM-N01425,0.886
+CASE-PMC8614210,tanavyo sira in siragata vata disease,SYM-N00001,0.885
+CASE-PMC10539652,vaginal bleeding,SYM-00469,0.88
+CASE-PMC10539652,vaginal bleeding,SYM-07897,0.874
+CASE-PMC10539652,vaginal bleeding,SYM-N00904,0.871
+CASE-PMC10539652,vomiting off,SYM-N00470,0.894
+CASE-PMC10539652,vomiting off,SYM-N00476,0.894
+CASE-PMC10539652,vomiting off,SYM-N00096,0.89
+CASE-PMC10539652,vomiting off,SYM-N01400,0.889
+CASE-PMC10539652,vomiting off,SYM-N00644,0.889
+CASE-PMC10539652,general weakness,SYM-N00880,0.909
+CASE-PMC10539652,the bleeding was painless fresh,SYM-N01281,0.891
+CASE-PMC10539652,the bleeding was painless fresh,SYM-N00849,0.884
+CASE-PMC10539652,the bleeding was painless fresh,SYM-04468,0.879
+CASE-PMC10539652,the bleeding was painless fresh,SYM-01059,0.877
+CASE-PMC10539652,the bleeding was painless fresh,SYM-04479,0.875
+CASE-PMC10539652,it was not,SYM-00059,0.879
+CASE-PMC10539652,it was not,SYM-07059,0.874
+CASE-PMC10539652,it was not,SYM-04165,0.874
+CASE-PMC10539652,or cramps,SYM-N00777,0.906
+CASE-PMC10539652,or cramps,SYM-02821,0.899
+CASE-PMC10539652,or cramps,SYM-N00099,0.899
+CASE-PMC10539652,or cramps,SYM-01631,0.898
+CASE-PMC10539652,or cramps,SYM-N00792,0.895
+CASE-PMC10539652,she also had nausea,SYM-09346,0.881
+CASE-PMC10539652,she also had nausea,SYM-09369,0.88
+CASE-PMC10539652,she also had nausea,SYM-N01306,0.878
+CASE-PMC10539652,she also had nausea,SYM-08570,0.877
+CASE-PMC10539652,gastrointestinal ulcers,SYM-N01016,0.893
+CASE-PMC10539652,or other addictions,SYM-07202,0.877
+CASE-PMC10539652,or other addictions,SYM-03299,0.873
+CASE-PMC10539652,or other addictions,SYM-N00792,0.872
+CASE-PMC10539652,blood tests,SYM-N00242,0.871
+CASE-PMC11152666,high grade fever in the morning,SYM-04438,0.887
+CASE-PMC11152666,high grade fever in the morning,SYM-05167,0.886
+CASE-PMC11152666,high grade fever in the morning,SYM-N00574,0.884
+CASE-PMC11152666,high grade fever in the morning,SYM-03444,0.881
+CASE-PMC11152666,high grade fever in the morning,SYM-05168,0.879
+CASE-PMC11152666,mild headache,SYM-07595,0.898
+CASE-PMC11152666,body pain,SYM-N00536,0.883
+CASE-PMC11152666,body pain,SYM-00593,0.883
+CASE-PMC11152666,body pain,SYM-00165,0.882
+CASE-PMC11152666,body pain,SYM-N00792,0.882
+CASE-PMC11152666,body pain,SYM-08766,0.882
+CASE-PMC11152666,severe lower abdominal pain,SYM-N00550,0.91
+CASE-PMC11152666,severe lower abdominal pain,SYM-N00915,0.903
+CASE-PMC11152666,severe lower abdominal pain,SYM-N00095,0.893
+CASE-PMC11152666,heavy vaginal bleeding,SYM-07902,0.871
+CASE-PMC11152666,red coloured urine,SYM-06487,0.906
+CASE-PMC11152666,red coloured urine,SYM-06273,0.902
+CASE-PMC11152666,red coloured urine,SYM-06434,0.887
+CASE-PMC11152666,loss of appetite,SYM-N00212,0.922
+CASE-PMC11282372,the headache was of the throbbing type,SYM-N00243,0.875
+CASE-PMC11282372,unbearable pain,SYM-N00849,0.89
+CASE-PMC11282372,unbearable pain,SYM-07371,0.882
+CASE-PMC11282372,unbearable pain,SYM-04468,0.881
+CASE-PMC11282372,unbearable pain,SYM-N01640,0.88
+CASE-PMC11282372,unbearable pain,SYM-N01281,0.878
+CASE-PMC10105231,a severe form of endometriosis,SYM-03645,0.887
+CASE-PMC10105231,a severe form of endometriosis,SYM-01513,0.886
+CASE-PMC10105231,a severe form of endometriosis,SYM-05702,0.883
+CASE-PMC10105231,a severe form of endometriosis,SYM-08685,0.882
+CASE-PMC10105231,a severe form of endometriosis,SYM-06350,0.882
+CASE-PMC10105231,further reduced to,SYM-N01520,0.894
+CASE-PMC10105231,further reduced to,SYM-N00061,0.888
+CASE-PMC10105231,further reduced to,SYM-N00157,0.887
+CASE-PMC10105231,further reduced to,SYM-00981,0.883
+CASE-PMC10105231,further reduced to,SYM-06159,0.881
+CASE-PMC12991589,loss of appetite,SYM-N00212,0.922
+CASE-PMC12991589,tastelessness in food,SYM-07153,0.884
+CASE-PMC12991589,tastelessness in food,SYM-01430,0.878
+CASE-PMC10227415,respiratory discomfort,SYM-N01401,0.892
+CASE-PMC10227415,respiratory discomfort,SYM-05342,0.876
+CASE-PMC10227415,joint pains,SYM-N00631,0.926
+CASE-PMC10227415,body ache,SYM-N00200,0.893
+CASE-PMC10227415,muscle stiffness,SYM-02502,0.897
+CASE-PMC10227415,pain in small joints,SYM-N00297,0.922
+CASE-PMC9163518,complaints of low grade fever,SYM-N00577,0.894
+CASE-PMC9163518,occasional nausea,SYM-N01306,0.884
+CASE-PMC9163518,decreased appetite,SYM-N01259,0.908
+CASE-PMC9163518,decreased appetite,SYM-N00212,0.907
+CASE-PMC9163518,decreased appetite,SYM-N01357,0.902
+CASE-PMC9163518,decreased appetite,SYM-N00879,0.889
+CASE-PMC9163518,abdominal discomfort,SYM-N00562,0.879
+CASE-PMC9163518,abdominal discomfort,SYM-N00550,0.879
+CASE-PMC9163518,abdominal discomfort,SYM-N00523,0.875
+CASE-PMC9163518,abdominal discomfort,SYM-N00915,0.875
+CASE-PMC9163518,abdominal discomfort,SYM-N00536,0.872
+CASE-PMC9163518,had no history of any external exposure,SYM-N01165,0.874
+CASE-PMC9163518,ingestion of raw food or milk,SYM-07094,0.877
+CASE-PMC9163518,ingestion of raw food or milk,SYM-N01388,0.876
+CASE-PMC10388190,pain during micturition,SYM-N00836,0.897
+CASE-PMC10388190,pain during micturition,SYM-06877,0.884
+CASE-PMC10388190,pain during micturition,SYM-08413,0.878
+CASE-PMC10388190,poor stream of urine for the last,SYM-N00081,0.891
+CASE-PMC10388190,poor stream of urine for the last,SYM-01916,0.887
+CASE-PMC10388190,poor stream of urine for the last,SYM-08728,0.877
+CASE-PMC10388190,poor stream of urine for the last,SYM-05534,0.876
+CASE-PMC10388190,poor stream of urine for the last,SYM-N00150,0.875
+CASE-PMC8930101,gradually increased,SYM-N00739,0.894
+CASE-PMC8930101,gradually increased,SYM-07490,0.881
+CASE-PMC8930101,gradually increased,SYM-00223,0.877
+CASE-PMC8930101,no causalities,SYM-N00549,0.875
+CASE-PMC8930101,no causalities,SYM-00823,0.874
+CASE-PMC8930101,no causalities,SYM-07455,0.874
+CASE-PMC8930101,no causalities,SYM-04188,0.874
+CASE-PMC8930101,no causalities,SYM-04170,0.873
+CASE-PMC8186000,disturbed sleep,SYM-N00944,0.872
+CASE-PMC8186000,disturbed sleep,SYM-N01369,0.87
+CASE-PMC8186000,were unavailable,SYM-00494,0.889
+CASE-PMC8186000,were unavailable,SYM-07747,0.87
+CASE-PMC8039353,swelling in large joints of body,SYM-03351,0.892
+CASE-PMC8039353,swelling in large joints of body,SYM-N00491,0.879
+CASE-PMC8039353,swelling in large joints of body,SYM-N01338,0.878
+CASE-PMC8039353,is followed by swelling,SYM-08054,0.878
+CASE-PMC8039353,is followed by swelling,SYM-07767,0.878
+CASE-PMC8039353,is followed by swelling,SYM-N01066,0.878
+CASE-PMC8039353,is followed by swelling,SYM-00637,0.877
+CASE-PMC8039353,is followed by swelling,SYM-01186,0.876
+CASE-PMC8039353,pain in left knee joint in few days,SYM-02501,0.875
+CASE-PMC8039353,pain in left knee joint in few days,SYM-N01402,0.873
+CASE-PMC8039353,pain in left knee joint in few days,SYM-03351,0.871
+CASE-PMC8039353,pain in left knee joint in few days,SYM-N00631,0.87
+CASE-PMC8039353,aggravated in night,SYM-06577,0.901
+CASE-PMC8039353,aggravated in night,SYM-06574,0.892
+CASE-PMC8039353,stiffness in joints,SYM-02502,0.886
+CASE-PMC8039353,stiffness in joints,SYM-03354,0.878
+CASE-PMC8039353,stiffness in joints,SYM-01769,0.871
+CASE-PMC8039353,restricted movements,SYM-N01289,0.934
+CASE-PMC8039353,loss of appetite,SYM-N00212,0.922
+CASE-PMC8039353,pain or redness in eyes,SYM-02520,0.906
+CASE-PMC8039353,pain or redness in eyes,SYM-01165,0.893
+CASE-PMC8039353,pain or redness in eyes,SYM-06433,0.89
+CASE-PMC8039353,pain or redness in eyes,SYM-06466,0.89
+CASE-PMC8039353,pain or redness in eyes,SYM-05747,0.887
+CASE-PMC8039353,cervical pain,SYM-N00996,0.879
+CASE-PMC8039353,cervical pain,SYM-N00189,0.876
+CASE-PMC8039353,cervical pain,SYM-N00129,0.871
+CASE-PMC8039353,painful micturition,SYM-N00836,0.914
+CASE-PMC8039353,painful micturition,SYM-08413,0.898
+CASE-PMC8039353,chest pain,SYM-01688,0.895
+CASE-PMC8039353,chest pain,SYM-N00190,0.891
+CASE-PMC8039353,chest pain,SYM-04855,0.889
+CASE-PMC8039353,chest pain,SYM-04860,0.888
+CASE-PMC8039353,chest pain,SYM-N00537,0.887
+CASE-PMC8039353,involuntary movements of limbs etc,SYM-08462,0.878
+CASE-PMC8039353,involuntary movements of limbs etc,SYM-N00086,0.876
+CASE-PMC8039341,pain in all over the body,SYM-N01390,0.931
+CASE-PMC8039341,pain in all over the body,SYM-08431,0.918
+CASE-PMC8039341,three more ulcers over the right leg,SYM-N01016,0.889
+CASE-PMC8039341,a single ulcer on left leg,SYM-N01016,0.881
+CASE-PMC8039341,remission of the symptoms during this management,SYM-N00595,0.873
+CASE-PMC8039341,episodes of ulceration,SYM-N00596,0.877
+CASE-PMC8039341,episodes of ulceration,SYM-N01232,0.873
+CASE-PMC8039341,episodes of ulceration,SYM-N00696,0.871
+CASE-PMC8039341,history of abdominal pain,SYM-N00915,0.871
+CASE-PMC8039341,general lethargy,SYM-N00173,0.876
+CASE-PMC8039341,pain in whole body,SYM-N01390,0.913
+CASE-PMC8039341,pain in whole body,SYM-08431,0.906
+CASE-PMC8039341,pain in whole body,SYM-08437,0.899
+CASE-PMC8039341,thin body,SYM-N01488,0.891
+CASE-PMC8039341,thin body,SYM-N00275,0.876
+CASE-PMC8039341,all these symptoms were overlapping,SYM-04927,0.87
+CASE-PMC6033722,complaint of severe constipation,SYM-00362,0.884
+CASE-PMC6033722,complaint of severe constipation,SYM-06874,0.877
+CASE-PMC6033722,complaint of severe constipation,SYM-05340,0.874
+CASE-PMC6033722,complaint of severe constipation,SYM-03645,0.872
+CASE-PMC6033722,complaint of severe constipation,SYM-N00095,0.872
+CASE-PMC6033722,abdominal pain,SYM-N00915,0.912
+CASE-PMC6033722,abdominal pain,SYM-N00550,0.911
+CASE-PMC6033722,abdominal pain,SYM-N00523,0.907
+CASE-PMC6033722,abdominal pain,SYM-N00536,0.901
+CASE-PMC6033722,abdominal pain,SYM-N00464,0.898
+CASE-PMC6033722,abdominal distension,SYM-01299,0.891
+CASE-PMC6033722,abdominal distension,SYM-08353,0.883
+CASE-PMC6033722,abdominal distension,SYM-02270,0.881
+CASE-PMC6033722,abdominal distension,SYM-04716,0.88
+CASE-PMC6033722,abdominal distension,SYM-00910,0.88
+CASE-PMC6033722,these symptoms,SYM-N00401,0.892
+CASE-PMC6033722,these symptoms,SYM-05594,0.886
+CASE-PMC6033722,these symptoms,SYM-01714,0.885
+CASE-PMC6033722,these symptoms,SYM-N00766,0.884
+CASE-PMC6033722,these symptoms,SYM-04130,0.884
+CASE-PMC6033722,bowel sounds,SYM-N00360,0.873
+CASE-PMC6033722,difficulties in passing urine,SYM-06221,0.888
+CASE-PMC6033722,difficulties in passing urine,SYM-05436,0.887
+CASE-PMC6033722,difficulties in passing urine,SYM-N00079,0.883
+CASE-PMC6033722,difficulties in passing urine,SYM-N00831,0.877
+CASE-PMC6033722,difficulties in passing urine,SYM-06238,0.876
+CASE-PMC6033722,pain around sacral region,SYM-N00129,0.919
+CASE-PMC5041389,frequent defecation,SYM-06190,0.898
+CASE-PMC5041389,frequent defecation,SYM-00753,0.891
+CASE-PMC5041389,frequent defecation,SYM-06199,0.888
+CASE-PMC5041389,frequent defecation,SYM-N00559,0.885
+CASE-PMC5041389,frequent defecation,SYM-06207,0.88
+CASE-PMC5041389,durghandhayukta purisha,SYM-01431,0.889
+CASE-PMC5041389,durghandhayukta purisha,SYM-N01554,0.886
+CASE-PMC5041389,durghandhayukta purisha,SYM-01619,0.884
+CASE-PMC5041389,durghandhayukta purisha,SYM-N00194,0.883
+CASE-PMC5041389,durghandhayukta purisha,SYM-N00818,0.883
+CASE-PMC5041389,foul smelling stool,SYM-N01255,0.912
+CASE-PMC5041389,raktayukta purisha,SYM-06524,0.892
+CASE-PMC5041389,raktayukta purisha,SYM-05195,0.89
+CASE-PMC5041389,raktayukta purisha,SYM-N01554,0.889
+CASE-PMC5041389,raktayukta purisha,SYM-01431,0.888
+CASE-PMC5041389,raktayukta purisha,SYM-01619,0.886
+CASE-PMC5041389,blood mixed stool,SYM-N00520,0.905
+CASE-PMC5041389,blood mixed stool,SYM-N00555,0.896
+CASE-PMC5041389,blood mixed stool,SYM-N00481,0.887
+CASE-PMC5041389,reduced appetite,SYM-N00156,0.884
+CASE-PMC5041389,reduced appetite,SYM-N00212,0.882
+CASE-PMC5041389,reduced appetite,SYM-N01259,0.88
+CASE-PMC5041389,reduced appetite,SYM-N00147,0.876
+CASE-PMC5041389,reduced appetite,SYM-N01357,0.875
+CASE-PMC5041389,pain in abdomen,SYM-04648,0.91
+CASE-PMC5041389,pain in abdomen,SYM-N00536,0.91
+CASE-PMC5041389,pain in abdomen,SYM-02276,0.909
+CASE-PMC5041389,pain in abdomen,SYM-02267,0.908
+CASE-PMC5041389,pain in abdomen,SYM-01585,0.904
+CASE-PMC5041389,heat intolerance,SYM-01719,0.877
+CASE-PMC5041389,reduced sleep,SYM-N00147,0.931
+CASE-PMC5041389,pain in the abdomen,SYM-N00536,0.912
+CASE-PMC5041389,pain in the abdomen,SYM-04648,0.912
+CASE-PMC5041389,pain in the abdomen,SYM-02276,0.911
+CASE-PMC5041389,pain in the abdomen,SYM-02267,0.91
+CASE-PMC5041389,pain in the abdomen,SYM-01585,0.905
+CASE-PMC5041389,but did not get relief,SYM-04982,0.872
+CASE-PMC5041389,but did not get relief,SYM-07572,0.872
+CASE-PMC5041389,but did not get relief,SYM-04178,0.871
+CASE-PMC5041389,but did not get relief,SYM-00059,0.87
+CASE-PMC5041389,but did not get relief,SYM-N00469,0.87
+CASE-PMC5041389,looking into the signs,SYM-N01667,0.891
+CASE-PMC8039336,complaints of pain,SYM-N00631,0.874
+CASE-PMC8039336,blackish discoloration of skin,SYM-N00882,0.909
+CASE-PMC8039336,blackish discoloration of skin,SYM-07959,0.894
+CASE-PMC8039336,blackish discoloration of skin,SYM-02414,0.894
+CASE-PMC8039336,blackish discoloration of skin,SYM-07898,0.892
+CASE-PMC8039336,pus discharge,SYM-N01015,0.911
+CASE-PMC8039336,pus discharge,SYM-N00818,0.906
+CASE-PMC8039336,foul smell,SYM-N01012,0.9
+CASE-PMC8039336,foul smell,SYM-N00911,0.898
+CASE-PMC8039336,foul smell,SYM-N00543,0.889
+CASE-PMC8039336,foul smell,SYM-N01255,0.884
+CASE-PMC8039336,foul smell,SYM-N00158,0.883
+CASE-PMC8039336,discoloration of the skin,SYM-N00776,0.926
+CASE-PMC8039336,discoloration of the skin,SYM-N00034,0.909
+CASE-PMC8039336,discoloration of the skin,SYM-N00882,0.908
+CASE-PMC5377475,complaints of pain,SYM-N00631,0.874
+CASE-PMC5377475,both knees,SYM-N01678,0.871
+CASE-PMC5377475,pain was severe,SYM-03645,0.91
+CASE-PMC5377475,pain was severe,SYM-03655,0.909
+CASE-PMC5377475,pain was severe,SYM-03662,0.909
+CASE-PMC5377475,pain was severe,SYM-03649,0.908
+CASE-PMC5377475,pain was severe,SYM-03647,0.906
+CASE-PMC10405884,the complaint of yellowish discoloration of urine,SYM-N00837,0.883
+CASE-PMC10405884,the complaint of yellowish discoloration of urine,SYM-08327,0.881
+CASE-PMC10405884,the complaint of yellowish discoloration of urine,SYM-09295,0.878
+CASE-PMC10405884,the complaint of yellowish discoloration of urine,SYM-N01145,0.871
+CASE-PMC10405884,the complaint of yellowish discoloration of urine,SYM-06434,0.871
+CASE-PMC10405884,experiencing upper abdominal pain on,SYM-N01409,0.886
+CASE-PMC10405884,experiencing upper abdominal pain on,SYM-N00915,0.882
+CASE-PMC10405884,experiencing upper abdominal pain on,SYM-N00550,0.881
+CASE-PMC10405884,experiencing upper abdominal pain on,SYM-N00523,0.874
+CASE-PMC10405884,experiencing upper abdominal pain on,SYM-04648,0.873
+CASE-PMC10405884,these symptoms were mild,SYM-06311,0.873
+CASE-PMC10405884,these symptoms were mild,SYM-05875,0.87
+CASE-PMC10405884,these symptoms were mild,SYM-04619,0.87
+CASE-PMC7125376,right calcaneal pain,SYM-N00129,0.878
+CASE-PMC7125376,right calcaneal pain,SYM-02501,0.872
+CASE-PMC7125376,abdomen was distended,SYM-03979,0.906
+CASE-PMC7125376,abdomen was distended,SYM-N00461,0.9
+CASE-PMC7125376,abdomen was distended,SYM-08353,0.894
+CASE-PMC7125376,abdomen was distended,SYM-01298,0.893
+CASE-PMC7125376,abdomen was distended,SYM-02270,0.89
+CASE-PMC7125376,according to ayurveda,SYM-N01613,0.873
+CASE-PMC8078602,complaints of pain in inter phalangeal joints,SYM-N00631,0.878
+CASE-PMC8078602,on discharge,SYM-N01680,0.884
+CASE-PMC8078602,on discharge,SYM-05153,0.881
+CASE-PMC8078602,on discharge,SYM-09107,0.88
+CASE-PMC8078602,on discharge,SYM-09104,0.878
+CASE-PMC8078602,on discharge,SYM-N01015,0.877
+CASE-PMC5726192,severe stomatitis,SYM-N00098,0.871
+CASE-PMC5726192,the clinical signs,SYM-N01667,0.886
+CASE-PMC5726192,symptoms like erythema,SYM-04883,0.877
+CASE-PMC5726192,symptoms like erythema,SYM-04882,0.871
+CASE-PMC5726192,blisters all over the body,SYM-08458,0.904
+CASE-PMC5726192,blisters all over the body,SYM-04927,0.897
+CASE-PMC5726192,blisters all over the body,SYM-03745,0.891
+CASE-PMC5726192,blisters all over the body,SYM-08318,0.887
+CASE-PMC5726192,blisters all over the body,SYM-N00789,0.886
+CASE-PMC5726192,burning sensation,SYM-N01297,0.898
+CASE-PMC5726192,burning sensation,SYM-00143,0.891
+CASE-PMC5726192,burning sensation,SYM-03880,0.887
+CASE-PMC5726192,burning sensation,SYM-N00829,0.887
+CASE-PMC5726192,burning sensation,SYM-08580,0.886
+CASE-PMC5726192,trido as,SYM-03708,0.872
+CASE-PMC5726192,v ta,SYM-N00001,0.876
+CASE-PMC5726192,v ta,SYM-N00359,0.874
+CASE-PMC5726192,v ta,SYM-N00294,0.871
+CASE-PMC5726192,are involved,SYM-N00050,0.872
+CASE-PMC5726192,predominance of pitta,SYM-04961,0.881
+CASE-PMC8148572,symptoms began,SYM-N01048,0.877
+CASE-PMC8148572,symptoms began,SYM-01294,0.873
+CASE-PMC8148572,symptoms began,SYM-04293,0.873
+CASE-PMC8148572,respiratory disease symptoms,SYM-N01401,0.91
+CASE-PMC8148572,had symptoms other than respiratory,SYM-N01401,0.876
+CASE-PMC8148572,had symptoms other than respiratory,SYM-03248,0.873
+CASE-PMC8148572,had more than three symptoms,SYM-05594,0.87
+CASE-PMC8148572,general weakness,SYM-N00880,0.909
+CASE-PMC8148572,sore throat,SYM-N01039,0.883
+CASE-PMC8148572,sore throat,SYM-N00263,0.877
+CASE-PMC8148572,sore throat,SYM-N01037,0.877
+CASE-PMC8148572,sore throat,SYM-N01040,0.876
+CASE-PMC8148572,sore throat,SYM-N00031,0.872
+CASE-PMC6153909,low back,SYM-N00040,0.907
+CASE-PMC6153909,she was also complaining of reduced appetite,SYM-N01357,0.882
+CASE-PMC6153909,she was also complaining of reduced appetite,SYM-N00212,0.877
+CASE-PMC6153909,she was also complaining of reduced appetite,SYM-N01259,0.872
+CASE-PMC6153909,severe pain was noted,SYM-03645,0.898
+CASE-PMC6153909,severe pain was noted,SYM-03655,0.893
+CASE-PMC6153909,severe pain was noted,SYM-03647,0.892
+CASE-PMC6153909,severe pain was noted,SYM-06350,0.891
+CASE-PMC6153909,severe pain was noted,SYM-03662,0.891
+CASE-PMC6153909,low backache,SYM-01905,0.89
+CASE-PMC6153909,low backache,SYM-03628,0.886
+CASE-PMC6153909,low backache,SYM-01898,0.884
+CASE-PMC6153909,low backache,SYM-01899,0.883
+CASE-PMC6153909,low backache,SYM-01908,0.881
+CASE-PMC6153909,the next day,SYM-01242,0.875
+CASE-PMC4649577,back during,SYM-N01645,0.897
+CASE-PMC4649577,in the very next cycle,SYM-07041,0.875
+CASE-PMC4649577,in the very next cycle,SYM-04068,0.873
+CASE-PMC4649577,in the very next cycle,SYM-07657,0.872
+CASE-PMC4649577,her complaint of pain abdomen before,SYM-N00539,0.895
+CASE-PMC4649577,pain lower abdomen,SYM-N00915,0.91
+CASE-PMC4649577,was frequent earlier,SYM-N00779,0.909
+CASE-PMC4649577,heaviness in the abdomen,SYM-02263,0.895
+CASE-PMC4649577,heaviness in the abdomen,SYM-01580,0.891
+CASE-PMC4649577,heaviness in the abdomen,SYM-02485,0.888
+CASE-PMC4649577,heaviness in the abdomen,SYM-03291,0.887
+CASE-PMC4649577,heaviness in the abdomen,SYM-N00258,0.881
+CASE-PMC4649577,after the period of weeks,SYM-07041,0.874
+CASE-PMC4649577,the reduction in the size of uterus,SYM-06159,0.894
+CASE-PMC4649577,the complaints of irregular,SYM-N00594,0.887
+CASE-PMC4649577,the complaints of irregular,SYM-07261,0.88
+CASE-PMC4649577,the complaints of irregular,SYM-07251,0.876
+CASE-PMC4649577,the complaints of irregular,SYM-N00693,0.875
+CASE-PMC4649577,the complaints of irregular,SYM-00556,0.874
+CASE-PMC4649577,painful periods,SYM-08414,0.88
+CASE-PMC4649577,associated complaints of pain in the abdomen,SYM-N00536,0.888
+CASE-PMC4649577,associated complaints of pain in the abdomen,SYM-04648,0.883
+CASE-PMC4649577,associated complaints of pain in the abdomen,SYM-N00915,0.879
+CASE-PMC4649577,associated complaints of pain in the abdomen,SYM-N00550,0.876
+CASE-PMC4649577,associated complaints of pain in the abdomen,SYM-02271,0.875
+CASE-PMC4649577,pain in the abdomen,SYM-N00536,0.912
+CASE-PMC4649577,pain in the abdomen,SYM-04648,0.912
+CASE-PMC4649577,pain in the abdomen,SYM-02276,0.911
+CASE-PMC4649577,pain in the abdomen,SYM-02267,0.91
+CASE-PMC4649577,pain in the abdomen,SYM-01585,0.905
+CASE-PMC4649577,pain abdomen,SYM-02276,0.901
+CASE-PMC4649577,pain abdomen,SYM-04648,0.9
+CASE-PMC4649577,pain abdomen,SYM-02267,0.899
+CASE-PMC4649577,pain abdomen,SYM-N00536,0.899
+CASE-PMC4649577,pain abdomen,SYM-02274,0.896
+CASE-PMC6153903,profuse bleeding p r,SYM-00318,0.881
+CASE-PMC6153903,profuse bleeding p r,SYM-00486,0.88
+CASE-PMC6153903,pain per anum,SYM-N01411,0.888
+CASE-PMC6153903,pain per anum,SYM-N00039,0.885
+CASE-PMC6153903,pain per anum,SYM-02894,0.878
+CASE-PMC6153903,pain per anum,SYM-04846,0.874
+CASE-PMC6153903,pain per anum,SYM-00130,0.874
+CASE-PMC6153903,he developed pain per anum during defecation,SYM-08536,0.877
+CASE-PMC6153903,he developed pain per anum during defecation,SYM-N00425,0.872
+CASE-PMC6153903,relief from signs,SYM-N01667,0.876
+CASE-PMC6153903,symptoms was seen after follow up of months,SYM-05241,0.877
+CASE-PMC6153903,no recurrence of the signs,SYM-04173,0.878
+CASE-PMC6153903,no recurrence of the signs,SYM-04188,0.877
+CASE-PMC6153903,no recurrence of the signs,SYM-N00863,0.876
+CASE-PMC6153903,no recurrence of the signs,SYM-04187,0.87
+CASE-PMC4623634,there was inability to walk,SYM-02712,0.9
+CASE-PMC4623634,difficulty in deglutition,SYM-N01347,0.888
+CASE-PMC4623634,difficulty in deglutition,SYM-02349,0.886
+CASE-PMC4623634,difficulty in deglutition,SYM-02332,0.884
+CASE-PMC4623634,difficulty in deglutition,SYM-N00070,0.882
+CASE-PMC4623634,difficulty in deglutition,SYM-N00463,0.879
+CASE-PMC4687243,cracking of skin,SYM-09052,0.89
+CASE-PMC4687243,cracking of skin,SYM-N00055,0.889
+CASE-PMC4687243,cracking of skin,SYM-03746,0.887
+CASE-PMC4687243,cracking of skin,SYM-09053,0.882
+CASE-PMC4687243,cracking of skin,SYM-07339,0.88
+CASE-PMC4687243,shedding of skin from all over the body,SYM-04927,0.889
+CASE-PMC4687243,severe itching,SYM-03629,0.899
+CASE-PMC4687243,severe itching,SYM-01549,0.884
+CASE-PMC4687243,severe itching,SYM-00316,0.884
+CASE-PMC4687243,severe itching,SYM-09084,0.881
+CASE-PMC4687243,severe itching,SYM-00265,0.881
+CASE-PMC4687243,thickened skin,SYM-N00046,0.884
+CASE-PMC4687243,thickened skin,SYM-05631,0.882
+CASE-PMC4687243,thickened skin,SYM-03050,0.881
+CASE-PMC4687243,thickened skin,SYM-N00367,0.876
+CASE-PMC4687243,thickened skin,SYM-02253,0.875
+CASE-PMC4687243,tightness of the skin,SYM-N00413,0.9
+CASE-PMC4687243,tightness of the skin,SYM-N00367,0.895
+CASE-PMC4687243,tightness of the skin,SYM-N00123,0.891
+CASE-PMC4687243,tightness of the skin,SYM-N00369,0.891
+CASE-PMC4687243,tightness of the skin,SYM-N00650,0.885
+CASE-PMC4687243,severe shivering,SYM-03093,0.874
+CASE-PMC4687243,severe shivering,SYM-N00791,0.87
+CASE-PMC5497008,particularly for bhagandara,SYM-05684,0.872
+CASE-PMC5497008,generally difficult to treat,SYM-N01650,0.877
+CASE-PMC5497008,generally difficult to treat,SYM-N00018,0.875
+CASE-PMC5497008,generally difficult to treat,SYM-03948,0.874
+CASE-PMC5497008,generally difficult to treat,SYM-N00415,0.873
+CASE-PMC5497008,generally difficult to treat,SYM-02332,0.872
+CASE-PMC4296436,the hardness,SYM-02191,0.906
+CASE-PMC4296436,the hardness,SYM-01933,0.898
+CASE-PMC4296436,the hardness,SYM-00788,0.894
+CASE-PMC4296436,the hardness,SYM-01937,0.89
+CASE-PMC4296436,the hardness,SYM-N01650,0.89
+CASE-PMC4296436,left shoulder,SYM-N01664,0.874
+CASE-PMC4296436,in the right axillary region,SYM-01883,0.875
+CASE-PMC4296436,in the right axillary region,SYM-01884,0.873
+CASE-PMC4296436,a flat,SYM-N00524,0.878
+CASE-PMC4296436,a flat,SYM-N00091,0.873
+CASE-PMC4296436,she complained of pain,SYM-01688,0.884
+CASE-PMC4296436,she complained of pain,SYM-N00546,0.884
+CASE-PMC4296436,she complained of pain,SYM-07426,0.879
+CASE-PMC4296436,she complained of pain,SYM-N01256,0.878
+CASE-PMC4296436,she complained of pain,SYM-N00551,0.877
+CASE-PMC4296436,burning at the site of the injection during,SYM-03776,0.879
+CASE-PMC4296436,burning at the site of the injection during,SYM-06324,0.878
+CASE-PMC4296436,burning at the site of the injection during,SYM-06400,0.878
+CASE-PMC4296436,burning at the site of the injection during,SYM-N00554,0.877
+CASE-PMC4296436,burning at the site of the injection during,SYM-N01290,0.876
+CASE-PMC4296436,a dry,SYM-N00216,0.915
+CASE-PMC4296436,a dry,SYM-N00676,0.898
+CASE-PMC3157110,various ocular discomfort symptoms,SYM-07019,0.885
+CASE-PMC3157110,various ocular discomfort symptoms,SYM-02520,0.882
+CASE-PMC3157110,various ocular discomfort symptoms,SYM-06436,0.877
+CASE-PMC3157110,various ocular discomfort symptoms,SYM-07948,0.876
+CASE-PMC3157110,various ocular discomfort symptoms,SYM-06433,0.872
+CASE-PMC4492026,developed a pain in the left knee joint,SYM-03351,0.879
+CASE-PMC4492026,developed a pain in the left knee joint,SYM-N01402,0.871
+CASE-PMC3665107,then he felt feverish,SYM-N00597,0.884
+CASE-PMC3665107,then he felt feverish,SYM-08568,0.876
+CASE-PMC3665107,then he felt feverish,SYM-N01400,0.872
+CASE-PMC3665107,then he felt feverish,SYM-07461,0.871
+CASE-PMC3665107,then he felt feverish,SYM-N01012,0.87
+CASE-PMC3665107,developed pain all over the body,SYM-08431,0.905
+CASE-PMC3665107,developed pain all over the body,SYM-N01390,0.895
+CASE-PMC3665107,developed pain all over the body,SYM-02811,0.892
+CASE-PMC3665107,symptoms of a disease named as urustambha,SYM-04883,0.875
+CASE-PMC3665107,can be correlated,SYM-N00050,0.873
+CASE-PMC3665107,can be correlated,SYM-N01141,0.87
+CASE-PMC5041390,of vata pittaja prakriti,SYM-N00468,0.891
+CASE-PMC5041390,of vata pittaja prakriti,SYM-N00359,0.882
+CASE-PMC5041390,of vata pittaja prakriti,SYM-N00001,0.88
+CASE-PMC5041390,of vata pittaja prakriti,SYM-06966,0.871
+CASE-PMC5041390,restricted movements,SYM-N01289,0.934
+CASE-PMC5041390,poor appetite,SYM-N00212,0.886
+CASE-PMC5041390,poor appetite,SYM-N00879,0.884
+CASE-PMC5041390,poor appetite,SYM-N00538,0.884
+CASE-PMC5041390,poor appetite,SYM-N01357,0.882
+CASE-PMC5041390,it was mild in nature,SYM-N01548,0.873
+CASE-PMC4342650,pain in right heel,SYM-N00115,0.891
+CASE-PMC4342650,had persisted for months,SYM-04371,0.877
+CASE-PMC4342650,had persisted for months,SYM-06314,0.87
+CASE-PMC4342650,had persisted for months,SYM-06331,0.87
+CASE-PMC4342650,severe intensity,SYM-N00791,0.873
+CASE-PMC4342650,severe intensity,SYM-05702,0.872
+CASE-PMC3807952,throbbing toothache,SYM-N00243,0.896
+CASE-PMC3807952,swelling in cheek,SYM-06149,0.881
+CASE-PMC3807952,swelling in cheek,SYM-N01078,0.872
+CASE-PMC3807952,swelling in cheek,SYM-N00264,0.87
+CASE-PMC3807952,foul smell from mouth,SYM-N01012,0.896
+CASE-PMC3807952,foul smell from mouth,SYM-N00911,0.886
+CASE-PMC3807952,foul smell from mouth,SYM-N00543,0.882
+CASE-PMC3807952,foul smell from mouth,SYM-N00158,0.879
+CASE-PMC3807952,foul smell from mouth,SYM-N01255,0.877
+CASE-PMC3059451,intense itching,SYM-02011,0.896
+CASE-PMC3059451,intense itching,SYM-01998,0.891
+CASE-PMC3059451,intense itching,SYM-01549,0.887
+CASE-PMC3059451,intense itching,SYM-01997,0.884
+CASE-PMC3059451,intense itching,SYM-00424,0.884
+CASE-PMC3059451,burning sensation,SYM-N01297,0.898
+CASE-PMC3059451,burning sensation,SYM-00143,0.891
+CASE-PMC3059451,burning sensation,SYM-03880,0.887
+CASE-PMC3059451,burning sensation,SYM-N00829,0.887
+CASE-PMC3059451,burning sensation,SYM-08580,0.886

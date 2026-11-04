@@ -1,0 +1,15 @@
+source_id,title,url,licence,role
+S0,"Curated layer of this project (controlled vocabulary, glossary, diagnostic correspondences, safety, classical formulations)",this repository /curation,CC BY 4.0 (curation); classical texts are public domain,curated
+S1,"NAMASTE - National Ayurveda Morbidity Codes, Ministry of Ayush, Govt. of India",https://namaste.ayush.gov.in/ayurveda,Govt. of India public standard; attribution; no explicit open licence,authoritative
+S2,"NAMASTE - Standardised Ayurveda Terminologies (SAT A-J), Ministry of Ayush",https://namaste.ayush.gov.in/sat_Ayurveda,Govt. of India public standard; attribution; no explicit open licence,authoritative
+S3,"WHO international standard terminologies on Ayurveda (2022), ISBN 9789240064935",https://iris.who.int/handle/10665/365543,CC BY-NC-SA 3.0 IGO,authoritative
+S4,USDA-ARS Dr. Duke's Phytochemical and Ethnobotanical Databases,https://doi.org/10.15482/USDA.ADC/1239279,CC0 1.0,authoritative
+S5,Amidha Ayurveda Herb Database v2.0 (S. Varshney),https://doi.org/10.5281/zenodo.20581467,CC BY 4.0,community_open
+S6,Wikidata (plant taxon labels in hi/sa/en),https://query.wikidata.org,CC0 1.0,linked_open_data
+S7,GBIF Backbone Taxonomy (species match API),https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c,CC BY 4.0,linked_open_data
+S8,NCBI PubMed E-utilities (literature counts),https://eutils.ncbi.nlm.nih.gov,public domain (US Gov) - counts are facts,modern_evidence
+S9,ClinicalTrials.gov API v2 (registered trials),https://clinicaltrials.gov/data-api/api,public domain (US Gov),modern_evidence
+S10,Europe PMC - Ayurveda case reports (REST API; open-access subset text-mined),https://europepmc.org/RestfulWebService,bibliographic metadata + extracted KB identifiers (facts); article texts not redistributed; per-article licence recorded,real_world_evidence
+S11,PubChem (NCBI) compound identifiers and properties (PUG REST),https://pubchem.ncbi.nlm.nih.gov,public domain (US Gov),linked_open_data
+S12,Medicinal-plant image datasets on Mendeley Data (MED117; Medicinal Leaf Dataset; Indian Medicinal Leaves) - class labels only,https://data.mendeley.com/datasets/dtvbwrhznz/4,CC BY 4.0,linked_open_data
+S13,"WHO International Clinical Trials Registry Platform (ICTRP, incl. CTRI) - optional manual export",https://trialsearch.who.int,"WHO ICTRP terms: non-commercial, attribution, show processing date",modern_evidence

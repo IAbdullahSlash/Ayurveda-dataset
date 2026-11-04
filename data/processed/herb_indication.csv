@@ -1,0 +1,1694 @@
+herb_id,indication_raw,disease_id,match_method,match_score,disease_term_iast,disease_name_en,source_id
+HERB-0001,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0001,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0001,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0001,Mukhabodham,,unmatched,0.0,,,S5
+HERB-0001,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0002,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0002,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0002,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0002,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0002,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0003,Indralupta,AYD-02284,exact_skeleton,100.0,rūhyā/ indraluptaḥ,Patchy alopecia disorder,S5
+HERB-0003,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0003,Khalitya,AYD-01543,exact_skeleton,100.0,khālityam/khalati,Baldness disorder,S5
+HERB-0003,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0003,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0004,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0004,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0004,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0004,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0004,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0005,Apachi,AYD-01637,exact_skeleton,100.0,apacī,Lymphadenopathy disorder,S5
+HERB-0005,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0005,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0005,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0005,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0007,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0007,Grahani,,unmatched,0.0,,,S5
+HERB-0007,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0007,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0007,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0008,Ama,,unmatched,0.0,,,S5
+HERB-0008,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0008,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0008,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0008,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0009,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0009,Grahani,,unmatched,0.0,,,S5
+HERB-0009,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0009,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0009,Visha Roga,,unmatched,0.0,,,S5
+HERB-0010,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0010,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0010,Smritidaurbalya,,unmatched,0.0,,,S5
+HERB-0010,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0010,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0011,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0011,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0011,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0011,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0011,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0012,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0012,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0012,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0012,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0012,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0013,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0013,Luta Visha,AYD-02522,exact_skeleton,100.0,lūtāviṣaḥ,wild spider venom poisoning,S5
+HERB-0013,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0013,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0013,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0014,Agnimandya,,unmatched,0.0,,,S5
+HERB-0014,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0014,Grahani,,unmatched,0.0,,,S5
+HERB-0014,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0014,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0015,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0015,Karshya,AYD-00045,exact_skeleton,100.0,kārśyam,Emaciation disorder,S5
+HERB-0015,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0015,Stanya-kshaya,AYD-00413,exact_skeleton,100.0,stanyakṣayaḥ,Decreased breastmilk disorder,S5
+HERB-0016,Alarka Visha,AYD-02478,exact_skeleton,100.0,alarkaviṣaḥ/jalatrāsaḥ,"bite of rabid animal viz., dog resulting in Hydrophobia",S5
+HERB-0016,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0016,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0016,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0016,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0017,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0017,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0017,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0017,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0017,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0018,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0018,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0018,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0018,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0018,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0020,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0020,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0020,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0020,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0020,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0021,Avarana Vata,AYD-00183,exact_skeleton,100.0,āvṛta-vātaḥ/āvaraṇavāta,Pattern of occlusion,S5
+HERB-0021,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0021,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0021,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0021,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0023,Artava Janana,,unmatched,0.0,,,S5
+HERB-0023,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0023,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0023,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0023,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0024,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0024,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0024,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0024,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0024,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0025,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0025,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0025,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0025,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0025,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0026,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0026,Pradara,,unmatched,0.0,,,S5
+HERB-0026,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0026,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0026,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0028,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0028,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0028,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0028,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0028,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0029,Agnimandya,,unmatched,0.0,,,S5
+HERB-0029,Gridhrasi,AYD-00053,exact_skeleton,100.0,gṛdhrasī,sciatia (due only to vātadōṣa),S5
+HERB-0029,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0029,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0029,Pakshaghata,AYD-00069,exact_skeleton,100.0,pakṣāghātaḥ/pakṣavadhaḥ,hemiplegia/hemiparesis (due only to vātadōṣa),S5
+HERB-0030,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0030,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0030,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0030,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0030,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0032,Agnimandya,,unmatched,0.0,,,S5
+HERB-0032,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0032,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0032,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0032,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0034,Adhmana,AYD-00147,exact_skeleton,100.0,ādhmānam,Abdominal distension disorder,S5
+HERB-0034,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0034,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0034,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0034,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0036,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0036,Kleda,,unmatched,0.0,,,S5
+HERB-0036,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0036,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0036,Yonidosha,,unmatched,0.0,,,S5
+HERB-0037,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0037,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0037,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0037,Raktadosha,,unmatched,0.0,,,S5
+HERB-0037,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0038,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0038,Rasayana,,unmatched,0.0,,,S5
+HERB-0038,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0038,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0038,Vrishya,,unmatched,0.0,,,S5
+HERB-0039,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0039,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0039,Luta Visha,AYD-02522,exact_skeleton,100.0,lūtāviṣaḥ,wild spider venom poisoning,S5
+HERB-0039,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0039,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0041,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0041,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0041,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0041,Vandhyatva,,unmatched,0.0,,,S5
+HERB-0042,Agnimandya,,unmatched,0.0,,,S5
+HERB-0042,Anaha,,unmatched,0.0,,,S5
+HERB-0042,Raktadosha,,unmatched,0.0,,,S5
+HERB-0042,Yakrit Vikara,,unmatched,0.0,,,S5
+HERB-0044,Amlapitta,AYD-00558,exact_skeleton,100.0,amlapittam,Dyspepsia disorder,S5
+HERB-0044,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0044,Shukrakshaya,AYD-00407,exact_skeleton,100.0,śukrakṣayaḥ,Depletion of reproductive tissues and semen pattern,S5
+HERB-0044,Stanyakshaya,AYD-00413,exact_skeleton,100.0,stanyakṣayaḥ,Decreased breastmilk disorder,S5
+HERB-0045,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0045,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0045,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0045,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0045,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0046,Agnimandya,,unmatched,0.0,,,S5
+HERB-0046,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0046,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0046,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0048,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0048,Krimiroga,,unmatched,0.0,,,S5
+HERB-0048,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0048,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0048,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0049,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0049,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0049,Meha,,unmatched,0.0,,,S5
+HERB-0049,Smritinasha,,unmatched,0.0,,,S5
+HERB-0049,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0050,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0050,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0050,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0050,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0050,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0051,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0051,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0051,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0051,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0051,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0052,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0052,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0052,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0052,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0052,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0054,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0054,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0054,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0054,Sandhishoola,,unmatched,0.0,,,S5
+HERB-0054,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0055,Dantaroga,,unmatched,0.0,,,S5
+HERB-0055,Keshya,,unmatched,0.0,,,S5
+HERB-0055,Khalitya,AYD-01543,exact_skeleton,100.0,khālityam/khalati,Baldness disorder,S5
+HERB-0055,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0055,Kustha,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0055,Sandhishoola,,unmatched,0.0,,,S5
+HERB-0055,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0055,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0055,Vatavyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0057,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0057,Chardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0057,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0057,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0057,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0058,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0058,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0058,Mudhagarbha,AYD-01412,exact_skeleton,100.0,mūḍhagarbhaḥ,abonoral foetal presentation,S5
+HERB-0058,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0058,Vibandha,,unmatched,0.0,,,S5
+HERB-0059,Apachi,AYD-01637,exact_skeleton,100.0,apacī,Lymphadenopathy disorder,S5
+HERB-0059,Arbuda,AYD-01064,exact_skeleton,100.0,arbudaḥ,Deep rooted spreading tumour disorder,S5
+HERB-0059,Gandamala,AYD-02253,exact_skeleton,100.0,gandhanāmā/gandhamālā,Solitary large black vesicle disorder,S5
+HERB-0059,Granthi,AYD-01095,exact_skeleton,100.0,granthiḥ,Benign tumour disorder,S5
+HERB-0059,Krimiroga,,unmatched,0.0,,,S5
+HERB-0059,Pradara,,unmatched,0.0,,,S5
+HERB-0059,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0060,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0060,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0060,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0060,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0060,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0062,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0062,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0062,Mutraghata,AYD-01258,exact_skeleton,100.0,mūtrāghātaḥ,Insufficiency of the urinary bladder disorder,S5
+HERB-0062,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0062,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0063,Garbhashaya Shodhana,,unmatched,0.0,,,S5
+HERB-0063,Karnaroga,AYD-01860,exact_skeleton,100.0,karṇarogaḥ,ear diseases,S5
+HERB-0063,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0063,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0063,Visha Roga,,unmatched,0.0,,,S5
+HERB-0064,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0064,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0064,Pradara,,unmatched,0.0,,,S5
+HERB-0064,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0064,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0065,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0065,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0065,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0065,Shukra Alpata,,unmatched,0.0,,,S5
+HERB-0067,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0067,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0067,Pandu,,unmatched,0.0,,,S5
+HERB-0067,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0067,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0070,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0070,Pradara,,unmatched,0.0,,,S5
+HERB-0070,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0070,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0070,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0071,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0071,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0071,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0071,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0071,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0072,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0072,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0072,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0072,Sandhivata,,unmatched,0.0,,,S5
+HERB-0072,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0073,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0073,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0073,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0073,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0073,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0077,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0077,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0077,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0079,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0079,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0079,Kshata,AYD-02260,fuzzy_skeleton,90.9090909090909,cipyam/akṣatā/upanakha,Whitlow disorder,S5
+HERB-0079,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0079,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0080,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0080,Graha,,unmatched,0.0,,,S5
+HERB-0080,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0080,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0080,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0081,Kapha Roga,AYD-01535,fuzzy_skeleton,88.88888888888889,kapāla-rogaḥ,Scalp affliction disorder,S5
+HERB-0081,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0081,Pitta Roga,,unmatched,0.0,,,S5
+HERB-0081,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0081,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0083,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0083,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0083,Pakwashaya Shoola,,unmatched,0.0,,,S5
+HERB-0083,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0083,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0085,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0085,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0085,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0085,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0085,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0086,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0086,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0086,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0086,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0086,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0086,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0088,Anidra,,unmatched,0.0,,,S5
+HERB-0088,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0088,Dhanurvata,,unmatched,0.0,,,S5
+HERB-0088,Grahani,,unmatched,0.0,,,S5
+HERB-0088,Vedana,,unmatched,0.0,,,S5
+HERB-0089,Agnimandya,,unmatched,0.0,,,S5
+HERB-0089,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0089,Manasavikara,,unmatched,0.0,,,S5
+HERB-0089,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0089,Vibandha,,unmatched,0.0,,,S5
+HERB-0090,Agnimandya,,unmatched,0.0,,,S5
+HERB-0090,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0090,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0090,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0090,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0091,Agnimandya,,unmatched,0.0,,,S5
+HERB-0091,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0091,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0091,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0091,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0093,Agnimandya,,unmatched,0.0,,,S5
+HERB-0093,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0093,Galaganda,AYD-01643,exact_skeleton,100.0,galagaṇḍaḥ,Goitre disorder,S5
+HERB-0093,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0093,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0095,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0095,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0095,Pratishyaya,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0095,Raktadosha,,unmatched,0.0,,,S5
+HERB-0095,Vibandha,,unmatched,0.0,,,S5
+HERB-0096,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0096,Anaha,,unmatched,0.0,,,S5
+HERB-0096,Grahani,,unmatched,0.0,,,S5
+HERB-0096,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0096,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0097,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0097,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0097,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0097,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0097,Udavarta,AYD-00656,exact_skeleton,100.0,udāvartaḥ,Volvulus disorder,S5
+HERB-0098,Arbuda,AYD-01064,exact_skeleton,100.0,arbudaḥ,Deep rooted spreading tumour disorder,S5
+HERB-0098,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0098,Raktabhishandya,AYD-01744,fuzzy_skeleton,92.3076923076923,raktābhiṣyandaḥ,abhiṣyanda due to rakta,S5
+HERB-0099,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0099,Granthi,AYD-01095,exact_skeleton,100.0,granthiḥ,Benign tumour disorder,S5
+HERB-0099,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0099,Kaphaja Roga,AYD-01535,fuzzy_skeleton,90.0,kapāla-rogaḥ,Scalp affliction disorder,S5
+HERB-0099,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0100,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0100,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0100,Pinasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0100,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0100,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0101,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0101,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0101,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0101,Smritidaurbalya,,unmatched,0.0,,,S5
+HERB-0101,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0102,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0102,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0102,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0102,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0102,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0103,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0103,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0103,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0103,Meha,,unmatched,0.0,,,S5
+HERB-0103,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0104,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0104,Krimiroga,,unmatched,0.0,,,S5
+HERB-0104,Pratishyaya,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0104,Shiroroga,AYD-01522,exact_skeleton,100.0,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0104,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0105,Abhishyanda,AYD-01740,exact_skeleton,100.0,abhiṣyandaḥ,Conjunctivitis disorder,S5
+HERB-0105,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0105,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0105,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0105,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0106,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0106,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0106,Ojo Kshaya,,unmatched,0.0,,,S5
+HERB-0106,Shukra Alpata,,unmatched,0.0,,,S5
+HERB-0109,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0109,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0109,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0109,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0109,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0110,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0110,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0110,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0110,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0110,Vataroga,AYD-01689,fuzzy_skeleton,88.88888888888889,vartma-rogaḥ,eyelid disorders,S5
+HERB-0111,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0111,Mutraghata,AYD-01258,exact_skeleton,100.0,mūtrāghātaḥ,Insufficiency of the urinary bladder disorder,S5
+HERB-0111,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0111,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0111,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0112,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0112,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0112,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0112,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0112,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0113,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0113,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0113,Hrillasa,,unmatched,0.0,,,S5
+HERB-0113,Peenasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0113,Pinasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0114,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0114,Hrillasa,,unmatched,0.0,,,S5
+HERB-0114,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0114,Peenasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0114,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0115,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0115,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0115,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0115,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0115,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0116,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0116,Asthi Daurbalya,,unmatched,0.0,,,S5
+HERB-0116,Bhagna,AYD-01971,exact_skeleton,100.0,bhagnaḥ,fracture,S5
+HERB-0116,Sandhishoola,,unmatched,0.0,,,S5
+HERB-0117,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0117,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0117,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0117,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0117,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0118,Agnimandya,,unmatched,0.0,,,S5
+HERB-0118,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0118,Chardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0118,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0118,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0119,Agnimandya,,unmatched,0.0,,,S5
+HERB-0119,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0119,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0119,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0119,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0120,Agnimandya,,unmatched,0.0,,,S5
+HERB-0120,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0120,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0120,Chardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0120,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0120,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0120,Hikkaroga,,unmatched,0.0,,,S5
+HERB-0120,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0120,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0120,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0124,Kantharoga,AYD-01860,fuzzy_skeleton,88.88888888888889,karṇarogaḥ,ear diseases,S5
+HERB-0124,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0124,Manasa Vikara,,unmatched,0.0,,,S5
+HERB-0124,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0124,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0124,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0124,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0124,Visha Vyadhi,,unmatched,0.0,,,S5
+HERB-0125,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0125,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0125,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0125,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0125,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0126,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0126,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0126,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0126,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0126,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0127,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0127,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0127,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0127,Sthoulya,,unmatched,0.0,,,S5
+HERB-0128,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0128,Sandhishoola,,unmatched,0.0,,,S5
+HERB-0128,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0128,Vatarakta,AYD-00956,exact_skeleton,100.0,vātaraktam,Rheumatism disorder due to blood,S5
+HERB-0128,Yakrit-pliha Roga,,unmatched,0.0,,,S5
+HERB-0129,Agnimandya,,unmatched,0.0,,,S5
+HERB-0129,Ajirna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0129,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0129,Krimiroga,,unmatched,0.0,,,S5
+HERB-0129,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0130,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0130,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0130,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0130,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0130,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0132,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0132,Granthi,AYD-01095,exact_skeleton,100.0,granthiḥ,Benign tumour disorder,S5
+HERB-0132,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0132,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0132,Vatarakta,AYD-00956,exact_skeleton,100.0,vātaraktam,Rheumatism disorder due to blood,S5
+HERB-0133,Anidra,,unmatched,0.0,,,S5
+HERB-0133,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0133,Bhrama,AYD-01521,exact_skeleton,100.0,bhramaḥ,Vertigo and giddiness disorder,S5
+HERB-0133,Smritidaurbalya,,unmatched,0.0,,,S5
+HERB-0133,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0136,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0136,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0136,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0136,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0136,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0138,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0138,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0138,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0138,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0138,Vidradhi,AYD-00972,exact_skeleton,100.0,vidradhiḥ,abscess,S5
+HERB-0139,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0139,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0139,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0139,Shrama,AYD-00123,exact_skeleton,100.0,śramaḥ,Physical exhaustion disorder,S5
+HERB-0140,Drishtiroga,,unmatched,0.0,,,S5
+HERB-0140,Shiroroga,AYD-01522,exact_skeleton,100.0,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0140,Varnya,,unmatched,0.0,,,S5
+HERB-0140,Vatarakta,AYD-00956,exact_skeleton,100.0,vātaraktam,Rheumatism disorder due to blood,S5
+HERB-0140,Vyanga,AYD-02287,exact_skeleton,100.0,vyaṅgaḥ,Melasma disorder,S5
+HERB-0141,Angamarda,AYD-00019,exact_skeleton,100.0,aṅgamardaḥ,Generalized body ache disorder,S5
+HERB-0141,Garbhashaya Roga,,unmatched,0.0,,,S5
+HERB-0141,Pradara,,unmatched,0.0,,,S5
+HERB-0141,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0143,Jalodara,AYD-01340,exact_skeleton,100.0,jalodaraḥ,ascites,S5
+HERB-0143,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0143,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0143,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0145,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0145,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0145,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0145,Shrama,AYD-00123,exact_skeleton,100.0,śramaḥ,Physical exhaustion disorder,S5
+HERB-0145,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0146,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0146,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0146,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0146,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0146,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0147,Khalitya,AYD-01543,exact_skeleton,100.0,khālityam/khalati,Baldness disorder,S5
+HERB-0147,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0147,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0147,Pandu,,unmatched,0.0,,,S5
+HERB-0147,Shvitra,AYD-00919,exact_skeleton,100.0,śvitraḥ,Leucoderma,S5
+HERB-0148,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0148,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0148,Grahani,,unmatched,0.0,,,S5
+HERB-0148,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0148,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0149,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0149,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0149,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0149,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0149,Yonidosha,,unmatched,0.0,,,S5
+HERB-0150,Agnimandya,,unmatched,0.0,,,S5
+HERB-0150,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0150,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0150,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0150,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0153,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0153,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0153,Pandu,,unmatched,0.0,,,S5
+HERB-0153,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0153,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0154,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0154,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0154,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0154,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0154,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0156,Adhmana,AYD-00147,exact_skeleton,100.0,ādhmānam,Abdominal distension disorder,S5
+HERB-0156,Agnimandya,,unmatched,0.0,,,S5
+HERB-0156,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0156,Pratishyaya,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0156,Udara Shoola,,unmatched,0.0,,,S5
+HERB-0157,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0157,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0157,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0157,Kaphaja Roga,AYD-01535,fuzzy_skeleton,90.0,kapāla-rogaḥ,Scalp affliction disorder,S5
+HERB-0157,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0159,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0159,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0159,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0159,Rasayana,,unmatched,0.0,,,S5
+HERB-0159,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0160,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0160,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0160,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0160,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0160,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0161,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0161,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0161,Grahani,,unmatched,0.0,,,S5
+HERB-0161,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0161,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0163,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0163,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0163,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0163,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0163,Pradara,,unmatched,0.0,,,S5
+HERB-0164,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0164,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0164,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0164,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0164,Vranashotha,AYD-01914,fuzzy_skeleton,88.88888888888889,vraṇaśophaḥ,Inflammation with morbid matter disorder,S5
+HERB-0165,Agnimandya,,unmatched,0.0,,,S5
+HERB-0165,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0165,Dristidaurbalya,,unmatched,0.0,,,S5
+HERB-0165,Grahani,,unmatched,0.0,,,S5
+HERB-0165,Raktadosha,,unmatched,0.0,,,S5
+HERB-0167,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0167,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0167,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0167,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0167,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0168,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0168,Mutraghata,AYD-01258,exact_skeleton,100.0,mūtrāghātaḥ,Insufficiency of the urinary bladder disorder,S5
+HERB-0168,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0168,Pradara,,unmatched,0.0,,,S5
+HERB-0168,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0170,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0170,Krimiroga,,unmatched,0.0,,,S5
+HERB-0170,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0170,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0170,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0171,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0171,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0171,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0171,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0171,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0172,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0172,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0172,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0172,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0172,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0174,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0174,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0174,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0174,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0174,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0175,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0175,Khalitya,AYD-01543,exact_skeleton,100.0,khālityam/khalati,Baldness disorder,S5
+HERB-0175,Palitya,AYD-01537,fuzzy_skeleton,92.3076923076923,akālapalitaḥ/palitaḥ,Premature greying of hair disorder,S5
+HERB-0175,Pandu,,unmatched,0.0,,,S5
+HERB-0175,Yakrit Vikara,,unmatched,0.0,,,S5
+HERB-0177,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0177,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0177,Raktachapa Vyadhi,,unmatched,0.0,,,S5
+HERB-0177,Shirashoola,AYD-01522,fuzzy_skeleton,94.11764705882352,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0177,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0178,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0178,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0178,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0178,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0178,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0179,Agnimandya,,unmatched,0.0,,,S5
+HERB-0179,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0179,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0179,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0179,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0181,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0181,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0181,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0181,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0181,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0184,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0184,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0184,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0184,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0184,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0185,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0185,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0185,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0185,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0185,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0188,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0188,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0188,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0188,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0188,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0190,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0190,Anaha,,unmatched,0.0,,,S5
+HERB-0190,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0190,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0190,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0197,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0197,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0197,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0197,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0197,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0198,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0198,Vatarakta,AYD-00956,exact_skeleton,100.0,vātaraktam,Rheumatism disorder due to blood,S5
+HERB-0198,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0198,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0198,Yonidosha,,unmatched,0.0,,,S5
+HERB-0199,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0199,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0199,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0199,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0199,Yonidosha,,unmatched,0.0,,,S5
+HERB-0200,Agnimandya,,unmatched,0.0,,,S5
+HERB-0200,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0200,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0200,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0201,Agnimandya,,unmatched,0.0,,,S5
+HERB-0201,Anaha,,unmatched,0.0,,,S5
+HERB-0201,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0201,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0201,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0202,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0202,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0202,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0202,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0202,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0203,Bhrama,AYD-01521,exact_skeleton,100.0,bhramaḥ,Vertigo and giddiness disorder,S5
+HERB-0203,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0203,Mada,AYD-01479,exact_skeleton,100.0,madaḥ,Intoxication disorder due to drugs (other than alcohol),S5
+HERB-0203,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0203,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0205,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0205,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0205,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0205,Grahani,,unmatched,0.0,,,S5
+HERB-0205,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0206,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0206,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0206,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0206,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0206,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0207,Agnimandya,,unmatched,0.0,,,S5
+HERB-0207,Anaha,,unmatched,0.0,,,S5
+HERB-0207,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0207,Udara Shoola,,unmatched,0.0,,,S5
+HERB-0209,Garbhasanga,,unmatched,0.0,,,S5
+HERB-0209,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0209,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0209,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0209,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0210,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0210,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0210,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0210,Swarabheda,AYD-00500,exact_skeleton,100.0,svarabhedaḥ,Indistinct- abnormal voice disorder,S5
+HERB-0210,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0211,Bhrama,AYD-01521,exact_skeleton,100.0,bhramaḥ,Vertigo and giddiness disorder,S5
+HERB-0211,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0211,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0211,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0211,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0212,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0212,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0212,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0212,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0212,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0213,Artava Janana,,unmatched,0.0,,,S5
+HERB-0213,Bhrama,AYD-01521,exact_skeleton,100.0,bhramaḥ,Vertigo and giddiness disorder,S5
+HERB-0213,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0213,Stanya Alpata,,unmatched,0.0,,,S5
+HERB-0215,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0215,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0215,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0215,Urakshata,AYD-00511,fuzzy_skeleton,94.11764705882352,uraḥkṣataḥ/kṣatakṣīṇa,thoracic trauma,S5
+HERB-0215,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0216,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0216,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0216,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0216,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0216,Urakshata,AYD-00511,fuzzy_skeleton,94.11764705882352,uraḥkṣataḥ/kṣatakṣīṇa,thoracic trauma,S5
+HERB-0217,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0217,Krimiroga,,unmatched,0.0,,,S5
+HERB-0217,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0217,Udara Shoola,,unmatched,0.0,,,S5
+HERB-0217,Visha-jwara,AYD-00758,fuzzy_skeleton,90.0,viṣajajvaraḥ,jvara due to poison,S5
+HERB-0218,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0218,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0218,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0218,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0218,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0219,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0219,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0219,Karnashoola,AYD-01897,exact_skeleton,100.0,karṇaśūlaḥ,Otalgia disorder,S5
+HERB-0219,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0219,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0219,Shirashoola,AYD-01522,fuzzy_skeleton,94.11764705882352,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0219,Udara Shoola,,unmatched,0.0,,,S5
+HERB-0219,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0220,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0220,Kshata Kshaya,,unmatched,0.0,,,S5
+HERB-0220,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0220,Vata Roga,AYD-01689,fuzzy_skeleton,88.88888888888889,vartma-rogaḥ,eyelid disorders,S5
+HERB-0221,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0221,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0221,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0221,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0221,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0222,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0222,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0222,Kita-visha,AYD-02481,exact_skeleton,100.0,kīṭaviṣaḥ,insects Venom poisoning,S5
+HERB-0222,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0222,Vrana-shotha,AYD-01914,fuzzy_skeleton,88.88888888888889,vraṇaśophaḥ,Inflammation with morbid matter disorder,S5
+HERB-0223,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0223,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0223,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0223,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0223,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0224,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0224,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0224,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0224,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0224,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0225,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0225,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0225,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0225,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0225,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0226,Indralupta,AYD-02284,exact_skeleton,100.0,rūhyā/ indraluptaḥ,Patchy alopecia disorder,S5
+HERB-0226,Keshapata,,unmatched,0.0,,,S5
+HERB-0226,Pradara,,unmatched,0.0,,,S5
+HERB-0226,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0227,Agnimandya,,unmatched,0.0,,,S5
+HERB-0227,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0227,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0227,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0227,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0229,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0229,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0229,Grahani,,unmatched,0.0,,,S5
+HERB-0229,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0229,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0229,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0229,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0230,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0230,Grahani,,unmatched,0.0,,,S5
+HERB-0230,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0230,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0230,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0231,Kantharoga,AYD-01860,fuzzy_skeleton,88.88888888888889,karṇarogaḥ,ear diseases,S5
+HERB-0231,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0231,Pinasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0231,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0231,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0232,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0232,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0232,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0232,Vatarakta,AYD-00956,exact_skeleton,100.0,vātaraktam,Rheumatism disorder due to blood,S5
+HERB-0233,Anidra,,unmatched,0.0,,,S5
+HERB-0233,Kampavata,,unmatched,0.0,,,S5
+HERB-0233,Krimiroga,,unmatched,0.0,,,S5
+HERB-0233,Udara Shoola,,unmatched,0.0,,,S5
+HERB-0233,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0237,Khalitya,AYD-01543,exact_skeleton,100.0,khālityam/khalati,Baldness disorder,S5
+HERB-0237,Palitya,AYD-01537,fuzzy_skeleton,92.3076923076923,akālapalitaḥ/palitaḥ,Premature greying of hair disorder,S5
+HERB-0237,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0237,Visha Vyadhi,,unmatched,0.0,,,S5
+HERB-0237,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0238,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0238,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0238,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0238,Parshwashoola,AYD-00651,exact_skeleton,100.0,pārśvarujaḥ/pārśvaśūlaḥ,Flank pain disorder,S5
+HERB-0238,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0239,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0239,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0239,Stanya-kshaya,AYD-00413,exact_skeleton,100.0,stanyakṣayaḥ,Decreased breastmilk disorder,S5
+HERB-0239,Vibandha,,unmatched,0.0,,,S5
+HERB-0243,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0243,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0243,Mukhapaka,AYD-01656,exact_skeleton,100.0,raktaja-sarvasara-mukharogaḥ/mukhapākaḥ,sarvasara due to rakta,S5
+HERB-0243,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0243,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0244,Dantaroga,,unmatched,0.0,,,S5
+HERB-0244,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0244,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0244,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0244,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0248,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0248,Kshata,AYD-02260,fuzzy_skeleton,90.9090909090909,cipyam/akṣatā/upanakha,Whitlow disorder,S5
+HERB-0248,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0248,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0248,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0249,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0249,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0249,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0249,Katishoola,,unmatched,0.0,,,S5
+HERB-0249,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0250,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0250,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0250,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0250,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0250,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0251,Bhagna,AYD-01971,exact_skeleton,100.0,bhagnaḥ,fracture,S5
+HERB-0251,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0251,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0251,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0251,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0252,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0252,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0252,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0252,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0253,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0253,Kapha Roga,AYD-01535,fuzzy_skeleton,88.88888888888889,kapāla-rogaḥ,Scalp affliction disorder,S5
+HERB-0253,Pitta Roga,,unmatched,0.0,,,S5
+HERB-0253,Raktadosha,,unmatched,0.0,,,S5
+HERB-0254,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0254,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0254,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0254,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0254,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0255,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0255,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0255,Shlipada,AYD-01024,exact_skeleton,100.0,ślīpadaḥ,Elephantiasis disorder,S5
+HERB-0255,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0255,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0257,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0257,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0257,Stanya Alpata,,unmatched,0.0,,,S5
+HERB-0257,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0258,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0258,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0258,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0258,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0258,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0259,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0259,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0259,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0259,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0259,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0260,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0260,Manasavikara,,unmatched,0.0,,,S5
+HERB-0260,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0260,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0262,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0262,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0262,Grahani,,unmatched,0.0,,,S5
+HERB-0262,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0262,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0263,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0263,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0263,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0263,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0263,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0265,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0265,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0265,Bhagna,AYD-01971,exact_skeleton,100.0,bhagnaḥ,fracture,S5
+HERB-0265,Sandhishoola,,unmatched,0.0,,,S5
+HERB-0265,Vrana-shotha,AYD-01914,fuzzy_skeleton,88.88888888888889,vraṇaśophaḥ,Inflammation with morbid matter disorder,S5
+HERB-0266,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0266,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0266,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0266,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0266,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0266,Vibandha,,unmatched,0.0,,,S5
+HERB-0266,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0267,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0267,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0267,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0267,Pandu,,unmatched,0.0,,,S5
+HERB-0267,Udara Roga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0268,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0268,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0268,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0268,Shiroroga,AYD-01522,exact_skeleton,100.0,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0268,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0270,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0270,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0270,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0270,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0270,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0272,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0272,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0272,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0272,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0272,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0273,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0273,Kshata Kshaya,,unmatched,0.0,,,S5
+HERB-0273,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0273,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0274,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0274,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0274,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0274,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0274,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0275,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0275,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0275,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0275,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0275,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0276,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0276,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0276,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0276,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0276,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0278,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0278,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0278,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0278,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0278,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0279,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0279,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0279,Pradara,,unmatched,0.0,,,S5
+HERB-0279,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0279,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0280,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0280,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0280,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0280,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0280,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0281,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0281,Dantachala,AYD-01593,exact_skeleton,100.0,dantacālaḥ,Odontoseisis disorder,S5
+HERB-0281,Krimiroga,,unmatched,0.0,,,S5
+HERB-0281,Mukhapaka,AYD-01656,exact_skeleton,100.0,raktaja-sarvasara-mukharogaḥ/mukhapākaḥ,sarvasara due to rakta,S5
+HERB-0281,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0283,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0283,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0283,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0283,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0283,Raktavikara,,unmatched,0.0,,,S5
+HERB-0284,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0284,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0284,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0284,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0284,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0285,Krimiroga,,unmatched,0.0,,,S5
+HERB-0285,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0285,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0285,Vidradhi,AYD-00972,exact_skeleton,100.0,vidradhiḥ,abscess,S5
+HERB-0286,Avabahuka,AYD-00141,exact_skeleton,100.0,avabāhukaḥ,Frozen shoulder disorder,S5
+HERB-0286,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0286,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0286,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0286,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0286,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0286,Vidradhi,AYD-00972,exact_skeleton,100.0,vidradhiḥ,abscess,S5
+HERB-0287,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0287,Kampavata,,unmatched,0.0,,,S5
+HERB-0287,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0287,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0287,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0289,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0289,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0289,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0289,Somaroga,AYD-01398,exact_skeleton,100.0,somarogaḥ/śvetapradaraḥ,Leucorrhoea disorder,S5
+HERB-0289,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0290,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0290,Grahani,,unmatched,0.0,,,S5
+HERB-0290,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0290,Nidranasha,AYD-02584,exact_skeleton,100.0,nidrānāśaḥ/asvapnaḥ,Insomnia disorder,S5
+HERB-0290,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0291,Anidra,,unmatched,0.0,,,S5
+HERB-0291,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0291,Manasa Roga,AYD-01813,fuzzy_skeleton,88.88888888888889,nāsārogaḥ,nose diseases,S5
+HERB-0291,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0292,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0292,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0292,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0292,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0292,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0293,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0293,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0293,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0293,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0293,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0295,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0295,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0295,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0295,Upadamsha,AYD-01228,exact_skeleton,100.0,upadaṃśaḥ,Gonorrhoea disorder,S5
+HERB-0295,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0296,Agnimandya,,unmatched,0.0,,,S5
+HERB-0296,Anaha,,unmatched,0.0,,,S5
+HERB-0296,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0296,Krimiroga,,unmatched,0.0,,,S5
+HERB-0296,Sutika Roga,AYD-01419,exact_skeleton,100.0,sūtikārogaḥ,Puerperial complications disorder,S5
+HERB-0297,Gridhrasi,AYD-00053,exact_skeleton,100.0,gṛdhrasī,sciatia (due only to vātadōṣa),S5
+HERB-0297,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0297,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0297,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0297,Sandhivata,,unmatched,0.0,,,S5
+HERB-0298,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0298,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0298,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0298,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0298,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0300,Bhrama,AYD-01521,exact_skeleton,100.0,bhramaḥ,Vertigo and giddiness disorder,S5
+HERB-0300,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0300,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0300,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0300,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0302,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0302,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0302,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0302,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0303,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0303,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0303,Pandu,,unmatched,0.0,,,S5
+HERB-0303,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0303,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0304,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0304,Kita-visha,AYD-02481,exact_skeleton,100.0,kīṭaviṣaḥ,insects Venom poisoning,S5
+HERB-0304,Krimiroga,,unmatched,0.0,,,S5
+HERB-0304,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0304,Sarpa-visha,AYD-02410,exact_skeleton,100.0,sarpaviṣaḥ,snake venom poisoning,S5
+HERB-0305,Agnimandya,,unmatched,0.0,,,S5
+HERB-0305,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0305,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0305,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0305,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0306,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0306,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0306,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0306,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0307,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0307,Mutraghata,AYD-01258,exact_skeleton,100.0,mūtrāghātaḥ,Insufficiency of the urinary bladder disorder,S5
+HERB-0307,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0307,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0308,Agnimandya,,unmatched,0.0,,,S5
+HERB-0308,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0308,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0308,Grahani,,unmatched,0.0,,,S5
+HERB-0309,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0309,Gridhrasi,AYD-00053,exact_skeleton,100.0,gṛdhrasī,sciatia (due only to vātadōṣa),S5
+HERB-0309,Pakshaghata,AYD-00069,exact_skeleton,100.0,pakṣāghātaḥ/pakṣavadhaḥ,hemiplegia/hemiparesis (due only to vātadōṣa),S5
+HERB-0309,Sandhivata,,unmatched,0.0,,,S5
+HERB-0309,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0311,Kaphaja Roga,AYD-01535,fuzzy_skeleton,90.0,kapāla-rogaḥ,Scalp affliction disorder,S5
+HERB-0311,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0311,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0311,Shiroroga,AYD-01522,exact_skeleton,100.0,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0312,Anidra,,unmatched,0.0,,,S5
+HERB-0312,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0312,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0312,Vedana,,unmatched,0.0,,,S5
+HERB-0315,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0315,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0315,Pradara,,unmatched,0.0,,,S5
+HERB-0315,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0319,Kshata,AYD-02260,fuzzy_skeleton,90.9090909090909,cipyam/akṣatā/upanakha,Whitlow disorder,S5
+HERB-0319,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0319,Mada,AYD-01479,exact_skeleton,100.0,madaḥ,Intoxication disorder due to drugs (other than alcohol),S5
+HERB-0319,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0319,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0321,Bhrama,AYD-01521,exact_skeleton,100.0,bhramaḥ,Vertigo and giddiness disorder,S5
+HERB-0321,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0321,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0321,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0321,Raktarsha,AYD-01081,fuzzy_skeleton,88.88888888888889,raktaja-arśaḥ,Haemorrhoid disorder due to blood,S5
+HERB-0322,Agnimandya,,unmatched,0.0,,,S5
+HERB-0322,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0322,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0322,Vibhandha,,unmatched,0.0,,,S5
+HERB-0324,Amlapitta,AYD-00558,exact_skeleton,100.0,amlapittam,Dyspepsia disorder,S5
+HERB-0324,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0324,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0324,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0325,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0325,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0325,Pandu,,unmatched,0.0,,,S5
+HERB-0325,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0325,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0325,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0325,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0326,Arochak,AYD-00569,fuzzy_skeleton,92.3076923076923,arocakaḥ,Anorexia disorder,S5
+HERB-0326,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0326,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0326,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0326,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0330,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0330,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0330,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0330,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0330,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0331,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0331,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0331,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0331,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0331,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0332,Agnimandya,,unmatched,0.0,,,S5
+HERB-0332,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0332,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0332,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0332,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0333,Agnimandya,,unmatched,0.0,,,S5
+HERB-0333,Anaha,,unmatched,0.0,,,S5
+HERB-0333,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0333,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0333,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0333,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0334,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0334,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0334,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0334,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0334,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0336,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0336,Karshya,AYD-00045,exact_skeleton,100.0,kārśyam,Emaciation disorder,S5
+HERB-0336,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0336,Shukra-kshaya,AYD-00407,exact_skeleton,100.0,śukrakṣayaḥ,Depletion of reproductive tissues and semen pattern,S5
+HERB-0336,Vata-vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0336,Vatavyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0337,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0337,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0337,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0337,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0337,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0338,Amashaya Shotha,,unmatched,0.0,,,S5
+HERB-0338,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0338,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0338,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0339,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0339,Gridhrasi,AYD-00053,exact_skeleton,100.0,gṛdhrasī,sciatia (due only to vātadōṣa),S5
+HERB-0339,Sandhivata,,unmatched,0.0,,,S5
+HERB-0339,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0339,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0340,Agnimandya,,unmatched,0.0,,,S5
+HERB-0340,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0340,Grahani,,unmatched,0.0,,,S5
+HERB-0340,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0340,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0341,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0341,Grahani,,unmatched,0.0,,,S5
+HERB-0341,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0341,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0341,Udara,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0342,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0342,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0342,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0342,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0344,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0344,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0344,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0344,Udavarta,AYD-00656,exact_skeleton,100.0,udāvartaḥ,Volvulus disorder,S5
+HERB-0344,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0345,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0345,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0345,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0345,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0345,Vatavyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0346,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0346,Pandu,,unmatched,0.0,,,S5
+HERB-0346,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0346,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0347,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0347,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0347,Ojo Kshaya,,unmatched,0.0,,,S5
+HERB-0347,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0349,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0349,Garbhasraava,AYD-01402,exact_skeleton,100.0,garbhasrāvaḥ,miscarriage-before four ninth month,S5
+HERB-0349,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0349,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0349,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0351,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0351,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0351,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0351,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0351,Shwitra,AYD-00919,exact_skeleton,100.0,śvitraḥ,Leucoderma,S5
+HERB-0352,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0352,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0352,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0352,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0352,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0353,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0353,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0353,Shirashoola,AYD-01522,fuzzy_skeleton,94.11764705882352,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0353,Vranashotha,AYD-01914,fuzzy_skeleton,88.88888888888889,vraṇaśophaḥ,Inflammation with morbid matter disorder,S5
+HERB-0354,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0354,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0354,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0354,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0354,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0355,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0355,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0355,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0355,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0355,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0356,Garbhasraava,AYD-01402,exact_skeleton,100.0,garbhasrāvaḥ,miscarriage-before four ninth month,S5
+HERB-0356,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0356,Ojo Kshaya,,unmatched,0.0,,,S5
+HERB-0356,Vandhyatva,,unmatched,0.0,,,S5
+HERB-0357,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0357,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0357,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0357,Shvetapradara,AYD-01398,exact_skeleton,100.0,somarogaḥ/śvetapradaraḥ,Leucorrhoea disorder,S5
+HERB-0358,Agnimandya,,unmatched,0.0,,,S5
+HERB-0358,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0358,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0358,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0358,Pinasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0359,Anidra,,unmatched,0.0,,,S5
+HERB-0359,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0359,Bhrama,AYD-01521,exact_skeleton,100.0,bhramaḥ,Vertigo and giddiness disorder,S5
+HERB-0359,Raktachapa,,unmatched,0.0,,,S5
+HERB-0359,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0360,Anaha,,unmatched,0.0,,,S5
+HERB-0360,Vatavyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0360,Vibandha,,unmatched,0.0,,,S5
+HERB-0360,Yakrit Vikara,,unmatched,0.0,,,S5
+HERB-0361,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0361,Kati Shoola,,unmatched,0.0,,,S5
+HERB-0361,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0361,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0361,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0362,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0362,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0362,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0362,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0362,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0363,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0363,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0363,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0363,Pinasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0363,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0364,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0364,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0364,Raktavikara,,unmatched,0.0,,,S5
+HERB-0364,Visarpa,AYD-00997,exact_skeleton,100.0,visarpaḥ,Acute spreading eruptions disorder,S5
+HERB-0364,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0365,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0365,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0365,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0365,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0365,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0367,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0367,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0367,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0367,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0367,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0368,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0368,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0368,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0368,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0368,Vedana Vyadhi,,unmatched,0.0,,,S5
+HERB-0369,Anaha,,unmatched,0.0,,,S5
+HERB-0369,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0369,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0369,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0369,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0370,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0370,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0370,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0370,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0370,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0371,Grahi Roga,,unmatched,0.0,,,S5
+HERB-0371,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0371,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0371,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0371,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0372,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0372,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0372,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0372,Pradara,,unmatched,0.0,,,S5
+HERB-0372,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0374,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0374,Khalitya,AYD-01543,exact_skeleton,100.0,khālityam/khalati,Baldness disorder,S5
+HERB-0374,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0374,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0376,Agnimandya,,unmatched,0.0,,,S5
+HERB-0376,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0376,Kantharoga,AYD-01860,fuzzy_skeleton,88.88888888888889,karṇarogaḥ,ear diseases,S5
+HERB-0376,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0376,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0379,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0379,Grahani,,unmatched,0.0,,,S5
+HERB-0379,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0379,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0379,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0380,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0380,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0380,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0380,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0381,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0381,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0381,Mukhapaka,AYD-01656,exact_skeleton,100.0,raktaja-sarvasara-mukharogaḥ/mukhapākaḥ,sarvasara due to rakta,S5
+HERB-0381,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0381,Raktadosha,,unmatched,0.0,,,S5
+HERB-0382,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0382,Keshya Vikara,,unmatched,0.0,,,S5
+HERB-0382,Krimiroga,,unmatched,0.0,,,S5
+HERB-0382,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0382,Vibandha,,unmatched,0.0,,,S5
+HERB-0383,Dadru,,unmatched,0.0,,,S5
+HERB-0383,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0383,Kitibha,AYD-00897,exact_skeleton,100.0,kiṭibhaḥ,Guttate psoriasis disorder,S5
+HERB-0383,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0383,Vibandha,,unmatched,0.0,,,S5
+HERB-0384,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0384,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0384,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0384,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0385,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0385,Krimiroga,,unmatched,0.0,,,S5
+HERB-0385,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0385,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0385,Vranashotha,AYD-01914,fuzzy_skeleton,88.88888888888889,vraṇaśophaḥ,Inflammation with morbid matter disorder,S5
+HERB-0386,Dadru,,unmatched,0.0,,,S5
+HERB-0386,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0386,Kitibha,AYD-00897,exact_skeleton,100.0,kiṭibhaḥ,Guttate psoriasis disorder,S5
+HERB-0386,Krimiroga,,unmatched,0.0,,,S5
+HERB-0386,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0386,Pama,AYD-00902,exact_skeleton,100.0,pāmā,Scabies disorder,S5
+HERB-0386,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0388,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0388,Khalitya,AYD-01543,exact_skeleton,100.0,khālityam/khalati,Baldness disorder,S5
+HERB-0388,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0388,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0388,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0389,Chardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0389,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0389,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0389,Naktandhya,,unmatched,0.0,,,S5
+HERB-0389,Pinasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0392,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0392,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0392,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0392,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0392,Vataroga,AYD-01689,fuzzy_skeleton,88.88888888888889,vartma-rogaḥ,eyelid disorders,S5
+HERB-0393,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0393,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0393,Pakshaghata,AYD-00069,exact_skeleton,100.0,pakṣāghātaḥ/pakṣavadhaḥ,hemiplegia/hemiparesis (due only to vātadōṣa),S5
+HERB-0393,Urakshata,AYD-00511,fuzzy_skeleton,94.11764705882352,uraḥkṣataḥ/kṣatakṣīṇa,thoracic trauma,S5
+HERB-0393,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0395,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0395,Phiranga,AYD-01013,exact_skeleton,100.0,phiraṅgaḥ,Syphillis disorder,S5
+HERB-0395,Sandhi Vata,,unmatched,0.0,,,S5
+HERB-0395,Vatarakta,AYD-00956,exact_skeleton,100.0,vātaraktam,Rheumatism disorder due to blood,S5
+HERB-0398,Agnimandya,,unmatched,0.0,,,S5
+HERB-0398,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0398,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0398,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0399,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0399,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0399,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0399,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0399,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0399,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0400,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0400,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0400,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0400,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0400,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0401,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0401,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0401,Parshwashoola,AYD-00651,exact_skeleton,100.0,pārśvarujaḥ/pārśvaśūlaḥ,Flank pain disorder,S5
+HERB-0401,Pinasa,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0401,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0402,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0402,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0402,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0402,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0402,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0404,Apachi,AYD-01637,exact_skeleton,100.0,apacī,Lymphadenopathy disorder,S5
+HERB-0404,Gandamala,AYD-02253,exact_skeleton,100.0,gandhanāmā/gandhamālā,Solitary large black vesicle disorder,S5
+HERB-0404,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0404,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0404,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0406,Malabaddhata,,unmatched,0.0,,,S5
+HERB-0406,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0406,Pandu,,unmatched,0.0,,,S5
+HERB-0406,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0408,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0408,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0408,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0408,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0408,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0409,Agnimandya,,unmatched,0.0,,,S5
+HERB-0409,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0409,Gridhrasi,AYD-00053,exact_skeleton,100.0,gṛdhrasī,sciatia (due only to vātadōṣa),S5
+HERB-0409,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0409,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0410,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0410,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0410,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0410,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0410,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0411,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0411,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0411,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0411,Sannipata Jwara,AYD-00700,fuzzy_skeleton,92.85714285714286,sannipātajajvaraḥ,Fever disorder due to vitiation of all the three dosha,S5
+HERB-0411,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0412,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0412,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0412,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0412,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0412,Vishamajwara,AYD-00761,exact_skeleton,100.0,viṣamajvaraḥ,Intermittent fever disorder,S5
+HERB-0413,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0413,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0413,Pradara,,unmatched,0.0,,,S5
+HERB-0413,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0413,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0414,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0414,Dantaroga,,unmatched,0.0,,,S5
+HERB-0414,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0414,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0414,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0415,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0415,Chhardi,AYD-00586,exact_skeleton,100.0,chardiḥ,Vomiting disorder,S5
+HERB-0415,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0415,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0415,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0416,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0416,Karnashoola,AYD-01897,exact_skeleton,100.0,karṇaśūlaḥ,Otalgia disorder,S5
+HERB-0416,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0416,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0416,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0417,Agnimandya,,unmatched,0.0,,,S5
+HERB-0417,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0417,Pachana,,unmatched,0.0,,,S5
+HERB-0417,Shrama,AYD-00123,exact_skeleton,100.0,śramaḥ,Physical exhaustion disorder,S5
+HERB-0417,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0418,Hikka,AYD-00471,exact_skeleton,100.0,hikkā,Hiccough disorder,S5
+HERB-0418,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0418,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0418,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0418,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0419,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0419,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0419,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0419,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0420,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0420,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0420,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0420,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0420,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0421,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0421,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0421,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0421,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0421,Yakrit Roga,,unmatched,0.0,,,S5
+HERB-0422,Ojo Kshaya,,unmatched,0.0,,,S5
+HERB-0422,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0422,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0422,Shukra Kshaya,AYD-00407,exact_skeleton,100.0,śukrakṣayaḥ,Depletion of reproductive tissues and semen pattern,S5
+HERB-0422,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0423,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0423,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0423,Pandu,,unmatched,0.0,,,S5
+HERB-0423,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0423,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0424,Bhagna,AYD-01971,exact_skeleton,100.0,bhagnaḥ,fracture,S5
+HERB-0424,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0424,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0424,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0424,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0425,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0425,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0425,Netraroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0425,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0425,Swarabheda,AYD-00500,exact_skeleton,100.0,svarabhedaḥ,Indistinct- abnormal voice disorder,S5
+HERB-0426,Agnimandya,,unmatched,0.0,,,S5
+HERB-0426,Arsha,AYD-01074,exact_skeleton,100.0,arśaḥ,Haemorrhoids disorder,S5
+HERB-0426,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0426,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0426,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0430,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0430,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0430,Malaria,,unmatched,0.0,,,S5
+HERB-0430,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0430,V विषम Jwara,AYD-00689,fuzzy_skeleton,90.9090909090909,jvaraḥ,Fever disorder,S5
+HERB-0431,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0431,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0431,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0431,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0431,Vatarakta,AYD-00956,exact_skeleton,100.0,vātaraktam,Rheumatism disorder due to blood,S5
+HERB-0433,Adhmana,AYD-00147,exact_skeleton,100.0,ādhmānam,Abdominal distension disorder,S5
+HERB-0433,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0433,Gulma,AYD-00611,exact_skeleton,100.0,gulmaḥ,Abdominal lumps disorder,S5
+HERB-0433,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0433,Shoola,AYD-00633,exact_skeleton,100.0,śūlaḥ,Abdominal pain disorder,S5
+HERB-0434,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0434,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0434,Garbhasraava Vyadhi,,unmatched,0.0,,,S5
+HERB-0434,Pradara,,unmatched,0.0,,,S5
+HERB-0434,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0435,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0435,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0435,Pliharoga,AYD-01017,exact_skeleton,100.0,plīharogaḥ,Splenomegaly disorder,S5
+HERB-0435,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0435,Udararoga,AYD-01324,exact_skeleton,100.0,udara/udararogaḥ,Ascites disorder,S5
+HERB-0436,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0436,Hridroga,AYD-00681,exact_skeleton,100.0,hṛdrogaḥ,Heart pain disorder,S5
+HERB-0436,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0436,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0436,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0439,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0439,Kamala,AYD-00874,exact_skeleton,100.0,kāmalā,Jaundice disorder,S5
+HERB-0439,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0439,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0439,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0440,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0440,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0440,Grahani,,unmatched,0.0,,,S5
+HERB-0440,Prameha,AYD-01110,exact_skeleton,100.0,pramehaḥ,Polyuria disorder,S5
+HERB-0440,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0441,Ashmari,AYD-01248,exact_skeleton,100.0,aśmarī,Urinary stone disorder,S5
+HERB-0441,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0441,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0441,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0441,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0442,Bhagna-sandhana,,unmatched,0.0,,,S5
+HERB-0442,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0442,Kshata-kshaya,,unmatched,0.0,,,S5
+HERB-0442,Vata-vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0442,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0444,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0444,Bhagna,AYD-01971,exact_skeleton,100.0,bhagnaḥ,fracture,S5
+HERB-0444,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0444,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0444,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0446,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0446,Dantaphuyya,,unmatched,0.0,,,S5
+HERB-0446,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0446,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0446,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0447,Anidra,,unmatched,0.0,,,S5
+HERB-0447,Apasmara,AYD-01457,exact_skeleton,100.0,apasmāraḥ,Epilepsy disorder,S5
+HERB-0447,Shiroga,,unmatched,0.0,,,S5
+HERB-0447,Unmada,AYD-01423,exact_skeleton,100.0,unmādaḥ,Insanity disorder,S5
+HERB-0448,Bhutavesha,,unmatched,0.0,,,S5
+HERB-0448,Kandu,AYD-00838,exact_skeleton,100.0,kaṇḍūḥ,Pruritus disorder,S5
+HERB-0448,Kushta,AYD-00883,exact_skeleton,100.0,kuṣṭham,integumentary disease,S5
+HERB-0448,Visha,AYD-02314,exact_skeleton,100.0,viṣaḥ,poisoning,S5
+HERB-0448,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0450,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0450,Mutrakrichha,AYD-01278,fuzzy_skeleton,94.73684210526316,mūtrakṛcchram,Dysuria disorder,S5
+HERB-0450,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0451,Ardita,AYD-00022,exact_skeleton,100.0,arditaḥ,facial paralysis (due only to vātadōṣa),S5
+HERB-0451,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0451,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0451,Pakshaghata,AYD-00069,exact_skeleton,100.0,pakṣāghātaḥ/pakṣavadhaḥ,hemiplegia/hemiparesis (due only to vātadōṣa),S5
+HERB-0451,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0452,Akshiroga,AYD-01662,exact_skeleton,100.0,netrarogaḥ/akṣirogaḥ,ophthalmic diseases,S5
+HERB-0452,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0452,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0452,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0453,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0453,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0453,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0453,Kshata Kshaya,,unmatched,0.0,,,S5
+HERB-0453,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0454,Kapha Roga,AYD-01535,fuzzy_skeleton,88.88888888888889,kapāla-rogaḥ,Scalp affliction disorder,S5
+HERB-0454,Medoroga,AYD-01161,exact_skeleton,100.0,medorogaḥ,Obesity disorder,S5
+HERB-0454,Pitta Roga,,unmatched,0.0,,,S5
+HERB-0454,Stanya-kshaya,AYD-00413,exact_skeleton,100.0,stanyakṣayaḥ,Decreased breastmilk disorder,S5
+HERB-0455,Jwara,AYD-00689,exact_skeleton,100.0,jvaraḥ,Fever disorder,S5
+HERB-0455,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0455,Pratishyaya,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0455,Shirashoola,AYD-01522,fuzzy_skeleton,94.11764705882352,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0455,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0456,Agnimandya,,unmatched,0.0,,,S5
+HERB-0456,Artava Vikara,,unmatched,0.0,,,S5
+HERB-0456,Kashta-shartava,,unmatched,0.0,,,S5
+HERB-0456,Shirashoola,AYD-01522,fuzzy_skeleton,94.11764705882352,śirorogaḥ/śiraḥśūla/śirastāpa/śirobhitāpa,Cephalalgia disorder,S5
+HERB-0456,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0457,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0457,Krimi,AYD-02184,exact_skeleton,100.0,kṛmiḥ/sañjātakṛmi,Worm infestation disorder,S5
+HERB-0457,Sandhigata Vata,AYD-00248,exact_skeleton,100.0,sandhigatavātaḥ,Osteoarthritis disorder,S5
+HERB-0457,Shotha,AYD-01304,exact_skeleton,100.0,śvayathuḥ/śothaḥ/śophaḥ,Oedema disorder,S5
+HERB-0457,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0458,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0458,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0458,Mada,AYD-01479,exact_skeleton,100.0,madaḥ,Intoxication disorder due to drugs (other than alcohol),S5
+HERB-0458,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0458,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0460,Daurbalya,AYD-02170,exact_skeleton,100.0,daurbalyam,General debility disorder,S5
+HERB-0460,Klaibya,AYD-01173,exact_skeleton,100.0,klaibyam,Erectile dysfunction disorder,S5
+HERB-0460,Kshaya,AYD-02923,fuzzy_skeleton,88.88888888888889,kāyaḥ,psychic constitution,S5
+HERB-0460,Vata Vyadhi,AYD-00004,exact_skeleton,100.0,vātavyādhiḥ,disorders due to vāta,S5
+HERB-0461,Atisara,AYD-00515,exact_skeleton,100.0,atisāraḥ,Diarrhoea disorder,S5
+HERB-0461,Pradara,,unmatched,0.0,,,S5
+HERB-0461,Pravahika,AYD-00628,exact_skeleton,100.0,pravāhikā,Dysentery disorder,S5
+HERB-0461,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5
+HERB-0461,Vrana,AYD-01913,exact_skeleton,100.0,vraṇaḥ,Ulcer disorder,S5
+HERB-0462,Agnimandya,,unmatched,0.0,,,S5
+HERB-0462,Dantashoola,,unmatched,0.0,,,S5
+HERB-0462,Krimi Vyadhi,,unmatched,0.0,,,S5
+HERB-0462,Mukharoga,AYD-01553,exact_skeleton,100.0,mukharogaḥ,disorders of oral cavity,S5
+HERB-0462,Udara Shoola,,unmatched,0.0,,,S5
+HERB-0463,Agnimandya,,unmatched,0.0,,,S5
+HERB-0463,Ajeerna,AYD-00536,exact_skeleton,100.0,ajīrṇam,Indigestion disorder,S5
+HERB-0463,Amavata,AYD-00823,exact_skeleton,100.0,āmavātaḥ,Rheumatism disorder,S5
+HERB-0463,Grahani,,unmatched,0.0,,,S5
+HERB-0463,Kasa,AYD-00480,exact_skeleton,100.0,kāsaḥ,Cough disorder,S5
+HERB-0463,Pratishyaya,AYD-01814,exact_skeleton,100.0,pratiśyāyaḥ/pīnasaḥ,Rhinitis disorder,S5
+HERB-0463,Shwasa,AYD-00489,exact_skeleton,100.0,śvāsaḥ,Dyspnoea disorder,S5
+HERB-0465,Aruchi,AYD-00828,exact_skeleton,100.0,aruciḥ,anorexia,S5
+HERB-0465,Daha,AYD-01054,exact_skeleton,100.0,dāhaḥ,burning sensation,S5
+HERB-0465,Raktapitta,AYD-00944,exact_skeleton,100.0,raktapittam,Bleeding disorder disorder,S5
+HERB-0465,Shrama,AYD-00123,exact_skeleton,100.0,śramaḥ,Physical exhaustion disorder,S5
+HERB-0465,Trishna,AYD-01291,exact_skeleton,100.0,tṛṣṇā,Polydipsia disorder,S5

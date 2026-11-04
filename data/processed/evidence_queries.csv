@@ -1,0 +1,1540 @@
+entity_type,entity_id,api,query,count,retrieved_utc
+herb,HERB-0001,pubmed,"""Abelmoschus moschatus""[tiab]",29,2026-11-04
+herb,HERB-0001,pubmed,"""Abelmoschus moschatus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0001,clinicaltrials.gov(query.intr),"""Abelmoschus moschatus"" OR ""Lata Kasturi""",0,2026-11-04
+herb,HERB-0002,pubmed,"""Abies spectabilis""[tiab]",19,2026-11-04
+herb,HERB-0002,pubmed,"""Abies spectabilis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0002,clinicaltrials.gov(query.intr),"""Abies spectabilis"" OR ""Talisapatra""",0,2026-11-04
+herb,HERB-0003,pubmed,"""Abrus precatorius""[tiab]",329,2026-11-04
+herb,HERB-0003,pubmed,"""Abrus precatorius""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",10,2026-11-04
+herb,HERB-0003,clinicaltrials.gov(query.intr),"""Abrus precatorius"" OR ""Gunja""",0,2026-11-04
+herb,HERB-0004,pubmed,"""Abutilon indicum""[tiab]",58,2026-11-04
+herb,HERB-0004,pubmed,"""Abutilon indicum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0004,clinicaltrials.gov(query.intr),"""Abutilon indicum"" OR ""Atibala""",0,2026-11-04
+herb,HERB-0005,pubmed,"""Achyranthes aspera""[tiab]",211,2026-11-04
+herb,HERB-0005,pubmed,"""Achyranthes aspera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",18,2026-11-04
+herb,HERB-0005,clinicaltrials.gov(query.intr),"""Achyranthes aspera"" OR ""Apamarga""",5,2026-11-04
+herb,HERB-0006,pubmed,"""Aconitum chasmanthum""[tiab]",7,2026-11-04
+herb,HERB-0006,pubmed,"""Aconitum chasmanthum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0006,clinicaltrials.gov(query.intr),"""Aconitum chasmanthum"" OR ""vatsanabha""",0,2026-11-04
+herb,HERB-0007,pubmed,"""Aconitum ferox""[tiab]",9,2026-11-04
+herb,HERB-0007,pubmed,"""Aconitum ferox""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0007,clinicaltrials.gov(query.intr),"""Aconitum ferox"" OR ""Vatsanabha""",0,2026-11-04
+herb,HERB-0008,pubmed,"""Aconitum heterophyllum""[tiab]",51,2026-11-04
+herb,HERB-0008,pubmed,"""Aconitum heterophyllum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",15,2026-11-04
+herb,HERB-0008,clinicaltrials.gov(query.intr),"""Aconitum heterophyllum"" OR ""Ativisha""",0,2026-11-04
+herb,HERB-0009,pubmed,"""Aconitum palmatum""[tiab]",1,2026-11-04
+herb,HERB-0009,pubmed,"""Aconitum palmatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0009,clinicaltrials.gov(query.intr),"""Aconitum palmatum"" OR ""Prativisha""",0,2026-11-04
+herb,HERB-0010,pubmed,"""Acorus calamus""[tiab]",455,2026-11-04
+herb,HERB-0010,pubmed,"""Acorus calamus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",20,2026-11-04
+herb,HERB-0010,clinicaltrials.gov(query.intr),"""Acorus calamus""",10,2026-11-04
+herb,HERB-0011,pubmed,"""Actiniopteris radiata""[tiab]",6,2026-11-04
+herb,HERB-0011,pubmed,"""Actiniopteris radiata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0011,clinicaltrials.gov(query.intr),"""Actiniopteris radiata"" OR ""Mayurashikha""",0,2026-11-04
+herb,HERB-0012,pubmed,"""Actinoscirpus grossus""[tiab]",3,2026-11-04
+herb,HERB-0012,pubmed,"""Actinoscirpus grossus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0012,clinicaltrials.gov(query.intr),"""Actinoscirpus grossus"" OR ""Kasheruka""",0,2026-11-04
+herb,HERB-0013,pubmed,"""Adiantum lunulatum""[tiab]",5,2026-11-04
+herb,HERB-0013,pubmed,"""Adiantum lunulatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0013,clinicaltrials.gov(query.intr),"""Adiantum lunulatum"" OR ""Hamsapadi""",0,2026-11-04
+herb,HERB-0014,pubmed,"""Aegle marmelos""[tiab]",478,2026-11-04
+herb,HERB-0014,pubmed,"""Aegle marmelos""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",34,2026-11-04
+herb,HERB-0014,clinicaltrials.gov(query.intr),"""Aegle marmelos"" OR ""Bilva""",1,2026-11-04
+herb,HERB-0015,pubmed,"""Agaricus campestris""[tiab]",86,2026-11-04
+herb,HERB-0015,pubmed,"""Agaricus campestris""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0015,clinicaltrials.gov(query.intr),"""Agaricus campestris"" OR ""Chhatraka""",0,2026-11-04
+herb,HERB-0016,pubmed,"""Alangium salviifolium""[tiab]",16,2026-11-04
+herb,HERB-0016,pubmed,"""Alangium salviifolium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0016,clinicaltrials.gov(query.intr),"""Alangium salviifolium"" OR ""Ankola""",0,2026-11-04
+herb,HERB-0017,pubmed,"""Albizia lebbeck""[tiab]",124,2026-11-04
+herb,HERB-0017,pubmed,"""Albizia lebbeck""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0017,clinicaltrials.gov(query.intr),"""Albizia lebbeck"" OR ""Shirisha""",0,2026-11-04
+herb,HERB-0018,pubmed,"""Alhagi maurorum""[tiab]",74,2026-11-04
+herb,HERB-0018,pubmed,"""Alhagi maurorum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0018,clinicaltrials.gov(query.intr),"""Alhagi maurorum"" OR ""Yavasa""",0,2026-11-04
+herb,HERB-0019,pubmed,"""Alkekengi officinarum""[tiab]",1,2026-11-04
+herb,HERB-0019,pubmed,"""Alkekengi officinarum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0019,clinicaltrials.gov(query.intr),"""Alkekengi officinarum"" OR ""kakanaja""",0,2026-11-04
+herb,HERB-0020,pubmed,"""Allium cepa""[tiab]",3224,2026-11-04
+herb,HERB-0020,pubmed,"""Allium cepa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0020,clinicaltrials.gov(query.intr),"""Allium cepa"" OR ""Palandu""",49,2026-11-04
+herb,HERB-0021,pubmed,"""Allium sativum""[tiab]",2472,2026-11-04
+herb,HERB-0021,pubmed,"""Allium sativum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",18,2026-11-04
+herb,HERB-0021,clinicaltrials.gov(query.intr),"""Allium sativum"" OR ""Rasona Garlic""",112,2026-11-04
+herb,HERB-0022,pubmed,"""Alocasia macrorrhizos""[tiab]",14,2026-11-04
+herb,HERB-0022,pubmed,"""Alocasia macrorrhizos""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0022,clinicaltrials.gov(query.intr),"""Alocasia macrorrhizos"" OR ""manakanda""",0,2026-11-04
+herb,HERB-0023,pubmed,"""Aloe vera""[tiab]",2810,2026-11-04
+herb,HERB-0023,pubmed,"""Aloe vera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",28,2026-11-04
+herb,HERB-0023,clinicaltrials.gov(query.intr),"""Aloe vera"" OR ""Kumari""",118,2026-11-04
+herb,HERB-0024,pubmed,"""Alstonia scholaris""[tiab]",244,2026-11-04
+herb,HERB-0024,pubmed,"""Alstonia scholaris""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0024,clinicaltrials.gov(query.intr),"""Alstonia scholaris"" OR ""Saptaparna""",0,2026-11-04
+herb,HERB-0025,pubmed,"""Alternanthera sessilis""[tiab]",78,2026-11-04
+herb,HERB-0025,pubmed,"""Alternanthera sessilis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0025,clinicaltrials.gov(query.intr),"""Alternanthera sessilis"" OR ""Matsyakshi""",1,2026-11-04
+herb,HERB-0026,pubmed,"""Amaranthus spinosus""[tiab]",107,2026-11-04
+herb,HERB-0026,pubmed,"""Amaranthus spinosus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0026,clinicaltrials.gov(query.intr),"""Amaranthus spinosus"" OR ""Tanduliyaka""",1,2026-11-04
+herb,HERB-0027,pubmed,"""Amomum subulatum""[tiab]",58,2026-11-04
+herb,HERB-0027,pubmed,"""Amomum subulatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0027,clinicaltrials.gov(query.intr),"""Amomum subulatum"" OR ""sthulaila""",0,2026-11-04
+herb,HERB-0028,pubmed,"""Amorphophallus paeoniifolius""[tiab]",50,2026-11-04
+herb,HERB-0028,pubmed,"""Amorphophallus paeoniifolius""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0028,clinicaltrials.gov(query.intr),"""Amorphophallus paeoniifolius"" OR ""Surana""",0,2026-11-04
+herb,HERB-0029,pubmed,"""Anacyclus pyrethrum""[tiab]",67,2026-11-04
+herb,HERB-0029,pubmed,"""Anacyclus pyrethrum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",7,2026-11-04
+herb,HERB-0029,clinicaltrials.gov(query.intr),"""Anacyclus pyrethrum"" OR ""Akarakarabha""",0,2026-11-04
+herb,HERB-0030,pubmed,"""Andrographis paniculata""[tiab]",1442,2026-11-04
+herb,HERB-0030,pubmed,"""Andrographis paniculata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",31,2026-11-04
+herb,HERB-0030,clinicaltrials.gov(query.intr),"""Andrographis paniculata"" OR ""Bhunimba""",23,2026-11-04
+herb,HERB-0031,pubmed,"""Anethum sowa""[tiab]",17,2026-11-04
+herb,HERB-0031,pubmed,"""Anethum sowa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0031,clinicaltrials.gov(query.intr),"""Anethum sowa"" OR ""satahva""",5,2026-11-04
+herb,HERB-0032,pubmed,"""Angelica glauca""[tiab]",14,2026-11-04
+herb,HERB-0032,pubmed,"""Angelica glauca""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0032,clinicaltrials.gov(query.intr),"""Angelica glauca"" OR ""Granthiparni""",0,2026-11-04
+herb,HERB-0033,pubmed,"""Anisomeles malabarica""[tiab]",16,2026-11-04
+herb,HERB-0033,pubmed,"""Anisomeles malabarica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0033,clinicaltrials.gov(query.intr),"""Anisomeles malabarica"" OR ""sprkka""",0,2026-11-04
+herb,HERB-0034,pubmed,"""Apium graveolens""[tiab]",578,2026-11-04
+herb,HERB-0034,pubmed,"""Apium graveolens""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0034,clinicaltrials.gov(query.intr),"""Apium graveolens"" OR ""Ajmoda""",23,2026-11-04
+herb,HERB-0035,pubmed,"""Aquilaria malaccensis""[tiab]",63,2026-11-04
+herb,HERB-0035,pubmed,"""Aquilaria malaccensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0035,clinicaltrials.gov(query.intr),"""Aquilaria malaccensis"" OR ""aguru""",0,2026-11-04
+herb,HERB-0036,pubmed,"""Areca catechu""[tiab]",405,2026-11-04
+herb,HERB-0036,pubmed,"""Areca catechu""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0036,clinicaltrials.gov(query.intr),"""Areca catechu""",24,2026-11-04
+herb,HERB-0037,pubmed,"""Argemone mexicana""[tiab]",179,2026-11-04
+herb,HERB-0037,pubmed,"""Argemone mexicana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0037,clinicaltrials.gov(query.intr),"""Argemone mexicana"" OR ""Satyanashi""",1,2026-11-04
+herb,HERB-0038,pubmed,"""Argyreia nervosa""[tiab]",36,2026-11-04
+herb,HERB-0038,pubmed,"""Argyreia nervosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0038,clinicaltrials.gov(query.intr),"""Argyreia nervosa"" OR ""Vriddhadaru""",0,2026-11-04
+herb,HERB-0039,pubmed,"""Aristolochia indica""[tiab]",50,2026-11-04
+herb,HERB-0039,pubmed,"""Aristolochia indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0039,clinicaltrials.gov(query.intr),"""Aristolochia indica"" OR ""Ishwari""",0,2026-11-04
+herb,HERB-0040,pubmed,"""Artemisia maritima""[tiab]",34,2026-11-04
+herb,HERB-0040,pubmed,"""Artemisia maritima""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0040,clinicaltrials.gov(query.intr),"""Artemisia maritima"" OR ""kitamari kirmani""",0,2026-11-04
+herb,HERB-0041,pubmed,"""Artocarpus heterophyllus""[tiab]",340,2026-11-04
+herb,HERB-0041,pubmed,"""Artocarpus heterophyllus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0041,clinicaltrials.gov(query.intr),"""Artocarpus heterophyllus"" OR ""Panasa""",0,2026-11-04
+herb,HERB-0042,pubmed,"""Artocarpus lacucha""[tiab]",21,2026-11-04
+herb,HERB-0042,pubmed,"""Artocarpus lacucha""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0042,clinicaltrials.gov(query.intr),"""Artocarpus lacucha"" OR ""Lakuca""",0,2026-11-04
+herb,HERB-0043,pubmed,"""Arundo donax""[tiab]",386,2026-11-04
+herb,HERB-0043,pubmed,"""Arundo donax""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0043,clinicaltrials.gov(query.intr),"""Arundo donax""",0,2026-11-04
+herb,HERB-0044,pubmed,"""Asparagus racemosus""[tiab]",284,2026-11-04
+herb,HERB-0044,pubmed,"""Asparagus racemosus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",73,2026-11-04
+herb,HERB-0044,clinicaltrials.gov(query.intr),"""Asparagus racemosus"" OR ""Shatavari""",13,2026-11-04
+herb,HERB-0045,pubmed,"""Asphaltum punjabianum""[tiab]",5,2026-11-04
+herb,HERB-0045,pubmed,"""Asphaltum punjabianum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0045,clinicaltrials.gov(query.intr),"""Asphaltum punjabianum"" OR ""Shilajit""",6,2026-11-04
+herb,HERB-0046,pubmed,"""Averrhoa carambola""[tiab]",196,2026-11-04
+herb,HERB-0046,pubmed,"""Averrhoa carambola""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0046,clinicaltrials.gov(query.intr),"""Averrhoa carambola"" OR ""Karmaranga""",0,2026-11-04
+herb,HERB-0047,pubmed,"""Azadirachta indica""[tiab]",2008,2026-11-04
+herb,HERB-0047,pubmed,"""Azadirachta indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",51,2026-11-04
+herb,HERB-0047,clinicaltrials.gov(query.intr),"""Azadirachta indica"" OR ""nimba""",29,2026-11-04
+herb,HERB-0048,pubmed,"""Baccharoides anthelmintica""[tiab]",9,2026-11-04
+herb,HERB-0048,pubmed,"""Baccharoides anthelmintica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0048,clinicaltrials.gov(query.intr),"""Baccharoides anthelmintica"" OR ""Aranya Jeeraka""",0,2026-11-04
+herb,HERB-0049,pubmed,"""Bacopa monnieri""[tiab]",582,2026-11-04
+herb,HERB-0049,pubmed,"""Bacopa monnieri""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",131,2026-11-04
+herb,HERB-0049,clinicaltrials.gov(query.intr),"""Bacopa monnieri"" OR ""Brahmi""",64,2026-11-04
+herb,HERB-0050,pubmed,"""Balanites aegyptiaca""[tiab]",156,2026-11-04
+herb,HERB-0050,pubmed,"""Balanites aegyptiaca""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0050,clinicaltrials.gov(query.intr),"""Balanites aegyptiaca"" OR ""Ingudi""",0,2026-11-04
+herb,HERB-0051,pubmed,"""Baliospermum solanifolium""[tiab]",5,2026-11-04
+herb,HERB-0051,pubmed,"""Baliospermum solanifolium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0051,clinicaltrials.gov(query.intr),"""Baliospermum solanifolium"" OR ""Danti""",0,2026-11-04
+herb,HERB-0052,pubmed,"""Bambusa bambos""[tiab]",18,2026-11-04
+herb,HERB-0052,pubmed,"""Bambusa bambos""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0052,clinicaltrials.gov(query.intr),"""Bambusa bambos"" OR ""Vamsha""",0,2026-11-04
+herb,HERB-0053,pubmed,"""Bambusa sp""[tiab]",12,2026-11-04
+herb,HERB-0053,pubmed,"""Bambusa sp""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0053,clinicaltrials.gov(query.intr),"""Bambusa sp"" OR ""vamsalocana""",0,2026-11-04
+herb,HERB-0054,pubmed,"""Barleria cristata""[tiab]",11,2026-11-04
+herb,HERB-0054,pubmed,"""Barleria cristata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0054,clinicaltrials.gov(query.intr),"""Barleria cristata"" OR ""Kurabaka""",0,2026-11-04
+herb,HERB-0055,pubmed,"""Barleria prionitis""[tiab]",29,2026-11-04
+herb,HERB-0055,pubmed,"""Barleria prionitis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0055,clinicaltrials.gov(query.intr),"""Barleria prionitis"" OR ""Saireyaka""",0,2026-11-04
+herb,HERB-0056,pubmed,"""Barleria strigosa""[tiab]",2,2026-11-04
+herb,HERB-0056,pubmed,"""Barleria strigosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0056,clinicaltrials.gov(query.intr),"""Barleria strigosa"" OR ""nilajhinti nilakurantaka""",0,2026-11-04
+herb,HERB-0057,pubmed,"""Barringtonia acutangula""[tiab]",21,2026-11-04
+herb,HERB-0057,pubmed,"""Barringtonia acutangula""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0057,clinicaltrials.gov(query.intr),"""Barringtonia acutangula"" OR ""Hijal""",0,2026-11-04
+herb,HERB-0058,pubmed,"""Basella alba""[tiab]",104,2026-11-04
+herb,HERB-0058,pubmed,"""Basella alba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0058,clinicaltrials.gov(query.intr),"""Basella alba"" OR ""Upodika""",0,2026-11-04
+herb,HERB-0059,pubmed,"""Bauhinia variegata""[tiab]",143,2026-11-04
+herb,HERB-0059,pubmed,"""Bauhinia variegata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0059,clinicaltrials.gov(query.intr),"""Bauhinia variegata"" OR ""Kanchanar""",0,2026-11-04
+herb,HERB-0060,pubmed,"""Benincasa hispida""[tiab]",167,2026-11-04
+herb,HERB-0060,pubmed,"""Benincasa hispida""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0060,clinicaltrials.gov(query.intr),"""Benincasa hispida"" OR ""Kushmanda""",0,2026-11-04
+herb,HERB-0061,pubmed,"""Berberis aristata""[tiab]",136,2026-11-04
+herb,HERB-0061,pubmed,"""Berberis aristata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",19,2026-11-04
+herb,HERB-0061,clinicaltrials.gov(query.intr),"""Berberis aristata"" OR ""daruharidra""",6,2026-11-04
+herb,HERB-0062,pubmed,"""Bergenia pacumbis""[tiab]",5,2026-11-04
+herb,HERB-0062,pubmed,"""Bergenia pacumbis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0062,clinicaltrials.gov(query.intr),"""Bergenia pacumbis"" OR ""Pashanabheda""",0,2026-11-04
+herb,HERB-0063,pubmed,"""Betula utilis""[tiab]",41,2026-11-04
+herb,HERB-0063,pubmed,"""Betula utilis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0063,clinicaltrials.gov(query.intr),"""Betula utilis"" OR ""Bhurja""",0,2026-11-04
+herb,HERB-0064,pubmed,"""Biancaea sappan""[tiab]",11,2026-11-04
+herb,HERB-0064,pubmed,"""Biancaea sappan""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0064,clinicaltrials.gov(query.intr),"""Biancaea sappan"" OR ""Pattanga""",0,2026-11-04
+herb,HERB-0065,pubmed,"""Blepharis edulis""[tiab]",0,2026-11-04
+herb,HERB-0065,pubmed,"""Blepharis edulis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0065,clinicaltrials.gov(query.intr),"""Blepharis edulis"" OR ""Utingana""",0,2026-11-04
+herb,HERB-0066,pubmed,"""Boerhaavia diffusa""[tiab]",100,2026-11-04
+herb,HERB-0066,pubmed,"""Boerhaavia diffusa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",17,2026-11-04
+herb,HERB-0066,clinicaltrials.gov(query.intr),"""Boerhaavia diffusa"" OR ""vrscara""",2,2026-11-04
+herb,HERB-0067,pubmed,"""Boerhavia diffusa""[tiab]",78,2026-11-04
+herb,HERB-0067,pubmed,"""Boerhavia diffusa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",12,2026-11-04
+herb,HERB-0067,clinicaltrials.gov(query.intr),"""Boerhavia diffusa"" OR ""Punarnava""",1,2026-11-04
+herb,HERB-0068,pubmed,"""Boerhavia repens""[tiab]",3,2026-11-04
+herb,HERB-0068,pubmed,"""Boerhavia repens""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0068,clinicaltrials.gov(query.intr),"""Boerhavia repens"" OR ""rakta punarnava""",0,2026-11-04
+herb,HERB-0069,pubmed,"""Boerhavia verticillata""[tiab]",0,2026-11-04
+herb,HERB-0069,pubmed,"""Boerhavia verticillata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0069,clinicaltrials.gov(query.intr),"""Boerhavia verticillata"" OR ""sveta punarnava""",0,2026-11-04
+herb,HERB-0070,pubmed,"""Bombax ceiba""[tiab]",112,2026-11-04
+herb,HERB-0070,pubmed,"""Bombax ceiba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0070,clinicaltrials.gov(query.intr),"""Bombax ceiba"" OR ""Mochras""",0,2026-11-04
+herb,HERB-0071,pubmed,"""Borassus flabellifer""[tiab]",107,2026-11-04
+herb,HERB-0071,pubmed,"""Borassus flabellifer""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0071,clinicaltrials.gov(query.intr),"""Borassus flabellifer""",0,2026-11-04
+herb,HERB-0072,pubmed,"""Boswellia serrata""[tiab]",601,2026-11-04
+herb,HERB-0072,pubmed,"""Boswellia serrata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",47,2026-11-04
+herb,HERB-0072,clinicaltrials.gov(query.intr),"""Boswellia serrata"" OR ""Shallaki""",62,2026-11-04
+herb,HERB-0073,pubmed,"""Brassica juncea""[tiab]",1956,2026-11-04
+herb,HERB-0073,pubmed,"""Brassica juncea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0073,clinicaltrials.gov(query.intr),"""Brassica juncea"" OR ""Rajika""",2,2026-11-04
+herb,HERB-0074,pubmed,"""Brassica nigra""[tiab]",367,2026-11-04
+herb,HERB-0074,pubmed,"""Brassica nigra""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0074,clinicaltrials.gov(query.intr),"""Brassica nigra"" OR ""sarsapa""",1,2026-11-04
+herb,HERB-0075,pubmed,"""Brassica rapa""[tiab]",3029,2026-11-04
+herb,HERB-0075,pubmed,"""Brassica rapa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0075,clinicaltrials.gov(query.intr),"""Brassica rapa"" OR ""sarsapah""",95,2026-11-04
+herb,HERB-0076,pubmed,"""Breonia chinensis""[tiab]",0,2026-11-04
+herb,HERB-0076,pubmed,"""Breonia chinensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0076,clinicaltrials.gov(query.intr),"""Breonia chinensis"" OR ""kadamba""",0,2026-11-04
+herb,HERB-0077,pubmed,"""Bruguiera gymnorhiza""[tiab]",43,2026-11-04
+herb,HERB-0077,pubmed,"""Bruguiera gymnorhiza""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0077,clinicaltrials.gov(query.intr),"""Bruguiera gymnorhiza"" OR ""Kankra""",0,2026-11-04
+herb,HERB-0078,pubmed,"""Brunus cerasus""[tiab]",0,2026-11-04
+herb,HERB-0078,pubmed,"""Brunus cerasus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0078,clinicaltrials.gov(query.intr),"""Brunus cerasus"" OR ""elavaluka""",0,2026-11-04
+herb,HERB-0079,pubmed,"""Buchanania cochinchinensis""[tiab]",1,2026-11-04
+herb,HERB-0079,pubmed,"""Buchanania cochinchinensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0079,clinicaltrials.gov(query.intr),"""Buchanania cochinchinensis"" OR ""Priyala""",0,2026-11-04
+herb,HERB-0080,pubmed,"""Butea monosperma""[tiab]",168,2026-11-04
+herb,HERB-0080,pubmed,"""Butea monosperma""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",11,2026-11-04
+herb,HERB-0080,clinicaltrials.gov(query.intr),"""Butea monosperma"" OR ""Palasha""",1,2026-11-04
+herb,HERB-0081,pubmed,"""Cajanus cajan""[tiab]",812,2026-11-04
+herb,HERB-0081,pubmed,"""Cajanus cajan""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0081,clinicaltrials.gov(query.intr),"""Cajanus cajan"" OR ""Adhaki""",1,2026-11-04
+herb,HERB-0082,pubmed,"""Calamus rotang""[tiab]",5,2026-11-04
+herb,HERB-0082,pubmed,"""Calamus rotang""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0082,clinicaltrials.gov(query.intr),"""Calamus rotang"" OR ""vetra""",0,2026-11-04
+herb,HERB-0083,pubmed,"""Callicarpa macrophylla""[tiab]",17,2026-11-04
+herb,HERB-0083,pubmed,"""Callicarpa macrophylla""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0083,clinicaltrials.gov(query.intr),"""Callicarpa macrophylla"" OR ""Priyangu""",0,2026-11-04
+herb,HERB-0084,pubmed,"""Calophyllum inophyllum""[tiab]",137,2026-11-04
+herb,HERB-0084,pubmed,"""Calophyllum inophyllum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0084,clinicaltrials.gov(query.intr),"""Calophyllum inophyllum"" OR ""tunga""",0,2026-11-04
+herb,HERB-0085,pubmed,"""Calotropis gigantea""[tiab]",207,2026-11-04
+herb,HERB-0085,pubmed,"""Calotropis gigantea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0085,clinicaltrials.gov(query.intr),"""Calotropis gigantea""",0,2026-11-04
+herb,HERB-0086,pubmed,"""Calotropis procera""[tiab]",496,2026-11-04
+herb,HERB-0086,pubmed,"""Calotropis procera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0086,clinicaltrials.gov(query.intr),"""Calotropis procera"" OR ""Alarka""",0,2026-11-04
+herb,HERB-0087,pubmed,"""Camellia sinensis""[tiab]",4449,2026-11-04
+herb,HERB-0087,pubmed,"""Camellia sinensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0087,clinicaltrials.gov(query.intr),"""Camellia sinensis""",956,2026-11-04
+herb,HERB-0088,pubmed,"""Cannabis sativa""[tiab]",4250,2026-11-04
+herb,HERB-0088,pubmed,"""Cannabis sativa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0088,clinicaltrials.gov(query.intr),"""Cannabis sativa""",1025,2026-11-04
+herb,HERB-0089,pubmed,"""Canscora alata""[tiab]",0,2026-11-04
+herb,HERB-0089,pubmed,"""Canscora alata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0089,clinicaltrials.gov(query.intr),"""Canscora alata"" OR ""Shankhini""",0,2026-11-04
+herb,HERB-0090,pubmed,"""Capparis decidua""[tiab]",47,2026-11-04
+herb,HERB-0090,pubmed,"""Capparis decidua""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0090,clinicaltrials.gov(query.intr),"""Capparis decidua"" OR ""Karira""",0,2026-11-04
+herb,HERB-0091,pubmed,"""Capparis sepiaria""[tiab]",10,2026-11-04
+herb,HERB-0091,pubmed,"""Capparis sepiaria""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0091,clinicaltrials.gov(query.intr),"""Capparis sepiaria"" OR ""Himsra""",0,2026-11-04
+herb,HERB-0092,pubmed,"""Capparis spinosa""[tiab]",247,2026-11-04
+herb,HERB-0092,pubmed,"""Capparis spinosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0092,clinicaltrials.gov(query.intr),"""Capparis spinosa"" OR ""himsra""",1,2026-11-04
+herb,HERB-0093,pubmed,"""Capparis zeylanica""[tiab]",14,2026-11-04
+herb,HERB-0093,pubmed,"""Capparis zeylanica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0093,clinicaltrials.gov(query.intr),"""Capparis zeylanica"" OR ""Vyaghranakhi""",0,2026-11-04
+herb,HERB-0094,pubmed,"""Carissa carandas""[tiab]",61,2026-11-04
+herb,HERB-0094,pubmed,"""Carissa carandas""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0094,clinicaltrials.gov(query.intr),"""Carissa carandas"" OR ""karamarda""",0,2026-11-04
+herb,HERB-0095,pubmed,"""Carthamus tinctorius""[tiab]",986,2026-11-04
+herb,HERB-0095,pubmed,"""Carthamus tinctorius""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0095,clinicaltrials.gov(query.intr),"""Carthamus tinctorius"" OR ""Kusumbha""",101,2026-11-04
+herb,HERB-0096,pubmed,"""Carum carvi""[tiab]",220,2026-11-04
+herb,HERB-0096,pubmed,"""Carum carvi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0096,clinicaltrials.gov(query.intr),"""Carum carvi"" OR ""Krishna Jeeraka""",9,2026-11-04
+herb,HERB-0097,pubmed,"""Cassia fistula""[tiab]",283,2026-11-04
+herb,HERB-0097,pubmed,"""Cassia fistula""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",10,2026-11-04
+herb,HERB-0097,clinicaltrials.gov(query.intr),"""Cassia fistula"" OR ""Aragwadha""",3,2026-11-04
+herb,HERB-0098,pubmed,"""Catharanthus roseus""[tiab]",1642,2026-11-04
+herb,HERB-0098,pubmed,"""Catharanthus roseus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0098,clinicaltrials.gov(query.intr),"""Catharanthus roseus"" OR ""Sadapushpi""",5,2026-11-04
+herb,HERB-0099,pubmed,"""Catunaregam spinosa""[tiab]",17,2026-11-04
+herb,HERB-0099,pubmed,"""Catunaregam spinosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0099,clinicaltrials.gov(query.intr),"""Catunaregam spinosa"" OR ""Madanaphala""",0,2026-11-04
+herb,HERB-0100,pubmed,"""Cedrus deodara""[tiab]",175,2026-11-04
+herb,HERB-0100,pubmed,"""Cedrus deodara""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",10,2026-11-04
+herb,HERB-0100,clinicaltrials.gov(query.intr),"""Cedrus deodara"" OR ""Devadaru""",0,2026-11-04
+herb,HERB-0101,pubmed,"""Celastrus paniculatus""[tiab]",74,2026-11-04
+herb,HERB-0101,pubmed,"""Celastrus paniculatus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",19,2026-11-04
+herb,HERB-0101,clinicaltrials.gov(query.intr),"""Celastrus paniculatus"" OR ""Jyotishmati""",0,2026-11-04
+herb,HERB-0102,pubmed,"""Celosia argentea""[tiab]",124,2026-11-04
+herb,HERB-0102,pubmed,"""Celosia argentea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0102,clinicaltrials.gov(query.intr),"""Celosia argentea"" OR ""Chakragaja""",4,2026-11-04
+herb,HERB-0103,pubmed,"""Centella asiatica""[tiab]",1375,2026-11-04
+herb,HERB-0103,pubmed,"""Centella asiatica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",81,2026-11-04
+herb,HERB-0103,clinicaltrials.gov(query.intr),"""Centella asiatica"" OR ""Mandukparni""",50,2026-11-04
+herb,HERB-0104,pubmed,"""Centipeda minima""[tiab]",114,2026-11-04
+herb,HERB-0104,pubmed,"""Centipeda minima""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0104,clinicaltrials.gov(query.intr),"""Centipeda minima"" OR ""Kshavaka""",1,2026-11-04
+herb,HERB-0105,pubmed,"""Chamaecrista absus""[tiab]",1,2026-11-04
+herb,HERB-0105,pubmed,"""Chamaecrista absus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0105,clinicaltrials.gov(query.intr),"""Chamaecrista absus"" OR ""Chakshushya""",0,2026-11-04
+herb,HERB-0106,pubmed,"""Chlorophytum borivilianum""[tiab]",68,2026-11-04
+herb,HERB-0106,pubmed,"""Chlorophytum borivilianum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",13,2026-11-04
+herb,HERB-0106,clinicaltrials.gov(query.intr),"""Chlorophytum borivilianum"" OR ""Shvet Musli""",0,2026-11-04
+herb,HERB-0107,pubmed,"""Chlorophytum tuberosum""[tiab]",2,2026-11-04
+herb,HERB-0107,pubmed,"""Chlorophytum tuberosum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0107,clinicaltrials.gov(query.intr),"""Chlorophytum tuberosum"" OR ""musali""",0,2026-11-04
+herb,HERB-0108,pubmed,"""Chrysanthemum indicum""[tiab]",294,2026-11-04
+herb,HERB-0108,pubmed,"""Chrysanthemum indicum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0108,clinicaltrials.gov(query.intr),"""Chrysanthemum indicum"" OR ""sevanti guladaudi""",0,2026-11-04
+herb,HERB-0109,pubmed,"""Chrysopogon zizanioides""[tiab]",139,2026-11-04
+herb,HERB-0109,pubmed,"""Chrysopogon zizanioides""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0109,clinicaltrials.gov(query.intr),"""Chrysopogon zizanioides"" OR ""Ushira""",1,2026-11-04
+herb,HERB-0110,pubmed,"""Cicer arietinum""[tiab]",1848,2026-11-04
+herb,HERB-0110,pubmed,"""Cicer arietinum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0110,clinicaltrials.gov(query.intr),"""Cicer arietinum"" OR ""Chana""",7,2026-11-04
+herb,HERB-0111,pubmed,"""Cichorium intybus""[tiab]",717,2026-11-04
+herb,HERB-0111,pubmed,"""Cichorium intybus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0111,clinicaltrials.gov(query.intr),"""Cichorium intybus"" OR ""Kasani""",56,2026-11-04
+herb,HERB-0112,pubmed,"""Cinnamomum camphora""[tiab]",462,2026-11-04
+herb,HERB-0112,pubmed,"""Cinnamomum camphora""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0112,clinicaltrials.gov(query.intr),"""Cinnamomum camphora"" OR ""Karpura Camphor""",4,2026-11-04
+herb,HERB-0113,pubmed,"""Cinnamomum tamala""[tiab]",93,2026-11-04
+herb,HERB-0113,pubmed,"""Cinnamomum tamala""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",7,2026-11-04
+herb,HERB-0113,clinicaltrials.gov(query.intr),"""Cinnamomum tamala"" OR ""Tamalpatra""",0,2026-11-04
+herb,HERB-0114,pubmed,"""Cinnamomum verum""[tiab]",295,2026-11-04
+herb,HERB-0114,pubmed,"""Cinnamomum verum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0114,clinicaltrials.gov(query.intr),"""Cinnamomum verum"" OR ""Twak Cinnamon""",131,2026-11-04
+herb,HERB-0115,pubmed,"""Cissampelos pareira""[tiab]",75,2026-11-04
+herb,HERB-0115,pubmed,"""Cissampelos pareira""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",14,2026-11-04
+herb,HERB-0115,clinicaltrials.gov(query.intr),"""Cissampelos pareira"" OR ""Patha""",0,2026-11-04
+herb,HERB-0116,pubmed,"""Cissus quadrangularis""[tiab]",242,2026-11-04
+herb,HERB-0116,pubmed,"""Cissus quadrangularis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",15,2026-11-04
+herb,HERB-0116,clinicaltrials.gov(query.intr),"""Cissus quadrangularis"" OR ""Asthishrinkhala""",5,2026-11-04
+herb,HERB-0117,pubmed,"""Citrullus colocynthis""[tiab]",328,2026-11-04
+herb,HERB-0117,pubmed,"""Citrullus colocynthis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0117,clinicaltrials.gov(query.intr),"""Citrullus colocynthis"" OR ""Indravaruni""",1,2026-11-04
+herb,HERB-0118,pubmed,"""Citrus limon""[tiab]",714,2026-11-04
+herb,HERB-0118,pubmed,"""Citrus limon""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0118,clinicaltrials.gov(query.intr),"""Citrus limon"" OR ""Nimbu""",285,2026-11-04
+herb,HERB-0119,pubmed,"""Citrus maxima""[tiab]",219,2026-11-04
+herb,HERB-0119,pubmed,"""Citrus maxima""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0119,clinicaltrials.gov(query.intr),"""Citrus maxima"" OR ""Madhukarkati""",1,2026-11-04
+herb,HERB-0120,pubmed,"""Citrus medica""[tiab]",215,2026-11-04
+herb,HERB-0120,pubmed,"""Citrus medica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0120,clinicaltrials.gov(query.intr),"""Citrus medica"" OR ""Matulunga""",5,2026-11-04
+herb,HERB-0121,pubmed,"""Clematis triloba""[tiab]",0,2026-11-04
+herb,HERB-0121,pubmed,"""Clematis triloba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0121,clinicaltrials.gov(query.intr),"""Clematis triloba"" OR ""murva""",0,2026-11-04
+herb,HERB-0122,pubmed,"""Clerodendrum phlomidis""[tiab]",22,2026-11-04
+herb,HERB-0122,pubmed,"""Clerodendrum phlomidis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0122,clinicaltrials.gov(query.intr),"""Clerodendrum phlomidis"" OR ""agnimantha""",1,2026-11-04
+herb,HERB-0123,pubmed,"""Clerodendrum serratum""[tiab]",18,2026-11-04
+herb,HERB-0123,pubmed,"""Clerodendrum serratum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0123,clinicaltrials.gov(query.intr),"""Clerodendrum serratum"" OR ""bharngi""",0,2026-11-04
+herb,HERB-0124,pubmed,"""Clitoria ternatea""[tiab]",285,2026-11-04
+herb,HERB-0124,pubmed,"""Clitoria ternatea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",20,2026-11-04
+herb,HERB-0124,clinicaltrials.gov(query.intr),"""Clitoria ternatea"" OR ""Aparajita""",1,2026-11-04
+herb,HERB-0125,pubmed,"""Coccinia grandis""[tiab]",104,2026-11-04
+herb,HERB-0125,pubmed,"""Coccinia grandis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0125,clinicaltrials.gov(query.intr),"""Coccinia grandis"" OR ""Bimbi""",3,2026-11-04
+herb,HERB-0126,pubmed,"""Cocos nucifera""[tiab]",704,2026-11-04
+herb,HERB-0126,pubmed,"""Cocos nucifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0126,clinicaltrials.gov(query.intr),"""Cocos nucifera"" OR ""Narikela""",224,2026-11-04
+herb,HERB-0127,pubmed,"""Coix lacryma-jobi""[tiab]",186,2026-11-04
+herb,HERB-0127,pubmed,"""Coix lacryma-jobi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0127,clinicaltrials.gov(query.intr),"""Coix lacryma-jobi"" OR ""Gavedhuka""",1,2026-11-04
+herb,HERB-0128,pubmed,"""Colchicum luteum""[tiab]",16,2026-11-04
+herb,HERB-0128,pubmed,"""Colchicum luteum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0128,clinicaltrials.gov(query.intr),"""Colchicum luteum"" OR ""Suranjana""",0,2026-11-04
+herb,HERB-0129,pubmed,"""Coleus amboinicus""[tiab]",47,2026-11-04
+herb,HERB-0129,pubmed,"""Coleus amboinicus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0129,clinicaltrials.gov(query.intr),"""Coleus amboinicus"" OR ""Parnayavani""",8,2026-11-04
+herb,HERB-0130,pubmed,"""Coleus vettiveroides""[tiab]",3,2026-11-04
+herb,HERB-0130,pubmed,"""Coleus vettiveroides""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0130,clinicaltrials.gov(query.intr),"""Coleus vettiveroides"" OR ""Hrivera""",0,2026-11-04
+herb,HERB-0131,pubmed,"""Commiphora myrrha""[tiab]",121,2026-11-04
+herb,HERB-0131,pubmed,"""Commiphora myrrha""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0131,clinicaltrials.gov(query.intr),"""Commiphora myrrha""",11,2026-11-04
+herb,HERB-0132,pubmed,"""Commiphora wightii""[tiab]",73,2026-11-04
+herb,HERB-0132,pubmed,"""Commiphora wightii""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",22,2026-11-04
+herb,HERB-0132,clinicaltrials.gov(query.intr),"""Commiphora wightii"" OR ""Guggulu""",5,2026-11-04
+herb,HERB-0133,pubmed,"""Convolvulus prostratus""[tiab]",5,2026-11-04
+herb,HERB-0133,pubmed,"""Convolvulus prostratus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0133,clinicaltrials.gov(query.intr),"""Convolvulus prostratus"" OR ""Shankhpushpi""",0,2026-11-04
+herb,HERB-0134,pubmed,"""Coptis teeta""[tiab]",43,2026-11-04
+herb,HERB-0134,pubmed,"""Coptis teeta""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0134,clinicaltrials.gov(query.intr),"""Coptis teeta"" OR ""mamira""",0,2026-11-04
+herb,HERB-0135,pubmed,"""Cordia dichotoma""[tiab]",49,2026-11-04
+herb,HERB-0135,pubmed,"""Cordia dichotoma""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0135,clinicaltrials.gov(query.intr),"""Cordia dichotoma"" OR ""slesmataka""",0,2026-11-04
+herb,HERB-0136,pubmed,"""Coriandrum sativum""[tiab]",692,2026-11-04
+herb,HERB-0136,pubmed,"""Coriandrum sativum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0136,clinicaltrials.gov(query.intr),"""Coriandrum sativum"" OR ""Dhanyaka""",15,2026-11-04
+herb,HERB-0137,pubmed,"""Coscinium fenestratum""[tiab]",50,2026-11-04
+herb,HERB-0137,pubmed,"""Coscinium fenestratum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0137,clinicaltrials.gov(query.intr),"""Coscinium fenestratum"" OR ""kaliyaka""",0,2026-11-04
+herb,HERB-0138,pubmed,"""Crateva magna""[tiab]",6,2026-11-04
+herb,HERB-0138,pubmed,"""Crateva magna""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0138,clinicaltrials.gov(query.intr),"""Crateva magna"" OR ""Varuna""",1,2026-11-04
+herb,HERB-0139,pubmed,"""Crepidium acuminatum""[tiab]",3,2026-11-04
+herb,HERB-0139,pubmed,"""Crepidium acuminatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0139,clinicaltrials.gov(query.intr),"""Crepidium acuminatum"" OR ""Jivaka""",0,2026-11-04
+herb,HERB-0140,pubmed,"""Crocus sativus""[tiab]",1484,2026-11-04
+herb,HERB-0140,pubmed,"""Crocus sativus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0140,clinicaltrials.gov(query.intr),"""Crocus sativus"" OR ""Kumkuma""",19,2026-11-04
+herb,HERB-0141,pubmed,"""Crotalaria juncea""[tiab]",150,2026-11-04
+herb,HERB-0141,pubmed,"""Crotalaria juncea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0141,clinicaltrials.gov(query.intr),"""Crotalaria juncea"" OR ""Shana""",0,2026-11-04
+herb,HERB-0142,pubmed,"""Crotalaria verrucosa""[tiab]",4,2026-11-04
+herb,HERB-0142,pubmed,"""Crotalaria verrucosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0142,clinicaltrials.gov(query.intr),"""Crotalaria verrucosa""",0,2026-11-04
+herb,HERB-0143,pubmed,"""Croton tiglium""[tiab]",106,2026-11-04
+herb,HERB-0143,pubmed,"""Croton tiglium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0143,clinicaltrials.gov(query.intr),"""Croton tiglium"" OR ""Jayapala""",0,2026-11-04
+herb,HERB-0144,pubmed,"""Cryptolepis buchananii""[tiab]",2,2026-11-04
+herb,HERB-0144,pubmed,"""Cryptolepis buchananii""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0144,clinicaltrials.gov(query.intr),"""Cryptolepis buchananii"" OR ""krsna sariva""",0,2026-11-04
+herb,HERB-0145,pubmed,"""Cucumis melo""[tiab]",1415,2026-11-04
+herb,HERB-0145,pubmed,"""Cucumis melo""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0145,clinicaltrials.gov(query.intr),"""Cucumis melo"" OR ""Kharbhuja""",2,2026-11-04
+herb,HERB-0146,pubmed,"""Cucumis sativus""[tiab]",2820,2026-11-04
+herb,HERB-0146,pubmed,"""Cucumis sativus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0146,clinicaltrials.gov(query.intr),"""Cucumis sativus"" OR ""Trapusha""",14,2026-11-04
+herb,HERB-0147,pubmed,"""Cullen corylifolium""[tiab]",26,2026-11-04
+herb,HERB-0147,pubmed,"""Cullen corylifolium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0147,clinicaltrials.gov(query.intr),"""Cullen corylifolium"" OR ""Bakuchi""",14,2026-11-04
+herb,HERB-0148,pubmed,"""Cuminum cyminum""[tiab]",415,2026-11-04
+herb,HERB-0148,pubmed,"""Cuminum cyminum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",14,2026-11-04
+herb,HERB-0148,clinicaltrials.gov(query.intr),"""Cuminum cyminum"" OR ""Jeeraka""",34,2026-11-04
+herb,HERB-0149,pubmed,"""Curculigo orchioides""[tiab]",121,2026-11-04
+herb,HERB-0149,pubmed,"""Curculigo orchioides""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",13,2026-11-04
+herb,HERB-0149,clinicaltrials.gov(query.intr),"""Curculigo orchioides"" OR ""Talamuli""",1,2026-11-04
+herb,HERB-0150,pubmed,"""Curcuma amada""[tiab]",70,2026-11-04
+herb,HERB-0150,pubmed,"""Curcuma amada""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0150,clinicaltrials.gov(query.intr),"""Curcuma amada"" OR ""Amra Haridra""",0,2026-11-04
+herb,HERB-0151,pubmed,"""Curcuma angustifolia""[tiab]",19,2026-11-04
+herb,HERB-0151,pubmed,"""Curcuma angustifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0151,clinicaltrials.gov(query.intr),"""Curcuma angustifolia"" OR ""tavaksiri""",0,2026-11-04
+herb,HERB-0152,pubmed,"""Curcuma aromatica""[tiab]",126,2026-11-04
+herb,HERB-0152,pubmed,"""Curcuma aromatica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0152,clinicaltrials.gov(query.intr),"""Curcuma aromatica"" OR ""karcura""",2,2026-11-04
+herb,HERB-0153,pubmed,"""Curcuma longa""[tiab]",4189,2026-11-04
+herb,HERB-0153,pubmed,"""Curcuma longa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",140,2026-11-04
+herb,HERB-0153,clinicaltrials.gov(query.intr),"""Curcuma longa"" OR ""Haridra""",243,2026-11-04
+herb,HERB-0154,pubmed,"""Curcuma zedoaria""[tiab]",183,2026-11-04
+herb,HERB-0154,pubmed,"""Curcuma zedoaria""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0154,clinicaltrials.gov(query.intr),"""Curcuma zedoaria"" OR ""Kachura""",1,2026-11-04
+herb,HERB-0155,pubmed,"""Cyclospermum leptophyllum""[tiab]",3,2026-11-04
+herb,HERB-0155,pubmed,"""Cyclospermum leptophyllum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0155,clinicaltrials.gov(query.intr),"""Cyclospermum leptophyllum"" OR ""ajamoda""",0,2026-11-04
+herb,HERB-0156,pubmed,"""Cymbopogon citratus""[tiab]",730,2026-11-04
+herb,HERB-0156,pubmed,"""Cymbopogon citratus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0156,clinicaltrials.gov(query.intr),"""Cymbopogon citratus"" OR ""Bhutika""",16,2026-11-04
+herb,HERB-0157,pubmed,"""Cymbopogon martini""[tiab]",40,2026-11-04
+herb,HERB-0157,pubmed,"""Cymbopogon martini""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0157,clinicaltrials.gov(query.intr),"""Cymbopogon martini"" OR ""Rohisha""",2,2026-11-04
+herb,HERB-0158,pubmed,"""Cymbopogon schoenanthus""[tiab]",43,2026-11-04
+herb,HERB-0158,pubmed,"""Cymbopogon schoenanthus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0158,clinicaltrials.gov(query.intr),"""Cymbopogon schoenanthus""",0,2026-11-04
+herb,HERB-0159,pubmed,"""Cynanchum acidum""[tiab]",0,2026-11-04
+herb,HERB-0159,pubmed,"""Cynanchum acidum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0159,clinicaltrials.gov(query.intr),"""Cynanchum acidum"" OR ""Somavalli""",0,2026-11-04
+herb,HERB-0160,pubmed,"""Cynodon dactylon""[tiab]",939,2026-11-04
+herb,HERB-0160,pubmed,"""Cynodon dactylon""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",8,2026-11-04
+herb,HERB-0160,clinicaltrials.gov(query.intr),"""Cynodon dactylon"" OR ""Durva""",17,2026-11-04
+herb,HERB-0161,pubmed,"""Cyperus rotundus""[tiab]",419,2026-11-04
+herb,HERB-0161,pubmed,"""Cyperus rotundus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",25,2026-11-04
+herb,HERB-0161,clinicaltrials.gov(query.intr),"""Cyperus rotundus"" OR ""Nagarmotha""",4,2026-11-04
+herb,HERB-0162,pubmed,"""Dactylorhiza incarnata""[tiab]",15,2026-11-04
+herb,HERB-0162,pubmed,"""Dactylorhiza incarnata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0162,clinicaltrials.gov(query.intr),"""Dactylorhiza incarnata"" OR ""munjataka""",0,2026-11-04
+herb,HERB-0163,pubmed,"""Dalbergia sissoo""[tiab]",158,2026-11-04
+herb,HERB-0163,pubmed,"""Dalbergia sissoo""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0163,clinicaltrials.gov(query.intr),"""Dalbergia sissoo"" OR ""Simsapa""",0,2026-11-04
+herb,HERB-0164,pubmed,"""Datura metel""[tiab]",181,2026-11-04
+herb,HERB-0164,pubmed,"""Datura metel""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0164,clinicaltrials.gov(query.intr),"""Datura metel"" OR ""Dhattura""",0,2026-11-04
+herb,HERB-0165,pubmed,"""Daucus carota""[tiab]",1664,2026-11-04
+herb,HERB-0165,pubmed,"""Daucus carota""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0165,clinicaltrials.gov(query.intr),"""Daucus carota"" OR ""Grinjana""",33,2026-11-04
+herb,HERB-0166,pubmed,"""Dendrophthoe falcata""[tiab]",15,2026-11-04
+herb,HERB-0166,pubmed,"""Dendrophthoe falcata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0166,clinicaltrials.gov(query.intr),"""Dendrophthoe falcata"" OR ""vanda""",2,2026-11-04
+herb,HERB-0167,pubmed,"""Desmodium gangeticum""[tiab]",56,2026-11-04
+herb,HERB-0167,pubmed,"""Desmodium gangeticum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",12,2026-11-04
+herb,HERB-0167,clinicaltrials.gov(query.intr),"""Desmodium gangeticum"" OR ""Shalparni""",0,2026-11-04
+herb,HERB-0168,pubmed,"""Desmostachya bipinnata""[tiab]",32,2026-11-04
+herb,HERB-0168,pubmed,"""Desmostachya bipinnata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0168,clinicaltrials.gov(query.intr),"""Desmostachya bipinnata"" OR ""Kusha""",0,2026-11-04
+herb,HERB-0169,pubmed,"""Dichrostachys cinerea""[tiab]",64,2026-11-04
+herb,HERB-0169,pubmed,"""Dichrostachys cinerea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0169,clinicaltrials.gov(query.intr),"""Dichrostachys cinerea"" OR ""virataru""",0,2026-11-04
+herb,HERB-0170,pubmed,"""Dicliptera paniculata""[tiab]",1,2026-11-04
+herb,HERB-0170,pubmed,"""Dicliptera paniculata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0170,clinicaltrials.gov(query.intr),"""Dicliptera paniculata"" OR ""Kakajangha""",0,2026-11-04
+herb,HERB-0171,pubmed,"""Dioscorea bulbifera""[tiab]",202,2026-11-04
+herb,HERB-0171,pubmed,"""Dioscorea bulbifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0171,clinicaltrials.gov(query.intr),"""Dioscorea bulbifera"" OR ""Varahikanda""",0,2026-11-04
+herb,HERB-0172,pubmed,"""Diospyros malabarica""[tiab]",6,2026-11-04
+herb,HERB-0172,pubmed,"""Diospyros malabarica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0172,clinicaltrials.gov(query.intr),"""Diospyros malabarica"" OR ""Tinduka""",0,2026-11-04
+herb,HERB-0173,pubmed,"""Dipterocarpus alatus""[tiab]",27,2026-11-04
+herb,HERB-0173,pubmed,"""Dipterocarpus alatus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0173,clinicaltrials.gov(query.intr),"""Dipterocarpus alatus"" OR ""asvakarna""",0,2026-11-04
+herb,HERB-0174,pubmed,"""Dolomiaea costus""[tiab]",7,2026-11-04
+herb,HERB-0174,pubmed,"""Dolomiaea costus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0174,clinicaltrials.gov(query.intr),"""Dolomiaea costus"" OR ""Kushtha""",0,2026-11-04
+herb,HERB-0175,pubmed,"""Eclipta alba""[tiab]",135,2026-11-04
+herb,HERB-0175,pubmed,"""Eclipta alba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",16,2026-11-04
+herb,HERB-0175,clinicaltrials.gov(query.intr),"""Eclipta alba"" OR ""Bhringraj""",1,2026-11-04
+herb,HERB-0176,pubmed,"""Eclipta prostrata""[tiab]",203,2026-11-04
+herb,HERB-0176,pubmed,"""Eclipta prostrata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0176,clinicaltrials.gov(query.intr),"""Eclipta prostrata"" OR ""bhrngaraja""",2,2026-11-04
+herb,HERB-0177,pubmed,"""Elaeocarpus ganitrus""[tiab]",14,2026-11-04
+herb,HERB-0177,pubmed,"""Elaeocarpus ganitrus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0177,clinicaltrials.gov(query.intr),"""Elaeocarpus ganitrus"" OR ""Rudraksha""",0,2026-11-04
+herb,HERB-0178,pubmed,"""Elettaria cardamomum""[tiab]",172,2026-11-04
+herb,HERB-0178,pubmed,"""Elettaria cardamomum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0178,clinicaltrials.gov(query.intr),"""Elettaria cardamomum""",13,2026-11-04
+herb,HERB-0179,pubmed,"""Embelia ribes""[tiab]",166,2026-11-04
+herb,HERB-0179,pubmed,"""Embelia ribes""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",28,2026-11-04
+herb,HERB-0179,clinicaltrials.gov(query.intr),"""Embelia ribes"" OR ""Vidanga""",0,2026-11-04
+herb,HERB-0180,pubmed,"""Ephedra gerardiana""[tiab]",22,2026-11-04
+herb,HERB-0180,pubmed,"""Ephedra gerardiana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0180,clinicaltrials.gov(query.intr),"""Ephedra gerardiana"" OR ""somah""",0,2026-11-04
+herb,HERB-0181,pubmed,"""Erythrina variegata""[tiab]",74,2026-11-04
+herb,HERB-0181,pubmed,"""Erythrina variegata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0181,clinicaltrials.gov(query.intr),"""Erythrina variegata"" OR ""Paribhadra""",0,2026-11-04
+herb,HERB-0182,pubmed,"""Euphorbia antiquorum""[tiab]",27,2026-11-04
+herb,HERB-0182,pubmed,"""Euphorbia antiquorum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0182,clinicaltrials.gov(query.intr),"""Euphorbia antiquorum"" OR ""gandura""",0,2026-11-04
+herb,HERB-0183,pubmed,"""Euphorbia heyneana""[tiab]",0,2026-11-04
+herb,HERB-0183,pubmed,"""Euphorbia heyneana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0183,clinicaltrials.gov(query.intr),"""Euphorbia heyneana"" OR ""rajaksavaka""",0,2026-11-04
+herb,HERB-0184,pubmed,"""Euphorbia hirta""[tiab]",198,2026-11-04
+herb,HERB-0184,pubmed,"""Euphorbia hirta""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0184,clinicaltrials.gov(query.intr),"""Euphorbia hirta"" OR ""Dugdhika""",1,2026-11-04
+herb,HERB-0185,pubmed,"""Euphorbia neriifolia""[tiab]",47,2026-11-04
+herb,HERB-0185,pubmed,"""Euphorbia neriifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0185,clinicaltrials.gov(query.intr),"""Euphorbia neriifolia"" OR ""Snuhi""",0,2026-11-04
+herb,HERB-0186,pubmed,"""Euphorbia thomsoniana""[tiab]",0,2026-11-04
+herb,HERB-0186,pubmed,"""Euphorbia thomsoniana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0186,clinicaltrials.gov(query.intr),"""Euphorbia thomsoniana"" OR ""svarnaksiri""",0,2026-11-04
+herb,HERB-0187,pubmed,"""Fagonia cretica""[tiab]",55,2026-11-04
+herb,HERB-0187,pubmed,"""Fagonia cretica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0187,clinicaltrials.gov(query.intr),"""Fagonia cretica"" OR ""dhanvayasa dhanvayasaka""",0,2026-11-04
+herb,HERB-0188,pubmed,"""Fagonia indica""[tiab]",66,2026-11-04
+herb,HERB-0188,pubmed,"""Fagonia indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0188,clinicaltrials.gov(query.intr),"""Fagonia indica"" OR ""Dhamasa""",0,2026-11-04
+herb,HERB-0189,pubmed,"""Ferrum haematite""[tiab]",0,2026-11-04
+herb,HERB-0189,pubmed,"""Ferrum haematite""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0189,clinicaltrials.gov(query.intr),"""Ferrum haematite"" OR ""gairika""",0,2026-11-04
+herb,HERB-0190,pubmed,"""Ferula assa-foetida""[tiab]",93,2026-11-04
+herb,HERB-0190,pubmed,"""Ferula assa-foetida""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0190,clinicaltrials.gov(query.intr),"""Ferula assa-foetida"" OR ""Hingu""",1,2026-11-04
+herb,HERB-0191,pubmed,"""Ferula foetida""[tiab]",24,2026-11-04
+herb,HERB-0191,pubmed,"""Ferula foetida""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0191,clinicaltrials.gov(query.intr),"""Ferula foetida"" OR ""hingu""",0,2026-11-04
+herb,HERB-0192,pubmed,"""Ferula jaeschkeana""[tiab]",10,2026-11-04
+herb,HERB-0192,pubmed,"""Ferula jaeschkeana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0192,clinicaltrials.gov(query.intr),"""Ferula jaeschkeana"" OR ""hingupatri""",0,2026-11-04
+herb,HERB-0193,pubmed,"""Ferula narthex""[tiab]",8,2026-11-04
+herb,HERB-0193,pubmed,"""Ferula narthex""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0193,clinicaltrials.gov(query.intr),"""Ferula narthex"" OR ""hinguniryasa""",0,2026-11-04
+herb,HERB-0194,pubmed,"""Ficus benghalensis""[tiab]",134,2026-11-04
+herb,HERB-0194,pubmed,"""Ficus benghalensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",7,2026-11-04
+herb,HERB-0194,clinicaltrials.gov(query.intr),"""Ficus benghalensis"" OR ""vata nyagrodha""",6,2026-11-04
+herb,HERB-0195,pubmed,"""Ficus hispida""[tiab]",56,2026-11-04
+herb,HERB-0195,pubmed,"""Ficus hispida""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0195,clinicaltrials.gov(query.intr),"""Ficus hispida"" OR ""phalgu""",0,2026-11-04
+herb,HERB-0196,pubmed,"""Ficus lacor""[tiab]",4,2026-11-04
+herb,HERB-0196,pubmed,"""Ficus lacor""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0196,clinicaltrials.gov(query.intr),"""Ficus lacor"" OR ""plaksa""",0,2026-11-04
+herb,HERB-0197,pubmed,"""Ficus racemosa""[tiab]",120,2026-11-04
+herb,HERB-0197,pubmed,"""Ficus racemosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0197,clinicaltrials.gov(query.intr),"""Ficus racemosa"" OR ""Udumbara""",1,2026-11-04
+herb,HERB-0198,pubmed,"""Ficus religiosa""[tiab]",180,2026-11-04
+herb,HERB-0198,pubmed,"""Ficus religiosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",8,2026-11-04
+herb,HERB-0198,clinicaltrials.gov(query.intr),"""Ficus religiosa"" OR ""Ashwattha""",0,2026-11-04
+herb,HERB-0199,pubmed,"""Ficus virens""[tiab]",25,2026-11-04
+herb,HERB-0199,pubmed,"""Ficus virens""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0199,clinicaltrials.gov(query.intr),"""Ficus virens"" OR ""Plaksha""",0,2026-11-04
+herb,HERB-0200,pubmed,"""Flacourtia indica""[tiab]",23,2026-11-04
+herb,HERB-0200,pubmed,"""Flacourtia indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0200,clinicaltrials.gov(query.intr),"""Flacourtia indica"" OR ""Kankataka""",0,2026-11-04
+herb,HERB-0201,pubmed,"""Foeniculum vulgare""[tiab]",747,2026-11-04
+herb,HERB-0201,pubmed,"""Foeniculum vulgare""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0201,clinicaltrials.gov(query.intr),"""Foeniculum vulgare"" OR ""Mishreya""",22,2026-11-04
+herb,HERB-0202,pubmed,"""Fritillaria cirrhosa""[tiab]",96,2026-11-04
+herb,HERB-0202,pubmed,"""Fritillaria cirrhosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0202,clinicaltrials.gov(query.intr),"""Fritillaria cirrhosa"" OR ""Kakoli""",0,2026-11-04
+herb,HERB-0203,pubmed,"""Fumaria indica""[tiab]",38,2026-11-04
+herb,HERB-0203,pubmed,"""Fumaria indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0203,clinicaltrials.gov(query.intr),"""Fumaria indica"" OR ""Parpataka""",0,2026-11-04
+herb,HERB-0204,pubmed,"""Fumaria parviflora""[tiab]",46,2026-11-04
+herb,HERB-0204,pubmed,"""Fumaria parviflora""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0204,clinicaltrials.gov(query.intr),"""Fumaria parviflora"" OR ""parpata""",1,2026-11-04
+herb,HERB-0205,pubmed,"""Garcinia indica""[tiab]",115,2026-11-04
+herb,HERB-0205,pubmed,"""Garcinia indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0205,clinicaltrials.gov(query.intr),"""Garcinia indica"" OR ""Vrikshamla""",0,2026-11-04
+herb,HERB-0206,pubmed,"""Garcinia pedunculata""[tiab]",29,2026-11-04
+herb,HERB-0206,pubmed,"""Garcinia pedunculata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0206,clinicaltrials.gov(query.intr),"""Garcinia pedunculata"" OR ""Amlavetasa""",0,2026-11-04
+herb,HERB-0207,pubmed,"""Gardenia gummifera""[tiab]",10,2026-11-04
+herb,HERB-0207,pubmed,"""Gardenia gummifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0207,clinicaltrials.gov(query.intr),"""Gardenia gummifera"" OR ""Nadi Hingu""",0,2026-11-04
+herb,HERB-0208,pubmed,"""Gentiana kurroo""[tiab]",19,2026-11-04
+herb,HERB-0208,pubmed,"""Gentiana kurroo""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0208,clinicaltrials.gov(query.intr),"""Gentiana kurroo"" OR ""trayamana""",0,2026-11-04
+herb,HERB-0209,pubmed,"""Gloriosa superba""[tiab]",129,2026-11-04
+herb,HERB-0209,pubmed,"""Gloriosa superba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0209,clinicaltrials.gov(query.intr),"""Gloriosa superba"" OR ""Langali""",0,2026-11-04
+herb,HERB-0210,pubmed,"""Glycyrrhiza glabra""[tiab]",1311,2026-11-04
+herb,HERB-0210,pubmed,"""Glycyrrhiza glabra""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",43,2026-11-04
+herb,HERB-0210,clinicaltrials.gov(query.intr),"""Glycyrrhiza glabra"" OR ""Yastimadhu""",104,2026-11-04
+herb,HERB-0211,pubmed,"""Gmelina arborea""[tiab]",96,2026-11-04
+herb,HERB-0211,pubmed,"""Gmelina arborea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0211,clinicaltrials.gov(query.intr),"""Gmelina arborea"" OR ""Gambhari""",0,2026-11-04
+herb,HERB-0212,pubmed,"""Gongronemopsis tenacissima""[tiab]",1,2026-11-04
+herb,HERB-0212,pubmed,"""Gongronemopsis tenacissima""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0212,clinicaltrials.gov(query.intr),"""Gongronemopsis tenacissima"" OR ""Murva""",0,2026-11-04
+herb,HERB-0213,pubmed,"""Gossypium herbaceum""[tiab]",77,2026-11-04
+herb,HERB-0213,pubmed,"""Gossypium herbaceum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0213,clinicaltrials.gov(query.intr),"""Gossypium herbaceum"" OR ""Karpasa""",1012,2026-11-04
+herb,HERB-0214,pubmed,"""Grewia asiatica""[tiab]",42,2026-11-04
+herb,HERB-0214,pubmed,"""Grewia asiatica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0214,clinicaltrials.gov(query.intr),"""Grewia asiatica""",1,2026-11-04
+herb,HERB-0215,pubmed,"""Grewia hirsuta""[tiab]",2,2026-11-04
+herb,HERB-0215,pubmed,"""Grewia hirsuta""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0215,clinicaltrials.gov(query.intr),"""Grewia hirsuta"" OR ""Nagabala""",0,2026-11-04
+herb,HERB-0216,pubmed,"""Grewia tenax""[tiab]",8,2026-11-04
+herb,HERB-0216,pubmed,"""Grewia tenax""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0216,clinicaltrials.gov(query.intr),"""Grewia tenax"" OR ""Gangeruki""",0,2026-11-04
+herb,HERB-0217,pubmed,"""Guilandina bonduc""[tiab]",6,2026-11-04
+herb,HERB-0217,pubmed,"""Guilandina bonduc""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0217,clinicaltrials.gov(query.intr),"""Guilandina bonduc"" OR ""Putikaranja""",0,2026-11-04
+herb,HERB-0218,pubmed,"""Gymnema sylvestre""[tiab]",387,2026-11-04
+herb,HERB-0218,pubmed,"""Gymnema sylvestre""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",26,2026-11-04
+herb,HERB-0218,clinicaltrials.gov(query.intr),"""Gymnema sylvestre"" OR ""Meshashringi""",17,2026-11-04
+herb,HERB-0219,pubmed,"""Gynandropsis gynandra""[tiab]",51,2026-11-04
+herb,HERB-0219,pubmed,"""Gynandropsis gynandra""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0219,clinicaltrials.gov(query.intr),"""Gynandropsis gynandra"" OR ""Suryavarta""",1,2026-11-04
+herb,HERB-0220,pubmed,"""Habenaria intermedia""[tiab]",3,2026-11-04
+herb,HERB-0220,pubmed,"""Habenaria intermedia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0220,clinicaltrials.gov(query.intr),"""Habenaria intermedia"" OR ""Riddhi""",0,2026-11-04
+herb,HERB-0221,pubmed,"""Hedychium spicatum""[tiab]",35,2026-11-04
+herb,HERB-0221,pubmed,"""Hedychium spicatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0221,clinicaltrials.gov(query.intr),"""Hedychium spicatum"" OR ""Shati""",0,2026-11-04
+herb,HERB-0222,pubmed,"""Heliotropium indicum""[tiab]",60,2026-11-04
+herb,HERB-0222,pubmed,"""Heliotropium indicum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0222,clinicaltrials.gov(query.intr),"""Heliotropium indicum"" OR ""Nagadanti""",0,2026-11-04
+herb,HERB-0223,pubmed,"""Hellenia speciosa""[tiab]",8,2026-11-04
+herb,HERB-0223,pubmed,"""Hellenia speciosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0223,clinicaltrials.gov(query.intr),"""Hellenia speciosa"" OR ""Kembuka""",0,2026-11-04
+herb,HERB-0224,pubmed,"""Hemidesmus indicus""[tiab]",164,2026-11-04
+herb,HERB-0224,pubmed,"""Hemidesmus indicus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",27,2026-11-04
+herb,HERB-0224,clinicaltrials.gov(query.intr),"""Hemidesmus indicus"" OR ""Sariva""",2,2026-11-04
+herb,HERB-0225,pubmed,"""Herminium edgeworthii""[tiab]",0,2026-11-04
+herb,HERB-0225,pubmed,"""Herminium edgeworthii""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0225,clinicaltrials.gov(query.intr),"""Herminium edgeworthii"" OR ""Vriddhi""",0,2026-11-04
+herb,HERB-0226,pubmed,"""Hibiscus rosa-sinensis""[tiab]",258,2026-11-04
+herb,HERB-0226,pubmed,"""Hibiscus rosa-sinensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0226,clinicaltrials.gov(query.intr),"""Hibiscus rosa-sinensis""",0,2026-11-04
+herb,HERB-0227,pubmed,"""Hibiscus sabdariffa""[tiab]",865,2026-11-04
+herb,HERB-0227,pubmed,"""Hibiscus sabdariffa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0227,clinicaltrials.gov(query.intr),"""Hibiscus sabdariffa"" OR ""Ambasthaki""",45,2026-11-04
+herb,HERB-0228,pubmed,"""Hippophae tibetana""[tiab]",20,2026-11-04
+herb,HERB-0228,pubmed,"""Hippophae tibetana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0228,clinicaltrials.gov(query.intr),"""Hippophae tibetana"" OR ""amlavetasa""",0,2026-11-04
+herb,HERB-0229,pubmed,"""Holarrhena pubescens""[tiab]",33,2026-11-04
+herb,HERB-0229,pubmed,"""Holarrhena pubescens""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0229,clinicaltrials.gov(query.intr),"""Holarrhena pubescens"" OR ""Kutaj""",1,2026-11-04
+herb,HERB-0230,pubmed,"""Holoptelea integrifolia""[tiab]",33,2026-11-04
+herb,HERB-0230,pubmed,"""Holoptelea integrifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0230,clinicaltrials.gov(query.intr),"""Holoptelea integrifolia"" OR ""Chirabilva""",0,2026-11-04
+herb,HERB-0231,pubmed,"""Hordeum vulgare""[tiab]",6041,2026-11-04
+herb,HERB-0231,pubmed,"""Hordeum vulgare""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0231,clinicaltrials.gov(query.intr),"""Hordeum vulgare""",91,2026-11-04
+herb,HERB-0232,pubmed,"""Hygrophila auriculata""[tiab]",23,2026-11-04
+herb,HERB-0232,pubmed,"""Hygrophila auriculata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0232,clinicaltrials.gov(query.intr),"""Hygrophila auriculata"" OR ""Kokilaksha""",0,2026-11-04
+herb,HERB-0233,pubmed,"""Hyoscyamus niger""[tiab]",148,2026-11-04
+herb,HERB-0233,pubmed,"""Hyoscyamus niger""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0233,clinicaltrials.gov(query.intr),"""Hyoscyamus niger"" OR ""Aivana""",0,2026-11-04
+herb,HERB-0234,pubmed,"""Imperata cylindrica""[tiab]",198,2026-11-04
+herb,HERB-0234,pubmed,"""Imperata cylindrica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0234,clinicaltrials.gov(query.intr),"""Imperata cylindrica"" OR ""darbha""",1,2026-11-04
+herb,HERB-0235,pubmed,"""Indigofera enneaphylla""[tiab]",0,2026-11-04
+herb,HERB-0235,pubmed,"""Indigofera enneaphylla""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0235,clinicaltrials.gov(query.intr),"""Indigofera enneaphylla"" OR ""vasuka""",0,2026-11-04
+herb,HERB-0236,pubmed,"""Indigofera ennephylla""[tiab]",0,2026-11-04
+herb,HERB-0236,pubmed,"""Indigofera ennephylla""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0236,clinicaltrials.gov(query.intr),"""Indigofera ennephylla"" OR ""vasuka""",0,2026-11-04
+herb,HERB-0237,pubmed,"""Indigofera tinctoria""[tiab]",76,2026-11-04
+herb,HERB-0237,pubmed,"""Indigofera tinctoria""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0237,clinicaltrials.gov(query.intr),"""Indigofera tinctoria""",0,2026-11-04
+herb,HERB-0238,pubmed,"""Inula racemosa""[tiab]",69,2026-11-04
+herb,HERB-0238,pubmed,"""Inula racemosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0238,clinicaltrials.gov(query.intr),"""Inula racemosa"" OR ""Pushkarmool""",1,2026-11-04
+herb,HERB-0239,pubmed,"""Ipomoea aquatica""[tiab]",265,2026-11-04
+herb,HERB-0239,pubmed,"""Ipomoea aquatica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0239,clinicaltrials.gov(query.intr),"""Ipomoea aquatica"" OR ""Kalamba""",0,2026-11-04
+herb,HERB-0240,pubmed,"""Ipomoea mauritiana""[tiab]",6,2026-11-04
+herb,HERB-0240,pubmed,"""Ipomoea mauritiana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0240,clinicaltrials.gov(query.intr),"""Ipomoea mauritiana"" OR ""payasya""",0,2026-11-04
+herb,HERB-0241,pubmed,"""Ipomoea nil""[tiab]",126,2026-11-04
+herb,HERB-0241,pubmed,"""Ipomoea nil""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0241,clinicaltrials.gov(query.intr),"""Ipomoea nil"" OR ""krsnabija""",0,2026-11-04
+herb,HERB-0242,pubmed,"""Iris versicolor""[tiab]",13,2026-11-04
+herb,HERB-0242,pubmed,"""Iris versicolor""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0242,clinicaltrials.gov(query.intr),"""Iris versicolor""",0,2026-11-04
+herb,HERB-0243,pubmed,"""Jasminum auriculatum""[tiab]",4,2026-11-04
+herb,HERB-0243,pubmed,"""Jasminum auriculatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0243,clinicaltrials.gov(query.intr),"""Jasminum auriculatum"" OR ""Yuthika""",0,2026-11-04
+herb,HERB-0244,pubmed,"""Jasminum grandiflorum""[tiab]",47,2026-11-04
+herb,HERB-0244,pubmed,"""Jasminum grandiflorum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0244,clinicaltrials.gov(query.intr),"""Jasminum grandiflorum""",0,2026-11-04
+herb,HERB-0245,pubmed,"""Jasminum officinale""[tiab]",30,2026-11-04
+herb,HERB-0245,pubmed,"""Jasminum officinale""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0245,clinicaltrials.gov(query.intr),"""Jasminum officinale""",15,2026-11-04
+herb,HERB-0246,pubmed,"""Jasminum sambac""[tiab]",116,2026-11-04
+herb,HERB-0246,pubmed,"""Jasminum sambac""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0246,clinicaltrials.gov(query.intr),"""Jasminum sambac"" OR ""sripadi""",0,2026-11-04
+herb,HERB-0247,pubmed,"""Jateorhiza palmata""[tiab]",1,2026-11-04
+herb,HERB-0247,pubmed,"""Jateorhiza palmata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0247,clinicaltrials.gov(query.intr),"""Jateorhiza palmata"" OR ""kalamba""",0,2026-11-04
+herb,HERB-0248,pubmed,"""Juglans regia""[tiab]",1122,2026-11-04
+herb,HERB-0248,pubmed,"""Juglans regia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0248,clinicaltrials.gov(query.intr),"""Juglans regia"" OR ""Akshotaka""",5,2026-11-04
+herb,HERB-0249,pubmed,"""Juniperus communis""[tiab]",302,2026-11-04
+herb,HERB-0249,pubmed,"""Juniperus communis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0249,clinicaltrials.gov(query.intr),"""Juniperus communis"" OR ""Hapusa""",15,2026-11-04
+herb,HERB-0250,pubmed,"""Justicia adhatoda""[tiab]",94,2026-11-04
+herb,HERB-0250,pubmed,"""Justicia adhatoda""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0250,clinicaltrials.gov(query.intr),"""Justicia adhatoda"" OR ""Vasaka""",1,2026-11-04
+herb,HERB-0251,pubmed,"""Kerria lacca""[tiab]",24,2026-11-04
+herb,HERB-0251,pubmed,"""Kerria lacca""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0251,clinicaltrials.gov(query.intr),"""Kerria lacca"" OR ""Laksha""",0,2026-11-04
+herb,HERB-0252,pubmed,"""Lagenaria siceraria""[tiab]",262,2026-11-04
+herb,HERB-0252,pubmed,"""Lagenaria siceraria""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0252,clinicaltrials.gov(query.intr),"""Lagenaria siceraria"" OR ""Alabu""",0,2026-11-04
+herb,HERB-0253,pubmed,"""Lathyrus oleraceus""[tiab]",4,2026-11-04
+herb,HERB-0253,pubmed,"""Lathyrus oleraceus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0253,clinicaltrials.gov(query.intr),"""Lathyrus oleraceus"" OR ""Satina""",0,2026-11-04
+herb,HERB-0254,pubmed,"""Lawsonia inermis""[tiab]",320,2026-11-04
+herb,HERB-0254,pubmed,"""Lawsonia inermis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0254,clinicaltrials.gov(query.intr),"""Lawsonia inermis"" OR ""Madayantika""",4,2026-11-04
+herb,HERB-0255,pubmed,"""Leea macrophylla""[tiab]",17,2026-11-04
+herb,HERB-0255,pubmed,"""Leea macrophylla""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0255,clinicaltrials.gov(query.intr),"""Leea macrophylla"" OR ""Hastikarna Palasha""",0,2026-11-04
+herb,HERB-0256,pubmed,"""Leonotis nepetifolia""[tiab]",26,2026-11-04
+herb,HERB-0256,pubmed,"""Leonotis nepetifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0256,clinicaltrials.gov(query.intr),"""Leonotis nepetifolia"" OR ""granthiparni""",0,2026-11-04
+herb,HERB-0257,pubmed,"""Lepidium sativum""[tiab]",866,2026-11-04
+herb,HERB-0257,pubmed,"""Lepidium sativum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0257,clinicaltrials.gov(query.intr),"""Lepidium sativum"" OR ""Chandrashura""",1,2026-11-04
+herb,HERB-0258,pubmed,"""Leptadenia reticulata""[tiab]",20,2026-11-04
+herb,HERB-0258,pubmed,"""Leptadenia reticulata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0258,clinicaltrials.gov(query.intr),"""Leptadenia reticulata"" OR ""Jivanti""",0,2026-11-04
+herb,HERB-0259,pubmed,"""Leucas cephalotes""[tiab]",12,2026-11-04
+herb,HERB-0259,pubmed,"""Leucas cephalotes""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0259,clinicaltrials.gov(query.intr),"""Leucas cephalotes"" OR ""Dronapushpi""",0,2026-11-04
+herb,HERB-0260,pubmed,"""Ligusticopsis wallichiana""[tiab]",4,2026-11-04
+herb,HERB-0260,pubmed,"""Ligusticopsis wallichiana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0260,clinicaltrials.gov(query.intr),"""Ligusticopsis wallichiana"" OR ""Bhutakeshi""",0,2026-11-04
+herb,HERB-0261,pubmed,"""Lilium polyphyllum""[tiab]",6,2026-11-04
+herb,HERB-0261,pubmed,"""Lilium polyphyllum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0261,clinicaltrials.gov(query.intr),"""Lilium polyphyllum"" OR ""kakoli""",0,2026-11-04
+herb,HERB-0262,pubmed,"""Limonia acidissima""[tiab]",41,2026-11-04
+herb,HERB-0262,pubmed,"""Limonia acidissima""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0262,clinicaltrials.gov(query.intr),"""Limonia acidissima"" OR ""Kapittha""",0,2026-11-04
+herb,HERB-0263,pubmed,"""Linum usitatissimum""[tiab]",1133,2026-11-04
+herb,HERB-0263,pubmed,"""Linum usitatissimum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0263,clinicaltrials.gov(query.intr),"""Linum usitatissimum"" OR ""Atasi""",167,2026-11-04
+herb,HERB-0264,pubmed,"""Liquidambar excelsa""[tiab]",0,2026-11-04
+herb,HERB-0264,pubmed,"""Liquidambar excelsa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0264,clinicaltrials.gov(query.intr),"""Liquidambar excelsa"" OR ""turuska""",0,2026-11-04
+herb,HERB-0265,pubmed,"""Litsea glutinosa""[tiab]",40,2026-11-04
+herb,HERB-0265,pubmed,"""Litsea glutinosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0265,clinicaltrials.gov(query.intr),"""Litsea glutinosa"" OR ""Medasaka""",0,2026-11-04
+herb,HERB-0266,pubmed,"""Luffa acutangula""[tiab]",91,2026-11-04
+herb,HERB-0266,pubmed,"""Luffa acutangula""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0266,clinicaltrials.gov(query.intr),"""Luffa acutangula"" OR ""Koshataki""",0,2026-11-04
+herb,HERB-0267,pubmed,"""Luffa cylindrica""[tiab]",262,2026-11-04
+herb,HERB-0267,pubmed,"""Luffa cylindrica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0267,clinicaltrials.gov(query.intr),"""Luffa cylindrica"" OR ""Dhamargava""",0,2026-11-04
+herb,HERB-0268,pubmed,"""Luffa echinata""[tiab]",14,2026-11-04
+herb,HERB-0268,pubmed,"""Luffa echinata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0268,clinicaltrials.gov(query.intr),"""Luffa echinata"" OR ""Devadali""",0,2026-11-04
+herb,HERB-0269,pubmed,"""Macrotyloma biflorum""[tiab]",0,2026-11-04
+herb,HERB-0269,pubmed,"""Macrotyloma biflorum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0269,clinicaltrials.gov(query.intr),"""Macrotyloma biflorum"" OR ""kulattha""",0,2026-11-04
+herb,HERB-0270,pubmed,"""Macrotyloma uniflorum""[tiab]",108,2026-11-04
+herb,HERB-0270,pubmed,"""Macrotyloma uniflorum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0270,clinicaltrials.gov(query.intr),"""Macrotyloma uniflorum"" OR ""Kulattha""",1,2026-11-04
+herb,HERB-0271,pubmed,"""Madhuca longifolia""[tiab]",71,2026-11-04
+herb,HERB-0271,pubmed,"""Madhuca longifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0271,clinicaltrials.gov(query.intr),"""Madhuca longifolia""",0,2026-11-04
+herb,HERB-0272,pubmed,"""Maharanga bracteata""[tiab]",0,2026-11-04
+herb,HERB-0272,pubmed,"""Maharanga bracteata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0272,clinicaltrials.gov(query.intr),"""Maharanga bracteata"" OR ""Gojihva""",0,2026-11-04
+herb,HERB-0273,pubmed,"""Malaxis muscifera""[tiab]",1,2026-11-04
+herb,HERB-0273,pubmed,"""Malaxis muscifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0273,clinicaltrials.gov(query.intr),"""Malaxis muscifera"" OR ""Rishabhaka""",0,2026-11-04
+herb,HERB-0274,pubmed,"""Mallotus philippensis""[tiab]",36,2026-11-04
+herb,HERB-0274,pubmed,"""Mallotus philippensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0274,clinicaltrials.gov(query.intr),"""Mallotus philippensis"" OR ""Kampillaka""",0,2026-11-04
+herb,HERB-0275,pubmed,"""Mangifera indica""[tiab]",1713,2026-11-04
+herb,HERB-0275,pubmed,"""Mangifera indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",13,2026-11-04
+herb,HERB-0275,clinicaltrials.gov(query.intr),"""Mangifera indica""",86,2026-11-04
+herb,HERB-0276,pubmed,"""Melia azedarach""[tiab]",428,2026-11-04
+herb,HERB-0276,pubmed,"""Melia azedarach""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0276,clinicaltrials.gov(query.intr),"""Melia azedarach"" OR ""Mahanimba""",19,2026-11-04
+herb,HERB-0277,pubmed,"""Mentha arvensis""[tiab]",233,2026-11-04
+herb,HERB-0277,pubmed,"""Mentha arvensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0277,clinicaltrials.gov(query.intr),"""Mentha arvensis"" OR ""pudina putiha""",2,2026-11-04
+herb,HERB-0278,pubmed,"""Merremia emarginata""[tiab]",7,2026-11-04
+herb,HERB-0278,pubmed,"""Merremia emarginata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0278,clinicaltrials.gov(query.intr),"""Merremia emarginata"" OR ""Akhuparni""",0,2026-11-04
+herb,HERB-0279,pubmed,"""Mesua ferrea""[tiab]",70,2026-11-04
+herb,HERB-0279,pubmed,"""Mesua ferrea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0279,clinicaltrials.gov(query.intr),"""Mesua ferrea"" OR ""Nagakesara""",0,2026-11-04
+herb,HERB-0280,pubmed,"""Mimosa pudica""[tiab]",356,2026-11-04
+herb,HERB-0280,pubmed,"""Mimosa pudica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0280,clinicaltrials.gov(query.intr),"""Mimosa pudica"" OR ""Lajjalu""",0,2026-11-04
+herb,HERB-0281,pubmed,"""Mimusops elengi""[tiab]",62,2026-11-04
+herb,HERB-0281,pubmed,"""Mimusops elengi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0281,clinicaltrials.gov(query.intr),"""Mimusops elengi"" OR ""Bakula""",0,2026-11-04
+herb,HERB-0282,pubmed,"""Mimusops hexandra""[tiab]",1,2026-11-04
+herb,HERB-0282,pubmed,"""Mimusops hexandra""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0282,clinicaltrials.gov(query.intr),"""Mimusops hexandra"" OR ""krtrima""",0,2026-11-04
+herb,HERB-0283,pubmed,"""Momordica charantia""[tiab]",1436,2026-11-04
+herb,HERB-0283,pubmed,"""Momordica charantia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",29,2026-11-04
+herb,HERB-0283,clinicaltrials.gov(query.intr),"""Momordica charantia"" OR ""Karvellaka""",29,2026-11-04
+herb,HERB-0284,pubmed,"""Morella esculenta""[tiab]",1,2026-11-04
+herb,HERB-0284,pubmed,"""Morella esculenta""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0284,clinicaltrials.gov(query.intr),"""Morella esculenta"" OR ""Katphala""",0,2026-11-04
+herb,HERB-0285,pubmed,"""Moringa concanensis""[tiab]",10,2026-11-04
+herb,HERB-0285,pubmed,"""Moringa concanensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0285,clinicaltrials.gov(query.intr),"""Moringa concanensis"" OR ""Muranji""",0,2026-11-04
+herb,HERB-0286,pubmed,"""Moringa oleifera""[tiab]",2798,2026-11-04
+herb,HERB-0286,pubmed,"""Moringa oleifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",29,2026-11-04
+herb,HERB-0286,clinicaltrials.gov(query.intr),"""Moringa oleifera"" OR ""Shigru""",39,2026-11-04
+herb,HERB-0287,pubmed,"""Mucuna pruriens""[tiab]",417,2026-11-04
+herb,HERB-0287,pubmed,"""Mucuna pruriens""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",42,2026-11-04
+herb,HERB-0287,clinicaltrials.gov(query.intr),"""Mucuna pruriens"" OR ""Kapikachhu""",9,2026-11-04
+herb,HERB-0288,pubmed,"""Murraya koenigii""[tiab]",368,2026-11-04
+herb,HERB-0288,pubmed,"""Murraya koenigii""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",17,2026-11-04
+herb,HERB-0288,clinicaltrials.gov(query.intr),"""Murraya koenigii"" OR ""kaidarya""",1,2026-11-04
+herb,HERB-0289,pubmed,"""Musa paradisiaca""[tiab]",289,2026-11-04
+herb,HERB-0289,pubmed,"""Musa paradisiaca""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0289,clinicaltrials.gov(query.intr),"""Musa paradisiaca"" OR ""Kadali""",9,2026-11-04
+herb,HERB-0290,pubmed,"""Myristica fragrans""[tiab]",407,2026-11-04
+herb,HERB-0290,pubmed,"""Myristica fragrans""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",10,2026-11-04
+herb,HERB-0290,clinicaltrials.gov(query.intr),"""Myristica fragrans"" OR ""Jatiphala""",187,2026-11-04
+herb,HERB-0291,pubmed,"""Nardostachys jatamansi""[tiab]",184,2026-11-04
+herb,HERB-0291,pubmed,"""Nardostachys jatamansi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",25,2026-11-04
+herb,HERB-0291,clinicaltrials.gov(query.intr),"""Nardostachys jatamansi"" OR ""Jatamansi""",25,2026-11-04
+herb,HERB-0292,pubmed,"""Nelumbo nucifera""[tiab]",963,2026-11-04
+herb,HERB-0292,pubmed,"""Nelumbo nucifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0292,clinicaltrials.gov(query.intr),"""Nelumbo nucifera"" OR ""Kamala""",7,2026-11-04
+herb,HERB-0293,pubmed,"""Neolamarckia cadamba""[tiab]",84,2026-11-04
+herb,HERB-0293,pubmed,"""Neolamarckia cadamba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0293,clinicaltrials.gov(query.intr),"""Neolamarckia cadamba"" OR ""Kadamba""",0,2026-11-04
+herb,HERB-0294,pubmed,"""Nerium indicum""[tiab]",86,2026-11-04
+herb,HERB-0294,pubmed,"""Nerium indicum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0294,clinicaltrials.gov(query.intr),"""Nerium indicum"" OR ""karavira""",3,2026-11-04
+herb,HERB-0295,pubmed,"""Nerium oleander""[tiab]",449,2026-11-04
+herb,HERB-0295,pubmed,"""Nerium oleander""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0295,clinicaltrials.gov(query.intr),"""Nerium oleander"" OR ""Karavira""",3,2026-11-04
+herb,HERB-0296,pubmed,"""Nigella sativa""[tiab]",2532,2026-11-04
+herb,HERB-0296,pubmed,"""Nigella sativa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",22,2026-11-04
+herb,HERB-0296,clinicaltrials.gov(query.intr),"""Nigella sativa"" OR ""Kalajaji""",71,2026-11-04
+herb,HERB-0297,pubmed,"""Nyctanthes arbor-tristis""[tiab]",98,2026-11-04
+herb,HERB-0297,pubmed,"""Nyctanthes arbor-tristis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",11,2026-11-04
+herb,HERB-0297,clinicaltrials.gov(query.intr),"""Nyctanthes arbor-tristis"" OR ""Parijata""",0,2026-11-04
+herb,HERB-0298,pubmed,"""Nymphaea alba""[tiab]",39,2026-11-04
+herb,HERB-0298,pubmed,"""Nymphaea alba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0298,clinicaltrials.gov(query.intr),"""Nymphaea alba"" OR ""Kumuda""",0,2026-11-04
+herb,HERB-0299,pubmed,"""Nymphaea lotus""[tiab]",27,2026-11-04
+herb,HERB-0299,pubmed,"""Nymphaea lotus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0299,clinicaltrials.gov(query.intr),"""Nymphaea lotus""",0,2026-11-04
+herb,HERB-0300,pubmed,"""Nymphaea nouchali""[tiab]",20,2026-11-04
+herb,HERB-0300,pubmed,"""Nymphaea nouchali""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0300,clinicaltrials.gov(query.intr),"""Nymphaea nouchali"" OR ""Utpala""",1,2026-11-04
+herb,HERB-0301,pubmed,"""Nymphaea stellata""[tiab]",12,2026-11-04
+herb,HERB-0301,pubmed,"""Nymphaea stellata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0301,clinicaltrials.gov(query.intr),"""Nymphaea stellata""",1,2026-11-04
+herb,HERB-0302,pubmed,"""Ocimum tenuiflorum""[tiab]",218,2026-11-04
+herb,HERB-0302,pubmed,"""Ocimum tenuiflorum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",18,2026-11-04
+herb,HERB-0302,clinicaltrials.gov(query.intr),"""Ocimum tenuiflorum"" OR ""Tulsi""",21,2026-11-04
+herb,HERB-0303,pubmed,"""Operculina turpethum""[tiab]",25,2026-11-04
+herb,HERB-0303,pubmed,"""Operculina turpethum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0303,clinicaltrials.gov(query.intr),"""Operculina turpethum"" OR ""Trivrit""",0,2026-11-04
+herb,HERB-0304,pubmed,"""Ophiorrhiza mungos""[tiab]",15,2026-11-04
+herb,HERB-0304,pubmed,"""Ophiorrhiza mungos""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0304,clinicaltrials.gov(query.intr),"""Ophiorrhiza mungos"" OR ""Sarpaksi""",0,2026-11-04
+herb,HERB-0305,pubmed,"""Oroxylum indicum""[tiab]",217,2026-11-04
+herb,HERB-0305,pubmed,"""Oroxylum indicum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",21,2026-11-04
+herb,HERB-0305,clinicaltrials.gov(query.intr),"""Oroxylum indicum"" OR ""Shyonaka""",4,2026-11-04
+herb,HERB-0306,pubmed,"""Oryza sativa""[tiab]",17940,2026-11-04
+herb,HERB-0306,pubmed,"""Oryza sativa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0306,clinicaltrials.gov(query.intr),"""Oryza sativa"" OR ""Vrihi""",794,2026-11-04
+herb,HERB-0307,pubmed,"""Ouret lanata""[tiab]",0,2026-11-04
+herb,HERB-0307,pubmed,"""Ouret lanata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0307,clinicaltrials.gov(query.intr),"""Ouret lanata"" OR ""Bhadra""",0,2026-11-04
+herb,HERB-0308,pubmed,"""Oxalis corniculata""[tiab]",84,2026-11-04
+herb,HERB-0308,pubmed,"""Oxalis corniculata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0308,clinicaltrials.gov(query.intr),"""Oxalis corniculata"" OR ""Changeri""",0,2026-11-04
+herb,HERB-0309,pubmed,"""Paederia foetida""[tiab]",56,2026-11-04
+herb,HERB-0309,pubmed,"""Paederia foetida""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0309,clinicaltrials.gov(query.intr),"""Paederia foetida"" OR ""Prasarini""",0,2026-11-04
+herb,HERB-0310,pubmed,"""Pandanus odoratissimus""[tiab]",13,2026-11-04
+herb,HERB-0310,pubmed,"""Pandanus odoratissimus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0310,clinicaltrials.gov(query.intr),"""Pandanus odoratissimus"" OR ""ketaki""",0,2026-11-04
+herb,HERB-0311,pubmed,"""Pandanus odorifer""[tiab]",10,2026-11-04
+herb,HERB-0311,pubmed,"""Pandanus odorifer""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0311,clinicaltrials.gov(query.intr),"""Pandanus odorifer"" OR ""Ketaki""",0,2026-11-04
+herb,HERB-0312,pubmed,"""Papaver somniferum""[tiab]",579,2026-11-04
+herb,HERB-0312,pubmed,"""Papaver somniferum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0312,clinicaltrials.gov(query.intr),"""Papaver somniferum"" OR ""Ahiphena""",2,2026-11-04
+herb,HERB-0313,pubmed,"""Parmotrema perlatum""[tiab]",13,2026-11-04
+herb,HERB-0313,pubmed,"""Parmotrema perlatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0313,clinicaltrials.gov(query.intr),"""Parmotrema perlatum"" OR ""saileya""",0,2026-11-04
+herb,HERB-0314,pubmed,"""Pavonia zeylonica""[tiab]",0,2026-11-04
+herb,HERB-0314,pubmed,"""Pavonia zeylonica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0314,clinicaltrials.gov(query.intr),"""Pavonia zeylonica"" OR ""hrivera""",0,2026-11-04
+herb,HERB-0315,pubmed,"""Pentapetes phoenicea""[tiab]",2,2026-11-04
+herb,HERB-0315,pubmed,"""Pentapetes phoenicea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0315,clinicaltrials.gov(query.intr),"""Pentapetes phoenicea"" OR ""Bandhuka""",0,2026-11-04
+herb,HERB-0316,pubmed,"""Phaseolous trilobus""[tiab]",0,2026-11-04
+herb,HERB-0316,pubmed,"""Phaseolous trilobus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0316,clinicaltrials.gov(query.intr),"""Phaseolous trilobus""",0,2026-11-04
+herb,HERB-0317,pubmed,"""Phaseolus mungo""[tiab]",121,2026-11-04
+herb,HERB-0317,pubmed,"""Phaseolus mungo""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0317,clinicaltrials.gov(query.intr),"""Phaseolus mungo""",2,2026-11-04
+herb,HERB-0318,pubmed,"""Phaseolus trilobus""[tiab]",1,2026-11-04
+herb,HERB-0318,pubmed,"""Phaseolus trilobus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0318,clinicaltrials.gov(query.intr),"""Phaseolus trilobus""",0,2026-11-04
+herb,HERB-0319,pubmed,"""Phoenix dactylifera""[tiab]",1054,2026-11-04
+herb,HERB-0319,pubmed,"""Phoenix dactylifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0319,clinicaltrials.gov(query.intr),"""Phoenix dactylifera"" OR ""Kharjura""",7,2026-11-04
+herb,HERB-0320,pubmed,"""Phoenix sylvestris""[tiab]",27,2026-11-04
+herb,HERB-0320,pubmed,"""Phoenix sylvestris""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0320,clinicaltrials.gov(query.intr),"""Phoenix sylvestris"" OR ""kharjura""",7,2026-11-04
+herb,HERB-0321,pubmed,"""Phyla nodiflora""[tiab]",31,2026-11-04
+herb,HERB-0321,pubmed,"""Phyla nodiflora""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0321,clinicaltrials.gov(query.intr),"""Phyla nodiflora"" OR ""Jalapippali""",0,2026-11-04
+herb,HERB-0322,pubmed,"""Phyllanthus acidus""[tiab]",53,2026-11-04
+herb,HERB-0322,pubmed,"""Phyllanthus acidus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0322,clinicaltrials.gov(query.intr),"""Phyllanthus acidus"" OR ""Lavali""",0,2026-11-04
+herb,HERB-0323,pubmed,"""Phyllanthus amarus""[tiab]",312,2026-11-04
+herb,HERB-0323,pubmed,"""Phyllanthus amarus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",13,2026-11-04
+herb,HERB-0323,clinicaltrials.gov(query.intr),"""Phyllanthus amarus"" OR ""tamalaki""",5,2026-11-04
+herb,HERB-0324,pubmed,"""Phyllanthus emblica""[tiab]",575,2026-11-04
+herb,HERB-0324,pubmed,"""Phyllanthus emblica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",65,2026-11-04
+herb,HERB-0324,clinicaltrials.gov(query.intr),"""Phyllanthus emblica""",23,2026-11-04
+herb,HERB-0325,pubmed,"""Phyllanthus niruri""[tiab]",258,2026-11-04
+herb,HERB-0325,pubmed,"""Phyllanthus niruri""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",17,2026-11-04
+herb,HERB-0325,clinicaltrials.gov(query.intr),"""Phyllanthus niruri"" OR ""Tamalaki""",8,2026-11-04
+herb,HERB-0326,pubmed,"""Picrorhiza kurroa""[tiab]",221,2026-11-04
+herb,HERB-0326,pubmed,"""Picrorhiza kurroa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",27,2026-11-04
+herb,HERB-0326,clinicaltrials.gov(query.intr),"""Picrorhiza kurroa"" OR ""Katuki""",5,2026-11-04
+herb,HERB-0327,pubmed,"""Piliostigma malabaricum""[tiab]",0,2026-11-04
+herb,HERB-0327,pubmed,"""Piliostigma malabaricum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0327,clinicaltrials.gov(query.intr),"""Piliostigma malabaricum"" OR ""asmantaka""",0,2026-11-04
+herb,HERB-0328,pubmed,"""Pinus roxburghii""[tiab]",94,2026-11-04
+herb,HERB-0328,pubmed,"""Pinus roxburghii""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0328,clinicaltrials.gov(query.intr),"""Pinus roxburghii"" OR ""saralah""",0,2026-11-04
+herb,HERB-0329,pubmed,"""Piper betle""[tiab]",407,2026-11-04
+herb,HERB-0329,pubmed,"""Piper betle""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0329,clinicaltrials.gov(query.intr),"""Piper betle"" OR ""tambula""",0,2026-11-04
+herb,HERB-0330,pubmed,"""Piper cubeba""[tiab]",86,2026-11-04
+herb,HERB-0330,pubmed,"""Piper cubeba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0330,clinicaltrials.gov(query.intr),"""Piper cubeba"" OR ""Kankola""",1,2026-11-04
+herb,HERB-0331,pubmed,"""Piper longum""[tiab]",482,2026-11-04
+herb,HERB-0331,pubmed,"""Piper longum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",58,2026-11-04
+herb,HERB-0331,clinicaltrials.gov(query.intr),"""Piper longum"" OR ""Pippali""",227,2026-11-04
+herb,HERB-0332,pubmed,"""Piper nigrum""[tiab]",920,2026-11-04
+herb,HERB-0332,pubmed,"""Piper nigrum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",31,2026-11-04
+herb,HERB-0332,clinicaltrials.gov(query.intr),"""Piper nigrum"" OR ""Maricha""",135,2026-11-04
+herb,HERB-0333,pubmed,"""Piper retrofractum""[tiab]",48,2026-11-04
+herb,HERB-0333,pubmed,"""Piper retrofractum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0333,clinicaltrials.gov(query.intr),"""Piper retrofractum"" OR ""Chavya""",1,2026-11-04
+herb,HERB-0334,pubmed,"""Pistacia chinensis""[tiab]",53,2026-11-04
+herb,HERB-0334,pubmed,"""Pistacia chinensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0334,clinicaltrials.gov(query.intr),"""Pistacia chinensis"" OR ""Karkatashringi""",0,2026-11-04
+herb,HERB-0335,pubmed,"""Pistacia lentiscus""[tiab]",444,2026-11-04
+herb,HERB-0335,pubmed,"""Pistacia lentiscus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0335,clinicaltrials.gov(query.intr),"""Pistacia lentiscus"" OR ""rumi mastagi""",15,2026-11-04
+herb,HERB-0336,pubmed,"""Pistacia vera""[tiab]",343,2026-11-04
+herb,HERB-0336,pubmed,"""Pistacia vera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0336,clinicaltrials.gov(query.intr),"""Pistacia vera"" OR ""Nikochaka""",50,2026-11-04
+herb,HERB-0337,pubmed,"""Pistia stratiotes""[tiab]",331,2026-11-04
+herb,HERB-0337,pubmed,"""Pistia stratiotes""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0337,clinicaltrials.gov(query.intr),"""Pistia stratiotes"" OR ""Kumbhika""",0,2026-11-04
+herb,HERB-0338,pubmed,"""Plantago ovata""[tiab]",246,2026-11-04
+herb,HERB-0338,pubmed,"""Plantago ovata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0338,clinicaltrials.gov(query.intr),"""Plantago ovata"" OR ""Ishabgula""",10,2026-11-04
+herb,HERB-0339,pubmed,"""Pluchea lanceolata""[tiab]",22,2026-11-04
+herb,HERB-0339,pubmed,"""Pluchea lanceolata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0339,clinicaltrials.gov(query.intr),"""Pluchea lanceolata""",0,2026-11-04
+herb,HERB-0340,pubmed,"""Plumbago indica""[tiab]",60,2026-11-04
+herb,HERB-0340,pubmed,"""Plumbago indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0340,clinicaltrials.gov(query.intr),"""Plumbago indica"" OR ""Raktamoola""",0,2026-11-04
+herb,HERB-0341,pubmed,"""Plumbago zeylanica""[tiab]",249,2026-11-04
+herb,HERB-0341,pubmed,"""Plumbago zeylanica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",20,2026-11-04
+herb,HERB-0341,clinicaltrials.gov(query.intr),"""Plumbago zeylanica"" OR ""Chitrak""",1,2026-11-04
+herb,HERB-0342,pubmed,"""Polygonatum cirrhifolium""[tiab]",2,2026-11-04
+herb,HERB-0342,pubmed,"""Polygonatum cirrhifolium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0342,clinicaltrials.gov(query.intr),"""Polygonatum cirrhifolium""",0,2026-11-04
+herb,HERB-0343,pubmed,"""Polygonatum verticillatum""[tiab]",25,2026-11-04
+herb,HERB-0343,pubmed,"""Polygonatum verticillatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0343,clinicaltrials.gov(query.intr),"""Polygonatum verticillatum""",0,2026-11-04
+herb,HERB-0344,pubmed,"""Pongamia pinnata""[tiab]",292,2026-11-04
+herb,HERB-0344,pubmed,"""Pongamia pinnata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",13,2026-11-04
+herb,HERB-0344,clinicaltrials.gov(query.intr),"""Pongamia pinnata"" OR ""Karanja""",1,2026-11-04
+herb,HERB-0345,pubmed,"""Premna herbacea""[tiab]",6,2026-11-04
+herb,HERB-0345,pubmed,"""Premna herbacea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0345,clinicaltrials.gov(query.intr),"""Premna herbacea"" OR ""Bhumi Jambuka""",0,2026-11-04
+herb,HERB-0346,pubmed,"""Premna serratifolia""[tiab]",17,2026-11-04
+herb,HERB-0346,pubmed,"""Premna serratifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0346,clinicaltrials.gov(query.intr),"""Premna serratifolia"" OR ""Agnimantha""",2,2026-11-04
+herb,HERB-0347,pubmed,"""Prunus amygdalus""[tiab]",134,2026-11-04
+herb,HERB-0347,pubmed,"""Prunus amygdalus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0347,clinicaltrials.gov(query.intr),"""Prunus amygdalus"" OR ""Vathada""",26,2026-11-04
+herb,HERB-0348,pubmed,"""Prunus avium""[tiab]",774,2026-11-04
+herb,HERB-0348,pubmed,"""Prunus avium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0348,clinicaltrials.gov(query.intr),"""Prunus avium"" OR ""elavaluka""",2,2026-11-04
+herb,HERB-0349,pubmed,"""Prunus cerasoides""[tiab]",21,2026-11-04
+herb,HERB-0349,pubmed,"""Prunus cerasoides""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0349,clinicaltrials.gov(query.intr),"""Prunus cerasoides"" OR ""Padmaka""",1,2026-11-04
+herb,HERB-0350,pubmed,"""Psammogeton involucratum""[tiab]",0,2026-11-04
+herb,HERB-0350,pubmed,"""Psammogeton involucratum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0350,clinicaltrials.gov(query.intr),"""Psammogeton involucratum"" OR ""vanya ajamoda""",0,2026-11-04
+herb,HERB-0351,pubmed,"""Pterocarpus marsupium""[tiab]",101,2026-11-04
+herb,HERB-0351,pubmed,"""Pterocarpus marsupium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",16,2026-11-04
+herb,HERB-0351,clinicaltrials.gov(query.intr),"""Pterocarpus marsupium"" OR ""Asana""",54,2026-11-04
+herb,HERB-0352,pubmed,"""Pterocarpus santalinus""[tiab]",68,2026-11-04
+herb,HERB-0352,pubmed,"""Pterocarpus santalinus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",10,2026-11-04
+herb,HERB-0352,clinicaltrials.gov(query.intr),"""Pterocarpus santalinus"" OR ""Rakta Chandana""",0,2026-11-04
+herb,HERB-0353,pubmed,"""Pterospermum acerifolium""[tiab]",19,2026-11-04
+herb,HERB-0353,pubmed,"""Pterospermum acerifolium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0353,clinicaltrials.gov(query.intr),"""Pterospermum acerifolium"" OR ""Karnikara""",0,2026-11-04
+herb,HERB-0354,pubmed,"""Pueraria tuberosa""[tiab]",51,2026-11-04
+herb,HERB-0354,pubmed,"""Pueraria tuberosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",9,2026-11-04
+herb,HERB-0354,clinicaltrials.gov(query.intr),"""Pueraria tuberosa"" OR ""Vidarikand""",0,2026-11-04
+herb,HERB-0355,pubmed,"""Punica granatum""[tiab]",1940,2026-11-04
+herb,HERB-0355,pubmed,"""Punica granatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",15,2026-11-04
+herb,HERB-0355,clinicaltrials.gov(query.intr),"""Punica granatum"" OR ""Dadima""",168,2026-11-04
+herb,HERB-0356,pubmed,"""Putranjiva roxburghii""[tiab]",39,2026-11-04
+herb,HERB-0356,pubmed,"""Putranjiva roxburghii""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0356,clinicaltrials.gov(query.intr),"""Putranjiva roxburghii"" OR ""Putranjivaka""",0,2026-11-04
+herb,HERB-0357,pubmed,"""Quercus infectoria""[tiab]",140,2026-11-04
+herb,HERB-0357,pubmed,"""Quercus infectoria""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0357,clinicaltrials.gov(query.intr),"""Quercus infectoria"" OR ""Mayaphala""",0,2026-11-04
+herb,HERB-0358,pubmed,"""Raphanus sativus""[tiab]",1741,2026-11-04
+herb,HERB-0358,pubmed,"""Raphanus sativus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0358,clinicaltrials.gov(query.intr),"""Raphanus sativus"" OR ""Mulaka""",10,2026-11-04
+herb,HERB-0359,pubmed,"""Rauvolfia serpentina""[tiab]",119,2026-11-04
+herb,HERB-0359,pubmed,"""Rauvolfia serpentina""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0359,clinicaltrials.gov(query.intr),"""Rauvolfia serpentina"" OR ""Sarpagandha""",1,2026-11-04
+herb,HERB-0360,pubmed,"""Rheum australe""[tiab]",13,2026-11-04
+herb,HERB-0360,pubmed,"""Rheum australe""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0360,clinicaltrials.gov(query.intr),"""Rheum australe"" OR ""Amlaparni""",0,2026-11-04
+herb,HERB-0361,pubmed,"""Ricinus communis""[tiab]",3136,2026-11-04
+herb,HERB-0361,pubmed,"""Ricinus communis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0361,clinicaltrials.gov(query.intr),"""Ricinus communis"" OR ""Eranda""",49,2026-11-04
+herb,HERB-0362,pubmed,"""Rosa centifolia""[tiab]",45,2026-11-04
+herb,HERB-0362,pubmed,"""Rosa centifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0362,clinicaltrials.gov(query.intr),"""Rosa centifolia"" OR ""Taruni""",0,2026-11-04
+herb,HERB-0363,pubmed,"""Rotheca serrata""[tiab]",10,2026-11-04
+herb,HERB-0363,pubmed,"""Rotheca serrata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0363,clinicaltrials.gov(query.intr),"""Rotheca serrata"" OR ""Bharangi""",0,2026-11-04
+herb,HERB-0364,pubmed,"""Rubia cordifolia""[tiab]",263,2026-11-04
+herb,HERB-0364,pubmed,"""Rubia cordifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",13,2026-11-04
+herb,HERB-0364,clinicaltrials.gov(query.intr),"""Rubia cordifolia"" OR ""Manjistha""",4,2026-11-04
+herb,HERB-0365,pubmed,"""Saccharum officinarum""[tiab]",603,2026-11-04
+herb,HERB-0365,pubmed,"""Saccharum officinarum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0365,clinicaltrials.gov(query.intr),"""Saccharum officinarum"" OR ""Ikshu""",11,2026-11-04
+herb,HERB-0366,pubmed,"""Saccharum spontaneum""[tiab]",261,2026-11-04
+herb,HERB-0366,pubmed,"""Saccharum spontaneum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0366,clinicaltrials.gov(query.intr),"""Saccharum spontaneum""",0,2026-11-04
+herb,HERB-0367,pubmed,"""Salix caprea""[tiab]",97,2026-11-04
+herb,HERB-0367,pubmed,"""Salix caprea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0367,clinicaltrials.gov(query.intr),"""Salix caprea"" OR ""Vetasa""",0,2026-11-04
+herb,HERB-0368,pubmed,"""Salix tetrasperma""[tiab]",14,2026-11-04
+herb,HERB-0368,pubmed,"""Salix tetrasperma""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0368,clinicaltrials.gov(query.intr),"""Salix tetrasperma"" OR ""Jalavetasa""",0,2026-11-04
+herb,HERB-0369,pubmed,"""Salvadora persica""[tiab]",298,2026-11-04
+herb,HERB-0369,pubmed,"""Salvadora persica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0369,clinicaltrials.gov(query.intr),"""Salvadora persica""",15,2026-11-04
+herb,HERB-0370,pubmed,"""Santalum album""[tiab]",216,2026-11-04
+herb,HERB-0370,pubmed,"""Santalum album""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0370,clinicaltrials.gov(query.intr),"""Santalum album"" OR ""Chandana""",1,2026-11-04
+herb,HERB-0371,pubmed,"""Sapindus mukorossi""[tiab]",175,2026-11-04
+herb,HERB-0371,pubmed,"""Sapindus mukorossi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0371,clinicaltrials.gov(query.intr),"""Sapindus mukorossi"" OR ""Arishtaka""",2,2026-11-04
+herb,HERB-0372,pubmed,"""Saraca asoca""[tiab]",75,2026-11-04
+herb,HERB-0372,pubmed,"""Saraca asoca""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",15,2026-11-04
+herb,HERB-0372,clinicaltrials.gov(query.intr),"""Saraca asoca"" OR ""Ashoka""",1,2026-11-04
+herb,HERB-0373,pubmed,"""Saussurea obvallata""[tiab]",11,2026-11-04
+herb,HERB-0373,pubmed,"""Saussurea obvallata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0373,clinicaltrials.gov(query.intr),"""Saussurea obvallata"" OR ""prapaundarika""",0,2026-11-04
+herb,HERB-0374,pubmed,"""Schleichera oleosa""[tiab]",16,2026-11-04
+herb,HERB-0374,pubmed,"""Schleichera oleosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0374,clinicaltrials.gov(query.intr),"""Schleichera oleosa"" OR ""Koshamra""",0,2026-11-04
+herb,HERB-0375,pubmed,"""Schrebera swietenioides""[tiab]",1,2026-11-04
+herb,HERB-0375,pubmed,"""Schrebera swietenioides""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0375,clinicaltrials.gov(query.intr),"""Schrebera swietenioides"" OR ""muskaka""",0,2026-11-04
+herb,HERB-0376,pubmed,"""Scindapsus officinalis""[tiab]",10,2026-11-04
+herb,HERB-0376,pubmed,"""Scindapsus officinalis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0376,clinicaltrials.gov(query.intr),"""Scindapsus officinalis"" OR ""Gajapippali""",0,2026-11-04
+herb,HERB-0377,pubmed,"""Searsia parviflora""[tiab]",0,2026-11-04
+herb,HERB-0377,pubmed,"""Searsia parviflora""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0377,clinicaltrials.gov(query.intr),"""Searsia parviflora"" OR ""tintidika""",0,2026-11-04
+herb,HERB-0378,pubmed,"""Selinum vaginatum""[tiab]",5,2026-11-04
+herb,HERB-0378,pubmed,"""Selinum vaginatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0378,clinicaltrials.gov(query.intr),"""Selinum vaginatum"" OR ""bhutakesi""",0,2026-11-04
+herb,HERB-0379,pubmed,"""Semecarpus anacardium""[tiab]",138,2026-11-04
+herb,HERB-0379,pubmed,"""Semecarpus anacardium""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",23,2026-11-04
+herb,HERB-0379,clinicaltrials.gov(query.intr),"""Semecarpus anacardium"" OR ""Bhallataka""",0,2026-11-04
+herb,HERB-0380,pubmed,"""Senegalia catechu""[tiab]",6,2026-11-04
+herb,HERB-0380,pubmed,"""Senegalia catechu""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0380,clinicaltrials.gov(query.intr),"""Senegalia catechu"" OR ""Khadira""",3,2026-11-04
+herb,HERB-0381,pubmed,"""Senegalia polyacantha""[tiab]",4,2026-11-04
+herb,HERB-0381,pubmed,"""Senegalia polyacantha""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0381,clinicaltrials.gov(query.intr),"""Senegalia polyacantha"" OR ""Kadara""",0,2026-11-04
+herb,HERB-0382,pubmed,"""Senegalia rugata""[tiab]",3,2026-11-04
+herb,HERB-0382,pubmed,"""Senegalia rugata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0382,clinicaltrials.gov(query.intr),"""Senegalia rugata"" OR ""Saptala""",0,2026-11-04
+herb,HERB-0383,pubmed,"""Senna alata""[tiab]",79,2026-11-04
+herb,HERB-0383,pubmed,"""Senna alata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0383,clinicaltrials.gov(query.intr),"""Senna alata"" OR ""Dadrughna""",4,2026-11-04
+herb,HERB-0384,pubmed,"""Senna alexandrina""[tiab]",44,2026-11-04
+herb,HERB-0384,pubmed,"""Senna alexandrina""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0384,clinicaltrials.gov(query.intr),"""Senna alexandrina"" OR ""Swarnapatri""",42,2026-11-04
+herb,HERB-0385,pubmed,"""Senna occidentalis""[tiab]",82,2026-11-04
+herb,HERB-0385,pubmed,"""Senna occidentalis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0385,clinicaltrials.gov(query.intr),"""Senna occidentalis"" OR ""Kasamarda""",0,2026-11-04
+herb,HERB-0386,pubmed,"""Senna tora""[tiab]",42,2026-11-04
+herb,HERB-0386,pubmed,"""Senna tora""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0386,clinicaltrials.gov(query.intr),"""Senna tora"" OR ""Chakramarda""",0,2026-11-04
+herb,HERB-0387,pubmed,"""Sepia officinalis""[tiab]",622,2026-11-04
+herb,HERB-0387,pubmed,"""Sepia officinalis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0387,clinicaltrials.gov(query.intr),"""Sepia officinalis"" OR ""samudraphena""",0,2026-11-04
+herb,HERB-0388,pubmed,"""Sesamum indicum""[tiab]",851,2026-11-04
+herb,HERB-0388,pubmed,"""Sesamum indicum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0388,clinicaltrials.gov(query.intr),"""Sesamum indicum""",3,2026-11-04
+herb,HERB-0389,pubmed,"""Sesbania grandiflora""[tiab]",94,2026-11-04
+herb,HERB-0389,pubmed,"""Sesbania grandiflora""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",8,2026-11-04
+herb,HERB-0389,clinicaltrials.gov(query.intr),"""Sesbania grandiflora"" OR ""Agastya""",1,2026-11-04
+herb,HERB-0390,pubmed,"""Sesbania sesban""[tiab]",64,2026-11-04
+herb,HERB-0390,pubmed,"""Sesbania sesban""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0390,clinicaltrials.gov(query.intr),"""Sesbania sesban"" OR ""jayanti""",0,2026-11-04
+herb,HERB-0391,pubmed,"""Shorea robusta""[tiab]",99,2026-11-04
+herb,HERB-0391,pubmed,"""Shorea robusta""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0391,clinicaltrials.gov(query.intr),"""Shorea robusta""",0,2026-11-04
+herb,HERB-0392,pubmed,"""Sida cordifolia""[tiab]",78,2026-11-04
+herb,HERB-0392,pubmed,"""Sida cordifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",16,2026-11-04
+herb,HERB-0392,clinicaltrials.gov(query.intr),"""Sida cordifolia""",1,2026-11-04
+herb,HERB-0393,pubmed,"""Sida rhombifolia""[tiab]",57,2026-11-04
+herb,HERB-0393,pubmed,"""Sida rhombifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0393,clinicaltrials.gov(query.intr),"""Sida rhombifolia"" OR ""Mahabala""",0,2026-11-04
+herb,HERB-0394,pubmed,"""Sinapis alba""[tiab]",840,2026-11-04
+herb,HERB-0394,pubmed,"""Sinapis alba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0394,clinicaltrials.gov(query.intr),"""Sinapis alba"" OR ""sveta sarsapa""",8,2026-11-04
+herb,HERB-0395,pubmed,"""Smilax china""[tiab]",149,2026-11-04
+herb,HERB-0395,pubmed,"""Smilax china""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0395,clinicaltrials.gov(query.intr),"""Smilax china"" OR ""Chopchini""",3,2026-11-04
+herb,HERB-0396,pubmed,"""Smilax ornata""[tiab]",5,2026-11-04
+herb,HERB-0396,pubmed,"""Smilax ornata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0396,clinicaltrials.gov(query.intr),"""Smilax ornata"" OR ""usaba""",0,2026-11-04
+herb,HERB-0397,pubmed,"""Solanum anguivi""[tiab]",19,2026-11-04
+herb,HERB-0397,pubmed,"""Solanum anguivi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0397,clinicaltrials.gov(query.intr),"""Solanum anguivi"" OR ""brhati""",0,2026-11-04
+herb,HERB-0398,pubmed,"""Solanum melongena""[tiab]",980,2026-11-04
+herb,HERB-0398,pubmed,"""Solanum melongena""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0398,clinicaltrials.gov(query.intr),"""Solanum melongena"" OR ""Vartaku""",15,2026-11-04
+herb,HERB-0399,pubmed,"""Solanum nigrum""[tiab]",836,2026-11-04
+herb,HERB-0399,pubmed,"""Solanum nigrum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",8,2026-11-04
+herb,HERB-0399,clinicaltrials.gov(query.intr),"""Solanum nigrum"" OR ""Makoy""",14,2026-11-04
+herb,HERB-0400,pubmed,"""Solanum violaceum""[tiab]",7,2026-11-04
+herb,HERB-0400,pubmed,"""Solanum violaceum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0400,clinicaltrials.gov(query.intr),"""Solanum violaceum"" OR ""Brihati""",0,2026-11-04
+herb,HERB-0401,pubmed,"""Solanum virginianum""[tiab]",22,2026-11-04
+herb,HERB-0401,pubmed,"""Solanum virginianum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0401,clinicaltrials.gov(query.intr),"""Solanum virginianum"" OR ""Kantakari""",0,2026-11-04
+herb,HERB-0402,pubmed,"""Soymida febrifuga""[tiab]",11,2026-11-04
+herb,HERB-0402,pubmed,"""Soymida febrifuga""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0402,clinicaltrials.gov(query.intr),"""Soymida febrifuga"" OR ""Mamsarohini""",0,2026-11-04
+herb,HERB-0403,pubmed,"""Spermacoce hispida""[tiab]",7,2026-11-04
+herb,HERB-0403,pubmed,"""Spermacoce hispida""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0403,clinicaltrials.gov(query.intr),"""Spermacoce hispida""",0,2026-11-04
+herb,HERB-0404,pubmed,"""Sphaeranthus indicus""[tiab]",74,2026-11-04
+herb,HERB-0404,pubmed,"""Sphaeranthus indicus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0404,clinicaltrials.gov(query.intr),"""Sphaeranthus indicus"" OR ""Gorakhmundi""",0,2026-11-04
+herb,HERB-0405,pubmed,"""Sphagneticola calendulacea""[tiab]",18,2026-11-04
+herb,HERB-0405,pubmed,"""Sphagneticola calendulacea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0405,clinicaltrials.gov(query.intr),"""Sphagneticola calendulacea"" OR ""pitabhrngaraja""",0,2026-11-04
+herb,HERB-0406,pubmed,"""Spinacia oleracea""[tiab]",1842,2026-11-04
+herb,HERB-0406,pubmed,"""Spinacia oleracea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0406,clinicaltrials.gov(query.intr),"""Spinacia oleracea"" OR ""Palankya""",1,2026-11-04
+herb,HERB-0407,pubmed,"""Spondias pinnata""[tiab]",36,2026-11-04
+herb,HERB-0407,pubmed,"""Spondias pinnata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0407,clinicaltrials.gov(query.intr),"""Spondias pinnata""",0,2026-11-04
+herb,HERB-0408,pubmed,"""Stereospermum chelonoides""[tiab]",3,2026-11-04
+herb,HERB-0408,pubmed,"""Stereospermum chelonoides""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0408,clinicaltrials.gov(query.intr),"""Stereospermum chelonoides"" OR ""Patala""",0,2026-11-04
+herb,HERB-0409,pubmed,"""Strychnos nux-vomica""[tiab]",167,2026-11-04
+herb,HERB-0409,pubmed,"""Strychnos nux-vomica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",7,2026-11-04
+herb,HERB-0409,clinicaltrials.gov(query.intr),"""Strychnos nux-vomica"" OR ""Visha Tinduka""",6,2026-11-04
+herb,HERB-0410,pubmed,"""Strychnos potatorum""[tiab]",37,2026-11-04
+herb,HERB-0410,pubmed,"""Strychnos potatorum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0410,clinicaltrials.gov(query.intr),"""Strychnos potatorum"" OR ""Kataka""",0,2026-11-04
+herb,HERB-0411,pubmed,"""Swertia chirata""[tiab]",69,2026-11-04
+herb,HERB-0411,pubmed,"""Swertia chirata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",12,2026-11-04
+herb,HERB-0411,clinicaltrials.gov(query.intr),"""Swertia chirata"" OR ""Kiratatikta""",2,2026-11-04
+herb,HERB-0412,pubmed,"""Swertia chirayita""[tiab]",88,2026-11-04
+herb,HERB-0412,pubmed,"""Swertia chirayita""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",7,2026-11-04
+herb,HERB-0412,clinicaltrials.gov(query.intr),"""Swertia chirayita"" OR ""Chirayata""",2,2026-11-04
+herb,HERB-0413,pubmed,"""Symplocos racemosa""[tiab]",34,2026-11-04
+herb,HERB-0413,pubmed,"""Symplocos racemosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0413,clinicaltrials.gov(query.intr),"""Symplocos racemosa"" OR ""Lodhra""",1,2026-11-04
+herb,HERB-0414,pubmed,"""Syzygium aromaticum""[tiab]",814,2026-11-04
+herb,HERB-0414,pubmed,"""Syzygium aromaticum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",15,2026-11-04
+herb,HERB-0414,clinicaltrials.gov(query.intr),"""Syzygium aromaticum"" OR ""Lavanga""",65,2026-11-04
+herb,HERB-0415,pubmed,"""Syzygium cumini""[tiab]",477,2026-11-04
+herb,HERB-0415,pubmed,"""Syzygium cumini""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",13,2026-11-04
+herb,HERB-0415,clinicaltrials.gov(query.intr),"""Syzygium cumini"" OR ""Jambu""",6,2026-11-04
+herb,HERB-0416,pubmed,"""Tagetes erecta""[tiab]",346,2026-11-04
+herb,HERB-0416,pubmed,"""Tagetes erecta""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0416,clinicaltrials.gov(query.intr),"""Tagetes erecta"" OR ""Tagetes""",6,2026-11-04
+herb,HERB-0417,pubmed,"""Tamarindus indica""[tiab]",441,2026-11-04
+herb,HERB-0417,pubmed,"""Tamarindus indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",6,2026-11-04
+herb,HERB-0417,clinicaltrials.gov(query.intr),"""Tamarindus indica"" OR ""Tintidika""",9,2026-11-04
+herb,HERB-0418,pubmed,"""Taxus baccata""[tiab]",358,2026-11-04
+herb,HERB-0418,pubmed,"""Taxus baccata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0418,clinicaltrials.gov(query.intr),"""Taxus baccata"" OR ""Sthuneyaka""",0,2026-11-04
+herb,HERB-0419,pubmed,"""Tecomella undulata""[tiab]",38,2026-11-04
+herb,HERB-0419,pubmed,"""Tecomella undulata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0419,clinicaltrials.gov(query.intr),"""Tecomella undulata"" OR ""Rohitaka""",0,2026-11-04
+herb,HERB-0420,pubmed,"""Tectona grandis""[tiab]",236,2026-11-04
+herb,HERB-0420,pubmed,"""Tectona grandis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",4,2026-11-04
+herb,HERB-0420,clinicaltrials.gov(query.intr),"""Tectona grandis"" OR ""Shaka""",0,2026-11-04
+herb,HERB-0421,pubmed,"""Tephrosia purpurea""[tiab]",98,2026-11-04
+herb,HERB-0421,pubmed,"""Tephrosia purpurea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",8,2026-11-04
+herb,HERB-0421,clinicaltrials.gov(query.intr),"""Tephrosia purpurea"" OR ""Sharapunkha""",0,2026-11-04
+herb,HERB-0422,pubmed,"""Teramnus labialis""[tiab]",9,2026-11-04
+herb,HERB-0422,pubmed,"""Teramnus labialis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0422,clinicaltrials.gov(query.intr),"""Teramnus labialis"" OR ""Mashaparni""",0,2026-11-04
+herb,HERB-0423,pubmed,"""Terminalia anogeissiana""[tiab]",0,2026-11-04
+herb,HERB-0423,pubmed,"""Terminalia anogeissiana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0423,clinicaltrials.gov(query.intr),"""Terminalia anogeissiana"" OR ""Dhava""",0,2026-11-04
+herb,HERB-0424,pubmed,"""Terminalia arjuna""[tiab]",356,2026-11-04
+herb,HERB-0424,pubmed,"""Terminalia arjuna""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",42,2026-11-04
+herb,HERB-0424,clinicaltrials.gov(query.intr),"""Terminalia arjuna"" OR ""Arjuna""",11,2026-11-04
+herb,HERB-0425,pubmed,"""Terminalia bellirica""[tiab]",131,2026-11-04
+herb,HERB-0425,pubmed,"""Terminalia bellirica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",40,2026-11-04
+herb,HERB-0425,clinicaltrials.gov(query.intr),"""Terminalia bellirica"" OR ""Bibhitaki""",4,2026-11-04
+herb,HERB-0426,pubmed,"""Terminalia chebula""[tiab]",692,2026-11-04
+herb,HERB-0426,pubmed,"""Terminalia chebula""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",114,2026-11-04
+herb,HERB-0426,clinicaltrials.gov(query.intr),"""Terminalia chebula"" OR ""Haritaki""",7,2026-11-04
+herb,HERB-0427,pubmed,"""Terminalia tomentosa""[tiab]",5,2026-11-04
+herb,HERB-0427,pubmed,"""Terminalia tomentosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0427,clinicaltrials.gov(query.intr),"""Terminalia tomentosa"" OR ""asana""",43,2026-11-04
+herb,HERB-0428,pubmed,"""Thespesia lampas""[tiab]",6,2026-11-04
+herb,HERB-0428,pubmed,"""Thespesia lampas""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0428,clinicaltrials.gov(query.intr),"""Thespesia lampas""",0,2026-11-04
+herb,HERB-0429,pubmed,"""Thespesia populnea""[tiab]",85,2026-11-04
+herb,HERB-0429,pubmed,"""Thespesia populnea""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0429,clinicaltrials.gov(query.intr),"""Thespesia populnea"" OR ""kapitana""",0,2026-11-04
+herb,HERB-0430,pubmed,"""Ticanto crista""[tiab]",0,2026-11-04
+herb,HERB-0430,pubmed,"""Ticanto crista""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0430,clinicaltrials.gov(query.intr),"""Ticanto crista"" OR ""Latakaranja""",0,2026-11-04
+herb,HERB-0431,pubmed,"""Tinospora cordifolia""[tiab]",671,2026-11-04
+herb,HERB-0431,pubmed,"""Tinospora cordifolia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",184,2026-11-04
+herb,HERB-0431,clinicaltrials.gov(query.intr),"""Tinospora cordifolia"" OR ""Giloy""",5,2026-11-04
+herb,HERB-0432,pubmed,"""Toxicodendron succedaneum""[tiab]",9,2026-11-04
+herb,HERB-0432,pubmed,"""Toxicodendron succedaneum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0432,clinicaltrials.gov(query.intr),"""Toxicodendron succedaneum"" OR ""ayoga""",0,2026-11-04
+herb,HERB-0433,pubmed,"""Trachyspermum ammi""[tiab]",246,2026-11-04
+herb,HERB-0433,pubmed,"""Trachyspermum ammi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0433,clinicaltrials.gov(query.intr),"""Trachyspermum ammi"" OR ""Yavani""",0,2026-11-04
+herb,HERB-0434,pubmed,"""Trapa natans""[tiab]",62,2026-11-04
+herb,HERB-0434,pubmed,"""Trapa natans""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0434,clinicaltrials.gov(query.intr),"""Trapa natans"" OR ""Shrigataka""",0,2026-11-04
+herb,HERB-0435,pubmed,"""Trianthema portulacastrum""[tiab]",76,2026-11-04
+herb,HERB-0435,pubmed,"""Trianthema portulacastrum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0435,clinicaltrials.gov(query.intr),"""Trianthema portulacastrum"" OR ""Varshabhu""",0,2026-11-04
+herb,HERB-0436,pubmed,"""Tribulus terrestris""[tiab]",584,2026-11-04
+herb,HERB-0436,pubmed,"""Tribulus terrestris""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",24,2026-11-04
+herb,HERB-0436,clinicaltrials.gov(query.intr),"""Tribulus terrestris"" OR ""Gokshura""",11,2026-11-04
+herb,HERB-0437,pubmed,"""Trichosanthes bracteata""[tiab]",3,2026-11-04
+herb,HERB-0437,pubmed,"""Trichosanthes bracteata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0437,clinicaltrials.gov(query.intr),"""Trichosanthes bracteata"" OR ""visala""",0,2026-11-04
+herb,HERB-0438,pubmed,"""Trichosanthes cucumerina""[tiab]",44,2026-11-04
+herb,HERB-0438,pubmed,"""Trichosanthes cucumerina""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0438,clinicaltrials.gov(query.intr),"""Trichosanthes cucumerina"" OR ""patola""",0,2026-11-04
+herb,HERB-0439,pubmed,"""Trichosanthes dioica""[tiab]",52,2026-11-04
+herb,HERB-0439,pubmed,"""Trichosanthes dioica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0439,clinicaltrials.gov(query.intr),"""Trichosanthes dioica"" OR ""Patola""",0,2026-11-04
+herb,HERB-0440,pubmed,"""Trigonella foenum-graecum""[tiab]",1005,2026-11-04
+herb,HERB-0440,pubmed,"""Trigonella foenum-graecum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",11,2026-11-04
+herb,HERB-0440,clinicaltrials.gov(query.intr),"""Trigonella foenum-graecum"" OR ""Methi""",56,2026-11-04
+herb,HERB-0441,pubmed,"""Tripidium bengalense""[tiab]",2,2026-11-04
+herb,HERB-0441,pubmed,"""Tripidium bengalense""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0441,clinicaltrials.gov(query.intr),"""Tripidium bengalense"" OR ""Shara""",0,2026-11-04
+herb,HERB-0442,pubmed,"""Triticum aestivum""[tiab]",12911,2026-11-04
+herb,HERB-0442,pubmed,"""Triticum aestivum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0442,clinicaltrials.gov(query.intr),"""Triticum aestivum"" OR ""Godhuma""",548,2026-11-04
+herb,HERB-0443,pubmed,"""Typha domingensis""[tiab]",153,2026-11-04
+herb,HERB-0443,pubmed,"""Typha domingensis""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0443,clinicaltrials.gov(query.intr),"""Typha domingensis"" OR ""gundra""",0,2026-11-04
+herb,HERB-0444,pubmed,"""Uraria picta""[tiab]",11,2026-11-04
+herb,HERB-0444,pubmed,"""Uraria picta""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0444,clinicaltrials.gov(query.intr),"""Uraria picta"" OR ""Prishniparni""",0,2026-11-04
+herb,HERB-0445,pubmed,"""Urtica dioica""[tiab]",895,2026-11-04
+herb,HERB-0445,pubmed,"""Urtica dioica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0445,clinicaltrials.gov(query.intr),"""Urtica dioica"" OR ""vrscikali""",16,2026-11-04
+herb,HERB-0446,pubmed,"""Vachellia nilotica""[tiab]",54,2026-11-04
+herb,HERB-0446,pubmed,"""Vachellia nilotica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0446,clinicaltrials.gov(query.intr),"""Vachellia nilotica"" OR ""Babbula""",1,2026-11-04
+herb,HERB-0447,pubmed,"""Valeriana jatamansi""[tiab]",144,2026-11-04
+herb,HERB-0447,pubmed,"""Valeriana jatamansi""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",5,2026-11-04
+herb,HERB-0447,clinicaltrials.gov(query.intr),"""Valeriana jatamansi"" OR ""Tagar""",26,2026-11-04
+herb,HERB-0448,pubmed,"""Vateria indica""[tiab]",12,2026-11-04
+herb,HERB-0448,pubmed,"""Vateria indica""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0448,clinicaltrials.gov(query.intr),"""Vateria indica"" OR ""Sarja""",0,2026-11-04
+herb,HERB-0449,pubmed,"""Vetiveria zizanioides""[tiab]",173,2026-11-04
+herb,HERB-0449,pubmed,"""Vetiveria zizanioides""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0449,clinicaltrials.gov(query.intr),"""Vetiveria zizanioides"" OR ""usira""",1,2026-11-04
+herb,HERB-0450,pubmed,"""Vicia lens""[tiab]",3,2026-11-04
+herb,HERB-0450,pubmed,"""Vicia lens""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0450,clinicaltrials.gov(query.intr),"""Vicia lens"" OR ""Masura""",0,2026-11-04
+herb,HERB-0451,pubmed,"""Vigna mungo""[tiab]",325,2026-11-04
+herb,HERB-0451,pubmed,"""Vigna mungo""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0451,clinicaltrials.gov(query.intr),"""Vigna mungo"" OR ""Masha""",4,2026-11-04
+herb,HERB-0452,pubmed,"""Vigna radiata""[tiab]",1616,2026-11-04
+herb,HERB-0452,pubmed,"""Vigna radiata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0452,clinicaltrials.gov(query.intr),"""Vigna radiata"" OR ""Mudga""",14,2026-11-04
+herb,HERB-0453,pubmed,"""Vigna trilobata""[tiab]",7,2026-11-04
+herb,HERB-0453,pubmed,"""Vigna trilobata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0453,clinicaltrials.gov(query.intr),"""Vigna trilobata"" OR ""Mudgaparni""",0,2026-11-04
+herb,HERB-0454,pubmed,"""Vigna unguiculata""[tiab]",1554,2026-11-04
+herb,HERB-0454,pubmed,"""Vigna unguiculata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",0,2026-11-04
+herb,HERB-0454,clinicaltrials.gov(query.intr),"""Vigna unguiculata"" OR ""Rajamasha""",1,2026-11-04
+herb,HERB-0455,pubmed,"""Viola odorata""[tiab]",116,2026-11-04
+herb,HERB-0455,pubmed,"""Viola odorata""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0455,clinicaltrials.gov(query.intr),"""Viola odorata"" OR ""Vanapsa""",0,2026-11-04
+herb,HERB-0456,pubmed,"""Vitex agnus-castus""[tiab]",274,2026-11-04
+herb,HERB-0456,pubmed,"""Vitex agnus-castus""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0456,clinicaltrials.gov(query.intr),"""Vitex agnus-castus"" OR ""Renuka""",9,2026-11-04
+herb,HERB-0457,pubmed,"""Vitex negundo""[tiab]",339,2026-11-04
+herb,HERB-0457,pubmed,"""Vitex negundo""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",14,2026-11-04
+herb,HERB-0457,clinicaltrials.gov(query.intr),"""Vitex negundo"" OR ""Nirgundi""",1,2026-11-04
+herb,HERB-0458,pubmed,"""Vitis vinifera""[tiab]",6161,2026-11-04
+herb,HERB-0458,pubmed,"""Vitis vinifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",11,2026-11-04
+herb,HERB-0458,clinicaltrials.gov(query.intr),"""Vitis vinifera"" OR ""Draksha""",277,2026-11-04
+herb,HERB-0459,pubmed,"""Withania coagulans""[tiab]",124,2026-11-04
+herb,HERB-0459,pubmed,"""Withania coagulans""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",8,2026-11-04
+herb,HERB-0459,clinicaltrials.gov(query.intr),"""Withania coagulans"" OR ""rsyaprokta""",1,2026-11-04
+herb,HERB-0460,pubmed,"""Withania somnifera""[tiab]",1795,2026-11-04
+herb,HERB-0460,pubmed,"""Withania somnifera""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",369,2026-11-04
+herb,HERB-0460,clinicaltrials.gov(query.intr),"""Withania somnifera"" OR ""Ashwagandha""",88,2026-11-04
+herb,HERB-0461,pubmed,"""Woodfordia fruticosa""[tiab]",68,2026-11-04
+herb,HERB-0461,pubmed,"""Woodfordia fruticosa""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",12,2026-11-04
+herb,HERB-0461,clinicaltrials.gov(query.intr),"""Woodfordia fruticosa"" OR ""Dhataki""",0,2026-11-04
+herb,HERB-0462,pubmed,"""Zanthoxylum armatum""[tiab]",201,2026-11-04
+herb,HERB-0462,pubmed,"""Zanthoxylum armatum""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",3,2026-11-04
+herb,HERB-0462,clinicaltrials.gov(query.intr),"""Zanthoxylum armatum"" OR ""Tumburu""",2,2026-11-04
+herb,HERB-0463,pubmed,"""Zingiber officinale""[tiab]",2344,2026-11-04
+herb,HERB-0463,pubmed,"""Zingiber officinale""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",59,2026-11-04
+herb,HERB-0463,clinicaltrials.gov(query.intr),"""Zingiber officinale"" OR ""Ardraka""",235,2026-11-04
+herb,HERB-0464,pubmed,"""Ziziphus jujuba""[tiab]",748,2026-11-04
+herb,HERB-0464,pubmed,"""Ziziphus jujuba""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0464,clinicaltrials.gov(query.intr),"""Ziziphus jujuba"" OR ""kuvala""",16,2026-11-04
+herb,HERB-0465,pubmed,"""Ziziphus mauritiana""[tiab]",133,2026-11-04
+herb,HERB-0465,pubmed,"""Ziziphus mauritiana""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",2,2026-11-04
+herb,HERB-0465,clinicaltrials.gov(query.intr),"""Ziziphus mauritiana"" OR ""Badara""",10,2026-11-04
+herb,HERB-0466,pubmed,"""Ziziphus nummularia""[tiab]",55,2026-11-04
+herb,HERB-0466,pubmed,"""Ziziphus nummularia""[tiab] AND (ayurved*[tiab] OR ""Indian traditional medicine""[tiab])",1,2026-11-04
+herb,HERB-0466,clinicaltrials.gov(query.intr),"""Ziziphus nummularia"" OR ""badari""",0,2026-11-04
+formulation,FORM-001,pubmed,"""triphala""[tiab]",337,2026-11-04
+formulation,FORM-001,clinicaltrials.gov(query.intr),"""triphala""",11,2026-11-04
+formulation,FORM-002,pubmed,"""trikatu""[tiab]",31,2026-11-04
+formulation,FORM-002,clinicaltrials.gov(query.intr),"""trikatu""",1,2026-11-04
+formulation,FORM-003,pubmed,"""sitopaladi""[tiab]",8,2026-11-04
+formulation,FORM-003,clinicaltrials.gov(query.intr),"""sitopaladi""",0,2026-11-04
+formulation,FORM-004,pubmed,"""talisadi""[tiab]",2,2026-11-04
+formulation,FORM-004,clinicaltrials.gov(query.intr),"""talisadi""",0,2026-11-04
+formulation,FORM-005,pubmed,"""avipattikar""[tiab] OR ""avipattikara""[tiab]",3,2026-11-04
+formulation,FORM-005,clinicaltrials.gov(query.intr),"""avipattikar"" OR ""avipattikara""",0,2026-11-04
+formulation,FORM-006,pubmed,"""hingvashtak""[tiab] OR ""hingwashtak""[tiab] OR ""hingvastaka""[tiab]",1,2026-11-04
+formulation,FORM-006,clinicaltrials.gov(query.intr),"""hingvashtak"" OR ""hingwashtak"" OR ""hingvastaka""",0,2026-11-04
+formulation,FORM-007,pubmed,"""panchakola""[tiab]",4,2026-11-04
+formulation,FORM-007,clinicaltrials.gov(query.intr),"""panchakola""",0,2026-11-04
+formulation,FORM-008,pubmed,"""lavan bhaskar""[tiab] OR ""lavanabhaskar""[tiab] OR ""lavana bhaskara""[tiab]",0,2026-11-04
+formulation,FORM-008,clinicaltrials.gov(query.intr),"""lavan bhaskar"" OR ""lavanabhaskar"" OR ""lavana bhaskara""",0,2026-11-04
+formulation,FORM-009,pubmed,"""sudarshan churna""[tiab] OR ""mahasudarshan""[tiab] OR ""sudarsana churna""[tiab]",4,2026-11-04
+formulation,FORM-009,clinicaltrials.gov(query.intr),"""sudarshan churna"" OR ""mahasudarshan"" OR ""sudarsana churna""",0,2026-11-04
+formulation,FORM-010,pubmed,"""dashamoola""[tiab] OR ""dashamula""[tiab] OR ""dasamula""[tiab]",35,2026-11-04
+formulation,FORM-010,clinicaltrials.gov(query.intr),"""dashamoola"" OR ""dashamula"" OR ""dasamula""",0,2026-11-04
+formulation,FORM-011,pubmed,"""rasnasaptak""[tiab] OR ""rasna saptak""[tiab]",2,2026-11-04
+formulation,FORM-011,clinicaltrials.gov(query.intr),"""rasnasaptak"" OR ""rasna saptak""",0,2026-11-04
+formulation,FORM-012,pubmed,"""guduchyadi""[tiab]",4,2026-11-04
+formulation,FORM-012,clinicaltrials.gov(query.intr),"""guduchyadi""",0,2026-11-04
+formulation,FORM-013,pubmed,"""phalatrikadi""[tiab]",0,2026-11-04
+formulation,FORM-013,clinicaltrials.gov(query.intr),"""phalatrikadi""",0,2026-11-04
+formulation,FORM-014,pubmed,"""chyawanprash""[tiab] OR ""chyavanprash""[tiab] OR ""chyavanaprasha""[tiab]",42,2026-11-04
+formulation,FORM-014,clinicaltrials.gov(query.intr),"""chyawanprash"" OR ""chyavanprash"" OR ""chyavanaprasha""",0,2026-11-04
+formulation,FORM-015,pubmed,"""agastya haritaki""[tiab] OR ""agasthya rasayana""[tiab] OR ""agastya rasayana""[tiab]",2,2026-11-04
+formulation,FORM-015,clinicaltrials.gov(query.intr),"""agastya haritaki"" OR ""agasthya rasayana"" OR ""agastya rasayana""",0,2026-11-04
+formulation,FORM-016,pubmed,"""vyaghri haritaki""[tiab]",0,2026-11-04
+formulation,FORM-016,clinicaltrials.gov(query.intr),"""vyaghri haritaki""",0,2026-11-04
+formulation,FORM-017,pubmed,"""yogaraja guggulu""[tiab] OR ""yograj guggul""[tiab] OR ""yogaraj guggulu""[tiab]",11,2026-11-04
+formulation,FORM-017,clinicaltrials.gov(query.intr),"""yogaraja guggulu"" OR ""yograj guggul"" OR ""yogaraj guggulu""",5,2026-11-04
+formulation,FORM-018,pubmed,"""kaishore guggulu""[tiab] OR ""kaishor guggul""[tiab] OR ""kaishora guggulu""[tiab]",8,2026-11-04
+formulation,FORM-018,clinicaltrials.gov(query.intr),"""kaishore guggulu"" OR ""kaishor guggul"" OR ""kaishora guggulu""",0,2026-11-04
+formulation,FORM-019,pubmed,"""triphala guggulu""[tiab] OR ""triphala guggul""[tiab]",12,2026-11-04
+formulation,FORM-019,clinicaltrials.gov(query.intr),"""triphala guggulu"" OR ""triphala guggul""",0,2026-11-04
+formulation,FORM-020,pubmed,"""gokshuradi guggulu""[tiab] OR ""gokshuradi guggul""[tiab]",3,2026-11-04
+formulation,FORM-020,clinicaltrials.gov(query.intr),"""gokshuradi guggulu"" OR ""gokshuradi guggul""",1,2026-11-04
+formulation,FORM-021,pubmed,"""kanchanar guggulu""[tiab] OR ""kanchanara guggulu""[tiab] OR ""kanchnar guggul""[tiab]",10,2026-11-04
+formulation,FORM-021,clinicaltrials.gov(query.intr),"""kanchanar guggulu"" OR ""kanchanara guggulu"" OR ""kanchnar guggul""",0,2026-11-04
+formulation,FORM-022,pubmed,"""simhanada guggulu""[tiab] OR ""sinhanad guggulu""[tiab] OR ""simhanad guggulu""[tiab]",5,2026-11-04
+formulation,FORM-022,clinicaltrials.gov(query.intr),"""simhanada guggulu"" OR ""sinhanad guggulu"" OR ""simhanad guggulu""",0,2026-11-04
+formulation,FORM-023,pubmed,"""chandraprabha vati""[tiab] OR ""chandraprabha""[tiab]",10,2026-11-04
+formulation,FORM-023,clinicaltrials.gov(query.intr),"""chandraprabha vati"" OR ""chandraprabha""",0,2026-11-04
+formulation,FORM-024,pubmed,"""arogyavardhini""[tiab]",15,2026-11-04
+formulation,FORM-024,clinicaltrials.gov(query.intr),"""arogyavardhini""",0,2026-11-04
+formulation,FORM-025,pubmed,"""sanjivani vati""[tiab] OR ""sanjeevani vati""[tiab]",1,2026-11-04
+formulation,FORM-025,clinicaltrials.gov(query.intr),"""sanjivani vati"" OR ""sanjeevani vati""",0,2026-11-04
+formulation,FORM-026,pubmed,"""sutashekhar""[tiab] OR ""sutshekhar""[tiab]",0,2026-11-04
+formulation,FORM-026,clinicaltrials.gov(query.intr),"""sutashekhar"" OR ""sutshekhar""",0,2026-11-04
+formulation,FORM-027,pubmed,"""ashwagandharishta""[tiab] OR ""ashvagandharishta""[tiab]",7,2026-11-04
+formulation,FORM-027,clinicaltrials.gov(query.intr),"""ashwagandharishta"" OR ""ashvagandharishta""",0,2026-11-04
+formulation,FORM-028,pubmed,"""arjunarishta""[tiab]",3,2026-11-04
+formulation,FORM-028,clinicaltrials.gov(query.intr),"""arjunarishta""",0,2026-11-04
+formulation,FORM-029,pubmed,"""kutajarishta""[tiab]",2,2026-11-04
+formulation,FORM-029,clinicaltrials.gov(query.intr),"""kutajarishta""",0,2026-11-04
+formulation,FORM-030,pubmed,"""dashamoolarishta""[tiab] OR ""dashamularishta""[tiab]",6,2026-11-04
+formulation,FORM-030,clinicaltrials.gov(query.intr),"""dashamoolarishta"" OR ""dashamularishta""",0,2026-11-04
+formulation,FORM-031,pubmed,"""abhayarishta""[tiab]",1,2026-11-04
+formulation,FORM-031,clinicaltrials.gov(query.intr),"""abhayarishta""",0,2026-11-04
+formulation,FORM-032,pubmed,"""khadirarishta""[tiab]",2,2026-11-04
+formulation,FORM-032,clinicaltrials.gov(query.intr),"""khadirarishta""",0,2026-11-04
+formulation,FORM-033,pubmed,"""punarnavasava""[tiab]",0,2026-11-04
+formulation,FORM-033,clinicaltrials.gov(query.intr),"""punarnavasava""",0,2026-11-04
+formulation,FORM-034,pubmed,"""drakshasava""[tiab]",3,2026-11-04
+formulation,FORM-034,clinicaltrials.gov(query.intr),"""drakshasava""",0,2026-11-04
+formulation,FORM-035,pubmed,"""mahanarayan""[tiab]",1,2026-11-04
+formulation,FORM-035,clinicaltrials.gov(query.intr),"""mahanarayan""",1,2026-11-04
+formulation,FORM-036,pubmed,"""ksheerabala""[tiab] OR ""kshirabala""[tiab]",10,2026-11-04
+formulation,FORM-036,clinicaltrials.gov(query.intr),"""ksheerabala"" OR ""kshirabala""",0,2026-11-04
+formulation,FORM-037,pubmed,"""anu taila""[tiab] OR ""anu tailam""[tiab] OR ""anu thailam""[tiab]",15,2026-11-04
+formulation,FORM-037,clinicaltrials.gov(query.intr),"""anu taila"" OR ""anu tailam"" OR ""anu thailam""",0,2026-11-04
+formulation,FORM-038,pubmed,"""brahmi ghrita""[tiab] OR ""brahmi ghritam""[tiab]",11,2026-11-04
+formulation,FORM-038,clinicaltrials.gov(query.intr),"""brahmi ghrita"" OR ""brahmi ghritam""",0,2026-11-04
+formulation,FORM-039,pubmed,"""panchatikta""[tiab]",13,2026-11-04
+formulation,FORM-039,clinicaltrials.gov(query.intr),"""panchatikta""",0,2026-11-04
+formulation,FORM-040,pubmed,"""mahatiktaka""[tiab] OR ""mahatikta ghrita""[tiab]",3,2026-11-04
+formulation,FORM-040,clinicaltrials.gov(query.intr),"""mahatiktaka"" OR ""mahatikta ghrita""",0,2026-11-04
+formulation,FORM-041,pubmed,"""kalyanaka ghrita""[tiab] OR ""kalyanaka ghritam""[tiab] OR ""kalyanak ghrita""[tiab]",6,2026-11-04
+formulation,FORM-041,clinicaltrials.gov(query.intr),"""kalyanaka ghrita"" OR ""kalyanaka ghritam"" OR ""kalyanak ghrita""",0,2026-11-04
+formulation,FORM-042,pubmed,"""shankha bhasma""[tiab] OR ""shankh bhasma""[tiab]",5,2026-11-04
+formulation,FORM-042,clinicaltrials.gov(query.intr),"""shankha bhasma"" OR ""shankh bhasma""",0,2026-11-04
+formulation,FORM-043,pubmed,"""godanti bhasma""[tiab]",0,2026-11-04
+formulation,FORM-043,clinicaltrials.gov(query.intr),"""godanti bhasma""",0,2026-11-04
+diagnostic_method,DX-001,pubmed,"""trividha pariksha"" OR ""three-fold examination"" Ayurveda",0,2026-11-04
+diagnostic_method,DX-002,pubmed,Ayurveda inspection darshana,0,2026-11-04
+diagnostic_method,DX-003,pubmed,Ayurveda palpation sparshana,3,2026-11-04
+diagnostic_method,DX-004,pubmed,Ayurveda history taking prashna,0,2026-11-04
+diagnostic_method,DX-005,pubmed,shadvidha pariksha,1,2026-11-04
+diagnostic_method,DX-006,pubmed,"""ashtavidha pariksha"" OR ""astavidha pariksha""",38,2026-11-04
+diagnostic_method,DX-007,pubmed,"""nadi pariksha"" OR ""nadi pariksa"" OR ""Ayurvedic pulse diagnosis""",40,2026-11-04
+diagnostic_method,DX-008,pubmed,"""taila bindu"" OR ""mutra pariksha"" OR ""Ayurvedic urine examination""",24,2026-11-04
+diagnostic_method,DX-009,pubmed,"""mala pariksha"" OR ""Ayurvedic stool examination""",7,2026-11-04
+diagnostic_method,DX-010,pubmed,"""tongue diagnosis"" Ayurveda OR ""jihva pariksha""",38,2026-11-04
+diagnostic_method,DX-011,pubmed,Ayurveda shabda pariksha auscultation,0,2026-11-04
+diagnostic_method,DX-012,pubmed,Ayurveda sparsha pariksha,0,2026-11-04
+diagnostic_method,DX-013,pubmed,Ayurveda drik pariksha eye examination,0,2026-11-04
+diagnostic_method,DX-014,pubmed,Ayurveda akriti anthropometry,0,2026-11-04
+diagnostic_method,DX-015,pubmed,"""dashavidha pariksha"" OR ""dasavidha pariksa""",7,2026-11-04
+diagnostic_method,DX-016,pubmed,prakriti assessment OR ayurgenomics,116,2026-11-04
+diagnostic_method,DX-017,pubmed,vikriti Ayurveda assessment,16,2026-11-04
+diagnostic_method,DX-018,pubmed,sara pariksha Ayurveda,0,2026-11-04
+diagnostic_method,DX-019,pubmed,samhanana Ayurveda,9506,2026-11-04
+diagnostic_method,DX-020,pubmed,pramana pariksha anthropometry,0,2026-11-04
+diagnostic_method,DX-021,pubmed,satmya Ayurveda,1,2026-11-04
+diagnostic_method,DX-022,pubmed,sattva Ayurveda psychological,2,2026-11-04
+diagnostic_method,DX-023,pubmed,"aharashakti OR ""digestive capacity"" Ayurveda",2,2026-11-04
+diagnostic_method,DX-024,pubmed,vyayama shakti exercise capacity Ayurveda,0,2026-11-04
+diagnostic_method,DX-025,pubmed,vaya Ayurveda age,0,2026-11-04
+diagnostic_method,DX-026,pubmed,"""nidana panchaka""",4,2026-11-04
+diagnostic_method,DX-027,pubmed,nidana etiology Ayurveda,1,2026-11-04
+diagnostic_method,DX-028,pubmed,purvarupa prodromal Ayurveda,1,2026-11-04
+diagnostic_method,DX-029,pubmed,rupa lakshana Ayurveda,0,2026-11-04
+diagnostic_method,DX-030,pubmed,upashaya Ayurveda,1,2026-11-04
+diagnostic_method,DX-031,pubmed,samprapti pathogenesis Ayurveda,4,2026-11-04
+diagnostic_method,DX-032,pubmed,"kriyakala OR ""stages of disease"" Ayurveda",3,2026-11-04
+diagnostic_method,DX-033,pubmed,agni assessment Ayurveda digestion,8,2026-11-04
+diagnostic_method,DX-034,pubmed,koshtha Ayurveda bowel,2,2026-11-04
+diagnostic_method,DX-035,pubmed,ama Ayurveda biomarker,2,2026-11-04
+diagnostic_method,DX-036,pubmed,arishta lakshana prognosis,0,2026-11-04
+diagnostic_method,DX-037,pubmed,prakriti machine learning,4,2026-11-04
+diagnostic_method,DX-038,pubmed,"nadi sensor OR ""pulse diagnosis"" machine learning Ayurveda",0,2026-11-04
+diagnostic_method,DX-039,pubmed,tongue image deep learning diagnosis,159,2026-11-04
+diagnostic_method,DX-040,pubmed,Ayurveda expert system OR Ayurveda decision support,76,2026-11-04
+diagnostic_method,DX-041,pubmed,Ayurveda clinical trial laboratory parameters,21,2026-11-04
+diagnostic_method,DX-042,pubmed,Ayurveda imaging outcome,33,2026-11-04
+diagnostic_method,DX-043,pubmed,ICD-11 traditional medicine module 2 OR NAMASTE codes Ayurveda,2,2026-11-04
+therapy,pañcakarma,pubmed,"""panchakarma""[tiab] OR ""panchakarma therapy""[tiab]",132,2026-11-04
+therapy,vamana,pubmed,"""vamana""[tiab]",51,2026-11-04
+therapy,virecana,pubmed,"""virechana""[tiab] OR ""virecana""[tiab]",65,2026-11-04
+therapy,basti,pubmed,"""basti""[tiab] AND (ayurved*[tiab] OR enema[tiab])",101,2026-11-04
+therapy,nasya,pubmed,"""nasya""[tiab]",63,2026-11-04
+therapy,raktamokṣaṇa / jalaukāvacaraṇa,pubmed,"""leech therapy""[tiab] OR ""jalaukavacharana""[tiab] OR ""hirudotherapy""[tiab]",429,2026-11-04
+therapy,śirodhārā,pubmed,"""shirodhara""[tiab]",35,2026-11-04
+therapy,abhyaṅga,pubmed,"""abhyanga""[tiab] OR (""ayurvedic massage""[tiab])",44,2026-11-04
+therapy,kṣārasūtra,pubmed,"""kshara sutra""[tiab] OR ""ksharasutra""[tiab]",36,2026-11-04
+therapy,agnikarma,pubmed,"""agnikarma""[tiab]",17,2026-11-04
+therapy,rasāyana,pubmed,"""rasayana""[tiab]",384,2026-11-04
+therapy,yoga (svasthavṛtta),pubmed,"""yoga""[tiab] AND ayurved*[tiab]",354,2026-11-04

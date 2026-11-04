@@ -1,0 +1,3640 @@
+herb_id,name,language_script,source
+HERB-0001,Musk Mallow,en,S2/S5
+HERB-0001,Abelmoschus moschatus,la-botanical,S2/S5
+HERB-0001,Gandhapura,sa-Latn-ascii,S5
+HERB-0001,Kasturilatika,sa-Latn-ascii,S5
+HERB-0001,Mishra,sa-Latn-ascii,S5
+HERB-0002,tālīsa,sa-Latn-IAST,S2
+HERB-0002,तालीस,sa-Deva,derived
+HERB-0002,East Himalayan silver fir,en,S2/S5
+HERB-0002,Abies spectabilis,la-botanical,S2/S5
+HERB-0002,Abies webbiana,la-botanical,S2/S5
+HERB-0002,Dhatripatra,sa-Latn-ascii,S5
+HERB-0002,Patradhya,sa-Latn-ascii,S5
+HERB-0002,Shukodara,sa-Latn-ascii,S5
+HERB-0003,guñjā,sa-Latn-IAST,S2
+HERB-0003,गुञ्जा,sa-Deva,derived
+HERB-0003,गुंजा,hi-Deva,S6
+HERB-0003,Jequirity,en,S2/S5
+HERB-0003,Indian liquorice,en,S2/S5
+HERB-0003,Wild liquorice,en,S2/S5
+HERB-0003,Abrus precatorius,la-botanical,S2/S5
+HERB-0003,Kakadani,sa-Latn-ascii,S5
+HERB-0003,Kakajangha,sa-Latn-ascii,S5
+HERB-0003,Kakananti,sa-Latn-ascii,S5
+HERB-0003,Raktika,sa-Latn-ascii,S5
+HERB-0004,atibalā,sa-Latn-IAST,S2
+HERB-0004,अतिबला,sa-Deva,derived
+HERB-0004,Indian mallow,en,S2/S5
+HERB-0004,velvetleaf,en,S2/S5
+HERB-0004,Abutilon indicum,la-botanical,S2/S5
+HERB-0004,Balika,sa-Latn-ascii,S5
+HERB-0004,Batyalaka,sa-Latn-ascii,S5
+HERB-0004,Kankatika,sa-Latn-ascii,S5
+HERB-0004,Rishyaprokta,sa-Latn-ascii,S5
+HERB-0005,apāmārga,sa-Latn-IAST,S2
+HERB-0005,अपामार्ग,sa-Deva,derived
+HERB-0005,अपामार्ग,hi-Deva,S6
+HERB-0005,लटजीरा,hi-Deva,S6
+HERB-0005,अपामार्गसस्यम्,sa-Deva,S6
+HERB-0005,Prickly chaff-flower plant,en,S2/S5
+HERB-0005,Achyranthes aspera,la-botanical,S2/S5
+HERB-0005,Archyranthes aspera,la-botanical,S2/S5
+HERB-0005,Kinihi,sa-Latn-ascii,S5
+HERB-0005,Markati,sa-Latn-ascii,S5
+HERB-0005,Mayuraka,sa-Latn-ascii,S5
+HERB-0005,Shikhari,sa-Latn-ascii,S5
+HERB-0006,vatsanābha,sa-Latn-IAST,S2
+HERB-0006,वत्सनाभ,sa-Deva,derived
+HERB-0006,aconite,en,S2/S5
+HERB-0006,monkshood,en,S2/S5
+HERB-0006,Aconitum chasmanthum,la-botanical,S2/S5
+HERB-0007,vatsanābha,sa-Latn-IAST,S2
+HERB-0007,वत्सनाभ,sa-Deva,derived
+HERB-0007,Indian Aconite,en,S2/S5
+HERB-0007,Aconitum ferox,la-botanical,S2/S5
+HERB-0007,Amrita,sa-Latn-ascii,S5
+HERB-0007,Garala,sa-Latn-ascii,S5
+HERB-0007,Stokaka,sa-Latn-ascii,S5
+HERB-0007,Visha,sa-Latn-ascii,S5
+HERB-0008,ativiṣā,sa-Latn-IAST,S2
+HERB-0008,अतिविषा,sa-Deva,derived
+HERB-0008,Atis root,en,S2/S5
+HERB-0008,Aconitum heterophyllum,la-botanical,S2/S5
+HERB-0008,Aruna,sa-Latn-ascii,S5
+HERB-0008,Ghuna Vallabha,sa-Latn-ascii,S5
+HERB-0008,Shuklakanda,sa-Latn-ascii,S5
+HERB-0008,Visharupa,sa-Latn-ascii,S5
+HERB-0009,prativiṣā,sa-Latn-IAST,S2
+HERB-0009,प्रतिविषा,sa-Deva,derived
+HERB-0009,Indian Aconite,en,S2/S5
+HERB-0009,Aconitum palmatum,la-botanical,S2/S5
+HERB-0009,Aconitum bisma,la-botanical,S2/S5
+HERB-0009,Ativisha bheda,sa-Latn-ascii,S5
+HERB-0009,Bhangura,sa-Latn-ascii,S5
+HERB-0009,Patachurna,sa-Latn-ascii,S5
+HERB-0010,vacā,sa-Latn-IAST,S2
+HERB-0010,वचा,sa-Deva,derived
+HERB-0010,वच,hi-Deva,S6
+HERB-0010,वामनी,sa-Deva,S6
+HERB-0010,Sweet flag,en,S2/S5
+HERB-0010,Acorus calamus,la-botanical,S2/S5
+HERB-0010,Golomi,sa-Latn-ascii,S5
+HERB-0010,Sadgrantha,sa-Latn-ascii,S5
+HERB-0010,Shadgrantha,sa-Latn-ascii,S5
+HERB-0010,Ugra,sa-Latn-ascii,S5
+HERB-0011,Ray Fern,en,S2/S5
+HERB-0011,Actiniopteris radiata,la-botanical,S2/S5
+HERB-0011,Madhuchhada,sa-Latn-ascii,S5
+HERB-0011,Mayurachuda,sa-Latn-ascii,S5
+HERB-0011,Sahatrika,sa-Latn-ascii,S5
+HERB-0012,Greater Club Rush,en,S2/S5
+HERB-0012,Scirpus grossus,la-botanical,S2/S5
+HERB-0012,Gudakanda,sa-Latn-ascii,S5
+HERB-0012,Kasheru,sa-Latn-ascii,S5
+HERB-0012,Kshudrakanda,sa-Latn-ascii,S5
+HERB-0012,Sugandhi,sa-Latn-ascii,S5
+HERB-0013,Walking Maidenhair Fern,en,S2/S5
+HERB-0013,Adiantum lunulatum,la-botanical,S2/S5
+HERB-0013,Godhapadi,sa-Latn-ascii,S5
+HERB-0013,Kita,sa-Latn-ascii,S5
+HERB-0013,Raktapadi,sa-Latn-ascii,S5
+HERB-0013,Tripadika,sa-Latn-ascii,S5
+HERB-0014,bilva,sa-Latn-IAST,S2
+HERB-0014,बिल्व,sa-Deva,derived
+HERB-0014,बिल्व,hi-Deva,S6
+HERB-0014,बेल,hi-Deva,S6
+HERB-0014,बेल फल,hi-Deva,S6
+HERB-0014,श्री फल,hi-Deva,S6
+HERB-0014,बिल्वः,sa-Deva,S6
+HERB-0014,Correa Bael tree,en,S2/S5
+HERB-0014,Holy fruit tree,en,S2/S5
+HERB-0014,Aegle marmelos,la-botanical,S2/S5
+HERB-0014,Malura,sa-Latn-ascii,S5
+HERB-0014,Shailusha,sa-Latn-ascii,S5
+HERB-0014,Shandilya,sa-Latn-ascii,S5
+HERB-0014,Shriphala,sa-Latn-ascii,S5
+HERB-0015,Mushroom,en,S2/S5
+HERB-0015,Agaricus campestris,la-botanical,S2/S5
+HERB-0015,Bhumichhatra,sa-Latn-ascii,S5
+HERB-0015,Kavaka,sa-Latn-ascii,S5
+HERB-0015,Shilindhra,sa-Latn-ascii,S5
+HERB-0016,अकोल,hi-Deva,S6
+HERB-0016,Sage-leaved Alangium,en,S2/S5
+HERB-0016,Alangium salviifolium,la-botanical,S2/S5
+HERB-0016,Deerghakila,sa-Latn-ascii,S5
+HERB-0016,Gupta,sa-Latn-ascii,S5
+HERB-0016,Nikochaka,sa-Latn-ascii,S5
+HERB-0016,Tamraphala,sa-Latn-ascii,S5
+HERB-0017,śirīṣa,sa-Latn-IAST,S2
+HERB-0017,शिरीष,sa-Deva,derived
+HERB-0017,शिरीष,hi-Deva,S6
+HERB-0017,lebbeck/lebbek tree/flea tree,en,S2/S5
+HERB-0017,frywood/koko/woman's tongue tree,en,S2/S5
+HERB-0017,Albizia lebbeck,la-botanical,S2/S5
+HERB-0017,Albizzia lebbeck,la-botanical,S2/S5
+HERB-0017,Bhandila,sa-Latn-ascii,S5
+HERB-0017,Kapitanaka,sa-Latn-ascii,S5
+HERB-0017,Mridupushpa,sa-Latn-ascii,S5
+HERB-0017,Shukataru,sa-Latn-ascii,S5
+HERB-0018,Camel Thorn,en,S2/S5
+HERB-0018,Alhagi maurorum,la-botanical,S2/S5
+HERB-0018,Duhsparsha,sa-Latn-ascii,S5
+HERB-0018,Giri-karnika,sa-Latn-ascii,S5
+HERB-0018,Yavasaka,sa-Latn-ascii,S5
+HERB-0019,kākanaja,sa-Latn-IAST,S2
+HERB-0019,काकनज,sa-Deva,derived
+HERB-0019,bladder cherry,en,S2/S5
+HERB-0019,Chinese lantern,en,S2/S5
+HERB-0019,Japanese-lantern,en,S2/S5
+HERB-0019,strawberry groundcherry,en,S2/S5
+HERB-0019,winter cherry,en,S2/S5
+HERB-0019,Physalis alkekengi,la-botanical,S2/S5
+HERB-0020,palāṇḍu,sa-Latn-IAST,S2
+HERB-0020,पलाण्डु,sa-Deva,derived
+HERB-0020,प्याज़,hi-Deva,S6
+HERB-0020,पलाण्डुः,sa-Deva,S6
+HERB-0020,Onion,en,S2/S5
+HERB-0020,Allium cepa,la-botanical,S2/S5
+HERB-0020,Mukhadushaka,sa-Latn-ascii,S5
+HERB-0020,Raktakanda,sa-Latn-ascii,S5
+HERB-0020,Sukandaka,sa-Latn-ascii,S5
+HERB-0020,Yavanishta,sa-Latn-ascii,S5
+HERB-0021,laśuna,sa-Latn-IAST,S2
+HERB-0021,लशुन,sa-Deva,derived
+HERB-0021,लहसुन,hi-Deva,S6
+HERB-0021,एलियम सैटिवम,hi-Deva,S6
+HERB-0021,लशुनम्,sa-Deva,S6
+HERB-0021,Garlic,en,S2/S5
+HERB-0021,Allium sativum,la-botanical,S2/S5
+HERB-0021,Lashuna,sa-Latn-ascii,S5
+HERB-0021,Mahoushadha,sa-Latn-ascii,S5
+HERB-0021,Ugragandha,sa-Latn-ascii,S5
+HERB-0021,Yavanishta,sa-Latn-ascii,S5
+HERB-0022,māṇakanda,sa-Latn-IAST,S2
+HERB-0022,माणकन्द,sa-Deva,derived
+HERB-0022,giant taro,en,S2/S5
+HERB-0022,ape,en,S2/S5
+HERB-0022,giant alocasia,en,S2/S5
+HERB-0022,pai,en,S2/S5
+HERB-0022,Alocasia macrorhizos,la-botanical,S2/S5
+HERB-0022,Alocasia indica,la-botanical,S2/S5
+HERB-0023,kumārī,sa-Latn-IAST,S2
+HERB-0023,कुमारी,sa-Deva,derived
+HERB-0023,घृत कुमारी,hi-Deva,S6
+HERB-0023,अलो वेरा,hi-Deva,S6
+HERB-0023,एलोवेरा,hi-Deva,S6
+HERB-0023,ग्वारपाठा,hi-Deva,S6
+HERB-0023,घृतकुमारी,hi-Deva,S6
+HERB-0023,घृतकुमारी,sa-Deva,S6
+HERB-0023,Indian aloe,en,S2/S5
+HERB-0023,Curacao aloe,en,S2/S5
+HERB-0023,Barbados aloe,en,S2/S5
+HERB-0023,Jaffarabad aloe,en,S2/S5
+HERB-0023,Aloe vera,la-botanical,S2/S5
+HERB-0023,Aloe barbadensis,la-botanical,S2/S5
+HERB-0023,Amara,sa-Latn-ascii,S5
+HERB-0023,Ghritakumari,sa-Latn-ascii,S5
+HERB-0023,Grihakanya,sa-Latn-ascii,S5
+HERB-0023,Kanya,sa-Latn-ascii,S5
+HERB-0024,saptaparṇaḥ,sa-Latn-IAST,S2
+HERB-0024,सप्तपर्णः,sa-Deva,derived
+HERB-0024,सप्तपर्ण,hi-Deva,S6
+HERB-0024,Devil tree/Shaitan wood,en,S2/S5
+HERB-0024,Alstonia scholaris,la-botanical,S2/S5
+HERB-0024,Guchhapushpa,sa-Latn-ascii,S5
+HERB-0024,Sharada,sa-Latn-ascii,S5
+HERB-0024,Vishala,sa-Latn-ascii,S5
+HERB-0024,Vishamachhada,sa-Latn-ascii,S5
+HERB-0025,Sessile Joyweed,en,S2/S5
+HERB-0025,Alternanthera sessilis,la-botanical,S2/S5
+HERB-0025,Bahalike bheda,sa-Latn-ascii,S5
+HERB-0025,Gandalika,sa-Latn-ascii,S5
+HERB-0025,Matsyaduni,sa-Latn-ascii,S5
+HERB-0026,taṇḍulīya,sa-Latn-IAST,S2
+HERB-0026,तण्डुलीय,sa-Deva,derived
+HERB-0026,कटीली चौलाई,hi-Deva,S6
+HERB-0026,Prickly amaranth,en,S2/S5
+HERB-0026,Amaranthus spinosus,la-botanical,S2/S5
+HERB-0026,Alpamarisha,sa-Latn-ascii,S5
+HERB-0026,Kandera,sa-Latn-ascii,S5
+HERB-0026,Meghanada,sa-Latn-ascii,S5
+HERB-0026,Tanduliya,sa-Latn-ascii,S5
+HERB-0027,sthūlailā,sa-Latn-IAST,S2
+HERB-0027,स्थूलैला,sa-Deva,derived
+HERB-0027,बड़ी इलायची,hi-Deva,S6
+HERB-0027,काली इलायची,hi-Deva,S6
+HERB-0027,नेपाली इलायची,hi-Deva,S6
+HERB-0027,बंगाल इलायची,hi-Deva,S6
+HERB-0027,भूरी इलायची,hi-Deva,S6
+HERB-0027,लाल इलायची,hi-Deva,S6
+HERB-0027,Greater Cardamom/Nepal cardamom,en,S2/S5
+HERB-0027,Amomum subulatum,la-botanical,S2/S5
+HERB-0028,जिमीकंद,hi-Deva,S6
+HERB-0028,ओल,hi-Deva,S6
+HERB-0028,सूरन,hi-Deva,S6
+HERB-0028,Elephant Foot Yam,en,S2/S5
+HERB-0028,Amorphophallus paeoniifolius,la-botanical,S2/S5
+HERB-0028,Arshoghna,sa-Latn-ascii,S5
+HERB-0028,Kandura,sa-Latn-ascii,S5
+HERB-0028,Olla,sa-Latn-ascii,S5
+HERB-0028,Vataghni,sa-Latn-ascii,S5
+HERB-0029,ākārakarabha,sa-Latn-IAST,S2
+HERB-0029,आकारकरभ,sa-Deva,derived
+HERB-0029,अकरकरा,hi-Deva,S6
+HERB-0029,Pellitory,en,S2/S5
+HERB-0029,Anacyclus pyrethrum,la-botanical,S2/S5
+HERB-0029,Akallaka,sa-Latn-ascii,S5
+HERB-0029,Akarakara,sa-Latn-ascii,S5
+HERB-0030,kālamegha,sa-Latn-IAST,S2
+HERB-0030,कालमेघ,sa-Deva,derived
+HERB-0030,कालमेघ,hi-Deva,S6
+HERB-0030,कालमेघः,sa-Deva,S6
+HERB-0030,Green chiretta,en,S2/S5
+HERB-0030,Kalmegh,en,S2/S5
+HERB-0030,Creat,en,S2/S5
+HERB-0030,Andrographis paniculata,la-botanical,S2/S5
+HERB-0030,Kalamegha,sa-Latn-ascii,S5
+HERB-0030,Kiratatikta,sa-Latn-ascii,S5
+HERB-0030,Yavatiktaka,sa-Latn-ascii,S5
+HERB-0031,śatāhvā,sa-Latn-IAST,S2
+HERB-0031,शताह्वा,sa-Deva,derived
+HERB-0031,Dill,en,S2/S5
+HERB-0031,Garden dill,en,S2/S5
+HERB-0031,Anet,en,S2/S5
+HERB-0031,Anethum sowa,la-botanical,S2/S5
+HERB-0031,Anethum graveolens,la-botanical,S2/S5
+HERB-0032,coraka,sa-Latn-IAST,S2
+HERB-0032,चोरक,sa-Deva,derived
+HERB-0032,smooth angelica,en,S2/S5
+HERB-0032,Angelica glauca,la-botanical,S2/S5
+HERB-0032,Granthila,sa-Latn-ascii,S5
+HERB-0032,Khemaka,sa-Latn-ascii,S5
+HERB-0032,Shukala,sa-Latn-ascii,S5
+HERB-0032,Sthuneya,sa-Latn-ascii,S5
+HERB-0033,spṛkkā,sa-Latn-IAST,S2
+HERB-0033,स्पृक्का,sa-Deva,derived
+HERB-0033,Malabar catmint,en,S2/S5
+HERB-0033,Anisomeles malabarica,la-botanical,S2/S5
+HERB-0034,कुस्तुम्बरीपर्णम्,sa-Deva,S6
+HERB-0034,Wild Celery,en,S2/S5
+HERB-0034,Apium graveolens,la-botanical,S2/S5
+HERB-0034,Ajamoda,sa-Latn-ascii,S5
+HERB-0034,Brahmakoshi,sa-Latn-ascii,S5
+HERB-0034,Kharashwa,sa-Latn-ascii,S5
+HERB-0034,Ugragandha,sa-Latn-ascii,S5
+HERB-0035,aguru,sa-Latn-IAST,S2
+HERB-0035,अगुरु,sa-Deva,derived
+HERB-0035,अगर,hi-Deva,S6
+HERB-0035,आक़ुइलरिअ मलच्छेन्सिस,sa-Deva,S6
+HERB-0035,Agarwood,en,S2/S5
+HERB-0035,Aloewood,en,S2/S5
+HERB-0035,Eaglewood,en,S2/S5
+HERB-0035,Lign-aloes,en,S2/S5
+HERB-0035,Aquilaria malaccensis,la-botanical,S2/S5
+HERB-0035,Aquilaria agallocha,la-botanical,S2/S5
+HERB-0036,pūga,sa-Latn-IAST,S2
+HERB-0036,पूग,sa-Deva,derived
+HERB-0036,चामरपुष्प,hi-Deva,S6
+HERB-0036,खपुर,hi-Deva,S6
+HERB-0036,गुवा,hi-Deva,S6
+HERB-0036,गुवाक,hi-Deva,S6
+HERB-0036,गूआ,hi-Deva,S6
+HERB-0036,पूगवृक्षः,sa-Deva,S6
+HERB-0036,Arecanut tree,en,S2/S5
+HERB-0036,Betelnut tree,en,S2/S5
+HERB-0036,Areca catechu,la-botanical,S2/S5
+HERB-0036,Chikkana,sa-Latn-ascii,S5
+HERB-0036,Guvaka,sa-Latn-ascii,S5
+HERB-0036,Khapura,sa-Latn-ascii,S5
+HERB-0036,Kramuka,sa-Latn-ascii,S5
+HERB-0037,सत्यानाशी,hi-Deva,S6
+HERB-0037,घमोई,hi-Deva,S6
+HERB-0037,भड़भाड़,hi-Deva,S6
+HERB-0037,Mexican Prickly Poppy,en,S2/S5
+HERB-0037,Argemone mexicana,la-botanical,S2/S5
+HERB-0037,Fringi,sa-Latn-ascii,S5
+HERB-0037,Katuparni,sa-Latn-ascii,S5
+HERB-0037,Svarnakshiri bheda,sa-Latn-ascii,S5
+HERB-0038,vṛdhdadāruka,sa-Latn-IAST,S2
+HERB-0038,वृध्ददारुक,sa-Deva,derived
+HERB-0038,Elephant creeper,en,S2/S5
+HERB-0038,Argyreia nervosa,la-botanical,S2/S5
+HERB-0038,Argyreia speciosa,la-botanical,S2/S5
+HERB-0038,Ajantri,sa-Latn-ascii,S5
+HERB-0038,Samudra Shosha,sa-Latn-ascii,S5
+HERB-0038,Vidara,sa-Latn-ascii,S5
+HERB-0039,īśvarī,sa-Latn-IAST,S2
+HERB-0039,ईश्वरी,sa-Deva,derived
+HERB-0039,Indian birthwort,en,S2/S5
+HERB-0039,Aristolochia indica,la-botanical,S2/S5
+HERB-0039,Gandhanakuli,sa-Latn-ascii,S5
+HERB-0039,Garudi,sa-Latn-ascii,S5
+HERB-0039,Nakuli,sa-Latn-ascii,S5
+HERB-0039,Sarpakshi,sa-Latn-ascii,S5
+HERB-0040,kīṭamārī/kirmāṇī,sa-Latn-IAST,S2
+HERB-0040,कीटमारी/किर्माणी,sa-Deva,derived
+HERB-0040,sea wormwood,en,S2/S5
+HERB-0040,old woman,en,S2/S5
+HERB-0040,Artemisia maritima,la-botanical,S2/S5
+HERB-0041,कटहल,hi-Deva,S6
+HERB-0041,पनसफलम्,sa-Deva,S6
+HERB-0041,Jackfruit,en,S2/S5
+HERB-0041,Artocarpus heterophyllus,la-botanical,S2/S5
+HERB-0041,Kantakaphala,sa-Latn-ascii,S5
+HERB-0041,Mochita,sa-Latn-ascii,S5
+HERB-0041,Phalavrikshaka,sa-Latn-ascii,S5
+HERB-0041,Skandaphala,sa-Latn-ascii,S5
+HERB-0042,lakuca,sa-Latn-IAST,S2
+HERB-0042,लकुच,sa-Deva,derived
+HERB-0042,Monkey Jack,en,S2/S5
+HERB-0042,Artocarpus lacoocha,la-botanical,S2/S5
+HERB-0042,Artocarpus lacooca,la-botanical,S2/S5
+HERB-0042,Dahu,sa-Latn-ascii,S5
+HERB-0042,Granthila,sa-Latn-ascii,S5
+HERB-0042,Kshudrapanasa,sa-Latn-ascii,S5
+HERB-0043,nala,sa-Latn-IAST,S2
+HERB-0043,नल,sa-Deva,derived
+HERB-0043,नरकट,hi-Deva,S6
+HERB-0043,giant cane,en,S2/S5
+HERB-0043,Carrizo,en,S2/S5
+HERB-0043,Arundo,en,S2/S5
+HERB-0043,Spanish cane,en,S2/S5
+HERB-0043,Colorado river reed,en,S2/S5
+HERB-0043,wild cane,en,S2/S5
+HERB-0043,giant reed,en,S2/S5
+HERB-0043,Arundo donax,la-botanical,S2/S5
+HERB-0044,śatāvarī,sa-Latn-IAST,S2
+HERB-0044,शतावरी,sa-Deva,derived
+HERB-0044,सतावर,hi-Deva,S6
+HERB-0044,शतावरीसस्यम्,sa-Deva,S6
+HERB-0044,Wild asparagus,en,S2/S5
+HERB-0044,Asparagus racemosus,la-botanical,S2/S5
+HERB-0044,Atirasa,sa-Latn-ascii,S5
+HERB-0044,Bahusuta,sa-Latn-ascii,S5
+HERB-0044,Narayani,sa-Latn-ascii,S5
+HERB-0044,Shatamuli,sa-Latn-ascii,S5
+HERB-0045,Mineral Pitch,en,S2/S5
+HERB-0045,Asphaltum punjabianum,la-botanical,S2/S5
+HERB-0045,Adrija,sa-Latn-ascii,S5
+HERB-0045,Ashmaja,sa-Latn-ascii,S5
+HERB-0045,Girija,sa-Latn-ascii,S5
+HERB-0045,Shilajatu,sa-Latn-ascii,S5
+HERB-0046,Star Fruit,en,S2/S5
+HERB-0046,Averrhoa carambola,la-botanical,S2/S5
+HERB-0046,Amlabhadraka,sa-Latn-ascii,S5
+HERB-0046,Karmara,sa-Latn-ascii,S5
+HERB-0046,Vajravriksha,sa-Latn-ascii,S5
+HERB-0047,nimba,sa-Latn-IAST,S2
+HERB-0047,निम्ब,sa-Deva,derived
+HERB-0047,नीम,hi-Deva,S6
+HERB-0047,निम्बः,sa-Deva,S6
+HERB-0047,Neem tree,en,S2/S5
+HERB-0047,Margosa tree,en,S2/S5
+HERB-0047,Indian lilac,en,S2/S5
+HERB-0047,Azadirachta indica,la-botanical,S2/S5
+HERB-0048,Wild Cumin,en,S2/S5
+HERB-0048,Centratherum anthelminticum,la-botanical,S2/S5
+HERB-0048,Kavalika,sa-Latn-ascii,S5
+HERB-0048,Somaraji,sa-Latn-ascii,S5
+HERB-0048,Vanyajeeraka,sa-Latn-ascii,S5
+HERB-0049,brāhmī,sa-Latn-IAST,S2
+HERB-0049,ब्राह्मी,sa-Deva,derived
+HERB-0049,ब्राह्मी जड़ी बूटी,hi-Deva,S6
+HERB-0049,ब्रम्हमाण्डुकी,hi-Deva,S6
+HERB-0049,ब्राम्हीभेद,hi-Deva,S6
+HERB-0049,ब्राह्मी,hi-Deva,S6
+HERB-0049,ब्राह्मी,sa-Deva,S6
+HERB-0049,Thyme leaved gratiola,en,S2/S5
+HERB-0049,Bacopa monnieri,la-botanical,S2/S5
+HERB-0049,Bocopa monnieri,la-botanical,S2/S5
+HERB-0049,Kapoti,sa-Latn-ascii,S5
+HERB-0049,Matsyakshi,sa-Latn-ascii,S5
+HERB-0049,Sarasvati,sa-Latn-ascii,S5
+HERB-0049,Somavalli,sa-Latn-ascii,S5
+HERB-0050,इङ्गुदवृक्षः,sa-Deva,S6
+HERB-0050,Desert Date,en,S2/S5
+HERB-0050,Balanites aegyptiaca,la-botanical,S2/S5
+HERB-0050,Kroshtu,sa-Latn-ascii,S5
+HERB-0050,Tailaparna,sa-Latn-ascii,S5
+HERB-0050,Tapashadruma,sa-Latn-ascii,S5
+HERB-0050,Tikta,sa-Latn-ascii,S5
+HERB-0051,dantī,sa-Latn-IAST,S2
+HERB-0051,दन्ती,sa-Deva,derived
+HERB-0051,red physic nut,en,S2/S5
+HERB-0051,wild castor,en,S2/S5
+HERB-0051,wild croton,en,S2/S5
+HERB-0051,wild sultan seed,en,S2/S5
+HERB-0051,Baliospermum solanifolium,la-botanical,S2/S5
+HERB-0051,Baliospermum montanum,la-botanical,S2/S5
+HERB-0051,Mukulaka,sa-Latn-ascii,S5
+HERB-0051,Nikumbha,sa-Latn-ascii,S5
+HERB-0051,Shighra,sa-Latn-ascii,S5
+HERB-0051,Udumbaraparni,sa-Latn-ascii,S5
+HERB-0052,vaṃśa,sa-Latn-IAST,S2
+HERB-0052,वंश,sa-Deva,derived
+HERB-0052,Indian thorny Bamboo,en,S2/S5
+HERB-0052,Bambusa bambos,la-botanical,S2/S5
+HERB-0052,Bambusa arundinacea,la-botanical,S2/S5
+HERB-0052,Karmara,sa-Latn-ascii,S5
+HERB-0052,Kichaka,sa-Latn-ascii,S5
+HERB-0052,Tvaksara,sa-Latn-ascii,S5
+HERB-0052,Venu,sa-Latn-ascii,S5
+HERB-0053,vaṃśalocana,sa-Latn-IAST,S2
+HERB-0053,वंशलोचन,sa-Deva,derived
+HERB-0053,abasheer,en,S2/S5
+HERB-0053,Bamboo Silica,en,S2/S5
+HERB-0053,Bamboo Manna,en,S2/S5
+HERB-0053,Bambusa sp,la-botanical,S2/S5
+HERB-0054,śvetasahacaraḥ,sa-Latn-IAST,S2
+HERB-0054,श्वेतसहचरः,sa-Deva,derived
+HERB-0054,Philippine Violet,en,S2/S5
+HERB-0054,bluebell barleria,en,S2/S5
+HERB-0054,crested Philippine violet,en,S2/S5
+HERB-0054,crested purple nail dye,en,S2/S5
+HERB-0054,Barleria cristata,la-botanical,S2/S5
+HERB-0054,Kuruvaka,sa-Latn-ascii,S5
+HERB-0054,Raktajhinti,sa-Latn-ascii,S5
+HERB-0054,Sahachara bheda,sa-Latn-ascii,S5
+HERB-0055,sahacaraḥ,sa-Latn-IAST,S2
+HERB-0055,सहचरः,sa-Deva,derived
+HERB-0055,Porcupine flower,en,S2/S5
+HERB-0055,Barleria prionitis,la-botanical,S2/S5
+HERB-0055,Dasanta,sa-Latn-ascii,S5
+HERB-0055,Jhinti,sa-Latn-ascii,S5
+HERB-0055,Katu,sa-Latn-ascii,S5
+HERB-0055,Kurantaka,sa-Latn-ascii,S5
+HERB-0055,Sahachara,sa-Latn-ascii,S5
+HERB-0055,Saireyaka bheda,sa-Latn-ascii,S5
+HERB-0056,nīlajhiṇṭī/nīlakuraṇṭaka,sa-Latn-IAST,S2
+HERB-0056,नीलझिण्टी/नीलकुरण्टक,sa-Deva,derived
+HERB-0056,dense-spiked blue nail dye,en,S2/S5
+HERB-0056,Western Ghats blue nail dye,en,S2/S5
+HERB-0056,Barleria strigosa,la-botanical,S2/S5
+HERB-0057,hijjala/nicula,sa-Latn-IAST,S2
+HERB-0057,हिज्जल/निचुल,sa-Deva,derived
+HERB-0057,हिज्जल,sa-Deva,S6
+HERB-0057,Indian oak,en,S2/S5
+HERB-0057,Small Indian oak,en,S2/S5
+HERB-0057,Barringtonia actuangula,la-botanical,S2/S5
+HERB-0057,Barringtonia acutangula,la-botanical,S2/S5
+HERB-0057,Ambuja,sa-Latn-ascii,S5
+HERB-0057,Hijjala,sa-Latn-ascii,S5
+HERB-0057,Nichula,sa-Latn-ascii,S5
+HERB-0057,Vidula,sa-Latn-ascii,S5
+HERB-0058,पोई,hi-Deva,S6
+HERB-0058,पोतकी,sa-Deva,S6
+HERB-0058,Malabar Spinach,en,S2/S5
+HERB-0058,Basella alba,la-botanical,S2/S5
+HERB-0058,Potaki,sa-Latn-ascii,S5
+HERB-0058,Upodika,sa-Latn-ascii,S5
+HERB-0058,Valisambhavah,sa-Latn-ascii,S5
+HERB-0059,kovidāra,sa-Latn-IAST,S2
+HERB-0059,कोविदार,sa-Deva,derived
+HERB-0059,कचनार,hi-Deva,S6
+HERB-0059,मन्दारः,sa-Deva,S6
+HERB-0059,Orchid Tree,en,S2/S5
+HERB-0059,Bauhinia variegata,la-botanical,S2/S5
+HERB-0059,Bauhina variegata,la-botanical,S2/S5
+HERB-0059,Chamarika,sa-Latn-ascii,S5
+HERB-0059,Gandari,sa-Latn-ascii,S5
+HERB-0059,Karbudara,sa-Latn-ascii,S5
+HERB-0059,Kovidara,sa-Latn-ascii,S5
+HERB-0059,Kudalaka,sa-Latn-ascii,S5
+HERB-0059,Yugapatra,sa-Latn-ascii,S5
+HERB-0059,Yugmapatra,sa-Latn-ascii,S5
+HERB-0060,kūṣmāṇḍa,sa-Latn-IAST,S2
+HERB-0060,कूष्माण्ड,sa-Deva,derived
+HERB-0060,सफेद कद्दू,hi-Deva,S6
+HERB-0060,भतुआ,hi-Deva,S6
+HERB-0060,राख लौकी,hi-Deva,S6
+HERB-0060,कूष्माण्डम्,sa-Deva,S6
+HERB-0060,Ash gourd,en,S2/S5
+HERB-0060,White gourd melon,en,S2/S5
+HERB-0060,Benincasa hispida,la-botanical,S2/S5
+HERB-0060,Brihatphala,sa-Latn-ascii,S5
+HERB-0060,Pusphaphala,sa-Latn-ascii,S5
+HERB-0060,Vritkarka,sa-Latn-ascii,S5
+HERB-0061,dāruharidrā,sa-Latn-IAST,S2
+HERB-0061,दारुहरिद्रा,sa-Deva,derived
+HERB-0061,बेर्बेरीस अरिस्टटा,hi-Deva,S6
+HERB-0061,बेर्बेरीस अरिस्टटा,sa-Deva,S6
+HERB-0061,Indian barberry,en,S2/S5
+HERB-0061,tree turmeric,en,S2/S5
+HERB-0061,Berberis aristata,la-botanical,S2/S5
+HERB-0061,Berbaris aristata,la-botanical,S2/S5
+HERB-0062,pāṣāṇabheda,sa-Latn-IAST,S2
+HERB-0062,पाषाणभेद,sa-Deva,derived
+HERB-0062,winter begonia,en,S2/S5
+HERB-0062,Bergenia ligulata,la-botanical,S2/S5
+HERB-0062,Ashmabheda,sa-Latn-ascii,S5
+HERB-0062,Prashthabheda,sa-Latn-ascii,S5
+HERB-0062,Silabheda,sa-Latn-ascii,S5
+HERB-0062,Upalbheda,sa-Latn-ascii,S5
+HERB-0063,भोजपत्र,hi-Deva,S6
+HERB-0063,Himalayan Birch,en,S2/S5
+HERB-0063,Betula utilis,la-botanical,S2/S5
+HERB-0063,Bhurjapatra,sa-Latn-ascii,S5
+HERB-0063,Bhutaghna,sa-Latn-ascii,S5
+HERB-0063,Chitratvak,sa-Latn-ascii,S5
+HERB-0063,Valkadruma,sa-Latn-ascii,S5
+HERB-0064,pattaṅga,sa-Latn-IAST,S2
+HERB-0064,पत्तङ्ग,sa-Deva,derived
+HERB-0064,पत्रंग,hi-Deva,S6
+HERB-0064,Sappan wood,en,S2/S5
+HERB-0064,Brazil wood,en,S2/S5
+HERB-0064,Caesalpinia sappan,la-botanical,S2/S5
+HERB-0064,Biancaea sappan,la-botanical,S2/S5
+HERB-0064,Kuchandana,sa-Latn-ascii,S5
+HERB-0064,Patanga,sa-Latn-ascii,S5
+HERB-0064,Patranga,sa-Latn-ascii,S5
+HERB-0064,Ranjana,sa-Latn-ascii,S5
+HERB-0065,Utangan Seeds,en,S2/S5
+HERB-0065,Blepharis edulis,la-botanical,S2/S5
+HERB-0065,Chatushpatri,sa-Latn-ascii,S5
+HERB-0065,Shikhari,sa-Latn-ascii,S5
+HERB-0065,Utingan,sa-Latn-ascii,S5
+HERB-0066,vṛścāra,sa-Latn-IAST,S2
+HERB-0066,वृश्चार,sa-Deva,derived
+HERB-0066,Boerhaavia diffusa,en,S2/S5
+HERB-0066,Boerhaavia diffusa,la-botanical,S2/S5
+HERB-0067,punarnava,sa-Latn-IAST,S2
+HERB-0067,पुनर्नव,sa-Deva,derived
+HERB-0067,पुनर्नवा,hi-Deva,S6
+HERB-0067,पुनर्नवा,sa-Deva,S6
+HERB-0067,Spreading Hogweed,en,S2/S5
+HERB-0067,Boerhavia diffusa,la-botanical,S2/S5
+HERB-0067,Kathillaka,sa-Latn-ascii,S5
+HERB-0067,Raktapushpa,sa-Latn-ascii,S5
+HERB-0067,Shothaghni,sa-Latn-ascii,S5
+HERB-0067,Varsabhu,sa-Latn-ascii,S5
+HERB-0068,rakta punarnavā,sa-Latn-IAST,S2
+HERB-0068,रक्त पुनर्नवा,sa-Deva,derived
+HERB-0068,Hogweed,en,S2/S5
+HERB-0068,Pigweed,en,S2/S5
+HERB-0068,Boerhavia repens,la-botanical,S2/S5
+HERB-0068,Boerhaavia diffusa,la-botanical,S2/S5
+HERB-0069,śveta punarnavā,sa-Latn-IAST,S2
+HERB-0069,श्वेत पुनर्नवा,sa-Deva,derived
+HERB-0069,horse purslene/blunt leaved hogweed,en,S2/S5
+HERB-0069,Boerhavia verticillata,la-botanical,S2/S5
+HERB-0070,śālmalī,sa-Latn-IAST,S2
+HERB-0070,शाल्मली,sa-Deva,derived
+HERB-0070,Red silk cotton tree,en,S2/S5
+HERB-0070,Bombax ceiba,la-botanical,S2/S5
+HERB-0070,Salmalia malabarica,la-botanical,S2/S5
+HERB-0070,Kantakadruma,sa-Latn-ascii,S5
+HERB-0070,Pichhila,sa-Latn-ascii,S5
+HERB-0070,Raktapushpa,sa-Latn-ascii,S5
+HERB-0070,Shalmali Niryasa,sa-Latn-ascii,S5
+HERB-0071,tāla,sa-Latn-IAST,S2
+HERB-0071,ताल,sa-Deva,derived
+HERB-0071,ग्रन्थताल,hi-Deva,S6
+HERB-0071,Palmyra palm,en,S2/S5
+HERB-0071,Borassus flabellifer,la-botanical,S2/S5
+HERB-0071,Asadruh,sa-Latn-ascii,S5
+HERB-0071,Dhirghaskandha,sa-Latn-ascii,S5
+HERB-0071,Lekhapatra,sa-Latn-ascii,S5
+HERB-0071,Trinaraja,sa-Latn-ascii,S5
+HERB-0072,śallakī,sa-Latn-IAST,S2
+HERB-0072,शल्लकी,sa-Deva,derived
+HERB-0072,Indian Olibanum tree,en,S2/S5
+HERB-0072,Boswellia serrata,la-botanical,S2/S5
+HERB-0072,Gajabhakshya,sa-Latn-ascii,S5
+HERB-0072,Kunduru,sa-Latn-ascii,S5
+HERB-0072,Surabhi,sa-Latn-ascii,S5
+HERB-0072,Suvaha,sa-Latn-ascii,S5
+HERB-0073,राई,hi-Deva,S6
+HERB-0073,Indian Mustard,en,S2/S5
+HERB-0073,Brassica juncea,la-botanical,S2/S5
+HERB-0073,Asuri,sa-Latn-ascii,S5
+HERB-0073,Katu,sa-Latn-ascii,S5
+HERB-0073,Rajakshavaka,sa-Latn-ascii,S5
+HERB-0073,Tikshnagandha,sa-Latn-ascii,S5
+HERB-0074,sarṣapa,sa-Latn-IAST,S2
+HERB-0074,सर्षप,sa-Deva,derived
+HERB-0074,राजसर्षपः,sa-Deva,S6
+HERB-0074,Brassica nigra,en,S2/S5
+HERB-0074,Brassica nigra,la-botanical,S2/S5
+HERB-0075,sarṣapaḥ,sa-Latn-IAST,S2
+HERB-0075,सर्षपः,sa-Deva,derived
+HERB-0075,Napa cabbage/bomdong/bok choy,en,S2/S5
+HERB-0075,cime di rapa,en,S2/S5
+HERB-0075,Brassica rapa,la-botanical,S2/S5
+HERB-0075,Brassica campestris,la-botanical,S2/S5
+HERB-0076,kadamba,sa-Latn-IAST,S2
+HERB-0076,कदम्ब,sa-Deva,derived
+HERB-0076,burflower tree,en,S2/S5
+HERB-0076,iaran,en,S2/S5
+HERB-0076,Breonia chinensis,la-botanical,S2/S5
+HERB-0076,Anthocephalus indicus,la-botanical,S2/S5
+HERB-0077,Large-leafed Mangrove,en,S2/S5
+HERB-0077,Bruguiera gymnorhiza,la-botanical,S2/S5
+HERB-0077,Kankra,sa-Latn-ascii,S5
+HERB-0077,Mangrove bheda,sa-Latn-ascii,S5
+HERB-0078,elavāluka,sa-Latn-IAST,S2
+HERB-0078,एलवालुक,sa-Deva,derived
+HERB-0078,Brunus cerasus,la-botanical,S2/S5
+HERB-0079,priyāla,sa-Latn-IAST,S2
+HERB-0079,प्रियाल,sa-Deva,derived
+HERB-0079,charoli,en,S2/S5
+HERB-0079,chironji,en,S2/S5
+HERB-0079,Buchanania lanzan,la-botanical,S2/S5
+HERB-0079,Chara,sa-Latn-ascii,S5
+HERB-0079,Chironji,sa-Latn-ascii,S5
+HERB-0079,Dhanvachhada,sa-Latn-ascii,S5
+HERB-0079,Tapashapriya,sa-Latn-ascii,S5
+HERB-0080,palāśa,sa-Latn-IAST,S2
+HERB-0080,पलाश,sa-Deva,derived
+HERB-0080,Flame of the forest,en,S2/S5
+HERB-0080,Bastard teak,en,S2/S5
+HERB-0080,Butea monosperma,la-botanical,S2/S5
+HERB-0080,Brahmavriksha,sa-Latn-ascii,S5
+HERB-0080,Kimshuka,sa-Latn-ascii,S5
+HERB-0080,Raktapushpaka,sa-Latn-ascii,S5
+HERB-0080,Trivrita,sa-Latn-ascii,S5
+HERB-0081,Pigeon Pea,en,S2/S5
+HERB-0081,Cajanus cajan,la-botanical,S2/S5
+HERB-0081,Gharbhabhushana,sa-Latn-ascii,S5
+HERB-0081,Kaki,sa-Latn-ascii,S5
+HERB-0081,Shanapushpika,sa-Latn-ascii,S5
+HERB-0081,Tuvari,sa-Latn-ascii,S5
+HERB-0082,vetra,sa-Latn-IAST,S2
+HERB-0082,वेत्र,sa-Deva,derived
+HERB-0082,Comman rattan,en,S2/S5
+HERB-0082,Rattan,en,S2/S5
+HERB-0082,Calamus rotang,la-botanical,S2/S5
+HERB-0083,priyaṅgu,sa-Latn-IAST,S2
+HERB-0083,प्रियङ्गु,sa-Deva,derived
+HERB-0083,beautyberry,en,S2/S5
+HERB-0083,Callicarpa macrophylla,la-botanical,S2/S5
+HERB-0083,Lata,sa-Latn-ascii,S5
+HERB-0083,Phalini,sa-Latn-ascii,S5
+HERB-0083,Shyama,sa-Latn-ascii,S5
+HERB-0083,Vanita,sa-Latn-ascii,S5
+HERB-0084,tuṅga,sa-Latn-IAST,S2
+HERB-0084,तुङ्ग,sa-Deva,derived
+HERB-0084,Calophyllus inophyllum,la-botanical,S2/S5
+HERB-0085,arka,sa-Latn-IAST,S2
+HERB-0085,अर्क,sa-Deva,derived
+HERB-0085,मदार,hi-Deva,S6
+HERB-0085,अर्कसस्यम्,sa-Deva,S6
+HERB-0085,Giant Calotrope,en,S2/S5
+HERB-0085,Calotropis gigantea,la-botanical,S2/S5
+HERB-0085,Calotropis gigantean,la-botanical,S2/S5
+HERB-0085,Alarka,sa-Latn-ascii,S5
+HERB-0085,Mandara,sa-Latn-ascii,S5
+HERB-0085,Surya,sa-Latn-ascii,S5
+HERB-0085,Vikirana,sa-Latn-ascii,S5
+HERB-0086,arka,sa-Latn-IAST,S2
+HERB-0086,अर्क,sa-Deva,derived
+HERB-0086,apple of Sodom,en,S2/S5
+HERB-0086,Sodom apple,en,S2/S5
+HERB-0086,kapok tree,en,S2/S5
+HERB-0086,king's crown,en,S2/S5
+HERB-0086,rubber bush,en,S2/S5
+HERB-0086,Calotropis procera,la-botanical,S2/S5
+HERB-0086,Alarka,sa-Latn-ascii,S5
+HERB-0086,Ganarupa,sa-Latn-ascii,S5
+HERB-0086,Pratpasa,sa-Latn-ascii,S5
+HERB-0086,Shveta-arka,sa-Latn-ascii,S5
+HERB-0087,cāya,sa-Latn-IAST,S2
+HERB-0087,चाय,sa-Deva,derived
+HERB-0087,कामेल्या सीनेन्सीस्,hi-Deva,S6
+HERB-0087,कैमेलिया साइनेन्सिस,hi-Deva,S6
+HERB-0087,कैमेलिया साइनेसिस,hi-Deva,S6
+HERB-0087,चायसस्यम्,sa-Deva,S6
+HERB-0087,Tea plant,en,S2/S5
+HERB-0087,Camellia sinensis,la-botanical,S2/S5
+HERB-0088,bhaṅgā/vijayā,sa-Latn-IAST,S2
+HERB-0088,भङ्गा/विजया,sa-Deva,derived
+HERB-0088,गाँजे का पौधा,hi-Deva,S6
+HERB-0088,True hemp/Soft hemp/Indian hemp,en,S2/S5
+HERB-0088,Cannabis sativa,la-botanical,S2/S5
+HERB-0088,Ganja,sa-Latn-ascii,S5
+HERB-0088,Madini,sa-Latn-ascii,S5
+HERB-0088,Matulani,sa-Latn-ascii,S5
+HERB-0088,Vijaya,sa-Latn-ascii,S5
+HERB-0089,Canscora,en,S2/S5
+HERB-0089,Canscora decussata,la-botanical,S2/S5
+HERB-0089,Dankuni,sa-Latn-ascii,S5
+HERB-0089,Shankhapushpi bheda,sa-Latn-ascii,S5
+HERB-0089,Yashasvini,sa-Latn-ascii,S5
+HERB-0090,Caperberry,en,S2/S5
+HERB-0090,Capparis decidua,la-botanical,S2/S5
+HERB-0090,Karira,sa-Latn-ascii,S5
+HERB-0090,Kranthaka,sa-Latn-ascii,S5
+HERB-0090,Marubhuruha,sa-Latn-ascii,S5
+HERB-0091,hiṃsrā,sa-Latn-IAST,S2
+HERB-0091,हिंस्रा,sa-Deva,derived
+HERB-0091,Caper Bush,en,S2/S5
+HERB-0091,Capparis sepiaria,la-botanical,S2/S5
+HERB-0091,Himsra,sa-Latn-ascii,S5
+HERB-0091,Kanthari,sa-Latn-ascii,S5
+HERB-0091,Vyaghranakha,sa-Latn-ascii,S5
+HERB-0092,hiṃsrā,sa-Latn-IAST,S2
+HERB-0092,हिंस्रा,sa-Deva,derived
+HERB-0092,caper bush,en,S2/S5
+HERB-0092,Flinders rose,en,S2/S5
+HERB-0092,Capparis spinosa,la-botanical,S2/S5
+HERB-0093,Ceylon Caper,en,S2/S5
+HERB-0093,Capparis zeylanica,la-botanical,S2/S5
+HERB-0093,Govindali,sa-Latn-ascii,S5
+HERB-0093,Kanthari,sa-Latn-ascii,S5
+HERB-0093,Vyaghrachuda,sa-Latn-ascii,S5
+HERB-0094,karamarda,sa-Latn-IAST,S2
+HERB-0094,करमर्द,sa-Deva,derived
+HERB-0094,करोंदा,hi-Deva,S6
+HERB-0094,करौंदा,hi-Deva,S6
+HERB-0094,Carissa carandas,en,S2/S5
+HERB-0094,Carissa carandes,la-botanical,S2/S5
+HERB-0095,kusumbha,sa-Latn-IAST,S2
+HERB-0095,कुसुम्भ,sa-Deva,derived
+HERB-0095,कुसुम,hi-Deva,S6
+HERB-0095,Safflower,en,S2/S5
+HERB-0095,Bastard saffron,en,S2/S5
+HERB-0095,Carthamus tinctorius,la-botanical,S2/S5
+HERB-0095,Koustumbha,sa-Latn-ascii,S5
+HERB-0095,Mharajana,sa-Latn-ascii,S5
+HERB-0095,Vahni-shikha,sa-Latn-ascii,S5
+HERB-0096,kṛṣṇa jīraka,sa-Latn-IAST,S2
+HERB-0096,कृष्ण जीरक,sa-Deva,derived
+HERB-0096,शाहजीरा,hi-Deva,S6
+HERB-0096,meridian fennel,en,S2/S5
+HERB-0096,persian cumin,en,S2/S5
+HERB-0096,Carum carvi,la-botanical,S2/S5
+HERB-0096,Karavi,sa-Latn-ascii,S5
+HERB-0096,Krishnajiraka,sa-Latn-ascii,S5
+HERB-0096,Sugandha,sa-Latn-ascii,S5
+HERB-0097,āragvadha,sa-Latn-IAST,S2
+HERB-0097,आरग्वध,sa-Deva,derived
+HERB-0097,अमलतास,hi-Deva,S6
+HERB-0097,अरग्वदवृक्षः,sa-Deva,S6
+HERB-0097,Indian laburnum,en,S2/S5
+HERB-0097,purging fistula,en,S2/S5
+HERB-0097,Cassia fistula,la-botanical,S2/S5
+HERB-0097,Kritamala,sa-Latn-ascii,S5
+HERB-0097,Rajavriksha,sa-Latn-ascii,S5
+HERB-0097,Suvarnaka,sa-Latn-ascii,S5
+HERB-0097,Vyadhighata,sa-Latn-ascii,S5
+HERB-0098,सदाबहार,hi-Deva,S6
+HERB-0098,Madagascar Periwinkle,en,S2/S5
+HERB-0098,Catharanthus roseus,la-botanical,S2/S5
+HERB-0098,Nityakalyani,sa-Latn-ascii,S5
+HERB-0098,Sadapushpi,sa-Latn-ascii,S5
+HERB-0099,madana/madanaphala,sa-Latn-IAST,S2
+HERB-0099,मदन/मदनफल,sa-Deva,derived
+HERB-0099,Emetic nut tree,en,S2/S5
+HERB-0099,Common emetic nut,en,S2/S5
+HERB-0099,mountain pomegranate,en,S2/S5
+HERB-0099,Catunaregam spinosa,la-botanical,S2/S5
+HERB-0099,Xeromphis spinosa,la-botanical,S2/S5
+HERB-0099,Randia dumetorum,la-botanical,S2/S5
+HERB-0099,Chardana,sa-Latn-ascii,S5
+HERB-0099,Pilu,sa-Latn-ascii,S5
+HERB-0099,Pindi,sa-Latn-ascii,S5
+HERB-0099,Ratha,sa-Latn-ascii,S5
+HERB-0100,devadāru,sa-Latn-IAST,S2
+HERB-0100,देवदारु,sa-Deva,derived
+HERB-0100,देवदार,hi-Deva,S6
+HERB-0100,सीडर,hi-Deva,S6
+HERB-0100,Deodar,en,S2/S5
+HERB-0100,Himalayan cedar,en,S2/S5
+HERB-0100,Cedrus deodara,la-botanical,S2/S5
+HERB-0100,Amaradaru,sa-Latn-ascii,S5
+HERB-0100,Darubhadra,sa-Latn-ascii,S5
+HERB-0100,Devakashtha,sa-Latn-ascii,S5
+HERB-0100,Suradaru,sa-Latn-ascii,S5
+HERB-0101,jyotiṣmatī,sa-Latn-IAST,S2
+HERB-0101,ज्योतिष्मती,sa-Deva,derived
+HERB-0101,सेलास्ट्रस पैनिकुलटस,hi-Deva,S6
+HERB-0101,Climbing staff plant,en,S2/S5
+HERB-0101,Celastrus paniculatus,la-botanical,S2/S5
+HERB-0101,Kakandaki,sa-Latn-ascii,S5
+HERB-0101,Kanguni,sa-Latn-ascii,S5
+HERB-0101,Katabhi,sa-Latn-ascii,S5
+HERB-0101,Paravatapadi,sa-Latn-ascii,S5
+HERB-0102,śitivāraka,sa-Latn-IAST,S2
+HERB-0102,शितिवारक,sa-Deva,derived
+HERB-0102,श्रीआई,hi-Deva,S6
+HERB-0102,वितुन्नः,sa-Deva,S6
+HERB-0102,plumed cockscomb/the silver cock's comb,en,S2/S5
+HERB-0102,Celosia argentea,la-botanical,S2/S5
+HERB-0102,Chakramarda bheda,sa-Latn-ascii,S5
+HERB-0102,Sitivara,sa-Latn-ascii,S5
+HERB-0102,Vitunna,sa-Latn-ascii,S5
+HERB-0103,maṇḍūkaparṇī,sa-Latn-IAST,S2
+HERB-0103,मण्डूकपर्णी,sa-Deva,derived
+HERB-0103,मण्डूकपर्णी,hi-Deva,S6
+HERB-0103,Indian pennywort,en,S2/S5
+HERB-0103,Centella asiatica,la-botanical,S2/S5
+HERB-0103,Bheki,sa-Latn-ascii,S5
+HERB-0103,Brahmi,sa-Latn-ascii,S5
+HERB-0103,Divya,sa-Latn-ascii,S5
+HERB-0103,Saraswati,sa-Latn-ascii,S5
+HERB-0104,kṣavaka,sa-Latn-IAST,S2
+HERB-0104,क्षवक,sa-Deva,derived
+HERB-0104,Sneezewort,en,S2/S5
+HERB-0104,Centipeda minima,la-botanical,S2/S5
+HERB-0104,Chhikkani,sa-Latn-ascii,S5
+HERB-0104,Ghranaduhkha,sa-Latn-ascii,S5
+HERB-0104,Tikhshnakshava,sa-Latn-ascii,S5
+HERB-0105,Jasmeelang,en,S2/S5
+HERB-0105,Cassia absus,la-botanical,S2/S5
+HERB-0105,Chakshushya,sa-Latn-ascii,S5
+HERB-0105,Drigja,sa-Latn-ascii,S5
+HERB-0105,Kulantha,sa-Latn-ascii,S5
+HERB-0106,सफ़ेद मूसली,hi-Deva,S6
+HERB-0106,White Musli,en,S2/S5
+HERB-0106,Chlorophytum borivilianum,la-botanical,S2/S5
+HERB-0106,Musli,sa-Latn-ascii,S5
+HERB-0106,Suvaha,sa-Latn-ascii,S5
+HERB-0106,Vrishya,sa-Latn-ascii,S5
+HERB-0107,musalī,sa-Latn-IAST,S2
+HERB-0107,मुसली,sa-Deva,derived
+HERB-0107,edible Chlorophytum,en,S2/S5
+HERB-0107,Chlorophytum tuberosum,la-botanical,S2/S5
+HERB-0108,sevantī /guladāudī,sa-Latn-IAST,S2
+HERB-0108,सेवन्ती /गुलदाउदी,sa-Deva,derived
+HERB-0108,Indian chrysanthemum,en,S2/S5
+HERB-0108,Chrysanthemum indicum,la-botanical,S2/S5
+HERB-0109,uśīra,sa-Latn-IAST,S2
+HERB-0109,उशीर,sa-Deva,derived
+HERB-0109,खसखस,hi-Deva,S6
+HERB-0109,उशीरसस्यम्,sa-Deva,S6
+HERB-0109,Vetiver,en,S2/S5
+HERB-0109,Chrysopogon zizanioides,la-botanical,S2/S5
+HERB-0109,Abhaya,sa-Latn-ascii,S5
+HERB-0109,Reshira,sa-Latn-ascii,S5
+HERB-0109,Sugandhimoolaka,sa-Latn-ascii,S5
+HERB-0109,Veerana,sa-Latn-ascii,S5
+HERB-0110,चना,hi-Deva,S6
+HERB-0110,छोला,hi-Deva,S6
+HERB-0110,छोले,hi-Deva,S6
+HERB-0110,काले चने,hi-Deva,S6
+HERB-0110,चने,hi-Deva,S6
+HERB-0110,चणकः,sa-Deva,S6
+HERB-0110,Bengal Gram,en,S2/S5
+HERB-0110,Cicer arietinum,la-botanical,S2/S5
+HERB-0110,Balabheshaja,sa-Latn-ascii,S5
+HERB-0110,Harimantha,sa-Latn-ascii,S5
+HERB-0110,Sakhalu,sa-Latn-ascii,S5
+HERB-0110,Vajimantha,sa-Latn-ascii,S5
+HERB-0111,kāsanī,sa-Latn-IAST,S2
+HERB-0111,कासनी,sa-Deva,derived
+HERB-0111,कासनी,hi-Deva,S6
+HERB-0111,Chicory,en,S2/S5
+HERB-0111,Endive,en,S2/S5
+HERB-0111,Cichorium intybus,la-botanical,S2/S5
+HERB-0111,Hinduba,sa-Latn-ascii,S5
+HERB-0111,Kasani,sa-Latn-ascii,S5
+HERB-0112,karpūra,sa-Latn-IAST,S2
+HERB-0112,कर्पूर,sa-Deva,derived
+HERB-0112,कपूर,hi-Deva,S6
+HERB-0112,Camphor tree,en,S2/S5
+HERB-0112,Cinnamomum camphora,la-botanical,S2/S5
+HERB-0112,Chandra,sa-Latn-ascii,S5
+HERB-0112,Ghanasara,sa-Latn-ascii,S5
+HERB-0112,Hima,sa-Latn-ascii,S5
+HERB-0112,Sita,sa-Latn-ascii,S5
+HERB-0113,tamālapatra,sa-Latn-IAST,S2
+HERB-0113,तमालपत्र,sa-Deva,derived
+HERB-0113,Indian cassia lingnea,en,S2/S5
+HERB-0113,Cassia cinnamon,en,S2/S5
+HERB-0113,Cinnamomum tamala,la-botanical,S2/S5
+HERB-0113,Dala,sa-Latn-ascii,S5
+HERB-0113,Guchhapatra,sa-Latn-ascii,S5
+HERB-0113,Patra,sa-Latn-ascii,S5
+HERB-0113,Tejpatra,sa-Latn-ascii,S5
+HERB-0114,tvak,sa-Latn-IAST,S2
+HERB-0114,त्वक्,sa-Deva,derived
+HERB-0114,दालचीनी,hi-Deva,S6
+HERB-0114,Cinnamon,en,S2/S5
+HERB-0114,Cinnamomum verum,la-botanical,S2/S5
+HERB-0114,Cinnamomum zeylanicum,la-botanical,S2/S5
+HERB-0114,Darushila,sa-Latn-ascii,S5
+HERB-0114,Mukhashodhana,sa-Latn-ascii,S5
+HERB-0114,Saimhala,sa-Latn-ascii,S5
+HERB-0114,Varanga,sa-Latn-ascii,S5
+HERB-0115,pāṭhā,sa-Latn-IAST,S2
+HERB-0115,पाठा,sa-Deva,derived
+HERB-0115,Velvet leaf,en,S2/S5
+HERB-0115,Cissampelos pareira,la-botanical,S2/S5
+HERB-0115,Cissampelos pareria,la-botanical,S2/S5
+HERB-0115,Ambashtha,sa-Latn-ascii,S5
+HERB-0115,Laghu Patha,sa-Latn-ascii,S5
+HERB-0115,Prachina,sa-Latn-ascii,S5
+HERB-0115,Vriddhakarna,sa-Latn-ascii,S5
+HERB-0116,हड़जोड़,hi-Deva,S6
+HERB-0116,Veldt Grape,en,S2/S5
+HERB-0116,Cissus quadrangularis,la-botanical,S2/S5
+HERB-0116,Asthisamharaka,sa-Latn-ascii,S5
+HERB-0116,Hadjod,sa-Latn-ascii,S5
+HERB-0116,Vajravalli,sa-Latn-ascii,S5
+HERB-0117,indravāruṇī,sa-Latn-IAST,S2
+HERB-0117,इन्द्रवारुणी,sa-Deva,derived
+HERB-0117,इंद्रायन,hi-Deva,S6
+HERB-0117,Colocynth,en,S2/S5
+HERB-0117,Bitter apple,en,S2/S5
+HERB-0117,Citrullus colocynthis,la-botanical,S2/S5
+HERB-0117,Chitra,sa-Latn-ascii,S5
+HERB-0117,Gavakshi,sa-Latn-ascii,S5
+HERB-0117,Mahendravaruni,sa-Latn-ascii,S5
+HERB-0117,Vishala,sa-Latn-ascii,S5
+HERB-0118,nimbūka,sa-Latn-IAST,S2
+HERB-0118,निम्बूक,sa-Deva,derived
+HERB-0118,Lemon,en,S2/S5
+HERB-0118,Citrus limon,la-botanical,S2/S5
+HERB-0118,Jambira bheda,sa-Latn-ascii,S5
+HERB-0118,Nimbuka,sa-Latn-ascii,S5
+HERB-0118,Vatari,sa-Latn-ascii,S5
+HERB-0119,चकोतरा,hi-Deva,S6
+HERB-0119,चकोतरे,hi-Deva,S6
+HERB-0119,Pomelo,en,S2/S5
+HERB-0119,Citrus maxima,la-botanical,S2/S5
+HERB-0119,Citrus decumana,la-botanical,S2/S5
+HERB-0119,Mahanimbu,sa-Latn-ascii,S5
+HERB-0119,Sadapala,sa-Latn-ascii,S5
+HERB-0119,Sukhanda,sa-Latn-ascii,S5
+HERB-0120,bījapūra,sa-Latn-IAST,S2
+HERB-0120,बीजपूर,sa-Deva,derived
+HERB-0120,नागरङ्गफलम्,sa-Deva,S6
+HERB-0120,Citron,en,S2/S5
+HERB-0120,Citrus medica,la-botanical,S2/S5
+HERB-0120,Beejapura,sa-Latn-ascii,S5
+HERB-0120,Mahaphala,sa-Latn-ascii,S5
+HERB-0120,Matalunga,sa-Latn-ascii,S5
+HERB-0120,Matulunga,sa-Latn-ascii,S5
+HERB-0120,Matulungaka,sa-Latn-ascii,S5
+HERB-0120,Phalapura,sa-Latn-ascii,S5
+HERB-0120,Ruchaka,sa-Latn-ascii,S5
+HERB-0121,mūrvā,sa-Latn-IAST,S2
+HERB-0121,मूर्वा,sa-Deva,derived
+HERB-0121,Clematis triloba,la-botanical,S2/S5
+HERB-0121,Clemalis triloba,la-botanical,S2/S5
+HERB-0122,agnimantha,sa-Latn-IAST,S2
+HERB-0122,अग्निमन्थ,sa-Deva,derived
+HERB-0122,Arni,en,S2/S5
+HERB-0122,dusky fire brand bark,en,S2/S5
+HERB-0122,Clerodendrum phlomidis,la-botanical,S2/S5
+HERB-0122,Clerodendrum multiflorum,la-botanical,S2/S5
+HERB-0123,bhārṅgī,sa-Latn-IAST,S2
+HERB-0123,भार्ङ्गी,sa-Deva,derived
+HERB-0123,Turk's turban moon,en,S2/S5
+HERB-0123,Blue glory,en,S2/S5
+HERB-0123,Beetle killer,en,S2/S5
+HERB-0123,Clerodendrum serratum,la-botanical,S2/S5
+HERB-0124,śveta,sa-Latn-IAST,S2
+HERB-0124,श्वेत,sa-Deva,derived
+HERB-0124,अपराजिता,hi-Deva,S6
+HERB-0124,अपराजिता,sa-Deva,S6
+HERB-0124,Butterfly Pea,en,S2/S5
+HERB-0124,Clitoria ternatea,la-botanical,S2/S5
+HERB-0124,Aparajita bheda,sa-Latn-ascii,S5
+HERB-0124,Ashwakhura,sa-Latn-ascii,S5
+HERB-0124,Girikarika,sa-Latn-ascii,S5
+HERB-0124,Girikarnika,sa-Latn-ascii,S5
+HERB-0124,Gokarani,sa-Latn-ascii,S5
+HERB-0124,Vishnukranta,sa-Latn-ascii,S5
+HERB-0124,Vishnukranta bheda,sa-Latn-ascii,S5
+HERB-0125,bimbī,sa-Latn-IAST,S2
+HERB-0125,बिम्बी,sa-Deva,derived
+HERB-0125,कुंदुरी,hi-Deva,S6
+HERB-0125,बिम्बफलम्,sa-Deva,S6
+HERB-0125,Ivy Gourd,en,S2/S5
+HERB-0125,Coccinia grandis,la-botanical,S2/S5
+HERB-0125,Coccinia indica,la-botanical,S2/S5
+HERB-0125,Bimbika,sa-Latn-ascii,S5
+HERB-0125,Oshthi,sa-Latn-ascii,S5
+HERB-0125,Raktaphala,sa-Latn-ascii,S5
+HERB-0125,Tundikeri,sa-Latn-ascii,S5
+HERB-0126,nārikela,sa-Latn-IAST,S2
+HERB-0126,नारिकेल,sa-Deva,derived
+HERB-0126,नारियल,hi-Deva,S6
+HERB-0126,नारिकेलम्,sa-Deva,S6
+HERB-0126,coconut tree,en,S2/S5
+HERB-0126,Cocos nucifera,la-botanical,S2/S5
+HERB-0126,Drudhapada,sa-Latn-ascii,S5
+HERB-0126,Langa,sa-Latn-ascii,S5
+HERB-0126,Skandaphala,sa-Latn-ascii,S5
+HERB-0126,Tungapala,sa-Latn-ascii,S5
+HERB-0127,Job's Tears,en,S2/S5
+HERB-0127,Coix lacryma-jobi,la-botanical,S2/S5
+HERB-0127,Gargayan,sa-Latn-ascii,S5
+HERB-0127,Gavedhu,sa-Latn-ascii,S5
+HERB-0127,Sankhabija,sa-Latn-ascii,S5
+HERB-0128,surañjāna,sa-Latn-IAST,S2
+HERB-0128,सुरञ्जान,sa-Deva,derived
+HERB-0128,autumn crocus/meadow saffron,en,S2/S5
+HERB-0128,Colchicum luteum,la-botanical,S2/S5
+HERB-0128,Hiranyatutha bheda,sa-Latn-ascii,S5
+HERB-0128,Suranjana,sa-Latn-ascii,S5
+HERB-0128,Tikshna-kanda,sa-Latn-ascii,S5
+HERB-0129,Indian Borage,en,S2/S5
+HERB-0129,Coleus amboinicus,la-botanical,S2/S5
+HERB-0129,Amalapatra,sa-Latn-ascii,S5
+HERB-0129,Himachhada,sa-Latn-ascii,S5
+HERB-0129,Patharchur,sa-Latn-ascii,S5
+HERB-0130,hrīveram,sa-Latn-IAST,S2
+HERB-0130,ह्रीवेरम्,sa-Deva,derived
+HERB-0130,Black Vetiver,en,S2/S5
+HERB-0130,Plectranthus vettiveroides,la-botanical,S2/S5
+HERB-0130,Coleus vettiveroides,la-botanical,S2/S5
+HERB-0130,Ambu,sa-Latn-ascii,S5
+HERB-0130,Keshya,sa-Latn-ascii,S5
+HERB-0130,Sugandhimula,sa-Latn-ascii,S5
+HERB-0130,Valaka,sa-Latn-ascii,S5
+HERB-0131,bola,sa-Latn-IAST,S2
+HERB-0131,बोल,sa-Deva,derived
+HERB-0131,Myrrh,en,S2/S5
+HERB-0131,Commiphora myrrha,la-botanical,S2/S5
+HERB-0132,guggulu/palaṅkaṣā,sa-Latn-IAST,S2
+HERB-0132,गुग्गुलु/पलङ्कषा,sa-Deva,derived
+HERB-0132,गुग्गुल,hi-Deva,S6
+HERB-0132,गुग्गुलुसस्यम्,sa-Deva,S6
+HERB-0132,Hill-mango,en,S2/S5
+HERB-0132,Commiphora wightii,la-botanical,S2/S5
+HERB-0132,Commiphora mukul,la-botanical,S2/S5
+HERB-0132,Devadhupa,sa-Latn-ascii,S5
+HERB-0132,Kaushika,sa-Latn-ascii,S5
+HERB-0132,Mahishaksha,sa-Latn-ascii,S5
+HERB-0132,Pur,sa-Latn-ascii,S5
+HERB-0133,śaṅkhapuṣpī,sa-Latn-IAST,S2
+HERB-0133,शङ्खपुष्पी,sa-Deva,derived
+HERB-0133,Prostrate Bindweed,en,S2/S5
+HERB-0133,Convolvulus prostratus,la-botanical,S2/S5
+HERB-0133,Convolvulus pluricaulis,la-botanical,S2/S5
+HERB-0133,Kshirapushpi,sa-Latn-ascii,S5
+HERB-0133,Mangalyakusuma,sa-Latn-ascii,S5
+HERB-0133,Medhya,sa-Latn-ascii,S5
+HERB-0134,mamīrā,sa-Latn-IAST,S2
+HERB-0134,ममीरा,sa-Deva,derived
+HERB-0134,Gold thread,en,S2/S5
+HERB-0134,coptis,en,S2/S5
+HERB-0134,Coptis teeta,la-botanical,S2/S5
+HERB-0135,śleṣmātaka,sa-Latn-IAST,S2
+HERB-0135,श्लेष्मातक,sa-Deva,derived
+HERB-0135,गुंदी,hi-Deva,S6
+HERB-0135,Cordia dichotoma,en,S2/S5
+HERB-0135,Cordia dichotoma,la-botanical,S2/S5
+HERB-0136,dhānyaka,sa-Latn-IAST,S2
+HERB-0136,धान्यक,sa-Deva,derived
+HERB-0136,धनिया,hi-Deva,S6
+HERB-0136,कुस्तुम्बरी,sa-Deva,S6
+HERB-0136,Coriander,en,S2/S5
+HERB-0136,Coriandrum sativum,la-botanical,S2/S5
+HERB-0136,Chatra,sa-Latn-ascii,S5
+HERB-0136,Kustumburu,sa-Latn-ascii,S5
+HERB-0136,Vitunnaka,sa-Latn-ascii,S5
+HERB-0137,kālīyaka,sa-Latn-IAST,S2
+HERB-0137,कालीयक,sa-Deva,derived
+HERB-0137,Tree turmeric,en,S2/S5
+HERB-0137,Flase calumba,en,S2/S5
+HERB-0137,Coscinium fenestratum,la-botanical,S2/S5
+HERB-0138,varuṇa,sa-Latn-IAST,S2
+HERB-0138,वरुण,sa-Deva,derived
+HERB-0138,Three-leaved caper,en,S2/S5
+HERB-0138,Crataeva nurvala,la-botanical,S2/S5
+HERB-0138,Crateva religiosa,la-botanical,S2/S5
+HERB-0138,Crateva nurvala,la-botanical,S2/S5
+HERB-0138,Ashmarighna,sa-Latn-ascii,S5
+HERB-0138,Kumara,sa-Latn-ascii,S5
+HERB-0138,Setu,sa-Latn-ascii,S5
+HERB-0138,Tiktashaka,sa-Latn-ascii,S5
+HERB-0139,ṛṣabhaka,sa-Latn-IAST,S2
+HERB-0139,ऋषभक,sa-Deva,derived
+HERB-0139,Adder's mouth,en,S2/S5
+HERB-0139,Malaxis acuminata,la-botanical,S2/S5
+HERB-0139,Microstylis wallichii,la-botanical,S2/S5
+HERB-0139,Chiranjivi,sa-Latn-ascii,S5
+HERB-0139,Dirghayu,sa-Latn-ascii,S5
+HERB-0139,Kurshra,sa-Latn-ascii,S5
+HERB-0139,Pranshuni,sa-Latn-ascii,S5
+HERB-0140,kuṅkuma,sa-Latn-IAST,S2
+HERB-0140,कुङ्कुम,sa-Deva,derived
+HERB-0140,Saffron,en,S2/S5
+HERB-0140,Crocus sativus,la-botanical,S2/S5
+HERB-0140,Crocus sativa,la-botanical,S2/S5
+HERB-0140,Kashmiraja,sa-Latn-ascii,S5
+HERB-0140,Keshara,sa-Latn-ascii,S5
+HERB-0140,Rakta,sa-Latn-ascii,S5
+HERB-0140,Vahlika,sa-Latn-ascii,S5
+HERB-0141,सनई,hi-Deva,S6
+HERB-0141,Sunn Hemp,en,S2/S5
+HERB-0141,Crotalaria juncea,la-botanical,S2/S5
+HERB-0141,Katutikta,sa-Latn-ascii,S5
+HERB-0141,Malyapushpa,sa-Latn-ascii,S5
+HERB-0141,Tvaksara,sa-Latn-ascii,S5
+HERB-0142,Crotalaria verrucosa,en,S2/S5
+HERB-0142,Crotalaria verrucosa,la-botanical,S2/S5
+HERB-0143,jayapāla,sa-Latn-IAST,S2
+HERB-0143,जयपाल,sa-Deva,derived
+HERB-0143,Purging croton,en,S2/S5
+HERB-0143,Croton oil plant,en,S2/S5
+HERB-0143,Croton tiglium,la-botanical,S2/S5
+HERB-0143,Dantibija,sa-Latn-ascii,S5
+HERB-0143,Nepala,sa-Latn-ascii,S5
+HERB-0143,Rechaka,sa-Latn-ascii,S5
+HERB-0143,Tittiphala,sa-Latn-ascii,S5
+HERB-0144,kṛṣṇa sārivā,sa-Latn-IAST,S2
+HERB-0144,कृष्ण सारिवा,sa-Deva,derived
+HERB-0144,Dudlat,en,S2/S5
+HERB-0144,Cryptolepis buchanani,la-botanical,S2/S5
+HERB-0145,ervāru,sa-Latn-IAST,S2
+HERB-0145,एर्वारु,sa-Deva,derived
+HERB-0145,Muskmelon,en,S2/S5
+HERB-0145,Cucumis melo,la-botanical,S2/S5
+HERB-0145,Dasha-angula,sa-Latn-ascii,S5
+HERB-0145,Kharbhuja,sa-Latn-ascii,S5
+HERB-0145,Madhuvriksha bheda,sa-Latn-ascii,S5
+HERB-0146,trapuṣa,sa-Latn-IAST,S2
+HERB-0146,त्रपुष,sa-Deva,derived
+HERB-0146,खीरा,hi-Deva,S6
+HERB-0146,उर्वारुकम्,sa-Deva,S6
+HERB-0146,Cucumber,en,S2/S5
+HERB-0146,Common cucumber,en,S2/S5
+HERB-0146,Cucumis sativus,la-botanical,S2/S5
+HERB-0146,Kantakiphala,sa-Latn-ascii,S5
+HERB-0146,Mutraphala,sa-Latn-ascii,S5
+HERB-0146,Sudhavasa,sa-Latn-ascii,S5
+HERB-0146,Tundakeshi,sa-Latn-ascii,S5
+HERB-0147,bākucī,sa-Latn-IAST,S2
+HERB-0147,बाकुची,sa-Deva,derived
+HERB-0147,बकुची,hi-Deva,S6
+HERB-0147,Babchi seeds,en,S2/S5
+HERB-0147,Cullen corylifolium,la-botanical,S2/S5
+HERB-0147,Psoralea corylilfolia,la-botanical,S2/S5
+HERB-0147,Psoralea corylifolia,la-botanical,S2/S5
+HERB-0147,Avalguja,sa-Latn-ascii,S5
+HERB-0147,Kushtaghni,sa-Latn-ascii,S5
+HERB-0147,Somaraji,sa-Latn-ascii,S5
+HERB-0147,Suprabha,sa-Latn-ascii,S5
+HERB-0148,śveta jīraka,sa-Latn-IAST,S2
+HERB-0148,श्वेत जीरक,sa-Deva,derived
+HERB-0148,जीरा,hi-Deva,S6
+HERB-0148,ज़ीरा,hi-Deva,S6
+HERB-0148,जीरकम्,sa-Deva,S6
+HERB-0148,Cumin,en,S2/S5
+HERB-0148,Cuminum cyminum,la-botanical,S2/S5
+HERB-0148,Ajavaji,sa-Latn-ascii,S5
+HERB-0148,Deepyaka,sa-Latn-ascii,S5
+HERB-0148,Jirana,sa-Latn-ascii,S5
+HERB-0148,Kana,sa-Latn-ascii,S5
+HERB-0149,tālamūlī,sa-Latn-IAST,S2
+HERB-0149,तालमूली,sa-Deva,derived
+HERB-0149,olden eye-grass,en,S2/S5
+HERB-0149,xian mao,en,S2/S5
+HERB-0149,weevil-wort,en,S2/S5
+HERB-0149,black musli,en,S2/S5
+HERB-0149,Kali musli,en,S2/S5
+HERB-0149,Kali Musali,en,S2/S5
+HERB-0149,Curculigo orchioides,la-botanical,S2/S5
+HERB-0149,Mushali,sa-Latn-ascii,S5
+HERB-0149,Talamuli,sa-Latn-ascii,S5
+HERB-0149,Varahi,sa-Latn-ascii,S5
+HERB-0150,Mango Ginger,en,S2/S5
+HERB-0150,Curcuma amada,la-botanical,S2/S5
+HERB-0150,Amragandhi Haridra,sa-Latn-ascii,S5
+HERB-0150,Karpura,sa-Latn-ascii,S5
+HERB-0150,Surabhila,sa-Latn-ascii,S5
+HERB-0151,tavakṣīrī,sa-Latn-IAST,S2
+HERB-0151,तवक्षीरी,sa-Deva,derived
+HERB-0151,तीखुर,hi-Deva,S6
+HERB-0151,East Indian Arrowroot,en,S2/S5
+HERB-0151,narrow-leaved turmeric,en,S2/S5
+HERB-0151,Curcuma angustifolia,la-botanical,S2/S5
+HERB-0152,karcura,sa-Latn-IAST,S2
+HERB-0152,कर्चुर,sa-Deva,derived
+HERB-0152,van haldi,hi-Deva,S6
+HERB-0152,wild turmeric,en,S2/S5
+HERB-0152,Curcuma aromatica,la-botanical,S2/S5
+HERB-0152,Curcuma zedoaria,la-botanical,S2/S5
+HERB-0153,haridrā,sa-Latn-IAST,S2
+HERB-0153,हरिद्रा,sa-Deva,derived
+HERB-0153,हल्दी,hi-Deva,S6
+HERB-0153,हरिद्रा,sa-Deva,S6
+HERB-0153,Turmeric,en,S2/S5
+HERB-0153,Curcuma longa,la-botanical,S2/S5
+HERB-0153,Curcuma langa,la-botanical,S2/S5
+HERB-0153,Gauri,sa-Latn-ascii,S5
+HERB-0153,Kanchani,sa-Latn-ascii,S5
+HERB-0153,Krimighna,sa-Latn-ascii,S5
+HERB-0153,Nisha,sa-Latn-ascii,S5
+HERB-0154,कचूर,hi-Deva,S6
+HERB-0154,Zedoary,en,S2/S5
+HERB-0154,Curcuma zedoaria,la-botanical,S2/S5
+HERB-0154,Dravida,sa-Latn-ascii,S5
+HERB-0154,Gandhamulaka,sa-Latn-ascii,S5
+HERB-0154,Karchura,sa-Latn-ascii,S5
+HERB-0154,Shati,sa-Latn-ascii,S5
+HERB-0155,ajamodā,sa-Latn-IAST,S2
+HERB-0155,अजमोदा,sa-Deva,derived
+HERB-0155,marsh parsley,en,S2/S5
+HERB-0155,slender celery,en,S2/S5
+HERB-0155,fir-leaved celery,en,S2/S5
+HERB-0155,Apium leptophyllum,la-botanical,S2/S5
+HERB-0156,लेमन ग्रास,hi-Deva,S6
+HERB-0156,Lemongrass,en,S2/S5
+HERB-0156,Cymbopogon citratus,la-botanical,S2/S5
+HERB-0156,Bhustrina,sa-Latn-ascii,S5
+HERB-0156,Rohisha bheda,sa-Latn-ascii,S5
+HERB-0156,Sugandhatrina,sa-Latn-ascii,S5
+HERB-0157,Palmarosa Grass,en,S2/S5
+HERB-0157,Cymbopogon martinii,la-botanical,S2/S5
+HERB-0157,Devadugdha,sa-Latn-ascii,S5
+HERB-0157,Kattrina,sa-Latn-ascii,S5
+HERB-0157,Rausa,sa-Latn-ascii,S5
+HERB-0158,Cymbopogon schoenanthus,en,S2/S5
+HERB-0158,Cymbopogon schoenanthus,la-botanical,S2/S5
+HERB-0159,Leafless East Indian Vine,en,S2/S5
+HERB-0159,Sarcostemma acidum,la-botanical,S2/S5
+HERB-0159,Dhanurvriksha,sa-Latn-ascii,S5
+HERB-0159,Pratibhuvah,sa-Latn-ascii,S5
+HERB-0159,Soma,sa-Latn-ascii,S5
+HERB-0160,dūrvā,sa-Latn-IAST,S2
+HERB-0160,दूर्वा,sa-Deva,derived
+HERB-0160,दूब घास,hi-Deva,S6
+HERB-0160,दुर्वा,hi-Deva,S6
+HERB-0160,दूर्वा,sa-Deva,S6
+HERB-0160,Dhub grass,en,S2/S5
+HERB-0160,Barmuda or Bahama grass,en,S2/S5
+HERB-0160,Conch grass,en,S2/S5
+HERB-0160,Cynodon dactylon,la-botanical,S2/S5
+HERB-0160,Cynodon doctylon,la-botanical,S2/S5
+HERB-0160,Bhargavi,sa-Latn-ascii,S5
+HERB-0160,Sahasravirya,sa-Latn-ascii,S5
+HERB-0160,Shataparva,sa-Latn-ascii,S5
+HERB-0160,Tiktaparva,sa-Latn-ascii,S5
+HERB-0161,mustā,sa-Latn-IAST,S2
+HERB-0161,मुस्ता,sa-Deva,derived
+HERB-0161,मोथा,hi-Deva,S6
+HERB-0161,Nut grass,en,S2/S5
+HERB-0161,Cyperus rotundus,la-botanical,S2/S5
+HERB-0161,Abda,sa-Latn-ascii,S5
+HERB-0161,Ghan,sa-Latn-ascii,S5
+HERB-0161,Jalada,sa-Latn-ascii,S5
+HERB-0161,Musta,sa-Latn-ascii,S5
+HERB-0162,muñjātaka,sa-Latn-IAST,S2
+HERB-0162,मुञ्जातक,sa-Deva,derived
+HERB-0162,Salam Panja,en,S2/S5
+HERB-0162,Dactylorhiza incarnata,la-botanical,S2/S5
+HERB-0162,Orchis latifolia,la-botanical,S2/S5
+HERB-0163,शीशम,hi-Deva,S6
+HERB-0163,Indian Rosewood,en,S2/S5
+HERB-0163,Dalbergia sissoo,la-botanical,S2/S5
+HERB-0163,Kapila,sa-Latn-ascii,S5
+HERB-0163,Krishna Simsapa,sa-Latn-ascii,S5
+HERB-0163,Pichila,sa-Latn-ascii,S5
+HERB-0164,dhattūra,sa-Latn-IAST,S2
+HERB-0164,धत्तूर,sa-Deva,derived
+HERB-0164,Thorn apple,en,S2/S5
+HERB-0164,Datura metal,la-botanical,S2/S5
+HERB-0164,Datura metel,la-botanical,S2/S5
+HERB-0164,Dhustura,sa-Latn-ascii,S5
+HERB-0164,Kanaka,sa-Latn-ascii,S5
+HERB-0164,Shivapriya,sa-Latn-ascii,S5
+HERB-0164,Unmatta,sa-Latn-ascii,S5
+HERB-0165,जंगली गाजर,hi-Deva,S6
+HERB-0165,Carrot,en,S2/S5
+HERB-0165,Daucus carota,la-botanical,S2/S5
+HERB-0165,Garjara,sa-Latn-ascii,S5
+HERB-0165,Grinjana,sa-Latn-ascii,S5
+HERB-0165,Shikhamula,sa-Latn-ascii,S5
+HERB-0166,vandā,sa-Latn-IAST,S2
+HERB-0166,वन्दा,sa-Deva,derived
+HERB-0166,Mistletoe,en,S2/S5
+HERB-0166,Dendrophthoe falcata,la-botanical,S2/S5
+HERB-0167,śālaparṇī,sa-Latn-IAST,S2
+HERB-0167,शालपर्णी,sa-Deva,derived
+HERB-0167,ticktree,en,S2/S5
+HERB-0167,Desmodium gangeticum,la-botanical,S2/S5
+HERB-0167,Anshumati,sa-Latn-ascii,S5
+HERB-0167,Dirghamoola,sa-Latn-ascii,S5
+HERB-0167,Guhya,sa-Latn-ascii,S5
+HERB-0167,Vidarigandha,sa-Latn-ascii,S5
+HERB-0168,kuśa,sa-Latn-IAST,S2
+HERB-0168,कुश,sa-Deva,derived
+HERB-0168,Sacrificial grass,en,S2/S5
+HERB-0168,Desmostachya bipinnata,la-botanical,S2/S5
+HERB-0168,Dirghapatra,sa-Latn-ascii,S5
+HERB-0168,Pavitra,sa-Latn-ascii,S5
+HERB-0168,Suchyagra,sa-Latn-ascii,S5
+HERB-0168,Yagyabhushana,sa-Latn-ascii,S5
+HERB-0169,vīrataru,sa-Latn-IAST,S2
+HERB-0169,वीरतरु,sa-Deva,derived
+HERB-0169,वीरतरु,hi-Deva,S6
+HERB-0169,sicklebush,en,S2/S5
+HERB-0169,Bell mimosa,en,S2/S5
+HERB-0169,Chinese lantern tree or Kalahari Christmas tree,en,S2/S5
+HERB-0169,Dichrostachys cinerea,la-botanical,S2/S5
+HERB-0170,Panicled Peristrophe,en,S2/S5
+HERB-0170,Peristrophe paniculata,la-botanical,S2/S5
+HERB-0170,Kakatika,sa-Latn-ascii,S5
+HERB-0170,Kakekshuka,sa-Latn-ascii,S5
+HERB-0170,Nadi,sa-Latn-ascii,S5
+HERB-0170,Sulakshmana,sa-Latn-ascii,S5
+HERB-0171,Air Potato,en,S2/S5
+HERB-0171,Dioscorea bulbifera,la-botanical,S2/S5
+HERB-0171,Kroshthuki,sa-Latn-ascii,S5
+HERB-0171,Vara,sa-Latn-ascii,S5
+HERB-0171,Varahi,sa-Latn-ascii,S5
+HERB-0172,tinduka,sa-Latn-IAST,S2
+HERB-0172,तिन्दुक,sa-Deva,derived
+HERB-0172,Indian Persimmon,en,S2/S5
+HERB-0172,Diospyros peregrina,la-botanical,S2/S5
+HERB-0172,Kalaskandha,sa-Latn-ascii,S5
+HERB-0172,Nilasara,sa-Latn-ascii,S5
+HERB-0172,Raktasara,sa-Latn-ascii,S5
+HERB-0172,Sphurjaka,sa-Latn-ascii,S5
+HERB-0173,aśvakarṇa,sa-Latn-IAST,S2
+HERB-0173,अश्वकर्ण,sa-Deva,derived
+HERB-0173,Dipterocarpus alatus,en,S2/S5
+HERB-0173,Dipterocarpus alatus,la-botanical,S2/S5
+HERB-0174,kuṣṭha,sa-Latn-IAST,S2
+HERB-0174,कुष्ठ,sa-Deva,derived
+HERB-0174,Kuth,en,S2/S5
+HERB-0174,Costus,en,S2/S5
+HERB-0174,Saussurea costus,la-botanical,S2/S5
+HERB-0174,Saussurea lappa,la-botanical,S2/S5
+HERB-0174,Amaya,sa-Latn-ascii,S5
+HERB-0174,Gada,sa-Latn-ascii,S5
+HERB-0174,Ruja,sa-Latn-ascii,S5
+HERB-0174,Utpalaka,sa-Latn-ascii,S5
+HERB-0175,False Daisy,en,S2/S5
+HERB-0175,Eclipta alba,la-botanical,S2/S5
+HERB-0175,Bhringaja,sa-Latn-ascii,S5
+HERB-0175,Keshraja,sa-Latn-ascii,S5
+HERB-0175,Markava,sa-Latn-ascii,S5
+HERB-0175,Tekaraja,sa-Latn-ascii,S5
+HERB-0176,bhṛṅgarāja,sa-Latn-IAST,S2
+HERB-0176,भृङ्गराज,sa-Deva,derived
+HERB-0176,भृङ्गराज,hi-Deva,S6
+HERB-0176,भृंगराज,hi-Deva,S6
+HERB-0176,भृङ्गराजसस्यम्,sa-Deva,S6
+HERB-0176,Trailing Eclipta,en,S2/S5
+HERB-0176,Eclipta prostrata,la-botanical,S2/S5
+HERB-0176,Eclipta alba,la-botanical,S2/S5
+HERB-0177,Utrasum Bead Tree,en,S2/S5
+HERB-0177,Elaeocarpus ganitrus,la-botanical,S2/S5
+HERB-0177,Bhutanashana,sa-Latn-ascii,S5
+HERB-0177,Pavana,sa-Latn-ascii,S5
+HERB-0177,Sharvada,sa-Latn-ascii,S5
+HERB-0177,Shivaksha,sa-Latn-ascii,S5
+HERB-0178,sūkṣmailā,sa-Latn-IAST,S2
+HERB-0178,सूक्ष्मैला,sa-Deva,derived
+HERB-0178,इलायची,hi-Deva,S6
+HERB-0178,छोटी इलायची,hi-Deva,S6
+HERB-0178,एला,sa-Deva,S6
+HERB-0178,Cardamom,en,S2/S5
+HERB-0178,Elettaria cardamomum,la-botanical,S2/S5
+HERB-0178,Dravidi,sa-Latn-ascii,S5
+HERB-0178,Sukshma Ela,sa-Latn-ascii,S5
+HERB-0178,Tutha,sa-Latn-ascii,S5
+HERB-0178,Upakunchika,sa-Latn-ascii,S5
+HERB-0179,viḍaṅga,sa-Latn-IAST,S2
+HERB-0179,विडङ्ग,sa-Deva,derived
+HERB-0179,विडंग,hi-Deva,S6
+HERB-0179,Embelia,en,S2/S5
+HERB-0179,Embelia ribes,la-botanical,S2/S5
+HERB-0179,Amogha,sa-Latn-ascii,S5
+HERB-0179,Jantughna,sa-Latn-ascii,S5
+HERB-0179,Krimighna,sa-Latn-ascii,S5
+HERB-0179,Vellaja,sa-Latn-ascii,S5
+HERB-0180,somaḥ,sa-Latn-IAST,S2
+HERB-0180,सोमः,sa-Deva,derived
+HERB-0180,ephedra herb,en,S2/S5
+HERB-0180,Ephedra gerardiana,la-botanical,S2/S5
+HERB-0181,pāribhadra,sa-Latn-IAST,S2
+HERB-0181,पारिभद्र,sa-Deva,derived
+HERB-0181,Indian coral tree,en,S2/S5
+HERB-0181,Erythrina variegata,la-botanical,S2/S5
+HERB-0181,Erythrina indica,la-botanical,S2/S5
+HERB-0181,Mandara,sa-Latn-ascii,S5
+HERB-0181,Phalgudruma,sa-Latn-ascii,S5
+HERB-0181,Raktapushpa,sa-Latn-ascii,S5
+HERB-0182,gaṇḍūra,sa-Latn-IAST,S2
+HERB-0182,गण्डूर,sa-Deva,derived
+HERB-0182,Euphorbia antiquorum,en,S2/S5
+HERB-0182,Euphorbia antiqurum,la-botanical,S2/S5
+HERB-0182,Eurphorbia antiquorum,la-botanical,S2/S5
+HERB-0183,rājakṣavaka,sa-Latn-IAST,S2
+HERB-0183,राजक्षवक,sa-Deva,derived
+HERB-0183,Euphorbia heyneana,en,S2/S5
+HERB-0183,Euphorbia microphylla,la-botanical,S2/S5
+HERB-0184,बड़ी दुधी,hi-Deva,S6
+HERB-0184,Asthma Plant,en,S2/S5
+HERB-0184,Euphorbia hirta,la-botanical,S2/S5
+HERB-0184,Dugdhika,sa-Latn-ascii,S5
+HERB-0184,Kshirini,sa-Latn-ascii,S5
+HERB-0184,Pusphatoka,sa-Latn-ascii,S5
+HERB-0184,Swaduparni,sa-Latn-ascii,S5
+HERB-0185,snuhī,sa-Latn-IAST,S2
+HERB-0185,स्नुही,sa-Deva,derived
+HERB-0185,Common milk hedge,en,S2/S5
+HERB-0185,Euphorbia neriifolia,la-botanical,S2/S5
+HERB-0185,Samantdugdha,sa-Latn-ascii,S5
+HERB-0185,Sihunda,sa-Latn-ascii,S5
+HERB-0185,Sudha,sa-Latn-ascii,S5
+HERB-0185,Vajradruma,sa-Latn-ascii,S5
+HERB-0186,svarṇakṣīrī,sa-Latn-IAST,S2
+HERB-0186,स्वर्णक्षीरी,sa-Deva,derived
+HERB-0186,Indian plum and coffee palm,en,S2/S5
+HERB-0186,Euphorbia thomsoniana,la-botanical,S2/S5
+HERB-0187,dhanvayāsa/dhanvayāsaka,sa-Latn-IAST,S2
+HERB-0187,धन्वयास/धन्वयासक,sa-Deva,derived
+HERB-0187,Virgin's Mantle,en,S2/S5
+HERB-0187,Fagonia cretica,la-botanical,S2/S5
+HERB-0187,Fagonia indica,la-botanical,S2/S5
+HERB-0188,Fagonia,en,S2/S5
+HERB-0188,Fagonia indica,la-botanical,S2/S5
+HERB-0188,Ananta,sa-Latn-ascii,S5
+HERB-0188,Dhanvayas,sa-Latn-ascii,S5
+HERB-0188,Duhsparsha,sa-Latn-ascii,S5
+HERB-0188,Kachura,sa-Latn-ascii,S5
+HERB-0189,gairika,sa-Latn-IAST,S2
+HERB-0189,गैरिक,sa-Deva,derived
+HERB-0189,Ferrum haematite,la-botanical,S2/S5
+HERB-0190,hiṅgu,sa-Latn-IAST,S2
+HERB-0190,हिङ्गु,sa-Deva,derived
+HERB-0190,Asafoetida,en,S2/S5
+HERB-0190,Ferula assa-foetida,la-botanical,S2/S5
+HERB-0190,Bahlika,sa-Latn-ascii,S5
+HERB-0190,Ramatha,sa-Latn-ascii,S5
+HERB-0190,Sahasravedhi,sa-Latn-ascii,S5
+HERB-0190,Ugra,sa-Latn-ascii,S5
+HERB-0191,hiṅgu,sa-Latn-IAST,S2
+HERB-0191,हिङ्गु,sa-Deva,derived
+HERB-0191,Asafoetida (Asafetida),en,S2/S5
+HERB-0191,Ferula foetida,la-botanical,S2/S5
+HERB-0191,Ferula asafoetida,la-botanical,S2/S5
+HERB-0192,hiṅgupatrī,sa-Latn-IAST,S2
+HERB-0192,हिङ्गुपत्री,sa-Deva,derived
+HERB-0192,Wild Asafoetida,en,S2/S5
+HERB-0192,Ferula jaeschkeana,la-botanical,S2/S5
+HERB-0193,hiṅguniryāsa,sa-Latn-IAST,S2
+HERB-0193,हिङ्गुनिर्यास,sa-Deva,derived
+HERB-0193,Ferula narthex,en,S2/S5
+HERB-0193,Ferula narthex,la-botanical,S2/S5
+HERB-0194,vaṭa/nyagrodha,sa-Latn-IAST,S2
+HERB-0194,वट/न्यग्रोध,sa-Deva,derived
+HERB-0194,फिकस बेंघालेंसिस,hi-Deva,S6
+HERB-0194,वटः,sa-Deva,S6
+HERB-0194,Banyan,en,S2/S5
+HERB-0194,Ficus benghalensis,la-botanical,S2/S5
+HERB-0194,Ficus bengalensis,la-botanical,S2/S5
+HERB-0195,phalgu,sa-Latn-IAST,S2
+HERB-0195,फल्गु,sa-Deva,derived
+HERB-0195,tropical fig tree,en,S2/S5
+HERB-0195,Ficus hispida,la-botanical,S2/S5
+HERB-0196,plakṣa,sa-Latn-IAST,S2
+HERB-0196,प्लक्ष,sa-Deva,derived
+HERB-0196,Ficus lacor,en,S2/S5
+HERB-0196,Ficus lacor,la-botanical,S2/S5
+HERB-0197,udumbara,sa-Latn-IAST,S2
+HERB-0197,उदुम्बर,sa-Deva,derived
+HERB-0197,गूलर,hi-Deva,S6
+HERB-0197,उडुंबर,hi-Deva,S6
+HERB-0197,उदुंबर,hi-Deva,S6
+HERB-0197,औदुम्बरवृक्षः,sa-Deva,S6
+HERB-0197,Gular fig,en,S2/S5
+HERB-0197,Cluster fig,en,S2/S5
+HERB-0197,Country fig,en,S2/S5
+HERB-0197,Ficus racemosa,la-botanical,S2/S5
+HERB-0197,Ficus glomerata,la-botanical,S2/S5
+HERB-0197,Hemadugdhaka,sa-Latn-ascii,S5
+HERB-0197,Jantuphala,sa-Latn-ascii,S5
+HERB-0197,Sadaphala,sa-Latn-ascii,S5
+HERB-0197,Yajnanga,sa-Latn-ascii,S5
+HERB-0198,aśvattha,sa-Latn-IAST,S2
+HERB-0198,अश्वत्थ,sa-Deva,derived
+HERB-0198,पीपल,hi-Deva,S6
+HERB-0198,Peepal tree,en,S2/S5
+HERB-0198,Sacred fig,en,S2/S5
+HERB-0198,Ficus religiosa,la-botanical,S2/S5
+HERB-0198,Bodhidruma,sa-Latn-ascii,S5
+HERB-0198,Chaladala,sa-Latn-ascii,S5
+HERB-0198,Kunjara,sa-Latn-ascii,S5
+HERB-0198,Pippala,sa-Latn-ascii,S5
+HERB-0199,plakṣa,sa-Latn-IAST,S2
+HERB-0199,प्लक्ष,sa-Deva,derived
+HERB-0199,white fig,en,S2/S5
+HERB-0199,Ficus virens,la-botanical,S2/S5
+HERB-0199,Ficus lacor,la-botanical,S2/S5
+HERB-0199,Ficus infectoria,la-botanical,S2/S5
+HERB-0199,Jati,sa-Latn-ascii,S5
+HERB-0199,Karkandhaki,sa-Latn-ascii,S5
+HERB-0199,Parkati,sa-Latn-ascii,S5
+HERB-0199,Plaksha,sa-Latn-ascii,S5
+HERB-0200,Governor's Plum,en,S2/S5
+HERB-0200,Flacourtia indica,la-botanical,S2/S5
+HERB-0200,Madhuphala,sa-Latn-ascii,S5
+HERB-0200,Sransi,sa-Latn-ascii,S5
+HERB-0200,Vikankata,sa-Latn-ascii,S5
+HERB-0201,miśreyā,sa-Latn-IAST,S2
+HERB-0201,मिश्रेया,sa-Deva,derived
+HERB-0201,सौंफ,hi-Deva,S6
+HERB-0201,सौंफ़,hi-Deva,S6
+HERB-0201,Fennel,en,S2/S5
+HERB-0201,Foeniculum vulgare,la-botanical,S2/S5
+HERB-0201,Madhurika,sa-Latn-ascii,S5
+HERB-0201,Misreya,sa-Latn-ascii,S5
+HERB-0201,Misri,sa-Latn-ascii,S5
+HERB-0201,Sthula Jiraka,sa-Latn-ascii,S5
+HERB-0202,kṣīrakākolī,sa-Latn-IAST,S2
+HERB-0202,क्षीरकाकोली,sa-Deva,derived
+HERB-0202,Fritillary,en,S2/S5
+HERB-0202,Fritillaria roylei,la-botanical,S2/S5
+HERB-0202,Kshweda,sa-Latn-ascii,S5
+HERB-0202,Madhura,sa-Latn-ascii,S5
+HERB-0202,Shukrashodhini,sa-Latn-ascii,S5
+HERB-0202,Vayasoli,sa-Latn-ascii,S5
+HERB-0203,Fine-leaved Fumitory,en,S2/S5
+HERB-0203,Fumaria indica,la-botanical,S2/S5
+HERB-0203,Kavacha,sa-Latn-ascii,S5
+HERB-0203,Parpata,sa-Latn-ascii,S5
+HERB-0203,Sutiktaka,sa-Latn-ascii,S5
+HERB-0203,Varatikta,sa-Latn-ascii,S5
+HERB-0204,parpaṭa,sa-Latn-IAST,S2
+HERB-0204,पर्पट,sa-Deva,derived
+HERB-0204,fineleaf fumitory,en,S2/S5
+HERB-0204,fine-leaved fumitory,en,S2/S5
+HERB-0204,Indian fumitory,en,S2/S5
+HERB-0204,Fumaria parviflora,la-botanical,S2/S5
+HERB-0205,vṛkṣāmla,sa-Latn-IAST,S2
+HERB-0205,वृक्षाम्ल,sa-Deva,derived
+HERB-0205,कोकम,hi-Deva,S6
+HERB-0205,आमेतसवृक्षः,sa-Deva,S6
+HERB-0205,Kokum,en,S2/S5
+HERB-0205,Garcinia indica,la-botanical,S2/S5
+HERB-0205,Amlabheda,sa-Latn-ascii,S5
+HERB-0205,Amlavrikshaka,sa-Latn-ascii,S5
+HERB-0205,Chukra,sa-Latn-ascii,S5
+HERB-0205,Tintidika,sa-Latn-ascii,S5
+HERB-0206,amlavetasa,sa-Latn-IAST,S2
+HERB-0206,अम्लवेतस,sa-Deva,derived
+HERB-0206,Assam Gamboge,en,S2/S5
+HERB-0206,Garcinia pedunculata,la-botanical,S2/S5
+HERB-0206,Amla,sa-Latn-ascii,S5
+HERB-0206,Chukra,sa-Latn-ascii,S5
+HERB-0206,Raktasara,sa-Latn-ascii,S5
+HERB-0206,Shatavedhi,sa-Latn-ascii,S5
+HERB-0207,nāḍīhiṅgu,sa-Latn-IAST,S2
+HERB-0207,नाडीहिङ्गु,sa-Deva,derived
+HERB-0207,Cumbi-gum tree,en,S2/S5
+HERB-0207,Dekamella-gum gardenia,en,S2/S5
+HERB-0207,Gardenia gummifera,la-botanical,S2/S5
+HERB-0207,Hingupatri,sa-Latn-ascii,S5
+HERB-0207,Karhari,sa-Latn-ascii,S5
+HERB-0207,Vanshapatri,sa-Latn-ascii,S5
+HERB-0208,trāyamāṇā,sa-Latn-IAST,S2
+HERB-0208,त्रायमाणा,sa-Deva,derived
+HERB-0208,Indian Gentian,en,S2/S5
+HERB-0208,Gentiana kurroo,la-botanical,S2/S5
+HERB-0209,lāṅgalī,sa-Latn-IAST,S2
+HERB-0209,लाङ्गली,sa-Deva,derived
+HERB-0209,कलिहारी,hi-Deva,S6
+HERB-0209,Malabar glory lily,en,S2/S5
+HERB-0209,Gloriosa superba,la-botanical,S2/S5
+HERB-0209,Agnishikha,sa-Latn-ascii,S5
+HERB-0209,Garbhaghatini,sa-Latn-ascii,S5
+HERB-0209,Kalihari,sa-Latn-ascii,S5
+HERB-0209,Visalya,sa-Latn-ascii,S5
+HERB-0210,yaṣṭīmadhu,sa-Latn-IAST,S2
+HERB-0210,यष्टीमधु,sa-Deva,derived
+HERB-0210,यष्टिमधु,hi-Deva,S6
+HERB-0210,यष्टी,sa-Deva,S6
+HERB-0210,Liquorice,en,S2/S5
+HERB-0210,licorice,en,S2/S5
+HERB-0210,Glycyrrhiza glabra,la-botanical,S2/S5
+HERB-0210,Glycyrrhiza labra,la-botanical,S2/S5
+HERB-0210,Klitaka,sa-Latn-ascii,S5
+HERB-0210,Madhuyashti,sa-Latn-ascii,S5
+HERB-0210,Yashtimadhu,sa-Latn-ascii,S5
+HERB-0210,Yastika,sa-Latn-ascii,S5
+HERB-0211,gambhārī,sa-Latn-IAST,S2
+HERB-0211,गम्भारी,sa-Deva,derived
+HERB-0211,Coomb teak,en,S2/S5
+HERB-0211,Cashmeri tree,en,S2/S5
+HERB-0211,Gmelina arborea,la-botanical,S2/S5
+HERB-0211,Kashmari,sa-Latn-ascii,S5
+HERB-0211,Madhuparni,sa-Latn-ascii,S5
+HERB-0211,Sarvatobhadra,sa-Latn-ascii,S5
+HERB-0211,Shriparni,sa-Latn-ascii,S5
+HERB-0212,mūrvā,sa-Latn-IAST,S2
+HERB-0212,मूर्वा,sa-Deva,derived
+HERB-0212,Rajmahal-creeper,en,S2/S5
+HERB-0212,Rajmahal-hemp,en,S2/S5
+HERB-0212,Marsdenia tenacissima,la-botanical,S2/S5
+HERB-0212,Madhulika,sa-Latn-ascii,S5
+HERB-0212,Madhumurva,sa-Latn-ascii,S5
+HERB-0212,Morata,sa-Latn-ascii,S5
+HERB-0212,Tejini,sa-Latn-ascii,S5
+HERB-0213,Levant Cotton,en,S2/S5
+HERB-0213,Gossypium herbaceum,la-botanical,S2/S5
+HERB-0213,Chavya,sa-Latn-ascii,S5
+HERB-0213,Samudranta,sa-Latn-ascii,S5
+HERB-0213,Tundikeri,sa-Latn-ascii,S5
+HERB-0214,फ़ालसा,hi-Deva,S6
+HERB-0214,फालसा,hi-Deva,S6
+HERB-0214,Grewia asiatica,en,S2/S5
+HERB-0214,Grewia asiatica,la-botanical,S2/S5
+HERB-0215,nāgabalā,sa-Latn-IAST,S2
+HERB-0215,नागबला,sa-Deva,derived
+HERB-0215,Veronicalolia,en,S2/S5
+HERB-0215,Grewia hirsuta,la-botanical,S2/S5
+HERB-0215,Gudasharkara,sa-Latn-ascii,S5
+HERB-0215,Kharagandhini,sa-Latn-ascii,S5
+HERB-0215,Mahasamanga,sa-Latn-ascii,S5
+HERB-0216,White Crossberry,en,S2/S5
+HERB-0216,Grewia tenax,la-botanical,S2/S5
+HERB-0216,Gangeru,sa-Latn-ascii,S5
+HERB-0216,Kharapatra,sa-Latn-ascii,S5
+HERB-0216,Nagambala,sa-Latn-ascii,S5
+HERB-0217,कांटीकरंज,hi-Deva,S6
+HERB-0217,Fever Nut,en,S2/S5
+HERB-0217,Caesalpinia bonduc,la-botanical,S2/S5
+HERB-0217,Kantaki-karanja,sa-Latn-ascii,S5
+HERB-0217,Kuberaksha,sa-Latn-ascii,S5
+HERB-0217,Lata-karanja,sa-Latn-ascii,S5
+HERB-0217,Vajrabijaka,sa-Latn-ascii,S5
+HERB-0218,meṣaśṛṅgī,sa-Latn-IAST,S2
+HERB-0218,मेषशृङ्गी,sa-Deva,derived
+HERB-0218,Periploca of the woods,en,S2/S5
+HERB-0218,Gymnema,en,S2/S5
+HERB-0218,cowplant,en,S2/S5
+HERB-0218,Gymnema sylvestre,la-botanical,S2/S5
+HERB-0218,Ajasringi,sa-Latn-ascii,S5
+HERB-0218,Madhunashini,sa-Latn-ascii,S5
+HERB-0218,Meshavalli,sa-Latn-ascii,S5
+HERB-0219,ajagandhā,sa-Latn-IAST,S2
+HERB-0219,अजगन्धा,sa-Deva,derived
+HERB-0219,Shona cabbage,en,S2/S5
+HERB-0219,African cabbage,en,S2/S5
+HERB-0219,Spiderwisp,en,S2/S5
+HERB-0219,Cat's whiskers,en,S2/S5
+HERB-0219,Chinsaga,en,S2/S5
+HERB-0219,Stinkweed,en,S2/S5
+HERB-0219,Cleome gynandra,la-botanical,S2/S5
+HERB-0219,Gynandropsis gynandra,la-botanical,S2/S5
+HERB-0219,Ajagandha,sa-Latn-ascii,S5
+HERB-0219,Arkapushpika,sa-Latn-ascii,S5
+HERB-0219,Bastagandha,sa-Latn-ascii,S5
+HERB-0219,Hulhul,sa-Latn-ascii,S5
+HERB-0219,Putigandha,sa-Latn-ascii,S5
+HERB-0220,ṛddhi,sa-Latn-IAST,S2
+HERB-0220,ऋद्धि,sa-Deva,derived
+HERB-0220,Intermediate Habenaria,en,S2/S5
+HERB-0220,Habenaria intermedia,la-botanical,S2/S5
+HERB-0220,Mahamedha bheda,sa-Latn-ascii,S5
+HERB-0220,Rishyaprokta,sa-Latn-ascii,S5
+HERB-0220,Sukha,sa-Latn-ascii,S5
+HERB-0220,Yuga,sa-Latn-ascii,S5
+HERB-0221,śaṭī,sa-Latn-IAST,S2
+HERB-0221,शटी,sa-Deva,derived
+HERB-0221,कपूर कचरी,hi-Deva,S6
+HERB-0221,Spiked Ginger Lily,en,S2/S5
+HERB-0221,Perfume ginger,en,S2/S5
+HERB-0221,Hedychium spicatum,la-botanical,S2/S5
+HERB-0221,Gandhapalashi,sa-Latn-ascii,S5
+HERB-0221,Himaja,sa-Latn-ascii,S5
+HERB-0221,Palashika,sa-Latn-ascii,S5
+HERB-0221,Suvrata,sa-Latn-ascii,S5
+HERB-0222,hastiśuṇḍī,sa-Latn-IAST,S2
+HERB-0222,हस्तिशुण्डी,sa-Deva,derived
+HERB-0222,Indian turnsole,en,S2/S5
+HERB-0222,Heliotropium indicum,la-botanical,S2/S5
+HERB-0222,Bhurundi,sa-Latn-ascii,S5
+HERB-0222,Hastishundi,sa-Latn-ascii,S5
+HERB-0222,Srihastini,sa-Latn-ascii,S5
+HERB-0223,kebuka,sa-Latn-IAST,S2
+HERB-0223,केबुक,sa-Deva,derived
+HERB-0223,crepe ginger,en,S2/S5
+HERB-0223,Cheilocostus speciosus,la-botanical,S2/S5
+HERB-0223,Costus speciosus,la-botanical,S2/S5
+HERB-0223,Hellenia speciosa,la-botanical,S2/S5
+HERB-0223,Chanda,sa-Latn-ascii,S5
+HERB-0223,Kebuka,sa-Latn-ascii,S5
+HERB-0223,Kemuka,sa-Latn-ascii,S5
+HERB-0223,Shura,sa-Latn-ascii,S5
+HERB-0224,sārivā,sa-Latn-IAST,S2
+HERB-0224,सारिवा,sa-Deva,derived
+HERB-0224,Indian sarasaparilla/Country sarasaparilla,en,S2/S5
+HERB-0224,Hemidesmus indicus,la-botanical,S2/S5
+HERB-0224,Hemidesmum indicus,la-botanical,S2/S5
+HERB-0224,Anantamoola,sa-Latn-ascii,S5
+HERB-0224,Dhavala,sa-Latn-ascii,S5
+HERB-0224,Gopi,sa-Latn-ascii,S5
+HERB-0224,Shvetasariva,sa-Latn-ascii,S5
+HERB-0225,vṛdhdi,sa-Latn-IAST,S2
+HERB-0225,वृध्दि,sa-Deva,derived
+HERB-0225,Vriddhi Orchid,en,S2/S5
+HERB-0225,Habenaria edgeworthii,la-botanical,S2/S5
+HERB-0225,Lakshmi,sa-Latn-ascii,S5
+HERB-0225,Sukshmasana,sa-Latn-ascii,S5
+HERB-0225,Tunga,sa-Latn-ascii,S5
+HERB-0225,Vardhini,sa-Latn-ascii,S5
+HERB-0226,japā,sa-Latn-IAST,S2
+HERB-0226,जपा,sa-Deva,derived
+HERB-0226,ला रोजिता,hi-Deva,S6
+HERB-0226,गुलाब मैलोशूब्लैक पौधा,hi-Deva,S6
+HERB-0226,चाइना गुलाब,hi-Deva,S6
+HERB-0226,चीनी हिबिस्कस,hi-Deva,S6
+HERB-0226,हवाईयन हिबिस्कस,hi-Deva,S6
+HERB-0226,हिबिस्कस रोसा-सिनेंसिस,hi-Deva,S6
+HERB-0226,जपापुष्पम्,sa-Deva,S6
+HERB-0226,Shoe-flower plant,en,S2/S5
+HERB-0226,Chinese hibiscus,en,S2/S5
+HERB-0226,Hibiscus rosa-sinensis,la-botanical,S2/S5
+HERB-0226,Arka,sa-Latn-ascii,S5
+HERB-0226,Oundrapushpa,sa-Latn-ascii,S5
+HERB-0226,Raktapushpi,sa-Latn-ascii,S5
+HERB-0227,Roselle,en,S2/S5
+HERB-0227,Hibiscus sabdariffa,la-botanical,S2/S5
+HERB-0227,Ambashtha,sa-Latn-ascii,S5
+HERB-0227,Machika,sa-Latn-ascii,S5
+HERB-0227,Sahasraviry bheda,sa-Latn-ascii,S5
+HERB-0228,amlavetasa,sa-Latn-IAST,S2
+HERB-0228,अम्लवेतस,sa-Deva,derived
+HERB-0228,sea buckthorns,en,S2/S5
+HERB-0228,Hippophae tibetana,la-botanical,S2/S5
+HERB-0228,Hippophae rhamnoides,la-botanical,S2/S5
+HERB-0229,kuṭajaḥ,sa-Latn-IAST,S2
+HERB-0229,कुटजः,sa-Deva,derived
+HERB-0229,होलीहेना प्यूब्सेन्स,hi-Deva,S6
+HERB-0229,Kurchi,en,S2/S5
+HERB-0229,Conessi or Tellicherry bark,en,S2/S5
+HERB-0229,Holarrhena pubescens,la-botanical,S2/S5
+HERB-0229,Holarrhena antidysenterica,la-botanical,S2/S5
+HERB-0229,Bhadrayava,sa-Latn-ascii,S5
+HERB-0229,Girika,sa-Latn-ascii,S5
+HERB-0229,Kalinga,sa-Latn-ascii,S5
+HERB-0229,Kalingaka,sa-Latn-ascii,S5
+HERB-0229,Shakra,sa-Latn-ascii,S5
+HERB-0229,Shakrabija,sa-Latn-ascii,S5
+HERB-0229,Vatsaka,sa-Latn-ascii,S5
+HERB-0229,Vatsakabija,sa-Latn-ascii,S5
+HERB-0230,cirabilva,sa-Latn-IAST,S2
+HERB-0230,चिरबिल्व,sa-Deva,derived
+HERB-0230,चिरोल,hi-Deva,S6
+HERB-0230,Indian elm,en,S2/S5
+HERB-0230,Kanju,en,S2/S5
+HERB-0230,Holoptelea integrifolia,la-botanical,S2/S5
+HERB-0230,Karanja,sa-Latn-ascii,S5
+HERB-0230,Naktamala,sa-Latn-ascii,S5
+HERB-0230,Putikaranja,sa-Latn-ascii,S5
+HERB-0231,yava,sa-Latn-IAST,S2
+HERB-0231,यव,sa-Deva,derived
+HERB-0231,जौ,hi-Deva,S6
+HERB-0231,यवः॑,sa-Deva,S6
+HERB-0231,Barley,en,S2/S5
+HERB-0231,Hordeum vulgare,la-botanical,S2/S5
+HERB-0231,Divya,sa-Latn-ascii,S5
+HERB-0231,Hayeshta,sa-Latn-ascii,S5
+HERB-0231,Pavithra,sa-Latn-ascii,S5
+HERB-0231,Sitashuka,sa-Latn-ascii,S5
+HERB-0232,kokilākṣa,sa-Latn-IAST,S2
+HERB-0232,कोकिलाक्ष,sa-Deva,derived
+HERB-0232,गोकुलकांता,hi-Deva,S6
+HERB-0232,Hygrophila,en,S2/S5
+HERB-0232,Temple plant,en,S2/S5
+HERB-0232,Marsh Barbel,en,S2/S5
+HERB-0232,Hygrophila auriculata,la-botanical,S2/S5
+HERB-0232,Asteracantha longifolia,la-botanical,S2/S5
+HERB-0232,Astercantha longifolia,la-botanical,S2/S5
+HERB-0232,Ikshura,sa-Latn-ascii,S5
+HERB-0232,Kshuraka,sa-Latn-ascii,S5
+HERB-0232,Pikaksha,sa-Latn-ascii,S5
+HERB-0232,Vajrakantaka,sa-Latn-ascii,S5
+HERB-0233,pārasīka yavānī,sa-Latn-IAST,S2
+HERB-0233,पारसीक यवानी,sa-Deva,derived
+HERB-0233,पारसीकयवानी,sa-Deva,S6
+HERB-0233,Henbane,en,S2/S5
+HERB-0233,Black henbane,en,S2/S5
+HERB-0233,Hyoscyamus niger,la-botanical,S2/S5
+HERB-0233,Khurasani Yavani,sa-Latn-ascii,S5
+HERB-0233,Madaka,sa-Latn-ascii,S5
+HERB-0233,Parasika Yavani,sa-Latn-ascii,S5
+HERB-0234,darbha,sa-Latn-IAST,S2
+HERB-0234,दर्भ,sa-Deva,derived
+HERB-0234,blady grass,en,S2/S5
+HERB-0234,alang-alang,en,S2/S5
+HERB-0234,cotton wool grass,en,S2/S5
+HERB-0234,kura-kura,en,S2/S5
+HERB-0234,Imperata cylindrica,la-botanical,S2/S5
+HERB-0235,vasuka,sa-Latn-IAST,S2
+HERB-0235,वसुक,sa-Deva,derived
+HERB-0235,Indigofera enneaphylla,la-botanical,S2/S5
+HERB-0236,vasuka,sa-Latn-IAST,S2
+HERB-0236,वसुक,sa-Deva,derived
+HERB-0236,Indigofera ennephylla,la-botanical,S2/S5
+HERB-0237,nīlī,sa-Latn-IAST,S2
+HERB-0237,नीली,sa-Deva,derived
+HERB-0237,नील,hi-Deva,S6
+HERB-0237,Indian Indigo,en,S2/S5
+HERB-0237,Indigofera tinctoria,la-botanical,S2/S5
+HERB-0237,Amshumati,sa-Latn-ascii,S5
+HERB-0237,Kala,sa-Latn-ascii,S5
+HERB-0237,Nilini,sa-Latn-ascii,S5
+HERB-0237,Rangapatra,sa-Latn-ascii,S5
+HERB-0238,puṣkaramūla,sa-Latn-IAST,S2
+HERB-0238,पुष्करमूल,sa-Deva,derived
+HERB-0238,Elicampane,en,S2/S5
+HERB-0238,Inula racemosa,la-botanical,S2/S5
+HERB-0238,Kashmira,sa-Latn-ascii,S5
+HERB-0238,Kushtabheda,sa-Latn-ascii,S5
+HERB-0238,Padmapatra,sa-Latn-ascii,S5
+HERB-0238,Poushkara,sa-Latn-ascii,S5
+HERB-0239,kalambā,sa-Latn-IAST,S2
+HERB-0239,कलम्बा,sa-Deva,derived
+HERB-0239,कलमी शाक,hi-Deva,S6
+HERB-0239,करमी साग,hi-Deva,S6
+HERB-0239,Water Spinach,en,S2/S5
+HERB-0239,Ipomoea aquatica,la-botanical,S2/S5
+HERB-0239,Kalambika,sa-Latn-ascii,S5
+HERB-0239,Nalika,sa-Latn-ascii,S5
+HERB-0239,Shantanu,sa-Latn-ascii,S5
+HERB-0240,payasyā,sa-Latn-IAST,S2
+HERB-0240,पयस्या,sa-Deva,derived
+HERB-0240,Ipomoea mauritiana,en,S2/S5
+HERB-0240,Ipomea paniculata,la-botanical,S2/S5
+HERB-0240,Ipomoea paniculata,la-botanical,S2/S5
+HERB-0241,kṛṣṇabīja,sa-Latn-IAST,S2
+HERB-0241,कृष्णबीज,sa-Deva,derived
+HERB-0241,Blue Morning Glory,en,S2/S5
+HERB-0241,Japanese Morning Glory,en,S2/S5
+HERB-0241,White-Edge Morning Glory,en,S2/S5
+HERB-0241,Ipomoea nil,la-botanical,S2/S5
+HERB-0241,Ipomoea hederacea,la-botanical,S2/S5
+HERB-0242,Iris versicolor,en,S2/S5
+HERB-0242,Iris versicolor,la-botanical,S2/S5
+HERB-0243,जूही,hi-Deva,S6
+HERB-0243,Needle-flower Jasmine,en,S2/S5
+HERB-0243,Jasminum auriculatum,la-botanical,S2/S5
+HERB-0243,Amishta,sa-Latn-ascii,S5
+HERB-0243,Ganika,sa-Latn-ascii,S5
+HERB-0243,Magadhi bheda,sa-Latn-ascii,S5
+HERB-0243,Yuthi,sa-Latn-ascii,S5
+HERB-0244,jātī,sa-Latn-IAST,S2
+HERB-0244,जाती,sa-Deva,derived
+HERB-0244,चमेली,hi-Deva,S6
+HERB-0244,Spanish Jasmine,en,S2/S5
+HERB-0244,Jasminum grandiflorum,la-botanical,S2/S5
+HERB-0244,Chetika,sa-Latn-ascii,S5
+HERB-0244,Malati,sa-Latn-ascii,S5
+HERB-0244,Rajaputrika,sa-Latn-ascii,S5
+HERB-0244,Sumanas,sa-Latn-ascii,S5
+HERB-0245,jātī,sa-Latn-IAST,S2
+HERB-0245,जाती,sa-Deva,derived
+HERB-0245,Spanish jasmine Common jasmine,en,S2/S5
+HERB-0245,Catalonian jasmine,en,S2/S5
+HERB-0245,Jasminum officinale,la-botanical,S2/S5
+HERB-0246,śrīpadī,sa-Latn-IAST,S2
+HERB-0246,श्रीपदी,sa-Deva,derived
+HERB-0246,Arabian jasmine/Tuscan jasmine/Sambac jasmine,en,S2/S5
+HERB-0246,Jasminum sambac,la-botanical,S2/S5
+HERB-0247,kalambā,sa-Latn-IAST,S2
+HERB-0247,कलम्बा,sa-Deva,derived
+HERB-0247,Jateorhiza,en,S2/S5
+HERB-0247,Jateorhiza palmata,la-botanical,S2/S5
+HERB-0248,अख़रोट,hi-Deva,S6
+HERB-0248,अखरोट,hi-Deva,S6
+HERB-0248,Walnut,en,S2/S5
+HERB-0248,Juglans regia,la-botanical,S2/S5
+HERB-0248,Akshoda,sa-Latn-ascii,S5
+HERB-0248,Piluka,sa-Latn-ascii,S5
+HERB-0248,Vatama,sa-Latn-ascii,S5
+HERB-0249,hapuṣā,sa-Latn-IAST,S2
+HERB-0249,हपुषा,sa-Deva,derived
+HERB-0249,common juniper,en,S2/S5
+HERB-0249,Juniperus communis,la-botanical,S2/S5
+HERB-0249,Dhvankshanasini,sa-Latn-ascii,S5
+HERB-0249,Kaphaghni,sa-Latn-ascii,S5
+HERB-0249,Matsyagandha,sa-Latn-ascii,S5
+HERB-0249,Visra,sa-Latn-ascii,S5
+HERB-0250,vāsā,sa-Latn-IAST,S2
+HERB-0250,वासा,sa-Deva,derived
+HERB-0250,वसाका,hi-Deva,S6
+HERB-0250,Malabar nut/adhatoda/vasa/vasaka,en,S2/S5
+HERB-0250,Justicia adhatoda,la-botanical,S2/S5
+HERB-0250,Adhatoda zeylanica,la-botanical,S2/S5
+HERB-0250,Adhatoda vasica,la-botanical,S2/S5
+HERB-0250,Atarusha,sa-Latn-ascii,S5
+HERB-0250,Vaidyamata,sa-Latn-ascii,S5
+HERB-0250,Vasa,sa-Latn-ascii,S5
+HERB-0250,Vrisha,sa-Latn-ascii,S5
+HERB-0251,Lac,en,S2/S5
+HERB-0251,Laccifer lacca,la-botanical,S2/S5
+HERB-0251,Dipta,sa-Latn-ascii,S5
+HERB-0251,Jatu,sa-Latn-ascii,S5
+HERB-0251,Krumija,sa-Latn-ascii,S5
+HERB-0251,Raktavinasha,sa-Latn-ascii,S5
+HERB-0252,kaṭutumbī,sa-Latn-IAST,S2
+HERB-0252,कटुतुम्बी,sa-Deva,derived
+HERB-0252,लौकी,hi-Deva,S6
+HERB-0252,अलाबु,sa-Deva,S6
+HERB-0252,Bitter bottle gourd,en,S2/S5
+HERB-0252,Bitter calbash gourd,en,S2/S5
+HERB-0252,Lagenaria siceraria,la-botanical,S2/S5
+HERB-0252,Ikshvaku,sa-Latn-ascii,S5
+HERB-0252,Katutumbi,sa-Latn-ascii,S5
+HERB-0252,Tumbi,sa-Latn-ascii,S5
+HERB-0253,Pea,en,S2/S5
+HERB-0253,Pisum sativum,la-botanical,S2/S5
+HERB-0253,Harenu bheda,sa-Latn-ascii,S5
+HERB-0253,Kalaya bheda,sa-Latn-ascii,S5
+HERB-0253,Vartula,sa-Latn-ascii,S5
+HERB-0254,madayantī,sa-Latn-IAST,S2
+HERB-0254,मदयन्ती,sa-Deva,derived
+HERB-0254,हिना,hi-Deva,S6
+HERB-0254,Henna,en,S2/S5
+HERB-0254,Egyptian priven,en,S2/S5
+HERB-0254,Cypress shrub,en,S2/S5
+HERB-0254,Lawsonia intermis,la-botanical,S2/S5
+HERB-0254,Lawsonia inermis,la-botanical,S2/S5
+HERB-0254,Madayanti,sa-Latn-ascii,S5
+HERB-0254,Mendhika,sa-Latn-ascii,S5
+HERB-0254,Nakharanjaka,sa-Latn-ascii,S5
+HERB-0254,Raktagarbha,sa-Latn-ascii,S5
+HERB-0255,Large-leaved Leea,en,S2/S5
+HERB-0255,Leea macrophylla,la-botanical,S2/S5
+HERB-0255,Hastikarna,sa-Latn-ascii,S5
+HERB-0255,Samudraka,sa-Latn-ascii,S5
+HERB-0255,Vrikshadani bheda,sa-Latn-ascii,S5
+HERB-0256,granthiparṇī,sa-Latn-IAST,S2
+HERB-0256,ग्रन्थिपर्णी,sa-Deva,derived
+HERB-0256,klip dagga,en,S2/S5
+HERB-0256,Christmas candlestick,en,S2/S5
+HERB-0256,lion's ear,en,S2/S5
+HERB-0256,Leonotis nepetaefolia,la-botanical,S2/S5
+HERB-0257,Garden Cress,en,S2/S5
+HERB-0257,Lepidium sativum,la-botanical,S2/S5
+HERB-0257,Asalika,sa-Latn-ascii,S5
+HERB-0257,Chandrika,sa-Latn-ascii,S5
+HERB-0257,Pippali,sa-Latn-ascii,S5
+HERB-0257,Ravika,sa-Latn-ascii,S5
+HERB-0258,jīvantī,sa-Latn-IAST,S2
+HERB-0258,जीवन्ती,sa-Deva,derived
+HERB-0258,Cork Swallow-Wort,en,S2/S5
+HERB-0258,Leptadenia recticulata,la-botanical,S2/S5
+HERB-0258,Leptadenia reticulata,la-botanical,S2/S5
+HERB-0258,Jivaniya,sa-Latn-ascii,S5
+HERB-0258,Mangalya,sa-Latn-ascii,S5
+HERB-0258,Payaswini,sa-Latn-ascii,S5
+HERB-0258,Shakashreshtha,sa-Latn-ascii,S5
+HERB-0259,द्रोणपुष्पी,hi-Deva,S6
+HERB-0259,द्रोणपुष्पीसस्यम्,sa-Deva,S6
+HERB-0259,Leucas,en,S2/S5
+HERB-0259,Leucas cephalotes,la-botanical,S2/S5
+HERB-0259,Chatra,sa-Latn-ascii,S5
+HERB-0259,Chitra,sa-Latn-ascii,S5
+HERB-0259,Gudaphala,sa-Latn-ascii,S5
+HERB-0259,Kshudra,sa-Latn-ascii,S5
+HERB-0260,murā,sa-Latn-IAST,S2
+HERB-0260,मुरा,sa-Deva,derived
+HERB-0260,Milk Parsley,en,S2/S5
+HERB-0260,Selinum wallichianum,la-botanical,S2/S5
+HERB-0260,Selinum tenuifolium,la-botanical,S2/S5
+HERB-0260,Bhutahanta,sa-Latn-ascii,S5
+HERB-0260,Jatamansi bheda,sa-Latn-ascii,S5
+HERB-0260,Murashi,sa-Latn-ascii,S5
+HERB-0261,kākolī,sa-Latn-IAST,S2
+HERB-0261,काकोली,sa-Deva,derived
+HERB-0261,kakoli,en,S2/S5
+HERB-0261,Lilium polyphyllum,la-botanical,S2/S5
+HERB-0262,kapittha,sa-Latn-IAST,S2
+HERB-0262,कपित्थ,sa-Deva,derived
+HERB-0262,कबिट,hi-Deva,S6
+HERB-0262,कठबेल,hi-Deva,S6
+HERB-0262,कपित्थ,hi-Deva,S6
+HERB-0262,Elephant apple,en,S2/S5
+HERB-0262,Wood apple,en,S2/S5
+HERB-0262,Curd fruit,en,S2/S5
+HERB-0262,Monkey fruit,en,S2/S5
+HERB-0262,Limonia acidissima,la-botanical,S2/S5
+HERB-0262,Feronia limonia,la-botanical,S2/S5
+HERB-0262,Dadhittha,sa-Latn-ascii,S5
+HERB-0262,Dantasatha,sa-Latn-ascii,S5
+HERB-0262,Pushpaphal,sa-Latn-ascii,S5
+HERB-0262,Surabhichhada,sa-Latn-ascii,S5
+HERB-0263,atasī,sa-Latn-IAST,S2
+HERB-0263,अतसी,sa-Deva,derived
+HERB-0263,अलसी,hi-Deva,S6
+HERB-0263,"अलसी एक चमत्कारी, आयुवर्धक, आरोग्यवर्धक दैविक भोजन",hi-Deva,S6
+HERB-0263,तीसी,hi-Deva,S6
+HERB-0263,सन,hi-Deva,S6
+HERB-0263,Linseed,en,S2/S5
+HERB-0263,Flax plant,en,S2/S5
+HERB-0263,Linum usitatissimum,la-botanical,S2/S5
+HERB-0263,Kshuma,sa-Latn-ascii,S5
+HERB-0263,Malina,sa-Latn-ascii,S5
+HERB-0263,Nilapushpi,sa-Latn-ascii,S5
+HERB-0263,Uma,sa-Latn-ascii,S5
+HERB-0264,turuṣka,sa-Latn-IAST,S2
+HERB-0264,तुरुष्क,sa-Deva,derived
+HERB-0264,Rasamala,en,S2/S5
+HERB-0264,Altingia excelsa,la-botanical,S2/S5
+HERB-0265,Glabrous Laurel,en,S2/S5
+HERB-0265,Litsea glutinosa,la-botanical,S2/S5
+HERB-0265,Maida-lakadi,sa-Latn-ascii,S5
+HERB-0265,Medasvini,sa-Latn-ascii,S5
+HERB-0265,Vatagnikshupa,sa-Latn-ascii,S5
+HERB-0266,kośātakī,sa-Latn-IAST,S2
+HERB-0266,कोशातकी,sa-Deva,derived
+HERB-0266,तोरई,hi-Deva,S6
+HERB-0266,Ridged gourd,en,S2/S5
+HERB-0266,Ribbed gourd,en,S2/S5
+HERB-0266,Luffa acutangula,la-botanical,S2/S5
+HERB-0266,Luffa amara,la-botanical,S2/S5
+HERB-0266,Devadali bheda,sa-Latn-ascii,S5
+HERB-0266,Dhamargava,sa-Latn-ascii,S5
+HERB-0266,Karkashada,sa-Latn-ascii,S5
+HERB-0266,Kritavedhana,sa-Latn-ascii,S5
+HERB-0266,Rajakoshataki,sa-Latn-ascii,S5
+HERB-0266,Tikta Koshataki,sa-Latn-ascii,S5
+HERB-0267,Sponge Gourd,en,S2/S5
+HERB-0267,Luffa cylindrica,la-botanical,S2/S5
+HERB-0267,Garanasaka,sa-Latn-ascii,S5
+HERB-0267,Mahakoshataki,sa-Latn-ascii,S5
+HERB-0267,Rajakoshataki,sa-Latn-ascii,S5
+HERB-0268,Bristly Luffa,en,S2/S5
+HERB-0268,Luffa echinata,la-botanical,S2/S5
+HERB-0268,Devatadana,sa-Latn-ascii,S5
+HERB-0268,Garagara,sa-Latn-ascii,S5
+HERB-0268,Khara,sa-Latn-ascii,S5
+HERB-0268,Vrittakosha,sa-Latn-ascii,S5
+HERB-0269,kulattha,sa-Latn-IAST,S2
+HERB-0269,कुलत्थ,sa-Deva,derived
+HERB-0269,Macrotyloma biflorum,en,S2/S5
+HERB-0269,Dolichos biflorus,la-botanical,S2/S5
+HERB-0270,kulattha,sa-Latn-IAST,S2
+HERB-0270,कुलत्थ,sa-Deva,derived
+HERB-0270,कुलथी,hi-Deva,S6
+HERB-0270,कुळित्थः,sa-Deva,S6
+HERB-0270,Horse Gram,en,S2/S5
+HERB-0270,Macrotyloma uniflorum,la-botanical,S2/S5
+HERB-0270,Kuliraka,sa-Latn-ascii,S5
+HERB-0270,Tamrabija,sa-Latn-ascii,S5
+HERB-0271,महुआ,hi-Deva,S6
+HERB-0271,महुवा,hi-Deva,S6
+HERB-0271,Madhuca longifolia,en,S2/S5
+HERB-0271,Madhuca indica,la-botanical,S2/S5
+HERB-0272,Sedge,en,S2/S5
+HERB-0272,Onosma bracteata,la-botanical,S2/S5
+HERB-0272,Darvika,sa-Latn-ascii,S5
+HERB-0272,Kharapatrini,sa-Latn-ascii,S5
+HERB-0272,Vrikshadani,sa-Latn-ascii,S5
+HERB-0273,jīvaka,sa-Latn-IAST,S2
+HERB-0273,जीवक,sa-Deva,derived
+HERB-0273,Jeevak,en,S2/S5
+HERB-0273,Malaxis muscifera,la-botanical,S2/S5
+HERB-0273,Bandhura,sa-Latn-ascii,S5
+HERB-0273,Dhira,sa-Latn-ascii,S5
+HERB-0273,Gindra,sa-Latn-ascii,S5
+HERB-0273,Vrishabha,sa-Latn-ascii,S5
+HERB-0274,kampillaka,sa-Latn-IAST,S2
+HERB-0274,कम्पिल्लक,sa-Deva,derived
+HERB-0274,Kamala tree,en,S2/S5
+HERB-0274,Mallotus philippensis,la-botanical,S2/S5
+HERB-0274,Lohitanga,sa-Latn-ascii,S5
+HERB-0274,Raktanga,sa-Latn-ascii,S5
+HERB-0274,Ranjaka,sa-Latn-ascii,S5
+HERB-0274,Rechi,sa-Latn-ascii,S5
+HERB-0275,āmra,sa-Latn-IAST,S2
+HERB-0275,आम्र,sa-Deva,derived
+HERB-0275,आम,hi-Deva,S6
+HERB-0275,चूतम्,sa-Deva,S6
+HERB-0275,Mango tree,en,S2/S5
+HERB-0275,Spring tree,en,S2/S5
+HERB-0275,Cupid's favourite,en,S2/S5
+HERB-0275,Cuckoo's joy,en,S2/S5
+HERB-0275,Mangifera indica,la-botanical,S2/S5
+HERB-0275,Chuta,sa-Latn-ascii,S5
+HERB-0275,Kamanga,sa-Latn-ascii,S5
+HERB-0275,Rasala,sa-Latn-ascii,S5
+HERB-0275,Sahakara,sa-Latn-ascii,S5
+HERB-0276,kaiḍarya,sa-Latn-IAST,S2
+HERB-0276,कैडर्य,sa-Deva,derived
+HERB-0276,बकायन,hi-Deva,S6
+HERB-0276,महानिम्बिसस्यम्,sa-Deva,S6
+HERB-0276,Neem tree,en,S2/S5
+HERB-0276,Margosa tree,en,S2/S5
+HERB-0276,Indian lilac,en,S2/S5
+HERB-0276,Melia azedarach,la-botanical,S2/S5
+HERB-0276,Dreka,sa-Latn-ascii,S5
+HERB-0276,Keshamushti,sa-Latn-ascii,S5
+HERB-0276,Ramvriksha,sa-Latn-ascii,S5
+HERB-0276,Vishamushtika,sa-Latn-ascii,S5
+HERB-0277,pudīnā/pūtihā,sa-Latn-IAST,S2
+HERB-0277,पुदीना/पूतिहा,sa-Deva,derived
+HERB-0277,पुदीना,hi-Deva,S6
+HERB-0277,पोदीना,hi-Deva,S6
+HERB-0277,पुतिहासस्यम्,sa-Deva,S6
+HERB-0277,Mint,en,S2/S5
+HERB-0277,Mentha arvensis,la-botanical,S2/S5
+HERB-0278,ākhuparṇī,sa-Latn-IAST,S2
+HERB-0278,आखुपर्णी,sa-Deva,derived
+HERB-0278,Undarkani,en,S2/S5
+HERB-0278,Kidney Leaf Morning Glory,en,S2/S5
+HERB-0278,Ipomoea reniformis,la-botanical,S2/S5
+HERB-0278,Akhukarni,sa-Latn-ascii,S5
+HERB-0278,Bhuchari,sa-Latn-ascii,S5
+HERB-0278,Mushikakarni,sa-Latn-ascii,S5
+HERB-0279,nāgakeśara,sa-Latn-IAST,S2
+HERB-0279,नागकेशर,sa-Deva,derived
+HERB-0279,नाग केसर,hi-Deva,S6
+HERB-0279,नागकेसरः,sa-Deva,S6
+HERB-0279,Mesua,en,S2/S5
+HERB-0279,Iron-wood tree,en,S2/S5
+HERB-0279,Mesua ferrea,la-botanical,S2/S5
+HERB-0279,Champeya,sa-Latn-ascii,S5
+HERB-0279,Ibha,sa-Latn-ascii,S5
+HERB-0279,Keshara,sa-Latn-ascii,S5
+HERB-0279,Nagapushpa,sa-Latn-ascii,S5
+HERB-0280,lajjālu,sa-Latn-IAST,S2
+HERB-0280,लज्जालु,sa-Deva,derived
+HERB-0280,छुइमुइ पौधा,hi-Deva,S6
+HERB-0280,लज्जालुसस्यम्,sa-Deva,S6
+HERB-0280,Sensitive plant,en,S2/S5
+HERB-0280,Humble plant,en,S2/S5
+HERB-0280,Mimosa pudica,la-botanical,S2/S5
+HERB-0280,Anjalikarika,sa-Latn-ascii,S5
+HERB-0280,Namaskari,sa-Latn-ascii,S5
+HERB-0280,Raktapadi,sa-Latn-ascii,S5
+HERB-0280,Samanga,sa-Latn-ascii,S5
+HERB-0281,बकुल,hi-Deva,S6
+HERB-0281,Bullet Wood Tree,en,S2/S5
+HERB-0281,Mimusops elengi,la-botanical,S2/S5
+HERB-0281,Ghanasara,sa-Latn-ascii,S5
+HERB-0281,Madgandhah,sa-Latn-ascii,S5
+HERB-0281,Sinha-keshara,sa-Latn-ascii,S5
+HERB-0281,Visharada,sa-Latn-ascii,S5
+HERB-0282,kṛtrima,sa-Latn-IAST,S2
+HERB-0282,कृत्रिम,sa-Deva,derived
+HERB-0282,Mimosops hexandra,la-botanical,S2/S5
+HERB-0283,kāravellaka,sa-Latn-IAST,S2
+HERB-0283,कारवेल्लक,sa-Deva,derived
+HERB-0283,करेला,hi-Deva,S6
+HERB-0283,कारवेल्लम्,sa-Deva,S6
+HERB-0283,Bitter gourd,en,S2/S5
+HERB-0283,Carilla fruit,en,S2/S5
+HERB-0283,Momordica charantia,la-botanical,S2/S5
+HERB-0283,Kathilla,sa-Latn-ascii,S5
+HERB-0283,Pravila,sa-Latn-ascii,S5
+HERB-0283,Sushavi,sa-Latn-ascii,S5
+HERB-0283,Ugraganda,sa-Latn-ascii,S5
+HERB-0284,kaṭphala,sa-Latn-IAST,S2
+HERB-0284,कट्फल,sa-Deva,derived
+HERB-0284,काफल,hi-Deva,S6
+HERB-0284,Box myrtle,en,S2/S5
+HERB-0284,bayberry and kaphal,en,S2/S5
+HERB-0284,Myrica esculenta,la-botanical,S2/S5
+HERB-0284,Bhadra,sa-Latn-ascii,S5
+HERB-0284,Kaiyaphala,sa-Latn-ascii,S5
+HERB-0284,Kumuda,sa-Latn-ascii,S5
+HERB-0284,Mahabal,sa-Latn-ascii,S5
+HERB-0285,Konkan Moringa,en,S2/S5
+HERB-0285,Moringa concanensis,la-botanical,S2/S5
+HERB-0285,Katushigru,sa-Latn-ascii,S5
+HERB-0285,Madhu Shigru bheda,sa-Latn-ascii,S5
+HERB-0285,Murangee,sa-Latn-ascii,S5
+HERB-0286,śigru,sa-Latn-IAST,S2
+HERB-0286,शिग्रु,sa-Deva,derived
+HERB-0286,सहजन,hi-Deva,S6
+HERB-0286,शिग्रुः,sa-Deva,S6
+HERB-0286,Horse-radish tree/Drumstick tree,en,S2/S5
+HERB-0286,Moringa oleifera,la-botanical,S2/S5
+HERB-0286,Akshiva,sa-Latn-ascii,S5
+HERB-0286,Bahumula Patra,sa-Latn-ascii,S5
+HERB-0286,Mochaka,sa-Latn-ascii,S5
+HERB-0286,Sobhanjana,sa-Latn-ascii,S5
+HERB-0286,Sobhanjana Patra,sa-Latn-ascii,S5
+HERB-0286,Tikshnagandha,sa-Latn-ascii,S5
+HERB-0286,Tikshnagandha Patra,sa-Latn-ascii,S5
+HERB-0287,ātmaguptā,sa-Latn-IAST,S2
+HERB-0287,आत्मगुप्ता,sa-Deva,derived
+HERB-0287,किवांच,hi-Deva,S6
+HERB-0287,Common cowitch,en,S2/S5
+HERB-0287,Cowhage plant,en,S2/S5
+HERB-0287,Mucuna pruriens,la-botanical,S2/S5
+HERB-0287,Mucuna prurita,la-botanical,S2/S5
+HERB-0287,Atmagupta,sa-Latn-ascii,S5
+HERB-0287,Kandura,sa-Latn-ascii,S5
+HERB-0287,Markati,sa-Latn-ascii,S5
+HERB-0287,Vrishya,sa-Latn-ascii,S5
+HERB-0288,kaiḍarya,sa-Latn-IAST,S2
+HERB-0288,कैडर्य,sa-Deva,derived
+HERB-0288,कढ़ी पत्ते का पेड़,hi-Deva,S6
+HERB-0288,करी पत्ता,hi-Deva,S6
+HERB-0288,मीठी नीम,hi-Deva,S6
+HERB-0288,कृष्णनिम्बपत्रम्,sa-Deva,S6
+HERB-0288,Murraya koenigii,en,S2/S5
+HERB-0288,Murraya koenigii,la-botanical,S2/S5
+HERB-0289,kadalī,sa-Latn-IAST,S2
+HERB-0289,कदली,sa-Deva,derived
+HERB-0289,Banana,en,S2/S5
+HERB-0289,Plantain,en,S2/S5
+HERB-0289,Musa paradisiaca,la-botanical,S2/S5
+HERB-0289,Amshumatphala,sa-Latn-ascii,S5
+HERB-0289,Mochaka,sa-Latn-ascii,S5
+HERB-0289,Rambha,sa-Latn-ascii,S5
+HERB-0289,Varana,sa-Latn-ascii,S5
+HERB-0290,jātīphala,sa-Latn-IAST,S2
+HERB-0290,जातीफल,sa-Deva,derived
+HERB-0290,मिरिस्तिका फ्राग्रान्स,hi-Deva,S6
+HERB-0290,जायफल,hi-Deva,S6
+HERB-0290,जाती,sa-Deva,S6
+HERB-0290,Nutmeg tree,en,S2/S5
+HERB-0290,Mace tree,en,S2/S5
+HERB-0290,Myristica fragrans,la-botanical,S2/S5
+HERB-0290,Jatikosha,sa-Latn-ascii,S5
+HERB-0290,Malatiphala,sa-Latn-ascii,S5
+HERB-0290,Putaphala,sa-Latn-ascii,S5
+HERB-0291,jaṭāmāṃsī,sa-Latn-IAST,S2
+HERB-0291,जटामांसी,sa-Deva,derived
+HERB-0291,जटामांसी,hi-Deva,S6
+HERB-0291,Spikenard,en,S2/S5
+HERB-0291,Indian nard,en,S2/S5
+HERB-0291,Musk root,en,S2/S5
+HERB-0291,Nardostachys jatamansi,la-botanical,S2/S5
+HERB-0291,Nardostachys jatamamsi,la-botanical,S2/S5
+HERB-0291,Bhutajata,sa-Latn-ascii,S5
+HERB-0291,Naladi,sa-Latn-ascii,S5
+HERB-0291,Tapaswini,sa-Latn-ascii,S5
+HERB-0291,Vilomasa,sa-Latn-ascii,S5
+HERB-0292,kamala,sa-Latn-IAST,S2
+HERB-0292,कमल,sa-Deva,derived
+HERB-0292,कमल,hi-Deva,S6
+HERB-0292,कमलम्,sa-Deva,S6
+HERB-0292,Sacred lotus,en,S2/S5
+HERB-0292,Indian lotus,en,S2/S5
+HERB-0292,Chinese water lily,en,S2/S5
+HERB-0292,Nelumbo nucifera,la-botanical,S2/S5
+HERB-0292,Aravinda,sa-Latn-ascii,S5
+HERB-0292,Nalina,sa-Latn-ascii,S5
+HERB-0292,Padma,sa-Latn-ascii,S5
+HERB-0292,Pankaja,sa-Latn-ascii,S5
+HERB-0293,kadamba,sa-Latn-IAST,S2
+HERB-0293,कदम्ब,sa-Deva,derived
+HERB-0293,कदंब वृक्ष,hi-Deva,S6
+HERB-0293,हरिद्र,hi-Deva,S6
+HERB-0293,नीप,hi-Deva,S6
+HERB-0293,कदम्बः,sa-Deva,S6
+HERB-0293,Burflower Tree,en,S2/S5
+HERB-0293,Neolamarckia cadamba,la-botanical,S2/S5
+HERB-0293,Halipriya,sa-Latn-ascii,S5
+HERB-0293,Neepa,sa-Latn-ascii,S5
+HERB-0293,Nipa,sa-Latn-ascii,S5
+HERB-0293,Priyaka,sa-Latn-ascii,S5
+HERB-0294,karavīra,sa-Latn-IAST,S2
+HERB-0294,करवीर,sa-Deva,derived
+HERB-0294,Indian oleander,en,S2/S5
+HERB-0294,Sweet-scented oleander,en,S2/S5
+HERB-0294,Nerium indicum,la-botanical,S2/S5
+HERB-0295,karavīra,sa-Latn-IAST,S2
+HERB-0295,करवीर,sa-Deva,derived
+HERB-0295,कनेर,hi-Deva,S6
+HERB-0295,करवीरः,sa-Deva,S6
+HERB-0295,Oleander,en,S2/S5
+HERB-0295,Nerium oleander,la-botanical,S2/S5
+HERB-0295,Ashwamaraka,sa-Latn-ascii,S5
+HERB-0295,Chandata,sa-Latn-ascii,S5
+HERB-0295,Hayamaraka,sa-Latn-ascii,S5
+HERB-0295,Pratihasa,sa-Latn-ascii,S5
+HERB-0296,upakuñcikā,sa-Latn-IAST,S2
+HERB-0296,उपकुञ्चिका,sa-Deva,derived
+HERB-0296,Small fennel,en,S2/S5
+HERB-0296,Black cumin,en,S2/S5
+HERB-0296,Nigella sativa,la-botanical,S2/S5
+HERB-0296,Kalonji,sa-Latn-ascii,S5
+HERB-0296,Prthvika,sa-Latn-ascii,S5
+HERB-0296,Sushavi,sa-Latn-ascii,S5
+HERB-0296,Upakunchika,sa-Latn-ascii,S5
+HERB-0297,प्राजक्ता,hi-Deva,S6
+HERB-0297,पारिजात,hi-Deva,S6
+HERB-0297,Parijat,hi-Deva,S6
+HERB-0297,परिजात,hi-Deva,S6
+HERB-0297,प्राजक्ता(फ़ूल),hi-Deva,S6
+HERB-0297,शेफ़ाली,hi-Deva,S6
+HERB-0297,हरसिंगार,hi-Deva,S6
+HERB-0297,पारिजात वृक्षः,sa-Deva,S6
+HERB-0297,Night-flowering Jasmine,en,S2/S5
+HERB-0297,Nyctanthes arbor-tristis,la-botanical,S2/S5
+HERB-0297,Khara Patraka,sa-Latn-ascii,S5
+HERB-0297,Prajakta,sa-Latn-ascii,S5
+HERB-0297,Rajanihasa,sa-Latn-ascii,S5
+HERB-0297,Shephali,sa-Latn-ascii,S5
+HERB-0298,utpala,sa-Latn-IAST,S2
+HERB-0298,उत्पल,sa-Deva,derived
+HERB-0298,White Water Lily,en,S2/S5
+HERB-0298,Nymphaea alba,la-botanical,S2/S5
+HERB-0298,Indivara,sa-Latn-ascii,S5
+HERB-0298,Kairava,sa-Latn-ascii,S5
+HERB-0298,Shwetakamala,sa-Latn-ascii,S5
+HERB-0298,Sitambhoja,sa-Latn-ascii,S5
+HERB-0299,Nymphaea lotus,en,S2/S5
+HERB-0299,Nymphaea lotus,la-botanical,S2/S5
+HERB-0300,utpala,sa-Latn-IAST,S2
+HERB-0300,उत्पल,sa-Deva,derived
+HERB-0300,नीलकमल,hi-Deva,S6
+HERB-0300,Indian water lily,en,S2/S5
+HERB-0300,Nymphaea nouchali,la-botanical,S2/S5
+HERB-0300,Nymphaea stellata,la-botanical,S2/S5
+HERB-0300,Asitotpala,sa-Latn-ascii,S5
+HERB-0300,Indivara,sa-Latn-ascii,S5
+HERB-0300,Kumuda bheda,sa-Latn-ascii,S5
+HERB-0300,Nilotpala,sa-Latn-ascii,S5
+HERB-0301,Nymphaea stellata,la-botanical,S2/S5
+HERB-0302,tulasī,sa-Latn-IAST,S2
+HERB-0302,तुलसी,sa-Deva,derived
+HERB-0302,तुलसी,hi-Deva,S6
+HERB-0302,तुलसी,sa-Deva,S6
+HERB-0302,Holy basil,en,S2/S5
+HERB-0302,Sacred basil,en,S2/S5
+HERB-0302,Ocimum tenuiflorum,la-botanical,S2/S5
+HERB-0302,Ocimum sanctum,la-botanical,S2/S5
+HERB-0302,Apetarakshasi,sa-Latn-ascii,S5
+HERB-0302,Bhuteshta,sa-Latn-ascii,S5
+HERB-0302,Gauri,sa-Latn-ascii,S5
+HERB-0302,Surasa,sa-Latn-ascii,S5
+HERB-0303,trivṛt,sa-Latn-IAST,S2
+HERB-0303,त्रिवृत्,sa-Deva,derived
+HERB-0303,निसोथ,hi-Deva,S6
+HERB-0303,Indian jalap,en,S2/S5
+HERB-0303,Turpeth,en,S2/S5
+HERB-0303,Operculina turpethum,la-botanical,S2/S5
+HERB-0303,Ipomoea turpethum,la-botanical,S2/S5
+HERB-0303,Kumbhi,sa-Latn-ascii,S5
+HERB-0303,Sarvanubhuti,sa-Latn-ascii,S5
+HERB-0303,Syama,sa-Latn-ascii,S5
+HERB-0303,Tribhandi,sa-Latn-ascii,S5
+HERB-0304,Mongoose Plant,en,S2/S5
+HERB-0304,Ophiorrhiza mungos,la-botanical,S2/S5
+HERB-0304,Gandhanakuli,sa-Latn-ascii,S5
+HERB-0304,Nagavalli bheda,sa-Latn-ascii,S5
+HERB-0304,Sarpadani,sa-Latn-ascii,S5
+HERB-0305,śyonāka,sa-Latn-IAST,S2
+HERB-0305,श्योनाक,sa-Deva,derived
+HERB-0305,Indian trumpet tree,en,S2/S5
+HERB-0305,Oroxylum indicum,la-botanical,S2/S5
+HERB-0305,Aralu,sa-Latn-ascii,S5
+HERB-0305,Dundubha,sa-Latn-ascii,S5
+HERB-0305,Katvanga,sa-Latn-ascii,S5
+HERB-0305,Shukanasa,sa-Latn-ascii,S5
+HERB-0306,śāli,sa-Latn-IAST,S2
+HERB-0306,शालि,sa-Deva,derived
+HERB-0306,ओराय्ज़ा सैटिवा,hi-Deva,S6
+HERB-0306,Paddy/Rice,en,S2/S5
+HERB-0306,Oryza sativa,la-botanical,S2/S5
+HERB-0306,Chavala,sa-Latn-ascii,S5
+HERB-0306,Dhanya,sa-Latn-ascii,S5
+HERB-0306,Shashtika,sa-Latn-ascii,S5
+HERB-0306,Tandula,sa-Latn-ascii,S5
+HERB-0307,Mountain Knot Grass,en,S2/S5
+HERB-0307,Aerva lanata,la-botanical,S2/S5
+HERB-0307,Bhadrika,sa-Latn-ascii,S5
+HERB-0307,Gorakshaganja,sa-Latn-ascii,S5
+HERB-0307,Pashanabheda bheda,sa-Latn-ascii,S5
+HERB-0308,Indian Sorrel,en,S2/S5
+HERB-0308,Oxalis corniculata,la-botanical,S2/S5
+HERB-0308,Amlapatrika,sa-Latn-ascii,S5
+HERB-0308,Asmantaka,sa-Latn-ascii,S5
+HERB-0308,Chaturparni,sa-Latn-ascii,S5
+HERB-0308,Dantashatha,sa-Latn-ascii,S5
+HERB-0309,prasāriṇī/gandha prasāriṇī,sa-Latn-IAST,S2
+HERB-0309,प्रसारिणी/गन्ध प्रसारिणी,sa-Deva,derived
+HERB-0309,Skunk vine,en,S2/S5
+HERB-0309,Paedaria foetida,la-botanical,S2/S5
+HERB-0309,Paederia scandens,la-botanical,S2/S5
+HERB-0309,Paederia foetida,la-botanical,S2/S5
+HERB-0309,Bhamsarani,sa-Latn-ascii,S5
+HERB-0309,Gandhaprasarini,sa-Latn-ascii,S5
+HERB-0309,Sarani,sa-Latn-ascii,S5
+HERB-0310,ketakī,sa-Latn-IAST,S2
+HERB-0310,केतकी,sa-Deva,derived
+HERB-0310,Screw pine,en,S2/S5
+HERB-0310,Umbrella tree,en,S2/S5
+HERB-0310,Pandanus odoratissimus,la-botanical,S2/S5
+HERB-0310,Pandanus tectorius,la-botanical,S2/S5
+HERB-0311,ketakī,sa-Latn-IAST,S2
+HERB-0311,केतकी,sa-Deva,derived
+HERB-0311,Fragrant Screw Pine,en,S2/S5
+HERB-0311,Pandanus odorifer,la-botanical,S2/S5
+HERB-0311,Dhulipushpika,sa-Latn-ascii,S5
+HERB-0311,Ketaka,sa-Latn-ascii,S5
+HERB-0311,Krakachachhada,sa-Latn-ascii,S5
+HERB-0311,Suchipushpa,sa-Latn-ascii,S5
+HERB-0312,ahiphena/khasakhasa,sa-Latn-IAST,S2
+HERB-0312,अहिफेन/खसखस,sa-Deva,derived
+HERB-0312,अफ़ीम पोस्ता,hi-Deva,S6
+HERB-0312,Opium poppy,en,S2/S5
+HERB-0312,White poppy,en,S2/S5
+HERB-0312,Papaver somniferum,la-botanical,S2/S5
+HERB-0312,Aphena,sa-Latn-ascii,S5
+HERB-0312,Khaskhasa,sa-Latn-ascii,S5
+HERB-0312,Nidrakara,sa-Latn-ascii,S5
+HERB-0313,śaileya,sa-Latn-IAST,S2
+HERB-0313,शैलेय,sa-Deva,derived
+HERB-0313,Stone flower,en,S2/S5
+HERB-0313,Parmelia perlata,la-botanical,S2/S5
+HERB-0314,hrivera,sa-Latn-IAST,S2
+HERB-0314,ह्रिवेर,sa-Deva,derived
+HERB-0314,Pavonia odorata,la-botanical,S2/S5
+HERB-0315,Scarlet Mallow,en,S2/S5
+HERB-0315,Pentapetes phoenicea,la-botanical,S2/S5
+HERB-0315,Arkapushpa,sa-Latn-ascii,S5
+HERB-0315,Bandhujivaka,sa-Latn-ascii,S5
+HERB-0315,Raktaka,sa-Latn-ascii,S5
+HERB-0316,Phaseolous trilobus,la-botanical,S2/S5
+HERB-0317,moha,sa-Latn-IAST,S2
+HERB-0317,मोह,sa-Deva,derived
+HERB-0317,Phaseolus mungo,la-botanical,S2/S5
+HERB-0318,Phaseolus trilobus,la-botanical,S2/S5
+HERB-0319,kharjūra,sa-Latn-IAST,S2
+HERB-0319,खर्जूर,sa-Deva,derived
+HERB-0319,खजूर,hi-Deva,S6
+HERB-0319,ख़जूर,hi-Deva,S6
+HERB-0319,खर्जूरम्,sa-Deva,S6
+HERB-0319,Date palm,en,S2/S5
+HERB-0319,Edible date,en,S2/S5
+HERB-0319,Phoenix dactylifera,la-botanical,S2/S5
+HERB-0319,Pinda Kharjura,sa-Latn-ascii,S5
+HERB-0319,Skandhaphala,sa-Latn-ascii,S5
+HERB-0319,Swadu,sa-Latn-ascii,S5
+HERB-0320,kharjūra,sa-Latn-IAST,S2
+HERB-0320,खर्जूर,sa-Deva,derived
+HERB-0320,खजूर,hi-Deva,S6
+HERB-0320,सेंधी,hi-Deva,S6
+HERB-0320,Phoenix sylvestris,en,S2/S5
+HERB-0320,Phoenix sylvestris,la-botanical,S2/S5
+HERB-0321,Frog Fruit,en,S2/S5
+HERB-0321,Phyla nodiflora,la-botanical,S2/S5
+HERB-0321,Jalapippali,sa-Latn-ascii,S5
+HERB-0321,Matsyandha,sa-Latn-ascii,S5
+HERB-0321,Shakunadani,sa-Latn-ascii,S5
+HERB-0321,Sharadi,sa-Latn-ascii,S5
+HERB-0322,Malay Gooseberry,en,S2/S5
+HERB-0322,Phyllanthus acidus,la-botanical,S2/S5
+HERB-0322,Lavaliphala,sa-Latn-ascii,S5
+HERB-0322,Pandu,sa-Latn-ascii,S5
+HERB-0322,Sugandhamula,sa-Latn-ascii,S5
+HERB-0323,tāmalakī,sa-Latn-IAST,S2
+HERB-0323,तामलकी,sa-Deva,derived
+HERB-0323,gale of the wind,en,S2/S5
+HERB-0323,stonebreaker,en,S2/S5
+HERB-0323,seed-under-leaf,en,S2/S5
+HERB-0323,Phyllanthus amarus,la-botanical,S2/S5
+HERB-0324,āmalakī,sa-Latn-IAST,S2
+HERB-0324,आमलकी,sa-Deva,derived
+HERB-0324,आँवला,hi-Deva,S6
+HERB-0324,आंवला,hi-Deva,S6
+HERB-0324,धात्री,sa-Deva,S6
+HERB-0324,Emblic myrobalan,en,S2/S5
+HERB-0324,Indian gooseberry,en,S2/S5
+HERB-0324,Phyllanthus emblica,la-botanical,S2/S5
+HERB-0324,Emblilca officinalis,la-botanical,S2/S5
+HERB-0324,Emblica officinalis,la-botanical,S2/S5
+HERB-0324,Embiica officinalis,la-botanical,S2/S5
+HERB-0324,Amalaki,sa-Latn-ascii,S5
+HERB-0324,Dhatri,sa-Latn-ascii,S5
+HERB-0324,Vayastha,sa-Latn-ascii,S5
+HERB-0324,Vrishya,sa-Latn-ascii,S5
+HERB-0325,tāmalakī,sa-Latn-IAST,S2
+HERB-0325,तामलकी,sa-Deva,derived
+HERB-0325,भुंई आमला,hi-Deva,S6
+HERB-0325,Stonebreaker,en,S2/S5
+HERB-0325,Phyllanthus niruri,la-botanical,S2/S5
+HERB-0325,Ajata,sa-Latn-ascii,S5
+HERB-0325,Bahupatra,sa-Latn-ascii,S5
+HERB-0325,Bhumyamalaki,sa-Latn-ascii,S5
+HERB-0325,Shiva,sa-Latn-ascii,S5
+HERB-0325,Tamalaki,sa-Latn-ascii,S5
+HERB-0326,kaṭukā,sa-Latn-IAST,S2
+HERB-0326,कटुका,sa-Deva,derived
+HERB-0326,Picrorhiza,en,S2/S5
+HERB-0326,Picrorhiza kurroa,la-botanical,S2/S5
+HERB-0326,Picrohiza kurroa,la-botanical,S2/S5
+HERB-0326,Chakrangi,sa-Latn-ascii,S5
+HERB-0326,Kauki,sa-Latn-ascii,S5
+HERB-0326,Matsyashakala,sa-Latn-ascii,S5
+HERB-0326,Tikta,sa-Latn-ascii,S5
+HERB-0327,aśmantaka,sa-Latn-IAST,S2
+HERB-0327,अश्मन्तक,sa-Deva,derived
+HERB-0327,Mountain ebony,en,S2/S5
+HERB-0327,Malabar bauhinia,en,S2/S5
+HERB-0327,Bauhinia malabarica,la-botanical,S2/S5
+HERB-0328,saralaḥ,sa-Latn-IAST,S2
+HERB-0328,सरलः,sa-Deva,derived
+HERB-0328,Chir pine/Himalayan long-leaved pine/ Three leaved pine,en,S2/S5
+HERB-0328,Pinus roxburghii,la-botanical,S2/S5
+HERB-0329,tāmbūla,sa-Latn-IAST,S2
+HERB-0329,ताम्बूल,sa-Deva,derived
+HERB-0329,पान,hi-Deva,S6
+HERB-0329,ताम्बूल,hi-Deva,S6
+HERB-0329,लखनवी पान,hi-Deva,S6
+HERB-0329,नागवल्लीपत्रम्,sa-Deva,S6
+HERB-0329,Betel,en,S2/S5
+HERB-0329,Betel leaf vine,en,S2/S5
+HERB-0329,Betel pepper,en,S2/S5
+HERB-0329,Piper betle,la-botanical,S2/S5
+HERB-0330,kaṅkola,sa-Latn-IAST,S2
+HERB-0330,कङ्कोल,sa-Deva,derived
+HERB-0330,कबाबचीनी,hi-Deva,S6
+HERB-0330,कंकोल,hi-Deva,S6
+HERB-0330,क्यूबेब,hi-Deva,S6
+HERB-0330,शीतलचीनी,hi-Deva,S6
+HERB-0330,सुगंधमरिच,hi-Deva,S6
+HERB-0330,Cubebs,en,S2/S5
+HERB-0330,Tailed pepper,en,S2/S5
+HERB-0330,Tailed cubebs,en,S2/S5
+HERB-0330,Java pepper,en,S2/S5
+HERB-0330,Piper cubeba,la-botanical,S2/S5
+HERB-0330,Chinoshana,sa-Latn-ascii,S5
+HERB-0330,Kababchini,sa-Latn-ascii,S5
+HERB-0330,Kola,sa-Latn-ascii,S5
+HERB-0330,Sugandha Maricha,sa-Latn-ascii,S5
+HERB-0331,pippalī,sa-Latn-IAST,S2
+HERB-0331,पिप्पली,sa-Deva,derived
+HERB-0331,पिप्पली,hi-Deva,S6
+HERB-0331,पिप्पली,sa-Deva,S6
+HERB-0331,Indian long pepper,en,S2/S5
+HERB-0331,Long pepper,en,S2/S5
+HERB-0331,Piper longum,la-botanical,S2/S5
+HERB-0331,Kana,sa-Latn-ascii,S5
+HERB-0331,Krishna,sa-Latn-ascii,S5
+HERB-0331,Magadhi,sa-Latn-ascii,S5
+HERB-0331,Vaidehi,sa-Latn-ascii,S5
+HERB-0332,marica,sa-Latn-IAST,S2
+HERB-0332,मरिच,sa-Deva,derived
+HERB-0332,काली मिर्च,hi-Deva,S6
+HERB-0332,कलि मिर्च्,hi-Deva,S6
+HERB-0332,कालीमिर्च,hi-Deva,S6
+HERB-0332,मरीचम्,sa-Deva,S6
+HERB-0332,Black pepper,en,S2/S5
+HERB-0332,Common pepper,en,S2/S5
+HERB-0332,Pepper,en,S2/S5
+HERB-0332,Piper nigrum,la-botanical,S2/S5
+HERB-0332,Krishna,sa-Latn-ascii,S5
+HERB-0332,Suvritta,sa-Latn-ascii,S5
+HERB-0332,Ushana,sa-Latn-ascii,S5
+HERB-0332,Vellaja,sa-Latn-ascii,S5
+HERB-0333,cavya,sa-Latn-IAST,S2
+HERB-0333,चव्य,sa-Deva,derived
+HERB-0333,Balinese long pepper,en,S2/S5
+HERB-0333,Javanese long pepper,en,S2/S5
+HERB-0333,Piper retrofractum,la-botanical,S2/S5
+HERB-0333,Piper chaba,la-botanical,S2/S5
+HERB-0333,Chavika,sa-Latn-ascii,S5
+HERB-0333,Chavya,sa-Latn-ascii,S5
+HERB-0333,Karikana,sa-Latn-ascii,S5
+HERB-0333,Katuveera,sa-Latn-ascii,S5
+HERB-0333,Krikara,sa-Latn-ascii,S5
+HERB-0333,Ushana,sa-Latn-ascii,S5
+HERB-0333,Vashira,sa-Latn-ascii,S5
+HERB-0334,karkaṭśṛṅgī,sa-Latn-IAST,S2
+HERB-0334,कर्कट्शृङ्गी,sa-Deva,derived
+HERB-0334,zebrawood,en,S2/S5
+HERB-0334,Pistacia chinensis subsp. integerrima,la-botanical,S2/S5
+HERB-0334,Pistacia integerrima,la-botanical,S2/S5
+HERB-0334,Pistacia chinensis,la-botanical,S2/S5
+HERB-0334,Ajashringi,sa-Latn-ascii,S5
+HERB-0334,Karkata,sa-Latn-ascii,S5
+HERB-0334,Shringi,sa-Latn-ascii,S5
+HERB-0334,Vishanika,sa-Latn-ascii,S5
+HERB-0335,rumī mastagī,sa-Latn-IAST,S2
+HERB-0335,रुमी मस्तगी,sa-Deva,derived
+HERB-0335,mastic tree,en,S2/S5
+HERB-0335,Pistacia lentiscus,la-botanical,S2/S5
+HERB-0336,पिस्ता,hi-Deva,S6
+HERB-0336,Pistachio,en,S2/S5
+HERB-0336,Pistacia vera,la-botanical,S2/S5
+HERB-0336,Abhishuka,sa-Latn-ascii,S5
+HERB-0336,Akshota bheda,sa-Latn-ascii,S5
+HERB-0336,Charuphala,sa-Latn-ascii,S5
+HERB-0336,Mukulaka,sa-Latn-ascii,S5
+HERB-0336,Pista,sa-Latn-ascii,S5
+HERB-0336,Pistah,sa-Latn-ascii,S5
+HERB-0337,jalakumbhī,sa-Latn-IAST,S2
+HERB-0337,जलकुम्भी,sa-Deva,derived
+HERB-0337,water cabbage,en,S2/S5
+HERB-0337,water lettuce,en,S2/S5
+HERB-0337,Nile cabbage,en,S2/S5
+HERB-0337,shellflower,en,S2/S5
+HERB-0337,Pistia stratiotes,la-botanical,S2/S5
+HERB-0337,Jalakumbhi,sa-Latn-ascii,S5
+HERB-0337,Kumbhi,sa-Latn-ascii,S5
+HERB-0337,Variparni,sa-Latn-ascii,S5
+HERB-0338,aśvagola,sa-Latn-IAST,S2
+HERB-0338,अश्वगोल,sa-Deva,derived
+HERB-0338,ईसबगोल,hi-Deva,S6
+HERB-0338,Ispaghula,en,S2/S5
+HERB-0338,Blond psyllium,en,S2/S5
+HERB-0338,Spogel seeds,en,S2/S5
+HERB-0338,Plantago ovata,la-botanical,S2/S5
+HERB-0338,Ashwakarna bheda,sa-Latn-ascii,S5
+HERB-0338,Ishadgola,sa-Latn-ascii,S5
+HERB-0338,Snigdhajibha,sa-Latn-ascii,S5
+HERB-0339,rāsnā,sa-Latn-IAST,S2
+HERB-0339,रास्ना,sa-Deva,derived
+HERB-0339,Pluchea,en,S2/S5
+HERB-0339,Indian Camphorweed,en,S2/S5
+HERB-0339,Indian Fleabane,en,S2/S5
+HERB-0339,Pluchea lanceolata,la-botanical,S2/S5
+HERB-0339,Elaparni,sa-Latn-ascii,S5
+HERB-0339,Rasya,sa-Latn-ascii,S5
+HERB-0339,Vayusvasa,sa-Latn-ascii,S5
+HERB-0339,Yukta,sa-Latn-ascii,S5
+HERB-0340,Indian Leadwort,en,S2/S5
+HERB-0340,Plumbago indica,la-botanical,S2/S5
+HERB-0340,Agni bheda,sa-Latn-ascii,S5
+HERB-0340,Dahana,sa-Latn-ascii,S5
+HERB-0340,Kokilachuda,sa-Latn-ascii,S5
+HERB-0340,Rakta Chitrak,sa-Latn-ascii,S5
+HERB-0341,citraka,sa-Latn-IAST,S2
+HERB-0341,चित्रक,sa-Deva,derived
+HERB-0341,Ceylon leadwort,en,S2/S5
+HERB-0341,doctorbush,en,S2/S5
+HERB-0341,wild leadwort,en,S2/S5
+HERB-0341,Plumbago zeylanica,la-botanical,S2/S5
+HERB-0341,Agni,sa-Latn-ascii,S5
+HERB-0341,Dahana,sa-Latn-ascii,S5
+HERB-0341,Vahni,sa-Latn-ascii,S5
+HERB-0341,Vyala,sa-Latn-ascii,S5
+HERB-0342,mahāmedā,sa-Latn-IAST,S2
+HERB-0342,महामेदा,sa-Deva,derived
+HERB-0342,Coiling leaf Solomon seal,en,S2/S5
+HERB-0342,Coiling leaf Polygonatum,en,S2/S5
+HERB-0342,Polygonatum cirrhifolium,la-botanical,S2/S5
+HERB-0342,Manichidra,sa-Latn-ascii,S5
+HERB-0342,Purushadanti,sa-Latn-ascii,S5
+HERB-0342,Svalpashurpa,sa-Latn-ascii,S5
+HERB-0343,medā,sa-Latn-IAST,S2
+HERB-0343,मेदा,sa-Deva,derived
+HERB-0343,whorled Solomon's-seal,en,S2/S5
+HERB-0343,Polygonatum verticillatum,la-botanical,S2/S5
+HERB-0344,karañja,sa-Latn-IAST,S2
+HERB-0344,करञ्ज,sa-Deva,derived
+HERB-0344,Indian beech,en,S2/S5
+HERB-0344,Pongam oil tree,en,S2/S5
+HERB-0344,Karanj,en,S2/S5
+HERB-0344,Pongamia pinnata,la-botanical,S2/S5
+HERB-0344,Guchhapushpaka,sa-Latn-ascii,S5
+HERB-0344,Naktamala,sa-Latn-ascii,S5
+HERB-0344,Prakirya,sa-Latn-ascii,S5
+HERB-0344,Snigdhapatra,sa-Latn-ascii,S5
+HERB-0345,Pygmy Premna,en,S2/S5
+HERB-0345,Premna herbacea,la-botanical,S2/S5
+HERB-0345,Bhumijambu,sa-Latn-ascii,S5
+HERB-0345,Kshudrajambu,sa-Latn-ascii,S5
+HERB-0345,Nadeyi,sa-Latn-ascii,S5
+HERB-0346,agnimantha,sa-Latn-IAST,S2
+HERB-0346,अग्निमन्थ,sa-Deva,derived
+HERB-0346,Dusky Fire Brand,en,S2/S5
+HERB-0346,Premna integrifolia,la-botanical,S2/S5
+HERB-0346,Nadeyi,sa-Latn-ascii,S5
+HERB-0346,Shriparni,sa-Latn-ascii,S5
+HERB-0346,Tarkari,sa-Latn-ascii,S5
+HERB-0346,Vaijayanti,sa-Latn-ascii,S5
+HERB-0347,बादाम,hi-Deva,S6
+HERB-0347,Almond,en,S2/S5
+HERB-0347,Prunus dulcis,la-botanical,S2/S5
+HERB-0347,Netropamaphala,sa-Latn-ascii,S5
+HERB-0347,Vatama,sa-Latn-ascii,S5
+HERB-0348,elavāluka,sa-Latn-IAST,S2
+HERB-0348,एलवालुक,sa-Deva,derived
+HERB-0348,wild cherry,en,S2/S5
+HERB-0348,sweet cherry,en,S2/S5
+HERB-0348,gean,en,S2/S5
+HERB-0348,Prunus avium,la-botanical,S2/S5
+HERB-0349,padmaka,sa-Latn-IAST,S2
+HERB-0349,पद्मक,sa-Deva,derived
+HERB-0349,Himalayan wild cherry,en,S2/S5
+HERB-0349,Bird cherry,en,S2/S5
+HERB-0349,Prunus cerasoides,la-botanical,S2/S5
+HERB-0349,Charu,sa-Latn-ascii,S5
+HERB-0349,Malaya,sa-Latn-ascii,S5
+HERB-0349,Padmagandhi,sa-Latn-ascii,S5
+HERB-0349,Pitaraka,sa-Latn-ascii,S5
+HERB-0350,vanya ajamodā,sa-Latn-IAST,S2
+HERB-0350,वन्य अजमोदा,sa-Deva,derived
+HERB-0350,Ajowan,en,S2/S5
+HERB-0350,Trachyspermum roxburghianum,la-botanical,S2/S5
+HERB-0351,asana,sa-Latn-IAST,S2
+HERB-0351,असन,sa-Deva,derived
+HERB-0351,पेटरोकार्पस मार्सूपियम,hi-Deva,S6
+HERB-0351,Indian kino tree,en,S2/S5
+HERB-0351,Malabar kino tree,en,S2/S5
+HERB-0351,Pterocarpus marsupium,la-botanical,S2/S5
+HERB-0351,Bahusara,sa-Latn-ascii,S5
+HERB-0351,Bijaka,sa-Latn-ascii,S5
+HERB-0351,Pitasara,sa-Latn-ascii,S5
+HERB-0351,Vijayaka,sa-Latn-ascii,S5
+HERB-0352,rakta candana,sa-Latn-IAST,S2
+HERB-0352,रक्त चन्दन,sa-Deva,derived
+HERB-0352,रक्त चंदन,hi-Deva,S6
+HERB-0352,Red sanders,en,S2/S5
+HERB-0352,Red sandalwood,en,S2/S5
+HERB-0352,Ruby wood,en,S2/S5
+HERB-0352,Pterocarpus santalinus,la-botanical,S2/S5
+HERB-0352,Kushikashimha,sa-Latn-ascii,S5
+HERB-0352,Pravalphala,sa-Latn-ascii,S5
+HERB-0352,Raktasara,sa-Latn-ascii,S5
+HERB-0352,Tamrasara,sa-Latn-ascii,S5
+HERB-0353,mucakunda,sa-Latn-IAST,S2
+HERB-0353,मुचकुन्द,sa-Deva,derived
+HERB-0353,कनक चम्पा,hi-Deva,S6
+HERB-0353,Dinner Plate Tree,en,S2/S5
+HERB-0353,Karnikara tree,en,S2/S5
+HERB-0353,Pterospermum acerifolium,la-botanical,S2/S5
+HERB-0353,Arghyarha,sa-Latn-ascii,S5
+HERB-0353,Chitraka bheda,sa-Latn-ascii,S5
+HERB-0353,Raktapushpa,sa-Latn-ascii,S5
+HERB-0354,vidārī,sa-Latn-IAST,S2
+HERB-0354,विदारी,sa-Deva,derived
+HERB-0354,विदारीकंद,hi-Deva,S6
+HERB-0354,indian kudzu,en,S2/S5
+HERB-0354,Pueraria tuberosa,la-botanical,S2/S5
+HERB-0354,Bhumikushmanda,sa-Latn-ascii,S5
+HERB-0354,Gajavajipriya,sa-Latn-ascii,S5
+HERB-0354,Ikshugandha,sa-Latn-ascii,S5
+HERB-0354,Swadukanda,sa-Latn-ascii,S5
+HERB-0355,dāḍima,sa-Latn-IAST,S2
+HERB-0355,दाडिम,sa-Deva,derived
+HERB-0355,अनार,hi-Deva,S6
+HERB-0355,Punica granatum,hi-Deva,S6
+HERB-0355,दाडिमफलम्,sa-Deva,S6
+HERB-0355,Pomegranate,en,S2/S5
+HERB-0355,Punica granatum,la-botanical,S2/S5
+HERB-0355,Dantabeeja,sa-Latn-ascii,S5
+HERB-0355,Kuchaphala,sa-Latn-ascii,S5
+HERB-0355,Raktabija,sa-Latn-ascii,S5
+HERB-0355,Shukavallabha,sa-Latn-ascii,S5
+HERB-0356,Child Life Tree,en,S2/S5
+HERB-0356,Putranjiva roxburghii,la-botanical,S2/S5
+HERB-0356,Garbadha,sa-Latn-ascii,S5
+HERB-0356,Kuduru,sa-Latn-ascii,S5
+HERB-0356,Pavitra,sa-Latn-ascii,S5
+HERB-0356,Putranjiva,sa-Latn-ascii,S5
+HERB-0357,māyāphala/ māyukam,sa-Latn-IAST,S2
+HERB-0357,मायाफल/ मायुकम्,sa-Deva,derived
+HERB-0357,Eak gall,en,S2/S5
+HERB-0357,Magin nut,en,S2/S5
+HERB-0357,Dyers' oak gall,en,S2/S5
+HERB-0357,Quercus infectoria,la-botanical,S2/S5
+HERB-0357,Chhidraphala,sa-Latn-ascii,S5
+HERB-0357,Majuphal,sa-Latn-ascii,S5
+HERB-0357,Mayuka,sa-Latn-ascii,S5
+HERB-0358,mūlaka,sa-Latn-IAST,S2
+HERB-0358,मूलक,sa-Deva,derived
+HERB-0358,मूली,hi-Deva,S6
+HERB-0358,मूलकम्,sa-Deva,S6
+HERB-0358,Raddish,en,S2/S5
+HERB-0358,Raphanus sativus,la-botanical,S2/S5
+HERB-0358,Chanakyamulaka,sa-Latn-ascii,S5
+HERB-0358,Marusambhava,sa-Latn-ascii,S5
+HERB-0358,Shalamula,sa-Latn-ascii,S5
+HERB-0359,sarpagandhā,sa-Latn-IAST,S2
+HERB-0359,सर्पगन्धा,sa-Deva,derived
+HERB-0359,सर्पगन्धा,hi-Deva,S6
+HERB-0359,सर्पगंधा,hi-Deva,S6
+HERB-0359,सर्पगन्धः,sa-Deva,S6
+HERB-0359,Rauvlolfia root/Serpentina root/Sepentine root,en,S2/S5
+HERB-0359,Rauvolfia serpentina,la-botanical,S2/S5
+HERB-0359,Chandrika,sa-Latn-ascii,S5
+HERB-0359,Dhavalavitapa,sa-Latn-ascii,S5
+HERB-0359,Nandini,sa-Latn-ascii,S5
+HERB-0359,Raktapatrika,sa-Latn-ascii,S5
+HERB-0360,revanda cīnī,sa-Latn-IAST,S2
+HERB-0360,रेवन्द चीनी,sa-Deva,derived
+HERB-0360,Himalayan rhubarb,en,S2/S5
+HERB-0360,Rheum emodii,la-botanical,S2/S5
+HERB-0360,Rheum emodi,la-botanical,S2/S5
+HERB-0360,Amlaputrika,sa-Latn-ascii,S5
+HERB-0360,Gandhini,sa-Latn-ascii,S5
+HERB-0360,Revandachini,sa-Latn-ascii,S5
+HERB-0361,eraṇḍa,sa-Latn-IAST,S2
+HERB-0361,एरण्ड,sa-Deva,derived
+HERB-0361,अरण्डी,hi-Deva,S6
+HERB-0361,अरंडी,hi-Deva,S6
+HERB-0361,रेड़ी,hi-Deva,S6
+HERB-0361,रेंड़ी,hi-Deva,S6
+HERB-0361,एरण्डसस्यम्,sa-Deva,S6
+HERB-0361,Castor,en,S2/S5
+HERB-0361,Castor-oil,en,S2/S5
+HERB-0361,Ricinus communis,la-botanical,S2/S5
+HERB-0361,Chitrabija,sa-Latn-ascii,S5
+HERB-0361,Gandharvahasta,sa-Latn-ascii,S5
+HERB-0361,Panchangula,sa-Latn-ascii,S5
+HERB-0361,Vatari,sa-Latn-ascii,S5
+HERB-0362,śatapatrikā,sa-Latn-IAST,S2
+HERB-0362,शतपत्रिका,sa-Deva,derived
+HERB-0362,Cabbage rose/Hundred-leaved rose/Pale rose,en,S2/S5
+HERB-0362,Rosa centifolia,la-botanical,S2/S5
+HERB-0362,Devataruni,sa-Latn-ascii,S5
+HERB-0362,Kamala bheda,sa-Latn-ascii,S5
+HERB-0362,Satapatri,sa-Latn-ascii,S5
+HERB-0363,Blue Fountain Bush,en,S2/S5
+HERB-0363,Rotheca serrata,la-botanical,S2/S5
+HERB-0363,Angaravalli,sa-Latn-ascii,S5
+HERB-0363,Bhargi,sa-Latn-ascii,S5
+HERB-0363,Brahmani,sa-Latn-ascii,S5
+HERB-0363,Kashaghni,sa-Latn-ascii,S5
+HERB-0364,mañjiṣṭhā,sa-Latn-IAST,S2
+HERB-0364,मञ्जिष्ठा,sa-Deva,derived
+HERB-0364,रुबिया  कॉर्डिफ़ोलिया,hi-Deva,S6
+HERB-0364,रुबिअ कोर्दिफ़्ओलिअ,sa-Deva,S6
+HERB-0364,Indian madder,en,S2/S5
+HERB-0364,Rubia cordifolia,la-botanical,S2/S5
+HERB-0364,Raktanga,sa-Latn-ascii,S5
+HERB-0364,Tamramuli,sa-Latn-ascii,S5
+HERB-0364,Vikasa,sa-Latn-ascii,S5
+HERB-0364,Yojanavalli,sa-Latn-ascii,S5
+HERB-0365,ikṣu,sa-Latn-IAST,S2
+HERB-0365,इक्षु,sa-Deva,derived
+HERB-0365,Sugarcane,en,S2/S5
+HERB-0365,Saccharum officinarum,la-botanical,S2/S5
+HERB-0365,Asipatra,sa-Latn-ascii,S5
+HERB-0365,Bhurirasa,sa-Latn-ascii,S5
+HERB-0365,Kandekshu,sa-Latn-ascii,S5
+HERB-0365,Madhutrina,sa-Latn-ascii,S5
+HERB-0366,kāśa,sa-Latn-IAST,S2
+HERB-0366,काश,sa-Deva,derived
+HERB-0366,काँस,hi-Deva,S6
+HERB-0366,Thatch grass,en,S2/S5
+HERB-0366,wild sugarcane,en,S2/S5
+HERB-0366,Saccharum spontaneum,la-botanical,S2/S5
+HERB-0367,vajula,sa-Latn-IAST,S2
+HERB-0367,वजुल,sa-Deva,derived
+HERB-0367,Goat Willow,en,S2/S5
+HERB-0367,Salix caprea,la-botanical,S2/S5
+HERB-0367,Changalika,sa-Latn-ascii,S5
+HERB-0367,Namra,sa-Latn-ascii,S5
+HERB-0367,Vanira,sa-Latn-ascii,S5
+HERB-0368,Indian Willow,en,S2/S5
+HERB-0368,Salix tetrasperma,la-botanical,S2/S5
+HERB-0368,Jalavetasa,sa-Latn-ascii,S5
+HERB-0368,Nadeya,sa-Latn-ascii,S5
+HERB-0368,Varisambhavah,sa-Latn-ascii,S5
+HERB-0369,pīlu,sa-Latn-IAST,S2
+HERB-0369,पीलु,sa-Deva,derived
+HERB-0369,Toothbrush Tree,en,S2/S5
+HERB-0369,Salvadora persica,la-botanical,S2/S5
+HERB-0369,Gudaphala,sa-Latn-ascii,S5
+HERB-0369,Sheetaphala,sa-Latn-ascii,S5
+HERB-0369,Sransi,sa-Latn-ascii,S5
+HERB-0369,Virechana,sa-Latn-ascii,S5
+HERB-0370,śveta candana,sa-Latn-IAST,S2
+HERB-0370,श्वेत चन्दन,sa-Deva,derived
+HERB-0370,चन्दन,hi-Deva,S6
+HERB-0370,चंदन,hi-Deva,S6
+HERB-0370,चन्दनम्,sa-Deva,S6
+HERB-0370,Sandal tree,en,S2/S5
+HERB-0370,White-sandal tree,en,S2/S5
+HERB-0370,Santalum album,la-botanical,S2/S5
+HERB-0370,Bhadrashriya,sa-Latn-ascii,S5
+HERB-0370,Gandhasara,sa-Latn-ascii,S5
+HERB-0370,Malayaja,sa-Latn-ascii,S5
+HERB-0370,Shrikhanda,sa-Latn-ascii,S5
+HERB-0371,Soapnut,en,S2/S5
+HERB-0371,Sapindus mukorossi,la-botanical,S2/S5
+HERB-0371,Arishta,sa-Latn-ascii,S5
+HERB-0371,Garbhapatana,sa-Latn-ascii,S5
+HERB-0371,Kumbhabija,sa-Latn-ascii,S5
+HERB-0371,Phenila,sa-Latn-ascii,S5
+HERB-0372,aśoka,sa-Latn-IAST,S2
+HERB-0372,अशोक,sa-Deva,derived
+HERB-0372,Ashoka tree,en,S2/S5
+HERB-0372,Saraca asoca,la-botanical,S2/S5
+HERB-0372,Hemapushpa,sa-Latn-ascii,S5
+HERB-0372,Kankeli,sa-Latn-ascii,S5
+HERB-0372,Pindapushpa,sa-Latn-ascii,S5
+HERB-0372,Tamrapallava,sa-Latn-ascii,S5
+HERB-0373,prapauṇḍarīka,sa-Latn-IAST,S2
+HERB-0373,प्रपौण्डरीक,sa-Deva,derived
+HERB-0373,ब्रह्म कमल,hi-Deva,S6
+HERB-0373,कौल पद्म,hi-Deva,S6
+HERB-0373,Sacred Saussurea,en,S2/S5
+HERB-0373,Saussurea obvallata,la-botanical,S2/S5
+HERB-0374,Ceylon Oak,en,S2/S5
+HERB-0374,Schleichera oleosa,la-botanical,S2/S5
+HERB-0374,Ghanaskandha,sa-Latn-ascii,S5
+HERB-0374,Kshudramra,sa-Latn-ascii,S5
+HERB-0374,Lakshavriksha,sa-Latn-ascii,S5
+HERB-0375,muṣkaka,sa-Latn-IAST,S2
+HERB-0375,मुष्कक,sa-Deva,derived
+HERB-0375,Weaver's beam tree,en,S2/S5
+HERB-0375,Schrebera swietenioides,la-botanical,S2/S5
+HERB-0376,gajapippalī,sa-Latn-IAST,S2
+HERB-0376,गजपिप्पली,sa-Deva,derived
+HERB-0376,Gajapippali,en,S2/S5
+HERB-0376,Scindapsus officinalis,la-botanical,S2/S5
+HERB-0376,Chavika,sa-Latn-ascii,S5
+HERB-0376,Hastipippali,sa-Latn-ascii,S5
+HERB-0376,Karippali,sa-Latn-ascii,S5
+HERB-0376,Kola,sa-Latn-ascii,S5
+HERB-0377,tintiḍīka,sa-Latn-IAST,S2
+HERB-0377,तिन्तिडीक,sa-Deva,derived
+HERB-0377,Sumac,en,S2/S5
+HERB-0377,Rhus parviflora,la-botanical,S2/S5
+HERB-0378,bhūtakeśī,sa-Latn-IAST,S2
+HERB-0378,भूतकेशी,sa-Deva,derived
+HERB-0378,peacock fern,en,S2/S5
+HERB-0378,Selinum vaginatum,la-botanical,S2/S5
+HERB-0379,bhallātaka,sa-Latn-IAST,S2
+HERB-0379,भल्लातक,sa-Deva,derived
+HERB-0379,Marking nut tree,en,S2/S5
+HERB-0379,Oriental cashew,en,S2/S5
+HERB-0379,Semecarpus anacardium,la-botanical,S2/S5
+HERB-0379,Agnika,sa-Latn-ascii,S5
+HERB-0379,Arushkara,sa-Latn-ascii,S5
+HERB-0379,Krimighna,sa-Latn-ascii,S5
+HERB-0379,Sophakrit,sa-Latn-ascii,S5
+HERB-0380,khadira,sa-Latn-IAST,S2
+HERB-0380,खदिर,sa-Deva,derived
+HERB-0380,Cutch tree,en,S2/S5
+HERB-0380,Acacia catechu,la-botanical,S2/S5
+HERB-0380,Balapatra,sa-Latn-ascii,S5
+HERB-0380,Dantadhavana,sa-Latn-ascii,S5
+HERB-0380,Gayatri,sa-Latn-ascii,S5
+HERB-0380,Raktasara,sa-Latn-ascii,S5
+HERB-0381,kadara,sa-Latn-IAST,S2
+HERB-0381,कदर,sa-Deva,derived
+HERB-0381,White Cutch Tree,en,S2/S5
+HERB-0381,Senegalia suma,la-botanical,S2/S5
+HERB-0381,Gaurasara,sa-Latn-ascii,S5
+HERB-0381,Shveta Khadira,sa-Latn-ascii,S5
+HERB-0381,Somavalka,sa-Latn-ascii,S5
+HERB-0382,Soap Pod,en,S2/S5
+HERB-0382,Senegalia rugata,la-botanical,S2/S5
+HERB-0382,Charmasahva,sa-Latn-ascii,S5
+HERB-0382,Phenila,sa-Latn-ascii,S5
+HERB-0382,Shikakai,sa-Latn-ascii,S5
+HERB-0382,Vidula bheda,sa-Latn-ascii,S5
+HERB-0383,पीताम्बर,hi-Deva,S6
+HERB-0383,पीतांबर,hi-Deva,S6
+HERB-0383,सेना अलाटा,hi-Deva,S6
+HERB-0383,Ringworm Bush,en,S2/S5
+HERB-0383,Senna alata,la-botanical,S2/S5
+HERB-0383,Chakramarda bheda,sa-Latn-ascii,S5
+HERB-0383,Dadrumardana,sa-Latn-ascii,S5
+HERB-0383,Dwipantara Shamyaka,sa-Latn-ascii,S5
+HERB-0384,svarṇapatrī,sa-Latn-IAST,S2
+HERB-0384,स्वर्णपत्री,sa-Deva,derived
+HERB-0384,सनाय,hi-Deva,S6
+HERB-0384,Indian senna/Tinnevelly senna,en,S2/S5
+HERB-0384,Cassia senna,la-botanical,S2/S5
+HERB-0384,Cassia angustifolia,la-botanical,S2/S5
+HERB-0384,Bhumiari,sa-Latn-ascii,S5
+HERB-0384,Markandika,sa-Latn-ascii,S5
+HERB-0384,Ruchyalata,sa-Latn-ascii,S5
+HERB-0385,Coffee Senna,en,S2/S5
+HERB-0385,Senna occidentalis,la-botanical,S2/S5
+HERB-0385,Arimarda,sa-Latn-ascii,S5
+HERB-0385,Karkasha,sa-Latn-ascii,S5
+HERB-0385,Kasamarda,sa-Latn-ascii,S5
+HERB-0385,Kasari,sa-Latn-ascii,S5
+HERB-0386,cakramarda/prapunnāḍa,sa-Latn-IAST,S2
+HERB-0386,चक्रमर्द/प्रपुन्नाड,sa-Deva,derived
+HERB-0386,पोहाड़,hi-Deva,S6
+HERB-0386,Foetid cassia,en,S2/S5
+HERB-0386,Cassia tora,la-botanical,S2/S5
+HERB-0386,Senna tora,la-botanical,S2/S5
+HERB-0386,Chakramarda,sa-Latn-ascii,S5
+HERB-0386,Dadrughna,sa-Latn-ascii,S5
+HERB-0386,Edagaja,sa-Latn-ascii,S5
+HERB-0386,Mesakusuma,sa-Latn-ascii,S5
+HERB-0386,Meshalochana,sa-Latn-ascii,S5
+HERB-0386,Padmata,sa-Latn-ascii,S5
+HERB-0387,samudraphena,sa-Latn-IAST,S2
+HERB-0387,समुद्रफेन,sa-Deva,derived
+HERB-0387,common cuttlefish,en,S2/S5
+HERB-0387,Sepia officinalis,la-botanical,S2/S5
+HERB-0388,tila,sa-Latn-IAST,S2
+HERB-0388,तिल,sa-Deva,derived
+HERB-0388,तिल,hi-Deva,S6
+HERB-0388,तिलः,sa-Deva,S6
+HERB-0388,Sesame,en,S2/S5
+HERB-0388,Gingelly,en,S2/S5
+HERB-0388,Sesamum indicum,la-botanical,S2/S5
+HERB-0388,Sesamum orientale,la-botanical,S2/S5
+HERB-0388,Homadhanya,sa-Latn-ascii,S5
+HERB-0388,Pavitra,sa-Latn-ascii,S5
+HERB-0388,Snehaphala,sa-Latn-ascii,S5
+HERB-0388,Til,sa-Latn-ascii,S5
+HERB-0389,agastya,sa-Latn-IAST,S2
+HERB-0389,अगस्त्य,sa-Deva,derived
+HERB-0389,Swamp pea,en,S2/S5
+HERB-0389,sesban,en,S2/S5
+HERB-0389,Sesbania grandiflora,la-botanical,S2/S5
+HERB-0389,Dirghachhana,sa-Latn-ascii,S5
+HERB-0389,Munidruma,sa-Latn-ascii,S5
+HERB-0389,Vangasena,sa-Latn-ascii,S5
+HERB-0389,Vratari,sa-Latn-ascii,S5
+HERB-0390,jayantī,sa-Latn-IAST,S2
+HERB-0390,जयन्ती,sa-Deva,derived
+HERB-0390,Egyptian riverhemp,en,S2/S5
+HERB-0390,Sesbania sesban,la-botanical,S2/S5
+HERB-0391,śāla,sa-Latn-IAST,S2
+HERB-0391,शाल,sa-Deva,derived
+HERB-0391,साल,hi-Deva,S6
+HERB-0391,Sal,en,S2/S5
+HERB-0391,Shorea robusta,la-botanical,S2/S5
+HERB-0392,balā,sa-Latn-IAST,S2
+HERB-0392,बला,sa-Deva,derived
+HERB-0392,ilima,en,S2/S5
+HERB-0392,flannel weed bala,en,S2/S5
+HERB-0392,country mallow,en,S2/S5
+HERB-0392,heart-leaf sida,en,S2/S5
+HERB-0392,Sida cordifolia,la-botanical,S2/S5
+HERB-0392,Baladhya,sa-Latn-ascii,S5
+HERB-0392,Kharayashtika,sa-Latn-ascii,S5
+HERB-0392,Odanika,sa-Latn-ascii,S5
+HERB-0392,Vatyalika,sa-Latn-ascii,S5
+HERB-0393,mahābalā,sa-Latn-IAST,S2
+HERB-0393,महाबला,sa-Deva,derived
+HERB-0393,Arrow leaf sida,en,S2/S5
+HERB-0393,Sida rhombifolia,la-botanical,S2/S5
+HERB-0393,Atibala bheda,sa-Latn-ascii,S5
+HERB-0393,Ksetrabala,sa-Latn-ascii,S5
+HERB-0393,Pitapushpa,sa-Latn-ascii,S5
+HERB-0394,śveta sarṣapa,sa-Latn-IAST,S2
+HERB-0394,श्वेत सर्षप,sa-Deva,derived
+HERB-0394,White mustard,en,S2/S5
+HERB-0394,Sinapis alba,la-botanical,S2/S5
+HERB-0394,Brassica alba,la-botanical,S2/S5
+HERB-0395,madhusnuhī/copacinī,sa-Latn-IAST,S2
+HERB-0395,मधुस्नुही/चोपचिनी,sa-Deva,derived
+HERB-0395,China root,en,S2/S5
+HERB-0395,Smilax china,la-botanical,S2/S5
+HERB-0395,Dvipantara Vacha,sa-Latn-ascii,S5
+HERB-0395,Madhusnuhi,sa-Latn-ascii,S5
+HERB-0396,uśabā,sa-Latn-IAST,S2
+HERB-0396,उशबा,sa-Deva,derived
+HERB-0396,Honduran sarsaparilla,en,S2/S5
+HERB-0396,Jamaican sarsaparilla,en,S2/S5
+HERB-0396,Smilax ornata,la-botanical,S2/S5
+HERB-0397,bṛhatī,sa-Latn-IAST,S2
+HERB-0397,बृहती,sa-Deva,derived
+HERB-0397,Poison berry,en,S2/S5
+HERB-0397,Solanum anguivi,la-botanical,S2/S5
+HERB-0397,Solanum indicum,la-botanical,S2/S5
+HERB-0398,vārtāka,sa-Latn-IAST,S2
+HERB-0398,वार्ताक,sa-Deva,derived
+HERB-0398,बैंगन,hi-Deva,S6
+HERB-0398,वृन्ताकः,sa-Deva,S6
+HERB-0398,Brinjal,en,S2/S5
+HERB-0398,Egg plant,en,S2/S5
+HERB-0398,Solanum melongena,la-botanical,S2/S5
+HERB-0398,Hingubhataka,sa-Latn-ascii,S5
+HERB-0398,Kantasaka,sa-Latn-ascii,S5
+HERB-0398,Vartaka,sa-Latn-ascii,S5
+HERB-0398,Vatingana,sa-Latn-ascii,S5
+HERB-0399,kākamācī,sa-Latn-IAST,S2
+HERB-0399,काकमाची,sa-Deva,derived
+HERB-0399,Black night-shade,en,S2/S5
+HERB-0399,Solanum nigrum,la-botanical,S2/S5
+HERB-0399,Kakamachi,sa-Latn-ascii,S5
+HERB-0399,Rasayani,sa-Latn-ascii,S5
+HERB-0399,Sarvatikta,sa-Latn-ascii,S5
+HERB-0399,Vayasasi,sa-Latn-ascii,S5
+HERB-0400,bṛhatī,sa-Latn-IAST,S2
+HERB-0400,बृहती,sa-Deva,derived
+HERB-0400,Indian Nightshade,en,S2/S5
+HERB-0400,Solanum indicum,la-botanical,S2/S5
+HERB-0400,Bahuputri,sa-Latn-ascii,S5
+HERB-0400,Kshudra,sa-Latn-ascii,S5
+HERB-0400,Simhi,sa-Latn-ascii,S5
+HERB-0400,Vartaki,sa-Latn-ascii,S5
+HERB-0401,kaṇṭakārī,sa-Latn-IAST,S2
+HERB-0401,कण्टकारी,sa-Deva,derived
+HERB-0401,भटकटैया,hi-Deva,S6
+HERB-0401,कंटकारी,hi-Deva,S6
+HERB-0401,Yellow berried night-shade,en,S2/S5
+HERB-0401,Solanum virginianum,la-botanical,S2/S5
+HERB-0401,Solanum surratense,la-botanical,S2/S5
+HERB-0401,Solanum surattense,la-botanical,S2/S5
+HERB-0401,Duhsparsha,sa-Latn-ascii,S5
+HERB-0401,Kshudra,sa-Latn-ascii,S5
+HERB-0401,Nidigdhika,sa-Latn-ascii,S5
+HERB-0401,Vyaghri,sa-Latn-ascii,S5
+HERB-0402,Indian Redwood,en,S2/S5
+HERB-0402,Soymida febrifuga,la-botanical,S2/S5
+HERB-0402,Charmakarini,sa-Latn-ascii,S5
+HERB-0402,Rohini,sa-Latn-ascii,S5
+HERB-0402,Vrittatvaka,sa-Latn-ascii,S5
+HERB-0403,buka,sa-Latn-IAST,S2
+HERB-0403,बुक,sa-Deva,derived
+HERB-0403,Shaggy Button Weed,en,S2/S5
+HERB-0403,Spermacoce hispida,la-botanical,S2/S5
+HERB-0404,muṇḍītikā,sa-Latn-IAST,S2
+HERB-0404,मुण्डीतिका,sa-Deva,derived
+HERB-0404,East Indian globe-thistle,en,S2/S5
+HERB-0404,Sphaeranthus indicus,la-botanical,S2/S5
+HERB-0404,Bhikshuni,sa-Latn-ascii,S5
+HERB-0404,Kadamba,sa-Latn-ascii,S5
+HERB-0404,Munditika,sa-Latn-ascii,S5
+HERB-0404,Pravrajita,sa-Latn-ascii,S5
+HERB-0405,pītabhṛṅgarāja,sa-Latn-IAST,S2
+HERB-0405,पीतभृङ्गराज,sa-Deva,derived
+HERB-0405,creeping-oxeyes,en,S2/S5
+HERB-0405,Wedelia chinensis,la-botanical,S2/S5
+HERB-0405,Wedelia calendulacea,la-botanical,S2/S5
+HERB-0406,पालक,hi-Deva,S6
+HERB-0406,Spinach,en,S2/S5
+HERB-0406,Spinacia oleracea,la-botanical,S2/S5
+HERB-0406,Chururika,sa-Latn-ascii,S5
+HERB-0406,Palankika,sa-Latn-ascii,S5
+HERB-0406,Vastuka bheda,sa-Latn-ascii,S5
+HERB-0407,आमड़ा,hi-Deva,S6
+HERB-0407,अम्बरीशवृक्षः,sa-Deva,S6
+HERB-0407,Spondias pinnata,en,S2/S5
+HERB-0407,Spondias pinnata,la-botanical,S2/S5
+HERB-0408,pāṭalā,sa-Latn-IAST,S2
+HERB-0408,पाटला,sa-Deva,derived
+HERB-0408,Patala tree,en,S2/S5
+HERB-0408,Stereospermum chelonoides,la-botanical,S2/S5
+HERB-0408,Stereospermum suaveolens,la-botanical,S2/S5
+HERB-0408,Amogha,sa-Latn-ascii,S5
+HERB-0408,Krishna Vrinta,sa-Latn-ascii,S5
+HERB-0408,Madhuduti,sa-Latn-ascii,S5
+HERB-0408,Tamrapushpi,sa-Latn-ascii,S5
+HERB-0409,kupīlu/viṣamuṣṭi,sa-Latn-IAST,S2
+HERB-0409,कुपीलु/विषमुष्टि,sa-Deva,derived
+HERB-0409,कुचिला,hi-Deva,S6
+HERB-0409,Strychnine tree/Snake-wood/Nux-vomica/Poison nut/Quaker button,en,S2/S5
+HERB-0409,Strychnos nux-vomica,la-botanical,S2/S5
+HERB-0409,Chipita,sa-Latn-ascii,S5
+HERB-0409,Kulukaka,sa-Latn-ascii,S5
+HERB-0409,Kupilu,sa-Latn-ascii,S5
+HERB-0409,Ramaphala,sa-Latn-ascii,S5
+HERB-0410,kataka,sa-Latn-IAST,S2
+HERB-0410,कतक,sa-Deva,derived
+HERB-0410,Clearing Nut Tree,en,S2/S5
+HERB-0410,Strychnos potatorum,la-botanical,S2/S5
+HERB-0410,Ambuprasadana,sa-Latn-ascii,S5
+HERB-0410,Chakshushya,sa-Latn-ascii,S5
+HERB-0410,Katutumbi bheda,sa-Latn-ascii,S5
+HERB-0410,Lekhana,sa-Latn-ascii,S5
+HERB-0411,kirātatikta,sa-Latn-IAST,S2
+HERB-0411,किराततिक्त,sa-Deva,derived
+HERB-0411,Chiretta,en,S2/S5
+HERB-0411,Swertia chirata,la-botanical,S2/S5
+HERB-0411,Chirayata,sa-Latn-ascii,S5
+HERB-0411,Kairata,sa-Latn-ascii,S5
+HERB-0411,Kandatikta,sa-Latn-ascii,S5
+HERB-0411,Naditikta,sa-Latn-ascii,S5
+HERB-0412,kirātatikta,sa-Latn-IAST,S2
+HERB-0412,किराततिक्त,sa-Deva,derived
+HERB-0412,Chirata,en,S2/S5
+HERB-0412,Brown chiretta,en,S2/S5
+HERB-0412,White chiretta,en,S2/S5
+HERB-0412,Swertia chirayita,la-botanical,S2/S5
+HERB-0412,Swertia chirata,la-botanical,S2/S5
+HERB-0412,Anaryatikta,sa-Latn-ascii,S5
+HERB-0412,Bhunimba,sa-Latn-ascii,S5
+HERB-0412,Kairata,sa-Latn-ascii,S5
+HERB-0412,Kiratatikta,sa-Latn-ascii,S5
+HERB-0413,lodhra,sa-Latn-IAST,S2
+HERB-0413,लोध्र,sa-Deva,derived
+HERB-0413,Symplocos tree,en,S2/S5
+HERB-0413,Lodh tree,en,S2/S5
+HERB-0413,Symplocos bark,en,S2/S5
+HERB-0413,Symplocos racemosa,la-botanical,S2/S5
+HERB-0413,Rodhra,sa-Latn-ascii,S5
+HERB-0413,Shabara,sa-Latn-ascii,S5
+HERB-0413,Tilvaka,sa-Latn-ascii,S5
+HERB-0413,Tirita,sa-Latn-ascii,S5
+HERB-0414,lavaṅga,sa-Latn-IAST,S2
+HERB-0414,लवङ्ग,sa-Deva,derived
+HERB-0414,लौंग,hi-Deva,S6
+HERB-0414,लवङ्गम्,sa-Deva,S6
+HERB-0414,Clove tree,en,S2/S5
+HERB-0414,Cloves,en,S2/S5
+HERB-0414,Syzygium aromaticum,la-botanical,S2/S5
+HERB-0414,Chandanapushpaka,sa-Latn-ascii,S5
+HERB-0414,Devakusuma,sa-Latn-ascii,S5
+HERB-0414,Shriprasuna,sa-Latn-ascii,S5
+HERB-0415,jambū,sa-Latn-IAST,S2
+HERB-0415,जम्बू,sa-Deva,derived
+HERB-0415,जामुन,hi-Deva,S6
+HERB-0415,जम्बूफलम्,sa-Deva,S6
+HERB-0415,Skeels Jaman,en,S2/S5
+HERB-0415,Jambolan,en,S2/S5
+HERB-0415,Black plum,en,S2/S5
+HERB-0415,Syzygium cumini,la-botanical,S2/S5
+HERB-0415,Mahaphala,sa-Latn-ascii,S5
+HERB-0415,Nilaphala,sa-Latn-ascii,S5
+HERB-0415,Phalendra,sa-Latn-ascii,S5
+HERB-0415,Surabhipatra,sa-Latn-ascii,S5
+HERB-0416,गेंदा,hi-Deva,S6
+HERB-0416,Marigold,en,S2/S5
+HERB-0416,Tagetes erecta,la-botanical,S2/S5
+HERB-0416,Sandu,sa-Latn-ascii,S5
+HERB-0416,Sthulapushpa,sa-Latn-ascii,S5
+HERB-0416,Zandu,sa-Latn-ascii,S5
+HERB-0417,ciñcā,sa-Latn-IAST,S2
+HERB-0417,चिञ्चा,sa-Deva,derived
+HERB-0417,इमली,hi-Deva,S6
+HERB-0417,तिन्त्रिणी,sa-Deva,S6
+HERB-0417,Tamarind Tree,en,S2/S5
+HERB-0417,Tamarindus indica,la-botanical,S2/S5
+HERB-0417,Amla,sa-Latn-ascii,S5
+HERB-0417,Amlika,sa-Latn-ascii,S5
+HERB-0417,Chinchika,sa-Latn-ascii,S5
+HERB-0417,Yavanika,sa-Latn-ascii,S5
+HERB-0418,Common Yew,en,S2/S5
+HERB-0418,Taxus baccata,la-botanical,S2/S5
+HERB-0418,Barhipatra,sa-Latn-ascii,S5
+HERB-0418,Sthuneya,sa-Latn-ascii,S5
+HERB-0418,Sukushma,sa-Latn-ascii,S5
+HERB-0419,rohītaka,sa-Latn-IAST,S2
+HERB-0419,रोहीतक,sa-Deva,derived
+HERB-0419,रोहेड़ा,hi-Deva,S6
+HERB-0419,desert teak /marwar teak,en,S2/S5
+HERB-0419,Tecomella undulata,la-botanical,S2/S5
+HERB-0419,Dhadima Pushpaka,sa-Latn-ascii,S5
+HERB-0419,Plihaghna,sa-Latn-ascii,S5
+HERB-0419,Raktapushpa,sa-Latn-ascii,S5
+HERB-0420,śāka,sa-Latn-IAST,S2
+HERB-0420,शाक,sa-Deva,derived
+HERB-0420,सागौन,hi-Deva,S6
+HERB-0420,टीकवुड,hi-Deva,S6
+HERB-0420,Teak,en,S2/S5
+HERB-0420,Tectona grandis,la-botanical,S2/S5
+HERB-0420,Bhumisaha,sa-Latn-ascii,S5
+HERB-0420,Kharapatra,sa-Latn-ascii,S5
+HERB-0420,Varadaru,sa-Latn-ascii,S5
+HERB-0421,Purple Tephrosia,en,S2/S5
+HERB-0421,Tephrosia purpurea,la-botanical,S2/S5
+HERB-0421,Banasher,sa-Latn-ascii,S5
+HERB-0421,Nilivrikshakriti,sa-Latn-ascii,S5
+HERB-0421,Plihashatru,sa-Latn-ascii,S5
+HERB-0422,māṣaparṇī,sa-Latn-IAST,S2
+HERB-0422,माषपर्णी,sa-Deva,derived
+HERB-0422,Blue Wiss,en,S2/S5
+HERB-0422,Pistache Marronne,en,S2/S5
+HERB-0422,horse vine,en,S2/S5
+HERB-0422,rabbit vine,en,S2/S5
+HERB-0422,Teramnus labialis,la-botanical,S2/S5
+HERB-0422,Kalyani,sa-Latn-ascii,S5
+HERB-0422,Mamsamasha,sa-Latn-ascii,S5
+HERB-0422,Pandura,sa-Latn-ascii,S5
+HERB-0422,Swayamshaha,sa-Latn-ascii,S5
+HERB-0423,Axlewood Tree,en,S2/S5
+HERB-0423,Anogeissus latifolia,la-botanical,S2/S5
+HERB-0423,Dhanyarupa,sa-Latn-ascii,S5
+HERB-0423,Gauranga,sa-Latn-ascii,S5
+HERB-0423,Madhuravalka,sa-Latn-ascii,S5
+HERB-0424,arjuna,sa-Latn-IAST,S2
+HERB-0424,अर्जुन,sa-Deva,derived
+HERB-0424,अर्जुन वृक्ष,hi-Deva,S6
+HERB-0424,अर्जुनवृक्षः,sa-Deva,S6
+HERB-0424,Arjun tree,en,S2/S5
+HERB-0424,Terminalia arjuna,la-botanical,S2/S5
+HERB-0424,Terminalia arjuan,la-botanical,S2/S5
+HERB-0424,Dhavala,sa-Latn-ascii,S5
+HERB-0424,Kakubha,sa-Latn-ascii,S5
+HERB-0424,Nadi Sarja,sa-Latn-ascii,S5
+HERB-0424,Partha,sa-Latn-ascii,S5
+HERB-0425,bibhītaka,sa-Latn-IAST,S2
+HERB-0425,बिभीतक,sa-Deva,derived
+HERB-0425,बहेड़ा,hi-Deva,S6
+HERB-0425,बिभीतकीवृक्षः,sa-Deva,S6
+HERB-0425,Belliric myrobalan,en,S2/S5
+HERB-0425,Terminalia bellirica,la-botanical,S2/S5
+HERB-0425,Terminalia belerica,la-botanical,S2/S5
+HERB-0425,Aksha,sa-Latn-ascii,S5
+HERB-0425,Kalidruma,sa-Latn-ascii,S5
+HERB-0425,Karshaphala,sa-Latn-ascii,S5
+HERB-0425,Vibhitaka,sa-Latn-ascii,S5
+HERB-0426,harītakī,sa-Latn-IAST,S2
+HERB-0426,हरीतकी,sa-Deva,derived
+HERB-0426,हरीतकी,hi-Deva,S6
+HERB-0426,हरड़,hi-Deva,S6
+HERB-0426,हर्रे,hi-Deva,S6
+HERB-0426,हरीतकी,sa-Deva,S6
+HERB-0426,Chebulic myrobalan,en,S2/S5
+HERB-0426,Terminalia chebula,la-botanical,S2/S5
+HERB-0426,Abhaya,sa-Latn-ascii,S5
+HERB-0426,Amrita,sa-Latn-ascii,S5
+HERB-0426,Pathya,sa-Latn-ascii,S5
+HERB-0426,Vijaya,sa-Latn-ascii,S5
+HERB-0427,asana,sa-Latn-IAST,S2
+HERB-0427,असन,sa-Deva,derived
+HERB-0427,Terminalia tomentosa,la-botanical,S2/S5
+HERB-0428,Thespesia lampas,en,S2/S5
+HERB-0428,Thespesia lampas,la-botanical,S2/S5
+HERB-0429,kapītana,sa-Latn-IAST,S2
+HERB-0429,कपीतन,sa-Deva,derived
+HERB-0429,Portia tree,en,S2/S5
+HERB-0429,Thespesia populnea,la-botanical,S2/S5
+HERB-0430,latākarañja,sa-Latn-IAST,S2
+HERB-0430,लताकरञ्ज,sa-Deva,derived
+HERB-0430,Fever nut,en,S2/S5
+HERB-0430,Bonduc nut,en,S2/S5
+HERB-0430,Caesalpinia crista,la-botanical,S2/S5
+HERB-0430,Kanta Karanja,sa-Latn-ascii,S5
+HERB-0430,Kuberakshi,sa-Latn-ascii,S5
+HERB-0430,Vajrabijaka,sa-Latn-ascii,S5
+HERB-0431,guḍūcī,sa-Latn-IAST,S2
+HERB-0431,गुडूची,sa-Deva,derived
+HERB-0431,Gulancha tinospora,en,S2/S5
+HERB-0431,Tinospora,en,S2/S5
+HERB-0431,Tinospora cordifolia,la-botanical,S2/S5
+HERB-0431,Tinspora cordifolia,la-botanical,S2/S5
+HERB-0431,Tisnpora cordifolia,la-botanical,S2/S5
+HERB-0431,Amrita,sa-Latn-ascii,S5
+HERB-0431,Chinnaruha,sa-Latn-ascii,S5
+HERB-0431,Guduchi,sa-Latn-ascii,S5
+HERB-0431,Kundalini,sa-Latn-ascii,S5
+HERB-0431,Madhuparni,sa-Latn-ascii,S5
+HERB-0432,ayoga,sa-Latn-IAST,S2
+HERB-0432,अयोग,sa-Deva,derived
+HERB-0432,Toxicodendron succedaneum,en,S2/S5
+HERB-0432,Rhus succedenea,la-botanical,S2/S5
+HERB-0433,yavānī,sa-Latn-IAST,S2
+HERB-0433,यवानी,sa-Deva,derived
+HERB-0433,अजवाईन,hi-Deva,S6
+HERB-0433,यवाग्रजः,sa-Deva,S6
+HERB-0433,Ajowan caraway,en,S2/S5
+HERB-0433,bishop's weed,en,S2/S5
+HERB-0433,Trachyspermum ammi,la-botanical,S2/S5
+HERB-0433,Ajamodika,sa-Latn-ascii,S5
+HERB-0433,Deepyaka,sa-Latn-ascii,S5
+HERB-0433,Ugragandha,sa-Latn-ascii,S5
+HERB-0433,Yavani,sa-Latn-ascii,S5
+HERB-0434,सिंघाड़ा,hi-Deva,S6
+HERB-0434,Water Chestnut,en,S2/S5
+HERB-0434,Trapa natans,la-botanical,S2/S5
+HERB-0434,Jalaphala,sa-Latn-ascii,S5
+HERB-0434,Paniphalaka,sa-Latn-ascii,S5
+HERB-0434,Shringata,sa-Latn-ascii,S5
+HERB-0434,Trikonaphala,sa-Latn-ascii,S5
+HERB-0435,varṣābhū,sa-Latn-IAST,S2
+HERB-0435,वर्षाभू,sa-Deva,derived
+HERB-0435,desert horse purslane,en,S2/S5
+HERB-0435,black pigweed,en,S2/S5
+HERB-0435,giant pigweed,en,S2/S5
+HERB-0435,Trianthema portulacastrum,la-botanical,S2/S5
+HERB-0435,Dirghapatra,sa-Latn-ascii,S5
+HERB-0435,Punarnava bheda,sa-Latn-ascii,S5
+HERB-0435,Shalatini,sa-Latn-ascii,S5
+HERB-0435,Shveta Punarnava,sa-Latn-ascii,S5
+HERB-0436,gokṣura,sa-Latn-IAST,S2
+HERB-0436,गोक्षुर,sa-Deva,derived
+HERB-0436,गोखरू,hi-Deva,S6
+HERB-0436,गोकुरासस्यम्,sa-Deva,S6
+HERB-0436,Land-caltrops,en,S2/S5
+HERB-0436,Puncture-vine,en,S2/S5
+HERB-0436,Tribulus terrestris,la-botanical,S2/S5
+HERB-0436,Gokshuraka,sa-Latn-ascii,S5
+HERB-0436,Kantaphala,sa-Latn-ascii,S5
+HERB-0436,Shvadamshtra,sa-Latn-ascii,S5
+HERB-0436,Trikantaka,sa-Latn-ascii,S5
+HERB-0437,viśālā,sa-Latn-IAST,S2
+HERB-0437,विशाला,sa-Deva,derived
+HERB-0437,chinese cucumber,en,S2/S5
+HERB-0437,Trichosanthes bracteata,la-botanical,S2/S5
+HERB-0437,Trichosanthes palmata,la-botanical,S2/S5
+HERB-0438,paṭola,sa-Latn-IAST,S2
+HERB-0438,पटोल,sa-Deva,derived
+HERB-0438,चिचिड़ा,hi-Deva,S6
+HERB-0438,पटोलः,sa-Deva,S6
+HERB-0438,Snake gourd,en,S2/S5
+HERB-0438,Trichosanthes cucumerina,la-botanical,S2/S5
+HERB-0439,paṭola,sa-Latn-IAST,S2
+HERB-0439,पटोल,sa-Deva,derived
+HERB-0439,परवल,hi-Deva,S6
+HERB-0439,Pointed Gourd,en,S2/S5
+HERB-0439,Trichosanthes dioica,la-botanical,S2/S5
+HERB-0439,Amritaphala,sa-Latn-ascii,S5
+HERB-0439,Karkashachhada,sa-Latn-ascii,S5
+HERB-0439,Kulaka,sa-Latn-ascii,S5
+HERB-0439,Rajimphala,sa-Latn-ascii,S5
+HERB-0440,methī,sa-Latn-IAST,S2
+HERB-0440,मेथी,sa-Deva,derived
+HERB-0440,मेथी,hi-Deva,S6
+HERB-0440,मेथिका,sa-Deva,S6
+HERB-0440,Fenugreek,en,S2/S5
+HERB-0440,Greek hayes,en,S2/S5
+HERB-0440,Trigonella foenum-graecum,la-botanical,S2/S5
+HERB-0440,Bahuputrika,sa-Latn-ascii,S5
+HERB-0440,Dipani,sa-Latn-ascii,S5
+HERB-0440,Methika,sa-Latn-ascii,S5
+HERB-0440,Peetabeeja,sa-Latn-ascii,S5
+HERB-0441,śara,sa-Latn-IAST,S2
+HERB-0441,शर,sa-Deva,derived
+HERB-0441,munja,en,S2/S5
+HERB-0441,Saccharum munja,la-botanical,S2/S5
+HERB-0441,Soccharum sara,la-botanical,S2/S5
+HERB-0441,Saccharum sara,la-botanical,S2/S5
+HERB-0441,Brahmana-vriksha,sa-Latn-ascii,S5
+HERB-0441,Gundrakah,sa-Latn-ascii,S5
+HERB-0441,Munja,sa-Latn-ascii,S5
+HERB-0441,Tejanakah,sa-Latn-ascii,S5
+HERB-0442,Wheat,en,S2/S5
+HERB-0442,Triticum aestivum,la-botanical,S2/S5
+HERB-0442,Bahududhaka,sa-Latn-ascii,S5
+HERB-0442,Dhirgha-shuka,sa-Latn-ascii,S5
+HERB-0442,Mlechha-bhojana,sa-Latn-ascii,S5
+HERB-0442,Sumanah,sa-Latn-ascii,S5
+HERB-0443,gundrā,sa-Latn-IAST,S2
+HERB-0443,गुन्द्रा,sa-Deva,derived
+HERB-0443,lesser bulrush,en,S2/S5
+HERB-0443,narrow leaf cattail,en,S2/S5
+HERB-0443,lesser reedmace,en,S2/S5
+HERB-0443,Typha australis,la-botanical,S2/S5
+HERB-0444,pṛśniparṇī,sa-Latn-IAST,S2
+HERB-0444,पृश्निपर्णी,sa-Deva,derived
+HERB-0444,Pointed-leaved Uraria,en,S2/S5
+HERB-0444,Uraria picta,la-botanical,S2/S5
+HERB-0444,Chitraparni,sa-Latn-ascii,S5
+HERB-0444,Dhavani,sa-Latn-ascii,S5
+HERB-0444,Guha,sa-Latn-ascii,S5
+HERB-0444,Kalashi,sa-Latn-ascii,S5
+HERB-0445,vṛścikālī,sa-Latn-IAST,S2
+HERB-0445,वृश्चिकाली,sa-Deva,derived
+HERB-0445,common nettle/stinging nettle or nettle leaf,en,S2/S5
+HERB-0445,Urtica dioca,la-botanical,S2/S5
+HERB-0446,babbūla,sa-Latn-IAST,S2
+HERB-0446,बब्बूल,sa-Deva,derived
+HERB-0446,बबूल,hi-Deva,S6
+HERB-0446,कीकर,hi-Deva,S6
+HERB-0446,कृष्णखदिरवृक्षः,sa-Deva,S6
+HERB-0446,Babul,en,S2/S5
+HERB-0446,Black babool,en,S2/S5
+HERB-0446,indian gum arabic tree,en,S2/S5
+HERB-0446,Acacia nilotica,la-botanical,S2/S5
+HERB-0446,Acacia arabica,la-botanical,S2/S5
+HERB-0446,Kashaya,sa-Latn-ascii,S5
+HERB-0446,Kinkirata,sa-Latn-ascii,S5
+HERB-0446,Malaphala,sa-Latn-ascii,S5
+HERB-0446,Yugalaksha,sa-Latn-ascii,S5
+HERB-0447,tagara,sa-Latn-IAST,S2
+HERB-0447,तगर,sa-Deva,derived
+HERB-0447,Indian valerian,en,S2/S5
+HERB-0447,Valeriana jatamansi,la-botanical,S2/S5
+HERB-0447,Valeriana wallichii,la-botanical,S2/S5
+HERB-0447,Valeriana wallichi,la-botanical,S2/S5
+HERB-0447,Kutila,sa-Latn-ascii,S5
+HERB-0447,Nata,sa-Latn-ascii,S5
+HERB-0447,Shatha,sa-Latn-ascii,S5
+HERB-0447,Vakra,sa-Latn-ascii,S5
+HERB-0448,sarjaḥ,sa-Latn-IAST,S2
+HERB-0448,सर्जः,sa-Deva,derived
+HERB-0448,Indian copal tree/Piney varnish-tree/White-dammar,en,S2/S5
+HERB-0448,Vateria indica,la-botanical,S2/S5
+HERB-0448,Ajakarna,sa-Latn-ascii,S5
+HERB-0448,Marichapatra,sa-Latn-ascii,S5
+HERB-0448,Shala,sa-Latn-ascii,S5
+HERB-0448,Sura-vriksha,sa-Latn-ascii,S5
+HERB-0449,uśīra,sa-Latn-IAST,S2
+HERB-0449,उशीर,sa-Deva,derived
+HERB-0449,Vetiver,en,S2/S5
+HERB-0449,Khas-khas,en,S2/S5
+HERB-0449,Khus-khus plant,en,S2/S5
+HERB-0449,Vetiveria zizanioides,la-botanical,S2/S5
+HERB-0450,Lentil,en,S2/S5
+HERB-0450,Lens culinaris,la-botanical,S2/S5
+HERB-0450,Mangalya,sa-Latn-ascii,S5
+HERB-0450,Ragadoshaghni,sa-Latn-ascii,S5
+HERB-0450,Supya,sa-Latn-ascii,S5
+HERB-0451,māṣa,sa-Latn-IAST,S2
+HERB-0451,माष,sa-Deva,derived
+HERB-0451,उड़द दाल,hi-Deva,S6
+HERB-0451,माषः,sa-Deva,S6
+HERB-0451,Black gram,en,S2/S5
+HERB-0451,Vigna mungo,la-botanical,S2/S5
+HERB-0451,Phaseolus mungo,la-botanical,S2/S5
+HERB-0451,Kuruvinda,sa-Latn-ascii,S5
+HERB-0451,Mamsala,sa-Latn-ascii,S5
+HERB-0451,Pitrudeva,sa-Latn-ascii,S5
+HERB-0451,Vrishya,sa-Latn-ascii,S5
+HERB-0452,मूँग,hi-Deva,S6
+HERB-0452,मूंग,hi-Deva,S6
+HERB-0452,मुद्गः,sa-Deva,S6
+HERB-0452,Green Gram,en,S2/S5
+HERB-0452,Vigna radiata,la-botanical,S2/S5
+HERB-0452,Rashtrika,sa-Latn-ascii,S5
+HERB-0452,Supya,sa-Latn-ascii,S5
+HERB-0452,Varnya,sa-Latn-ascii,S5
+HERB-0453,mudagaparṇī,sa-Latn-IAST,S2
+HERB-0453,मुदगपर्णी,sa-Deva,derived
+HERB-0453,Wild Gram,en,S2/S5
+HERB-0453,Three-lobe-leaf,en,S2/S5
+HERB-0453,Vigna trilobata,la-botanical,S2/S5
+HERB-0453,Alpika,sa-Latn-ascii,S5
+HERB-0453,Kakamudra,sa-Latn-ascii,S5
+HERB-0453,Saha,sa-Latn-ascii,S5
+HERB-0453,Suryaparni,sa-Latn-ascii,S5
+HERB-0454,लोबिया,hi-Deva,S6
+HERB-0454,Cowpea,en,S2/S5
+HERB-0454,Vigna unguiculata,la-botanical,S2/S5
+HERB-0454,Chapala,sa-Latn-ascii,S5
+HERB-0454,Dirghashimbi,sa-Latn-ascii,S5
+HERB-0454,Masha bheda,sa-Latn-ascii,S5
+HERB-0455,बनफ्शा,hi-Deva,S6
+HERB-0455,Sweet Violet,en,S2/S5
+HERB-0455,Viola odorata,la-botanical,S2/S5
+HERB-0455,Banaphsha,sa-Latn-ascii,S5
+HERB-0455,Nilapushpa,sa-Latn-ascii,S5
+HERB-0455,Sukshmapatrika,sa-Latn-ascii,S5
+HERB-0456,Chaste Tree,en,S2/S5
+HERB-0456,Vitex agnus-castus,la-botanical,S2/S5
+HERB-0456,Bhasmagandha,sa-Latn-ascii,S5
+HERB-0456,Harenu,sa-Latn-ascii,S5
+HERB-0456,Kaunti,sa-Latn-ascii,S5
+HERB-0456,Nandini,sa-Latn-ascii,S5
+HERB-0457,nirguṇḍī,sa-Latn-IAST,S2
+HERB-0457,निर्गुण्डी,sa-Deva,derived
+HERB-0457,वीटेक्स नेगुंडो,hi-Deva,S6
+HERB-0457,Five-leaved chaste tree,en,S2/S5
+HERB-0457,Vitex negundo,la-botanical,S2/S5
+HERB-0457,Nila,sa-Latn-ascii,S5
+HERB-0457,Shephali,sa-Latn-ascii,S5
+HERB-0457,Sindhuvara,sa-Latn-ascii,S5
+HERB-0457,Suvaha,sa-Latn-ascii,S5
+HERB-0458,drākṣā,sa-Latn-IAST,S2
+HERB-0458,द्राक्षा,sa-Deva,derived
+HERB-0458,Common grape-vine,en,S2/S5
+HERB-0458,Wine grape,en,S2/S5
+HERB-0458,European grape,en,S2/S5
+HERB-0458,Vitis vinifera,la-botanical,S2/S5
+HERB-0458,Vitis inifera,la-botanical,S2/S5
+HERB-0458,Charuphala,sa-Latn-ascii,S5
+HERB-0458,Gostani,sa-Latn-ascii,S5
+HERB-0458,Mridvika,sa-Latn-ascii,S5
+HERB-0458,Rasamurva,sa-Latn-ascii,S5
+HERB-0459,ṛṣyaproktā,sa-Latn-IAST,S2
+HERB-0459,ऋष्यप्रोक्ता,sa-Deva,derived
+HERB-0459,Indian cheese maker,en,S2/S5
+HERB-0459,Indian rennet,en,S2/S5
+HERB-0459,vegetable rennet,en,S2/S5
+HERB-0459,Withania coagulans,la-botanical,S2/S5
+HERB-0460,aśvagandhā,sa-Latn-IAST,S2
+HERB-0460,अश्वगन्धा,sa-Deva,derived
+HERB-0460,अश्वगंधा,hi-Deva,S6
+HERB-0460,असगंध,hi-Deva,S6
+HERB-0460,Winter cherry,en,S2/S5
+HERB-0460,Withania somnifera,la-botanical,S2/S5
+HERB-0460,Balada,sa-Latn-ascii,S5
+HERB-0460,Kushtagandhini,sa-Latn-ascii,S5
+HERB-0460,Turagi,sa-Latn-ascii,S5
+HERB-0460,Vajigandha,sa-Latn-ascii,S5
+HERB-0461,dhātakī,sa-Latn-IAST,S2
+HERB-0461,धातकी,sa-Deva,derived
+HERB-0461,गुल धावी,hi-Deva,S6
+HERB-0461,Fire-flame bush,en,S2/S5
+HERB-0461,Shiranjitea,en,S2/S5
+HERB-0461,Woodfordia,en,S2/S5
+HERB-0461,Woodfordia fruticosa,la-botanical,S2/S5
+HERB-0461,Bahupushpi,sa-Latn-ascii,S5
+HERB-0461,Subhiksha,sa-Latn-ascii,S5
+HERB-0461,Tamrapushpi,sa-Latn-ascii,S5
+HERB-0461,Vahnijwala,sa-Latn-ascii,S5
+HERB-0462,tejovatī,sa-Latn-IAST,S2
+HERB-0462,तेजोवती,sa-Deva,derived
+HERB-0462,Toothache tree,en,S2/S5
+HERB-0462,Zanthoxylum armatum,la-botanical,S2/S5
+HERB-0462,Nepala-dhanya,sa-Latn-ascii,S5
+HERB-0462,Sanatuka,sa-Latn-ascii,S5
+HERB-0462,Sauvadhika,sa-Latn-ascii,S5
+HERB-0462,Tejovati,sa-Latn-ascii,S5
+HERB-0463,ārdraka,sa-Latn-IAST,S2
+HERB-0463,आर्द्रक,sa-Deva,derived
+HERB-0463,अदरक,hi-Deva,S6
+HERB-0463,अदरख,hi-Deva,S6
+HERB-0463,आर्द्रकम्,sa-Deva,S6
+HERB-0463,Ginger,en,S2/S5
+HERB-0463,Zingiber officinale,la-botanical,S2/S5
+HERB-0463,Zingiber officinalis,la-botanical,S2/S5
+HERB-0463,Adraka,sa-Latn-ascii,S5
+HERB-0463,Katubhadra,sa-Latn-ascii,S5
+HERB-0463,Mahaoushadha,sa-Latn-ascii,S5
+HERB-0463,Nagara,sa-Latn-ascii,S5
+HERB-0463,Shringavera,sa-Latn-ascii,S5
+HERB-0463,Vishwa,sa-Latn-ascii,S5
+HERB-0463,Vishwabheshaja,sa-Latn-ascii,S5
+HERB-0464,kuvala,sa-Latn-IAST,S2
+HERB-0464,कुवल,sa-Deva,derived
+HERB-0464,Ziziphus jujuba,en,S2/S5
+HERB-0464,Zizyphus sativa,la-botanical,S2/S5
+HERB-0465,badara/kola,sa-Latn-IAST,S2
+HERB-0465,बदर/कोल,sa-Deva,derived
+HERB-0465,बेर,hi-Deva,S6
+HERB-0465,बदरीफलम्,sa-Deva,S6
+HERB-0465,Indian jujube,en,S2/S5
+HERB-0465,Common jujube,en,S2/S5
+HERB-0465,Chinese date,en,S2/S5
+HERB-0465,Ziziphus mauritiana,la-botanical,S2/S5
+HERB-0465,Ziziphus jujuba,la-botanical,S2/S5
+HERB-0465,Zizyphus jujuba,la-botanical,S2/S5
+HERB-0465,Karkandhu,sa-Latn-ascii,S5
+HERB-0465,Koli,sa-Latn-ascii,S5
+HERB-0465,Kuvala,sa-Latn-ascii,S5
+HERB-0465,Phenila,sa-Latn-ascii,S5
+HERB-0466,badarī,sa-Latn-IAST,S2
+HERB-0466,बदरी,sa-Deva,derived
+HERB-0466,झरबेर,hi-Deva,S6
+HERB-0466,jhar beri,en,S2/S5
+HERB-0466,Ziziphus nummularia,la-botanical,S2/S5
+HERB-0466,Zizyphus nummularia,la-botanical,S2/S5

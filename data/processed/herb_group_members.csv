@@ -1,0 +1,501 @@
+group_id,member_rank,member_sa_iast,member_botanical,member_note,member_part_or_variety,herb_id
+SAT-F.188,1,jīvaka,Malaxis muscifera,Malaxis muscifera (Lindl.) Kuntze,,HERB-0273
+SAT-F.188,2,ṛṣabhaka,Malaxis acuminata,Malaxis acuminata D. Don,,HERB-0139
+SAT-F.188,3,medā,Polygonatum verticillatum,Polygonatum verticillatum (L.) All.,,HERB-0343
+SAT-F.188,4,mahāmeda,Polygonatum cirrhifolium,Polygonatum cirrhifolium (Wall.) Royle,,HERB-0342
+SAT-F.188,5,kākola,Lilium polyphyllum,Lilium polyphyllum D. Don,,HERB-0261
+SAT-F.188,6,kṣīrakākola,Fritillaria roylei,Fritillaria roylei Hook.,,HERB-0202
+SAT-F.188,7,mudgapar??,Phaseolous trilobus,Phaseolous trilobus Ait.,,HERB-0316
+SAT-F.188,8,māṣaparṇa,Teramnus labialis,Teramnus labialis Spreng.,,HERB-0422
+SAT-F.188,9,jīvanta,Leptadenia reticulata,Leptadenia reticulata W & A.,,HERB-0258
+SAT-F.188,10,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra-Linn.,,HERB-0210
+SAT-F.189,1,kṛtrima,Mimosops hexandra,Mimosops hexandra Roxb.,,HERB-0282
+SAT-F.189,2,rājakṣavaka,Euphorbia microphylla,Euphorbia microphyllaHeyne,,HERB-0183
+SAT-F.189,3,aśvagandhā,Withania somnifera,Withania somnifera Dunal.,,HERB-0460
+SAT-F.189,4,kākola,Lilium polyphyllum,Lilium polyphyllum D. Don,,HERB-0261
+SAT-F.189,5,kṣīrakākola,Fritillaria roylei,Fritillaria roylei Hook.,,HERB-0202
+SAT-F.189,6,v??y?yan?,Sida rhombifolia,Sida rhombifolia Linn.,,HERB-0393
+SAT-F.189,7,bhadraudanā,Sida cordifolia,Sida cordifolia Linn.,,HERB-0392
+SAT-F.189,8,bh?radv?j?,Thespesia lampas,Thespesia lampas Dalz & Gibs,,HERB-0428
+SAT-F.189,9,payasyā,Ipomea paniculata,Ipomea paniculata R. Br.,,HERB-0240
+SAT-F.189,10,??yagandh?,,,,
+SAT-F.190,1,musta,Cyperus rotundus,Cyperus rotundus Linn.,,HERB-0161
+SAT-F.190,2,kuṣṭha,Saussurea lappa,Saussurea lappa C.B. Clarke,,HERB-0174
+SAT-F.190,3,haridra,Curcuma longa,Curcuma longa Linn.,,HERB-0153
+SAT-F.190,4,dāruharidrā,Berberis aristata,Berberis aristata DC.,,HERB-0061
+SAT-F.190,5,vaca,Acorus calamus,Acorus calamus L.,,HERB-0010
+SAT-F.190,6,ativiṣā,Aconitum heterophyllum,Aconitum heterophyllum Wall.,,HERB-0008
+SAT-F.190,7,ka?urohin?,Picrorhiza kurroa,Picrorhiza kurroa Royle ex Benth.,,HERB-0326
+SAT-F.190,8,citraka,Plumbago zeylanica,Plumbago zeylanica Linn.,,HERB-0341
+SAT-F.190,9,cirabilv?a,Pongamia pinnata,Pongamia pinnata Merr.,,HERB-0344
+SAT-F.190,10,haimavat?,Iris versicolor,Iris versicolor L.,,HERB-0242
+SAT-F.191,1,suvahā(trivṛt),Operculina turpethum,Operculina turpethum R.B.,,HERB-0303
+SAT-F.191,2,arka,Calotropis gigantean,Calotropis gigantean R.Br ex Ait.,,HERB-0085
+SAT-F.191,3,urubuka,Ricinus communis,Ricinus communis L.,,HERB-0361
+SAT-F.191,4,agnimukh?,Gloriosa superba,Gloriosa superba Linn.,,HERB-0209
+SAT-F.191,5,citra,Baliospermum montanum,Baliospermum montanum Muell-Arg.,,HERB-0051
+SAT-F.191,6,citraka,Plumbago zeylanica,Plumbago zeylanica Linn.,,HERB-0341
+SAT-F.191,7,cirabilva,Holoptelea integrifolia,Holoptelea integrifolia (Roxb.) Planch.,,HERB-0230
+SAT-F.191,8,?a?khin?,Canscora decussata,Canscora decussata Roem. Et Sch.,,HERB-0089
+SAT-F.191,9,śakulādanā,Picrorhiza kurroa,Picrorhiza kurroa Royle ex Benth.,,HERB-0326
+SAT-F.191,10,svar?ak??ri??,Euphorbia thomsoniana,Euphorbia thomsoniana Boiss.,,HERB-0186
+SAT-F.192,1,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.192,2,madhupar??,Tinspora cordifolia,Tinspora cordifolia Miers.,,HERB-0431
+SAT-F.192,3,pṛśniparṇa,Uraria picta,Uraria picta Desv.,,HERB-0444
+SAT-F.192,4,amba??hak?,Cissampelos pareria,Cissampelos pareria Linn.,,HERB-0115
+SAT-F.192,5,sama?g?,Rubia cordifolia,Rubia cordifolia L.,,HERB-0364
+SAT-F.192,6,mocarasa,Salmalia malabarica,Salmalia malabarica Schott & Endl.,,HERB-0070
+SAT-F.192,7,dhātakī,Woodfordia fruticosa,Wood-fordia fruticosa Kurz.,,HERB-0461
+SAT-F.192,8,lodhra,Symplocos racemosa,Symplocos racemosa Roxb.,,HERB-0413
+SAT-F.192,9,priyaṅgu,Callicarpa macrophylla,Callicarpa macrophylla Vahl.,,HERB-0083
+SAT-F.192,10,kaṭphala,Myrica esculenta,Myrica esculenta Buch.-Ham. ex D. Don,,HERB-0284
+SAT-F.193,1,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.193,2,pippal?m?la,Piper longum,root of Piper longum L.,root,HERB-0331
+SAT-F.193,3,cavya,Piper chaba,Piper chaba Hunter,,HERB-0333
+SAT-F.193,4,citraka,Plumbago zeylanica,Plumbago zeylanica Linn.,,HERB-0341
+SAT-F.193,5,śṛṅgavera,Zingiber officinalis,Zingiber officinalis Rosc.,,HERB-0463
+SAT-F.193,6,amlavetasa,Hippophae tibetana,Hippophae tibetana Schltdl.,,HERB-0228
+SAT-F.193,7,marica,Piper nigrum,Piper nigrum Linn.,,HERB-0332
+SAT-F.193,8,ajamoda,Trachyspermum roxburghianum,Trachyspermum roxburghianum,,HERB-0350
+SAT-F.193,9,bhallātaka,Semecarpus anacardium,Semecarpus anacardium Linn.f.,,HERB-0379
+SAT-F.193,10,hiṅguniryāsa,Ferula narthex,resin of Ferula narthex Boiss.,resin,HERB-0193
+SAT-F.194,1,aindrā,Bacopa monnieri,Bacopa monnieri (L.) Wettst.,,HERB-0049
+SAT-F.194,2,prabha,,,,
+SAT-F.194,3,atirasā,Asparagus racemosus,Asparagus racemosus Willd.,,HERB-0044
+SAT-F.194,4,ṛṣyaprokta,Teramnus labialis,Teramnus labialis Spreng.,,HERB-0422
+SAT-F.194,5,payasyā,Ipomea paniculata,Ipomea paniculata R. Br.,,HERB-0240
+SAT-F.194,6,aśvagandhā,Withania somnifera,Withania somnifera Dunal.,,HERB-0460
+SAT-F.194,7,sthira,Desmodium gangeticum,Desmodium gangeticum DC.,,HERB-0167
+SAT-F.194,8,rohiṇī,Picrorhiza kurroa,Picrorhiza kurroa Royle ex Benth.,,HERB-0326
+SAT-F.194,9,bala,Sida cordifolia,Sida cordifolia Linn.,,HERB-0392
+SAT-F.194,10,atibala,Abutilon indicum,Abutilon indicum (L.) Sweet,,HERB-0004
+SAT-F.195,1,candana,Santalum album,Santalum album L.,,HERB-0370
+SAT-F.195,2,tuṅga,Calophyllus inophyllum,Calophyllus inophyllum Linn.,,HERB-0084
+SAT-F.195,3,padmaka,Prunus cerasoides,Prunus cerasoides D.Don.,,HERB-0349
+SAT-F.195,4,udara,Vetiveria zizanioides,Vetiveria zizanioides Nash.,,HERB-0449
+SAT-F.195,5,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.195,6,majiṣṭha,Rubia cordifolia,Rubia cordifolia L.,,HERB-0364
+SAT-F.195,7,sāriva,Hemidesmus indicus,Hemidesmus indicus R.B.,,HERB-0224
+SAT-F.195,8,payasyā,Ipomea paniculata,Ipomea paniculata R. Br.,,HERB-0240
+SAT-F.195,9,sita,Cynodon doctylon,white variety of Cynodon doctylon Pers.,white variety,HERB-0160
+SAT-F.195,10,lata,Cynodon dactylon,black variety of Cynodon dactylon Pers.,black variety,HERB-0160
+SAT-F.196,1,sāriva,Hemidesmus indicus,Hemidesmus indicus R.B.,,HERB-0224
+SAT-F.196,2,ikṣumūla,Saccharum officinarum,root of Saccharum officinarum Linn.,root,HERB-0365
+SAT-F.196,3,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.196,4,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.196,5,drākṣā,Vitis vinifera,Vitis vinifera Linn.,,HERB-0458
+SAT-F.196,6,vidāra,Ipomea paniculata,Ipomea paniculata R. Br.,,HERB-0240
+SAT-F.196,7,kaiḍarya,Myrica esculenta,Myrica esculenta Buch.-Ham. ex D. Don,,HERB-0284
+SAT-F.196,8,ha?sap?d?,Adiantum lunulatum,Adiantum lunulatum Burm.,,HERB-0013
+SAT-F.196,9,bṛhatī,Solanum indicum,Solanum indicum Linn.,,HERB-0400
+SAT-F.196,10,ka??ak?r?k?,Solanum virginianum,Solanum virginianum L.,,HERB-0401
+SAT-F.197,1,āmra,Mangifera indica,Mangifera indica Linn.,,HERB-0275
+SAT-F.197,2,?mr?taka,Spondias pinnata,Spondias pinnata Kurz.,,HERB-0407
+SAT-F.197,3,lakuca,Artocarpus lacooca,Artocarpus lacooca Roxb.,,HERB-0042
+SAT-F.197,4,karamarda,Carissa carandes,Carissa carandes Linn.,,HERB-0094
+SAT-F.197,5,vṛkṣāmla,Garcinia indica,Garcinia indica (Thouars) Choisy.,,HERB-0205
+SAT-F.197,6,amlavetasa,Hippophae tibetana,Hippophae tibetana Schltdl.,,HERB-0228
+SAT-F.197,7,kuvala,Zizyphus sativa,Zizyphus sativa Gaertn.,,HERB-0464
+SAT-F.197,8,badara,Zizyphus jujuba,Zizyphus jujuba Lam.,,HERB-0465
+SAT-F.197,9,dāḍima,Punica granatum,Punica granatum Linn.,,HERB-0355
+SAT-F.197,10,m?tulu?ga,Citrus decumana,Citrus decumana Linn.,,HERB-0119
+SAT-F.198,1,nāgara,Zingiber officinalis,Zingiber officinalis Rosc.,,HERB-0463
+SAT-F.198,2,cavya,Piper chaba,Piper chaba Hunter.,,HERB-0333
+SAT-F.198,3,citraka,Plumbago zeylanica,Plumbago zeylanica Linn.,,HERB-0341
+SAT-F.198,4,vihaṅga,Embelia ribes,Embelia ribes Burmf.,,HERB-0179
+SAT-F.198,5,mūrvā,Clematis triloba,Clematis triloba Heyne ex Roth.,,HERB-0121
+SAT-F.198,6,guḍūca,Tisnpora cordifolia,Tisnpora cordifolia Miers.,,HERB-0431
+SAT-F.198,7,vaca,Acorus calamus,Acorus calamus L.,,HERB-0010
+SAT-F.198,8,musta,Cyperus rotundus,Cyperus rotundus Linn.,,HERB-0161
+SAT-F.198,9,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.198,10,paṭola,Trichosanthes cucumerina,Trichosanthes cucumerina Linn.,,HERB-0438
+SAT-F.199,1,kuṭaja,Holarrhena antidysenterica,Holarrhena antidysenterica Wall.,,HERB-0229
+SAT-F.199,2,bilva,Aegle marmelos,Aegle marmelos Corr.,,HERB-0014
+SAT-F.199,3,citraka,Plumbago zeylanica,Plumbago zeylanica Linn.,,HERB-0341
+SAT-F.199,4,nāgara,Zingiber officinale,Zingiber officinaleRosc.,,HERB-0463
+SAT-F.199,5,ativiṣā,Aconitum heterophyllum,Aconitum heterophyllum Wall.,,HERB-0008
+SAT-F.199,6,abhayā,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.199,7,dhanvayāsaka,Fagonia cretica,Fagonia cretica L.,,HERB-0187
+SAT-F.199,8,dāruharidrā,Berberis aristata,Berberis aristata DC.,,HERB-0061
+SAT-F.199,9,vaca,Acorus calamus,Acorus calamus L.,,HERB-0010
+SAT-F.199,10,cavya,Piper chaba,Piper chaba Hunter.,,HERB-0333
+SAT-F.200,1,khadira,Acacia catechu,Acacia catechu Willd.,,HERB-0380
+SAT-F.200,2,abhayā,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.200,3,āmalaka,Emblica officinalis,Emblica officinalis Gaertn.,,HERB-0324
+SAT-F.200,4,haridra,Curcuma longa,Curcuma longa Linn.,,HERB-0153
+SAT-F.200,5,aruṣkara,Semecarpus anacardium,Semecarpus anacardium Linn.f.,,HERB-0379
+SAT-F.200,6,saptaparṇa,Alstonia scholaris,Alstonia scholaris R. Br.,,HERB-0024
+SAT-F.200,7,āragvadha,Cassia fistula,Cassia fistula Linn.,,HERB-0097
+SAT-F.200,8,karavīra,Nerium indicum,Nerium indicum Mill.,,HERB-0294
+SAT-F.200,9,vihaṅga,Embelia ribes,Embelia ribes Brum.f.,,HERB-0179
+SAT-F.200,10,j?t?prav?la,,"tender shoots of ,em>Jasminum officinale Linn.var.grandiflorum Bailey.",tender shoots,
+SAT-F.201,1,candana,Santalum album,Santalum album L.,,HERB-0370
+SAT-F.201,2,nalada,Nardostachys jatamamsi,Nardostachys jatamamsi DC.,,HERB-0291
+SAT-F.201,3,kṛtamūla,Cassia fistula,Cassia fistula Linn.,,HERB-0097
+SAT-F.201,4,naktamūla,Pongamia pinnata,Pongamia pinnata Merr.,,HERB-0344
+SAT-F.201,5,nimba,Azadirachta indica,Azadirachta indica A.Juss.,,HERB-0047
+SAT-F.201,6,kuṭaja,Holarrhena antidysenterica,Holarrhena antidysenterica Wall.,,HERB-0229
+SAT-F.201,7,sarṣapa,Brassica nigra,Brassica nigra Koch.,,HERB-0074
+SAT-F.201,8,>em>madhuka,Glycyrrhiza labra,Glycyrrhiza labra Linn.,,HERB-0210
+SAT-F.201,9,dāruharidrā,Berbaris aristata,Berbaris aristata DC.,,HERB-0061
+SAT-F.201,10,musta,Cyperus rotundus,Cyperus rotundus Linn.,,HERB-0161
+SAT-F.202,1,ak??va,Moringa oleifera,Moringa oleifera Lam.,,HERB-0286
+SAT-F.202,2,marica,Piper nigrum,Piper nigrum Linn.,,HERB-0332
+SAT-F.202,3,gaṇḍūra,Euphorbia antiqurum,Euphorbia antiqurum Linn.,,HERB-0182
+SAT-F.202,4,kebuka,Costus speciosus,Costus speciosus (J.Koenig) Sm.,,HERB-0223
+SAT-F.202,5,vihaṅga,Embelia ribes,Embelia ribes Burm.f.,,HERB-0179
+SAT-F.202,6,nirguṇḍī,Vitex negundo,Vitex negundo L.,,HERB-0457
+SAT-F.202,7,kiṭihā,Achyranthes aspera,Achyranthes aspera Linn.,,HERB-0005
+SAT-F.202,8,?vada???r?,Tribulus terrestris,Tribulus terrestris Linn.,,HERB-0436
+SAT-F.202,9,v??apar?ik?,Ipomoea reniformis,a variety of Ipomoea reniformis Chois,a variety,HERB-0278
+SAT-F.202,10,ākhuparṇikā,Ipomoea reniformis,Ipomoea reniformis Chois,,HERB-0278
+SAT-F.203,1,haridra,Curcuma langa,Curcuma langa Linn.,,HERB-0153
+SAT-F.203,2,majiṣṭha,Rubia cordifolia,Rubia cordifolia L.,,HERB-0364
+SAT-F.203,3,suvahā,Pluchea lanceolata,Pluchea lanceolata Oliver & Hiern.,,HERB-0339
+SAT-F.203,4,sūkṣmailā,Elettaria cardamomum,Elettaria cardamomum (L.) Maton,,HERB-0178
+SAT-F.203,5,palindā,,,,
+SAT-F.203,6,candana,Santalum album,Santalum album L.,,HERB-0370
+SAT-F.203,7,kataka,Strychnos potatorum,Strychnos potatorum Linn.f.,,HERB-0410
+SAT-F.203,8,śirasa,Albizzia lebbeck,Albizzia lebbeck Benth.,,HERB-0017
+SAT-F.203,9,sindhuv?ra,Vitex negundo,Vitex negundo L.,,HERB-0457
+SAT-F.203,10,śleṣmātaka,Cordia dichotoma,Cordia dichotoma G.Forst.,,HERB-0135
+SAT-F.204,1,vāraṇa,Vetiveria zizanioides,Vetiveria zizanioides Nash.,,HERB-0449
+SAT-F.204,2,vali,Oryza sativa,Oryza sativa Linn.,,HERB-0306
+SAT-F.204,3,vartika,Oryza sativa,a variety of Oryza sativa Linn.,a variety,HERB-0306
+SAT-F.204,4,ikṣuvālikā,Hygrophila auriculata,Hygrophila auriculata (Schumach.) Heine,,HERB-0232
+SAT-F.204,5,darbha,Desmostachya bipinnata,Desmostachya bipinnata Staff.,,HERB-0168
+SAT-F.204,6,kuśa,Desmostachya bipinnata,a variety of Desmostachya bipinnata Staff.,a variety,HERB-0168
+SAT-F.204,7,kāsa,Saccharum spontaneum,Saccharum spontaneum Linn.,,HERB-0366
+SAT-F.204,8,gundra,Soccharum sara,Soccharum sara,,HERB-0441
+SAT-F.204,9,itkaṇa,,,,
+SAT-F.204,10,kat???a,Cymbopogon schoenanthus,Cymbopogon schoenanthus Spreng.,,HERB-0158
+SAT-F.205,1,plīha,Cissampelos pareria,Cissampelos pareria Linn.,,HERB-0115
+SAT-F.205,2,mahauṣadha,Zingiber officinale,Zingiber officinale Rosc.,,HERB-0463
+SAT-F.205,3,suradāru,Cedrus deodara,Cedrus deodara Loud.,,HERB-0100
+SAT-F.205,4,musta,Cyperus rotundus,Cyperus rotundus Linn.,,HERB-0161
+SAT-F.205,5,mūrvā,Clemalis triloba,Clemalis triloba Heyne ex Roth.,,HERB-0121
+SAT-F.205,6,guḍūca,Tinspora cordifolia,Tinspora cordifolia Miers.,,HERB-0431
+SAT-F.205,7,vatsaka,Holarrhena antidysenterica,Holarrhena antidysenterica Wall.,,HERB-0229
+SAT-F.205,8,kirātatikta,Swertia chirata,Swertia chirata Buch-Ham.,,HERB-0411
+SAT-F.205,9,kaṭurohiṇī,Picrorhiza kurroa,Picrorhiza kurroaRoyle ex Benth.,,HERB-0326
+SAT-F.205,10,sāriva,Hemidesmus indicus,Hemidesmus indicus R.B.,,HERB-0224
+SAT-F.206,1,jīvaka,Malaxis muscifera,Malaxis muscifera (Lindl.) Kuntze,,HERB-0273
+SAT-F.206,2,ṛṣabhaka,Malaxis acuminata,Malaxis acuminata D. Don,,HERB-0139
+SAT-F.206,3,kākola,Lilium polyphyllum,Lilium polyphyllum D. Don,,HERB-0261
+SAT-F.206,4,kṣīrakākola,Fritillaria roylei,Fritillaria roylei Hook.,,HERB-0202
+SAT-F.206,5,mudgapar??,Phaseolus trilobus,Phaseolus trilobus Ait.,,HERB-0318
+SAT-F.206,6,māṣaparṇa,Teramnus labialis,Teramnus labialis Spreng.,,HERB-0422
+SAT-F.206,7,medā,Polygonatum verticillatum,Polygonatum verticillatum (L.) All.,,HERB-0343
+SAT-F.206,8,v?ddharuh?,Asparagus racemosus,Asparagus racemosus Willd.,,HERB-0044
+SAT-F.206,9,ja?il?,Nardostachys jatamamsi,Nardostachys jatamamsi DC.,,HERB-0291
+SAT-F.206,10,kuli?g?,,,,
+SAT-F.207,1,kuṣṭha,Saussurea lappa,Saussurea lappa C.B. Clarke,,HERB-0174
+SAT-F.207,2,elavāluka,Brunus cerasus,Brunus cerasus Linn.,,HERB-0078
+SAT-F.207,3,kaṭphala,Myrica esculenta,Myrica esculenta Buch.-Ham. ex D. Don,,HERB-0284
+SAT-F.207,4,samudraphena,Sepia officinalis,Internal cell of Sepia officinalis,,HERB-0387
+SAT-F.207,5,kadamba,Anthocephalus indicus,Anthocephalus indicus A. Rich.,,HERB-0076
+SAT-F.207,6,ikṣu,Saccharum officinarum,Saccharum officinarum Linn.,,HERB-0365
+SAT-F.207,7,k?n?ek?u,Saccharum spontaneum,Saccharum spontaneum Linn.,,HERB-0366
+SAT-F.207,8,ikṣuraka,Astercantha longifolia,Astercantha longifolia Nees.,,HERB-0232
+SAT-F.207,9,vasuka,Indigofera enneaphylla,Indigofera enneaphylla Linn.,,HERB-0235
+SAT-F.207,10,udara,Vetiveria zizanioides,Vetiveria zizanioides Nash.,,HERB-0449
+SAT-F.208,1,m?dv?k?,Vitis vinifera,Vitis vinifera Linn.,,HERB-0458
+SAT-F.208,2,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.208,3,madhupar??,Tinspora cordifolia,Tinspora cordifolia Miers.,,HERB-0431
+SAT-F.208,4,medā,Polygonatum verticillatum,Polygonatum verticillatum (L.) All.,,HERB-0343
+SAT-F.208,5,vidāra,Ipomoea paniculata,Ipomoea paniculata R.Br.,,HERB-0240
+SAT-F.208,6,kākola,Lilium polyphyllum,Lilium polyphyllum D. Don,,HERB-0261
+SAT-F.208,7,kṣīrakākola,Fritillaria roylei,Fritillaria roylei Hook.,,HERB-0202
+SAT-F.208,8,jīvaka,Malaxis muscifera,Malaxis muscifera (Lindl.) Kuntze,,HERB-0273
+SAT-F.208,9,jīvanta,Leptadenia reticulata,Leptadenia reticulata W. & A.,,HERB-0258
+SAT-F.208,10,śālaparṇa,Desmodium gangeticum,Desmodium gangeticum DC.,,HERB-0167
+SAT-F.209,1,lobhajanaka,Moringa oleifera,Moringa oleifera Lam.,,HERB-0286
+SAT-F.209,2,eraṇḍa,Ricinus communis,Ricinus communisLinn.,,HERB-0361
+SAT-F.209,3,arka,Calotropis gigantea,Calotropis gigantea R.Br ex Ait.,,HERB-0085
+SAT-F.209,4,vṛścāra,Boerhaavia diffusa,white variety of Boerhaavia diffusa Linn.,white variety,HERB-0066
+SAT-F.209,5,punarnava,Boerhaavia diffusa,red variety of Boerhaavia diffusa Linn.,red variety,HERB-0066
+SAT-F.209,6,yava,Hordeum vulgare,Hordeum vulgare Linn.,,HERB-0231
+SAT-F.209,7,tila,Sesamum indicum,Sesamum indicumLinn.,,HERB-0388
+SAT-F.209,8,kulattha,Dolichos biflorus,Dolichos biflorus Linn.,,HERB-0269
+SAT-F.209,9,moha,Phaseolus mungo,Phaseolus mungo L.,,HERB-0317
+SAT-F.209,10,badara,Zizyphus jujuba,Zizyphus jujuba Lam.,,HERB-0465
+SAT-F.210,1,madhu,,honey,,
+SAT-F.210,2,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.210,3,kovidāra,Bauhinia variegata,red variety of Bauhinia variegata Linn.,red variety,HERB-0059
+SAT-F.210,4,karbudāra,Bauhina variegata,white variety of Bauhina variegata Linn.,white variety,HERB-0059
+SAT-F.210,5,nāpa,Anthocephalus indicus,Anthocephalus indicus A. Rich.,,HERB-0076
+SAT-F.210,6,vidula,Barringtonia acutangula,Barringtonia acutangula Gaertn.,,HERB-0057
+SAT-F.210,7,bimbī,Coccinia indica,Coccinia indica W. & A.,,HERB-0125
+SAT-F.210,8,?a?apu?p?,Crotalaria verrucosa,Crotalaria verrucosa Linn.,,HERB-0142
+SAT-F.210,9,sad?pu?p?,Calotropis gigantea,Calotropis gigantea R.Br ex Ait.,,HERB-0085
+SAT-F.210,10,pratyakpu?p?,Archyranthes aspera,Archyranthes aspera Linn.,,HERB-0005
+SAT-F.211,1,drākṣā,Vitis inifera,Vitis inifera Linn.,,HERB-0458
+SAT-F.211,2,k??marya,Gmelina arborea,Gmelina arborea Linn.,,HERB-0211
+SAT-F.211,3,par??aka,Grewia asiatica,Grewia asiatica Linn.,,HERB-0214
+SAT-F.211,4,abhayā,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.211,5,āmalaka,Embiica officinalis,Embiica officinalis Gaertn.,,HERB-0324
+SAT-F.211,6,bibhītaka,Terminalia belerica,Terminalia belericaRoxb.,,HERB-0425
+SAT-F.211,7,kuvala,Zizyphus sativa,Zizyphus sativa Gaertn.,,HERB-0464
+SAT-F.211,8,badara,Zizyphus jujuba,Zizyphus jujubaLam.,,HERB-0465
+SAT-F.211,9,karkandhu,Zizyphus nummularia,Zizyphus nummulariaW. & A.,,HERB-0466
+SAT-F.211,10,pīlu,Salvadora persica,Salvadora persica Linn.,,HERB-0369
+SAT-F.212,1,trivṛt,Operculina turpethum,Operculina turpethum R.B.,,HERB-0303
+SAT-F.212,2,bilva,Aegle marmelos,Aegle marmelos Corr.,,HERB-0014
+SAT-F.212,3,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.212,4,kuṣṭha,Saussurea lappa,Saussurea lappa C.B. Clarke,,HERB-0174
+SAT-F.212,5,sarṣapa,Brassica nigra,Brassica nigra Koch.,,HERB-0074
+SAT-F.212,6,vaca,Acorus calamus,Acorus calamusL.,,HERB-0010
+SAT-F.212,7,vastaka,Holarrhena antidysenterica,Holarrhena antidysenterica Wall.,,HERB-0229
+SAT-F.212,8,?atapu?p?,Foeniculum vulgare,Foeniculum vulgare Mill.,,HERB-0201
+SAT-F.212,9,madh?ka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.212,10,madana,Catunaregam spinosa,Catunaregam spinosa (Thunb.) Tirveng.,,HERB-0099
+SAT-F.213,1,rāsnā,Pluchea lanceolata,Pluchea lanceolata Oliver & Hiern.,,HERB-0339
+SAT-F.213,2,suradāru,Cedrus deodara,Cedrus deodara Loud.,,HERB-0100
+SAT-F.213,3,bilva,Aegle marmelos,Aegle marmelos Corr.,,HERB-0014
+SAT-F.213,4,madana,Catunaregam spinosa,Catunaregam spinosa (Thunb.) Tirveng.,,HERB-0099
+SAT-F.213,5,?atapu?p?,Foeniculum vulgare,Foeniculum vulgare Mill.,,HERB-0201
+SAT-F.213,6,vṛścāra,Boerhaavia diffusa,white variety of Boerhaavia diffusa Linn.,white variety,HERB-0066
+SAT-F.213,7,punarnava,Boerhaavia diffusa,red variety of Boerhaavia diffusa Linn.,red variety,HERB-0066
+SAT-F.213,8,?vada???r?,Tribulus terrestris,Tribulus terrestris Linn.,,HERB-0436
+SAT-F.213,9,agnimantha,Clerodendrum phlomidis,Clerodendrum phlomidis Linn.f.,,HERB-0122
+SAT-F.213,10,śyonāka,Oroxylum indicum,Oroxylum indicum Vent.,,HERB-0305
+SAT-F.214,1,jyotiṣmatī,Celastrus paniculatus,Celastrus paniculatus Willd.,,HERB-0101
+SAT-F.214,2,kṣavaka,Centipeda minima,Centipeda minima A. Br. Et. Aschers.,,HERB-0104
+SAT-F.214,3,marica,Piper nigrum,Piper nigrum Linn.,,HERB-0332
+SAT-F.214,4,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.214,5,vihaṅga,Embelia ribes,Embelia ribes Burm.f.,,HERB-0179
+SAT-F.214,6,śigru,Moringa oleifera,Moringa oleifera Lam.,,HERB-0286
+SAT-F.214,7,sarṣapa,Brassica nigra,Brassica nigra Koch.,,HERB-0074
+SAT-F.214,8,apāmārga,Achyranthes aspera,Achyranthes aspera Linn.,,HERB-0005
+SAT-F.214,9,śveta,Clitoria ternatea,white variety of Clitoria ternatea Linn.,white variety,HERB-0124
+SAT-F.214,10,mahāśveta,Clitoria ternatea,a variety of Clitoria ternatea Linn.,a variety,HERB-0124
+SAT-F.215,1,ja?bu,Syzygium cumini,Syzygium cumini Skeels.,,HERB-0415
+SAT-F.215,2,āmra,Mangifera indica,Mangifera indica Linn.,,HERB-0275
+SAT-F.215,3,m?tulu?ga,Citrus decumana,Citrus decumana Linn.,,HERB-0119
+SAT-F.215,4,badara,Zizyphus jujuba,Zizyphus jujuba Lam.,,HERB-0465
+SAT-F.215,5,dāḍima,Punica granatum,Punica granatum Linn.,,HERB-0355
+SAT-F.215,6,yava,Hordeum vulgare,Hordeum vulgare Linn.,,HERB-0231
+SAT-F.215,7,yaṣṭika,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.215,8,udara,Vetiveria zizanioides,Vetiveria zizanioides Nash.,,HERB-0449
+SAT-F.215,9,m?t,,earth,,
+SAT-F.215,10,lājā,,parched grain,,
+SAT-F.216,1,nāgara,Zingiber officinale,Zingiber officinale Rosc.,,HERB-0463
+SAT-F.216,2,dhanvayāsaka,Fagonia cretica,Fagonia cretica L.,,HERB-0187
+SAT-F.216,3,musta,Cyperus rotundus,Cyperus rotundus Linn.,,HERB-0161
+SAT-F.216,4,parpaṇaka,Fumaria parviflora,Fumaria parviflora Lam.,,HERB-0204
+SAT-F.216,5,candana,Santalum album,Santalum album L.,,HERB-0370
+SAT-F.216,6,kirātatikta,Swertia chirata,Swertia chirata Buch-Ham.,,HERB-0411
+SAT-F.216,7,guḍūca,Tinspora cordifolia,Tinspora cordifolia Miers.,,HERB-0431
+SAT-F.216,8,hrivera,Pavonia odorata,Pavonia odorata Willd.,,HERB-0314
+SAT-F.216,9,dhānyaka,Coriandrum sativum,Coriandrum sativum L.,,HERB-0136
+SAT-F.216,10,paṭola,Trichosanthes cucumerina,Trichosanthes cucumerina Linn.,,HERB-0438
+SAT-F.217,1,mada,Hedychium spicatum,Hedychium spicatum Sm.,,HERB-0221
+SAT-F.217,2,puṣkaramūla,Inula racemosa,Inula racemosa Hook. F.,,HERB-0238
+SAT-F.217,3,badara,Zizyphus jujuba,Zizyphus jujuba Lam.,,HERB-0465
+SAT-F.217,4,ka??ak?r?k?,Solanum virginianum,Solanum virginianum L.,,HERB-0401
+SAT-F.217,5,bṛhatī,Solanum indicum,Solanum indicum Linn.,,HERB-0400
+SAT-F.217,6,v?k?aruh?,Dendrophthoe falcata,Dendrophthoe falcata Linn. F.,,HERB-0166
+SAT-F.217,7,abhayā,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.217,8,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.217,9,dur?labh?,Fagonia cretica,Fagonia cretica Linn.,,HERB-0187
+SAT-F.217,10,kul?ra???g?,Pistacia chinensis,Pistacia chinensis subsp. integerrima (J. L. Stewart ex Brandis) Rech. f.,,HERB-0334
+SAT-F.218,1,priyan?gu,Callicarpa macrophylla,Callicarpa macrophylla Vahl.,,HERB-0083
+SAT-F.218,2,anata,Hemidesmus indicus,Hemidesmus indicus R.B.,,HERB-0224
+SAT-F.218,3,āmra,Mangifera indica,Mangifera indica Linn.,,HERB-0275
+SAT-F.218,4,ka?va?ga,Oroxylum indicum,Oroxylum indicum Vent.,,HERB-0305
+SAT-F.218,5,lodhra,Symplocos racemosa,Symplocos racemosa Roxb.,,HERB-0413
+SAT-F.218,6,mocarasa,Salmalia malabarica,Salmalia malabarica Schott & Endl.,,HERB-0070
+SAT-F.218,7,samaṅga,Mimosa pudica,Mimosa pudica Linn.,,HERB-0280
+SAT-F.218,8,dhātakī,Woodfordia fruticosa,Woodfordia fruticosa Kurz.,,HERB-0461
+SAT-F.218,9,padmaka,Clerodendrum serratum,Clerodendrum serratum Moon.,,HERB-0123
+SAT-F.218,10,padmakeśara,,filaments of lotus,filaments,
+SAT-F.219,1,jambu,,syzygium cumini (L.) Skeels,,
+SAT-F.219,2,śallakī,Boswellia serrata,Boswellia serrata Roxb.,,HERB-0072
+SAT-F.219,3,kacch?ra,Mucuna pruriens,Mucuna pruriens (L.) DC.,,HERB-0287
+SAT-F.219,4,madh?ka,Madhuca indica,Madhuca indica J.F. Gmel.,,HERB-0271
+SAT-F.219,5,śālmali,Salmalia malabarica,Salmalia malabarica Schott & Endl.,,HERB-0070
+SAT-F.219,6,?r?ve??aka,Pinus roxburghii,extract of Pinus roxburghii Sargent.,extract,HERB-0328
+SAT-F.219,7,bh???am?t,,fried mud,,
+SAT-F.219,8,payasyā,Ipomoea paniculata,Ipomoea paniculata R.B.,,HERB-0240
+SAT-F.219,9,utpala,Nymphaea alba,Nymphaea alba Linn.,,HERB-0298
+SAT-F.219,10,tila,Sesamum indicum,Sesamum indicum Linn.,,HERB-0388
+SAT-F.220,1,jambu,Syzygium cumini,Syzygium cumini Skeels.,,HERB-0415
+SAT-F.220,2,āmra,Mangifera indica,Mangifera indica Linn.,,HERB-0275
+SAT-F.220,3,plakṣa,Ficus lacor,Ficus lacor Buch-Ham.,,HERB-0196
+SAT-F.220,4,vasa,Ficus bengalensis,Ficus bengalensis Linn.,,HERB-0194
+SAT-F.220,5,kapītana,Albizzia lebbeck,Albizzia lebbeck Benth.,,HERB-0017
+SAT-F.220,6,uduṃbara,Ficus racemosa,Ficus racemosa Linn.,,HERB-0197
+SAT-F.220,7,aśvattha,Ficus religiosa,Ficus religiosa Linn.,,HERB-0198
+SAT-F.220,8,bhallātaka,Semecarpus anacardium,Semecarpus anacardium Linn.f.,,HERB-0379
+SAT-F.220,9,aśmantaka,,bauhinia racemosa Lam.,,
+SAT-F.220,10,somavalka,Acacia catechu,Acacia catechu Willd.,,HERB-0380
+SAT-F.221,1,padma,Nelumbo nucifera,Nelumbo nucifera Gaertn.,,HERB-0292
+SAT-F.221,2,utpala,Nymphaea alba,Nymphaea alba Linn.,,HERB-0298
+SAT-F.221,3,nalina,Nelumbo nucifera,a variety of Nelumbo nucifera Gaertn.,a variety,HERB-0292
+SAT-F.221,4,kumuda,Nymphaea alba,Nymphaea alba Linn.,,HERB-0298
+SAT-F.221,5,saugandhika,,,,
+SAT-F.221,6,pun?ar?ka,Nymphaea lotus,red variety of Nymphaea lotus Linn.,red variety,HERB-0299
+SAT-F.221,7,śatapatra,Nelumbo nucifera,a variety of Nelumbo nucifera Gaertn.,a variety,HERB-0292
+SAT-F.221,8,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.221,9,priyaṅgu,Callicarpa macrophylla,Callicarpa macrophylla Vahl.,,HERB-0083
+SAT-F.221,10,dhātakīpuṣpa,Woodfordia fruticosa,Woodfordia fruticosa Kurz.,,HERB-0461
+SAT-F.222,1,vikledana,Dendrophthoe falcata,Dendrophthoe falcata Linn. F.,,HERB-0166
+SAT-F.222,2,?vada???r?,Tribulus terrestris,Tribulus terrestris Linn.,,HERB-0436
+SAT-F.222,3,vasuka,Indigofera ennephylla,Indigofera ennephylla Linn.,,HERB-0236
+SAT-F.222,4,vaktra,Gynandropsis gynandra,Gynandropsis gynandra Briquet,,HERB-0219
+SAT-F.222,5,purīṣabheda,Bergenia ligulata,Bergenia ligulata Engl.,,HERB-0062
+SAT-F.222,6,darbha,Desmostachya bipinnata,a variety of Desmostachya bipinnata Staff.,a variety,HERB-0168
+SAT-F.222,7,kuśa,Desmostachya bipinnata,Desmostachya bipinnata Staff.,,HERB-0168
+SAT-F.222,8,kāsa,Saccharum spontaneum,Saccharum spontaneumLinn.,,HERB-0366
+SAT-F.222,9,gundra,Saccharum sara,Saccharum sara,,HERB-0441
+SAT-F.222,10,itkaṇamala,,,,
+SAT-F.223,1,drākṣā,Vitis vinifera,Vitis vinifera Linn.,,HERB-0458
+SAT-F.223,2,abhaya,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.223,3,āmalaka,Emblica officinalis,Emblica officinalis Gaertn.,,HERB-0324
+SAT-F.223,4,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.223,5,dur?labh?,Fagonia cretica,Fagonia cretica Linn.,,HERB-0187
+SAT-F.223,6,ayoga,Rhus succedenea,Rhus succedenea Linn.,,HERB-0432
+SAT-F.223,7,ka??ak?r?k?,Solanum virginianum,Solanum virginianum L.,,HERB-0401
+SAT-F.223,8,vṛścāra,Boerhaavia diffusa,white variety of Boerhaavia diffusa Linn.,white variety,HERB-0066
+SAT-F.223,9,punarnava,Boerhaavia diffusa,red variety of Boerhaavia diffusa Linn.,red variety,HERB-0066
+SAT-F.223,10,tāmalakī,Phyllanthus niruri,Phyllanthus niruri Linn.,,HERB-0325
+SAT-F.224,1,mada,Hedychium spicatum,Hedychium spicatum Sm.,,HERB-0221
+SAT-F.224,2,puṣkaramūla,Inula racemosa,Inula racemosa Hook. F.,,HERB-0238
+SAT-F.224,3,amlavetasa,Hippophae tibetana,Hippophae tibetana Schltdl.,,HERB-0228
+SAT-F.224,4,ela,Elettaria cardamomum,Elettaria cardamomum (L.) Maton,,HERB-0178
+SAT-F.224,5,hiṅguniryāsa,Ferula narthex,Ferula narthex Boiss.,,HERB-0193
+SAT-F.224,6,aguru,Aquilaria malaccensis,Aquilaria malaccensis Lam.,,HERB-0035
+SAT-F.224,7,surasā,Ocimum tenuiflorum,Ocimum tenuiflorum L.,,HERB-0302
+SAT-F.224,8,tāmalakī,Phyllanthus niruri,Phyllanthus niruri Linn.,,HERB-0325
+SAT-F.224,9,jīvanta,Leptadenia reticulata,Leptadenia reticulata W & A.,,HERB-0258
+SAT-F.224,10,cayaḥ,,,,
+SAT-F.225,1,paṭala,Stereospermum suaveolens,Stereospermum suaveolens DC.,,HERB-0408
+SAT-F.225,2,agnimantha,Clerodendrum phlomidis,Clerodendrum phlomidis Linn.f.,,HERB-0122
+SAT-F.225,3,śyonāka,Oroxylum indicum,Oroxylum indicum Vent.,,HERB-0305
+SAT-F.225,4,bilva,Aegle marmelos,Aegle marmelos Corr.,,HERB-0014
+SAT-F.225,5,k??marya,Gmelina arborea,Gmelina arborea Linn.,,HERB-0211
+SAT-F.225,6,ka??ak?r?k?,Solanum virginianum,Solanum virginianum L.,,HERB-0401
+SAT-F.225,7,bṛhatī,Solanum indicum,Solanum indicum Linn.,,HERB-0400
+SAT-F.225,8,śālaparṇa,Desmodium gangeticum,Desmodium gangeticum DC.,,HERB-0167
+SAT-F.225,9,pṛśniparṇa,Uraria picta,Uraria picta Desv.,,HERB-0444
+SAT-F.225,10,gokṣuraka,Tribulus terrestris,Tribulus terrestris Linn.,,HERB-0436
+SAT-F.226,1,sāriva,Hemidesmus indicus,Hemidesmus indicus R.B.,,HERB-0224
+SAT-F.226,2,śarkara,,sugar,,
+SAT-F.226,3,plīha,Cissampelos pareria,Cissampelos pareria Linn.,,HERB-0115
+SAT-F.226,4,majiṣṭha,Rubia cordifolia,Rubia cordifolia L.,,HERB-0364
+SAT-F.226,5,drākṣā,Vitis vinifera,Vitis vinifera Linn.,,HERB-0458
+SAT-F.226,6,pīlu,Salvadora persica,Salvadora persica Linn.,,HERB-0369
+SAT-F.226,7,par??aka,Grewia asiatica,Grewia asiatica Linn.,,HERB-0214
+SAT-F.226,8,abhayā,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.226,9,āmalaka,Emblica officinalis,Emblica officinalisGaertn.,,HERB-0324
+SAT-F.226,10,bibhītaka,Terminalia belerica,Terminalia belerica Roxb.,,HERB-0425
+SAT-F.227,1,drākṣā,Vitis vinifera,Vitis vinifera Linn.,,HERB-0458
+SAT-F.227,2,kharjūra,Phoenix sylvestris,Phoenix sylvestris Roxb.,,HERB-0320
+SAT-F.227,3,priyāla,Buchanania lanzan,Buchanania lanzan Spreng.,,HERB-0079
+SAT-F.227,4,badara,Zizyphus jujuba,Zizyphus jujuba Lam.,,HERB-0465
+SAT-F.227,5,dāḍima,Punica granatum,Punica granatum Linn.,,HERB-0355
+SAT-F.227,6,phalgu,Ficus hispida,Ficus hispida Linn.f.,,HERB-0195
+SAT-F.227,7,par??aka,Grewia asiatica,Grewia asiatica Linn.,,HERB-0214
+SAT-F.227,8,ikṣu,Saccharum officinarum,Saccharum officinarum Linn.,,HERB-0365
+SAT-F.227,9,yava,Hordeum vulgare,Hordeum vulgare Linn.,,HERB-0231
+SAT-F.227,10,karṇikā,Oryza sativa,a variety of Oryza sativaLinn.,a variety,HERB-0306
+SAT-F.228,1,lājā,,parched grain,,
+SAT-F.228,2,candana,Santalum album,Santalum album L.,,HERB-0370
+SAT-F.228,3,k??maryaphala,Gmelina arborea,Gmelina arborea Linn.,,HERB-0211
+SAT-F.228,4,madh?ka,Madhuca indica,Madhuca indica J.F. Gmel.,,HERB-0271
+SAT-F.228,5,śarkara,,sugar,,
+SAT-F.228,6,n?lotpala,Nymphaea stellata,Nymphaea stellata Willd.,,HERB-0301
+SAT-F.228,7,udara,Vetiveria zizanioides,Vetiveria zizanioides Nash.,,HERB-0449
+SAT-F.228,8,sāriva,Hemidesmum indicus,Hemidesmum indicus R.B.,,HERB-0224
+SAT-F.228,9,guḍūca,Tinspora cordifolia,Tinspora cordifolia Miers.,,HERB-0431
+SAT-F.228,10,hr?bera,Pavonia odorata,Pavonia odorata Willd.,,HERB-0314
+SAT-F.229,1,tagara,Valeriana wallichi,Valeriana wallichi DC.,,HERB-0447
+SAT-F.229,2,aguru,Aquilaria malaccensis,Aquilaria malaccensis Lam.,,HERB-0035
+SAT-F.229,3,dhānyaka,Coriandrum sativum,Coriandrum sativum L.,,HERB-0136
+SAT-F.229,4,śṛṅgavera,Zingiber officinale,Zingiber officinaleRosc.,,HERB-0463
+SAT-F.229,5,bh?t?ka,Trachyspermum ammi,Trachyspermum ammi Sprague.,,HERB-0433
+SAT-F.229,6,vaca,Acorus calamus,Acorus calamus L.,,HERB-0010
+SAT-F.229,7,ka??ak?r?k?,Solanum virginianum,Solanum virginianum L.,,HERB-0401
+SAT-F.229,8,agnimantha,Clerodendrum phlomidis,Clerodendrum phlomidis Linn.f.,,HERB-0122
+SAT-F.229,9,śyonāka,Oroxylum indicum,Oroxylum indicum Vent.,,HERB-0305
+SAT-F.229,10,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.230,1,tinduka,Diospyros peregrina,Diospyros peregrina Gurke.,,HERB-0172
+SAT-F.230,2,priyāla,Buchanania lanzan,Buchanania lanzan Spreng.,,HERB-0079
+SAT-F.230,3,badara,Zizyphus jujuba,Zizyphus jujuba Lam.,,HERB-0465
+SAT-F.230,4,khadira,Acacia catechu,Acacia catechuWilld.,,HERB-0380
+SAT-F.230,5,kadara,Acacia catechu,a variety of Acacia catechu Willd.,a variety,HERB-0380
+SAT-F.230,6,saptaparṇa,Alstonia scholaris,Alstonia scholaris R. Br.,,HERB-0024
+SAT-F.230,7,aśvakarṇa,Dipterocarpus alatus,Dipterocarpus alatus Roxb.,,HERB-0173
+SAT-F.230,8,arjuna,Terminalia arjuan,Terminalia arjuan W. & A.,,HERB-0424
+SAT-F.230,9,asana,Terminalia tomentosa,Terminalia tomentosa W. & A.,,HERB-0427
+SAT-F.230,10,arimed?,Acacia catechu,a variety of Acacia catechu Willd.,a variety,HERB-0380
+SAT-F.231,1,vid?rigandh?(??lipar??),Desmodium gangeticum,Desmodium gangeticum DC.,,HERB-0167
+SAT-F.231,2,pṛśniparṇa,Uraria picta,Uraria picta Desv.,,HERB-0444
+SAT-F.231,3,bṛhatī,Solanum indicum,Solanum indicum Linn.,,HERB-0400
+SAT-F.231,4,ka??ak?r?k?,Solanum virginianum,Solanum virginianum L.,,HERB-0401
+SAT-F.231,5,eraṇḍa,Ricinus communis,Ricinus communis Linn.,,HERB-0361
+SAT-F.231,6,kākola,Lilium polyphyllum,Lilium polyphyllum D. Don,,HERB-0261
+SAT-F.231,7,candana,Santalum album,Santalum album L.,,HERB-0370
+SAT-F.231,8,udara,Vetiveria zizanioides,Vetiveria zizanioides Nash.,,HERB-0449
+SAT-F.231,9,el?,Elettaria cardamomum,Elettaria cardamomum (L.) Maton,,HERB-0178
+SAT-F.231,10,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.232,1,pippalī,Piper longum,Piper longum L.,,HERB-0331
+SAT-F.232,2,pippalīmala,Piper longum,Root of Piper longum L.,,HERB-0331
+SAT-F.232,3,cavya,Piper chaba,Piper chaba Hunter,,HERB-0333
+SAT-F.232,4,citraka,Plumbago zeylanica,Plumbago zeylanica Linn.,,HERB-0341
+SAT-F.232,5,śṛṅgavera,Zingiber officinale,Zingiber officinale Rosc.,,HERB-0463
+SAT-F.232,6,marica,Piper nigrum,Piper nigrum Linn.,,HERB-0332
+SAT-F.232,7,ajamoda,Trachyspermum roxburghianum,Trachyspermum roxburghianum,,HERB-0350
+SAT-F.232,8,ajagandhā,Gynandropsis gynandra,Gynandropsis gynandra Briquet,,HERB-0219
+SAT-F.232,9,ajājī,Cuminum cyminum,Cuminum cyminum Linn.,,HERB-0148
+SAT-F.232,10,gaṇḍūra,Eurphorbia antiquorum,Eurphorbia antiquorum Linn.,,HERB-0182
+SAT-F.233,1,madhu,,honey,,
+SAT-F.233,2,madhuka,Glycyrrhiza glabra,Glycyrrhiza glabra Linn.,,HERB-0210
+SAT-F.233,3,rudhira,Crocus sativa,Crocus sativa Linn.,,HERB-0140
+SAT-F.233,4,mocarasa,Salmalia malabarica,resin of Salmalia malabarica Schott & Endl.,resin,HERB-0070
+SAT-F.233,5,lodhra,Symplocos racemosa,Symplocos racemosa Roxb.,,HERB-0413
+SAT-F.233,6,gairika,Ferrum haematite,Ferrum haematite,,HERB-0189
+SAT-F.233,7,priyaṅgu,Callicarpa macrophylla,Callicarpa macrophylla Vahl.,,HERB-0083
+SAT-F.233,8,śarkara,,sugar,,
+SAT-F.233,9,lājā,,parched grain,,
+SAT-F.234,1,śūla,Shorea robusta,Shorea robusta Gaertn. F.,,HERB-0391
+SAT-F.234,2,kaṭphala,Myrica esculenta,Myrica esculenta Buch.-Ham. ex D. Don,,HERB-0284
+SAT-F.234,3,kadamba,Anthocephalus indicus,Anthocephalus indicus A. Rich.,,HERB-0076
+SAT-F.234,4,padmaka,Prunus cerasoides,Prunus cerasoides D.Don.,,HERB-0349
+SAT-F.234,5,tumba,Zanthoxylum armatum,Zanthoxylum armatum DC.,,HERB-0462
+SAT-F.234,6,mocarasa,Salmalia malabarica,resin of Salmalia malabarica Schott & Endl.,resin,HERB-0070
+SAT-F.234,7,śirasa,Albizzia lebbeck,Albizzia lebbeck Benth.,,HERB-0017
+SAT-F.234,8,vajula,Salix caprea,Salix caprea Linn.,,HERB-0367
+SAT-F.234,9,elavāluka,Prunus avium,Prunus avium (L.)L.,,HERB-0348
+SAT-F.234,10,aśoka,Saraca asoca,Saraca asoca (Roxb.) Willd.,,HERB-0372
+SAT-F.235,1,hiṅgu,Ferula narthex,Ferula narthex Boiss.,,HERB-0193
+SAT-F.235,2,kaiḍarya,Murraya koenigii,Murraya koenigii Spreng.,,HERB-0288
+SAT-F.235,3,arimed?,Acacia catechu,a variety of Acacia catechu Willd.,a variety,HERB-0380
+SAT-F.235,4,vaca,Acorus calamus,Acorus calamus L.,,HERB-0010
+SAT-F.235,5,coraka,Angelica glauca,Angelica glauca Edgw.,,HERB-0032
+SAT-F.235,6,vayasthā,Bocopa monnieri,Bocopa monnieri Pennel.,,HERB-0049
+SAT-F.235,7,golomā,Acorus calamus,a variety of Acorus calamus L.,a variety,HERB-0010
+SAT-F.235,8,ja?il?,Nardostachys jatamansi,Nardostachys jatamansi DC.,,HERB-0291
+SAT-F.235,9,palaṅkaṣā,Commiphora wightii,Commiphora wightii (Arn.) Bhandari,,HERB-0132
+SAT-F.235,10,aśokarohiṇī,Picrohiza kurroa,Picrohiza kurroa Royle ex Benth.,,HERB-0326
+SAT-F.236,1,aindrā,Bacopa monnieri,Bacopa monnieri (L.) Wettst.,,HERB-0049
+SAT-F.236,2,brāhmī,Bacopa monnieri,Bacopa monnieriPennel.,,HERB-0049
+SAT-F.236,3,?atav?ry?,Cynodon dactylon,Cynodon dactylon Pers.,,HERB-0160
+SAT-F.236,4,sahasravīryā,Cynodon dactylon,a variety of Cynodon dactylon Pers.,a variety,HERB-0160
+SAT-F.236,5,amogh?,Emblica officinalis,Emblica officinalis Gaertn.,,HERB-0324
+SAT-F.236,6,avyathā,Tinspora cordifolia,Tinspora cordifolia Miers.,,HERB-0431
+SAT-F.236,7,diva,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.236,8,ariṣṭa,Picrorhiza kurroa,Picrorhiza kurroa Royle ex Benth.,,HERB-0326
+SAT-F.236,9,v??y?pu?p?,Sida rhombifolia,Sida rhombifolia Linn.,,HERB-0393
+SAT-F.236,10,vi?vaksenak?nt?,Callicarpa macrophylla,Callicarpa macrophylla Vahl.,,HERB-0083
+SAT-F.237,1,am?t?,Tinospora cordifolia,Tinospora cordifolia Miers.,,HERB-0431
+SAT-F.237,2,abhayā,Terminalia chebula,Terminalia chebula Linn.,,HERB-0426
+SAT-F.237,3,dhātrī,Emblica officinalis,Emblica officinalis Gaertn.,,HERB-0324
+SAT-F.237,4,muktā,,pearl,,
+SAT-F.237,5,śveta,Clitoria ternatea,white variety of Clitoria ternatea Linn.,white variety,HERB-0124
+SAT-F.237,6,jīvanta,Leptadenia reticulata,Leptadenia reticulata W. & A.,,HERB-0258
+SAT-F.237,7,atirasā,Asparagus racemosus,Asparagus racemosus Willd.,,HERB-0044
+SAT-F.237,8,maṇḍūkaparṇī,Centella asiatica,Centella asiatica Urban,,HERB-0103
+SAT-F.237,9,sthira,Desmodium gangeticum,Desmodium gangeticum DC.,,HERB-0167
+SAT-F.237,10,punarnava,Boerhavia diffusa,Boerhavia diffusa Linn.,,HERB-0067
+SAT-F.237,11,note:theterm'vayaḥsthāpana'denotesjarācikitsā/rasāyanacikitsa(sat-a.21),,,,

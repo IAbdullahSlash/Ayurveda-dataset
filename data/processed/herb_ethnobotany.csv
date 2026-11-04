@@ -1,0 +1,2873 @@
+herb_id,use_activity,country_community,taxon_in_source,reference,source_id
+HERB-0014,Abdomen,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0066,Abdomen,India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0413,Abdomen,India(Hindu),Symplocos racemosa,Uphof,S4
+HERB-0209,Abortifacient,India,Gloriosa superba,Woi.4,S4
+HERB-0209,Abortifacient,India,Gloriosa superba,Steinmetz,S4
+HERB-0222,Abortifacient,India,Heliotropium indicum,Woi.5,S4
+HERB-0028,Ache(Ear),India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0071,Ache(Ear),India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0181,Ache(Ear),India,Erythrina variegata,Woi.3,S4
+HERB-0185,Ache(Ear),India,Euphorbia neriifolia,Woi.3,S4
+HERB-0403,Ache(Ear),India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0024,Ache(Head),India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0071,Ache(Head),India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0160,Ache(Head),India(Santal),Cynodon dactylon,Eb24: 251,S4
+HERB-0164,Ache(Head),India(Santal),Datura metel,Eb24: 251,S4
+HERB-0254,Ache(Head),India(Santal),Lawsonia inermis,Eb24: 256,S4
+HERB-0259,Ache(Head),India(Santal),Leucas cephalotes,Eb24: 257,S4
+HERB-0379,Ache(Head),India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0417,Ache(Head),India(Santal),Tamarindus indica,Eb24: 264,S4
+HERB-0457,Ache(Head),India,Vitex negundo,Steinmetz,S4
+HERB-0024,Ache(Leg),India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0070,Ache(Leg),India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0085,Ache(Leg),India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0044,Ache(Limb),India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0085,Ache(Loin),India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0010,Ache(Stomach),US(Amerindian),Acorus calamus,Krochmal,S4
+HERB-0014,Ache(Stomach),India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0016,Ache(Stomach),India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0030,Ache(Stomach),India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0122,Ache(Stomach),India(Santal),Clerodendrum phlomoidis,Eb24: 249,S4
+HERB-0229,Ache(Stomach),India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0257,Ache(Stomach),India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0351,Ache(Stomach),India(Santal),Pterocarpus marsupium,Eb24: 261,S4
+HERB-0391,Ache(Stomach),India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0410,Ache(Stomach),India(Santal),Strychnos potatorum,Eb24: 264,S4
+HERB-0427,Ache(Stomach),India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0071,Adenopathy,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0197,Adenopathy,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0266,Adenopathy,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0266,Adenopathy,India(Santal),Luffa amara,Eb24: 257,S4
+HERB-0286,Adenopathy,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0099,Adenopathy,India(Santal),Randia dumetorum,Eb24: 262,S4
+HERB-0448,Adenopathy,India,Vateria indica,Woi.10,S4
+HERB-0454,Adenopathy,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0076,Aftosa,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0391,Aftosa,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0448,Alexipharmic,India(Ayurvedic),Vateria indica,Woi.10,S4
+HERB-0262,Alexiteric,India,Feronia limonia,Woi.4,S4
+HERB-0153,Alterative,India,Curcuma domestica,Woi.2,S4
+HERB-0167,Alterative,India,Desmodium gangeticum,Woi.3,S4
+HERB-0179,Alterative,India,Embelia ribes,Woi.3,S4
+HERB-0187,Alterative,India,Fagonia cretica,Woi.Syria,S4
+HERB-0198,Alterative,India,Ficus religiosa,Woi.4,S4
+HERB-0224,Alterative,India,Hemidesmus indicus,Woi.5,S4
+HERB-0278,Alterative,India,Merremia emarginata,Eb32: 307,S4
+HERB-0395,Alterative,India,Smilax china,Uphof,S4
+HERB-0457,Alterative,India,Vitex negundo,Steinmetz,S4
+HERB-0229,Amebiasis,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0463,Amenorrhea,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0232,Anasarca,India,Asteracantha longifolia,Woi.1,S4
+HERB-0123,Anasarca,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0223,Anasarca,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0160,Anasarca,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0164,Anasarca,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0182,Anasarca,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0211,Anasarca,India,Gmelina arborea,Woi.4,S4
+HERB-0232,Anasarca,India,Hygrophila auriculata,Eb32: 308,S4
+HERB-0275,Anasarca,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0287,Anasarca,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0379,Anasarca,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0457,Anasarca,India(Santal),Vitex negundo,Eb24: 266,S4
+HERB-0372,Androgenic,India,Saraca asoca,Woi.9,S4
+HERB-0076,Anemia,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0101,Anemia,India(Santal),Celastrus paniculatus,Eb24: 248,S4
+HERB-0229,Anemia,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0275,Anemia,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0324,Anemia,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0412,Anemia,India,Swertia chirayita,Woi.10,S4
+HERB-0229,Anesthetic,India,Holarrhena antidysenterica,Woi.Syria,S4
+HERB-0003,Anodyne,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0004,Anodyne,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0380,Anodyne,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0014,Anodyne,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0066,Anodyne,India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0071,Anodyne,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0101,Anodyne,India(Gujarat),Celastrus paniculatus,Eb32: 281,S4
+HERB-0144,Anodyne,India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0153,Anodyne,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0164,Anodyne,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0181,Anodyne,India,Erythrina variegata,Woi.3,S4
+HERB-0182,Anodyne,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0184,Anodyne,India(Santal),Euphorbia hirta,Eb24: 253,S4
+HERB-0216,Anodyne,India,Grewia tenax,Woi.4,S4
+HERB-0255,Anodyne,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0257,Anodyne,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0266,Anodyne,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0271,Anodyne,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0287,Anodyne,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0312,Anodyne,India(Unani),Papaver somniferum,Eb27: 394,S4
+HERB-0324,Anodyne,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0338,Anodyne,India(Santal),Plantago ovata,Eb24: 261,S4
+HERB-0368,Anodyne,India(Santal),Salix tetrasperma,Eb24: 262,S4
+HERB-0374,Anodyne,India(Santal),Schleichera oleosa,Eb24: 262,S4
+HERB-0390,Anodyne,India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0391,Anodyne,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0401,Anodyne,India,Solanum surattense,Woi.9,S4
+HERB-0402,Anodyne,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0424,Anodyne,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0428,Anodyne,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0460,Anodyne,India(Punjab),Withania somnifera,Woi.Syria,S4
+HERB-0463,Anodyne,India(Santal),Zingiber officinale,Eb2,S4
+HERB-0047,Anthrax,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0122,Anthrax,India(Santal),Clerodendrum phlomoidis,Eb24: 249,S4
+HERB-0127,Anthrax,India(Santal),Coix lacryma-jobi,Eb24: 249,S4
+HERB-0153,Anthrax,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0211,Anthrax,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0305,Anthrax,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0324,Anthrax,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0379,Anthrax,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0217,Antiabortifacient,India,Caesalpinia bonduc,Eb29: 41,S4
+HERB-0258,Antiabortifacient,India,Leptadenia reticulata,Woi.6,S4
+HERB-0070,Antidote(Centipede),India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0286,Antidote(Centipede),India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0299,Antidote(Chameleon),India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0287,Antidote(Crocodile),India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0066,Antidote(Scolopendrid),India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0037,Antidote(Scorpion),India,Argemone mexicana,Eb32: 303,S4
+HERB-0070,Antidote(Scorpion),India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0176,Antidote(Scorpion),India,Eclipta prostrata,Eb32: 309,S4
+HERB-0286,Antidote(Scorpion),India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0287,Antidote(Scorpion),India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0463,Antidote(Scorpion),India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0449,Antidote(Scorpion)(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0070,Antidote(Spider),India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0286,Antidote(Spider),India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0034,Antiseptic,India,Apium graveolens,Woi.Syria,S4
+HERB-0174,Antiseptic,India,Saussurea lappa,Steinmetz,S4
+HERB-0227,Antiseptic,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0259,Antiseptic,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0305,Antiseptic,India(Gujarat),Oroxylum indicum,Eb32: 283,S4
+HERB-0370,Antiseptic,India,Santalum album,Uphof,S4
+HERB-0238,Antiseptic,India,Inula racemosa,Woi.5,S4
+HERB-0421,Antitussive,India(Gujarat),Tephrosia hamiltonii,Eb32: 281,S4
+HERB-0025,Anus,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0066,Anus,India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0153,Anus,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0296,Anus,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0330,Anus,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0391,Anus,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0433,Anus,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0444,Anus,India,Uraria picta,Woi.10,S4
+HERB-0454,Anus,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0463,Anus,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0401,Apertif,India,Solanum surettense,Eb29: 79,S4
+HERB-0044,Aphrodisiac,India,Asparagus racemosus,Eb32: 284,S4
+HERB-0049,Aphrodisiac,India,Bacopa monnieri,Eb32: 308,S4
+HERB-0070,Aphrodisiac,India,Bombax malabaricum,Uphof,S4
+HERB-0238,Aphrodisiac,India,Inula racemosa,Woi.5,S4
+HERB-0312,Aphrodisiac,India(Ayurvedic),Papaver somniferum,Eb27: 393,S4
+HERB-0312,Aphrodisiac,India(Unani),Papaver somniferum,Eb27: 393,S4
+HERB-0376,Aphrodisiac,India,Scindapsus officinalis,Woi.9,S4
+HERB-0392,Aphrodisiac,India,Sida cordifolia,Standley,S4
+HERB-0395,Aphrodisiac,India,Smilax china,Uphof,S4
+HERB-0444,Aphrodisiac,India,Uraria picta,Woi.10,S4
+HERB-0172,Aphthaee,India,Diospyros peregrina,Woi.3,S4
+HERB-0391,Ardor,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0339,Arthritis,India(Ayurvedic),Pluchea lanceolata,Woi.8,S4
+HERB-0460,Arthritis,India(Ayurvedic),Withania somnifera,Woi.Syria,S4
+HERB-0144,Ascites,India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0380,Asthma,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0010,Asthma,India(Santal),Acorus calamus,Eb24: 243,S4
+HERB-0250,Asthma,India,Adhatoda vasica,Eb25: 418,S4
+HERB-0250,Asthma,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0024,Asthma,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0114,Asthma,India(Santal),Cinnamomum verum,Eb24: 256,S4
+HERB-0223,Asthma,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0180,Asthma,India,Ephedra gerardiana,Woi.3,S4
+HERB-0185,Asthma,India,Euphorbia neriifolia,Woi.3,S4
+HERB-0202,Asthma,India,Fritillaria roylei,Woi.4,S4
+HERB-0211,Asthma,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0222,Asthma,India,Heliotropium indicum,Eb32: 307,S4
+HERB-0257,Asthma,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0294,Asthma,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0329,Asthma,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0331,Asthma,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0337,Asthma,India,Pistia stratiotes,Eb32: 301,S4
+HERB-0395,Asthma,India,Smilax china,Uphof,S4
+HERB-0401,Asthma,India,Solanum surattense,Woi.9,S4
+HERB-0401,Asthma,India(Santal),Solanum surattensis,Eb24: 263,S4
+HERB-0401,Asthma,India,Solanum surettense,Eb29: 79,S4
+HERB-0408,Asthma,India(Santal),Stereospermum suaveolens,Eb24: 264,S4
+HERB-0411,Asthma,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0412,Asthma,India,Swertia chirayita,Woi.10,S4
+HERB-0426,Asthma,India,Terminalia chebula,Woi.10,S4
+HERB-0431,Asthma,India,Tinospora cordifolia,Eb25: 420,S4
+HERB-0460,Asthma,India(Ayurvedic),Withania somnifera,Woi.Syria,S4
+HERB-0463,Asthma,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0008,Astringent,India,Aconitum heterophyllum,Steinmetz,S4
+HERB-0014,Astringent,India,Aegle marmelos,Eb33: 204,S4
+HERB-0126,Astringent,India,Cocos nucifera,Woi.2,S4
+HERB-0161,Astringent,India,Cyperus rotundus,Eb32: 301,S4
+HERB-0169,Astringent,India,Dichrostachys cinerea,Woi.3,S4
+HERB-0179,Astringent,India,Embelia ribes,Woi.3,S4
+HERB-0181,Astringent,India,Erythrina variegata,Woi.3,S4
+HERB-0262,Astringent,India,Feronia limonia,Woi.4,S4
+HERB-0198,Astringent,India,Ficus religiosa,Woi.4,S4
+HERB-0214,Astringent,India,Grewia asiatica,Woi.4,S4
+HERB-0229,Astringent,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0271,Astringent,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0305,Astringent,India(Ayurvedic),Oroxylum indicum,Woi.7,S4
+HERB-0360,Astringent,India,Rheum emodi,Woi.9,S4
+HERB-0362,Astringent,India,Rosa centifolia,Steinmetz,S4
+HERB-0392,Astringent,India,Sida cordifolia,Standley,S4
+HERB-0402,Astringent,India,Soymida febrifuga,Woi.9,S4
+HERB-0454,Astringent,India,Vigna unguiculata,Woi.3,S4
+HERB-0005,Atrophy,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0032,Atrophy,India(Santal),Angelica glauca,Eb24: 244,S4
+HERB-0070,Atrophy,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0153,Atrophy,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0194,Atrophy,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0198,Atrophy,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0296,Atrophy,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0297,Atrophy,India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0345,Atrophy,India(Santal),Premna herbacea,Eb24: 261,S4
+HERB-0411,Atrophy,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0433,Atrophy,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0461,Atrophy,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0214,Bactericide,India,Grewia asiatica,Woi.4,S4
+HERB-0380,Bactericide,India,Acacia catechu,Eb30: 318,S4
+HERB-0095,Bactericide,India,Carthamus tinctorius,Eb30: 318,S4
+HERB-0096,Bactericide,India,Carum carvi,Eb30: 318,S4
+HERB-0152,Bactericide,India,Curcuma aromatica,Eb30: 318,S4
+HERB-0172,Bactericide,India,Diospyros peregrina,Woi.3,S4
+HERB-0182,Bactericide,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0229,Bactericide,India,Holarrhena antidysenterica,Eb30: 318,S4
+HERB-0254,Bactericide,India,Lawsonia inermis,Eb30: 318,S4
+HERB-0274,Bactericide,India,Mallotus philippinensis,Eb30: 318,S4
+HERB-0279,Bactericide,India,Mesua ferrea,Eb30: 318,S4
+HERB-0294,Bactericide,India,Nerium indicum,Woi.7,S4
+HERB-0296,Bactericide,India,Nigella sativa,Eb30: 318,S4
+HERB-0324,Bactericide,India,Phyllanthus emblica,Eb30: 318,S4
+HERB-0224,Bacteriostat,India,Hemidesmus indicus,Woi.5,S4
+HERB-0286,Baldness,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0440,Baldness,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0016,Bilious,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0211,Bilious,India,Gmelina arborea,Woi.4,S4
+HERB-0271,Bilious,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0271,Bilious,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0439,Bilious,India,Trichosanthes dioica,Steinmetz,S4
+HERB-0211,Bite,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0005,Bite(Bug),India,Achyranthes aspera,Eb32: 302,S4
+HERB-0005,Bite(Bug),India,Achyranthes aspera,Woi.Syria,S4
+HERB-0085,Bite(Bug),India,Calotropis gigantea,Altschul,S4
+HERB-0222,Bite(Bug),India,Heliotropium indicum,Woi.5,S4
+HERB-0013,Bite(Dog),India(Santal),Adiantum lunulatum,Eb24: 243,S4
+HERB-0016,Bite(Dog),India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0025,Bite(Dog),India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0030,Bite(Dog),India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0085,Bite(Dog),India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0094,Bite(Dog),India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0115,Bite(Dog),India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0223,Bite(Dog),India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0229,Bite(Dog),India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0287,Bite(Dog),India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0297,Bite(Dog),India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0302,Bite(Dog),India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0390,Bite(Dog),India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0039,Bite(Lizard),India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0211,Bite(Rat),India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0005,Bite(Snake),India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0014,Bite(Snake),India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0016,Bite(Snake),India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0039,Bite(Snake),India,Aristolochia indica,Woi.1,S4
+HERB-0039,Bite(Snake),India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0047,Bite(Snake),India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0070,Bite(Snake),India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0072,Bite(Snake),India(Santal),Boswellia serrata,Eb24: 247,S4
+HERB-0123,Bite(Snake),India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0223,Bite(Snake),India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0144,Bite(Snake),India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0160,Bite(Snake),India(Santal),Cynodon dactylon,Eb24: 251,S4
+HERB-0181,Bite(Snake),India(Santal),Erythrina variegata,Eb24: 253,S4
+HERB-0209,Bite(Snake),India,Gloriosa superba,Eb32: 284,S4
+HERB-0211,Bite(Snake),India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0259,Bite(Snake),India(Santal),Leucas cephalotes,Eb24: 257,S4
+HERB-0271,Bite(Snake),India(Gujarat),Madhuca longifolia,Eb32: 282,S4
+HERB-0283,Bite(Snake),India,Momordica charantia,Eb21: 60,S4
+HERB-0297,Bite(Snake),India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0305,Bite(Snake),India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0401,Bite(Snake),India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0410,Bite(Snake),India(Santal),Strychnos potatorum,Eb24: 264,S4
+HERB-0425,Bite(Snake),India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0444,Bite(Snake),India,Uraria picta,Uphof,S4
+HERB-0005,Bite(Tiger),India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0211,Bite(Tiger),India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0281,Bite(Tiger),India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0424,Bite(Tiger),India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0231,Bladder,India,Hordeum vulgare,Woi.5,S4
+HERB-0153,Blindness,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0403,Blindness,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0211,Blood,India,Gmelina arborea,Woi.4,S4
+HERB-0271,Blood,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0115,Boil,India,Cissampelos pareira,Eb25: 421,S4
+HERB-0195,Boil,India,Ficus hispida,Woi.4,S4
+HERB-0197,Boil,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0222,Boil,India,Heliotropium indicum,Woi.5,S4
+HERB-0321,Boil,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0379,Boil,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0416,Boil,India,Tagetes erecta,Eb22: 318,S4
+HERB-0448,Boil,India,Vateria indica,Woi.10,S4
+HERB-0449,Boil(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0044,Ache(Bones),India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0161,Bowel,India,Cyperus rotundus,Eb32: 301,S4
+HERB-0404,Bowel,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0014,Brain,India,Aegle marmelos,Eb33: 204,S4
+HERB-0408,Brain,India(Ayurvedic),Stereospermum suaveolens,Woi.10,S4
+HERB-0014,Breast,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0182,Breast,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0271,Breast,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0380,Bronchitis,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0250,Bronchitis,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0016,Bronchitis,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0115,Bronchitis,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0223,Bronchitis,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0153,Bronchitis,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0178,Bronchitis,India(Santal),Elettaria cardamomum,Eb24: 244,S4
+HERB-0229,Bronchitis,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0231,Bronchitis,India,Hordeum vulgare,Woi.5,S4
+HERB-0257,Bronchitis,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0271,Bronchitis,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0271,Bronchitis,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0281,Bronchitis,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0291,Bronchitis,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0294,Bronchitis,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0299,Bronchitis,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0315,Bronchitis,India(Santal),Pentapetes phoenicea,Eb24: 260,S4
+HERB-0331,Bronchitis,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0338,Bronchitis,India(Santal),Plantago ovata,Eb24: 261,S4
+HERB-0370,Bronchitis,India,Santalum album,Uphof,S4
+HERB-0401,Bronchitis,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0401,Bronchitis,India(Santal),Solanum surattensis,Eb24: 263,S4
+HERB-0401,Bronchitis,India,Solanum surettense,Eb29: 79,S4
+HERB-0408,Bronchitis,India(Santal),Stereospermum suaveolens,Eb24: 264,S4
+HERB-0410,Bronchitis,India,Strychnos potatorum,Woi.10,S4
+HERB-0411,Bronchitis,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0412,Bronchitis,India,Swertia chirayita,Woi.10,S4
+HERB-0426,Bronchitis,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0434,Bronchitis,India(Santal),Trapa bispinosa,Eb24: 265,S4
+HERB-0242,Bruise,US(Amerindian),Iris versicolor,Eb28: 322,S4
+HERB-0181,Bubo,India,Erythrina variegata,Woi.3,S4
+HERB-0062,Burn,India,Bergenia ligulata,Eb25: 421,S4
+HERB-0063,Burn,India,Betula utilis,Eb25: 417,S4
+HERB-0079,Burn,India(Santal),Buchanania latifolia,Eb24: 247,S4
+HERB-0097,Burn,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0256,Burn,India(Santal),Leonotis nepetaefolia,Eb24: 257,S4
+HERB-0349,Burn,India,Prunus cerasoides,Eb25: 421,S4
+HERB-0351,Burn,India(Santal),Pterocarpus marsupium,Eb24: 261,S4
+HERB-0361,Burn,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0427,Burn,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0449,Burn(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0005,Cachexia,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0013,Cachexia,India(Santal),Adiantum lunulatum,Eb24: 243,S4
+HERB-0194,Cachexia,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0198,Cachexia,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0271,Cachexia,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0296,Cachexia,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0297,Cachexia,India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0345,Cachexia,India(Santal),Premna herbacea,Eb24: 261,S4
+HERB-0401,Cachexia,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0411,Cachexia,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0433,Cachexia,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0461,Cachexia,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0423,Cancer,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0097,Cancer,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0164,Cancer,India(Hindu),Datura fastuosa,Hartwell,S4
+HERB-0199,Cancer,India,Ficus infectoria,Hartwell,S4
+HERB-0197,Cancer,India,Ficus racemosa,Hartwell,S4
+HERB-0233,Cancer,India,Hyoscyamus niger,Hartwell,S4
+HERB-0244,Cancer,India,Jasminum grandiflorum,Hartwell,S4
+HERB-0287,Cancer,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0297,Cancer,India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0304,Cancer,India,Ophiorrhiza mungos,Hartwell,S4
+HERB-0312,Cancer,India,Papaver somniferum,Hartwell,S4
+HERB-0376,Cancer,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0379,Cancer,India,Semecarpus anacardium,Hartwell,S4
+HERB-0436,Cancer,India,Tribulus terrestris,Hartwell,S4
+HERB-0461,Cancer,India,Woodfordia floribunda,Eb25: 419,S4
+HERB-0461,Cancer,India,Woodfordia fruticosa,Eb25: 419,S4
+HERB-0263,Cancer(Skin),US(Amerindian),Linum usitatissimum,Hartwell,S4
+HERB-0137,Candida,India,Coscinium fenestratum,Eb30: 318,S4
+HERB-0152,Candida,India,Curcuma aromatica,Eb30: 318,S4
+HERB-0221,Candida,India,Hedychium spicatum,Eb30: 318,S4
+HERB-0279,Candida,India,Mesua ferrea,Eb30: 318,S4
+HERB-0324,Candida,India,Phyllanthus emblica,Eb30: 318,S4
+HERB-0425,Candida,India,Terminalia belerica,Eb30: 318,S4
+HERB-0460,Candida,India,Withania somnifera,Eb30: 318,S4
+HERB-0076,Carbuncle,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0047,Carbuncle,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0101,Carbuncle,India(Santal),Celastrus paniculatus,Eb24: 248,S4
+HERB-0153,Carbuncle,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0198,Carbuncle,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0200,Carbuncle,India(Santal),Flacourtia indica,Eb24: 254,S4
+HERB-0281,Carbuncle,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0324,Carbuncle,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0416,Carbuncle,India,Tagetes erecta,Eb22: 318,S4
+HERB-0262,Cardiac,India,Feronia limonia,Woi.4,S4
+HERB-0098,Cardiotonic,India,Catharanthus roseus,Steinmetz,S4
+HERB-0180,Cardiotonic,India,Ephedra gerardiana,Woi.3,S4
+HERB-0205,Cardiotonic,India,Garcinia indica,Woi.4,S4
+HERB-0424,Cardiotonic,India,Terminalia arjuna,Uphof,S4
+HERB-0041,Caries,India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0001,Carminative,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0010,Carminative,US(Amerindian),Acorus calamus,Krochmal,S4
+HERB-0031,Carminative,India,Anethum sowa,Uphof,S4
+HERB-0031,Carminative,India,Anethum sowa,Woi.1,S4
+HERB-0039,Carminative,India,Aristolochia indica,Woi.1,S4
+HERB-0152,Carminative,India,Curcuma aromatica,Steinmetz,S4
+HERB-0179,Carminative,India,Embelia ribes,Woi.3,S4
+HERB-0262,Carminative,India,Feronia limonia,Woi.4,S4
+HERB-0271,Carminative,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0271,Carminative,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0376,Carminative,India,Scindapsus officinalis,Woi.9,S4
+HERB-0401,Carminative,India,Solanum surattense,Woi.9,S4
+HERB-0447,Carminative,India,Valeriana jatamansi,Woi.10,S4
+HERB-0462,Carminative,India,Zanthoxylum armatum,Woi.11,S4
+HERB-0055,Catarrh,India,Barleria prionitis,Broun,S4
+HERB-0125,Catarrh,India,Coccinia indica,Woi.2,S4
+HERB-0176,Catarrh,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0312,Catarrh,India(Unani),Papaver somniferum,Eb27: 393,S4
+HERB-0105,Cathartic,India,Cassia absus,Uphof,S4
+HERB-0241,Cathartic,India*,Ipomoea nil,Woi.Syria,S4
+HERB-0242,Cathartic,US(Amerindian),Iris versicolor,Eb28: 322,S4
+HERB-0047,Chancre,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0376,Chancre,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0440,Chancre,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0461,Chancre,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0179,Chest,India,Embelia ribes,Woi.3,S4
+HERB-0200,Chest,India(Santal),Flacourtia indica,Eb24: 254,S4
+HERB-0231,Chest,India,Hordeum vulgare,Woi.5,S4
+HERB-0255,Chest,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0391,Chest,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0401,Chest,India,Solanum surattense,Woi.9,S4
+HERB-0408,Chest,India(Ayurvedic),Stereospermum suaveolens,Woi.10,S4
+HERB-0115,Chill,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0444,Chill,India,Uraria picta,Woi.10,S4
+HERB-0211,Choking,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0014,Cholera,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0307,Cholera,India(Santal),Aerva lanata,Eb24: 244,S4
+HERB-0016,Cholera,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0024,Cholera,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0028,Cholera,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0030,Cholera,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0423,Cholera,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0076,Cholera,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0036,Cholera,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0047,Cholera,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0057,Cholera,India(Santal),Barringtonia acutangula,Eb24: 246,S4
+HERB-0070,Cholera,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0079,Cholera,India(Santal),Buchanania latifolia,Eb24: 247,S4
+HERB-0085,Cholera,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0093,Cholera,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0096,Cholera,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0122,Cholera,India(Santal),Clerodendrum phloimidis,Eb24: 249,S4
+HERB-0123,Cholera,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0223,Cholera,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0144,Cholera,India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0153,Cholera,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0172,Cholera,India(Santal),Diospyros peregrina,Eb24: 251,S4
+HERB-0194,Cholera,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0198,Cholera,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0200,Cholera,India(Santal),Flacourtia indica,Eb24: 254,S4
+HERB-0211,Cholera,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0229,Cholera,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0275,Cholera,India(Santal),Mangifera indica,Eb24:,S4
+HERB-0286,Cholera,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0291,Cholera,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0302,Cholera,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0324,Cholera,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0330,Cholera,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0331,Cholera,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0379,Cholera,India(Santal),Semecarpus anacardium,E,S4
+HERB-0402,Cholera,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0407,Cholera,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0427,Cholera,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0451,Cholera,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0461,Cholera,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0463,Cholera,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0227,Choleretic,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0291,CNS depressant,India,Nardostachys jatamansi,Woi.7,S4
+HERB-0423,Cold,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0386,Cold,India,Cassia tora,Eb25: 418,S4
+HERB-0115,Cold,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0153,Cold,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0229,Cold,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0259,Cold,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0401,Cold,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0457,Cold,India,Vitex negundo,Eb25: 421,S4
+HERB-0004,Colic,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0380,Colic,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0016,Colic,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0030,Colic,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0036,Colic,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0081,Colic,India(Santal),Cajanus cajan,Eb24: 247,S4
+HERB-0093,Colic,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0115,Colic,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0122,Colic,India(Santal),Clerodendrum phlomoidis,Eb24: 249,S4
+HERB-0184,Colic,India,Euphorbia hirta,Eb32: 305,S4
+HERB-0190,Colic,India(Santal),Ferula assa-foetida,Eb24: 253,S4
+HERB-0229,Colic,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0299,Colic,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0329,Colic,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0376,Colic,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0390,Colic,India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0391,Colic,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0409,Colic,India,Strychnos nux-vomica,Woi.10,S4
+HERB-0451,Colic,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0461,Colic,India(Santal),Woodfordia fruticosa,Eb24,S4
+HERB-0094,Collapse,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0302,Collapse,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0229,Conception,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0312,Conjunctivitis,India(Unani),Papaver somniferum,Eb27: 393,S4
+HERB-0426,Conjunctivitis,India,Terminalia chebula,Woi.10,S4
+HERB-0004,Tuberculosis,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0380,Tuberculosis,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0250,Tuberculosis,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0030,Tuberculosis,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0153,Tuberculosis,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0166,Tuberculosis,India,Dendrophthoe falcata,Woi.3,S4
+HERB-0178,Tuberculosis,India(Santal),Elettaria cardamomum,Eb24: 244,S4
+HERB-0226,Tuberculosis,India(Santal),Hibiscus rosa-sinensis,Eb24: 255,S4
+HERB-0229,Tuberculosis,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0243,Tuberculosis,India,Jasminum auriculatum,Woi.5,S4
+HERB-0271,Tuberculosis,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0271,Tuberculosis,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0281,Tuberculosis,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0291,Tuberculosis,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0299,Tuberculosis,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0329,Tuberculosis,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0428,Tuberculosis,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0433,Tuberculosis,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0063,Contraceptive,India,Betula utilis,Eb25: 417,S4
+HERB-0253,Contraceptive,India,Pisum sativum,Woi.Syria,S4
+HERB-0418,Contraceptive,India,Taxus baccata,Eb29: 45,S4
+HERB-0003,Convulsion,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0014,Convulsion,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0081,Convulsion,India(Santal),Cajanus cajan,Eb24: 247,S4
+HERB-0082,Convulsion,India(Santal),Calamus rotang,Eb24: 247,S4
+HERB-0085,Convulsion,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0097,Convulsion,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0160,Convulsion,India(Santal),Cynodon dactylon,Eb24: 251,S4
+HERB-0164,Convulsion,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0181,Convulsion,India(Santal),Erythrina variegata,Eb24: 253,S4
+HERB-0190,Convulsion,India(Santal),Ferula assa-foetida,Eb24: 253,S4
+HERB-0211,Convulsion,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0252,Convulsion,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0256,Convulsion,India(Santal),Leonotis nepetaefolia,Eb24: 257,S4
+HERB-0266,Convulsion,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0291,Convulsion,India,Nardostachys jatamansi,Uphof,S4
+HERB-0291,Convulsion,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0296,Convulsion,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0099,Convulsion,India(Santal),Randia dumetorum,Eb24: 262,S4
+HERB-0361,Convulsion,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0424,Convulsion,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0291,Convulsion,India,Nardostachys jatamansi,Woi.7,S4
+HERB-0370,Cosmetic,India,Santalum album,Uphof,S4
+HERB-0413,Cosmetic,India,Symplocos racemosa,Eb29: 45,S4
+HERB-0427,Cosmetic,India,Terminalia tomentosa,Uphof,S4
+HERB-0175,Cosmetic (Grey hair),India,Eclipta alba,"Burkill,1966",S4
+HERB-0004,Cough,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0380,Cough,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0008,Cough,India,Aconitum heterophyllum,Woi.1,S4
+HERB-0010,Cough,US(Amerindian),Acorus calamus,Eb28: 313,S4
+HERB-0250,Cough,India,Adhatoda vasica,Eb25: 418,S4
+HERB-0250,Cough,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0423,Cough,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0120,Cough,India,Citrus medica,Eb25: 420,S4
+HERB-0153,Cough,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0164,Cough,India(Gujarat),Datura metel,Eb32: 282,S4
+HERB-0178,Cough,India(Santal),Elettaria cardamomum,Eb24: 244,S4
+HERB-0179,Cough,India,Embelia ribes,Woi.3,S4
+HERB-0184,Cough,India,Euphorbia hirta,Woi.3,S4
+HERB-0216,Cough,India,Grewia tenax,Woi.4,S4
+HERB-0226,Cough,India(Santal),Hibiscus rosa-sinensis,Eb24: 255,S4
+HERB-0229,Cough,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0259,Cough,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0271,Cough,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0281,Cough,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0291,Cough,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0299,Cough,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0302,Cough,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0315,Cough,India(Santal),Pentapetes phoenicea,Eb24: 260,S4
+HERB-0337,Cough,India,Pistia stratiotes,Eb32: 301,S4
+HERB-0355,Cough,India,Punica granatum,Eb25: 419,S4
+HERB-0401,Cough,India,Solanum surattense,Woi.9,S4
+HERB-0401,Cough,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0411,Cough,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0413,Cough,India(Santal),Symplocos racemosa,Eb24: 264,S4
+HERB-0433,Cough,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0434,Cough,India(Santal),Trapa bispinosa,Eb24: 265,S4
+HERB-0444,Cough,India,Uraria picta,Woi.10,S4
+HERB-0461,Cough,India,Woodfordia fruticosa,Woi.10,S4
+HERB-0463,Cough,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0445,Counterirritant,India,Urtica dioica,Eb25: 421,S4
+HERB-0160,Cramp,India(Santal),Cynodon dactylon,Eb24: 251,S4
+HERB-0164,Cramp,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0370,Cystitis,India,Santalum album,Uphof,S4
+HERB-0440,Cystitis,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0164,Dandruff,India,Datura metel,Woi.3,S4
+HERB-0182,Deafness,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0239,Debility,India,Ipomoea aquatica,Woi.5,S4
+HERB-0085,Delirium,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0115,Delirium,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0164,Delirium,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0211,Delirium,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0291,Delirium,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0401,Delirium,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0004,Demulcent,India,Abutilon indicum,Woi.Syria,S4
+HERB-0037,Demulcent,India,Argemone mexicana,Eb32: 303,S4
+HERB-0425,Demulcent,India,Terminalia bellerica,Woi.10,S4
+HERB-0205,Demulcent,India,Garcinia indica,Woi.4,S4
+HERB-0211,Demulcent,India,Gmelina arborea,Woi.4,S4
+HERB-0214,Demulcent,India,Grewia asiatica,Woi.4,S4
+HERB-0224,Demulcent,India,Hemidesmus indicus,Woi.5,S4
+HERB-0231,Demulcent,India,Hordeum vulgare,Woi.5,S4
+HERB-0263,Demulcent,India*,Linum usitatissimum,Woi.Syria,S4
+HERB-0271,Demulcent,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0321,Demulcent,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0401,Dengue,India(Ayurvedic),Solanum surattense,Woi.9,S4
+HERB-0126,Dentifrice,India,Cocos nucifera,Woi.2,S4
+HERB-0360,Dentifrice,India,Rheum emodi,Woi.9,S4
+HERB-0207,Dentition,India,Gardenia gummifera,Woi.4,S4
+HERB-0047,Deobstruent,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0176,Deobstruent,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0278,Deobstruent,India,Merremia emarginata,Eb32: 307,S4
+HERB-0292,Deobstruent,India(Santal),Nelumbo nucifera,Eb24: 259,S4
+HERB-0153,Depurative,India,Curcuma domestica,Woi.2,S4
+HERB-0224,Depurative,India,Hemidesmus indicus,Woi.5,S4
+HERB-0411,Depurative,India,Swertia chirata,Eb25: 417,S4
+HERB-0416,Depurative,India,Tagetes erecta,Eb22: 318,S4
+HERB-0218,Diabetes,India,Gymnema sylvestre,Woi.4,S4
+HERB-0233,Diabetes,India,Hyoscyamus niger,Woi.5,S4
+HERB-0283,Diabetes Mellitis,India,Momordica charantia,Woi.6,S4
+HERB-0351,Diabetes,India,Pterocarpus marsupium,Eb25: 419,S4
+HERB-0207,Diaphoretic,India,Gardenia gummifera,Woi.4,S4
+HERB-0305,Diaphoretic,India(Ayurvedic),Oroxylum indicum,Woi.7,S4
+HERB-0376,Diaphoretic,India,Scindapsus officinalis,Woi.9,S4
+HERB-0395,Diaphoretic,India,Smilax china,Uphof,S4
+HERB-0003,Diarrhea,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0008,Diarrhea,India,Aconitum heterophyllum,Woi.1,S4
+HERB-0013,Diarrhea,India(Santal),Adiantum lunulatum,Eb24: 243,S4
+HERB-0014,Diarrhea,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0024,Diarrhea,India,Alstonia scholaris,Woi.1,S4
+HERB-0025,Diarrhea,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0028,Diarrhea,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0030,Diarrhea,India,Andrographis paniculata,Uphof,S4
+HERB-0030,Diarrhea,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0423,Diarrhea,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0047,Diarrhea,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0097,Diarrhea,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0102,Diarrhea,India,Celosia argentea,Eb32: 302,S4
+HERB-0115,Diarrhea,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0120,Diarrhea,India,Citrus medica,Eb25: 420,S4
+HERB-0151,Diarrhea,India(Santal),Curcuma angustifolia,Eb24: 250,S4
+HERB-0160,Diarrhea,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0172,Diarrhea,India,Diospyros peregrina,Woi.3,S4
+HERB-0262,Diarrhea,India,Feronia limonia,Woi.4,S4
+HERB-0194,Diarrhea,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0207,Diarrhea,India,Gardenia gummifera,Woi.4,S4
+HERB-0211,Diarrhea,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0215,Diarrhea,India,Grewia hirsuta,Woi.4,S4
+HERB-0229,Diarrhea,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0234,Diarrhea,India,Imperata cylindrica,Eb32: 299,S4
+HERB-0275,Diarrhea,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0289,Diarrhea,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0301,Diarrhea,India,Nymphaea stellata,Eb32: 303,S4
+HERB-0305,Diarrhea,India(Ayurvedic),Oroxylum indicum,Woi.7,S4
+HERB-0305,Diarrhea,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0331,Diarrhea,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0012,Diarrhea,India(Hindu),Scirpus grossus,Uphof,S4
+HERB-0391,Diarrhea,India(Santal),Shorea robbusta,Eb24: 263,S4
+HERB-0415,Diarrhea,India(Santal),Syzygium cumini,Eb24: 253,S4
+HERB-0425,Diarrhea,India,Terminalia bellerica,Woi.10,S4
+HERB-0426,Diarrhea,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0433,Diarrhea,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0062,Diarrhea(Veterinary),India,Bergenia ligulata,Eb25: 421,S4
+HERB-0014,Digestive,India,Aegle marmelos,Eb33: 204,S4
+HERB-0200,Digestive,India,Flacourtia ramantchi,Woi.4,S4
+HERB-0004,Diuretic,India,Abutilon indicum,Uphof,S4
+HERB-0005,Diuretic,India,Achyranthes aspera,Eb32: 302,S4
+HERB-0005,Diuretic,India,Achyranthes aspera,Woi.Syria,S4
+HERB-0232,Diuretic,India,Asteracantha longifolia,Woi.1,S4
+HERB-0103,Diuretic,India,Centella asiatica,Eb32: 306,S4
+HERB-0103,Diuretic,India,Centella asiatica,Woi.2,S4
+HERB-0127,Diuretic,India,Coix lacrymajobi,Eb28: 40,S4
+HERB-0160,Diuretic,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0181,Diuretic,India,Erythrina variegata,Woi.3,S4
+HERB-0200,Diuretic,India,Flacourtia ramantchi,Woi.4,S4
+HERB-0222,Diuretic,India,Heliotropium indicum,Eb32: 307,S4
+HERB-0222,Diuretic,India,Heliotropium indicum,Woi.5,S4
+HERB-0227,Diuretic,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0232,Diuretic,India,Hygrophila auriculata,Eb32: 308,S4
+HERB-0263,Diuretic,India*,Linum usitatissimum,Woi.Syria,S4
+HERB-0321,Diuretic,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0343,Diuretic,India,Polygonatum verticillatum,Woi.8,S4
+HERB-0012,Diuretic,India,Scirpus grossus,Eb32: 301,S4
+HERB-0425,Diuretic,India,Terminalia bellerica,Woi.10,S4
+HERB-0454,Diuretic,India,Vigna unguiculata,Woi.3,S4
+HERB-0048,Diuretic,India,Centratherum anthelminticum,Woi.2,S4
+HERB-0005,Dropsy,India,Achyranthes aspera,Eb32: 302,S4
+HERB-0005,Dropsy,India,Achyranthes aspera,Woi.Syria,S4
+HERB-0039,Dropsy,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0232,Dropsy,India,Asteracantha longifolia,Woi.1,S4
+HERB-0094,Dropsy,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0223,Dropsy,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0160,Dropsy,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0182,Dropsy,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0182,Dropsy,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0211,Dropsy,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0232,Dropsy,India,Hygrophila auriculata,Eb32: 308,S4
+HERB-0275,Dropsy,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0281,Dropsy,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0287,Dropsy,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0399,Dropsy,India,Solanum nigrum,Woi.Syria,S4
+HERB-0417,Dropsy,India(Santal),Tamarindus indica,Eb24:,S4
+HERB-0425,Dropsy,India,Terminalia bellerica,Woi.10,S4
+HERB-0434,Dropsy,India(Santal),Trapa bispinosa,Eb24: 265,S4
+HERB-0271,Dubdubia,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0004,Dysentery,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0014,Dysentery,India,Aegle marmelos,Eb33: 204,S4
+HERB-0024,Dysentery,India,Alstonia scholaris,Woi.1,S4
+HERB-0030,Dysentery,India,Andrographis paniculata,Uphof,S4
+HERB-0032,Dysentery,India(Santal),Angelica glauca,Eb24: 244,S4
+HERB-0076,Dysentery,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0036,Dysentery,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0083,Dysentery,India(Santal),Callicarpa macrophylla,Eb24: 247,S4
+HERB-0115,Dysentery,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0122,Dysentery,India(Santal),Clerodendrum phloimidis,Eb24: 249,S4
+HERB-0127,Dysentery,India(Santal),Coix lacryma-jobi,Eb24: 249,S4
+HERB-0167,Dysentery,India(Santal),Desmodium gangeticum,Eb24: 251,S4
+HERB-0171,Dysentery,India,Dioscorea bulbifera,Woi.3,S4
+HERB-0171,Dysentery,India(Santal),Dioscorea crispata,Eb24: 251,S4
+HERB-0172,Dysentery,India(Santal),Diospyros peregrina,Eb24: 251,S4
+HERB-0182,Dysentery,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0184,Dysentery,India,Euphorbia hirta,Eb32: 305,S4
+HERB-0262,Dysentery,India,Feronia limonia,Woi.4,S4
+HERB-0194,Dysentery,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0215,Dysentery,India,Grewia hirsuta,Woi.4,S4
+HERB-0234,Dysentery,India,Imperata cylindrica,Eb32: 299,S4
+HERB-0255,Dysentery,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0257,Dysentery,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0275,Dysentery,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0299,Dysentery,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0301,Dysentery,India,Nymphaea stellata,Eb32: 303,S4
+HERB-0305,Dysentery,India(Ayurvedic),Oroxylum indicum,Woi.7,S4
+HERB-0312,Dysentery,India(Unani),Papaver somniferum,Eb27: 393,S4
+HERB-0315,Dysentery,India(Santal),Pentapetes phoenicea,Eb24: 260,S4
+HERB-0253,Dysentery,India(Santal),Pisum sativum,Eb24: 261,S4
+HERB-0338,Dysentery,India,Plantago ovata,Uphof,S4
+HERB-0370,Dysentery,India(Santal),Santalum album,Eb24: 262,S4
+HERB-0372,Dysentery,India,Saraca asoca,Woi.9,S4
+HERB-0388,Dysentery,India(Santal),Sesamum inndicum,Eb24: 263,S4
+HERB-0391,Dysentery,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0398,Dysentery,India(Santal),Solanum melongena,Eb24: 263,S4
+HERB-0407,Dysentery,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0410,Dysentery,India,Strychnos potatorum,Woi.10,S4
+HERB-0415,Dysentery,India(Santal),Syzygium cumini,Eb24: 253,S4
+HERB-0427,Dysentery,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0428,Dysentery,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0451,Dysentery,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0461,Dysentery,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0464,Dysentery,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0305,Dyslactation,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0008,Dyspepsia,India,Aconitum heterophyllum,Woi.1,S4
+HERB-0010,Dyspepsia,India(Santal),Acorus calamus,Eb24: 243,S4
+HERB-0039,Dyspepsia,India,Aristolochia indica,Woi.1,S4
+HERB-0153,Dyspepsia,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0182,Dyspepsia,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0211,Dyspepsia,India,Gmelina arborea,Woi.4,S4
+HERB-0211,Dyspepsia,India(Ayurvedic),Gmelina arborea,Woi.4,S4
+HERB-0305,Dyspepsia,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0321,Dyspepsia,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0376,Dyspepsia,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0379,Dyspepsia,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0412,Dyspepsia,India,Swertia chirayita,Woi.10,S4
+HERB-0350,Dyspepsia,India,Trachyspermum roxburghianum,Woi.10,S4
+HERB-0460,Dyspepsia,India(Rajasthan),Withania somnifera,Woi.Syria,S4
+HERB-0003,Dysuria,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0307,Dysuria,India(Santal),Aerva lanata,Eb24: 244,S4
+HERB-0423,Dysuria,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0079,Dysuria,India(Santal),Buchanania latifolia,Eb24: 247,S4
+HERB-0097,Dysuria,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0176,Dysuria,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0198,Dysuria,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0286,Dysuria,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0299,Dysuria,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0305,Dysuria,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0328,Dysuria,India,Pinus roxburghii,Eb25: 421,S4
+HERB-0391,Dysuria,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0424,Dysuria,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0426,Dysuria,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0447,Dysuria,India,Valeriana jatamansi,Eb25: 421,S4
+HERB-0454,Dysuria,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0088,Ear,India,Cannabis sativa,Eb25: 419,S4
+HERB-0271,Ear,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0337,Ear,India(Munda),Pistia stratiotes,Woi.8,S4
+HERB-0026,Eczema,India,Amaranthus spinosus,Ayensu,S4
+HERB-0283,Eczema,India,Momordica charantia,Eb25: 420,S4
+HERB-0176,Elephantiasis,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0242,Emetic,US(Amerindian),Iris versicolor,Eb28: 322,S4
+HERB-0410,Emetic,India,Strychnos potatorum,Uphof,S4
+HERB-0181,Emmenagogue,India,Erythrina variegata,Woi.3,S4
+HERB-0222,Emmenagogue,India,Heliotropium indicum,Eb32: 307,S4
+HERB-0222,Emmenagogue,India,Heliotropium indicum,Woi.5,S4
+HERB-0244,Emmenagogue,India,Jasminum grandiflorum,Steinmetz,S4
+HERB-0222,Emollient,India,Heliotropium indicum,Woi.5,S4
+HERB-0263,Emollient,India*,Linum usitatissimum,Woi.Syria,S4
+HERB-0271,Emollient,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0448,Emollient,India,Vateria indica,Woi.10,S4
+HERB-0227,Emollient,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0005,Enteritis,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0008,Enteritis,India,Aconitum heterophyllum,Woi.1,S4
+HERB-0197,Epididymitis,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0379,Epididymitis,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0391,Epididymitis,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0010,Epilepsy,India(Santal),Acorus calamus,Eb24: 243,S4
+HERB-0049,Epilepsy,India,Bacopa monnieri,Eb32: 308,S4
+HERB-0071,Epilepsy,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0086,Epilepsy,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0088,Epilepsy,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0094,Epilepsy,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0097,Epilepsy,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0104,Epilepsy,India(Santal),Centipeda minima,Eb24: 248,S4
+HERB-0160,Epilepsy,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0164,Epilepsy,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0211,Epilepsy,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0229,Epilepsy,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0286,Epilepsy,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0291,Epilepsy,India,Nardostachys jatamansi,Uphof,S4
+HERB-0291,Epilepsy,India,Nardostachys jatamansi,Bliss,S4
+HERB-0324,Epilepsy,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0443,Epilepsy,India(Santal),Typha angustata,Eb24: 265,S4
+HERB-0229,Epistaxis,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0428,Epistaxis,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0218,Errhine,India,Gymnema sylvestre,Woi.4,S4
+HERB-0095,Eruption,US(Amerindian),Carthamus tinctorius,Krochmal,S4
+HERB-0214,Eruption,India,Grewia asiatica,Woi.4,S4
+HERB-0209,Erysipelas,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0286,Erysipelas,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0356,Evil eye,India,Putranjiva roxburghii,Eb29: 44,S4
+HERB-0361,Evil eye,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0379,Evil eye,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0445,Evil eye,India,Urtica dioica,Eb25: 421,S4
+HERB-0163,Excoriation,India,Dalbergia sissoo,Woi.3,S4
+HERB-0250,Expectorant,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0065,Expectorant,India,Blepharis edulis,Woi.Syria,S4
+HERB-0164,Expectorant,India,Datura metel,Woi.3,S4
+HERB-0185,Expectorant,India,Euphorbia neriifolia,Woi.3,S4
+HERB-0207,Expectorant,India,Gardenia gummifera,Woi.4,S4
+HERB-0263,Expectorant,India*,Linum usitatissimum,Woi.Syria,S4
+HERB-0271,Expectorant,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0370,Expectorant,India,Santalum album,Uphof,S4
+HERB-0376,Expectorant,India,Scindapsus officinalis,Woi.9,S4
+HERB-0401,Expectorant,India(Ayurvedic),Solanum surattense,Woi.9,S4
+HERB-0238,Expectorant,India,Inula racemosa,Woi.5,S4
+HERB-0061,Eye,India,Berberis aristata,Eb25: 419,S4
+HERB-0102,Eye,India,Celosia argentea,Eb32: 302,S4
+HERB-0103,Eye,India,Centella asiatica,Eb25: 419,S4
+HERB-0218,Eye,India,Gymnema sylvestre,Woi.4,S4
+HERB-0219,Eye,India(Santal),Gynandropsis gynandra,Eb24: 255,S4
+HERB-0413,Eye,India(Hindu),Symplocos racemosa,Uphof,S4
+HERB-0417,Eye,India(Santal),Tamarindus indica,Eb24: 264,S4
+HERB-0426,Eye,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0457,Eye,India(Santal),Vitex negundo,Eb24: 266,S4
+HERB-0256,Eyelid,India(Gujarat),Leonotis nepetaefolia,Eb32: 283,S4
+HERB-0025,Eyesight,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0423,Face,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0208,Fattening(Veterinary),India,Gentiana kurroo,Woi.4,S4
+HERB-0217,Febrifuge,India,Caesalpinia bonducella,Uphof,S4
+HERB-0167,Febrifuge,India,Desmodium gangeticum,Uphof,S4
+HERB-0055,Feet,India(Gujarat),Barleria prionitis,Eb32: 283,S4
+HERB-0008,Fever,India,Aconitum heterophyllum,Woi.1,S4
+HERB-0010,Fever,US(Amerindian),Acorus calamus,Eb28: 313,S4
+HERB-0250,Fever,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0014,Fever,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0025,Fever,India,Alternanthera sessilis,Eb32: 302,S4
+HERB-0028,Fever,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0076,Fever,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0039,Fever,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0047,Fever,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0066,Fever,India(Gujarat),Boerhaavia diffusa,Eb32:,S4
+HERB-0079,Fever,India(Santal),Buchanania latifolia,Eb24: 247,S4
+HERB-0080,Fever,India(Santal),Butea monosperma,Eb24: 247,S4
+HERB-0103,Fever,India,Centella asiatica,Eb25: 419,S4
+HERB-0123,Fever,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0127,Fever,India(Santal),Coix lacryma-jobi,Eb24: 249,S4
+HERB-0223,Fever,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0151,Fever,India(Santal),Curcuma angustifolia,Eb24: 250,S4
+HERB-0153,Fever,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0172,Fever,India,Diospyros peregrina,Woi.3,S4
+HERB-0179,Fever,India,Embelia ribes,Woi.3,S4
+HERB-0194,Fever,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0198,Fever,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0200,Fever,India(Santal),Flacourtia indica,Eb24: 254,S4
+HERB-0207,Fever,India,Gardenia gummifera,Woi.4,S4
+HERB-0208,Fever,India,Gentiana kurroo,Woi.4,S4
+HERB-0211,Fever,India,Gmelina arborea,Woi.4,S4
+HERB-0211,Fever,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0222,Fever,India,Heliotropium indicum,Woi.5,S4
+HERB-0229,Fever,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0271,Fever,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0275,Fever,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0284,Fever,India,Myrica esculenta,Eb25: 420,S4
+HERB-0302,Fever,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0312,Fever,India(Unani),Papaver somniferum,Eb27: 394,S4
+HERB-0321,Fever,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0324,Fever,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0326,Fever,India,Picrorhiza kurroa,Eb25: 417,S4
+HERB-0330,Fever,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0331,Fever,India,Piper longum,Eb28: 40,S4
+HERB-0353,Fever,India(Santal),Pterospermum acerifolium,Eb24: 262,S4
+HERB-0354,Fever,India(Santal),Pueraria tuberosa,Eb24: 262,S4
+HERB-0359,Fever,India,Rauvolfia serpentina,Steinmetz,S4
+HERB-0379,Fever,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0391,Fever,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0401,Fever,India(Ayurvedic),Solanum surattense,Woi.9,S4
+HERB-0401,Fever,India(Gujarat),Solanum surattense,Eb32: 282,S4
+HERB-0401,Fever,India,Solanum surettense,Eb29: 79,S4
+HERB-0402,Fever,India,Soymida febrifuga,Woi.9,S4
+HERB-0402,Fever,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0403,Fever,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0408,Fever,India(Ayurvedic),Stereospermum suaveolens,Woi.10,S4
+HERB-0411,Fever,India,Swertia chirata,Eb25: 417,S4
+HERB-0411,Fever,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0417,Fever,India,Tamarindus indica,Woi.10,S4
+HERB-0425,Fever,India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0428,Fever,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0431,Fever,India(Gujarat),Tinospora cordifolia,EB32:280,S4
+HERB-0433,Fever,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0444,Fever,India(Gujarat),Uraria picta,Eb32: 281,S4
+HERB-0461,Fever,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0464,Fever,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0461,Fever,India,Woodfordia fruticosa,Woi.10,S4
+HERB-0025,Fistula,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0066,Fistula,India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0096,Fistula,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0153,Fistula,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0324,Fistula,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0391,Fistula,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0428,Fistula,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0451,Fistula,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0454,Fistula,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0287,Fracture,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0328,Fracture,India,Pinus roxburghii,Eb25: 421,S4
+HERB-0444,Fracture,India(Ayurvedic),Uraria picta,Woi.10,S4
+HERB-0461,Fracture,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0025,Fracture(Veterinary),India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0042,Fracture(Veterinary),India(Santal),Artocarpus lakoocha,Eb24: 245,S4
+HERB-0255,Fracture(Veterinary),India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0010,Fumitory,US(Amerindian),Acorus calamus,Eb28: 313,S4
+HERB-0088,Fumitory,India,Cannabis sativa,Eb25: 419,S4
+HERB-0164,Fumitory,India(Gujarat),Datura metel,Eb32: 282,S4
+HERB-0421,Fumitory,India(Gujarat),Tephrosia hamiltonii,Eb32: 281,S4
+HERB-0095,Fungicide,India,Carthamus tinctorius,Eb30: 318,S4
+HERB-0096,Fungicide,India,Carum carvi,Eb30: 318,S4
+HERB-0137,Fungicide,India,Coscinium fenestratum,Eb30: 318,S4
+HERB-0152,Fungicide,India,Curcuma aromatica,Eb30: 318,S4
+HERB-0221,Fungicide,India,Hedychium spicatum,Eb30: 318,S4
+HERB-0254,Fungicide,India,Lawsonia inermis,Eb30: 318,S4
+HERB-0279,Fungicide,India,Mesua ferrea,Eb30: 318,S4
+HERB-0341,Fungicide,India,Plumbago zeylanica,Eb30: 318,S4
+HERB-0417,Fungicide,India,Tamarindus indica,Eb30: 318,S4
+HERB-0460,Fungicide,India,Withania somnifera,Eb30: 318,S4
+HERB-0218,Furunculosis,India,Gymnema sylvestre,Woi.4,S4
+HERB-0126,Gargle,India,Cocos nucifera,Woi.2,S4
+HERB-0172,Gargle,India,Diospyros peregrina,Woi.3,S4
+HERB-0404,Gastritis,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0404,Gastritis,India(Gujarat),Sphaeranthus indicus,Eb32: 282,S4
+HERB-0003,Gingivitis,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0047,Gingivitis,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0271,Gingivitis,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0271,Gingivitis,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0271,Gingivitis,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0294,Gingivitis,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0320,Gingivitis,India(Santal),Phoenix sylvestris,Eb24: 261,S4
+HERB-0044,Glossitis,India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0275,Glossitis,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0163,Gonorrhea,India,Dalbergia sissoo,Woi.3,S4
+HERB-0198,Gonorrhea,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0209,Gonorrhea,India,Gloriosa superba,Woi.4,S4
+HERB-0321,Gonorrhea,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0324,Gonorrhea,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0325,Gonorrhea,India,Phyllanthus niruri,Uphof,S4
+HERB-0370,Gonorrhea,India,Santalum album,Uphof,S4
+HERB-0440,Gonorrhea,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0444,Gonorrhea,India,Uraria picta,Woi.10,S4
+HERB-0182,Gout,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0211,Gout,India,Gmelina arborea,Woi.4,S4
+HERB-0233,Gout,India,Hyoscyamus niger,Woi.5,S4
+HERB-0445,Gout,India,Urtica dioica,Eb25: 421,S4
+HERB-0003,Gravel,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0380,Gravel,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0044,Gravel,India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0080,Gravel,India(Santal),Butea monosperma,Eb24: 247,S4
+HERB-0097,Gravel,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0223,Gravel,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0151,Gravel,India(Santal),Curcuma angustifolia,Eb24: 250,S4
+HERB-0172,Gravel,India(Santal),Diospyros peregrina,Eb24: 251,S4
+HERB-0198,Gravel,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0211,Gravel,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0229,Gravel,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0286,Gravel,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0302,Gravel,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0324,Gravel,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0354,Gravel,India(Santal),Pueraria tuberosa,Eb24: 262,S4
+HERB-0390,Gravel,India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0391,Gravel,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0411,Gravel,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0427,Gravel,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0451,Gravel,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0464,Gravel,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0070,Gum,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0262,Gum,India,Feronia limonia,Woi.4,S4
+HERB-0296,Gum,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0426,Gum,India,Terminalia chebula,Woi.10,S4
+HERB-0176,Hair-Oil,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0374,Hair-Oil,India,Schleichera oleosa,Woi.9,S4
+HERB-0425,Hair-Oil,India,Terminalia bellerica,Woi.10,S4
+HERB-0291,Hair-Tonic,India,Nardostachys jatamansi,Uphof,S4
+HERB-0291,Hairblack,India,Nardostachys jatamansi,Uphof,S4
+HERB-0440,Hairblack,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0014,Heart,India,Aegle marmelos,Eb33: 204,S4
+HERB-0271,Heart,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0229,Hematochezia,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0097,Hematuria,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0115,Hematuria,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0229,Hematuria,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0286,Hematuria,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0289,Hematuria,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0426,Hematuria,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0024,Hemiplegia,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0085,Hemiplegia,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0086,Hemiplegia,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0094,Hemiplegia,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0123,Hemiplegia,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0164,Hemiplegia,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0190,Hemiplegia,India(Santal),Ferula assa-foetida,Eb24: 253,S4
+HERB-0275,Hemiplegia,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0289,Hemiplegia,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0302,Hemiplegia,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0391,Hemiplegia,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0028,Hemorrhage,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0071,Hemorrhage,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0085,Hemorrhage,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0160,Hemorrhage,India,Cynodon dactylon,Eb20: 96,S4
+HERB-0229,Hemorrhage,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0289,Hemorrhage,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0302,Hemorrhage,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0372,Hemorrhage,India,Saraca asoca,Woi.9,S4
+HERB-0376,Hemorrhage,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0379,Hemorrhage,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0234,Hemostat,India,Imperata cylindrica,Eb32: 299,S4
+HERB-0461,Hemostat,India,Woodfordia floribunda,Steinmetz,S4
+HERB-0126,Hemostatic,India,Cocos nucifera,Uphof,S4
+HERB-0176,Hepatitis,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0412,Hepatitis,India,Swertia chirayita,Woi.10,S4
+HERB-0449,Hepatitis(Veterinary),India,Vetiveria zizanioides,Liogier,S4
+HERB-0430,Hydrocoele,India,Caesalpinia crista,Martinez,S4
+HERB-0085,Hydrocoele,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0164,Hydrocoele,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0197,Hydrocoele,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0376,Hyperglycemia,India,Scindapsus officinalis,Woi.9,S4
+HERB-0283,Hyperglycemia,India,Momordica charantia,Eb21: 60,S4
+HERB-0227,Hypertension,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0359,Hypertension,India,Rauvolfia serpentina,Uphof,S4
+HERB-0291,Hypertension,India,Nardostachys jatamansi,Woi.7,S4
+HERB-0312,Hypnotic,India(Unani),Papaver somniferum,Eb27: 394,S4
+HERB-0359,Hypochondria,India,Rauvolfia serpentina,Steinmetz,S4
+HERB-0447,Hypochondria,India,Valeriana jatamansi,Woi.10,S4
+HERB-0153,Hypotherbia,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0001,Hysteria,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0049,Hysteria,India,Bacopa monnieri,Eb32: 308,S4
+HERB-0291,Hysteria,India,Nardostachys jatamansi,Bliss,S4
+HERB-0447,Hysteria,India,Valeriana jatamansi,Woi.10,S4
+HERB-0070,Impotency,India,Bombax malabaricum,Uphof,S4
+HERB-0451,Impotency,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0391,Incense,India,Shorea robusta,Uphof,S4
+HERB-0447,Incense,India,Valeriana jatamansi,Eb25: 421,S4
+HERB-0023,Inflammation,India,Aloe barbadensis,Woi.Syria,S4
+HERB-0153,Inflammation,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0224,Inflammation,India,Hemidesmus indicus,Woi.5,S4
+HERB-0231,Inflammation,India,Hordeum vulgare,Woi.5,S4
+HERB-0147,Inflammation,India,Psoralea corylifolia,Woi.8,S4
+HERB-0403,Inflammation,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0408,Inflammation,India(Ayurvedic),Stereospermum suaveolens,Woi.10,S4
+HERB-0417,Inflammation,India(Santal),Tamarindus indica,Eb24: 264,S4
+HERB-0426,Inflammation,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0457,Inflammation,India(Santal),Vitex negundo,Eb24: 266,S4
+HERB-0049,Insanity,India,Bacopa monnieri,Eb32: 308,S4
+HERB-0103,Insanity,India,Centella asiatica,Eb32: 306,S4
+HERB-0443,Insanity,India(Santal),Typha angustata,Eb29: 20,S4
+HERB-0047,Insecticide,India,Azadirachta indica,Uphof,S4
+HERB-0103,Insecticide,India,Centella asiatica,Eb32: 306,S4
+HERB-0248,Insecticide,India,Juglans regia,Eb25: 418,S4
+HERB-0259,Insecticide,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0250,Insecticide,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0294,Insecticide,India,Nerium indicum,Woi.7,S4
+HERB-0404,Repellant(Insect),India,Sphaeranthus indicus,Woi.10,S4
+HERB-0312,Insomnia,India(Ayurvedic),Papaver somniferum,Eb27: 393,S4
+HERB-0025,Intestine,India,Alternanthera sessilis,Eb32: 302,S4
+HERB-0047,Intestine,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0085,Intestine,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0271,Intestine,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0071,Intoxicant,India,Borassus flabellifer,Woi.1,S4
+HERB-0271,Intoxicant,India,Madhuca latifolia,Uphof,S4
+HERB-0306,Intoxicant,India,Oryza sativa,Woi.7,S4
+HERB-0312,Intoxicant,India,Papaver somniferum,Woi.Syria,S4
+HERB-0211,Intoxication,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0263,Intoxication,India(Santal),Linum usitatissimum,Eb24: 257,S4
+HERB-0361,Intoxication,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0001,Itch,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0271,Itch,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0271,Itch,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0250,Jaundice,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0232,Jaundice,India,Asteracantha longifolia,Woi.1,S4
+HERB-0153,Jaundice,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0176,Jaundice,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0232,Jaundice,India,Hygrophila auriculata,Eb32: 308,S4
+HERB-0275,Jaundice,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0005,Labor,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0086,Labor,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0123,Labor,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0209,Labor,India,Gloriosa superba,Woi.4,S4
+HERB-0209,Labor,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0229,Labor,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0361,Lactafuge,India,Ricinus communis,"Burkill,1966",S4
+HERB-0047,Lactation,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0153,Lactogogue,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0181,Lactogogue,India,Erythrina variegata,Woi.3,S4
+HERB-0184,Lactogogue,India(Santal),Euphorbia hirta,Eb24: 253,S4
+HERB-0195,Lactogogue,India,Ficus hispida,Woi.4,S4
+HERB-0197,Lactogogue,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0211,Lactogogue,India,Gmelina arborea,Woi.4,S4
+HERB-0271,Lactogogue,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0099,Lactogogue,India(Santal),Randia dumetorum,Eb24: 262,S4
+HERB-0361,Lactogogue,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0456,Lactogogue,India,Vitex agnus-castus,Steinmetz,S4
+HERB-0103,Lactogogue(Veterinary),India,Centella asiatica,Eb32: 306,S4
+HERB-0237,Larvicide,India,Indigofera tinctoria,Eb33: 54,S4
+HERB-0306,Larvicide,India,Oryza sativa,Woi.7,S4
+HERB-0076,Larvicide(Veterinary),India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0294,Larvicide,India,Nerium indicum,Woi.7,S4
+HERB-0014,Laxative,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0037,Laxative,India,Argemone mexicana,Eb32: 303,S4
+HERB-0096,Laxative,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0181,Laxative,India,Erythrina variegata,Woi.3,S4
+HERB-0187,Laxative,India,Fagonia cretica,Woi.Syria,S4
+HERB-0198,Laxative,India,Ficus religiosa,Woi.4,S4
+HERB-0227,Laxative,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0229,Laxative,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0271,Laxative,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0271,Laxative,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0302,Laxative,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0346,Laxative,India(Ayurvedic),Premna obtusifolia,Woi.8,S4
+HERB-0099,Laxative,India(Santal),Randia dumetorum,Eb24: 262,S4
+HERB-0012,Laxative,India,Scirpus grossus,Eb32: 301,S4
+HERB-0417,Laxative,India,Tamarindus indica,Woi.10,S4
+HERB-0426,Laxative,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0430,Leprosy,India,Caesalpinia crista,Martinez,S4
+HERB-0081,Leprosy,India(Santal),Cajanus cajan,Eb24: 247,S4
+HERB-0086,Leprosy,India,Calotropis procera,Uphof,S4
+HERB-0103,Leprosy,India,Centella asiatica,Eb32: 306,S4
+HERB-0271,Leprosy,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0296,Leprosy,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0147,Leprosy,India,Psoralea corylifolia,Woi.8,S4
+HERB-0361,Leprosy,India,Ricinus communis,Pittier,S4
+HERB-0388,Leprosy,India(Santal),Sesamum indicum,Eb24: 263,S4
+HERB-0424,Leprosy,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0454,Leprosy,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0039,Leucoderma,India,Aristolochia indica,Woi.1,S4
+HERB-0372,Leucorrhea,India,Saraca asoca,Woi.9,S4
+HERB-0127,Litholytic,India,Coix lacryma-jobi,Steinmetz,S4
+HERB-0356,Liver,India,Putranjiva roxburghii,Uphof,S4
+HERB-0153,Lockjaw,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0003,Loin,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0460,Lumbago,India(Punjab),Withania somnifera,Woi.Syria,S4
+HERB-0094,Madness,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0115,Madness,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0164,Madness,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0171,Madness,India(Santal),Dioscorea crispata,Eb24: 251,S4
+HERB-0194,Madness,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0286,Madness,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0287,Madness,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0457,Madness,India(Santal),Vitex negundo,Eb24: 266,S4
+HERB-0182,Maggot,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0024,Malaria,India,Alstonia scholaris,Woi.1,S4
+HERB-0025,Malaria,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0039,Malaria,India,Aristolochia indica,Woi.1,S4
+HERB-0153,Malaria,India,Curcuma domestica,Woi.2,S4
+HERB-0172,Malaria,India,Diospyros peregrina,Woi.3,S4
+HERB-0408,Malaria,India(Ayurvedic),Stereospermum suaveolens,Woi.10,S4
+HERB-0449,Malaria(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0460,Marasmus,India,Withania somnifera,Woi.Syria,S4
+HERB-0329,Masticatory,India,Piper betle,Woi.8,S4
+HERB-0047,Measles,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0425,Measles,India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0038,Medicine,India,Argyreia nervosa,Eb33: 53,S4
+HERB-0158,Medicine,India,Cymbopogon schoenanthus,Uphof,S4
+HERB-0252,Medicine,India,Lagenaria vulgaris,Uphof,S4
+HERB-0028,Megalospleny,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0176,Megalospleny,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0004,Menorrhagia,India(Santal),Abutilon indicum,Eb,S4
+HERB-0032,Menorrhagia,India(Santal),Angelica glauca,Eb24: 244,S4
+HERB-0070,Menorrhagia,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0071,Menorrhagia,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0080,Menorrhagia,India(Santal),Butea monosperma,Eb24: 247,S4
+HERB-0172,Menorrhagia,India(Santal),Diospyros peregrina,Eb24: 251,S4
+HERB-0181,Menorrhagia,India(Santal),Erythrina variegata,Eb24: 253,S4
+HERB-0197,Menorrhagia,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0226,Menorrhagia,India(Santal),Hibiscus rosa-sinensis,Eb24: 255,S4
+HERB-0229,Menorrhagia,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0294,Menorrhagia,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0299,Menorrhagia,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0351,Menorrhagia,India(Santal),Pterocarpus marsupium,Eb24: 261,S4
+HERB-0354,Menorrhagia,India(Santal),Pueraria tuberosa,Eb24: 262,S4
+HERB-0372,Menorrhagia,India,Saraca asoca,Woi.9,S4
+HERB-0166,Menoxenia,India,Dendrophthoe falcata,Woi.3,S4
+HERB-0127,Metroxenia,India(Santal),Coix lachryma-jobi,Eb32: 298,S4
+HERB-0127,Metroxenia,India,Coix lacrymajobi,Eb28: 40,S4
+HERB-0209,Mitogen,India,Gloriosa superba,Woi.4,S4
+HERB-0380,Mouth,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0449,Mouth(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0126,Mouthwash,India,Cocos nucifera,Woi.2,S4
+HERB-0003,Myalgia,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0085,Myalgia,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0013,Myalgia,India(Santal),Adiantum lunulatum,Eb24: 243,S4
+HERB-0197,Myalgia,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0254,Myalgia,India(Santal),Lawsonia inermis,Eb24: 256,S4
+HERB-0425,Myalgia,India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0461,Myalgia,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0164,Myopathy,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0088,Narcotic,India,Cannabis sativa,Eb25: 419,S4
+HERB-0294,Narcotic,India,Nerium indicum,Uphof,S4
+HERB-0014,Nausea,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0026,Nausea,India(Santal),Amaranthus spinosus,Eb24: 244,S4
+HERB-0032,Nausea,India,Angelica glauca,Eb25: 417,S4
+HERB-0071,Nausea,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0120,Nausea,India(Santal),Citrus medica,Eb24: 249,S4
+HERB-0289,Nausea,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0001,Nerves,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0049,Nerves,India,Bacopa monnieri,Eb32: 308,S4
+HERB-0072,Nerves,India,Boswellia serrata,Woi.1,S4
+HERB-0227,Nerves,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0291,Nerves,India,Nardostachys jatamansi,Uphof,S4
+HERB-0447,Nerves,India,Valeriana jatamansi,Woi.10,S4
+HERB-0024,Neuralgia,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0028,Neuralgia,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0070,Neuralgia,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0085,Neuralgia,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0093,Neuralgia,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0209,Neuralgia,India,Gloriosa superba,Woi.4,S4
+HERB-0278,Neuralgia,India,Merremia emarginata,Eb32: 307,S4
+HERB-0374,Neuralgia,India(Santal),Schleichera oleosa,Eb24: 262,S4
+HERB-0390,Neuralgia,India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0402,Neuralgia,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0454,Neuralgia,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0025,Night-Blindness,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0401,Night-Blindness,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0461,Night-Blindness,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0407,Night-Fever,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0058,Nose,India(Santal),Basella alba,Eb24: 246,S4
+HERB-0037,Ophthalmia,India,Argemone mexicana,Eb32: 303,S4
+HERB-0080,Ophthalmia,India(Gujarat),Butea monosperma,Eb32: 281,S4
+HERB-0169,Ophthalmia,India,Dichrostachys cinerea,Woi.3,S4
+HERB-0181,Ophthalmia,India,Erythrina variegata,Woi.3,S4
+HERB-0194,Ophthalmia,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0222,Ophthalmia,India(Santal),Heliotropium indicum,Eb24: 255,S4
+HERB-0256,Ophthalmia,India(Gujarat),Leonotis nepetaefolia,Eb32: 283,S4
+HERB-0294,Ophthalmia,India,Nerium indicum,Woi.7,S4
+HERB-0391,Ophthalmia,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0425,Ophthalmia,India,Terminalia bellerica,Woi.10,S4
+HERB-0164,Orchitis,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0197,Orchitis,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0271,Orchitis,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0379,Orchitis,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0164,Otitis,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0198,Otitis,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0403,Otitis,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0401,Ozaema,India,Solanum surettense,Eb29: 79,S4
+HERB-0032,Palate,India(Santal),Angelica glauca,Eb24: 244,S4
+HERB-0218,Parageusia,India,Gymnema sylvestre,Woi.4,S4
+HERB-0085,Paralysis,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0088,Paralysis,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0181,Paralysis,India(Santal),Erythrina variegata,Eb24: 253,S4
+HERB-0386,Parasiticide,India,Cassia tora,Uphof,S4
+HERB-0164,Parkinsonianism,India,Datura metel,Woi.3,S4
+HERB-0164,Parotitis,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0401,Parotitis,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0085,Parturition,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0086,Parturition,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0123,Parturition,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0209,Parturition,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0222,Pectoral,India,Heliotropium indicum,Woi.5,S4
+HERB-0209,Pediculicide,India,Gloriosa superba,Woi.4,S4
+HERB-0370,Perfume,India,Santalum album,Uphof,S4
+HERB-0174,Perfume,India,Saussurea lappa,Uphof,S4
+HERB-0380,Phthisis,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0010,Phthisis,India(Santal),Acorus calamus,Eb24: 243,S4
+HERB-0016,Phthisis,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0024,Phthisis,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0030,Phthisis,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0164,Phthisis,India,Datura metel,Woi.3,S4
+HERB-0178,Phthisis,India(Santal),Elettaria cardamomum,Eb24: 244,S4
+HERB-0182,Phthisis,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0257,Phthisis,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0271,Phthisis,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0299,Phthisis,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0329,Phthisis,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0331,Phthisis,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0401,Phthisis,India(Santal),Solanum surattensis,Eb24: 263,S4
+HERB-0411,Phthisis,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0023,Piles,India,Aloe barbadensis,Woi.Syria,S4
+HERB-0028,Piles,India(Ayurvedic),Amorphophallus campanulatus,Woi.1,S4
+HERB-0209,Piles,India,Gloriosa superba,Woi.4,S4
+HERB-0229,Piles,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0271,Piles,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0294,Piles,India,Nerium indicum,Woi.7,S4
+HERB-0301,Piles,India,Nymphaea stellata,Eb32: 303,S4
+HERB-0372,Piles,India,Saraca asoca,Woi.9,S4
+HERB-0404,Piles,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0448,Piles,India,Vateria indica,Woi.10,S4
+HERB-0028,Pimple,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0076,Pimple,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0097,Pimple,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0115,Pimple,India,Cissampelos pareira,Eb25: 421,S4
+HERB-0271,Pimple,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0305,Pimple,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0324,Pimple,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0355,Pimple,India,Punica granatum,Eb25: 419,S4
+HERB-0099,Pimple,India(Santal),Randia dumetorum,Eb24: 262,S4
+HERB-0379,Pimple,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0403,Pimple,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0430,Piscicide,India,Caesalpinia nuga,Eb24: 135,S4
+HERB-0185,Piscicide,India,Euphorbia neriifolia,Uphof,S4
+HERB-0099,Piscicide,India,Randia dumetorum,Eb24: 135,S4
+HERB-0371,Piscicide,India,Sapindus mukorossi,Eb24: 135,S4
+HERB-0344,Piscicide,India,Pongamia pinnata,Lewis,S4
+HERB-0044,Pleurisy,India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0070,Pleurisy,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0072,Pleurisy,India(Santal),Boswellia thurifera,Eb24: 247,S4
+HERB-0093,Pleurisy,India(Santal),Capparis zeylanica,Eb2,S4
+HERB-0255,Pleurisy,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0374,Pleurisy,India(Santal),Schleichera oleosa,Eb24: 262,S4
+HERB-0390,Pleurisy,India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0402,Pleurisy,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0424,Pleurisy,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0255,Pleuritis,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0287,Pleuritis,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0376,Pleuritis,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0024,Pneumonia,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0146,Pneumonia,India,Cucumis sativus,Eb25: 418,S4
+HERB-0255,Pneumonia,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0257,Pneumonia,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0286,Pneumonia,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0376,Pneumonia,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0390,Pneumonia,India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0424,Pneumonia,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0202,Poison,India,Fritillaria roylei,Woi.4,S4
+HERB-0209,Poison,India,Gloriosa superba,Woi.4,S4
+HERB-0233,Poison,India,Hyoscyamus niger,Woi.5,S4
+HERB-0294,Poison,India,Nerium indicum,Woi.7,S4
+HERB-0359,Poison,India,Rauvolfia serpentina,Steinmetz,S4
+HERB-0036,Poison,India,Areca catachu,Lewis,S4
+HERB-0088,Pole,India,Cannabis sativa,Eb25: 419,S4
+HERB-0318,Polyp(Nose),India,Phaseolus trilobus,Hartwell,S4
+HERB-0408,Polyp(Nose),India,Stereospermum suaveolens,Hartwell,S4
+HERB-0085,Post-Natal,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0094,Post-Natal,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0122,Post-Natal,India(Santal),Clerodendrum phlomoidis,Eb24: 249,S4
+HERB-0184,Post-Natal,India(Santal),Euphorbia hirta,Eb24: 253,S4
+HERB-0184,Poultice,India,Euphorbia hirta,Eb32: 305,S4
+HERB-0297,Pregnancy,India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0427,Pregnancy,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0016,Prolapse,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0025,Prolapse,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0066,Prolapse,India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0096,Prolapse,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0153,Prolapse,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0296,Prolapse,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0330,Prolapse,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0391,Prolapse,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0428,Prolapse,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0433,Prolapse,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0451,Prolapse,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0454,Prolapse,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0376,Protisticide,India,Scindapsus officinalis,Woi.9,S4
+HERB-0147,Psoriasis,India,Psoralea corylifolia,Woi.8,S4
+HERB-0379,Pterygium,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0025,Puerperium,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0032,Puerperium,India,Angelica glauca,Eb25: 417,S4
+HERB-0041,Puerperium,India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0127,Puerperium,India(Santal),Coix lacryma-jobi,Eb24: 249,S4
+HERB-0223,Puerperium,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0153,Puerperium,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0229,Puerperium,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0321,Puerperium,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0302,Puerperium,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0331,Puerperium,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0353,Puerperium,India(Santal),Pterospermum acerifolium,Eb24: 262,S4
+HERB-0402,Puerperium,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0411,Puerperium,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0461,Puerperium,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0023,Purgative,India,Aloe barbadensis,Woi.Syria,S4
+HERB-0425,Purgative,India,Terminalia bellerica,Woi.10,S4
+HERB-0182,Purgative,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0185,Purgative,India,Euphorbia neriifolia,Woi.3,S4
+HERB-0186,Purgative,India,Euphorbia thomsoniana,Woi.3,S4
+HERB-0198,Purgative,India,Ficus religiosa,Woi.4,S4
+HERB-0239,Purgative,India,Ipomoea aquatica,Eb32: 307,S4
+HERB-0239,Purgative,India,Ipomoea aquatica,Woi.5,S4
+HERB-0241,Purgative,India,Ipomoea nil,Woi.Syria,S4
+HERB-0212,Purgative,India,Marsdenia tenacissima,Woi.6,S4
+HERB-0212,Purgative,India,Marsdenia tenacissima,Woi.7,S4
+HERB-0303,Purgative,India,Operculina turpethum,Woi.7,S4
+HERB-0324,Purgative,India,Phyllanthus emblica,Eb25: 418,S4
+HERB-0360,Purgative,India,Rheum emodi,Woi.9,S4
+HERB-0085,Rabies,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0223,Rabies,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0229,Rabies,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0302,Rabies,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0463,Rabies,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0023,Rectitis,India,Aloe barbadensis,Woi.Syria,S4
+HERB-0003,Refrigerant,India(Gujarat),Abrus precatorius,Eb32: 281,S4
+HERB-0004,Refrigerant,India,Abutilon indicum,Woi.Syria,S4
+HERB-0198,Refrigerant,India,Ficus religiosa,Woi.4,S4
+HERB-0211,Refrigerant,India,Gmelina arborea,Woi.4,S4
+HERB-0214,Refrigerant,India,Grewia asiatica,Woi.4,S4
+HERB-0218,Refrigerant,India,Gymnema silvestre,Steinmetz,S4
+HERB-0227,Refrigerant,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0239,Refrigerant,India,Ipomoea aquatica,Woi.5,S4
+HERB-0271,Refrigerant,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0321,Refrigerant,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0012,Refrigerant,India,Scirpus grossus,Eb32: 301,S4
+HERB-0417,Refrigerant,India,Tamarindus indica,Woi.10,S4
+HERB-0461,Refrigerant,India,Woodfordia fruticosa,Woi.10,S4
+HERB-0349,Religion,India,Prunus cerasoides,Eb25: 421,S4
+HERB-0005,Renitis,India,Achyranthes aspera,Woi.Syria,S4
+HERB-0169,Renitis,India,Dichrostachys cinerea,Woi.3,S4
+HERB-0229,Rennet,India(Gujarat),Holarrhena antidysenterica,Eb32: 282,S4
+HERB-0459,Rennet,India,Withania coagulans,Woi.10,S4
+HERB-0207,Repellant,India,Gardenia gummifera,Woi.4,S4
+HERB-0065,Resolvent,India,Blepharis edulis,Woi.Syria,S4
+HERB-0294,Resolvent,India,Nerium indicum,Woi.7,S4
+HERB-0014,Restorative,India,Aegle marmelos,Eb33: 204,S4
+HERB-0036,Rhagades,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0153,Rhagades,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0005,Rheumatism,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0024,Rheumatism,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0232,Rheumatism,India,Asteracantha longifolia,Woi.1,S4
+HERB-0047,Rheumatism,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0049,Rheumatism,India(Gujarat),Bacopa monnieri,Eb32: 282,S4
+HERB-0070,Rheumatism,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0085,Rheumatism,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0086,Rheumatism,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0093,Rheumatism,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0094,Rheumatism,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0123,Rheumatism,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0153,Rheumatism,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0164,Rheumatism,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0182,Rheumatism,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0198,Rheumatism,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0200,Rheumatism,India,Flacourtia sepiaria,Woi.4,S4
+HERB-0211,Rheumatism,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0222,Rheumatism,India,Heliotropium indicum,Woi.5,S4
+HERB-0232,Rheumatism,India,Hygrophila auriculata,Eb32: 308,S4
+HERB-0271,Rheumatism,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0271,Rheumatism,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0275,Rheumatism,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0305,Rheumatism,India(Ayurvedic),Oroxylum indicum,Woi.7,S4
+HERB-0345,Rheumatism,India(Santal),Premna herbacea,Eb24: 261,S4
+HERB-0374,Rheumatism,India(Santal),Schleichera oleosa,Eb24: 262,S4
+HERB-0376,Rheumatism,India,Scindapsus officinalis,Woi.9,S4
+HERB-0425,Rheumatism,India,Terminalia bellerica,Woi.10,S4
+HERB-0445,Rheumatism,India,Urtica dioica,Eb25: 421,S4
+HERB-0457,Rheumatism,India(Santal),Vitex negundo,Eb24:,S4
+HERB-0460,Rheumatism,India(Ayurvedic),Withania somnifera,Woi.Syria,S4
+HERB-0058,Rhinitis,India(Santal),Basella alba,Eb24: 246,S4
+HERB-0028,Rinderpest,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0032,Rinderpest,India(Santal),Angelica glauca,Eb24: 244,S4
+HERB-0423,Rinderpest,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0076,Rinderpest,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0044,Rinderpest,India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0070,Rinderpest,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0072,Rinderpest,India(Santal),Boswellia serrata,Eb24: 247,S4
+HERB-0123,Rinderpest,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0194,Rinderpest,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0198,Rinderpest,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0211,Rinderpest,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0255,Rinderpest,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0324,Rinderpest,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0379,Rinderpest,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0407,Rinderpest,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0408,Rinderpest,India(Santal),Stereospermum suaveolens,Eb24: 264,S4
+HERB-0454,Rinderpest,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0047,Ringworm,India,Azadirachta indica,Woi.1,S4
+HERB-0085,Ringworm,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0386,Ringworm,India,Cassia tora,Eb25: 418,S4
+HERB-0179,Ringworm,India,Embelia ribes,Woi.3,S4
+HERB-0239,Ringworm,India,Ipomoea aquatica,Eb32: 307,S4
+HERB-0294,Ringworm,India,Nerium indicum,Uphof,S4
+HERB-0185,Rubefacient,India,Euphorbia neriifolia,Woi.3,S4
+HERB-0332,Rubefacient,India,Piper nigrum,Woi.8,S4
+HERB-0005,Scabies,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0071,Scabies,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0085,Scabies,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0385,Scabies,India(Gujarat),Cassia occidentalis,Eb32: 281,S4
+HERB-0386,Scabies,India(Santal),Cassia tora,Eb24: 248,S4
+HERB-0153,Scabies,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0194,Scabies,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0197,Scabies,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0209,Scabies,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0222,Scabies,India,Heliotropium indicum,Woi.5,S4
+HERB-0266,Scabies,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0286,Scabies,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0376,Scabies,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0451,Scabies,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0047,Scald,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0238,Sclerosis,India,Inula racemosa,Hartwell,S4
+HERB-0047,Scrofula,India,Azadirachta indica,Woi.1,S4
+HERB-0266,Scrofula,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0286,Scrofula,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0262,Scurvy,India,Feronia limonia,Woi.4,S4
+HERB-0164,Sedative,India,Datura metel,Woi.3,S4
+HERB-0299,Sedative,India,Nymphaea edulis,Steinmetz,S4
+HERB-0359,Sedative,India,Rauvolfia serpentina,Steinmetz,S4
+HERB-0359,Sedative,India,Rauvolfia serpentina,Uphof,S4
+HERB-0460,Sedative,India(Ayurvedic),Withania somnifera,Woi.Syria,S4
+HERB-0227,Sedative,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0372,Sedative,India,Saraca asoca,Woi.9,S4
+HERB-0071,Septicemia,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0211,Septicemia,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0289,Septicemia,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0376,Septicemia,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0025,Shampoo,India,Alternanthera sessilis,Eb32: 302,S4
+HERB-0186,Shampoo,India,Euphorbia thomsoniana,Woi.3,S4
+HERB-0216,Side,India,Grewia tenax,Woi.4,S4
+HERB-0016,Skin,India(Gujarat),Alangium salvifolium,Eb32: 282,S4
+HERB-0037,Skin,India(Gujarat),Argemone mexicana,Eb32: 280,S4
+HERB-0095,Skin,US(Amerindian),Carthamus tinctorius,Krochmal,S4
+HERB-0219,Skin,India(Gujarat),Cleome gynandra,Eb32: 280,S4
+HERB-0163,Skin,India,Dalbergia sissoo,Woi.3,S4
+HERB-0179,Skin,India,Embelia ribes,Woi.3,S4
+HERB-0185,Skin,India,Euphorbia neriifolia,Woi.3,S4
+HERB-0209,Skin,India,Gloriosa superba,Woi.4,S4
+HERB-0229,Skin,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0271,Skin,India,Madhuca longifolia,Uphof,S4
+HERB-0332,Skin,India,Piper nigrum,Woi.8,S4
+HERB-0337,Skin,India,Pistia stratiotes,Eb32: 301,S4
+HERB-0341,Skin,India(Gujarat),Plumbago zeylanica,Eb32: 282,S4
+HERB-0344,Skin,India(Gujarat),Pongamia pinnata,Eb32: 281,S4
+HERB-0174,Skin,India,Saussurea lappa,Uphof,S4
+HERB-0391,Skin,India,Shorea robusta,Uphof,S4
+HERB-0164,Smallpox,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0047,Smallpox,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0070,Smallpox,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0086,Smallpox,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0127,Smallpox,India(Santal),Coix lacryma-jobi,Eb24: 249,S4
+HERB-0198,Smallpox,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0211,Smallpox,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0281,Smallpox,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0289,Smallpox,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0291,Smallpox,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0296,Smallpox,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0391,Smallpox,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0401,Smallpox,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0454,Smallpox,India(Santal),Vigna cylindrica,Eb24: 266,S4
+HERB-0271,Soap,India,Madhuca longifolia,Woi.6,S4
+HERB-0342,Soap,India,Polygonatum cirrhifolium,Woi.8,S4
+HERB-0380,Sore,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0032,Sore,India(Santal),Angelica glauca,Eb24: 244,S4
+HERB-0076,Sore,India(Santal),Anthocephalus indicus,Eb24: 245,S4
+HERB-0041,Sore,India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0047,Sore,India,Azadirachta indica,Woi.1,S4
+HERB-0058,Sore,India(Santal),Basella alba,Eb24: 246,S4
+HERB-0070,Sore,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0071,Sore,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0085,Sore,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0088,Sore,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0096,Sore,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0386,Sore,India(Santal),Cassia tora,Eb24: 248,S4
+HERB-0102,Sore,India,Celosia argentea,Eb32: 302,S4
+HERB-0113,Sore,India(Santal),Cinnamomum tamala,Eb24: 25,S4
+HERB-0123,Sore,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0136,Sore,India(Santal),Coriandrum sativum,Eb24: 250,S4
+HERB-0144,Sore,India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0153,Sore,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0160,Sore,India(Santal),Cynodon dactylon,Eb24: 251,S4
+HERB-0164,Sore,India,Datura metel,Woi.3,S4
+HERB-0171,Sore,India,Dioscorea bulbifera,Woi.3,S4
+HERB-0172,Sore,India,Diospyros peregrina,Woi.3,S4
+HERB-0181,Sore,India,Erythrina variegata,Woi.3,S4
+HERB-0182,Sore,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0185,Sore,India(Santal),Euphorbia neriifolia,Eb24: 253,S4
+HERB-0194,Sore,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0200,Sore,India(Santal),Flacourtia indica,Eb24: 254,S4
+HERB-0207,Sore,India,Gardenia gummifera,Woi.4,S4
+HERB-0209,Sore,India,Gloriosa superba,Woi.4,S4
+HERB-0209,Sore,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0211,Sore,India,Gmelina arborea,Woi.4,S4
+HERB-0211,Sore,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0252,Sore,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0266,Sore,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0266,Sore,India(Santal),Luffa amara,Eb24: 257,S4
+HERB-0271,Sore,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0278,Sore,India,Merremia emarginata,Eb32: 307,S4
+HERB-0286,Sore,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0287,Sore,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0296,Sore,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0297,Sore,India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0305,Sore,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0321,Sore,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0329,Sore,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0099,Sore,India(Santal),Randia dumetorum,Eb24: 262,S4
+HERB-0379,Sore,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0391,Sore,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0401,Sore,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0403,Sore,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0410,Sore,India,Strychnos potatorum,Woi.10,S4
+HERB-0413,Sore,India(Hindu),Symplocos racemosa,Uphof,S4
+HERB-0424,Sore,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0427,Sore,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0428,Sore,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0433,Sore,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0440,Sore,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0461,Sore,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0132,Sore(Throat),India,Commiphora mukul,Eb29: 209,S4
+HERB-0001,Spasm,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0004,Spasm,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0250,Spasm,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0014,Spasm,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0025,Spasm,India,Alternanthera sessilis,Eb32: 302,S4
+HERB-0088,Spasm,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0164,Spasm,India,Datura metel,Woi.3,S4
+HERB-0164,Spasm,India,Datura metel,Woi.Syria,S4
+HERB-0207,Spasm,India,Gardenia gummifera,Woi.4,S4
+HERB-0256,Spasm,India(Santal),Leonotis nepetaefolia,Eb24: 257,S4
+HERB-0266,Spasm,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0391,Spasm,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0425,Spasm,India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0004,Spermatorrhea,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0197,Spermatorrhea,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0198,Spermatorrhea,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0070,Spiderlick,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0071,Spiderlick,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0229,Spleen,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0331,Spleen,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0030,Splenitis,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0047,Splenitis,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0086,Splenitis,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0136,Splenitis,India(Santal),Coriandrum sativum,Eb24: 250,S4
+HERB-0209,Splenitis,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0211,Splenitis,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0252,Splenitis,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0286,Splenitis,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0309,Splenitis,India,Paederia foetida,Woi.7,S4
+HERB-0370,Splenitis,India(Santal),Santalum album,Eb24: 262,S4
+HERB-0388,Splenitis,India(Santal),Sesamum inndicum,Eb24: 263,S4
+HERB-0426,Splenitis,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0451,Splenitis,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0464,Splenitis,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0379,Splinter,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0360,Sprain,India,Rheum emodi,Eb25: 417,S4
+HERB-0379,Sprain,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0445,Sprain,India,Urtica dioica,Eb25: 421,S4
+HERB-0041,Sterility,India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0286,Sterility(Female),India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0324,Sterility(Female),India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0329,Sterilizant,India,Piper betel,Uphof,S4
+HERB-0332,Sterilizant,India,Piper nigrum,Uphof,S4
+HERB-0001,Stimulant,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0022,Stimulant,India,Alocasia macrorrhiza,Eb23: 100,S4
+HERB-0053,Stimulant,India,Bambusa sp,Bliss,S4
+HERB-0070,Stimulant,India,Bombax malabaricum,Uphof,S4
+HERB-0187,Stimulant,India,Fagonia cretica,Woi.Syria,S4
+HERB-0207,Stimulant,India,Gardenia gummifera,Woi.4,S4
+HERB-0218,Stimulant,India,Gymnema sylvestre,Woi.4,S4
+HERB-0259,Stimulant,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0259,Stimulant,India,Leucas cephalotes,Woi.6,S4
+HERB-0271,Stimulant,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0370,Stimulant,India,Santalum album,Uphof,S4
+HERB-0395,Stimulant,India,Smilax china,Uphof,S4
+HERB-0424,Stimulant,India,Terminalia arjuna,Uphof,S4
+HERB-0431,Stimulant,India,Tinospora cordifolia,Steinmetz,S4
+HERB-0350,Stimulant,India,Trachyspermum roxburghianum,Woi.10,S4
+HERB-0447,Stimulant,India,Valeriana jatamansi,Steinmetz,S4
+HERB-0048,Stimulant,India,Centratherum anthelminticum,Woi.2,S4
+HERB-0086,Sting,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0403,Sting,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0008,Stomach,India,Aconitum heterophyllum,Eb25: 417,S4
+HERB-0032,Stomach,India,Angelica glauca,Eb25: 417,S4
+HERB-0041,Stomach,India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0161,Stomach,India,Cyperus rotundus,Eb32: 301,S4
+HERB-0431,Stomach(Veterinary),India,Tinospora cordifolia,Eb25: 420,S4
+HERB-0001,Stomachic,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0014,Stomachic,India,Aegle marmelos,Eb33: 204,S4
+HERB-0031,Stomachic,India,Anethum sowa,Uphof,S4
+HERB-0154,Stomachic,India,Curcuma zedoaria,Woi.2,S4
+HERB-0208,Stomachic,India,Gentiana kurroo,Woi.4,S4
+HERB-0209,Stomachic,India,Gloriosa superba,Woi.4,S4
+HERB-0214,Stomachic,India,Grewia asiatica,Woi.4,S4
+HERB-0401,Stomachic,India,Solanum surettense,Eb29: 79,S4
+HERB-0462,Stomachic,India,Zanthoxylum armatum,Woi.11,S4
+HERB-0380,Stomatitis,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0070,Stomatitis,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0194,Stomatitis,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0198,Stomatitis,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0424,Stomatitis,India,Terminalia arjuna,Woi.10,S4
+HERB-0444,Stomatitis,India,Uraria picta,Woi.10,S4
+HERB-0169,Stone,India,Dichrostachys cinerea,Woi.3,S4
+HERB-0127,Strangury,India(Santal),Coix lachryma-jobi,Eb32: 298,S4
+HERB-0071,Stroke,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0380,Styptic,India,Acacia catechu,Steinmetz,S4
+HERB-0085,Styptic,India,Calotropis gigantea,Altschul,S4
+HERB-0404,Styptic,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0340,Sudorific,India,Plumbago rosea,Uphof,S4
+HERB-0447,Sudorific,India,Valeriana jatamansi,Steinmetz,S4
+HERB-0209,Suicide,India,Gloriosa superba,Lewis,S4
+HERB-0294,Suicide,India,Nerium indicum,Uphof,S4
+HERB-0014,Suppuration,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0271,Suppuration,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0321,Suppurative,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0028,Swelling,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0070,Swelling,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0430,Swelling,India,Caesalpinia crista,Woi.2,S4
+HERB-0093,Swelling,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0211,Swelling,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0259,Swelling,India(Santal),Leucas cephalotes,Eb24: 257,S4
+HERB-0308,Swelling,India,Oxalis corniculata,Eb25: 419,S4
+HERB-0360,Swelling,India,Rheum emodi,Eb25: 417,S4
+HERB-0399,Swelling,India,Solanum nigrum,Eb25: 420,S4
+HERB-0402,Swelling,India,Soymida febrifuga,Woi.9,S4
+HERB-0445,Swelling,India,Urtica dioica,Eb25: 421,S4
+HERB-0457,Swelling,India(Santal),Vitex negundo,Eb24: 266,S4
+HERB-0005,Syphilis,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0058,Syphilis,India(Santal),Basella alba,Eb24: 246,S4
+HERB-0085,Syphilis,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0096,Syphilis,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0097,Syphilis,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0120,Syphilis,India(Santal),Citrus medica,Eb24: 249,S4
+HERB-0136,Syphilis,India(Santal),Coriandrum sativum,Eb24: 250,S4
+HERB-0153,Syphilis,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0171,Syphilis,India,Dioscorea bulbifera,Woi.3,S4
+HERB-0182,Syphilis,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0211,Syphilis,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0224,Syphilis,India,Hemidesmus indicus,Woi.5,S4
+HERB-0266,Syphilis,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0287,Syphilis,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0296,Syphilis,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0329,Syphilis,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0351,Syphilis,India(Santal),Pterocarpus marsupium,Eb24: 261,S4
+HERB-0354,Syphilis,India(Santal),Pueraria tuberosa,Eb24: 262,S4
+HERB-0376,Syphilis,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0401,Syphilis,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0433,Syphilis,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0461,Syphilis,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0291,Tachycardia,India,Nardostachys jatamansi,Woi.7,S4
+HERB-0036,Taenifuge,India,Areca catechu,Woi.1,S4
+HERB-0277,Tea,Elsewhere(Amerindian),Mentha arvensis,Eb25: 84,S4
+HERB-0418,Tea,India,Taxus baccata,Eb25: 418,S4
+HERB-0088,Tetanus,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0252,Tetanus,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0266,Tetanus,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0266,Tetanus,India(Santal),Luffa amara,Eb24: 257,S4
+HERB-0014,Thirst,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0021,Thirst,India,Allium sativum,Eb28: 41,S4
+HERB-0127,Thirst,India(Santal),Coix lacryma-jobi,Eb24: 249,S4
+HERB-0331,Thirst,India,Piper longum,Eb28: 41,S4
+HERB-0001,Throat,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0028,Throat,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0085,Tongue,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0088,Tongue,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0281,Tongue,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0001,Tonic,India,Abelmoschus moschatus,Woi.5,S4
+HERB-0004,Tonic,India,Abutilon indicum,Woi.Syria,S4
+HERB-0014,Tonic,India,Aegle marmelos,Eb33: 204,S4
+HERB-0024,Tonic,India,Alstonia scholaris,Woi.1,S4
+HERB-0030,Tonic,India,Andrographis paniculata,Uphof,S4
+HERB-0047,Tonic,India,Azadirachta indica,Uphof,S4
+HERB-0070,Tonic,India,Bombax malabaricum,Uphof,S4
+HERB-0217,Tonic,India,Caesalpinia bonducella,Uphof,S4
+HERB-0103,Tonic,India,Centella asiatica,Eb25: 419,S4
+HERB-0103,Tonic,India,Centella asiatica,Eb32: 306,S4
+HERB-0107,Tonic,India,Chlorophytum tuberosum,Eb32: 284,S4
+HERB-0111,Tonic,India,Cichorium intybus,Woi.Syria,S4
+HERB-0115,Tonic,India,Cissampelos pareira,Broun,S4
+HERB-0127,Tonic,India,Coix lacrymajobi,Eb28: 40,S4
+HERB-0049,Tonic,India,Bacopa monnieri,Eb32: 308,S4
+HERB-0152,Tonic,India,Curcuma aromatica,Steinmetz,S4
+HERB-0153,Tonic,India,Curcuma domestica,Woi.2,S4
+HERB-0208,Tonic,India,Gentiana kurroo,Woi.4,S4
+HERB-0209,Tonic,India,Gloriosa superba,Woi.4,S4
+HERB-0211,Tonic,India,Gmelina arborea,Woi.4,S4
+HERB-0224,Tonic,India,Hemidesmus indicus,Woi.5,S4
+HERB-0229,Tonic,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0301,Tonic,India,Nymphaea stellata,Eb32: 303,S4
+HERB-0305,Tonic,India(Ayurvedic),Oroxylum indicum,Woi.7,S4
+HERB-0312,Tonic,India(Ayurvedic),Papaver somniferum,Eb27: 394,S4
+HERB-0342,Tonic,India,Polygonatum cirrhifolium,Woi.8,S4
+HERB-0012,Tonic,India,Scirpus grossus,Eb32: 301,S4
+HERB-0392,Tonic,India,Sida cordifolia,Standley,S4
+HERB-0392,Tonic,India(Hindu),Sida cordifolia,Uphof,S4
+HERB-0402,Tonic,India,Soymida febrifuga,Steinmetz,S4
+HERB-0404,Tonic,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0409,Tonic,India,Strychnos nux-vomica,Woi.10,S4
+HERB-0412,Tonic,India,Swertia chirayita,Woi.10,S4
+HERB-0418,Tonic,India,Taxus baccata,Eb25: 418,S4
+HERB-0431,Tonic,India,Tinospora cordifolia,Steinmetz,S4
+HERB-0271,Tonsillitis,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0271,Tonsillitis,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0010,Ache(Tooth),US(Amerindian),Acorus calamus,Eb28: 313,S4
+HERB-0041,Ache(Tooth),India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0051,Ache(Tooth),India,Baliospermum montanum,Eb32: 284,S4
+HERB-0070,Ache(Tooth),India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0176,Ache(Tooth),India,Eclipta prostrata,Eb32: 309,S4
+HERB-0181,Ache(Tooth),India,Erythrina variegata,Woi.3,S4
+HERB-0229,Ache(Tooth),India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0233,Ache(Tooth),India,Hyoscyamus niger,Woi.5,S4
+HERB-0309,Ache(Tooth),India,Paederia foetida,Woi.7,S4
+HERB-0324,Ache(Tooth),India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0379,Ache(Tooth),India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0401,Ache(Tooth),India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0324,Tubercle,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0202,Tuberculosis,India,Fritillaria roylei,Woi.4,S4
+HERB-0404,Tuberculosis,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0013,Tumor,India,Adiantum lunulatum,Hartwell,S4
+HERB-0041,Tumor,India,Artocarpus heterophyllus,Hartwell,S4
+HERB-0047,Tumor,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0132,Tumor,India,Commiphora mukul,Hartwell,S4
+HERB-0059,Tumor,India,Bauhinia variegata,Eb25: 420,S4
+HERB-0350,Tumor,India,Carum roxburghianum,Hartwell,S4
+HERB-0105,Tumor,India,Cassia absus,Hartwell,S4
+HERB-0386,Tumor,India,Cassia tora,Hartwell,S4
+HERB-0143,Tumor,India,Croton tighlium,Hartwell,S4
+HERB-0164,Tumor,India,Datura fastuosa,Hartwell,S4
+HERB-0182,Tumor,India,Euphorbia antiquorum,Hartwell,S4
+HERB-0198,Tumor,India,Ficus religiosa,Hartwell,S4
+HERB-0209,Tumor,India,Gloriosa superba,Hartwell,S4
+HERB-0276,Tumor,India(Ayurvedic),Melia azedarach,Hartwell,S4
+HERB-0326,Tumor,India,Picrorhiza kurroa,Hartwell,S4
+HERB-0331,Tumor,India,Piper longum,Hartwell,S4
+HERB-0391,Tumor,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0395,Tumor,India,Smilax china,Hartwell,S4
+HERB-0404,Tumor,India,Sphaeranthus hirtus,Hartwell,S4
+HERB-0404,Tumor,India,Sphaeranthus indicus,Hartwell,S4
+HERB-0417,Tumor,India,Tamarindus indica,Hartwell,S4
+HERB-0454,Tumor,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0380,Tumor(Abdomen),India,Acacia catechu,Hartwell,S4
+HERB-0005,Tumor(Abdomen),India,Achyranthes aspera,Hartwell,S4
+HERB-0008,Tumor(Abdomen),India,Aconitum heterophyllum,Hartwell,S4
+HERB-0010,Tumor(Abdomen),India,Acorus calamus,Hartwell,S4
+HERB-0014,Tumor(Abdomen),India,Aegle marmelos,Hartwell,S4
+HERB-0017,Tumor(Abdomen),India,Albizia lebbeck,Hartwell,S4
+HERB-0028,Tumor(Abdomen),India,Amorphophallus campanulatus,Hartwell,S4
+HERB-0293,Tumor(Abdomen),India,Anthocephalus cadamba,Hartwell,S4
+HERB-0044,Tumor(Abdomen),India,Asparagus racemosus,Hartwell,S4
+HERB-0053,Tumor(Abdomen),India,Bambusa sp,Hartwell,S4
+HERB-0054,Tumor(Abdomen),India,Barleria cristata,Hartwell,S4
+HERB-0057,Tumor(Abdomen),India,Barringtonia acutangula,Hartwell,S4
+HERB-0066,Tumor(Abdomen),India,Boerhaavia diffusa,Hartwell,S4
+HERB-0394,Tumor(Abdomen),India,Brassica hirta,Hartwell,S4
+HERB-0081,Tumor(Abdomen),India,Cajanus cajan,Hartwell,S4
+HERB-0100,Tumor(Abdomen),India,Cedrus deodora,Hartwell,S4
+HERB-0113,Tumor(Abdomen),India,Cinnamomum tamala,Hartwell,S4
+HERB-0114,Tumor(Abdomen),India,Cinnamomum verum,Hartwell,S4
+HERB-0117,Tumor(Abdomen),India,Citrullus colocynthis,Hartwell,S4
+HERB-0120,Tumor(Abdomen),India,Citrus medica,Hartwell,S4
+HERB-0124,Tumor(Abdomen),India,Clitoria ternatea,Hartwell,S4
+HERB-0140,Tumor(Abdomen),India,Crocus sativus,Hartwell,S4
+HERB-0148,Tumor(Abdomen),India,Cuminum cyminum,Hartwell,S4
+HERB-0153,Tumor(Abdomen),India,Curcuma domestica,Hartwell,S4
+HERB-0161,Tumor(Abdomen),India,Cyperus rotundus,Hartwell,S4
+HERB-0167,Tumor(Abdomen),India,Desmodium gangeticum,Hartwell,S4
+HERB-0269,Tumor(Abdomen),India,Dolichos biflorus,Hartwell,S4
+HERB-0178,Tumor(Abdomen),India,Elettaria cardamomum,Hartwell,S4
+HERB-0179,Tumor(Abdomen),India,Embelia ribes,Hartwell,S4
+HERB-0262,Tumor(Abdomen),India,Feronia limonia,Hartwell,S4
+HERB-0210,Tumor(Abdomen),India,Glycyrrhiza glabra,Hartwell,S4
+HERB-0214,Tumor(Abdomen),India,Grewia asiatica,Hartwell,S4
+HERB-0229,Tumor(Abdomen),India,Holarrhena antidysenterica,Hartwell,S4
+HERB-0231,Tumor(Abdomen),India,Hordeum vulgare,Hartwell,S4
+HERB-0237,Tumor(Abdomen),India,Indigofera tinctoria,Hartwell,S4
+HERB-0278,Tumor(Abdomen),India,Ipomoea reniformis,Hartwell,S4
+HERB-0303,Tumor(Abdomen),India,Ipomoea turpethum,Hartwell,S4
+HERB-0250,Tumor(Abdomen),India,Justicia adhatoda,Hartwell,S4
+HERB-0450,Tumor(Abdomen),India,Lens culinaris,Hartwell,S4
+HERB-0271,Tumor(Abdomen),India,Madhuca indica,Hartwell,S4
+HERB-0274,Tumor(Abdomen),India,Mallotus philippensis,Hartwell,S4
+HERB-0279,Tumor(Abdomen),India,Mesua ferrea,Hartwell,S4
+HERB-0286,Tumor(Abdomen),India,Moringa oleifera,Hartwell,S4
+HERB-0287,Tumor(Abdomen),India,Mucuna pruriens,Hartwell,S4
+HERB-0291,Tumor(Abdomen),India,Nardostachys jatamansi,Hartwell,S4
+HERB-0292,Tumor(Abdomen),India,Nelumbo nucifera,Hartwell,S4
+HERB-0296,Tumor(Abdomen),India,Nigella sativa,Hartwell,S4
+HERB-0302,Tumor(Abdomen),India,Ocimum sanctum,Hartwell,S4
+HERB-0305,Tumor(Abdomen),India,Oroxylum indicum,Hartwell,S4
+HERB-0314,Tumor(Abdomen),India,Pavonia odorata,Hartwell,S4
+HERB-0315,Tumor(Abdomen),India,Pentapetes phoenicea,Hartwell,S4
+HERB-0324,Tumor(Abdomen),India,Phyllanthus emblica,Hartwell,S4
+HERB-0325,Tumor(Abdomen),India,Phyllanthus niruri,Hartwell,S4
+HERB-0328,Tumor(Abdomen),India,Pinus roxburghii,Hartwell,S4
+HERB-0333,Tumor(Abdomen),India,Piper chaba,Hartwell,S4
+HERB-0340,Tumor(Abdomen),India,Plumbago indica,Hartwell,S4
+HERB-0341,Tumor(Abdomen),India,Plumbago zeylanica,Hartwell,S4
+HERB-0344,Tumor(Abdomen),India,Pongamia pinnata,Hartwell,S4
+HERB-0346,Tumor(Abdomen),India,Premna integrifolia,Hartwell,S4
+HERB-0355,Tumor(Abdomen),India,Punica granatum,Hartwell,S4
+HERB-0432,Tumor(Abdomen),India,Rhus succedanea,Hartwell,S4
+HERB-0361,Tumor(Abdomen),India,Ricinus communis,Hartwell,S4
+HERB-0379,Tumor(Abdomen),India,Semecarpus anacardium,Hartwell,S4
+HERB-0388,Tumor(Abdomen),India,Sesamum indicum,Hartwell,S4
+HERB-0393,Tumor(Abdomen),India,Sida rhombifolia,Hartwell,S4
+HERB-0400,Tumor(Abdomen),India,Solanum indicum,Hartwell,S4
+HERB-0408,Tumor(Abdomen),India,Stereospermum suaveolens,Hartwell,S4
+HERB-0425,Tumor(Abdomen),India,Terminalia bellerica,Hartwell,S4
+HERB-0426,Tumor(Abdomen),India,Terminalia chebula,Hartwell,S4
+HERB-0438,Tumor(Abdomen),India,Trichosanthes cucumerina,Hartwell,S4
+HERB-0440,Tumor(Abdomen),India,Trigonella foenum-graecum,Hartwell,S4
+HERB-0451,Tumor(Abdomen),India,Vigna mungo,Hartwell,S4
+HERB-0460,Tumor(Abdomen),India,Withania somnifera,Hartwell,S4
+HERB-0461,Tumor(Abdomen),India,Woodfordia floribunda,Hartwell,S4
+HERB-0464,Tumor(Abdomen),India,Ziziphus jujuba,Hartwell,S4
+HERB-0246,Tumor(Breast),India,Jasminum sambac,Hartwell,S4
+HERB-0250,Tumor(Glands),India,Adhatoda vasica,Hartwell,S4
+HERB-0018,Tumor(Glands),India,Alhagi maurorum,Hartwell,S4
+HERB-0097,Tumor(Glands),India,Cassia fistula,Hartwell,S4
+HERB-0229,Tumor(Glands),India,Holarrhena antidysenterica,Hartwell,S4
+HERB-0004,Ulcer,India,Abutilon indicum,Uphof,S4
+HERB-0392,Ulcer,India,Sida cordifolia,Standley,S4
+HERB-0232,Urogenital,India,Asteracantha longifolia,Woi.1,S4
+HERB-0184,Urogenital,India,Euphorbia hirta,Eb32: 305,S4
+HERB-0198,Urogenital,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0224,Urogenital,India,Hemidesmus indicus,Woi.5,S4
+HERB-0226,Urogenital,India(Santal),Hibiscus rosa-sinensis,Eb24: 255,S4
+HERB-0231,Urogenital,India,Hordeum vulgare,Woi.5,S4
+HERB-0232,Urogenital,India,Hygrophila auriculata,Eb32: 308,S4
+HERB-0370,Urogenital,India,Santalum album,Uphof,S4
+HERB-0211,Urticaria,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0222,Urticaria,India,Heliotropium indicum,Woi.5,S4
+HERB-0376,Urticaria,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0379,Urticaria,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0233,Uteritis,India,Hyoscyamus niger,Woi.5,S4
+HERB-0218,Uterotonic,India,Gymnema sylvestre,Woi.4,S4
+HERB-0372,Uterotonic,India,Saraca asoca,Woi.9,S4
+HERB-0402,Vaginitis,India,Soymida febrifuga,Woi.9,S4
+HERB-0036,Venereal,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0096,Venereal,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0136,Venereal,India(Santal),Coriandrum sativum,Eb24: 250,S4
+HERB-0164,Venereal,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0181,Venereal,India,Erythrina variegata,Woi.3,S4
+HERB-0182,Venereal,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0433,Venereal,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0305,Vermicide,India(Gujarat),Oroxylum indicum,Eb32: 283,S4
+HERB-0088,Vermifuge,India,Cannabis sativa,Eb25: 419,S4
+HERB-0153,Vermifuge,India,Curcuma domestica,Eb25: 421,S4
+HERB-0179,Vermifuge,India,Embelia ribes,Woi.3,S4
+HERB-0181,Vermifuge,India,Erythrina variegata,Woi.3,S4
+HERB-0184,Vermifuge,India,Euphorbia hirta,Eb32: 305,S4
+HERB-0207,Vermifuge,India,Gardenia gummifera,Woi.4,S4
+HERB-0209,Vermifuge,India,Gloriosa superba,Woi.4,S4
+HERB-0229,Vermifuge,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0259,Vermifuge,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0376,Vermifuge,India,Scindapsus officinalis,Woi.9,S4
+HERB-0376,Vermifuge,India(Hindu),Scindapsus officinalis,Uphof,S4
+HERB-0462,Vermifuge,India,Zanthoxylum armatum,Woi.11,S4
+HERB-0209,Vermifuge(Veterinary),India,Gloriosa superba,Woi.4,S4
+HERB-0238,Vermifuge,India,Inula racemosa,Woi.5,S4
+HERB-0425,Vermifuge,India,Terminalia bellerica,Woi.10,S4
+HERB-0332,Vertigo,India,Piper nigrum,Woi.8,S4
+HERB-0182,Vesicant,India,Euphorbia antiquorum,Steinmetz,S4
+HERB-0340,Vesicant,India,Plumbago rosea,Uphof,S4
+HERB-0153,Vision,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0410,Vision,India(Santal),Strychnos potatorum,Eb24: 264,S4
+HERB-0342,Vulnerary,India,Polygonatum cirrhifolium,Woi.8,S4
+HERB-0020,Wart,India,Allium cepa,Hartwell,S4
+HERB-0037,Wart,India,Argemone mexicana,Hartwell,S4
+HERB-0184,Wart,India,Euphorbia hirta,Hartwell,S4
+HERB-0185,Wart,India,Euphorbia ligularia,Hartwell,S4
+HERB-0185,Wart,India,Euphorbia neriifolia,Woi.3,S4
+HERB-0306,Wart,India,Oryza sativa,Hartwell,S4
+HERB-0338,Whitlow,India,Plantago ispagula,Hartwell,S4
+HERB-0361,Whitlow,India,Ricinus communis,Hartwell,S4
+HERB-0391,Whitlow,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0401,Whitlow,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0062,Wound,India,Bergenia ligulata,Eb25: 421,S4
+HERB-0063,Wound,India,Betula utilis,Eb25: 417,S4
+HERB-0088,Wound,India,Cannabis sativa,Eb25: 419,S4
+HERB-0115,Wound,India(Bhil),Cissampelos pareira,Eb32: 280,S4
+HERB-0153,Wound,India,Curcuma domestica,Eb20: 96,S4
+HERB-0160,Wound,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0200,Wound,India(Santal),Flacourtia indica,Eb24: 254,S4
+HERB-0215,Wound,India(Gujarat),Grewia hirsuta,Eb32: 280,S4
+HERB-0204,Wound,India,Fumaria parviflora,Eb25: 421,S4
+HERB-0215,Wound,India,Grewia hirsuta,Woi.4,S4
+HERB-0249,Wound,US(Amerindian),Juniperus communis,Krochmal,S4
+HERB-0252,Wound,India(Santal),Lagenaria siceraria,Eb24:,S4
+HERB-0308,Wound,India,Oxalis corniculata,Eb25: 419,S4
+HERB-0349,Wound,India,Prunus cerasoides,Eb25: 421,S4
+HERB-0379,Wound,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0428,Wound,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0305,Wound(Veterinary),India(Gujarat),Oroxylum indicum,Eb32: 283,S4
+HERB-0021,Fever,India,Allium sativum,Eb28: 41,S4
+HERB-0023,Emmenagogue,India,Aloe barbadensis,Woi.Syria,S4
+HERB-0024,Bronchitis,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0025,Fever,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0036,Sore,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0036,Tumor(Abdomen),India,Areca catechu,Hartwell,S4
+HERB-0039,Cholera,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0039,Fever,India,Aristolochia indica,Woi.1,S4
+HERB-0047,Sore,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0061,Boil,India,Berberis aristata,Eb25: 419,S4
+HERB-0066,Epilepsy,India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0070,Anodyne,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0071,Syphilis,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0079,Phthisis,India(Santal),Buchanania latifolia,Eb24: 247,S4
+HERB-0080,Dysentery,India(Santal),Butea monosperma,Eb24: 247,S4
+HERB-0082,Spasm,India(Santal),Calamus rotang,Eb24: 247,S4
+HERB-0083,Stomatitis,India,Callicarpa macrophylla,Eb25: 419,S4
+HERB-0085,Boil,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0085,Emetic,India,Calotropis gigantea,Steinmetz,S4
+HERB-0085,Epilepsy,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0085,Leprosy,India,Calotropis gigantea,Eb25: 418,S4
+HERB-0085,Pleurisy,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0085,Smallpox,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0088,Cold,India,Cannabis sativa,Eb25: 419,S4
+HERB-0088,Cough,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0094,Rabies,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0386,Bite(Snake),India(Santal),Cassia tora,Eb24: 248,S4
+HERB-0101,Syphilis,India(Santal),Celastrus paniculatus,Eb24: 248,S4
+HERB-0102,Depurative,India,Celosia argentea,Eb32: 302,S4
+HERB-0102,Stomatitis,India,Celosia argentea,Eb32: 302,S4
+HERB-0114,Phthisis,India(Santal),Cinnamomum verum,Eb24: 256,S4
+HERB-0115,Cholera,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0122,Fever,India(Santal),Clerodendrum phlomoidis,Eb24: 249,S4
+HERB-0125,Bronchitis,India,Coccinia indica,Woi.2,S4
+HERB-0125,Diabetes,India,Coccinia indica,Woi.2,S4
+HERB-0127,Diarrhea,India(Santal),Coix lacryma-jobi,Eb24: 249,S4
+HERB-0127,Fever,India,Coix lacrymajobi,Eb28: 40,S4
+HERB-0136,Tumor(Abdomen),India,Coriandrum sativum,Hartwell,S4
+HERB-0144,Dysentery,India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0146,Ache(Head),India(Santal),Cucumis sativus,Eb24: 250,S4
+HERB-0153,Stomachic,India,Curcuma domestica,Woi.2,S4
+HERB-0160,Carbuncle,India(Santal),Cynodon dactylon,Eb24: 251,S4
+HERB-0160,Hysteria,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0164,Ache(Ear),India,Datura metel,Woi.3,S4
+HERB-0164,Narcotic,India,Datura metel,Woi.Syria,S4
+HERB-0164,Syphilis,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0166,Asthma,India,Dendrophthoe falcata,Woi.3,S4
+HERB-0176,Tonic,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0182,Larvicide,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0262,Tonic,India,Feronia limonia,Woi.4,S4
+HERB-0190,Rinderpest,India(Santal),Ferula assa-foetida,Eb24: 253,S4
+HERB-0196,Gargle,India,Ficus lacor,Woi.4,S4
+HERB-0198,Pimple,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0198,Skin,India,Ficus religiosa,Woi.4,S4
+HERB-0197,Smallpox,India(Santal),Ficus racemosa,Eb24: 253,S4
+HERB-0198,Sore,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0195,Tonic,India,Ficus hispida,Woi.4,S4
+HERB-0194,Tumor,India,Ficus benghalensis,Hartwell,S4
+HERB-0200,Jaundice,India,Flacourtia ramantchi,Woi.4,S4
+HERB-0204,Boil,India,Fumaria parviflora,Eb25: 421,S4
+HERB-0205,Fissure,India,Garcinia indica,Woi.4,S4
+HERB-0207,Antiseptic,India,Gardenia gummifera,Woi.4,S4
+HERB-0207,Gum,India,Gardenia gummifera,Woi.4,S4
+HERB-0208,Urogenital,India,Gentiana kurroo,Woi.4,S4
+HERB-0209,Bactericide,India,Gloriosa superba,Woi.4,S4
+HERB-0209,Anodyne,India,Gloriosa superba,Woi.4,S4
+HERB-0209,Colic,India,Gloriosa superba,Woi.4,S4
+HERB-0209,Syphilis,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0211,Ache(Head),India,Gmelina arborea,Woi.4,S4
+HERB-0211,Hemorrhage,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0211,Thigh,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0211,Throat,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0214,Rheumatism,India(Santal),Grewia asiatica,Woi.4,S4
+HERB-0219,Wound,India(Santal),Gynandropsis gynandra,Eb24: 255,S4
+HERB-0222,Abortifacient,India,Heliotropium indicum,Eb32: 307,S4
+HERB-0222,Astringent,India,Heliotropium indicum,Woi.5,S4
+HERB-0224,Eye,India,Hemidesmus indicus,Woi.5,S4
+HERB-0224,Refrigerant,India,Hemidesmus indicus,Woi.5,S4
+HERB-0224,Tumor(Abdomen),India,Hemidesmus indicus,Hartwell,S4
+HERB-0229,Bactericide,India,Holarrhena antidysenterica,Woi.Syria,S4
+HERB-0229,Parturition,India,Holarrhena antidysenterica,Woi.Syria,S4
+HERB-0234,Gonorrhea,India,Imperata cylindrica,Eb32: 299,S4
+HERB-0239,Debility,India,Ipomoea aquatica,Eb32: 307,S4
+HERB-0239,Piles,India,Ipomoea aquatica,Woi.5,S4
+HERB-0241,Purgative,India,Ipomoea nil,Eb25: 419,S4
+HERB-0250,Bronchitis,India(Santal),Justicia adhatoda,Eb24: 256,S4
+HERB-0250,Tuberculosis,India(Santal),Justicia adhatoda,Eb24: 256,S4
+HERB-0250,Cough,India(Santal),Justicia adhatoda,Eb24: 256,S4
+HERB-0252,Anasarca,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0252,Dropsy,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0254,Candida,India,Lawsonia inermis,Eb30: 318,S4
+HERB-0257,Pleuritis,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0259,Laxative,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0271,Bite(Snake),India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0271,Antidote,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0271,Heart,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0271,Smallpox,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0274,Sore,India(Santal),Mallotus philippensis,Eb24: 257,S4
+HERB-0212,Colic,India(Munda),Marsdenia tenacissima,Woi.6,S4
+HERB-0286,Bite(Snake),India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0286,Dysentery,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0287,Cough,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0289,Bite(Dog),India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0289,Bite(Lizard),India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0289,Anasarca,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0289,Anodyne,India(Santal),Musa paradisiaca,Eb24: 259,S4
+HERB-0291,Cosmetic,India,Nardostachys jatamansi,Uphof,S4
+HERB-0291,Fainting,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0291,Hysteria,India,Nardostachys jatamansi,Uphof,S4
+HERB-0291,Madness,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0291,Parturition,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0291,Sedative,India,Nardostachys jatamansi,Woi.7,S4
+HERB-0294,Dysentery,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0294,Skin,India,Nerium indicum,Woi.7,S4
+HERB-0296,Fever,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0296,Hemorrhage,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0296,Venereal,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0297,Menorrhagia,India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0301,Emollient,India,Nymphaea stellata,Eb32: 303,S4
+HERB-0301,Tumor(Abdomen),India,Nymphaea stellata,Hartwell,S4
+HERB-0305,Cholera,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0305,Colic,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0305,Epilepsy,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0308,Tumor(Abdomen),India,Oxalis corniculata,Hartwell,S4
+HERB-0309,Toothblack,India,Paederia foetida,Woi.7,S4
+HERB-0312,Hemicrania,India(Unani),Papaver somniferum,Eb27: 393,S4
+HERB-0312,Hemostat,India(Unani),Papaver somniferum,Eb27: 394,S4
+HERB-0325,Diuretic,India,Phyllanthus niruri,Uphof,S4
+HERB-0324,Thirst,India,Phyllanthus emblica,Eb25: 418,S4
+HERB-0328,Sprain,India,Pinus roxburghii,Eb25: 421,S4
+HERB-0330,Bronchitis,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0329,Womb,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0253,Dysentery,India(Santal),Pisum arvense,Eb24: 261,S4
+HERB-0341,Digestive,India(Ayurvedic),Plumbago zeylanica,Woi.8,S4
+HERB-0344,Leprosy,India(Santal),Pongamia pinnata,Eb24: 261,S4
+HERB-0099,Cancer,India,Randia dumetorum,Hartwell,S4
+HERB-0358,Tumor(Abdomen),India,Raphanus sativus,Hartwell,S4
+HERB-0360,Sore,India,Rheum emodi,Woi.9,S4
+HERB-0360,Stimulant,India,Rheum emodi,Woi.9,S4
+HERB-0361,Cholera,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0361,Delirium,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0372,Endorrhagia,India,Saraca asoca,Woi.9,S4
+HERB-0372,Stimulant,India,Saraca asoca,Woi.9,S4
+HERB-0174,Fumigant,India,Saussurea lappa,Uphof,S4
+HERB-0174,Hairblack,India,Saussurea lappa,Uphof,S4
+HERB-0374,Fever,India(Santal),Schleichera oleosa,Eb24: 262,S4
+HERB-0012,Astringent,India,Scirpus grossus,Eb32: 301,S4
+HERB-0379,Myalgia,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0379,Septicemia,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0379,Strain,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0390,Urogenital,India(Santal),Sesbania sesban,Eb24: 263,S4
+HERB-0391,Cancer,India,Shorea robusta,Hartwell,S4
+HERB-0391,Orchitis,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0391,Tetanus,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0391,Tubercle,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0392,Astringent,India(Hindu),Sida cordifolia,Uphof,S4
+HERB-0392,Refrigerant,India(Hindu),Sida cordifolia,Uphof,S4
+HERB-0392,Stomachic,India(Hindu),Sida cordifolia,Uphof,S4
+HERB-0401,Bronchitis,India(Ayurvedic),Solanum surattense,Woi.9,S4
+HERB-0399,Antidote(Opium),India(Gujarat),Solanum nigrum,Eb32: 282,S4
+HERB-0401,Asthma,India(Gujarat),Solanum surattense,Eb32: 282,S4
+HERB-0401,Hiccup,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0401,Madness,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0401,Polyp(Nose),India,Solanum jacquinii,Hartwell,S4
+HERB-0401,Sting,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0398,Whitlow,India,Solanum melongena,Hartwell,S4
+HERB-0402,Debility,India,Soymida febrifuga,Woi.9,S4
+HERB-0402,Dysentery,India,Soymida febrifuga,Woi.9,S4
+HERB-0403,Splenitis,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0404,Cough,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0404,Depurative,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0407,Ophthalmia,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0408,Hematuria,India(Santal),Stereospermum suaveolens,Eb24: 264,S4
+HERB-0410,Carbuncle,India(Santal),Strychnos potatorum,Eb24: 264,S4
+HERB-0410,Colic,India(Santal),Strychnos potatorum,Eb24: 264,S4
+HERB-0409,Nerves,India,Strychnos nux-vomica,Woi.10,S4
+HERB-0409,Tumor,India,Strychnos nux-vomica,Hartwell,S4
+HERB-0411,Gonorrhea,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0411,Hypnotic,India,Swertia chirata,Steinmetz,S4
+HERB-0411,Tonic,India(Hindu),Swertia chirata,Uphof,S4
+HERB-0413,Astringent,India(Hindu),Symplocos racemosa,Uphof,S4
+HERB-0415,Cancer,India(Santal),Syzygium cumini,Eb24: 253,S4
+HERB-0425,Collyrium,India,Terminalia bellerica,Uphof,S4
+HERB-0425,Dysuria,India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0427,Fever,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0427,Incense,India,Terminalia tomentosa,Uphof,S4
+HERB-0425,Piles,India,Terminalia bellerica,Woi.10,S4
+HERB-0427,Rinderpest,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0426,Scald,India,Terminalia chebula,Woi.10,S4
+HERB-0424,Sore,India,Terminalia arjuna,Woi.10,S4
+HERB-0428,Ache(Bones),India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0431,Fever,India,Tinospora cordifolia,EB25:420,S4
+HERB-0431,Tumor(Abdomen),India,Tinospora cordifolia,Hartwell,S4
+HERB-0433,Cholera,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0433,Epilepsy,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0433,Fistula,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0444,Antiseptic,India,Uraria picta,Woi.10,S4
+HERB-0444,Prolapse,India,Uraria picta,Woi.10,S4
+HERB-0448,Gonorrhea,India,Vateria indica,Woi.10,S4
+HERB-0449,Bite(Snake)(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0449,Epilepsy(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0449,Sore(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0449,Swelling(Veterinary),India,Vetiveria zizanioides,Eb32: 300,S4
+HERB-0449,Tumor(Abdomen)(Veterinary),India,Vetiveria zizanioides,Hartwell,S4
+HERB-0454,Measles,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0454,Pneumonia,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0454,Sore,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0454,Tonic,India,Vigna unguiculata,Woi.3,S4
+HERB-0457,Splenomegaly,India,Vitex negundo,Steinmetz,S4
+HERB-0461,Bite(Dog),India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0463,Bite(Snake),India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0463,Fever,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0463,Puerperium,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0464,Ache(Head),India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0464,Cholera,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0465,Contraceptive,India,Ziziphus mauritiana,Woi.11,S4
+HERB-0465,Diarrhea,India,Ziziphus mauritiana,Woi.11,S4
+HERB-0464,Edema,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0464,Sore,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0017,Gingivosis,India,Albizia lebbek,"Burkill,1966",S4
+HERB-0332,Fever,India,Piper nigrum,Woi.8,S4
+HERB-0408,Puerperium,India(Ayurvedic),Stereospermum suaveolens,Woi.10,S4
+HERB-0210,Bactericide,India,Glycyrrhiza glabra,Eb30: 318,S4
+HERB-0294,Abortifacient,India,Nerium indicum,Uphof,S4
+HERB-0229,Abscess,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0461,Ache(Ear),India(Santal),Woodfordia fruticosa,Eb24: 255,S4
+HERB-0165,Ache(Foot),US(Amerindian),Daucus carota,Eb28: 333,S4
+HERB-0176,Ache(Head),India,Eclipta prostrata,Eb32: 309,S4
+HERB-0457,Ache(Head),India(Santal),Vitex negundo,Eb24: 266,S4
+HERB-0024,Ache(Loin),India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0115,Ache(Stomach),India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0376,Ache(Stomach),India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0252,Adenopathy,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0321,Adenopathy,India,Phyla nodiflora,Eb32: 307,S4
+HERB-0200,Aftosa,India(Santal),Flacourtia indica,Eb24: 254,S4
+HERB-0103,Alterative,India,Centella asiatica,Eb32: 306,S4
+HERB-0179,Alterative,India,Embelia ribes,Steinmetz,S4
+HERB-0404,Alterative,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0016,Anasarca,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0039,Anasarca,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0085,Anasarca,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0144,Anasarca,India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0211,Anasarca,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0281,Anasarca,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0302,Anasarca,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0379,Anemia,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0407,Anemia,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0424,Anemia,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0016,Anodyne,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0028,Anodyne,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0085,Anodyne,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0093,Anodyne,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0211,Anodyne,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0222,Anodyne,India,Heliotropium indicum,Steinmetz,S4
+HERB-0427,Anodyne,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0445,Anodyne,India,Urtica dioica,Eb25: 421,S4
+HERB-0391,Anthrax,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0095,Antidote,US(Amerindian),Carthamus tinctorius,Krochmal,S4
+HERB-0250,Antiseptic,India,Adhatoda vasica,Woi.Syria,S4
+HERB-0016,Anus,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0096,Anus,India(Santal),Carum carvi,Eb24: 248,S4
+HERB-0123,Anus,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0428,Anus,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0451,Anus,India(Santal),Vigna mungo,Eb24: 260,S4
+HERB-0053,Aphrodisiac,India,Bambusa sp,Bliss,S4
+HERB-0174,Aphrodisiac,India,Saussurea lappa,Uphof,S4
+HERB-0291,Arrhythmia,India,Nardostachys jatamansi,Woi.7,S4
+HERB-0039,Ascites,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0016,Asthma,India(Santal),Alangium salvifolium,Eb24: 244,S4
+HERB-0164,Asthma,India,Datura metel,Woi.3,S4
+HERB-0178,Asthma,India(Santal),Elettaria cardamomum,Eb24: 244,S4
+HERB-0182,Asthma,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0250,Asthma,India,Justicia adhatoda,Steinmetz,S4
+HERB-0376,Asthma,India,Scindapsus officinalis,Woi.9,S4
+HERB-0392,Asthma,India(Hindu),Sida cordifolia,Uphof,S4
+HERB-0160,Astringent,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0172,Astringent,India,Diospyros peregrina,Woi.3,S4
+HERB-0012,Astringent,India(Hindu),Scirpus grossus,Uphof,S4
+HERB-0427,Astringent,India,Terminalia tomentosa,Uphof,S4
+HERB-0401,Atrophy,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0030,Bactericide,India,Andrographis paniculata,Eb30: 318,S4
+HERB-0198,Bactericide,India,Ficus religiosa,Woi.4,S4
+HERB-0221,Bactericide,India,Hedychium spicatum,Eb30: 318,S4
+HERB-0425,Bactericide,India,Terminalia bellerica,Woi.10,S4
+HERB-0331,Beri-Beri,India,Piper longum,Bliss,S4
+HERB-0181,Bilious,India,Erythrina variegata,Woi.3,S4
+HERB-0227,Bilious,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0417,Bilious,India,Tamarindus indica,Woi.10,S4
+HERB-0463,Bite(Dog),India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0025,Bite(Lizard),India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0307,Bite(Snake),India(Santal),Aerva lanata,Eb24: 244,S4
+HERB-0025,Bite(Snake),India,Alternanthera sessilis,Eb32: 302,S4
+HERB-0026,Bite(Snake),India,Amaranthus spinosus,Ayensu,S4
+HERB-0049,Bite(Snake),India,Bacopa monnieri,Eb32: 308,S4
+HERB-0302,Bite(Snake),India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0005,Blindness(Veterinary),India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0424,Blister,India,Terminalia arjuna,Woi.10,S4
+HERB-0229,Blood,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0085,Boil,India,Calotropis gigantea,Eb25: 418,S4
+HERB-0164,Boil,India,Datura metel,Woi.3,S4
+HERB-0328,Boil,India,Pinus roxburghii,Eb25: 421,S4
+HERB-0451,Ache(Bones),India,Vigna mungo,Woi.10,S4
+HERB-0198,Bowel,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0103,Brain,India,Centella asiatica,Eb25: 419,S4
+HERB-0039,Breast,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0184,Breast,India(Santal),Euphorbia hirta,Eb24: 253,S4
+HERB-0004,Bronchitis,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0010,Bronchitis,India(Santal),Acorus calamus,Eb24: 243,S4
+HERB-0182,Bronchitis,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0229,Bronchitis,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0329,Bronchitis,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0413,Bronchitis,India(Santal),Symplocos racemosa,Eb24: 264,S4
+HERB-0428,Bronchitis,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0433,Bronchitis,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0463,Bronchitis,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0071,Burn,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0115,Burn,India,Cissampelos pareira,Eb25: 421,S4
+HERB-0252,Burn,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0391,Burn,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0426,Burn,India,Terminalia chebula,Woi.10,S4
+HERB-0454,Burn,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0380,Cancer,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0037,Cancer,India,Argemone mexicana,Hartwell,S4
+HERB-0039,Cancer,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0391,Cancer,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0418,Cancer,India,Taxus baccata,Hartwell,S4
+HERB-0095,Candida,India,Carthamus tinctorius,Eb30: Ind,S4
+HERB-0210,Candida,India,Glycyrrhiza glabra,Eb30: 318,S4
+HERB-0229,Candida,India,Holarrhena antidysenterica,Eb30: 318,S4
+HERB-0341,Candida,India,Plumbago zeylanica,Eb30: 318,S4
+HERB-0426,Candida,India,Terminalia chebula,Eb30: 318,S4
+HERB-0423,Carbuncle,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0041,Carbuncle,India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0085,Carbuncle,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0391,Carbuncle,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0428,Carbuncle,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0448,Carbuncle,India,Vateria indica,Woi.10,S4
+HERB-0218,Cardiotonic,India,Gymnema sylvestre,Woi.4,S4
+HERB-0392,Cardiotonic,India(Hindu),Sida cordifolia,Uphof,S4
+HERB-0294,Cardiotonic,India,Nerium indicum,Woi.7,S4
+HERB-0070,Caries,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0207,Carminative,India,Gardenia gummifera,Woi.4,S4
+HERB-0417,Carminative,India,Tamarindus indica,Woi.10,S4
+HERB-0103,Cataract,India,Centella asiatica,Eb25: 419,S4
+HERB-0167,Catarrh,India,Desmodium gangeticum,Uphof,S4
+HERB-0231,Catarrh,India,Hordeum vulgare,Woi.5,S4
+HERB-0294,Chancre,India,Nerium indicum,Woi.7,S4
+HERB-0379,Chancre,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0229,Chest,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0402,Chest,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0404,Chest,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0153,Chill,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0103,Cholera,India,Centella asiatica,Eb32: 306,S4
+HERB-0271,Cholera,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0332,Cholera,India,Piper nigrum,Woi.8,S4
+HERB-0345,Cholera,India(Santal),Premna herbacea,Eb24: 261,S4
+HERB-0351,Cholera,India(Santal),Pterocarpus marsupium,Eb24: 261,S4
+HERB-0376,Cholera,India(Santal),Scindapsus officinalis,Eb24: 262,S4
+HERB-0425,Cholera,India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0088,Cold,India(Santal),Cannabis sativa,Eb24: 248,S4
+HERB-0153,Cold,India,Curcuma domestica,Woi.2,S4
+HERB-0259,Cold,India,Leucas cephalotes,Woi.6,S4
+HERB-0433,Cold,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0430,Colic,India,Caesalpinia crista,Uphof,S4
+HERB-0101,Colic,India(Santal),Celastrus paniculatus,Eb24: 248,S4
+HERB-0120,Colic,India(Santal),Citrus medica,Eb24: 249,S4
+HERB-0211,Colic,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0229,Colic,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0257,Colic,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0415,Colic,India(Santal),Syzygium cumini,Eb24: 253,S4
+HERB-0464,Colic,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0025,Collyrium,India,Alternanthera sessilis,Eb32: 302,S4
+HERB-0426,Collyrium,India,Terminalia chebula,Woi.10,S4
+HERB-0332,Coma,India,Piper nigrum,Woi.8,S4
+HERB-0010,Tuberculosis,India(Santal),Acorus calamus,Eb24: 243,S4
+HERB-0294,Tuberculosis,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0315,Tuberculosis,India(Santal),Pentapetes phoenicea,Eb24: 260,S4
+HERB-0331,Tuberculosis,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0411,Tuberculosis,India(Santal),Swertia chirata,Eb24: 254,S4
+HERB-0004,Convulsion,India(Santal),Abutilon indicum,Eb24: 243,S4
+HERB-0071,Convulsion,India(Santal),Borassus flabellifer,Eb24: 246,S4
+HERB-0094,Convulsion,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0291,Convulsion,India,Nardostachys jatamansi,Bliss,S4
+HERB-0324,Convulsion,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0164,Cough,India,Datura metel,Woi.3,S4
+HERB-0218,Cough,India,Gymnema sylvestre,Woi.4,S4
+HERB-0229,Cough,India,Holarrhena antidysenterica,Altschul,S4
+HERB-0231,Cough,India,Hordeum vulgare,Woi.5,S4
+HERB-0259,Cough,India,Leucas cephalotes,Woi.6,S4
+HERB-0263,Cough,India(Santal),Linum usitatissimum,Eb24: 257,S4
+HERB-0294,Cough,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0331,Cough,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0426,Cough,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0428,Cough,India(Santal),Thespesia lampas,Eb24: 265,S4
+HERB-0190,Cramp,India(Santal),Ferula assa-foetida,Eb24: 253,S4
+HERB-0160,Cyanogenetic,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0001,Debility,India,Abelmoschus moschatus,Steinmetz,S4
+HERB-0097,Delirium,India(Santal),Cassia fistula,Eb24: 248,S4
+HERB-0164,Demulcent,India,Datura metel,Woi.3,S4
+HERB-0248,Dentifrice,India,Juglans regia,Eb25: 418,S4
+HERB-0127,Depurative,India,Coix lacrymajobi,Eb28: 40,S4
+HERB-0459,Depurative,India,Withania coagulans,Woi.10,S4
+HERB-0271,Diabetes,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0224,Diaphoretic,India,Hemidesmus indicus,Woi.5,S4
+HERB-0259,Diaphoretic,India,Leucas cephalotes,Eb32: 307,S4
+HERB-0376,Diaphoretic,India(Hindu),Scindapsus officinalis,Uphof,S4
+HERB-0014,Diarrhea,India,Aegle marmelos,Eb33: 204,S4
+HERB-0312,Diarrhea,India(Ayurvedic),Papaver somniferum,Eb27: 393,S4
+HERB-0324,Diarrhea,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0376,Diarrhea,India,Scindapsus officinalis,Woi.9,S4
+HERB-0402,Diarrhea,India,Soymida febrifuga,Woi.9,S4
+HERB-0407,Diarrhea,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0448,Diarrhea,India,Vateria indica,Woi.10,S4
+HERB-0464,Diarrhea,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0227,Digestive,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0160,Diuretic,India,Cynodon dactylon,Eb20: 96,S4
+HERB-0167,Diuretic,India,Desmodium gangeticum,Woi.3,S4
+HERB-0218,Diuretic,India,Gymnema sylvestre,Woi.4,S4
+HERB-0224,Diuretic,India,Hemidesmus indicus,Woi.5,S4
+HERB-0301,Diuretic,India,Nymphaea stellata,Eb32: 303,S4
+HERB-0085,Dropsy,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0123,Dropsy,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0144,Dropsy,India(Santal),Cryptolepis buchanani,Eb24: 250,S4
+HERB-0302,Dropsy,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0457,Dropsy,India(Santal),Vitex negundo,Eb24: 266,S4
+HERB-0461,Dropsy,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0380,Dysentery,India(Santal),Acacia catechu,Eb24: 243,S4
+HERB-0008,Dysentery,India,Aconitum heterophyllum,Woi.1,S4
+HERB-0014,Dysentery,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0307,Dysentery,India(Santal),Aerva lanata,Eb24: 244,S4
+HERB-0025,Dysentery,India(Santal),Alternanthera sessilis,Eb24: 244,S4
+HERB-0028,Dysentery,India(Ayurvedic),Amorphophallus campanulatus,Woi.1,S4
+HERB-0066,Dysentery,India(Santal),Boerhaavia diffusa,Eb24: 246,S4
+HERB-0085,Dysentery,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0160,Dysentery,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0172,Dysentery,India,Diospyros peregrina,Woi.3,S4
+HERB-0184,Dysentery,India(Santal),Euphorbia hirta,Eb24: 253,S4
+HERB-0198,Dysentery,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0229,Dysentery,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0291,Dysentery,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0324,Dysentery,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0325,Dysentery,India,Phyllanthus niruri,Uphof,S4
+HERB-0329,Dysentery,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0331,Dysentery,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0337,Dysentery,India,Pistia stratiotes,Eb32: 301,S4
+HERB-0351,Dysentery,India(Santal),Pterocarpus marsupium,Eb24: 261,S4
+HERB-0403,Dysentery,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0408,Dysentery,India(Santal),Stereospermum suaveolens,Eb24: 264,S4
+HERB-0454,Dysentery,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0465,Dysentery,India,Ziziphus mauritiana,Woi.11,S4
+HERB-0024,Dyslactation,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0010,Dyspepsia,US(Amerindian),Acorus calamus,Krochmal,S4
+HERB-0122,Dyspepsia,India(Santal),Clerodendrum phlomoidis,Eb24: 249,S4
+HERB-0207,Dyspepsia,India,Gardenia gummifera,Woi.4,S4
+HERB-0211,Dyspepsia,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0229,Dyspepsia,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0360,Dyspepsia,India,Rheum emodi,Woi.9,S4
+HERB-0257,Dysuria,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0271,Dysuria,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0085,Ear,India,Calotropis gigantea,Eb25: 418,S4
+HERB-0271,Ear,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0005,Emaciation,India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0037,Emetic,India,Argemone mexicana,Eb32: 303,S4
+HERB-0195,Emetic,India,Ficus hispida,Woi.4,S4
+HERB-0239,Emetic,India,Ipomoea aquatica,Woi.5,S4
+HERB-0341,Emmenagogue,India,Plumbago zeylanica,Steinmetz,S4
+HERB-0457,Emmenagogue,India,Vitex negundo,Steinmetz,S4
+HERB-0222,Emollient,India,Heliotropium indicum,Eb32: 30,S4
+HERB-0412,Enterrhagia,India,Swertia chirayita,Woi.10,S4
+HERB-0104,Epididymitis,India(Santal),Centipeda minima,Eb24: 248,S4
+HERB-0164,Epididymitis,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0386,Epilepsy,India(Santal),Cassia tora,Eb24: 248,S4
+HERB-0115,Epilepsy,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0177,Epilepsy,India,Elaeocarpus ganitrus,Woi.3,S4
+HERB-0190,Epilepsy,India(Santal),Ferula assa-foetida,Eb24: 253,S4
+HERB-0443,Epilepsy,India(Santal),Typha angustata,Eb29: 20,S4
+HERB-0407,Evil eye,India(Santal),Spondias pinnata,Eb24: 264,S4
+HERB-0037,Expectorant,India,Argemone mexicana,Eb32: 303,S4
+HERB-0167,Expectorant,India,Desmodium gangeticum,Woi.3,S4
+HERB-0271,Expectorant,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0271,Eye,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0153,Eye,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0194,Eye,India(Santal),Ficus benghalensis,Eb24: 253,S4
+HERB-0222,Eye,India(Santal),Heliotropium indicum,Eb24: 255,S4
+HERB-0399,Eye,India,Solanum nigrum,Eb25: 420,S4
+HERB-0403,Eye,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0076,Febrifuge,India,Anthocephalus indicus,Uphof,S4
+HERB-0008,Fever,India,Aconitum heterophyllum,Eb25: 417,S4
+HERB-0024,Fever,India,Alstonia scholaris,Woi.1,S4
+HERB-0044,Fever,India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0047,Fever,India,Azadirachta indica,Uphof,S4
+HERB-0167,Fever,India,Desmodium gangeticum,Woi.3,S4
+HERB-0181,Fever,India,Erythrina variegata,Woi.3,S4
+HERB-0193,Fever,India,Ferula narthex,Woi.4,S4
+HERB-0211,Fever,India(Ayurvedic),Gmelina arborea,Woi.4,S4
+HERB-0229,Fever,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0231,Fever,India,Hordeum vulgare,Woi.5,S4
+HERB-0315,Fever,India(Santal),Pentapetes phoenicea,Eb24: 260,S4
+HERB-0331,Fever,India(Santal),Piper longum,Eb24: 261,S4
+HERB-0346,Fever,India(Ayurvedic),Premna obtusifolia,Woi.8,S4
+HERB-0409,Fever,India,Strychnos nux-vomica,Woi.10,S4
+HERB-0412,Fever,India,Swertia chirayita,Woi.10,S4
+HERB-0425,Fever,India,Terminalia bellerica,Woi.10,S4
+HERB-0120,Fever,India,Citrus medica,Eb25: 420,S4
+HERB-0444,Fever,India,Uraria picta,Woi.10,S4
+HERB-0461,Fever,India,Woodfordia fruticosa,Eb28: 41,S4
+HERB-0449,Fever(Veterinary),India,Vetiveria zizanioides,Liogier,S4
+HERB-0123,Fistula,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0271,Fistula,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0330,Fistula,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0463,Fistula,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0003,Fracture(Veterinary),India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0184,Fracture(Veterinary),India(Santal),Euphorbia hirta,Eb24: 253,S4
+HERB-0229,Fumitory,India,Holarrhena antidysenterica,Altschul,S4
+HERB-0426,Fumitory,India,Terminalia chebula,Woi.10,S4
+HERB-0210,Fungicide,India,Glycyrrhiza glabra,Eb30: 318,S4
+HERB-0324,Fungicide,India,Phyllanthus emblica,Eb30: 318,S4
+HERB-0425,Fungicide,India,Terminalia belerica,Eb30: 318,S4
+HERB-0184,Gargle,India,Euphorbia hirta,Eb32: 305,S4
+HERB-0079,Gingivitis,India(Santal),Buchanania latifolia,Eb24: 247,S4
+HERB-0403,Gingivitis,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0370,Gleet,India,Santalum album,Uphof,S4
+HERB-0083,Glossitis,India,Callicarpa macrophylla,Eb25: 419,S4
+HERB-0281,Glossitis,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0173,Gonorrhea,India,Dipterocarpus alatus,Uphof,S4
+HERB-0200,Gout,India,Flacourtia sepiaria,Woi.4,S4
+HERB-0115,Gravel,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0224,Gravel,India,Hemidesmus indicus,Woi.5,S4
+HERB-0257,Gravel,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0299,Gravel,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0108,Head,India,Chrysanthemum indicum,Steinmetz,S4
+HERB-0227,Heart,India,Hibiscus sabdariffa,Woi.5,S4
+HERB-0427,Hematuria,India(Santal),Terminalia tomentosa,Eb24: 265,S4
+HERB-0093,Hemiplegia,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0153,Hemorrhage,India,Curcuma domestica,Eb20: 96,S4
+HERB-0461,Hemorrhage,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0104,Hydrocoele,India(Santal),Centipeda minima,Eb24: 248,S4
+HERB-0391,Hydrocoele,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0262,Indigestion,India,Feronia limonia,Uphof,S4
+HERB-0428,Inflammation,India(Gujarat),Thespesia lampas,Eb32: 280,S4
+HERB-0222,Inflammation,India(Santal),Heliotropium indicum,Eb24: 255,S4
+HERB-0160,Insanity,India,Cynodon dactylon,Eb32: 298,S4
+HERB-0001,Repellant(Insect),India,Abelmoschus moschatus,Woi.5,S4
+HERB-0030,Intestine,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0292,Intestine,India(Santal),Nelumbo nucifera,Eb24: 259,S4
+HERB-0164,Intoxication,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0047,Labor,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0085,Labor,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0302,Labor,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0315,Labor,India(Santal),Pentapetes phoenicea,Eb24: 260,S4
+HERB-0271,Lactogogue,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0296,Lactogogue,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0004,Laxative,India,Abutilon indicum,Woi.Syria,S4
+HERB-0014,Laxative,India,Aegle marmelos,Eb33: 204,S4
+HERB-0028,Laxative,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0030,Laxative,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0198,Laxative,India(Santal),Ficus religiosa,Eb24: 253,S4
+HERB-0218,Laxative,India,Gymnema sylvestre,Woi.4,S4
+HERB-0070,Leprosy,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0271,Leprosy,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0425,Leprosy,India,Terminalia bellerica,Woi.10,S4
+HERB-0103,Leprosy,India,Centella asiatica,Woi.2,S4
+HERB-0147,Leucoderma,India,Psoralea corylifolia,Woi.8,S4
+HERB-0211,Madness,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0266,Madness,India(Santal),Luffa acutangula,Eb24: 257,S4
+HERB-0443,Madness,India(Santal),Typha angustata,Eb24: 265,S4
+HERB-0260,Magic,India,Selinum wallichianum,Eb25: 417,S4
+HERB-0402,Malaria,India,Soymida febrifuga,Woi.9,S4
+HERB-0166,Mania,India,Dendrophthoe falcata,Woi.3,S4
+HERB-0036,Masticatory,India,Areca catechu,Woi.1,S4
+HERB-0222,Masticatory,India,Heliotropium indicum,Woi.5,S4
+HERB-0070,Megalospleny,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0200,Megalospleny,India,Flacourtia ramantchi,Woi.4,S4
+HERB-0281,Menorrhagia,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0353,Menorrhagia,India(Santal),Pterospermum acerifolium,Eb24: 262,S4
+HERB-0413,Menorrhagia,India(Hindu),Symplocos racemosa,Uphof,S4
+HERB-0461,Menorrhagia,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0257,Myalgia,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0361,Myalgia,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0047,Nausea,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0302,Nausea,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0012,Nausea,India(Hindu),Scirpus grossus,Uphof,S4
+HERB-0207,Nerves,India,Gardenia gummifera,Woi.4,S4
+HERB-0182,Nervine,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0255,Neuralgia,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0003,Night-Blindness,India(Santal),Abrus precatorius,Eb24: 243,S4
+HERB-0059,Obesity,India,Bauhinia variegata,Eb25: 420,S4
+HERB-0153,Ophthalmia,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0185,Ophthalmia,India,Euphorbia neriifolia,Woi.3,S4
+HERB-0392,Ophthalmia,India,Sida cordifolia,Standley,S4
+HERB-0403,Ophthalmia,India(Santal),Spermacoce hispida,Eb24: 264,S4
+HERB-0271,Orchitis,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0209,Parasiticide,India,Gloriosa superba,Woi.4,S4
+HERB-0449,Perfume(Veterinary),India,Vetiveria zizanioides,Steinmetz,S4
+HERB-0423,Perspiration,India(Santal),Anogeissus latifolia,Eb24: 245,S4
+HERB-0223,Phthisis,India(Santal),Costus speciosa,Eb24: 250,S4
+HERB-0211,Phthisis,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0294,Phthisis,India(Santal),Nerium indicum,Eb24: 259,S4
+HERB-0330,Phthisis,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0401,Phthisis,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0408,Phthisis,India(Santal),Stereospermum suaveolens,Eb24: 264,S4
+HERB-0463,Phthisis,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0164,Piles,India,Datura metel,Woi.3,S4
+HERB-0171,Piles,India,Dioscorea bulbifera,Woi.3,S4
+HERB-0239,Piles,India,Ipomoea aquatica,Eb32: 307,S4
+HERB-0337,Piles,India,Pistia stratiotes,Eb32: 301,S4
+HERB-0164,Pimple,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0181,Pimple,India(Santal),Erythrina variegata,Eb24: 253,S4
+HERB-0421,Piscicide,India,Tephrosia purpurea,Eb24: 135,S4
+HERB-0024,Pleurisy,India(Santal),Alstonia scholaris,Eb24: 244,S4
+HERB-0028,Pleurisy,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0454,Pleurisy,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0028,Pneumonia,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0070,Pneumonia,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0085,Pneumonia,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0402,Pneumonia,India(Santal),Soymida febrifuga,Eb24: 264,S4
+HERB-0008,Poison,India,Aconitum heterophyllum,Steinmetz,S4
+HERB-0181,Poison,India,Erythrina variegata,Woi.3,S4
+HERB-0209,Poison,India,Gloriosa superba,Steinmetz,S4
+HERB-0343,Poison,India,Polygonatum verticillatum,Woi.8,S4
+HERB-0332,Poison,India,Piper nigrum,Lewis,S4
+HERB-0422,Polyp(Nose),India,Teramnus labialis,Hartwell,S4
+HERB-0461,Pregnancy,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0123,Prolapse,India(Santal),Clerodendrum serratum,Eb24: 249,S4
+HERB-0294,Psoriasis,India,Nerium indicum,Woi.7,S4
+HERB-0014,Puerperium,India(Santal),Aegle marmelos,Eb24: 243,S4
+HERB-0028,Puerperium,India(Santal),Amorphophallus campanulatus,Eb24: 245,S4
+HERB-0305,Puerperium,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0086,Purgative,India,Calotropis procera,Woi.Syria,S4
+HERB-0438,Purgative,India,Trichosanthes anguina,Steinmetz,S4
+HERB-0013,Rabies,India(Santal),Adiantum lunulatum,Eb24: 243,S4
+HERB-0030,Rabies,India(Santal),Andrographis paniculata,Eb24: 244,S4
+HERB-0115,Rabies,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0461,Rabies,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0232,Refrigerant,India,Hygrophila spinosa,Steinmetz,S4
+HERB-0271,Refrigerant,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0005,Renitis,India,Achyranthes aspera,Eb32: 302,S4
+HERB-0459,Rennet,India,Withania coagulans,Uphof,S4
+HERB-0425,Respiratory,India(Santal),Terminalia bellirica,Eb24: 264,S4
+HERB-0072,Rheumatism,India,Boswellia serrata,Woi.1,S4
+HERB-0169,Rheumatism,India,Dichrostachys cinerea,Woi.3,S4
+HERB-0339,Rheumatism,India(Ayurvedic),Pluchea lanceolata,Woi.8,S4
+HERB-0401,Rheumatism,India(Santal),Solanum surattense,Eb24: 263,S4
+HERB-0402,Rheumatism,India,Soymida febrifuga,Woi.9,S4
+HERB-0457,Rheumatism,India,Vitex negundo,Eb25: 421,S4
+HERB-0364,Rhinosinusitis,India,Rubia cordifolia,Woi.9,S4
+HERB-0172,Rinderpest,India(Santal),Diospyros peregrina,Eb24: 251,S4
+HERB-0305,Rinderpest,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0391,Rinderpest,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0434,Rinderpest,India(Santal),Trapa bispinosa,Eb24: 265,S4
+HERB-0464,Rinderpest,India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0022,Rubefacient,India,Alocasia macrorrhiza,Eb23: 100,S4
+HERB-0037,Scabies,India,Argemone mexicana,Eb32: 303,S4
+HERB-0460,Scabies,India(Ayurvedic),Withania somnifera,Woi.Syria,S4
+HERB-0252,Scrofula,India(Santal),Lagenaria siceraria,Eb24: 250,S4
+HERB-0266,Scrofula,India(Santal),Luffa amara,Eb24: 257,S4
+HERB-0028,Septicemia,India(Santal),Amorphophallus campanulatus,Eb24: 244,S4
+HERB-0085,Septicemia,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0302,Septicemia,India(Santal),Ocimum sanctum,Eb24: 260,S4
+HERB-0174,Shampoo,India,Saussurea lappa,Uphof,S4
+HERB-0047,Skin,India,Azadirachta indica,Uphof,S4
+HERB-0385,Skin,India(Gujarat),Cassia occidentalis,Eb32: 281,S4
+HERB-0386,Skin,India,Cassia tora,Uphof,S4
+HERB-0176,Skin,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0182,Skin,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0222,Skin,India,Heliotropium indicum,Woi.5,S4
+HERB-0147,Skin,India,Psoralea corylifolia,Woi.8,S4
+HERB-0395,Skin,India,Smilax china,Woi.9,S4
+HERB-0153,Slurring,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0036,Smallpox,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0041,Smallpox,India(Santal),Artocarpus heterophyllus,Eb24: 245,S4
+HERB-0047,Smallpox,India,Azadirachta indica,Eb29: 40,S4
+HERB-0454,Smallpox,India(Santal),Vigna unguiculata,Eb24: 252,S4
+HERB-0461,Smallpox,India,Woodfordia fruticosa,Woi.10,S4
+HERB-0448,Soap,India,Vateria indica,Woi.10,S4
+HERB-0044,Sore,India(Santal),Asparagus racemosus,Eb24: 245,S4
+HERB-0086,Sore,India(Santal),Calotropis procera,Eb24: 248,S4
+HERB-0093,Sore,India(Santal),Capparis zeylanica,Eb24: 248,S4
+HERB-0094,Sore,India(Santal),Carissa carandas,Eb24: 248,S4
+HERB-0101,Sore,India(Santal),Celastrus paniculatus,Eb24: 248,S4
+HERB-0164,Sore,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0196,Sore,India,Ficus lacor,Woi.4,S4
+HERB-0222,Sore,India,Heliotropium indicum,Woi.5,S4
+HERB-0271,Sore,India(Ayurvedic),Madhuca latifolia,Eb29: 382,S4
+HERB-0281,Sore,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0291,Sore,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0294,Sore,India,Nerium indicum,Woi.7,S4
+HERB-0324,Sore,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0361,Sore,India(Santal),Ricinus communis,Eb24: 262,S4
+HERB-0410,Sore,India(Santal),Strychnos potatorum,Eb24: 264,S4
+HERB-0461,Sore,India,Woodfordia fruticosa,Woi.10,S4
+HERB-0172,Sore(Throat),India,Diospyros peregrina,Woi.3,S4
+HERB-0296,Spasm,India(Santal),Nigella indica,Eb24: 259,S4
+HERB-0449,Spasm(Veterinary),India,Vetiveria zizanioides,Steinmetz,S4
+HERB-0229,Spermatorrhea,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0042,Splenitis,India(Santal),Artocarpus lakoocha,Eb24: 245,S4
+HERB-0085,Splenitis,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0153,Splenitis,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0229,Splenitis,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0255,Splenitis,India(Santal),Leea macrophylla,Eb24: 257,S4
+HERB-0341,Splenitis,India(Santal),Plumbago zeylanica,Eb24: 261,S4
+HERB-0379,Splenitis,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0461,Splenitis,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0163,Stimulant,India,Dalbergia sissoo,Woi.3,S4
+HERB-0286,Stimulant,India,Moringa oleifera,Steinmetz,S4
+HERB-0332,Stimulant,India,Piper nigrum,Woi.8,S4
+HERB-0376,Stimulant,India,Scindapsus officinalis,Woi.9,S4
+HERB-0409,Stimulant,India,Strychnos nux-vomica,Woi.10,S4
+HERB-0085,Sting,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0308,Sting,India,Oxalis corniculata,Eb25: 419,S4
+HERB-0271,Sting(Bee),India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0326,Stomach,India,Picrorhiza kurroa,Eb25: 417,S4
+HERB-0023,Stomachic,India,Aloe barbadensis,Woi.Syria,S4
+HERB-0218,Stomachic,India,Gymnema sylvestre,Woi.4,S4
+HERB-0222,Stomachic,India,Heliotropium indicum,Woi.5,S4
+HERB-0229,Stomachic,India,Holarrhena antidysenterica,Woi.5,S4
+HERB-0346,Stomachic,India(Ayurvedic),Premna obtusifolia,Woi.8,S4
+HERB-0412,Stomachic,India,Swertia chirayita,Woi.10,S4
+HERB-0449,Stomatitis(Veterinary),India(Santal),Vetiveria zizanioides,Eb24: 244,S4
+HERB-0127,Strangury,India,Coix lacrymajobi,Eb28: 40,S4
+HERB-0010,Sudorific,India,Acorus calamus,Steinmetz,S4
+HERB-0445,Suppository,India,Urtica dioica,Eb25: 421,S4
+HERB-0039,Suppuration,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0215,Suppurative,India,Grewia hirsuta,Woi.4,S4
+HERB-0256,Swelling,India(Gujarat),Leonotis nepetaefolia,Eb32: 283,S4
+HERB-0328,Swelling,India,Pinus roxburghii,Eb25: 421,S4
+HERB-0457,Swelling,India,Vitex negundo,Eb25: 421,S4
+HERB-0036,Syphilis,India(Santal),Areca catechu,Eb24: 245,S4
+HERB-0047,Syphilis,India(Santal),Azadirachta indica,Eb24: 257,S4
+HERB-0281,Syphilis,India(Santal),Mimusops elengi,Eb24: 258,S4
+HERB-0286,Syphilis,India(Santal),Moringa oleifera,Eb24: 258,S4
+HERB-0379,Syphilis,India(Santal),Semecarpus anacardium,Eb24: 262,S4
+HERB-0391,Syphilis,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0440,Syphilis,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0176,Tattoo,India,Eclipta prostrata,Eb32: 309,S4
+HERB-0085,Tetanus,India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0257,Thirst,India(Santal),Lepidium sativum,Eb24: 257,S4
+HERB-0324,Thirst,India(Santal),Phyllanthus emblica,Eb24: 261,S4
+HERB-0262,Throat,India,Feronia limonia,Woi.4,S4
+HERB-0248,Toe,India,Juglans regia,Eb25: 418,S4
+HERB-0076,Tonic,India,Anthocephalus indicus,Uphof,S4
+HERB-0167,Tonic,India,Desmodium gangeticum,Woi.3,S4
+HERB-0271,Tonic,India(Ayurvedic),Madhuca longifolia,Eb2,S4
+HERB-0291,Tonic,India,Nardostachys jatamansi,Woi.7,S4
+HERB-0360,Tonic,India,Rheum emodi,Woi.9,S4
+HERB-0431,Tonic,India(Gujarat),Tinospora cordifolia,Eb32: 280,S4
+HERB-0005,Ache(Tooth),India(Santal),Achyranthes aspera,Eb24: 243,S4
+HERB-0085,Ache(Tooth),India(Santal),Calotropis gigantea,Eb24: 247,S4
+HERB-0359,Tranquilizer,India,Rauvolfia serpentina,Uphof,S4
+HERB-0337,Tuberculosis,India,Pistia stratiotes,Eb23: 114,S4
+HERB-0005,Tumor,India,Achyranthes aspera,Hartwell,S4
+HERB-0005,Tumor,India,Achyranthes rubro-fusca,Hartwell,S4
+HERB-0055,Tumor,India,Barleria prionitis,Hartwell,S4
+HERB-0080,Tumor,India,Butea monosperma,Hartwell,S4
+HERB-0088,Tumor,India,Cannabis sativa,Hartwell,S4
+HERB-0370,Tumor,India,Santalum album,Hartwell,S4
+HERB-0413,Tumor,India,Symplocos racemosa,Hartwell,S4
+HERB-0021,Tumor(Abdomen),India,Allium sativum,Hartwell,S4
+HERB-0047,Tumor(Abdomen),India,Azadirachta indica,Hartwell,S4
+HERB-0059,Tumor(Abdomen),India,Bauhinia variegata,Hartwell,S4
+HERB-0070,Tumor(Abdomen),India,Bombax malabaricum,Hartwell,S4
+HERB-0082,Tumor(Abdomen),India,Calamus rotjang,Hartwell,S4
+HERB-0103,Tumor(Abdomen),India,Centella asiatica,Hartwell,S4
+HERB-0185,Tumor(Abdomen),India,Euphorbia neriifolia,Hartwell,S4
+HERB-0211,Tumor(Abdomen),India,Gmelina arborea,Hartwell,S4
+HERB-0219,Tumor(Abdomen),India,Gynandropsis pentaphylla,Hartwell,S4
+HERB-0332,Tumor(Abdomen),India,Piper nigrum,Hartwell,S4
+HERB-0364,Tumor(Abdomen),India,Rubia cordifolia,Hartwell,S4
+HERB-0392,Tumor(Abdomen),India,Sida cordifolia,Hartwell,S4
+HERB-0412,Tumor(Abdomen),India,Swertia cherayta,Hartwell,S4
+HERB-0425,Tumor(Abdomen),India,Terminalia bellirica,Hartwell,S4
+HERB-0439,Tumor(Abdomen),India,Trichosanthes dioica,Hartwell,S4
+HERB-0463,Tumor(Abdomen),India,Zingiber officinale,Hartwell,S4
+HERB-0024,Tumor(Glands),India,Alstonia scholaris,Hartwell,S4
+HERB-0349,Tumor(Glands),India,Prunus puddum,Hartwell,S4
+HERB-0051,Tumor(India),India,Baliospermum axillare,Hartwell,S4
+HERB-0463,Ulcer,India,Zingiber officinale,K&B,S4
+HERB-0169,Urogenital,India,Dichrostachys cinerea,Woi.3,S4
+HERB-0237,Urogenital,India,Indigofera tinctoria,Woi.5,S4
+HERB-0153,Urticaria,India(Santal),Curcuma domestica,Eb24: 251,S4
+HERB-0305,Urticaria,India(Santal),Oroxylum indicum,Eb24: 260,S4
+HERB-0460,Uterus,India(Ayurvedic),Withania somnifera,Woi.Syria,S4
+HERB-0255,Vermicide,India(Gujarat),Leea macrophylla,Eb32: 281,S4
+HERB-0036,Vermifuge,India,Areca catechu,Woi.1,S4
+HERB-0205,Vermifuge,India,Garcinia indica,Woi.4,S4
+HERB-0401,Vermifuge,India,Solanum surettense,Eb29: 79,S4
+HERB-0404,Vermifuge,India,Sphaeranthus indicus,Uphof,S4
+HERB-0167,Vision,India(Santal),Desmodium gangeticum,Eb24: 251,S4
+HERB-0222,Vulnerary,India,Heliotropium indicum,Woi.5,S4
+HERB-0234,Vulnerary,India,Imperata cylindrica,Eb32: 299,S4
+HERB-0182,Wart,India,Euphorbia antiquorum,Woi.3,S4
+HERB-0379,Wart,India,Semecarpus anacardium,Hartwell,S4
+HERB-0149,Whitlow,India,Curculigo orchioides,Hartwell,S4
+HERB-0182,Whitlow,India(Santal),Euphorbia antiquorum,Eb24: 253,S4
+HERB-0442,Whitlow,India,Triticum aestivum,Hartwell,S4
+HERB-0004,Wound,India,Abutilon indicum,Uphof,S4
+HERB-0115,Wound,India,Cissampelos pareira,Eb25: 421,S4
+HERB-0160,Wound,India,Cynodon dactylon,Eb20: 96,S4
+HERB-0160,Wound,India(Santal),Cynodon dactylon,Eb24: 251,S4
+HERB-0222,Wound,India,Heliotropium indicum,Woi.5,S4
+HERB-0237,Wound,India,Indigofera tinctoria,Eb33: 54,S4
+HERB-0271,Wound,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0307,Diarrhea,India(Santal),Aerva lanata,Eb24: 244,S4
+HERB-0039,Anodyne,India(Santal),Aristolochia indica,Eb24: 245,S4
+HERB-0047,Skin,India,Azadirachta indica,Woi.1,S4
+HERB-0051,Medicine,India,Baliospermum axillaea,Uphof,S4
+HERB-0055,Catarrh,India,Barleria prionitis,Uphof,S4
+HERB-0070,Hemorrhage,India(Santal),Bombax ceiba,Eb24: 246,S4
+HERB-0115,Convulsion,India(Santal),Cissampelos pareira,Eb24: 249,S4
+HERB-0115,Eye,India,Cissampelos pareira,Eb25: 421,S4
+HERB-0125,Skin,India,Coccinia indica,Woi.2,S4
+HERB-0161,Vermifuge,India,Cyperus rotundus,Steinmetz,S4
+HERB-0164,Dropsy,India(Santal),Datura metel,Eb24: 251,S4
+HERB-0187,Tumor,India,Fagonia cretica,Hartwell,S4
+HERB-0190,Anodyne,India(Santal),Ferula assa-foetida,Eb24: 253,S4
+HERB-0209,Tumor,India(Santal),Gloriosa superba,Eb24: 254,S4
+HERB-0211,Bronchitis,India(Santal),Gmelina arborea,Eb24: 254,S4
+HERB-0211,Stomachic,India,Gmelina arborea,Woi.4,S4
+HERB-0218,Bilious,India,Gymnema sylvestre,Woi.4,S4
+HERB-0222,Cough,India,Heliotropium indicum,Woi.5,S4
+HERB-0224,Rheumatism,India,Hemidesmus indicus,Woi.5,S4
+HERB-0229,Diarrhea,India(Santal),Holarrhena antidysenterica,Eb24: 255,S4
+HERB-0233,Swelling,India,Hyoscyamus niger,Woi.5,S4
+HERB-0238,Diuretic,India,Inula racemosa,Woi.5,S4
+HERB-0239,Nerves,India,Ipomoea aquatica,Eb32: 307,S4
+HERB-0248,Sore,India,Juglans regia,Eb25: 418,S4
+HERB-0271,Blister,India(Santal),Madhuca indica,Eb24: 246,S4
+HERB-0271,Diabetes,India(Ayurvedic),Madhuca longifolia,Eb29: 382,S4
+HERB-0275,Eye,India(Santal),Mangifera indica,Eb24: 257,S4
+HERB-0287,Ringworm,India(Santal),Mucuna pruriens,Eb24: 258,S4
+HERB-0291,Epilepsy,India(Santal),Nardostachys jatamansi,Eb24: 259,S4
+HERB-0291,Perfume,India,Nardostachys jatamansi,Uphof,S4
+HERB-0297,Dysentery,India(Santal),Nyctanthes arbortristis,Eb24: 259,S4
+HERB-0299,Asthma,India(Santal),Nymphaea lotus,Eb24: 259,S4
+HERB-0312,Analgesic,India(Unani),Papaver somniferum,Eb27: 394,S4
+HERB-0330,Asthma,India(Santal),Piper cubeba,Eb24: 250,S4
+HERB-0329,Cough,India(Santal),Piper betel,Eb24: 261,S4
+HERB-0352,Cosmetic,India(Hindu),Pterocarpus santalinus,Uphof,S4
+HERB-0356,Fever,India,Putranjiva roxburghii,Uphof,S4
+HERB-0174,Candida,India,Saussurea lappa,Eb30: 318,S4
+HERB-0174,Fungicide,India,Saussurea lappa,Eb30: 318,S4
+HERB-0374,Pneumonia,India(Santal),Schleichera oleosa,Eb24: 262,S4
+HERB-0376,Stimulant,India(Hindu),Scindapsus officinalis,Uphof,S4
+HERB-0391,Chancre,India(Santal),Shorea robusta,Eb24: 263,S4
+HERB-0401,Laxative,India,Solanum surettense,Eb29: 79,S4
+HERB-0404,Hepatitis,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0404,Vermifuge,India,Sphaeranthus indicus,Woi.10,S4
+HERB-0410,Anodyne,India(Santal),Strychnos potatorum,Eb24: 264,S4
+HERB-0415,Anemia,India(Santal),Syzygium cumini,Eb24: 253,S4
+HERB-0416,Piles,India,Tagetes erecta,Eb22: 319,S4
+HERB-0426,Fungicide,India,Terminalia chebula,Eb30: 318,S4
+HERB-0426,Measles,India(Santal),Terminalia chebula,Eb24: 264,S4
+HERB-0424,Neuralgia,India(Santal),Terminalia arjuna,Eb24: 264,S4
+HERB-0350,Cardiotonic,India,Trachyspermum roxburghianum,Woi.10,S4
+HERB-0433,Laxative,India(Santal),Trachyspermum ammi,Eb24: 248,S4
+HERB-0434,Anasarca,India(Santal),Trapa bispinosa,Eb24: 265,S4
+HERB-0440,Edema,India(Santal),Trigonella foenum-graecum,Eb24: 265,S4
+HERB-0448,Rheumatism,India,Vateria indica,Woi.10,S4
+HERB-0461,Carbuncle,India(Santal),Woodfordia fruticosa,Eb24: 266,S4
+HERB-0461,Wound,India,Woodfordia fruticosa,Woi.10,S4
+HERB-0463,Diarrhea,India(Santal),Zingiber officinale,Eb24: 267,S4
+HERB-0464,Ache(Stomach),India(Santal),Ziziphus jujuba,Eb24: 267,S4
+HERB-0094,Anasarca,India(Santal),Carissa carandas,Eb24: 248,S4

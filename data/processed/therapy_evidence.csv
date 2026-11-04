@@ -1,0 +1,13 @@
+therapy,pubmed_query,pubmed_count
+pañcakarma,"""panchakarma""[tiab] OR ""panchakarma therapy""[tiab]",132
+vamana,"""vamana""[tiab]",51
+virecana,"""virechana""[tiab] OR ""virecana""[tiab]",65
+basti,"""basti""[tiab] AND (ayurved*[tiab] OR enema[tiab])",101
+nasya,"""nasya""[tiab]",63
+raktamokṣaṇa / jalaukāvacaraṇa,"""leech therapy""[tiab] OR ""jalaukavacharana""[tiab] OR ""hirudotherapy""[tiab]",429
+śirodhārā,"""shirodhara""[tiab]",35
+abhyaṅga,"""abhyanga""[tiab] OR (""ayurvedic massage""[tiab])",44
+kṣārasūtra,"""kshara sutra""[tiab] OR ""ksharasutra""[tiab]",36
+agnikarma,"""agnikarma""[tiab]",17
+rasāyana,"""rasayana""[tiab]",384
+yoga (svasthavṛtta),"""yoga""[tiab] AND ayurved*[tiab]",354

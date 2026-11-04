@@ -1,0 +1,830 @@
+herb_id,karma_key,karma_sa_iast,karma_sa_deva,karma_hi,karma_en,in_controlled_vocab,source_id
+HERB-0001,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0001,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0002,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0002,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0003,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,True,S5
+HERB-0003,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0004,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0004,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0005,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0005,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0005,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0007,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0007,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0008,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0008,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0008,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0009,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0009,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0010,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0010,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0010,Sanjnasthapana,,,,,False,S5
+HERB-0011,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0011,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0012,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0012,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0013,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0013,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0014,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0014,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0015,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0015,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0016,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0016,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0017,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0017,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0018,Dahashamana,,,,,False,S5
+HERB-0018,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0020,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0020,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0021,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0021,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0021,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0023,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0023,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0023,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0024,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0024,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0024,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0025,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0025,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0026,Raktapittahara,,,,,False,S5
+HERB-0026,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0028,Agnideepana,agnidīpana,अग्निदीपन,अग्नि दीपन,digestive stimulant,True,S5
+HERB-0028,Arshoghna,arśoghna,अर्शोघ्न,अर्शोघ्न (बवासीर नाशक),anti-haemorrhoidal,True,S5
+HERB-0029,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0029,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0030,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0030,Pittaghna,,,,,False,S5
+HERB-0030,Raktaprasadak,,,,,False,S5
+HERB-0032,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0032,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0034,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0034,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0034,Vatanulomana,,,,,False,S5
+HERB-0036,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0036,Kledanashaka,,,,,False,S5
+HERB-0037,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0037,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0038,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0038,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0038,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0039,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0039,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0041,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0041,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0041,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0042,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0042,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0044,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0044,Shukrala,śukrala,शुक्रल,शुक्रल,spermatogenic,True,S5
+HERB-0044,Stanyashodhana,,,,,False,S5
+HERB-0044,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0045,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0045,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0046,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0046,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0048,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0048,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0049,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0049,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0049,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0050,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0050,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0051,Rechana,,,,,False,S5
+HERB-0051,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0052,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0052,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0052,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0054,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0054,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0055,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,True,S5
+HERB-0055,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0055,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0055,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0057,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0057,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0058,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0058,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0059,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0059,Granthihara,,,,,False,S5
+HERB-0059,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0059,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0059,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0060,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0060,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0060,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0062,Ashmaribhedana,aśmarībhedana,अश्मरीभेदन,अश्मरीभेदन (पथरी तोड़ने वाला),lithotriptic,True,S5
+HERB-0062,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0063,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0063,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0064,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0064,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0065,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0065,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0067,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0067,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0067,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0070,Raktaprasadana,raktaprasādana,रक्तप्रसादन,रक्त प्रसादन,blood purifying,True,S5
+HERB-0070,Stambhana,stambhana,स्तम्भन,स्तंभन,astringent / arresting,True,S5
+HERB-0071,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0071,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0072,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0072,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0072,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0073,Shoolahara,,,,,False,S5
+HERB-0073,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0077,Stambhana,stambhana,स्तम्भन,स्तंभन,astringent / arresting,True,S5
+HERB-0077,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0079,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0079,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0080,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0080,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0080,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0081,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0081,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0083,Dahashamana,,,,,False,S5
+HERB-0083,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0085,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0085,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0086,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0086,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0088,Madakari,,,,,False,S5
+HERB-0088,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0089,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0089,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0090,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0090,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0091,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0091,Yakritottejaka,,,,,False,S5
+HERB-0093,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0093,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0095,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0095,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0096,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0096,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0097,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0097,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0097,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0098,Arbudahara,,,,,False,S5
+HERB-0098,Pramehaghna,pramehaghna,प्रमेहघ्न,प्रमेहघ्न,anti-diabetic,True,S5
+HERB-0099,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0099,Vamana,,,,,False,S5
+HERB-0100,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0100,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0101,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0101,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0101,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0102,Ashmaribhedana,aśmarībhedana,अश्मरीभेदन,अश्मरीभेदन (पथरी तोड़ने वाला),lithotriptic,True,S5
+HERB-0102,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0103,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0103,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0104,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0104,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0105,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0105,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0106,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0106,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0106,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0109,Dahashamana,,,,,False,S5
+HERB-0109,Trishnahara,,,,,False,S5
+HERB-0110,Brimhana,,,,,False,S5
+HERB-0110,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0111,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0111,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0112,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0112,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0112,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0113,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0113,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0114,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0114,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0114,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0115,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0115,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0115,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0116,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0116,Sandhanakaraka,,,,,False,S5
+HERB-0117,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0117,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0118,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0118,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0118,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0119,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0119,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0120,Agnideepana,agnidīpana,अग्निदीपन,अग्नि दीपन,digestive stimulant,True,S5
+HERB-0120,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0120,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0120,Vatanulomana,,,,,False,S5
+HERB-0124,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0124,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0124,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0125,Medohara,,,,,False,S5
+HERB-0125,Pramehaghna,pramehaghna,प्रमेहघ्न,प्रमेहघ्न,anti-diabetic,True,S5
+HERB-0126,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0126,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0126,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0127,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0127,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0128,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0128,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0129,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0129,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0129,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0130,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0130,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0130,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0132,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0132,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0132,Vranashodhak,,,,,False,S5
+HERB-0133,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0133,Nidrajanana,nidrājanana,निद्राजनन,निद्राजनन (नींद लाने वाला),hypnotic / sleep inducing,True,S5
+HERB-0133,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0136,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0136,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0136,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0136,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0138,Ashmaribhedana,aśmarībhedana,अश्मरीभेदन,अश्मरीभेदन (पथरी तोड़ने वाला),lithotriptic,True,S5
+HERB-0138,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0138,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0139,Jivaniya,,,,,False,S5
+HERB-0139,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0139,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0140,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0140,Stanyajanana,stanyajanana,स्तन्यजनन,स्तन्यजनन,galactagogue,True,S5
+HERB-0140,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0141,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0143,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0145,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0145,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0146,Dahashamana,,,,,False,S5
+HERB-0146,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0147,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0147,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0147,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0148,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0148,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0148,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0149,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0149,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0149,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0150,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0150,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0153,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0153,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0154,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0154,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0156,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0156,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0157,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0157,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0159,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0159,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0160,Dahashamana,,,,,False,S5
+HERB-0160,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0160,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0161,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0161,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0161,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0163,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0163,Medohara,,,,,False,S5
+HERB-0164,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0164,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0164,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0165,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0165,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0165,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0167,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0167,Vatanulomana,,,,,False,S5
+HERB-0168,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0168,tridoshahara,,,,,False,S5
+HERB-0170,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0170,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0171,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0171,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0171,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0172,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0172,Raktastambhaka,,,,,False,S5
+HERB-0174,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0174,Shukrala,śukrala,शुक्रल,शुक्रल,spermatogenic,True,S5
+HERB-0174,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0175,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0175,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0175,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0177,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0177,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0178,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0178,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0178,Vatanulomana,,,,,False,S5
+HERB-0179,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0179,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0179,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0181,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0181,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0184,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0184,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0185,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0185,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0188,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0188,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0190,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0190,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0190,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0190,Vatanulomana,,,,,False,S5
+HERB-0197,Pramehaghna,pramehaghna,प्रमेहघ्न,प्रमेहघ्न,anti-diabetic,True,S5
+HERB-0197,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0198,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0198,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0199,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0199,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0200,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0200,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0201,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0201,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0201,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0202,Jivaniya,,,,,False,S5
+HERB-0202,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0202,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0203,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0203,Pittaghna,,,,,False,S5
+HERB-0205,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0205,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0205,Medohara,,,,,False,S5
+HERB-0206,Agnideepana,agnidīpana,अग्निदीपन,अग्नि दीपन,digestive stimulant,True,S5
+HERB-0206,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0207,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0207,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0209,Garbhashaya Sankochaka,,,,,False,S5
+HERB-0209,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0210,Kantya,,,,,False,S5
+HERB-0210,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0211,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0211,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0212,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0212,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0213,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0213,Stanyajanana,stanyajanana,स्तन्यजनन,स्तन्यजनन,galactagogue,True,S5
+HERB-0215,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0215,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0216,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0216,Dahashamana,,,,,False,S5
+HERB-0217,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0217,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0218,Medohara,,,,,False,S5
+HERB-0218,Pramehaghna,pramehaghna,प्रमेहघ्न,प्रमेहघ्न,anti-diabetic,True,S5
+HERB-0219,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0219,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0220,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0220,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0221,Amapachana,,,,,False,S5
+HERB-0221,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0222,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0222,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0223,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0223,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0224,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0224,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0224,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0225,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0225,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0226,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0226,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,True,S5
+HERB-0226,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0227,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0227,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0229,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0229,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0229,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0229,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0230,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0230,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0231,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0231,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0232,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0232,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0232,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0233,Madakari,,,,,False,S5
+HERB-0233,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0237,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,True,S5
+HERB-0237,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0237,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0238,Hrudya,,,,,False,S5
+HERB-0238,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0238,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0239,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0239,Stanyajanana,stanyajanana,स्तन्यजनन,स्तन्यजनन,galactagogue,True,S5
+HERB-0243,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0243,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0244,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0244,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0248,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0248,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0248,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0249,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0249,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0250,Kaphahara,kaphahara,कफहर,कफहर,pacifies kapha,True,S5
+HERB-0250,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0250,Raktaprasadana,raktaprasādana,रक्तप्रसादन,रक्त प्रसादन,blood purifying,True,S5
+HERB-0250,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0251,Asthisandhanakara,,,,,False,S5
+HERB-0251,Raktastambhaka,,,,,False,S5
+HERB-0252,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0252,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0253,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0254,Dahashamana,,,,,False,S5
+HERB-0254,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0255,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0255,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0257,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0257,Stanyajanana,stanyajanana,स्तन्यजनन,स्तन्यजनन,galactagogue,True,S5
+HERB-0258,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0258,Stanyajanana,stanyajanana,स्तन्यजनन,स्तन्यजनन,galactagogue,True,S5
+HERB-0259,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0259,Yakritottejaka,,,,,False,S5
+HERB-0260,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0260,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0262,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0262,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0263,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0263,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0263,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0265,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0265,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0266,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0266,Yakritottejaka,,,,,False,S5
+HERB-0266,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0267,Vamana,,,,,False,S5
+HERB-0267,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0268,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0268,Vamana,,,,,False,S5
+HERB-0270,Ashmaribhedana,aśmarībhedana,अश्मरीभेदन,अश्मरीभेदन (पथरी तोड़ने वाला),lithotriptic,True,S5
+HERB-0270,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0270,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0272,Raktaprasadana,raktaprasādana,रक्तप्रसादन,रक्त प्रसादन,blood purifying,True,S5
+HERB-0272,Trishnahara,,,,,False,S5
+HERB-0273,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0273,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0273,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0274,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0274,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0275,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0275,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0275,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0276,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0276,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0276,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0278,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0278,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0279,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0279,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0280,Stambhana,stambhana,स्तम्भन,स्तंभन,astringent / arresting,True,S5
+HERB-0280,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0281,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0281,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0283,Madhunashini,,,,,False,S5
+HERB-0283,Yakritottejaka,,,,,False,S5
+HERB-0284,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0284,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0285,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0285,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0286,Amapachana,,,,,False,S5
+HERB-0286,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0286,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0286,Medohara,,,,,False,S5
+HERB-0286,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0287,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0287,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0287,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0289,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0289,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0290,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0290,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0290,Nidrajanana,nidrājanana,निद्राजनन,निद्राजनन (नींद लाने वाला),hypnotic / sleep inducing,True,S5
+HERB-0291,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0291,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0291,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0292,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0292,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0292,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0293,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0293,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0295,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0295,Vranashodhak,,,,,False,S5
+HERB-0296,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0296,Garbhashaya Shodhaka,,,,,False,S5
+HERB-0297,Jwarahara,,,,,False,S5
+HERB-0297,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0298,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0298,Raktapittaghna,,,,,False,S5
+HERB-0300,Dahashamana,,,,,False,S5
+HERB-0300,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0300,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0302,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0302,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0302,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0302,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0303,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0303,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0304,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0304,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0305,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0305,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0305,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0306,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0306,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0306,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0307,Ashmaribhedana,aśmarībhedana,अश्मरीभेदन,अश्मरीभेदन (पथरी तोड़ने वाला),lithotriptic,True,S5
+HERB-0307,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0308,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0308,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0309,Sandhanakaraka,,,,,False,S5
+HERB-0309,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0311,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0311,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0312,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0312,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0315,Dahashamana,,,,,False,S5
+HERB-0315,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0319,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0319,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0319,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0321,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0321,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0322,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0322,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0324,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0324,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0324,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0324,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0325,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0325,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0325,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0325,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0326,Pittaghna,,,,,False,S5
+HERB-0326,Yakritottejaka,,,,,False,S5
+HERB-0330,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0330,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0330,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0331,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0331,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0331,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0331,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0332,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0332,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0332,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0333,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0333,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0333,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0333,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0334,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0334,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0334,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0336,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0336,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0336,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0337,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0337,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0338,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0338,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0339,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0339,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0340,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0340,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0340,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0341,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0341,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0341,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0342,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0342,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0344,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0344,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0344,Vranashodhak,,,,,False,S5
+HERB-0345,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0345,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0346,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0346,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0347,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0347,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0347,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0349,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0349,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0351,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0351,Pramehaghna,pramehaghna,प्रमेहघ्न,प्रमेहघ्न,anti-diabetic,True,S5
+HERB-0351,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0352,Dahashamana,,,,,False,S5
+HERB-0352,Raktaprasadana,raktaprasādana,रक्तप्रसादन,रक्त प्रसादन,blood purifying,True,S5
+HERB-0353,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0353,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0354,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0354,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0354,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0355,Agnivardhaka,,,,,False,S5
+HERB-0355,Raktaprasadana,raktaprasādana,रक्तप्रसादन,रक्त प्रसादन,blood purifying,True,S5
+HERB-0356,Garbhasthapana,garbhasthāpana,गर्भस्थापन,गर्भस्थापन,supports pregnancy,True,S5
+HERB-0356,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0357,Sankochana,,,,,False,S5
+HERB-0357,Stambhana,stambhana,स्तम्भन,स्तंभन,astringent / arresting,True,S5
+HERB-0358,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0358,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0359,Nidrajanana,nidrājanana,निद्राजनन,निद्राजनन (नींद लाने वाला),hypnotic / sleep inducing,True,S5
+HERB-0359,Raktachapashamaka,,,,,False,S5
+HERB-0360,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0360,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0361,Shoolahara,,,,,False,S5
+HERB-0361,Vatanulomana,,,,,False,S5
+HERB-0362,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0362,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0362,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0363,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0363,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0364,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0364,Raktashodhana,,,,,False,S5
+HERB-0365,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0365,Trishnahara,,,,,False,S5
+HERB-0367,Dahashamana,,,,,False,S5
+HERB-0367,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0368,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0368,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0369,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0369,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0370,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0370,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0370,Varnya,varṇya,वर्ण्य,वर्ण्य (वर्ण सुधारक),complexion promoting,True,S5
+HERB-0371,Lekhana,lekhana,लेखन,लेखन,scraping / reducing (anti-obesity),True,S5
+HERB-0371,Vamana,,,,,False,S5
+HERB-0372,Stambhana,stambhana,स्तम्भन,स्तंभन,astringent / arresting,True,S5
+HERB-0372,Yonishodhana,,,,,False,S5
+HERB-0374,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,True,S5
+HERB-0374,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0376,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0376,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0379,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0379,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0380,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0380,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0380,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0381,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0381,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0382,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,True,S5
+HERB-0382,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0383,Kandughna,kaṇḍūghna,कण्डूघ्न,कंडूघ्न (खुजली नाशक),antipruritic,True,S5
+HERB-0383,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0384,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0385,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0385,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0386,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0386,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0386,Rechana,,,,,False,S5
+HERB-0388,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0388,Keshya,keśya,केश्य,केश्य (बालों के लिए हितकर),hair promoting,True,S5
+HERB-0388,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0389,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0389,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0392,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0392,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0392,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0393,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0393,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0393,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0395,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0395,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0395,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0398,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0398,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0399,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0399,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0399,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0399,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0399,Yakritottejaka,,,,,False,S5
+HERB-0400,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0400,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0400,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0401,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0401,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0402,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0402,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0404,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0404,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0404,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0406,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0406,Raktavardhak,,,,,False,S5
+HERB-0408,Shoolahara,,,,,False,S5
+HERB-0408,Vatanulomana,,,,,False,S5
+HERB-0409,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0409,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0410,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0410,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0411,Agnideepana,agnidīpana,अग्निदीपन,अग्नि दीपन,digestive stimulant,True,S5
+HERB-0411,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0412,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0412,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0412,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0413,Raktaprasadana,raktaprasādana,रक्तप्रसादन,रक्त प्रसादन,blood purifying,True,S5
+HERB-0413,Yonishodhana,,,,,False,S5
+HERB-0414,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0414,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0414,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0415,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0415,Pramehaghna,pramehaghna,प्रमेहघ्न,प्रमेहघ्न,anti-diabetic,True,S5
+HERB-0416,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0416,Raktashodhana,,,,,False,S5
+HERB-0417,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0417,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0418,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0418,Shwasahara,śvāsahara,श्वासहर,श्वासहर,anti-asthmatic,True,S5
+HERB-0419,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0419,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0419,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0420,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0420,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0421,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0421,Yakrituttejaka,yakṛduttejaka,यकृदुत्तेजक,यकृत उत्तेजक,hepatic stimulant,True,S5
+HERB-0422,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0422,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0422,Shukrala,śukrala,शुक्रल,शुक्रल,spermatogenic,True,S5
+HERB-0423,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0423,Raktastambhana,raktastambhana,रक्तस्तम्भन,रक्तस्तंभन,haemostatic,True,S5
+HERB-0424,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0424,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0424,Sandhanakaraka,,,,,False,S5
+HERB-0425,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0425,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0425,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0426,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0426,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0426,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0426,Virechana,virecana,विरेचन,विरेचन,purgative,True,S5
+HERB-0430,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0430,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0431,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0431,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0431,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0431,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0433,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0433,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0433,Vatanulomana,,,,,False,S5
+HERB-0434,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0434,Raktapittahara,,,,,False,S5
+HERB-0434,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0435,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0435,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0436,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0436,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0436,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0436,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0439,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0439,Kushtaghna,kuṣṭhaghna,कुष्ठघ्न,कुष्ठघ्न (त्वचा रोग नाशक),alleviates skin diseases,True,S5
+HERB-0439,Raktashodhak,raktaśodhaka,रक्तशोधक,रक्तशोधक,blood purifier,True,S5
+HERB-0440,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0440,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0440,Vatanulomana,,,,,False,S5
+HERB-0441,Mutrala,mūtrala,मूत्रल,मूत्रल,diuretic,True,S5
+HERB-0441,Raktapittahara,,,,,False,S5
+HERB-0442,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0442,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0442,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0444,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0444,Sandhanakaraka,,,,,False,S5
+HERB-0444,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0446,Dantya,,,,,False,S5
+HERB-0446,Vranashodhak,,,,,False,S5
+HERB-0447,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0447,Nidrajanaka,,,,,False,S5
+HERB-0447,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0448,Vishaghna,viṣaghna,विषघ्न,विषघ्न (विष नाशक),antitoxic / antidote,True,S5
+HERB-0448,Vranaropana,vraṇaropaṇa,व्रणरोपण,व्रणरोपण (घाव भरने वाला),wound healing,True,S5
+HERB-0450,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0450,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0451,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0451,Brimhaniya,bṛṃhaṇīya,बृंहणीय,बृंहणीय (पोषक),nourishing / bulk promoting,True,S5
+HERB-0452,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0452,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0453,Chakshushya,cakṣuṣya,चक्षुष्य,चक्षुष्य (नेत्र हितकर),beneficial to eyes,True,S5
+HERB-0453,Jivaniya,,,,,False,S5
+HERB-0453,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0454,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0455,Jwaraghna,jvaraghna,ज्वरघ्न,ज्वरघ्न (ज्वरनाशक),antipyretic,True,S5
+HERB-0455,Kasahara,kāsahara,कासहर,कासहर (खांसी नाशक),antitussive,True,S5
+HERB-0456,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0456,Vatahara,vātahara,वातहर,वातहर,pacifies vāta,True,S5
+HERB-0457,Shothahara,śothahara,शोथहर,शोथहर (सूजन नाशक),anti-inflammatory / anti-oedematous,True,S5
+HERB-0457,Vedanasthapana,vedanāsthāpana,वेदनास्थापन,वेदनास्थापन (वेदनाहर),analgesic,True,S5
+HERB-0458,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0458,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0460,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0460,Medhya,medhya,मेध्य,मेध्य (बुद्धिवर्धक),nootropic / intellect promoting,True,S5
+HERB-0460,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0460,Vrishya,vṛṣya,वृष्य,वृष्य (वाजीकर),aphrodisiac,True,S5
+HERB-0461,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
+HERB-0461,Yonishodhana,,,,,False,S5
+HERB-0462,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0462,Krimighna,kṛmighna,कृमिघ्न,कृमिघ्न,anthelmintic / antimicrobial,True,S5
+HERB-0462,Shoolaghna,śūlaghna,शूलघ्न,शूलघ्न (दर्द नाशक),analgesic / antispasmodic,True,S5
+HERB-0463,Amapachana,,,,,False,S5
+HERB-0463,Deepana,dīpana,दीपन,दीपन (अग्नि-वर्धक),appetiser / digestive-fire stimulant,True,S5
+HERB-0463,Hridaya,hṛdya,हृद्य,हृद्य (हृदय हितकर),cardiotonic,True,S5
+HERB-0463,Pachana,pācana,पाचन,पाचन,digestive (digests āma),True,S5
+HERB-0463,Rasayana,rasāyana,रसायन,रसायन,rejuvenative,True,S5
+HERB-0465,Balya,balya,बल्य,बल्य (बलवर्धक),strength promoting,True,S5
+HERB-0465,Grahi,grāhī,ग्राही,ग्राही,absorbent / anti-diarrhoeal,True,S5
