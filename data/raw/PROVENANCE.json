@@ -1,0 +1,189 @@
+[
+  {
+    "source_id": "S1",
+    "file": "data/raw/namaste/NATIONAL_AYURVEDA_MORBIDITY_CODES.xls",
+    "url": "https://namaste.ayush.gov.in/ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "",
+    "retrieved_utc": "2026-11-04T17:59:34+00:00",
+    "bytes": 1992192,
+    "sha256": "544002e8c71406961f672d268b67111851ec772bb108ee37b346c7bf2393f380"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_A.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section A",
+    "retrieved_utc": "2026-11-04T17:59:35+00:00",
+    "bytes": 100864,
+    "sha256": "b44d34dc972b0d002d8f2938e614ba4c71b2b127cf225cc5fa5186bb4891ec9f"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_B.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section B",
+    "retrieved_utc": "2026-11-04T17:59:37+00:00",
+    "bytes": 157696,
+    "sha256": "99515aef2d280eff28f80469fe9aa1e966bac93ffbb22b76bde47ba8d7cb091b"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_C.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section C",
+    "retrieved_utc": "2026-11-04T17:59:38+00:00",
+    "bytes": 65536,
+    "sha256": "f284ae4224da9b7474db9c4f7f3b792f949d32c2f3ae56178f7dc3bcc8437866"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_D.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section D",
+    "retrieved_utc": "2026-11-04T17:59:47+00:00",
+    "bytes": 1781248,
+    "sha256": "7ea8a796f8a6fc338232090f4a0221ca277b6baa83d9c702f0f66ffae7a8ae6e"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_F.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section F",
+    "retrieved_utc": "2026-11-04T17:59:49+00:00",
+    "bytes": 209408,
+    "sha256": "6a47c7640869c15ee9988820c8c16385faeca3d8af15b9d6b87bc528b2c51d22"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_G.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section G",
+    "retrieved_utc": "2026-11-04T17:59:51+00:00",
+    "bytes": 58880,
+    "sha256": "d154662c9f4873e85a1a43ae17281ebe5d1020a3ad4b343bd621021024a96120"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_H.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section H",
+    "retrieved_utc": "2026-11-04T17:59:52+00:00",
+    "bytes": 36864,
+    "sha256": "1975375afb4dd8056790d820318e37fa302af18a25079ea4621617af84b4cd36"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_I.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section I",
+    "retrieved_utc": "2026-11-04T17:59:54+00:00",
+    "bytes": 193024,
+    "sha256": "6ca7e7c7c19a6740111ddb6f12183b0843692bf7b8fea6165ff53211a62765d8"
+  },
+  {
+    "source_id": "S2",
+    "file": "data/raw/namaste/SAT_J.xls",
+    "url": "https://namaste.ayush.gov.in/sat_Ayurveda",
+    "licence": "Government of India (Ministry of Ayush) public standard terminology; no explicit open licence published - reuse with attribution, verify before commercial use",
+    "publisher": "Ministry of Ayush, Govt. of India (NAMASTE portal)",
+    "note": "Standardised Ayurveda Terminologies section J",
+    "retrieved_utc": "2026-11-04T17:59:55+00:00",
+    "bytes": 49664,
+    "sha256": "b16c3060448ea3548f8bb01aa29e021c6dca5894907f41d7e5093feec208ff4d"
+  },
+  {
+    "source_id": "S3",
+    "file": "data/raw/who/WHO_international_standard_terminologies_on_ayurveda_2022.pdf",
+    "url": "https://iris.who.int/handle/10665/365543",
+    "licence": "CC BY-NC-SA 3.0 IGO",
+    "publisher": "World Health Organization",
+    "note": "ISBN 978-92-4-006493-5",
+    "retrieved_utc": "2026-11-04T17:59:58+00:00",
+    "bytes": 4631484,
+    "sha256": "89f7de2113f9d4463398783f7797c3ce62b97e01cfa5d765a6eb1b9b1ba47fd2"
+  },
+  {
+    "source_id": "S4",
+    "file": "data/raw/usda_duke/Duke-Source-CSV.zip",
+    "url": "https://doi.org/10.15482/USDA.ADC/1239279",
+    "licence": "CC0",
+    "publisher": "USDA Agricultural Research Service (Ag Data Commons)",
+    "note": "",
+    "retrieved_utc": "2026-11-04T18:00:00+00:00",
+    "bytes": 6033990,
+    "sha256": "ff325bc477c355799d12194e2d172c9e181ba44e59056c5ca97f41db595b7d19"
+  },
+  {
+    "source_id": "S4",
+    "file": "data/raw/usda_duke/DrDukesDatabaseDataDictionary-prelim.csv",
+    "url": "https://doi.org/10.15482/USDA.ADC/1239279",
+    "licence": "CC0",
+    "publisher": "USDA Agricultural Research Service (Ag Data Commons)",
+    "note": "",
+    "retrieved_utc": "2026-11-04T18:00:00+00:00",
+    "bytes": 20719,
+    "sha256": "1b211fe8785f7ae3bc6049afabae75d12cb6581f60c0f9fcf7dccb53c8db1398"
+  },
+  {
+    "source_id": "S5",
+    "file": "data/raw/amidha_herb_db/herb.json",
+    "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+    "licence": "CC BY 4.0",
+    "publisher": "Amidha Ayurveda (S. Varshney), Zenodo 10.5281/zenodo.20581467",
+    "note": "",
+    "retrieved_utc": "2026-11-04T18:00:01+00:00",
+    "bytes": 263937,
+    "sha256": "93a7dd1f244b931e5dcf82a9fe37112d549370c05b6c0eefb2b1cd81ae8a4140"
+  },
+  {
+    "source_id": "S5",
+    "file": "data/raw/amidha_herb_db/LICENSE",
+    "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+    "licence": "CC BY 4.0",
+    "publisher": "Amidha Ayurveda (S. Varshney), Zenodo 10.5281/zenodo.20581467",
+    "note": "",
+    "retrieved_utc": "2026-11-04T18:00:01+00:00",
+    "bytes": 18656,
+    "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+  },
+  {
+    "source_id": "S5",
+    "file": "data/raw/amidha_herb_db/CITATION.cff",
+    "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+    "licence": "CC BY 4.0",
+    "publisher": "Amidha Ayurveda (S. Varshney), Zenodo 10.5281/zenodo.20581467",
+    "note": "",
+    "retrieved_utc": "2026-11-04T18:00:01+00:00",
+    "bytes": 1295,
+    "sha256": "ebba0710e6234a7cfa277cc8b1ca07e5b3246d865d0e6a2725b13802c7754e86"
+  },
+  {
+    "source_id": "S5",
+    "file": "data/raw/amidha_herb_db/README.md",
+    "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+    "licence": "CC BY 4.0",
+    "publisher": "Amidha Ayurveda (S. Varshney), Zenodo 10.5281/zenodo.20581467",
+    "note": "",
+    "retrieved_utc": "2026-11-04T18:00:01+00:00",
+    "bytes": 7231,
+    "sha256": "dfb8f4b039a2d8fffd016c3829663c8c0dec58d2f5c9804797f1bf3299266c03"
+  }
+]
