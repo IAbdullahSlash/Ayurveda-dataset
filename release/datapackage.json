@@ -1,0 +1,2865 @@
+{
+  "name": "ayurkb-bilingual-ayurveda-knowledge-base",
+  "title": "AyurKB - Bilingual (English/Hindi/Sanskrit) hybrid Ayurveda knowledge base",
+  "version": "1.2.0",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-SA-4.0",
+      "title": "Combined release (WHO component is CC BY-NC-SA 3.0 IGO)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Curated layer of this project (controlled vocabulary, glossary, diagnostic correspondences, safety, classical formulations)",
+      "path": "this repository /curation",
+      "licence": "CC BY 4.0 (curation); classical texts are public domain"
+    },
+    {
+      "title": "NAMASTE - National Ayurveda Morbidity Codes, Ministry of Ayush, Govt. of India",
+      "path": "https://namaste.ayush.gov.in/ayurveda",
+      "licence": "Govt. of India public standard; attribution; no explicit open licence"
+    },
+    {
+      "title": "NAMASTE - Standardised Ayurveda Terminologies (SAT A-J), Ministry of Ayush",
+      "path": "https://namaste.ayush.gov.in/sat_Ayurveda",
+      "licence": "Govt. of India public standard; attribution; no explicit open licence"
+    },
+    {
+      "title": "WHO international standard terminologies on Ayurveda (2022), ISBN 9789240064935",
+      "path": "https://iris.who.int/handle/10665/365543",
+      "licence": "CC BY-NC-SA 3.0 IGO"
+    },
+    {
+      "title": "USDA-ARS Dr. Duke's Phytochemical and Ethnobotanical Databases",
+      "path": "https://doi.org/10.15482/USDA.ADC/1239279",
+      "licence": "CC0 1.0"
+    },
+    {
+      "title": "Amidha Ayurveda Herb Database v2.0 (S. Varshney)",
+      "path": "https://doi.org/10.5281/zenodo.20581467",
+      "licence": "CC BY 4.0"
+    },
+    {
+      "title": "Wikidata (plant taxon labels in hi/sa/en)",
+      "path": "https://query.wikidata.org",
+      "licence": "CC0 1.0"
+    },
+    {
+      "title": "GBIF Backbone Taxonomy (species match API)",
+      "path": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "licence": "CC BY 4.0"
+    },
+    {
+      "title": "NCBI PubMed E-utilities (literature counts)",
+      "path": "https://eutils.ncbi.nlm.nih.gov",
+      "licence": "public domain (US Gov) - counts are facts"
+    },
+    {
+      "title": "ClinicalTrials.gov API v2 (registered trials)",
+      "path": "https://clinicaltrials.gov/data-api/api",
+      "licence": "public domain (US Gov)"
+    },
+    {
+      "title": "Europe PMC - Ayurveda case reports (REST API; open-access subset text-mined)",
+      "path": "https://europepmc.org/RestfulWebService",
+      "licence": "bibliographic metadata + extracted KB identifiers (facts); article texts not redistributed; per-article licence recorded"
+    },
+    {
+      "title": "PubChem (NCBI) compound identifiers and properties (PUG REST)",
+      "path": "https://pubchem.ncbi.nlm.nih.gov",
+      "licence": "public domain (US Gov)"
+    },
+    {
+      "title": "Medicinal-plant image datasets on Mendeley Data (MED117; Medicinal Leaf Dataset; Indian Medicinal Leaves) - class labels only",
+      "path": "https://data.mendeley.com/datasets/dtvbwrhznz/4",
+      "licence": "CC BY 4.0"
+    },
+    {
+      "title": "WHO International Clinical Trials Registry Platform (ICTRP, incl. CTRI) - optional manual export",
+      "path": "https://trialsearch.who.int",
+      "licence": "WHO ICTRP terms: non-commercial, attribution, show processing date"
+    }
+  ],
+  "resources": [
+    {
+      "name": "case_report_entities",
+      "path": "data/processed/case_report_entities.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "case_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "mention_key",
+            "type": "string"
+          },
+          {
+            "name": "kb_ids",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "case_report_links",
+      "path": "data/processed/case_report_links.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "disease_term_iast",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_name",
+            "type": "string"
+          },
+          {
+            "name": "n_cases",
+            "type": "integer"
+          },
+          {
+            "name": "case_ids",
+            "type": "string"
+          },
+          {
+            "name": "in_kb_for_disorder_family",
+            "type": "boolean"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "case_report_symptoms_semantic",
+      "path": "data/processed/case_report_symptoms_semantic.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "case_id",
+            "type": "string"
+          },
+          {
+            "name": "clause",
+            "type": "string"
+          },
+          {
+            "name": "symptom_id",
+            "type": "string"
+          },
+          {
+            "name": "similarity",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "case_reports",
+      "path": "data/processed/case_reports.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "case_id",
+            "type": "string"
+          },
+          {
+            "name": "pmcid",
+            "type": "string"
+          },
+          {
+            "name": "pmid",
+            "type": "string"
+          },
+          {
+            "name": "doi",
+            "type": "string"
+          },
+          {
+            "name": "journal",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "article_licence",
+            "type": "string"
+          },
+          {
+            "name": "open_access",
+            "type": "string"
+          },
+          {
+            "name": "fulltext_mined",
+            "type": "boolean"
+          },
+          {
+            "name": "case_kind",
+            "type": "string"
+          },
+          {
+            "name": "dx_disease_ids",
+            "type": "string"
+          },
+          {
+            "name": "dx_term_iast",
+            "type": "string"
+          },
+          {
+            "name": "dx_name_en",
+            "type": "string"
+          },
+          {
+            "name": "dx_found_in",
+            "type": "string"
+          },
+          {
+            "name": "mesh_major_topics",
+            "type": "string"
+          },
+          {
+            "name": "presentation_source",
+            "type": "string"
+          },
+          {
+            "name": "n_presenting_symptom_phrases",
+            "type": "integer"
+          },
+          {
+            "name": "presenting_symptom_phrases",
+            "type": "string"
+          },
+          {
+            "name": "herb_ids",
+            "type": "string"
+          },
+          {
+            "name": "form_ids",
+            "type": "string"
+          },
+          {
+            "name": "formulation_names_observed",
+            "type": "string"
+          },
+          {
+            "name": "procedures",
+            "type": "string"
+          },
+          {
+            "name": "modern_assessments",
+            "type": "string"
+          },
+          {
+            "name": "metals_implicated",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "case_id"
+      }
+    },
+    {
+      "name": "clinical_trials",
+      "path": "data/processed/clinical_trials.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "nct_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "start_date",
+            "type": "string"
+          },
+          {
+            "name": "study_type",
+            "type": "string"
+          },
+          {
+            "name": "phases",
+            "type": "string"
+          },
+          {
+            "name": "enrollment",
+            "type": "string"
+          },
+          {
+            "name": "conditions",
+            "type": "string"
+          },
+          {
+            "name": "interventions",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "concept_members",
+      "path": "data/processed/concept_members.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "concept_id",
+            "type": "string"
+          },
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "term_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_en",
+            "type": "string"
+          },
+          {
+            "name": "term_deva",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "controlled_vocabulary",
+      "path": "data/processed/controlled_vocabulary.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "vocab_type",
+            "type": "string"
+          },
+          {
+            "name": "source_key",
+            "type": "string"
+          },
+          {
+            "name": "sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "hi",
+            "type": "string"
+          },
+          {
+            "name": "en",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "diagnostic_methods",
+      "path": "data/processed/diagnostic_methods.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "dx_id",
+            "type": "string"
+          },
+          {
+            "name": "era",
+            "type": "string"
+          },
+          {
+            "name": "method_group",
+            "type": "string"
+          },
+          {
+            "name": "name_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          },
+          {
+            "name": "name_hi",
+            "type": "string"
+          },
+          {
+            "name": "what_is_assessed_en",
+            "type": "string"
+          },
+          {
+            "name": "classical_reference",
+            "type": "string"
+          },
+          {
+            "name": "standard_ref",
+            "type": "string"
+          },
+          {
+            "name": "modern_counterpart_en",
+            "type": "string"
+          },
+          {
+            "name": "modern_counterpart_hi",
+            "type": "string"
+          },
+          {
+            "name": "modern_tools_or_tests",
+            "type": "string"
+          },
+          {
+            "name": "pubmed_query",
+            "type": "string"
+          },
+          {
+            "name": "name_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "pubmed_count",
+            "type": "number"
+          },
+          {
+            "name": "what_is_assessed_hi",
+            "type": "string"
+          },
+          {
+            "name": "what_is_assessed_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "what_is_assessed_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "dx_id"
+      }
+    },
+    {
+      "name": "diet_lifestyle",
+      "path": "data/processed/diet_lifestyle.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "lifestyle_id",
+            "type": "string"
+          },
+          {
+            "name": "term_uid",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "source_code",
+            "type": "string"
+          },
+          {
+            "name": "domain",
+            "type": "string"
+          },
+          {
+            "name": "section_code",
+            "type": "string"
+          },
+          {
+            "name": "section_title",
+            "type": "string"
+          },
+          {
+            "name": "parent_code",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_ascii",
+            "type": "string"
+          },
+          {
+            "name": "term_en",
+            "type": "string"
+          },
+          {
+            "name": "definition_en",
+            "type": "string"
+          },
+          {
+            "name": "xref_same_headword",
+            "type": "string"
+          },
+          {
+            "name": "qa_flag",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "lifestyle_id"
+      }
+    },
+    {
+      "name": "disease_symptom",
+      "path": "data/processed/disease_symptom.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "symptom_id",
+            "type": "string"
+          },
+          {
+            "name": "mention_rank",
+            "type": "integer"
+          },
+          {
+            "name": "mention_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "mention_en",
+            "type": "string"
+          },
+          {
+            "name": "link_method",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "disease_symptom_from_cases",
+      "path": "data/processed/disease_symptom_from_cases.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "symptom_id",
+            "type": "string"
+          },
+          {
+            "name": "n_cases",
+            "type": "integer"
+          },
+          {
+            "name": "gloss_en",
+            "type": "string"
+          },
+          {
+            "name": "case_ids",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "disease_symptom_inferred",
+      "path": "data/processed/disease_symptom_inferred.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "symptom_id",
+            "type": "string"
+          },
+          {
+            "name": "inherited_from",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "disease_symptom_who",
+      "path": "data/processed/disease_symptom_who.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "symptom_id",
+            "type": "string"
+          },
+          {
+            "name": "mention_order",
+            "type": "integer"
+          },
+          {
+            "name": "sign_text_who",
+            "type": "string"
+          },
+          {
+            "name": "match_method",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "diseases",
+      "path": "data/processed/diseases.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "namc_id",
+            "type": "integer"
+          },
+          {
+            "name": "namc_code",
+            "type": "string"
+          },
+          {
+            "name": "namc_code_clean",
+            "type": "string"
+          },
+          {
+            "name": "icd11_tm2_code",
+            "type": "string"
+          },
+          {
+            "name": "icd11_tm2_linked",
+            "type": "boolean"
+          },
+          {
+            "name": "tm2_mapping_marker",
+            "type": "boolean"
+          },
+          {
+            "name": "is_pattern_tm2",
+            "type": "boolean"
+          },
+          {
+            "name": "parent_code",
+            "type": "string"
+          },
+          {
+            "name": "parent_disease_id",
+            "type": "string"
+          },
+          {
+            "name": "depth",
+            "type": "integer"
+          },
+          {
+            "name": "system_code",
+            "type": "string"
+          },
+          {
+            "name": "system_name_en",
+            "type": "string"
+          },
+          {
+            "name": "category_code",
+            "type": "string"
+          },
+          {
+            "name": "category_name_en",
+            "type": "string"
+          },
+          {
+            "name": "category_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_phonetic",
+            "type": "string"
+          },
+          {
+            "name": "term_iast",
+            "type": "string"
+          },
+          {
+            "name": "qualifier_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_iast_official",
+            "type": "string"
+          },
+          {
+            "name": "term_deva",
+            "type": "string"
+          },
+          {
+            "name": "deva_source",
+            "type": "string"
+          },
+          {
+            "name": "term_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_ascii",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          },
+          {
+            "name": "name_en_alt",
+            "type": "string"
+          },
+          {
+            "name": "name_en_who",
+            "type": "string"
+          },
+          {
+            "name": "who_term_id",
+            "type": "string"
+          },
+          {
+            "name": "short_definition",
+            "type": "string"
+          },
+          {
+            "name": "long_definition",
+            "type": "string"
+          },
+          {
+            "name": "definition_en",
+            "type": "string"
+          },
+          {
+            "name": "ontology_branches",
+            "type": "string"
+          },
+          {
+            "name": "primary_index",
+            "type": "string"
+          },
+          {
+            "name": "dosha_vata",
+            "type": "boolean"
+          },
+          {
+            "name": "dosha_pitta",
+            "type": "boolean"
+          },
+          {
+            "name": "dosha_kapha",
+            "type": "boolean"
+          },
+          {
+            "name": "dosha_label",
+            "type": "string"
+          },
+          {
+            "name": "dosha_source",
+            "type": "string"
+          },
+          {
+            "name": "qa_flag",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_method",
+            "type": "string"
+          },
+          {
+            "name": "name_en_hi",
+            "type": "string"
+          },
+          {
+            "name": "name_en_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "name_en_hi_method",
+            "type": "string"
+          },
+          {
+            "name": "definition_source",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "disease_id"
+      }
+    },
+    {
+      "name": "dosha_suggestions",
+      "path": "data/processed/dosha_suggestions.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "term_iast",
+            "type": "string"
+          },
+          {
+            "name": "suggested_dosha",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "number"
+          },
+          {
+            "name": "second_choice",
+            "type": "string"
+          },
+          {
+            "name": "margin",
+            "type": "number"
+          },
+          {
+            "name": "model",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "evidence_queries",
+      "path": "data/processed/evidence_queries.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "api",
+            "type": "string"
+          },
+          {
+            "name": "query",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "integer"
+          },
+          {
+            "name": "retrieved_utc",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "formulation_indication_evidence",
+      "path": "data/processed/formulation_indication_evidence.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "form_id",
+            "type": "string"
+          },
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "biomedical_concept",
+            "type": "string"
+          },
+          {
+            "name": "correspondence",
+            "type": "string"
+          },
+          {
+            "name": "query",
+            "type": "string"
+          },
+          {
+            "name": "n_entity",
+            "type": "integer"
+          },
+          {
+            "name": "n_disorder",
+            "type": "integer"
+          },
+          {
+            "name": "n_pair",
+            "type": "integer"
+          },
+          {
+            "name": "n_clinical",
+            "type": "integer"
+          },
+          {
+            "name": "lift",
+            "type": "number"
+          },
+          {
+            "name": "top_pmids",
+            "type": "string"
+          },
+          {
+            "name": "clinical_pmids",
+            "type": "string"
+          },
+          {
+            "name": "evidence_tier",
+            "type": "string"
+          },
+          {
+            "name": "pubmed_total_N",
+            "type": "integer"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "formulation_indications",
+      "path": "data/processed/formulation_indications.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "form_id",
+            "type": "string"
+          },
+          {
+            "name": "indication_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "disease_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "formulation_ingredients",
+      "path": "data/processed/formulation_ingredients.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "form_id",
+            "type": "string"
+          },
+          {
+            "name": "rank",
+            "type": "integer"
+          },
+          {
+            "name": "ingredient_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "ingredient_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "ingredient_type",
+            "type": "string"
+          },
+          {
+            "name": "ingredient_en",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "formulations",
+      "path": "data/processed/formulations.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "form_id",
+            "type": "string"
+          },
+          {
+            "name": "name_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          },
+          {
+            "name": "dosage_form",
+            "type": "string"
+          },
+          {
+            "name": "classical_reference",
+            "type": "string"
+          },
+          {
+            "name": "ingredients_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "ingredients_complete",
+            "type": "string"
+          },
+          {
+            "name": "proportion_note",
+            "type": "string"
+          },
+          {
+            "name": "indications_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "indications_en",
+            "type": "string"
+          },
+          {
+            "name": "dosha_action",
+            "type": "string"
+          },
+          {
+            "name": "contains_metal_or_toxic",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "search_variants",
+            "type": "string"
+          },
+          {
+            "name": "name_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "name_hi",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "verification_status",
+            "type": "string"
+          },
+          {
+            "name": "search_term",
+            "type": "string"
+          },
+          {
+            "name": "pubmed_count",
+            "type": "number"
+          },
+          {
+            "name": "clinicaltrials_count",
+            "type": "number"
+          },
+          {
+            "name": "indications_hi",
+            "type": "string"
+          },
+          {
+            "name": "indications_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "indications_hi_method",
+            "type": "string"
+          },
+          {
+            "name": "safety_note_hi",
+            "type": "string"
+          },
+          {
+            "name": "safety_note_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "safety_note_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "form_id"
+      }
+    },
+    {
+      "name": "headword_concepts",
+      "path": "data/processed/headword_concepts.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "concept_id",
+            "type": "string"
+          },
+          {
+            "name": "headword_iast",
+            "type": "string"
+          },
+          {
+            "name": "headword_deva",
+            "type": "string"
+          },
+          {
+            "name": "n_members",
+            "type": "integer"
+          },
+          {
+            "name": "entity_types",
+            "type": "string"
+          },
+          {
+            "name": "sources",
+            "type": "string"
+          },
+          {
+            "name": "english_glosses",
+            "type": "string"
+          },
+          {
+            "name": "match_key",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "concept_id"
+      }
+    },
+    {
+      "name": "herb_ethnobotany",
+      "path": "data/processed/herb_ethnobotany.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "use_activity",
+            "type": "string"
+          },
+          {
+            "name": "country_community",
+            "type": "string"
+          },
+          {
+            "name": "taxon_in_source",
+            "type": "string"
+          },
+          {
+            "name": "reference",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herb_group_members",
+      "path": "data/processed/herb_group_members.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "group_id",
+            "type": "string"
+          },
+          {
+            "name": "member_rank",
+            "type": "integer"
+          },
+          {
+            "name": "member_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "member_botanical",
+            "type": "string"
+          },
+          {
+            "name": "member_note",
+            "type": "string"
+          },
+          {
+            "name": "member_part_or_variety",
+            "type": "string"
+          },
+          {
+            "name": "herb_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herb_groups",
+      "path": "data/processed/herb_groups.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "group_id",
+            "type": "string"
+          },
+          {
+            "name": "group_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "group_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "group_hi_usage",
+            "type": "string"
+          },
+          {
+            "name": "action_en",
+            "type": "string"
+          },
+          {
+            "name": "members_raw",
+            "type": "string"
+          },
+          {
+            "name": "n_members_parsed",
+            "type": "integer"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "action_hi",
+            "type": "string"
+          },
+          {
+            "name": "action_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "action_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "group_id"
+      }
+    },
+    {
+      "name": "herb_image_datasets",
+      "path": "data/processed/herb_image_datasets.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "dataset",
+            "type": "string"
+          },
+          {
+            "name": "dataset_doi",
+            "type": "string"
+          },
+          {
+            "name": "class_label",
+            "type": "string"
+          },
+          {
+            "name": "species",
+            "type": "string"
+          },
+          {
+            "name": "label_mapping",
+            "type": "string"
+          },
+          {
+            "name": "gbif_key",
+            "type": "string"
+          },
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "match_method",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "citation",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herb_indication",
+      "path": "data/processed/herb_indication.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "indication_raw",
+            "type": "string"
+          },
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "match_method",
+            "type": "string"
+          },
+          {
+            "name": "match_score",
+            "type": "number"
+          },
+          {
+            "name": "disease_term_iast",
+            "type": "string"
+          },
+          {
+            "name": "disease_name_en",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herb_indication_evidence",
+      "path": "data/processed/herb_indication_evidence.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "biomedical_concept",
+            "type": "string"
+          },
+          {
+            "name": "correspondence",
+            "type": "string"
+          },
+          {
+            "name": "query",
+            "type": "string"
+          },
+          {
+            "name": "n_entity",
+            "type": "string"
+          },
+          {
+            "name": "n_disorder",
+            "type": "string"
+          },
+          {
+            "name": "n_pair",
+            "type": "string"
+          },
+          {
+            "name": "n_clinical",
+            "type": "string"
+          },
+          {
+            "name": "lift",
+            "type": "string"
+          },
+          {
+            "name": "top_pmids",
+            "type": "string"
+          },
+          {
+            "name": "clinical_pmids",
+            "type": "string"
+          },
+          {
+            "name": "evidence_tier",
+            "type": "string"
+          },
+          {
+            "name": "pubmed_total_N",
+            "type": "integer"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herb_karma",
+      "path": "data/processed/herb_karma.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "karma_key",
+            "type": "string"
+          },
+          {
+            "name": "karma_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "karma_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "karma_hi",
+            "type": "string"
+          },
+          {
+            "name": "karma_en",
+            "type": "string"
+          },
+          {
+            "name": "in_controlled_vocab",
+            "type": "boolean"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herb_names",
+      "path": "data/processed/herb_names.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "language_script",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herb_phytochemicals",
+      "path": "data/processed/herb_phytochemicals.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "chemical",
+            "type": "string"
+          },
+          {
+            "name": "chem_id",
+            "type": "string"
+          },
+          {
+            "name": "plant_part_code",
+            "type": "string"
+          },
+          {
+            "name": "plant_part",
+            "type": "string"
+          },
+          {
+            "name": "amount_low_ppm",
+            "type": "string"
+          },
+          {
+            "name": "amount_high_ppm",
+            "type": "string"
+          },
+          {
+            "name": "reference",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "herbs",
+      "path": "data/processed/herbs.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "herb_id",
+            "type": "string"
+          },
+          {
+            "name": "accepted_name",
+            "type": "string"
+          },
+          {
+            "name": "gbif_key",
+            "type": "string"
+          },
+          {
+            "name": "gbif_status",
+            "type": "string"
+          },
+          {
+            "name": "family",
+            "type": "string"
+          },
+          {
+            "name": "botanical_names_in_sources",
+            "type": "string"
+          },
+          {
+            "name": "name_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "name_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "name_source",
+            "type": "string"
+          },
+          {
+            "name": "name_ascii",
+            "type": "string"
+          },
+          {
+            "name": "name_hi_ayurvedic",
+            "type": "string"
+          },
+          {
+            "name": "name_hi_common",
+            "type": "string"
+          },
+          {
+            "name": "name_hi_alias",
+            "type": "string"
+          },
+          {
+            "name": "name_sa_wikidata",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string"
+          },
+          {
+            "name": "wikidata_qid",
+            "type": "string"
+          },
+          {
+            "name": "sa_synonyms",
+            "type": "string"
+          },
+          {
+            "name": "parts_used",
+            "type": "string"
+          },
+          {
+            "name": "rasa",
+            "type": "string"
+          },
+          {
+            "name": "guna",
+            "type": "string"
+          },
+          {
+            "name": "virya",
+            "type": "string"
+          },
+          {
+            "name": "vipaka",
+            "type": "string"
+          },
+          {
+            "name": "karma_actions",
+            "type": "string"
+          },
+          {
+            "name": "dosha_pacify",
+            "type": "string"
+          },
+          {
+            "name": "dosha_aggravate",
+            "type": "string"
+          },
+          {
+            "name": "indications_sa_ascii",
+            "type": "string"
+          },
+          {
+            "name": "description_en",
+            "type": "string"
+          },
+          {
+            "name": "substitutes",
+            "type": "string"
+          },
+          {
+            "name": "mahakashaya_groups",
+            "type": "string"
+          },
+          {
+            "name": "mahakashaya_actions_en",
+            "type": "string"
+          },
+          {
+            "name": "property_conflict",
+            "type": "boolean"
+          },
+          {
+            "name": "property_variants",
+            "type": "string"
+          },
+          {
+            "name": "safety_class",
+            "type": "string"
+          },
+          {
+            "name": "safety_hazard_en",
+            "type": "string"
+          },
+          {
+            "name": "safety_hazard_hi",
+            "type": "string"
+          },
+          {
+            "name": "requires_shodhana",
+            "type": "string"
+          },
+          {
+            "name": "sat_id",
+            "type": "string"
+          },
+          {
+            "name": "amidha_ids",
+            "type": "string"
+          },
+          {
+            "name": "in_sat",
+            "type": "boolean"
+          },
+          {
+            "name": "in_amidha",
+            "type": "boolean"
+          },
+          {
+            "name": "in_mahakashaya",
+            "type": "boolean"
+          },
+          {
+            "name": "source_ids",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "n_phytochemicals",
+            "type": "integer"
+          },
+          {
+            "name": "n_india_ethnobotany_uses",
+            "type": "integer"
+          },
+          {
+            "name": "pubmed_count",
+            "type": "number"
+          },
+          {
+            "name": "pubmed_ayurveda_count",
+            "type": "number"
+          },
+          {
+            "name": "clinicaltrials_count",
+            "type": "number"
+          },
+          {
+            "name": "name_en_hi",
+            "type": "string"
+          },
+          {
+            "name": "name_en_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "name_en_hi_method",
+            "type": "string"
+          },
+          {
+            "name": "description_hi",
+            "type": "string"
+          },
+          {
+            "name": "description_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "description_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "herb_id"
+      }
+    },
+    {
+      "name": "multiscript_names",
+      "path": "data/processed/multiscript_names.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "entity_type",
+            "type": "string"
+          },
+          {
+            "name": "entity_id",
+            "type": "string"
+          },
+          {
+            "name": "devanagari",
+            "type": "string"
+          },
+          {
+            "name": "bengali",
+            "type": "string"
+          },
+          {
+            "name": "gujarati",
+            "type": "string"
+          },
+          {
+            "name": "gurmukhi",
+            "type": "string"
+          },
+          {
+            "name": "kannada",
+            "type": "string"
+          },
+          {
+            "name": "malayalam",
+            "type": "string"
+          },
+          {
+            "name": "odia",
+            "type": "string"
+          },
+          {
+            "name": "tamil",
+            "type": "string"
+          },
+          {
+            "name": "telugu",
+            "type": "string"
+          },
+          {
+            "name": "method",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pharmaceutics",
+      "path": "data/processed/pharmaceutics.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "pharmaceutic_id",
+            "type": "string"
+          },
+          {
+            "name": "term_uid",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "source_code",
+            "type": "string"
+          },
+          {
+            "name": "domain",
+            "type": "string"
+          },
+          {
+            "name": "section_code",
+            "type": "string"
+          },
+          {
+            "name": "section_title",
+            "type": "string"
+          },
+          {
+            "name": "parent_code",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_ascii",
+            "type": "string"
+          },
+          {
+            "name": "term_en",
+            "type": "string"
+          },
+          {
+            "name": "definition_en",
+            "type": "string"
+          },
+          {
+            "name": "xref_same_headword",
+            "type": "string"
+          },
+          {
+            "name": "qa_flag",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "pharmaceutic_id"
+      }
+    },
+    {
+      "name": "phytochemical_activities",
+      "path": "data/processed/phytochemical_activities.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "chemical",
+            "type": "string"
+          },
+          {
+            "name": "activity",
+            "type": "string"
+          },
+          {
+            "name": "dosage",
+            "type": "string"
+          },
+          {
+            "name": "reference",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "phytochemicals",
+      "path": "data/processed/phytochemicals.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "chemical",
+            "type": "string"
+          },
+          {
+            "name": "n_herbs",
+            "type": "integer"
+          },
+          {
+            "name": "n_activities",
+            "type": "integer"
+          },
+          {
+            "name": "pubchem_match",
+            "type": "string"
+          },
+          {
+            "name": "pubchem_lookup_name",
+            "type": "string"
+          },
+          {
+            "name": "pubchem_cid",
+            "type": "string"
+          },
+          {
+            "name": "inchikey",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "molecular_weight",
+            "type": "string"
+          },
+          {
+            "name": "smiles",
+            "type": "string"
+          },
+          {
+            "name": "iupac_name",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "chemical"
+      }
+    },
+    {
+      "name": "prakriti_synthetic_cohort",
+      "path": "data/processed/prakriti_synthetic_cohort.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "person_id",
+            "type": "string"
+          },
+          {
+            "name": "latent_vata",
+            "type": "number"
+          },
+          {
+            "name": "latent_pitta",
+            "type": "number"
+          },
+          {
+            "name": "latent_kapha",
+            "type": "number"
+          },
+          {
+            "name": "prakriti_label",
+            "type": "string"
+          },
+          {
+            "name": "Q01",
+            "type": "string"
+          },
+          {
+            "name": "Q02",
+            "type": "string"
+          },
+          {
+            "name": "Q03",
+            "type": "string"
+          },
+          {
+            "name": "Q04",
+            "type": "string"
+          },
+          {
+            "name": "Q05",
+            "type": "string"
+          },
+          {
+            "name": "Q06",
+            "type": "string"
+          },
+          {
+            "name": "Q07",
+            "type": "string"
+          },
+          {
+            "name": "Q08",
+            "type": "string"
+          },
+          {
+            "name": "Q09",
+            "type": "string"
+          },
+          {
+            "name": "Q10",
+            "type": "string"
+          },
+          {
+            "name": "Q11",
+            "type": "string"
+          },
+          {
+            "name": "Q12",
+            "type": "string"
+          },
+          {
+            "name": "Q13",
+            "type": "string"
+          },
+          {
+            "name": "Q14",
+            "type": "string"
+          },
+          {
+            "name": "Q15",
+            "type": "string"
+          },
+          {
+            "name": "Q16",
+            "type": "string"
+          },
+          {
+            "name": "Q17",
+            "type": "string"
+          },
+          {
+            "name": "Q18",
+            "type": "string"
+          },
+          {
+            "name": "Q19",
+            "type": "string"
+          },
+          {
+            "name": "Q20",
+            "type": "string"
+          },
+          {
+            "name": "Q21",
+            "type": "string"
+          },
+          {
+            "name": "Q22",
+            "type": "string"
+          },
+          {
+            "name": "Q23",
+            "type": "string"
+          },
+          {
+            "name": "Q24",
+            "type": "string"
+          },
+          {
+            "name": "age",
+            "type": "integer"
+          },
+          {
+            "name": "sex",
+            "type": "string"
+          },
+          {
+            "name": "bmi",
+            "type": "number"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "qa_pairs",
+      "path": "data/processed/qa_pairs.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "qa_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "record_ids",
+            "type": "string"
+          },
+          {
+            "name": "language",
+            "type": "string"
+          },
+          {
+            "name": "question",
+            "type": "string"
+          },
+          {
+            "name": "answer",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "sources",
+      "path": "data/processed/sources.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "role",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "source_id"
+      }
+    },
+    {
+      "name": "symptoms",
+      "path": "data/processed/symptoms.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "symptom_id",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "sat_code",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "term_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_ascii",
+            "type": "string"
+          },
+          {
+            "name": "gloss_en",
+            "type": "string"
+          },
+          {
+            "name": "n_diseases",
+            "type": "integer"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "gloss_hi",
+            "type": "string"
+          },
+          {
+            "name": "gloss_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "gloss_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "symptom_id"
+      }
+    },
+    {
+      "name": "terminology",
+      "path": "data/processed/terminology.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "term_uid",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "source_code",
+            "type": "string"
+          },
+          {
+            "name": "domain",
+            "type": "string"
+          },
+          {
+            "name": "section_code",
+            "type": "string"
+          },
+          {
+            "name": "section_title",
+            "type": "string"
+          },
+          {
+            "name": "parent_code",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_ascii",
+            "type": "string"
+          },
+          {
+            "name": "term_en",
+            "type": "string"
+          },
+          {
+            "name": "definition_en",
+            "type": "string"
+          },
+          {
+            "name": "xref_same_headword",
+            "type": "string"
+          },
+          {
+            "name": "qa_flag",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi_method",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "term_uid"
+      }
+    },
+    {
+      "name": "therapies",
+      "path": "data/processed/therapies.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "therapy_id",
+            "type": "string"
+          },
+          {
+            "name": "term_uid",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "source_code",
+            "type": "string"
+          },
+          {
+            "name": "domain",
+            "type": "string"
+          },
+          {
+            "name": "section_code",
+            "type": "string"
+          },
+          {
+            "name": "section_title",
+            "type": "string"
+          },
+          {
+            "name": "parent_code",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_iast_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva",
+            "type": "string"
+          },
+          {
+            "name": "term_sa_deva_primary",
+            "type": "string"
+          },
+          {
+            "name": "term_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_ascii",
+            "type": "string"
+          },
+          {
+            "name": "term_en",
+            "type": "string"
+          },
+          {
+            "name": "definition_en",
+            "type": "string"
+          },
+          {
+            "name": "xref_same_headword",
+            "type": "string"
+          },
+          {
+            "name": "qa_flag",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "therapy_tags",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi",
+            "type": "string"
+          },
+          {
+            "name": "term_en_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_qe_flags",
+            "type": "string"
+          },
+          {
+            "name": "definition_hi_method",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "therapy_id"
+      }
+    },
+    {
+      "name": "therapy_disease",
+      "path": "data/processed/therapy_disease.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "disease_id",
+            "type": "string"
+          },
+          {
+            "name": "disease_term_iast",
+            "type": "string"
+          },
+          {
+            "name": "therapy_id",
+            "type": "string"
+          },
+          {
+            "name": "therapy_term_iast",
+            "type": "string"
+          },
+          {
+            "name": "therapy_term_en",
+            "type": "string"
+          },
+          {
+            "name": "relation",
+            "type": "string"
+          },
+          {
+            "name": "reference",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          },
+          {
+            "name": "strength",
+            "type": "string"
+          },
+          {
+            "name": "source_id",
+            "type": "string"
+          },
+          {
+            "name": "data_origin",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "therapy_evidence",
+      "path": "data/processed/therapy_evidence.csv",
+      "format": "csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "therapy",
+            "type": "string"
+          },
+          {
+            "name": "pubmed_query",
+            "type": "string"
+          },
+          {
+            "name": "pubmed_count",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
