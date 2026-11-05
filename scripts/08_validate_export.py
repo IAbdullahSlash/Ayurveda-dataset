@@ -5,7 +5,7 @@ Stage 08 - Post-processing: validation, bilingual QA corpus, exports.
   * data-quality & integrity checks  -> reports/data_quality_report.json (also enforced by tests/)
   * bilingual question-answer pairs generated from KB records (each with provenance record ids)
   * bilingual document corpus (JSONL) for retrieval / RAG / LLM grounding
-  * relational SQLite database with primary/foreign keys and indexes  -> release/ayurkb.sqlite
+  * relational SQLite database with unique indexes and pre-export reference validation  -> release/ayurkb.sqlite
   * Frictionless Data package descriptor  -> release/datapackage.json
 """
 import json, re, sqlite3, sys, unicodedata
@@ -13,6 +13,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.provenance import write_sidecar, build_index, metadata
 from lib.indic import iast_to_deva, deva_to_iast, has_devanagari
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -155,7 +156,7 @@ def qa_pairs(t):
                        question=f"Which single herbs are indicated for {dr.term_iast} ({dr.name_en})?",
                        answer="Herbs recorded with this indication: " + "; ".join(names) + ". (Knowledge-base listing, not a prescription.)"))
         names_hi = [hn.loc[x].name_hi_ayurvedic or hn.loc[x].name_hi_common or hn.loc[x].accepted_name for x in g.herb_id.unique()[:15]]
-        qa.append(dict(qa_id=f"QA-I-{did}-hi", topic="herbs_for_condition", record_ids=did, language="hi",
+        qa.append(dict(qa_id=f"QA-I-{did}-hi", topic="herbs_for_condition", record_ids=";".join([did] + list(g.herb_id.unique()[:15])), language="hi",
                        question=f"{dr.term_hi} में कौन-सी औषधियाँ बताई गई हैं?",
                        answer="इस संकेत के लिए दर्ज औषधियाँ: " + "; ".join(names_hi) + "। (ज्ञानकोश सूची - चिकित्सकीय पर्चा नहीं।)"))
     for r in t["diagnostic_methods"].itertuples():
@@ -188,11 +189,15 @@ def corpus(t):
     for r in t["diseases"].itertuples():
         docs.append(dict(doc_id=r.disease_id, type="disease", title_en=r.name_en, title_sa=r.term_iast, title_hi=r.term_hi,
                          text_en=f"{r.term_iast} | {r.name_en} | NAMASTE {r.namc_code_clean} | TM2 {r.icd11_tm2_code} | doṣa {r.dosha_label} | {r.definition_en}",
-                         text_hi=f"{r.term_deva} | {getattr(r, 'name_en_hi', '')} | {getattr(r, 'definition_hi', '')}", source=r.source_id))
+                         text_hi=f"{r.term_deva} | {getattr(r, 'name_en_hi', '')} | {getattr(r, 'definition_hi', '')}", source=";".join(sorted({r.source_id} | ({"S3"} if getattr(r, "definition_source", "").startswith("WHO") else set()))),
+                         definition_source=getattr(r, "definition_source", ""),
+                         definition_record_id=getattr(r, "who_term_id", "") if getattr(r, "definition_source", "").startswith("WHO") else r.disease_id,
+                         review_status="not_adjudicated",
+                         translation_flags=getattr(r, "definition_hi_qe_flags", "")))
     for r in t["herbs"].itertuples():
         docs.append(dict(doc_id=r.herb_id, type="herb", title_en=r.name_en, title_sa=r.name_sa_iast, title_hi=r.name_hi_common or r.name_hi_ayurvedic,
                          text_en=f"{r.name_sa_iast or r.name_ascii} | {r.accepted_name} ({r.family}) | rasa {r.rasa} | guṇa {r.guna} | vīrya {r.virya} | vipāka {r.vipaka} | pacifies {r.dosha_pacify} | aggravates {r.dosha_aggravate} | actions {r.karma_actions} | indications {r.indications_sa_ascii} | {r.description_en} | safety {r.safety_class} {r.safety_hazard_en}",
-                         text_hi=f"{r.name_sa_deva} | {r.name_hi_common} | {getattr(r, 'description_hi', '')} | {r.safety_hazard_hi}", source=r.source_ids))
+                         text_hi=f"{r.name_sa_deva} | {r.name_hi_common} | {getattr(r, 'description_hi', '')} | {r.safety_hazard_hi}", source=r.source_ids, safety_review_status="flagged_unreviewed" if r.safety_class else "unassessed"))
     for r in t["terminology"].itertuples():
         docs.append(dict(doc_id=r.term_uid, type=f"term:{r.domain}", title_en=r.term_en, title_sa=r.term_sa_iast_primary, title_hi=r.term_hi,
                          text_en=f"{r.term_sa_iast} | {r.term_en} | {r.definition_en}",
@@ -208,6 +213,15 @@ def corpus(t):
         docs.append(dict(doc_id=r.dx_id, type="diagnostic_method", title_en=r.name_en, title_sa=r.name_sa_iast, title_hi=r.name_hi,
                          text_en=f"{r.name_sa_iast} | {r.name_en} | {r.what_is_assessed_en} | {r.classical_reference} | modern: {r.modern_counterpart_en}; {r.modern_tools_or_tests}",
                          text_hi=f"{r.name_hi} | {getattr(r, 'what_is_assessed_hi', '')} | {r.modern_counterpart_hi}", source="S0"))
+    index = build_index(t)
+    licences = dict(zip(t["sources"].source_id, t["sources"].licence))
+    masters = [("diseases", "disease_id"), ("herbs", "herb_id"), ("terminology", "term_uid"),
+               ("symptoms", "symptom_id"), ("formulations", "form_id"), ("diagnostic_methods", "dx_id")]
+    rows = {str(row[key]): (table, row) for table, key in masters for row in t[table].to_dict("records")}
+    for doc in docs:
+        table, row = rows[doc["doc_id"]]
+        doc["provenance"] = metadata(table, row, index, licences)
+        doc["source"] = ";".join(doc["provenance"]["source_ids"])
     return docs
 
 def sqlite_export(t):
@@ -235,7 +249,7 @@ def datapackage(t):
     for name, df in t.items():
         fields = [{"name": c, "type": ("integer" if pd.api.types.is_integer_dtype(df[c]) else "number" if pd.api.types.is_float_dtype(df[c])
                                        else "boolean" if pd.api.types.is_bool_dtype(df[c]) else "string")} for c in df.columns]
-        res.append({"name": name, "path": f"data/processed/{name}.csv", "format": "csv", "encoding": "utf-8",
+        res.append({"name": name, "path": f"../data/processed/{name}.csv", "format": "csv", "encoding": "utf-8",
                     "schema": {"fields": fields, **({"primaryKey": PK[name]} if name in PK else {})}})
     pkg = {"name": "ayurkb-bilingual-ayurveda-knowledge-base", "title": "AyurKB - Bilingual (English/Hindi/Sanskrit) hybrid Ayurveda knowledge base",
            "version": "1.2.0", "licenses": [{"name": "CC-BY-NC-SA-4.0", "title": "Combined release (WHO component is CC BY-NC-SA 3.0 IGO)"}],
@@ -245,6 +259,8 @@ def datapackage(t):
 
 def main():
     rep, t = checks()
+    if rep["failures"]:
+        raise ValueError("Export blocked: " + "; ".join(rep["failures"]))
     q = qa_pairs(t)
     q.to_csv(P / "qa_pairs.csv", index=False); t["qa_pairs"] = q
     docs = corpus(t)
@@ -253,6 +269,7 @@ def main():
             fh.write(json.dumps(d, ensure_ascii=False) + "\n")
     rep["qa_pairs"] = dict(total=len(q), by_language=q.language.value_counts().to_dict(), by_topic=q.topic.value_counts().to_dict())
     rep["corpus_documents"] = len(docs)
+    rep["provenance"] = write_sidecar(t, REL / "ayurkb_provenance.jsonl")
     db = sqlite_export(t)
     datapackage(t)
     rep["sqlite_bytes"] = db.stat().st_size

@@ -41,3 +41,10 @@ __pycache__/
 *.swp
 .venv/
 venv/
+
+# Rebuilt provenance dependencies (stage 08)
+release/ayurkb_provenance.jsonl
+reports/revision_full/FIG/
+reports/revision_full/MOD/
+reports/revision_full/P/
+reports/revision_validation/

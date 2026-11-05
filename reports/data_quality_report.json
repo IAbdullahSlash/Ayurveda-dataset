@@ -419,5 +419,179 @@
     }
   },
   "corpus_documents": 20758,
-  "sqlite_bytes": 55660544
+  "provenance": {
+    "case_report_entities": {
+      "rows": 8023,
+      "unresolved": 0
+    },
+    "case_report_links": {
+      "rows": 867,
+      "unresolved": 0
+    },
+    "case_report_symptoms_semantic": {
+      "rows": 1539,
+      "unresolved": 0
+    },
+    "case_reports": {
+      "rows": 565,
+      "unresolved": 0
+    },
+    "clinical_trials": {
+      "rows": 6435,
+      "unresolved": 0
+    },
+    "concept_members": {
+      "rows": 8597,
+      "unresolved": 0
+    },
+    "controlled_vocabulary": {
+      "rows": 135,
+      "unresolved": 0
+    },
+    "diagnostic_methods": {
+      "rows": 43,
+      "unresolved": 0
+    },
+    "diet_lifestyle": {
+      "rows": 381,
+      "unresolved": 0
+    },
+    "disease_symptom": {
+      "rows": 11884,
+      "unresolved": 0
+    },
+    "disease_symptom_from_cases": {
+      "rows": 3905,
+      "unresolved": 0
+    },
+    "disease_symptom_inferred": {
+      "rows": 10082,
+      "unresolved": 0
+    },
+    "disease_symptom_who": {
+      "rows": 13639,
+      "unresolved": 0
+    },
+    "diseases": {
+      "rows": 2892,
+      "unresolved": 0
+    },
+    "dosha_suggestions": {
+      "rows": 1420,
+      "unresolved": 0
+    },
+    "evidence_queries": {
+      "rows": 1539,
+      "unresolved": 0
+    },
+    "formulation_indication_evidence": {
+      "rows": 121,
+      "unresolved": 0
+    },
+    "formulation_indications": {
+      "rows": 155,
+      "unresolved": 0
+    },
+    "formulation_ingredients": {
+      "rows": 500,
+      "unresolved": 0
+    },
+    "formulations": {
+      "rows": 43,
+      "unresolved": 0
+    },
+    "headword_concepts": {
+      "rows": 3347,
+      "unresolved": 0
+    },
+    "herb_ethnobotany": {
+      "rows": 2872,
+      "unresolved": 0
+    },
+    "herb_group_members": {
+      "rows": 500,
+      "unresolved": 0
+    },
+    "herb_groups": {
+      "rows": 50,
+      "unresolved": 0
+    },
+    "herb_image_datasets": {
+      "rows": 214,
+      "unresolved": 0
+    },
+    "herb_indication": {
+      "rows": 1693,
+      "unresolved": 0
+    },
+    "herb_indication_evidence": {
+      "rows": 1427,
+      "unresolved": 0
+    },
+    "herb_karma": {
+      "rows": 829,
+      "unresolved": 0
+    },
+    "herb_names": {
+      "rows": 3639,
+      "unresolved": 0
+    },
+    "herb_phytochemicals": {
+      "rows": 23771,
+      "unresolved": 0
+    },
+    "herbs": {
+      "rows": 466,
+      "unresolved": 0
+    },
+    "multiscript_names": {
+      "rows": 20895,
+      "unresolved": 0
+    },
+    "pharmaceutics": {
+      "rows": 393,
+      "unresolved": 0
+    },
+    "phytochemical_activities": {
+      "rows": 13538,
+      "unresolved": 0
+    },
+    "phytochemicals": {
+      "rows": 1959,
+      "unresolved": 0
+    },
+    "prakriti_synthetic_cohort": {
+      "rows": 3000,
+      "unresolved": 0
+    },
+    "qa_pairs": {
+      "rows": 4836,
+      "unresolved": 0
+    },
+    "sources": {
+      "rows": 14,
+      "unresolved": 0
+    },
+    "symptoms": {
+      "rows": 11081,
+      "unresolved": 0
+    },
+    "terminology": {
+      "rows": 6233,
+      "unresolved": 0
+    },
+    "therapies": {
+      "rows": 1325,
+      "unresolved": 0
+    },
+    "therapy_disease": {
+      "rows": 6474,
+      "unresolved": 0
+    },
+    "therapy_evidence": {
+      "rows": 12,
+      "unresolved": 0
+    }
+  },
+  "sqlite_bytes": 55672832
 }
