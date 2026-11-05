@@ -54,7 +54,7 @@ scripts; 3,347 cross-source headword concepts.
 **Accuracy upgrades (v1.2).** 415 WHO definitions fill disorders NAMASTE leaves undefined (definitions 55.5% → 69.8%);
 13,639 disorder → symptom edges from WHO sign lists; inherited profiles for 470 subtypes (flagged); 1,420 doṣa
 suggestions (model output, flagged); symptom associations learned from published cases; a clinical-term crosswalk;
-rule-based fixes for a systematic Hindi translation error.
+curated fixes for systematic Hindi translation errors ('stiffness' rendered as 'bitterness', 'nausea' as 'vomiting').
 
 ## 3. Collection
 
@@ -106,7 +106,9 @@ the synthetic Prakṛti cohort as evidence about real people.
   Ayurvedic Formulary of India.
 - Hindi descriptions are machine translations: NLLB-200 with an injected Ayurveda glossary, with quality
   flags and back-translation QE (see `reports/translation_qe.json`). Hindi names of Sanskrit terms are
-  rule-derived and reliable; translated English glosses are less so.
+  rule-derived and reliable; translated English glosses are less so. Systematic errors are corrected by curated
+  post-edits (`curation/mt_postedit_rules.csv`, `curation/mt_item_corrections.csv`), marked in each row's
+  `*_method`. 713 WHO definitions flagged `repetition` are degenerate translations that need re-translation.
 - Herb properties (rasa, guṇa, vīrya, vipāka, doṣa) come from one community database (Amidha, 344 herbs)
   and reflect one reading of the classical texts.
 - 76 Amidha-only herbs have no authoritative Sanskrit IAST spelling. Rather than invent one, the ASCII name

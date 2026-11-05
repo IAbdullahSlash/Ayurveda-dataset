@@ -193,7 +193,8 @@ def upgrades_data(data):
         rows.append(["Disorders with a doṣa suggestion", "0", f"{ds.get('suggested', 0):,}", f"text model, cross-validated accuracy {ds.get('cv_accuracy', 0):.2f}; flagged for expert review"])
         pe = fm.get("mt_postedits", {})
         if pe:
-            rows.append(["Hindi translation errors fixed by rule", "-", f"{sum(pe.values())} rows", "e.g. 'stiffness' had been translated as 'bitterness'"])
+            rows.append(["Hindi translation errors fixed by rule", "-", f"{sum(pe.values())} rows",
+                         "curated post-edits, e.g. 'stiffness' had been translated as 'bitterness', 'nausea' as 'vomiting'"])
     if rows:
         data["upgrades"] = dict(text=("Each change was measured on the same rows and folds as the original experiment. "
                                       "Model suggestions are kept in separate, flagged tables and never overwrite curated values."),
