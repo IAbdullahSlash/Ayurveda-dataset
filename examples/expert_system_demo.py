@@ -17,6 +17,12 @@ from pathlib import Path
 import pandas as pd
 from rapidfuzz import fuzz, process
 
+# The output mixes Hindi and Sanskrit. On Windows a piped or redirected stdout uses the ANSI code page,
+# which cannot encode Devanagari, so write UTF-8 everywhere (python -I ignores PYTHONIOENCODING).
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "data/processed"
 rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=False)
