@@ -124,6 +124,9 @@ GBIF, Wikidata and NLM as listed in `docs/SOURCES.md`.
 
 ## 8. Maintenance
 
-Re-run `scripts/01…11` to refresh from the sources. All API responses are cached, so a rebuild is
-deterministic offline. Run `python3 -m pytest tests/` after any change; the suite has 64 checks covering
-keys, references, encoding, domain rules, bilingual coverage, safety flags, ML baselines and expert-system behaviour.
+Run `bash run_all.sh` (stages 00–26) to refresh from the sources. API responses and translations are cached,
+so a rebuild is deterministic and largely offline. Run `python3 -m pytest -q tests/` after any change; the suite
+has 91 checks covering keys, references, encoding, domain rules, bilingual coverage, safety flags, translation
+fixes, ML baselines and expert-system behaviour. How to change the data safely is described in
+[`CONTRIBUTING.md`](../CONTRIBUTING.md) and [`ARCHITECTURE.md`](ARCHITECTURE.md); open problems are listed in
+[`KNOWN_ISSUES.md`](KNOWN_ISSUES.md).

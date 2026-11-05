@@ -336,7 +336,9 @@ Ayurveda-dataset/
 ├── reports/            build reports, ML results (ml/) and figures
 ├── release/            datapackage.json, dataset report, interactive tools
 ├── review/             offline expert-review workbook
-├── docs/               datasheet, sources, data dictionary, expert-system guide, permission letters
+├── docs/               datasheet, data dictionary, architecture, glossary, known issues, sources,
+│                       expert-system guide, permission letters (index: docs/README.md)
+├── CONTRIBUTING.md     how to change the data safely, recipes, checks before committing
 ├── run_all.sh          rebuilds everything end to end
 ├── requirements.txt    pinned dependencies
 └── CITATION.cff        citation metadata
@@ -397,6 +399,12 @@ The most valuable contribution is **expert review** by qualified Ayurveda practi
 the review workbook. Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
 requests. Make data changes in the pipeline or in `curation/` rather than by hand in `data/processed/`, and run
 `python3 -m pytest -q tests/` before opening a pull request.
+
+New to the project? Read [`CONTRIBUTING.md`](CONTRIBUTING.md) (setup, recipes, checks),
+[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) (data model, pipeline, what to re-run after a change),
+[`docs/GLOSSARY.md`](docs/GLOSSARY.md) (Ayurveda and technical terms) and
+[`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md) (open work). All documents are listed in
+[`docs/README.md`](docs/README.md).
 
 ## Licence and attribution
 
