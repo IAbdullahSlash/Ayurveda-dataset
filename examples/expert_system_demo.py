@@ -36,6 +36,13 @@ def load():
 TIER = {"clinical_evidence": "clinical studies", "literature_supported": "literature", "sparse": "sparse literature",
         "no_literature": "no literature found", "not_queryable": "not searchable"}
 
+def as_int(v):
+    """a count read as text ('7', '7.0' or blank) -> int, or None when there is no count"""
+    try:
+        return int(float(v))
+    except (TypeError, ValueError):
+        return None
+
 STOP = {"in", "of", "the", "a", "an", "with", "and", "due", "to", "at", "on", "or", "is", "में", "की", "के", "का", "और", "से", "एवं"}
 
 def words(s):
@@ -174,10 +181,10 @@ def main():
     best = {}
     if len(ev):
         rank = {"clinical_evidence": 0, "literature_supported": 1, "sparse": 2, "no_literature": 3, "not_queryable": 4}
-        for r in ev[ev.disease_id.isin(related)].itertuples():
-            cur = best.get(r.herb_id)
-            if cur is None or rank.get(r.evidence_tier, 9) < rank.get(cur.evidence_tier, 9):
-                best[r.herb_id] = r
+        for link in ev[ev.disease_id.isin(related)].itertuples():   # not 'r': r is the top disorder, used below
+            cur = best.get(link.herb_id)
+            if cur is None or rank.get(link.evidence_tier, 9) < rank.get(cur.evidence_tier, 9):
+                best[link.herb_id] = link
         order = {"clinical_evidence": 0, "literature_supported": 1, "sparse": 2, "no_literature": 3}
         hl = sorted(hl, key=lambda h: order.get(getattr(best.get(h), "evidence_tier", ""), 4))
     # poisonous plants (mahāviṣa / upaviṣa) go last: they need classical purification and specialist supervision
@@ -189,8 +196,11 @@ def main():
             x = herbs.loc[h]
             warn = f"  ⚠ {x.safety_class}: {x.safety_hazard_en}" if x.safety_class else ""
             e = best.get(h)
-            evs = (f" | evidence: {TIER.get(e.evidence_tier, e.evidence_tier)}"
-                   + (f" ({int(e.n_clinical)} clinical / {int(e.n_pair)} papers)" if str(e.n_pair) not in ("", "nan") else "")) if e is not None else ""
+            evs = ""
+            if e is not None:
+                n_cl, n_p = as_int(e.n_clinical), as_int(e.n_pair)
+                evs = (f" | evidence: {TIER.get(e.evidence_tier, e.evidence_tier)}"
+                       + (f" ({n_cl} clinical / {n_p} papers)" if n_p is not None else ""))
             print(f"     - {x.name_sa_iast or x.name_ascii} ({x.accepted_name}) {x.name_hi_common or x.name_hi_ayurvedic} | "
                   f"vīrya {x.virya or '-'} | pacifies {x.dosha_pacify or '-'}{evs}{warn}")
     fi = kb["formulation_indications"]; fo = kb["formulations"].set_index("form_id")

@@ -233,3 +233,27 @@ def test_finetuned_search_reported_without_leakage():
     assert "test records" in r["leakage_guard"] and r["training_pairs"] > 1000
     for task in ("diseases", "symptoms"):
         assert 0 <= r["finetuned"][task]["hindi_headword"]["recall_at_10"] <= 1
+
+# ----------------------------------------------------------------------------- expert-system demo (README quick start)
+@pytest.mark.parametrize("symptoms,lang,sections", [
+    # the English case reaches the herb list with literature-evidence tiers (the path that once crashed on '7.0')
+    ("fever; burning sensation; excessive thirst; vomiting", "en", ("Candidate disorders", "Herbs recorded", "clinical studies (")),
+    ("बुखार; जलन; अधिक प्यास", "hi", ("Candidate disorders", "Classical procedures"))])
+def test_expert_system_demo_runs_end_to_end(symptoms, lang, sections):
+    """the README commands must work on a fresh clone: lexical mode needs no model download"""
+    r = subprocess.run([sys.executable, "-I", str(ROOT / "examples/expert_system_demo.py"), "--symptoms", symptoms,
+                        "--lang", lang, "--no-semantic"], capture_output=True, text=True, timeout=300)
+    assert r.returncode == 0, r.stderr[-2000:]
+    for s in sections + ("decision support for a qualified practitioner",):
+        assert s in r.stdout, f"missing section: {s}"
+
+def test_evidence_counts_are_whole_numbers():
+    """counts are written as integers ('7', not '7.0'); blank only where the link could not be searched"""
+    for name in ("herb_indication_evidence", "formulation_indication_evidence"):
+        if not (P / f"{name}.csv").exists():
+            continue
+        e = rd(name)
+        for c in ("n_entity", "n_disorder", "n_pair", "n_clinical"):
+            v = e[c].astype(str)
+            assert v.str.fullmatch(r"\d*").all(), f"{name}.{c} has non-integer values"
+            assert ((v == "") == (e.evidence_tier == "not_queryable")).all()

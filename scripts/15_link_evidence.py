@@ -112,6 +112,8 @@ def run(links, entity_col, clause_of, label):
             print(f"  {label}: {i}/{len(pairs)}", flush=True)
     CF.write_text(json.dumps(C))
     df = pd.DataFrame(out).rename(columns={"entity_id": entity_col})
+    for c in ("n_entity", "n_disorder", "n_pair", "n_clinical"):
+        df[c] = df[c].astype("Int64")   # whole numbers, blank when the link is not queryable (not '7.0')
     df["pubmed_total_N"] = N
     df["source_id"] = "S8"
     df["data_origin"] = "PubMed co-occurrence (E-utilities); counts are facts - not proof of efficacy"
