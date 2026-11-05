@@ -697,13 +697,13 @@ Phytochemicals with a recorded activity or present in >= 3 herbs, resolved to Pu
 | `n_herbs` | number | 100% | 124 |  |
 | `n_activities` | number | 100% | 28 |  |
 | `pubchem_match` | text | 100% | matched |  |
-| `pubchem_lookup_name` | text | 89% | calcium |  |
-| `pubchem_cid` | text | 89% | 5460341 | PubChem compound id |
-| `inchikey` | text | 89% | OYPRJOBELJOOCE-UHFFFAOYSA-N | Standard InChIKey |
-| `formula` | text | 89% | Ca |  |
-| `molecular_weight` | text | 89% | 40.08 |  |
-| `smiles` | text | 89% | [Ca] |  |
-| `iupac_name` | text | 89% | calcium |  |
+| `pubchem_lookup_name` | text | 88% | calcium |  |
+| `pubchem_cid` | text | 88% | 5460341 | PubChem compound id |
+| `inchikey` | text | 88% | OYPRJOBELJOOCE-UHFFFAOYSA-N | Standard InChIKey |
+| `formula` | text | 88% | Ca |  |
+| `molecular_weight` | text | 88% | 40.08 |  |
+| `smiles` | text | 88% | [Ca] |  |
+| `iupac_name` | text | 88% | calcium |  |
 | `source_id` | text | 100% | S11 | Source (see sources table) |
 | `licence` | text | 100% | PubChem (NCBI) - public domain | Licence of the row |
 

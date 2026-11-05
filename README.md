@@ -194,7 +194,8 @@ Where the work stands (release v1.2) and what to pick up next:
   "seen in case reports" items.
 - **Needs you:** send the letters in `docs/permission_requests/`; get ethics approval before collecting Prakṛti
   responses; have a Hindi speaker correct the flagged translations (sheet `hindi_translations`).
-- **Ready to re-run when a service recovers:** ChEMBL targets with `python3 -I scripts/17_phytochem_ids.py --chembl-only`.
+- **ChEMBL targets:** built (323 compound-target links, 62 compounds, 196 human proteins) in `release/chembl/`, kept out of
+  git because ChEMBL is share-alike; rebuild with `python3 -I scripts/17_phytochem_ids.py --chembl-only`.
 - **Optional input:** a WHO ICTRP / CTRI export for `scripts/19_ictrp_import.py`.
 
 Large files are not versioned and are rebuilt locally: model weights (`scripts/00_get_models.py`, then stage 23 for the
@@ -225,6 +226,6 @@ the NLLB-200 licence. Each row carries `source_id` and `licence`, so a commercia
 Please attribute: Ministry of Ayush, Govt. of India (NAMASTE); World Health Organization (2022); USDA-ARS
 Dr. Duke's databases; Amidha Ayurveda Herb Database (S. Varshney, Zenodo 10.5281/zenodo.20581467); GBIF;
 Wikidata; NLM (PubMed, ClinicalTrials.gov, PubChem); Europe PMC; the authors of the MED117, Medicinal Leaf and Indian
-Medicinal Leaves image datasets (Mendeley Data, CC BY 4.0). ChEMBL-derived targets, when built, are distributed separately
+Medicinal Leaves image datasets (Mendeley Data, CC BY 4.0). ChEMBL-derived targets are distributed separately
 under CC BY-SA 3.0 (`release/chembl/`). Details: `docs/SOURCES.md`, `docs/DATASHEET.md`,
 `docs/DATA_DICTIONARY.md`, `docs/EXPERT_SYSTEM_GUIDE.md`.
