@@ -143,7 +143,7 @@ LECITHIN,16,20,matched,lecithin,16213884,JLPULHDHAOZNQI-JLOPVYAASA-N,C42H80NO8P,
 SHIKIMIC-ACID,16,14,matched,shikimic acid,8742,JXOHGGNKMLTUBP-HSUXUTPPSA-N,C7H10O5,174.15,C1[C@H]([C@@H]([C@@H](C=C1C(=O)O)O)O)O,"(3R,4S,5R)-3,4,5-trihydroxycyclohexene-1-carboxylic acid",S11,PubChem (NCBI) - public domain
 DAUCOSTEROL,16,5,matched,daucosterol,5742590,NPJICTMALKLTFW-OFUAXYCQSA-N,C35H60O6,576.8,CC[C@H](CC[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O)C)C)C(C)C,"(2R,3R,4S,5S,6R)-2-[[(3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",S11,PubChem (NCBI) - public domain
 LIGNOCERIC-ACID,16,1,matched,lignoceric acid,11197,QZZGJDVWLFXDLK-UHFFFAOYSA-N,C24H48O2,368.6,CCCCCCCCCCCCCCCCCCCCCCCC(=O)O,tetracosanoic acid,S11,PubChem (NCBI) - public domain
-PEROXIDASE,16,0,matched,peroxidase,9865515,HRNLUBSXIHFDHP-UHFFFAOYSA-N,C23H20N6O,396.4,C1=CC=C(C(=C1)N)NC(=O)C2=CC=C(C=C2)CNC3=NC=CC(=N3)C4=CN=CC=C4,N-(2-aminophenyl)-4-[[(4-pyridin-3-ylpyrimidin-2-yl)amino]methyl]benzamide,S11,PubChem (NCBI) - public domain
+PEROXIDASE,16,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 TITANIUM,16,0,matched,titanium,23963,RTAQQCXQSZGOHL-UHFFFAOYSA-N,Ti,47.867,[Ti],titanium,S11,PubChem (NCBI) - public domain
 BORNEOL,15,34,matched,borneol,64685,DTGKSKDOIYIVQL-UHFFFAOYSA-N,C10H18O,154.25,CC1(C2CCC1(C(C2)O)C)C,"1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",S11,PubChem (NCBI) - public domain
 VANILLIN,15,28,matched,vanillin,1183,MWOOGOJBHIARFG-UHFFFAOYSA-N,C8H8O3,152.15,COC1=C(C=CC(=C1)C=O)O,4-hydroxy-3-methoxybenzaldehyde,S11,PubChem (NCBI) - public domain
@@ -262,7 +262,7 @@ ELEMOL,8,2,matched,elemol,92138,GFJIQNADMLPFOW-VNHYZAJKSA-N,C15H26O,222.37,CC(=C
 FRIEDELIN,8,2,matched,friedelin,91472,OFMXGFHWLZPCFL-SVRPQWSVSA-N,C30H50O,426.7,C[C@H]1C(=O)CC[C@@H]2[C@@]1(CC[C@H]3[C@]2(CC[C@@]4([C@@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C)C)C)C)C,"(4R,4aS,6aS,6aS,6bR,8aR,12aR,14aS,14bS)-4,4a,6a,6b,8a,11,11,14a-octamethyl-2,4,5,6,6a,7,8,9,10,12,12a,13,14,14b-tetradecahydro-1H-picen-3-one",S11,PubChem (NCBI) - public domain
 GERMACRENE-D,8,2,matched,germacrene d,5317570,GAIBLDCXCZKKJE-RXJOXMPGSA-N,C15H24,204.35,C/C/1=C\CCC(=C)/C=C/[C@@H](CC1)C(C)C,"(1E,6E,8S)-1-methyl-5-methylidene-8-propan-2-ylcyclodeca-1,6-diene",S11,PubChem (NCBI) - public domain
 HUMULENE,8,2,matched,humulene,5281520,FAMPSKZZVDUYOS-HRGUGZIWSA-N,C15H24,204.35,C/C/1=C\CC(/C=C/C/C(=C/CC1)/C)(C)C,"(1E,4E,8E)-2,6,6,9-tetramethylcycloundeca-1,4,8-triene",S11,PubChem (NCBI) - public domain
-AMYLASE,8,1,matched,amylase,71475145,YMXBQIIPWIMAQE-UHFFFAOYSA-N,C11H10FNO,191.20,C=C=CCNC(=O)C1=CC=C(C=C1)F,"N-buta-2,3-dienyl-4-fluorobenzamide",S11,PubChem (NCBI) - public domain
+AMYLASE,8,1,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 D-GLUCOSE,8,1,matched,d glucose,5793,WQZGKKKJIJFFOK-GASJEMHNSA-N,C6H12O6,180.16,C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O,"(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",S11,PubChem (NCBI) - public domain
 "2,4-METHYLENE-CHOLESTEROL",8,0,matched,"2,4-methylene cholesterol",157009865,QVMGGORUQUGORU-ACKWHCSXSA-N,C29H46O,410.7,C[C@H](CCCC(C)C)C1CCC2[C@@]1(CCC3C2CC=C4[C@@]3(CC(=C)[C@@H](C4=C)O)C)C,"(3S,10R,13R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,4-dimethylidene-1,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthren-3-ol",S11,PubChem (NCBI) - public domain
 ALPHA-CUBEBENE,8,0,matched,alpha cubebene,442359,XUEHVOLRMXNRKQ-KHMAMNHCSA-N,C15H24,204.35,C[C@@H]1CC[C@H]([C@H]2[C@]13[C@@H]2C(=CC3)C)C(C)C,"(1R,5S,6R,7S,10R)-4,10-dimethyl-7-propan-2-yltricyclo[4.4.0.01,5]dec-3-ene",S11,PubChem (NCBI) - public domain
@@ -271,7 +271,7 @@ CAROTENE,8,0,matched,carotene,6419725,ANVAOWXLWRTKGA-NTXLUARGSA-N,C40H56,536.9,C
 CINEOLE,8,0,matched,cineole,2758,WEEGYLXZBRQIMU-UHFFFAOYSA-N,C10H18O,154.25,CC1(C2CCC(O1)(CC2)C)C,"1,3,3-trimethyl-2-oxabicyclo[2.2.2]octane",S11,PubChem (NCBI) - public domain
 GAMMA-CADINENE,8,0,matched,gamma cadinene,92313,WRHGORWNJGOVQY-RBSFLKMASA-N,C15H24,204.35,CC1=C[C@H]2[C@H](CC1)C(=C)CC[C@@H]2C(C)C,"(1R,4aS,8aS)-7-methyl-4-methylidene-1-propan-2-yl-2,3,4a,5,6,8a-hexahydro-1H-naphthalene",S11,PubChem (NCBI) - public domain
 L-ARABINOSE,8,0,matched,l arabinose,439195,SRBFZHDQGSBBOR-HWQSCIPKSA-N,C5H10O5,150.13,C1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O,"(3R,4S,5S)-oxane-2,3,4,5-tetrol",S11,PubChem (NCBI) - public domain
-LIPASE,8,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+LIPASE,8,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 P-CYMOL,8,0,matched,p-cymol,7463,HFPZCAJZSCWRBC-UHFFFAOYSA-N,C10H14,134.22,CC1=CC=C(C=C1)C(C)C,1-methyl-4-propan-2-ylbenzene,S11,PubChem (NCBI) - public domain
 PETROSELINIC-ACID,8,0,matched,petroselinic acid,5281125,CNVZJPUDSLNTQU-SEYXRHQNSA-N,C18H34O2,282.5,CCCCCCCCCCC/C=C\CCCCC(=O)O,(Z)-octadec-6-enoic acid,S11,PubChem (NCBI) - public domain
 PHOSPHATIDYL-ETHANOLAMINE,8,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -349,7 +349,7 @@ XANTHOPHYLL,6,3,matched,xanthophyll,5368396,KBPHJBAIARWVSC-DKLMTRRASA-N,C40H56O2
 BETA-MYRCENE,6,2,matched,beta-myrcene,31253,UAHWPYUMFXYFJY-UHFFFAOYSA-N,C10H16,136.23,CC(=CCCC(=C)C=C)C,"7-methyl-3-methylideneocta-1,6-diene",S11,PubChem (NCBI) - public domain
 HEXANOIC-ACID,6,2,matched,hexanoic acid,8892,FUZZWVXGSFPDMH-UHFFFAOYSA-N,C6H12O2,116.16,CCCCCC(=O)O,hexanoic acid,S11,PubChem (NCBI) - public domain
 OCIMENE,6,2,matched,ocimene,6434062,PMRMCTRIVCIICU-LQPGMRSMSA-N,C10H16,136.23,CC(C)/C=C/C=C(\C)/C=C,"(3E,5E)-3,7-dimethylocta-1,3,5-triene",S11,PubChem (NCBI) - public domain
-CATALASE,6,1,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+CATALASE,6,1,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 LEUCOCYANIDIN,6,1,matched,leucocyanidin,71629,SBZWTSHAFILOTE-UHFFFAOYSA-N,C15H14O7,306.27,C1=CC(=C(C=C1C2C(C(C3=C(C=C(C=C3O2)O)O)O)O)O)O,"2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-chromene-3,4,5,7-tetrol",S11,PubChem (NCBI) - public domain
 (+)-LIMONENE,6,0,matched,(+) limonene,440917,XMGQYMWWDOXHJM-JTQLQIEISA-N,C10H16,136.23,CC1=CC[C@@H](CC1)C(=C)C,(4R)-1-methyl-4-prop-1-en-2-ylcyclohexene,S11,PubChem (NCBI) - public domain
 ABSCISIC-ACID,6,0,matched,abscisic acid,5280896,JLIDBLDQVAYHNE-YKALOCIXSA-N,C15H20O4,264.32,CC1=CC(=O)CC([C@]1(/C=C/C(=C\C(=O)O)/C)O)(C)C,"(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid",S11,PubChem (NCBI) - public domain
@@ -441,7 +441,7 @@ OCTAN-1-AL,5,0,matched,octan-1-al,454,NUJGJRNETVAIRJ-UHFFFAOYSA-N,C8H16O,128.21,
 "P-MENTHA-2,8-DIEN-1-OL",5,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 PHOSPHOLIPIDS,5,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 PHYTIN-PHOSPHORUS,5,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
-POLYPHENOL-OXIDASE,5,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+POLYPHENOL-OXIDASE,5,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 POLYSACCHARIDE,5,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 QUERCETIN-3-GLUCURONIDE,5,0,matched,quercetin-3-glucuronide,5274585,DUBCCGAQYVUYEU-ZUGPOPFOSA-N,C21H18O13,478.4,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)O)O)O)O)O)O,"(2S,3S,4S,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl]oxy-3,4,5-trihydroxyoxane-2-carboxylic acid",S11,PubChem (NCBI) - public domain
 STIGMAST-7-EN-3-BETA-OL,5,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -515,7 +515,7 @@ TRIMETHYLAMINE,4,1,matched,trimethylamine,1146,GETQZCLCWQTVFV-UHFFFAOYSA-N,C3H9N
 (+)-ALPHA-PHELLANDRENE,4,0,matched,(+)-alpha-phellandrene,443160,OGLDWXZKYODSOB-JTQLQIEISA-N,C10H16,136.23,CC1=CC[C@H](C=C1)C(C)C,"(5S)-2-methyl-5-propan-2-ylcyclohexa-1,3-diene",S11,PubChem (NCBI) - public domain
 (Z)-BETA-OCIMENE,4,0,matched,(z)-beta-ocimene,5320250,IHPKGUQCSIINRJ-NTMALXAHSA-N,C10H16,136.23,CC(=CC/C=C(/C)\C=C)C,"(3Z)-3,7-dimethylocta-1,3,6-triene",S11,PubChem (NCBI) - public domain
 2-PHENYLETHANOL,4,0,matched,2 phenylethanol,6054,WRMNZCZEMHIOCP-UHFFFAOYSA-N,C8H10O,122.16,C1=CC=C(C=C1)CCO,2-phenylethanol,S11,PubChem (NCBI) - public domain
-ALBUMIN,4,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+ALBUMIN,4,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 ALPHA-BERGAMOTENE,4,0,matched,alpha bergamotene,86608,YMBFCQPIMVLNIU-UHFFFAOYSA-N,C15H24,204.35,CC1=CCC2CC1C2(C)CCC=C(C)C,"2,6-dimethyl-6-(4-methylpent-3-enyl)bicyclo[3.1.1]hept-2-ene",S11,PubChem (NCBI) - public domain
 ALPHA-GURJUNENE,4,0,matched,alpha gurjunene,15560276,SPCXZDDGSGTVAW-XIDUGBJDSA-N,C15H24,204.35,C[C@@H]1CC[C@@H]2[C@@H](C2(C)C)C3=C(CC[C@H]13)C,"(1aR,4R,4aR,7bS)-1,1,4,7-tetramethyl-1a,2,3,4,4a,5,6,7b-octahydrocyclopropa[e]azulene",S11,PubChem (NCBI) - public domain
 ALPHA-KETO-GLUTARIC-ACID,4,0,matched,alpha-keto-glutaric acid,51,KPGXRSRHYNQIFN-UHFFFAOYSA-N,C5H6O5,146.10,C(CC(=O)O)C(=O)C(=O)O,2-oxopentanedioic acid,S11,PubChem (NCBI) - public domain
@@ -541,7 +541,7 @@ CUBENOL,4,0,matched,cubenol,11770062,COGPRPSWSKLKTF-CBBWQLFWSA-N,C15H26O,222.37,
 "CYANIDIN-3,5-DIGLUCOSIDE",4,0,matched,"cyanidin 3,5 diglucoside",5158757,MVCZYIINCNBXDB-UHFFFAOYSA-N,C27H30O16,610.5,C1=CC(=C(C=C1C2=C(C=C3C(=CC(=O)C=C3OC4C(C(C(C(O4)CO)O)O)O)O2)OC5C(C(C(C(O5)CO)O)O)O)O)O,"2-(3,4-dihydroxyphenyl)-3,5-bis[[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy]chromen-7-one",S11,PubChem (NCBI) - public domain
 D-MANNOSE,4,0,matched,d mannose,18950,WQZGKKKJIJFFOK-QTVWNMPRSA-N,C6H12O6,180.16,C([C@@H]1[C@H]([C@@H]([C@@H](C(O1)O)O)O)O)O,"(3S,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",S11,PubChem (NCBI) - public domain
 DECYL-ALDEHYDE,4,0,matched,decyl aldehyde,8175,KSMVZQYAVGTKIV-UHFFFAOYSA-N,C10H20O,156.26,CCCCCCCCCC=O,decanal,S11,PubChem (NCBI) - public domain
-DIASTASE,4,0,matched,diastase,71475145,YMXBQIIPWIMAQE-UHFFFAOYSA-N,C11H10FNO,191.20,C=C=CCNC(=O)C1=CC=C(C=C1)F,"N-buta-2,3-dienyl-4-fluorobenzamide",S11,PubChem (NCBI) - public domain
+DIASTASE,4,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 DIHYDROACTINIDIOLIDE,4,0,matched,dihydroactinidiolide,6432173,IMKHDCBNRDRUEB-LLVKDONJSA-N,C11H16O2,180.24,C[C@@]12CCCC(C1=CC(=O)O2)(C)C,"(7aR)-4,4,7a-trimethyl-6,7-dihydro-5H-1-benzofuran-2-one",S11,PubChem (NCBI) - public domain
 ETHYL-AMINE,4,0,matched,ethyl amine,6341,QUSNBJAOOMFDIB-UHFFFAOYSA-N,C2H7N,45.08,CCN,ethanamine,S11,PubChem (NCBI) - public domain
 EUROPIUM,4,0,matched,europium,23981,OGPBJKLSAFTDLK-UHFFFAOYSA-N,Eu,151.964,[Eu],europium,S11,PubChem (NCBI) - public domain
@@ -549,13 +549,13 @@ GALLOCATECHIN,4,0,matched,gallocatechin,65084,XMOCLSLCDHWDHP-SWLSCSKDSA-N,C15H14
 GAMMA-ELEMENE,4,0,matched,gamma elemene,6432312,BQSLMQNYHVFRDT-LSDHHAIUSA-N,C15H24,204.35,CC(=C1CC[C@@]([C@@H](C1)C(=C)C)(C)C=C)C,"cis-(1S,2S)-1-ethenyl-1-methyl-4-propan-2-ylidene-2-prop-1-en-2-ylcyclohexane",S11,PubChem (NCBI) - public domain
 GERMANIUM,4,0,matched,germanium,6326954,GNPVGFCGXDBREM-UHFFFAOYSA-N,Ge,72.63,[Ge],germanium,S11,PubChem (NCBI) - public domain
 GIBBERELLIN-A-3,4,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
-GLOBULIN,4,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+GLOBULIN,4,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 GRAMISTEROL,4,0,matched_first_of_many,gramisterol,5283640,RSMKYRDCCSNYFM-AAGDOFLISA-N,C29H48O,412.7,C[C@@H]1[C@H](CC[C@]2([C@H]1CC=C3[C@@H]2CC[C@]4([C@H]3CC[C@@H]4[C@H](C)CCC(=C)C(C)C)C)C)O,"(3S,4S,5S,9R,10S,13R,14R,17R)-4,10,13-trimethyl-17-[(2R)-6-methyl-5-methylideneheptan-2-yl]-2,3,4,5,6,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",S11,PubChem (NCBI) - public domain
 HEPTAN-1-AL,4,0,matched,heptan-1-al,8130,FXHGMKSSBGDXIY-UHFFFAOYSA-N,C7H14O,114.19,CCCCCCC=O,heptanal,S11,PubChem (NCBI) - public domain
 HEPTANOIC-ACID,4,0,matched,heptanoic acid,8094,MNWFXJYAOYHMED-UHFFFAOYSA-N,C7H14O2,130.18,CCCCCCC(=O)O,heptanoic acid,S11,PubChem (NCBI) - public domain
 HEXADECANOIC-ACID,4,0,matched,hexadecanoic acid,985,IPCSVZSSVZVIGE-UHFFFAOYSA-N,C16H32O2,256.42,CCCCCCCCCCCCCCCC(=O)O,hexadecanoic acid,S11,PubChem (NCBI) - public domain
 HEXAN-1-OL,4,0,matched,hexan 1 ol,20478583,ALADGKIFCRBZBL-UHFFFAOYSA-N,C6H13O-,101.17,[CH2-]CCCCCO,hexan-1-ol,S11,PubChem (NCBI) - public domain
-INVERTASE,4,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+INVERTASE,4,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 ISOCITRIC-ACID,4,0,matched,isocitric acid,1198,ODBLHEXUDAPZAU-UHFFFAOYSA-N,C6H8O7,192.12,C(C(C(C(=O)O)O)C(=O)O)C(=O)O,"1-hydroxypropane-1,2,3-tricarboxylic acid",S11,PubChem (NCBI) - public domain
 KAEMPFEROL-3-0-GLUCOSIDE,4,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 KAEMPFEROL-3-0-RUTINOSIDE,4,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -579,7 +579,7 @@ OCTAN-1-OL,4,0,matched,octan 1 ol,20532114,ATKIGFUAOXHQMV-UHFFFAOYSA-N,C16H36O2,
 OCTANAL,4,0,matched,octanal,454,NUJGJRNETVAIRJ-UHFFFAOYSA-N,C8H16O,128.21,CCCCCCCC=O,octanal,S11,PubChem (NCBI) - public domain
 OXALATE,4,0,matched,oxalate,71081,MUBZPKHOEPUJKR-UHFFFAOYSA-L,C2O4-2,88.02,C(=O)(C(=O)[O-])[O-],oxalate,S11,PubChem (NCBI) - public domain
 PENTOSAN,4,0,matched,pentosan,92043424,MSJQCBORNZDNDU-UHFFFAOYSA-D,C29H38Na10O50S9,1705.1,COC1COC(C(C1OS(=O)(=O)[O-])OS(=O)(=O)[O-])OC2COC(C(C2OS(=O)(=O)[O-])OS(=O)(=O)[O-])OC3COC(C(C3OS(=O)(=O)[O-])OC4C(C(C(C(O4)C(=O)[O-])OC)OS(=O)(=O)[O-])OS(=O)(=O)[O-])OC5COC(C(C5OS(=O)(=O)[O-])OS(=O)(=O)[O-])OC.[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+],"decasodium;3-methoxy-6-[2-(6-methoxy-4,5-disulfonatooxyoxan-3-yl)oxy-5-[5-(5-methoxy-3,4-disulfonatooxyoxan-2-yl)oxy-3,4-disulfonatooxyoxan-2-yl]oxy-4-sulfonatooxyoxan-3-yl]oxy-4,5-disulfonatooxyoxane-2-carboxylate",S11,PubChem (NCBI) - public domain
-PHYTASE,4,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+PHYTASE,4,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 PHYTOENE,4,0,matched,phytoene,5280784,YVLPJIGOMTXXLP-KEKOKYSKSA-N,C40H64,544.9,CC(=CCC/C(=C/CC/C(=C/CC/C(=C/C=C/C=C(/CC/C=C(/CC/C=C(/CCC=C(C)C)\C)\C)\C)/C)/C)/C)C,"(6E,10E,14E,16E,18E,22E,26E)-2,6,10,14,19,23,27,31-octamethyldotriaconta-2,6,10,14,16,18,22,26,30-nonaene",S11,PubChem (NCBI) - public domain
 POPULNIN,4,0,matched,populnin,10095180,YPWHZCPMOQGCDQ-HMGRVEAOSA-N,C21H20O11,448.4,C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O)O,"3,5-dihydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",S11,PubChem (NCBI) - public domain
 RESINS,4,0,matched,resins,6850749,ZLGIYFNHBLSMPS-ATJNOEHPSA-N,C30H50O11,586.7,C[C@]1([C@H]2CC3(C1CC[C@H]3C(=O)O)[C@H](C=C2C(=O)O)O)CO.C(CCCC(C(CCCCCO)O)O)CCCC(=O)O,"(2R,6S,7R,10S)-10-hydroxy-6-(hydroxymethyl)-6-methyltricyclo[5.3.1.01,5]undec-8-ene-2,8-dicarboxylic acid;9,10,15-trihydroxypentadecanoic acid",S11,PubChem (NCBI) - public domain
@@ -669,7 +669,7 @@ PHENYLACETIC-ACID,3,2,matched,phenylacetic acid,999,WLJVXDMOQOGPHL-UHFFFAOYSA-N,
 PIPERONAL,3,2,matched,piperonal,8438,SATCULPHIDQDRE-UHFFFAOYSA-N,C8H6O3,150.13,C1OC2=C(O1)C=C(C=C2)C=O,"1,3-benzodioxole-5-carbaldehyde",S11,PubChem (NCBI) - public domain
 PROCYANIDIN-B-3,3,2,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 QUERCETIN-3'-GLUCOSIDE,3,2,matched,quercetin 3' glucoside,9934142,YLWQTYZKYGNKPI-HMGRVEAOSA-N,C21H20O12,464.4,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O,"3,5,7-trihydroxy-2-[4-hydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]chromen-4-one",S11,PubChem (NCBI) - public domain
-RIBONUCLEASE,3,2,matched,ribonuclease,9369,CQOVPNPJLQNMDC-UHFFFAOYSA-N,C9H14N4O3,226.23,C1=C(NC=N1)CC(C(=O)O)NC(=O)CCN,2-(3-aminopropanoylamino)-3-(1H-imidazol-5-yl)propanoic acid,S11,PubChem (NCBI) - public domain
+RIBONUCLEASE,3,2,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 S-METHYL-CYSTEINE-SULFOXIDE,3,2,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 TRANS-BETA-FARNESENE,3,2,matched,trans-beta-farnesene,5281517,JSNRRGGBADWTMC-NTCAYCPXSA-N,C15H24,204.35,CC(=CCC/C(=C/CCC(=C)C=C)/C)C,"(6E)-7,11-dimethyl-3-methylidenedodeca-1,6,10-triene",S11,PubChem (NCBI) - public domain
 TRANS-FERULIC-ACID,3,2,matched,trans-ferulic acid,445858,KSEBMYQBYZTDHS-HWKANZROSA-N,C10H10O4,194.18,COC1=C(C=CC(=C1)/C=C/C(=O)O)O,(E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoic acid,S11,PubChem (NCBI) - public domain
@@ -778,7 +778,7 @@ HEPT-TRANS-2-EN-1-AL,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 HEPTAN-2-OL,3,0,matched,heptan 2 ol,157800329,DGOKNKCPHIAXHM-UHFFFAOYSA-N,C14H32O2,232.40,CCCCCC(C)O.CCCCCC(C)O,heptan-2-ol,S11,PubChem (NCBI) - public domain
 HEPTAN-2-ONE,3,0,matched,heptan 2 one,58249824,LHRYJBPXPGPNEA-UHFFFAOYSA-N,C7H13O-,113.18,CC(=O)CCCC[CH2-],heptan-2-one,S11,PubChem (NCBI) - public domain
 HEXACOSAN-1-OL,3,0,matched,hexacosan 1 ol,170923598,GOQAFECJTQSXKZ-UHFFFAOYSA-N,C52H108O2,765.4,CCCCCCCCCCCCCCCCCCCCCCCCCCO.CCCCCCCCCCCCCCCCCCCCCCCCCCO,hexacosan-1-ol,S11,PubChem (NCBI) - public domain
-HEXOKINASE,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+HEXOKINASE,3,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 HUMULENE-OXIDE,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 HYDROXYGENISTEIN,3,0,matched,hydroxygenistein,129636354,RLWUVXWTTCLDMO-ACTPKOLHSA-N,C21H20O11,448.4,C1=CC(=CC=C1C2=C(C3=C(C=C(C=C3OC2=O)O[C@H]4C(C([C@@H](C(O4)CO)O)O)O)O)O)O,"4,5-dihydroxy-3-(4-hydroxyphenyl)-7-[(2S,5S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-2-one",S11,PubChem (NCBI) - public domain
 HYPOXANTHINE,3,0,matched,hypoxanthine,135398638,FDGQSTZJBFJUBT-UHFFFAOYSA-N,C5H4N4O,136.11,C1=NC2=C(N1)C(=O)NC=N2,"1,7-dihydropurin-6-one",S11,PubChem (NCBI) - public domain
@@ -789,11 +789,11 @@ ISOSCHAFTOSIDE,3,0,matched,isoschaftoside,3084995,OVMFOVNOXASTPA-VYUBKLCTSA-N,C2
 KAEMPFEROL-3-GLUCURONIDE,3,0,matched,kaempferol 3 glucuronide,22846027,FNTJVYCFNVUBOL-MBIBTLSJSA-N,C21H18O12,462.4,C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)O)O)O)O)O,"(2S,3S,4S,5R)-6-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-3-yl]oxy-3,4,5-trihydroxyoxane-2-carboxylic acid",S11,PubChem (NCBI) - public domain
 LANTHANUM,3,0,matched,lanthanum,23926,FZLIPJUXYLNCLC-UHFFFAOYSA-N,La,138.9055,[La],lanthanum,S11,PubChem (NCBI) - public domain
 LEDOL,3,0,matched,ledol,11074994,AYXPYQRXGNDJFU-AQEIEYEASA-N,C15H26O,222.37,C[C@H]1CC[C@@H]2[C@H]1[C@@H]3[C@@H](C3(C)C)CC[C@]2(C)O,"(1aS,4S,4aR,7S,7aR,7bR)-1,1,4,7-tetramethyl-2,3,4a,5,6,7,7a,7b-octahydro-1aH-cyclopropa[e]azulen-4-ol",S11,PubChem (NCBI) - public domain
-LINAMARASE,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+LINAMARASE,3,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 LUTETIUM,3,0,matched,lutetium,23929,OHSVLFRHMCKCQY-UHFFFAOYSA-N,Lu,174.9667,[Lu],lutetium,S11,PubChem (NCBI) - public domain
 LYSOPHOSPHATIDYLCHOLINE,3,0,matched,lysophosphatidylcholine,5311264,RYCNUMLMNKHWPZ-SNVBAGLBSA-N,C10H22NO7P,299.26,CC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)O,[(2R)-3-acetyloxy-2-hydroxypropyl] 2-(trimethylazaniumyl)ethyl phosphate,S11,PubChem (NCBI) - public domain
 M-DIGALLIC-ACID,3,0,matched,m-digallic acid,341,COVFEVWNJUOYRL-UHFFFAOYSA-N,C14H10O9,322.22,C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)O,"3,4-dihydroxy-5-(3,4,5-trihydroxybenzoyl)oxybenzoic acid",S11,PubChem (NCBI) - public domain
-MALTASE,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+MALTASE,3,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 MARGARIC-ACID,3,0,matched,margaric acid,10465,KEMQGTRYUADPNZ-UHFFFAOYSA-N,C17H34O2,270.5,CCCCCCCCCCCCCCCCC(=O)O,heptadecanoic acid,S11,PubChem (NCBI) - public domain
 MARMESIN,3,0,matched,marmesin,334704,FWYSBEAFFPBAQU-LBPRGKRZSA-N,C14H14O4,246.26,CC(C)([C@@H]1CC2=C(O1)C=C3C(=C2)C=CC(=O)O3)O,"(2S)-2-(2-hydroxypropan-2-yl)-2,3-dihydrofuro[3,2-g]chromen-7-one",S11,PubChem (NCBI) - public domain
 METHYL-HEPTANONE,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -809,14 +809,14 @@ NONAN-2-ONE,3,0,matched,nonan 2 one,87173982,LLTDBNLHZCHBRI-UHFFFAOYSA-N,C18H36O
 OCT-TRANS-2-EN-1-AL,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 "OCTADECA-5,6-DIENOIC-ACID",3,0,matched,"octadeca-5,6-dienoic acid",5312471,YXJXBVWHSBEPDQ-UHFFFAOYSA-N,C18H32O2,280.4,CCCCCCCCCCCC=C=CCCCC(=O)O,"octadeca-5,6-dienoic acid",S11,PubChem (NCBI) - public domain
 OXALATES,3,0,matched,oxalates,71081,MUBZPKHOEPUJKR-UHFFFAOYSA-L,C2O4-2,88.02,C(=O)(C(=O)[O-])[O-],oxalate,S11,PubChem (NCBI) - public domain
-OXIDASE,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+OXIDASE,3,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 P-MENTH-CIS-2-EN-1-OL,3,0,matched,p-menth-cis-2-en-1-ol,526657,IZXYHAXVIZHGJV-UHFFFAOYSA-N,C10H18O,154.25,CC(C)C1CCC(C=C1)(C)O,1-methyl-4-propan-2-ylcyclohex-2-en-1-ol,S11,PubChem (NCBI) - public domain
 P-MENTH-TRANS-2-EN-1-OL,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 P-VINYL-GUAIACOL,3,0,matched,p-vinyl guaiacol,332,YOMSJEATGXXYPX-UHFFFAOYSA-N,C9H10O2,150.17,COC1=C(C=CC(=C1)C=C)O,4-ethenyl-2-methoxyphenol,S11,PubChem (NCBI) - public domain
 PECTINS,3,0,matched,pectins,441476,AEMOLEFTQBMNLQ-DTEWXJGMSA-N,C6H10O7,194.14,[C@@H]1([C@H]([C@H](O[C@H]([C@@H]1O)O)C(=O)O)O)O,"(2S,3R,4S,5R,6R)-3,4,5,6-tetrahydroxyoxane-2-carboxylic acid",S11,PubChem (NCBI) - public domain
 PENTANAL,3,0,matched,pentanal,8063,HGBOYTHUEUWSSQ-UHFFFAOYSA-N,C5H10O,86.13,CCCCC=O,pentanal,S11,PubChem (NCBI) - public domain
 PHENYL-ETHYL-ALCOHOL,3,0,matched,phenyl ethyl alcohol,6054,WRMNZCZEMHIOCP-UHFFFAOYSA-N,C8H10O,122.16,C1=CC=C(C=C1)CCO,2-phenylethanol,S11,PubChem (NCBI) - public domain
-PHOSPHATASE,3,0,matched,phosphatase,2723710,KAKKHKRHCKCAGH-UHFFFAOYSA-L,C6H16NNa2O12P,371.14,C1=CC(=CC=C1[N+](=O)[O-])OP(=O)([O-])[O-].O.O.O.O.O.O.[Na+].[Na+],disodium;(4-nitrophenyl) phosphate;hexahydrate,S11,PubChem (NCBI) - public domain
+PHOSPHATASE,3,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 PHOSPHATIDIC-ACID,3,0,matched,phosphatidic acid,446066,PORPENFLTBBHSG-MGBGTMOVSA-N,C35H69O8P,648.9,CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)O)OC(=O)CCCCCCCCCCCCCCC,[(2R)-2-hexadecanoyloxy-3-phosphonooxypropyl] hexadecanoate,S11,PubChem (NCBI) - public domain
 PHOSPHATIDYL-GLYCEROL,3,0,matched,phosphatidyl glycerol,44566653,ATBOMIWRCZXYSZ-XZBBILGWSA-N,C40H75O10P,747.0,CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC(CO)O)OC(=O)CCCCCCC/C=C/C/C=C/CCCCC,"[1-[2,3-dihydroxypropoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl] (9E,12E)-octadeca-9,12-dienoate",S11,PubChem (NCBI) - public domain
 POLYACETYLENES,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -837,7 +837,7 @@ TRANS-CINNAMIC-ACID,3,0,matched,trans cinnamic acid,444539,WBYWAXJHAXSJNI-VOTSOK
 TRANS-DIHYDROCARVONE,3,0,matched_first_of_many,trans-dihydrocarvone,22227,AZOCECCLWFDTAP-RKDXNWHRSA-N,C10H16O,152.23,C[C@@H]1CC[C@H](CC1=O)C(=C)C,"trans-(2R,5R)-2-methyl-5-prop-1-en-2-ylcyclohexan-1-one",S11,PubChem (NCBI) - public domain
 TUNGSTEN,3,0,matched,tungsten,23964,WFKWXMTUELFFGS-UHFFFAOYSA-N,W,183.84,[W],tungsten,S11,PubChem (NCBI) - public domain
 UMBELLIPRENIN,3,0,matched,umbelliprenin,1781413,GNMUGVNEWCZUAA-WOWYBKFKSA-N,C24H30O3,366.5,CC(=CCC/C(=C/CC/C(=C/COC1=CC2=C(C=C1)C=CC(=O)O2)/C)/C)C,"7-[(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trienoxy]chromen-2-one",S11,PubChem (NCBI) - public domain
-UREASE,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+UREASE,3,0,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 VICENIN-1,3,0,matched,vicenin 1,13644663,OVMFOVNOXASTPA-MCIQUCDDSA-N,C26H28O14,564.5,C1[C@H]([C@@H]([C@H]([C@@H](O1)C2=C(C(=C3C(=C2O)C(=O)C=C(O3)C4=CC=C(C=C4)O)[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O)O)O)O)O,"5,7-dihydroxy-2-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-6-[(2S,3R,4S,5R)-3,4,5-trihydroxyoxan-2-yl]chromen-4-one",S11,PubChem (NCBI) - public domain
 VIT-B12,3,0,matched,vit b12,73415824,ASARMUCNOOHMLO-WLORSUFZSA-L,C62H88CoN13O14P,1329.3,CC1=CC2=C(C=C1C)N(C=N2)[C@@H]3[C@@H]([C@@H]([C@H](O3)CO)OP(=O)([O-])O[C@@H](C)CNC(=O)CC[C@@]\4([C@H]([C@@H]5[C@]6([C@@]([C@@H](C(=N6)/C(=C\7/[C@@]([C@@H](C(=N7)/C=C\8/C([C@@H](C(=N8)/C(=C4\[N-]5)/C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)/C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co+2],"cobalt(2+);[(2R,3S,4R,5S)-5-(5,6-dimethylbenzimidazol-1-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] [(2S)-1-[3-[(1R,2R,3R,4Z,7S,9Z,12S,13S,14Z,17S,18S,19R)-2,13,18-tris(2-amino-2-oxoethyl)-7,12,17-tris(3-amino-3-oxopropyl)-3,5,8,8,13,15,18,19-octamethyl-2,7,12,17-tetrahydro-1H-corrin-21-id-3-yl]propanoylamino]propan-2-yl] phosphate",S11,PubChem (NCBI) - public domain
 VIT-E,3,0,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -968,7 +968,7 @@ ISOQUERCETIN,2,3,matched,isoquercetin,5280804,OVSQVDMCBVZWGM-QSOFNFLRSA-N,C21H20
 KIEVITONE,2,3,matched,kievitone,119269,MERHMOCEIBOOMA-UHFFFAOYSA-N,C20H20O6,356.4,CC(=CCC1=C2C(=C(C=C1O)O)C(=O)C(CO2)C3=C(C=C(C=C3)O)O)C,"3-(2,4-dihydroxyphenyl)-5,7-dihydroxy-8-(3-methylbut-2-enyl)-2,3-dihydrochromen-4-one",S11,PubChem (NCBI) - public domain
 MELIANTRIOL,2,3,matched,meliantriol,101650343,IKJQENAHDRKFKL-JJDPDEBESA-N,C30H50O5,490.7,C[C@@]12CC[C@H]3C(=CC[C@@H]4[C@@]3(CC[C@@H](C4(C)C)O)C)[C@]1(CC[C@H]2[C@@H]5C[C@@H](O[C@H]5O)[C@@H](C(C)(C)O)O)C,"(1S)-1-[(2R,4S,5R)-5-hydroxy-4-[(3S,5R,9R,10R,13S,14S,17S)-3-hydroxy-4,4,10,13,14-pentamethyl-2,3,5,6,9,11,12,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-17-yl]oxolan-2-yl]-2-methylpropane-1,2-diol",S11,PubChem (NCBI) - public domain
 METHYL-NONYL-KETONE,2,3,matched,methyl nonyl ketone,8163,KYWIYKKSMDLRDC-UHFFFAOYSA-N,C11H22O,170.29,CCCCCCCCCC(=O)C,undecan-2-one,S11,PubChem (NCBI) - public domain
-MURAMIDASE,2,3,matched,muramidase,91976556,ZJCXKXFAOCLSRV-UHFFFAOYSA-N,C99H159N37O23,2235.6,CCC(C)C(C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(C(C)C)C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)O)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C5CCCN5C(=O)C(CC(=O)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(C(C)C)NC(=O)C(C(C)C)NC(=O)C(CCCNC(=N)N)N,2-[[4-amino-2-[[2-[[2-[2-[[2-[[2-[2-[[2-[[2-[[2-[[5-amino-2-[[1-[2-[[2-[[2-[[2-[(2-amino-5-carbamimidamidopentanoyl)amino]-3-methylbutanoyl]amino]-3-methylbutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-carboxypropanoyl]pyrrolidine-2-carbonyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-3-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]propanoylamino]-3-(1H-indol-3-yl)propanoyl]amino]-3-methylbutanoyl]amino]propanoylamino]-3-(1H-indol-3-yl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-oxobutanoyl]amino]-5-carbamimidamidopentanoic acid,S11,PubChem (NCBI) - public domain
+MURAMIDASE,2,3,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 P-HYDROXYBENZALDEHYDE,2,3,matched,p-hydroxybenzaldehyde,126,RGHHSNMVTDWUBI-UHFFFAOYSA-N,C7H6O2,122.12,C1=CC(=CC=C1C=O)O,4-hydroxybenzaldehyde,S11,PubChem (NCBI) - public domain
 PHENETHYLAMINE,2,3,matched,phenethylamine,1001,BHHGXPLMPWCGHP-UHFFFAOYSA-N,C8H11N,121.18,C1=CC=C(C=C1)CCN,2-phenylethanamine,S11,PubChem (NCBI) - public domain
 PROCYANIDIN-B-2-3'-O-GALLATE,2,3,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -1312,7 +1312,7 @@ SABINOL,1,5,matched,sabinol,94147,MDFQXBNVOAKNAY-BBBLOLIVSA-N,C10H16O,152.23,CC(
 SALICYLALDEHYDE,1,5,matched,salicylaldehyde,6998,SMQUZDBALVYZAC-UHFFFAOYSA-N,C7H6O2,122.12,C1=CC=C(C(=C1)C=O)O,2-hydroxybenzaldehyde,S11,PubChem (NCBI) - public domain
 SCLAREOL,1,5,matched,sclareol,163263,XVULBTBTFGYVRC-HHUCQEJWSA-N,C20H36O2,308.5,C[C@]12CCCC([C@@H]1CC[C@@]([C@@H]2CC[C@](C)(C=C)O)(C)O)(C)C,"(1R,2R,4aS,8aS)-1-[(3R)-3-hydroxy-3-methylpent-4-enyl]-2,5,5,8a-tetramethyl-3,4,4a,6,7,8-hexahydro-1H-naphthalen-2-ol",S11,PubChem (NCBI) - public domain
 SOLANIDINE,1,5,matched,solanidine,65727,JVKYZPBMZPJNAJ-OQFNDJACSA-N,C27H43NO,397.6,C[C@H]1CC[C@@H]2[C@H]([C@H]3[C@@H](N2C1)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C,"(1S,2S,7S,10R,11S,14S,15R,16S,17R,20S,23S)-10,14,16,20-tetramethyl-22-azahexacyclo[12.10.0.02,11.05,10.015,23.017,22]tetracos-4-en-7-ol",S11,PubChem (NCBI) - public domain
-SUPEROXIDE-DISMUTASE,1,5,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+SUPEROXIDE-DISMUTASE,1,5,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 SYNEPHRINE,1,5,matched,synephrine,7172,YRCWQPVGYLYSOX-UHFFFAOYSA-N,C9H13NO2,167.20,CNCC(C1=CC=C(C=C1)O)O,4-[1-hydroxy-2-(methylamino)ethyl]phenol,S11,PubChem (NCBI) - public domain
 TAMARINDIENAL,1,5,matched,tamarindienal,157010050,CVAQUHGKMSSJIM-XQHVRGAUSA-N,C12H12O6,252.22,CC(=O)/C=C/C(=O)C=O.C=C(/C=C/C(=O)C=O)O,"(E)-2,5-dioxohex-3-enal;(3E)-5-hydroxy-2-oxohexa-3,5-dienal",S11,PubChem (NCBI) - public domain
 TERPINYL-ACETATE,1,5,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -1328,7 +1328,7 @@ ACETYL-11-KETO-BETA-BOSWELLIC-ACID,1,4,matched,acetyl 11 keto beta boswellic aci
 ADENOSINE-TRIPHOSPHATE,1,4,matched,adenosine triphosphate,5957,ZKHQWZAMYRWXGA-KQYNXXCUSA-N,C10H16N5O13P3,507.18,C1=NC(=C2C(=N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N,"[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate",S11,PubChem (NCBI) - public domain
 BEBEERINE,1,4,matched,bebeerine,12300019,NGZXDRGWBULKFA-NSOVKSMOSA-N,C36H38N2O6,594.7,CN1CCC2=CC(=C3C=C2[C@@H]1CC4=CC=C(C=C4)OC5=C6[C@H](CC7=CC(=C(C=C7)O)O3)N(CCC6=CC(=C5O)OC)C)OC,"(1S,16S)-10,25-dimethoxy-15,30-dimethyl-7,23-dioxa-15,30-diazaheptacyclo[22.6.2.23,6.18,12.118,22.027,31.016,34]hexatriaconta-3(36),4,6(35),8(34),9,11,18(33),19,21,24,26,31-dodecaene-9,21-diol",S11,PubChem (NCBI) - public domain
 BENZYL-CINNAMATE,1,4,matched,benzyl cinnamate,5273469,NGHOLYJTSCBCGC-VAWYXSNFSA-N,C16H14O2,238.28,C1=CC=C(C=C1)COC(=O)/C=C/C2=CC=CC=C2,benzyl (E)-3-phenylprop-2-enoate,S11,PubChem (NCBI) - public domain
-BRADYKININASE,1,4,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+BRADYKININASE,1,4,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 CANDICINE,1,4,matched,candicine,23135,PTOJXIKSKSASRB-UHFFFAOYSA-O,C11H18NO+,180.27,C[N+](C)(C)CCC1=CC=C(C=C1)O,2-(4-hydroxyphenyl)ethyl-trimethylazanium,S11,PubChem (NCBI) - public domain
 CHARANTIN,1,4,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
 CHRYSAZIN,1,4,matched,chrysazin,2950,QBPFLULOKWLNNW-UHFFFAOYSA-N,C14H8O4,240.21,C1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=CC=C3O,"1,8-dihydroxyanthracene-9,10-dione",S11,PubChem (NCBI) - public domain
@@ -1593,7 +1593,7 @@ GAULTHERIN,1,2,matched,gaultherin,5315244,VHUNCYDAXJGCLO-AHMNSWSSSA-N,C19H26O12,
 GERANYL-ACETONE,1,2,matched,geranyl acetone,1549778,HNZUNIKWNYHEJJ-FMIVXFBMSA-N,C13H22O,194.31,CC(=CCC/C(=C/CCC(=O)C)/C)C,"(5E)-6,10-dimethylundeca-5,9-dien-2-one",S11,PubChem (NCBI) - public domain
 GINGERENONE-B,1,2,matched,gingerenone b,5317592,BGYDJLLXKGVQBP-FNORWQNLSA-N,C22H26O6,386.4,COC1=CC(=CC(=C1O)OC)CC/C=C/C(=O)CCC2=CC(=C(C=C2)O)OC,"(E)-7-(4-hydroxy-3,5-dimethoxyphenyl)-1-(4-hydroxy-3-methoxyphenyl)hept-4-en-3-one",S11,PubChem (NCBI) - public domain
 GINGERENONE-C,1,2,matched,gingerenone c,5317593,JYHZFCAVESZNKO-HWKANZROSA-N,C20H22O4,326.4,COC1=C(C=CC(=C1)CCC(=O)/C=C/CCC2=CC=C(C=C2)O)O,(E)-1-(4-hydroxy-3-methoxyphenyl)-7-(4-hydroxyphenyl)hept-4-en-3-one,S11,PubChem (NCBI) - public domain
-GLUTEN,1,2,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+GLUTEN,1,2,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 GRANATIN-A,1,2,matched,granatin a,131752596,BEAQEKRAXFQCBO-UHFFFAOYSA-N,C34H24O22,784.5,C1C2C3C(C(C(O2)C(=O)C4=CC(=C(C(=C4C5=C(C(=C(C=C5C(=O)O1)O)O)O)O)O)O)OC(=O)C6=CC(=O)C7(C(C6C8=C(O7)C(=C(C=C8C(=O)O3)O)O)(O)O)O)O,"6,7,8,11,12,13,25,26,30,30,31,37-dodecahydroxy-17,21,36,38,39-pentaoxaoctacyclo[18.16.1.12,19.127,31.04,9.010,15.023,28.029,34]nonatriaconta-4,6,8,10,12,14,23,25,27,33-decaene-3,16,22,32,35-pentone",S11,PubChem (NCBI) - public domain
 HELENIEN,1,2,matched,helenien,5281240,YHGJHDJZIOYZIR-URPSFYETSA-N,C72H116O4,1045.7,CCCCCCCCCCCCCCCC(=O)O[C@@H]1CC(=C(C(C1)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@H]2C(=C[C@@H](CC2(C)C)OC(=O)CCCCCCCCCCCCCCC)C)/C)/C)C,"[(1R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(1R,4R)-4-hexadecanoyloxy-2,6,6-trimethylcyclohex-2-en-1-yl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethylcyclohex-3-en-1-yl] hexadecanoate",S11,PubChem (NCBI) - public domain
 HERSAPONIN,1,2,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
@@ -1947,7 +1947,7 @@ TRIFOLIN,1,1,matched,trifolin,5282149,JPUKWEQWGBDDQB-DTGCRPNFSA-N,C21H20O11,448.
 TULIPOSIDE-A,1,1,matched,tuliposide a,108011,SQRUWMQAWMLKPR-DZEUPHNYSA-N,C11H18O8,278.26,C=C(CCO)C(=O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O,"[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] 4-hydroxy-2-methylidenebutanoate",S11,PubChem (NCBI) - public domain
 TURMERONOL-A,1,1,matched,turmeronol a,11117927,OSIFVLKZUWRNBN-LBPRGKRZSA-N,C15H20O2,232.32,CC1=C(C=C(C=C1)[C@@H](C)CC(=O)C=C(C)C)O,(6S)-6-(3-hydroxy-4-methylphenyl)-2-methylhept-2-en-4-one,S11,PubChem (NCBI) - public domain
 TURMERONOL-B,1,1,matched,turmeronol b,10955433,WYIJOOQDLOBLCP-UHFFFAOYSA-N,C15H20O2,232.32,CC1=CC(=C(C=C1)C(C)CC(=O)C=C(C)C)O,6-(2-hydroxy-4-methylphenyl)-2-methylhept-2-en-4-one,S11,PubChem (NCBI) - public domain
-TYROSINASE,1,1,not_found,,,,,,,,S11,PubChem (NCBI) - public domain
+TYROSINASE,1,1,skipped: enzyme or protein (not a small molecule),,,,,,,,S11,PubChem (NCBI) - public domain
 VINCALEUKOBLASTINE,1,1,matched,vincaleukoblastine,13342,JXLYSJRDGCGARV-CFWMRBGOSA-N,C46H58N4O9,811.0,CC[C@@]1(C[C@H]2C[C@@](C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)[C@]78CCN9[C@H]7[C@@](C=CC9)([C@H]([C@@]([C@@H]8N6C)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O,"methyl (1R,9R,10S,11R,12R,19R)-11-acetyloxy-12-ethyl-4-[(13S,15R,17S)-17-ethyl-17-hydroxy-13-methoxycarbonyl-1,11-diazatetracyclo[13.3.1.04,12.05,10]nonadeca-4(12),5,7,9-tetraen-13-yl]-10-hydroxy-5-methoxy-8-methyl-8,16-diazapentacyclo[10.6.1.01,9.02,7.016,19]nonadeca-2,4,6,13-tetraene-10-carboxylate",S11,PubChem (NCBI) - public domain
 VINCATHICINE,1,1,matched,vincathicine,198365,AYFGUFZGUHLVPW-UHFFFAOYSA-N,C46H56N4O9,809.0,CCC1(CN2CCC34C1C(C2)CC(C3=NC5=CC=CC=C45)(C6=C(C=C7C(=C6)C89CCN1C8C(C=CC1)(C(C(C9N7C)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O,"methyl 11-acetyloxy-12-ethyl-4-(17-ethyl-17-hydroxy-13-methoxycarbonyl-1,11-diazapentacyclo[13.3.1.04,12.04,16.05,10]nonadeca-5,7,9,11-tetraen-13-yl)-10-hydroxy-5-methoxy-8-methyl-8,16-diazapentacyclo[10.6.1.01,9.02,7.016,19]nonadeca-2,4,6,13-tetraene-10-carboxylate",S11,PubChem (NCBI) - public domain
 VINDOLINE,1,1,matched,vindoline,260535,CXBGOBGJHGGWIE-ACSXSLCXSA-N,C25H32N2O6,456.5,CC[C@@]12C=CCN3[C@@H]1[C@]4(CC3)[C@H]([C@]([C@@H]2OC(=O)C)(C(=O)OC)O)N(C5=C4C=CC(=C5)OC)C,"methyl (1R,9R,10S,11R,12R,19R)-11-acetyloxy-12-ethyl-10-hydroxy-5-methoxy-8-methyl-8,16-diazapentacyclo[10.6.1.01,9.02,7.016,19]nonadeca-2(7),3,5,13-tetraene-10-carboxylate",S11,PubChem (NCBI) - public domain

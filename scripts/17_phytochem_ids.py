@@ -27,6 +27,19 @@ AGG = {"FAT", "PROTEIN", "ASH", "FIBER", "WATER", "CARBOHYDRATES", "KILOCALORIES
        "PENTOSANS", "HEMICELLULOSE", "CRUDE-FIBER", "VOLATILE-OIL", "TOCOPHEROL", "FATTY-ACIDS", "PHENOLS", "GLUCOSIDES",
        "STEROLS", "TERPENES", "VITAMIN-A", "VITAMIN-B", "VITAMIN-C", "VITAMIN-E", "NIACIN-EQUIVALENTS"}
 
+# enzymes and other proteins appear in Dr. Duke's chemical lists; PubChem's name search maps them to unrelated small
+# molecules (e.g. 'peroxidase' -> a kinase-inhibitor benzamide), so they get no compound identifier and no ChEMBL lookup
+MACRO = re.compile(r"(ASE|ASES)$|^(PAPAIN|BROMELAIN|BROMELIN|FICIN|PEPSIN|TRYPSIN|RENNIN|LECTINS?|ALBUMINS?|GLOBULINS?|"
+                   r"GLUTEN|CASEIN|COLLAGEN|KERATIN|ZEIN|LYSOZYME|HEMAGGLUTININS?|PROTEINASE-INHIBITORS?)$")
+
+def drop_macromolecules(out):
+    m = out.chemical.str.contains(MACRO, regex=True)
+    for c in ("pubchem_lookup_name", "pubchem_cid", "inchikey", "formula", "molecular_weight", "smiles", "iupac_name"):
+        if c in out:
+            out.loc[m, c] = ""
+    out.loc[m, "pubchem_match"] = "skipped: enzyme or protein (not a small molecule)"
+    return out, int(m.sum())
+
 def cache(name):
     f = CACHE / name
     return f, (json.loads(f.read_text()) if f.exists() else {})
@@ -162,6 +175,8 @@ def main(top_chembl=300, chembl_only=False):
         out["licence"] = "PubChem (NCBI) - public domain"
         out.to_csv(P / "phytochemicals.csv", index=False)
         print(f"  phytochemicals: {len(out)}; matched {out.pubchem_match.str.startswith('matched').mean():.3f}; service errors {errors}")
+    out, n_macro = drop_macromolecules(out)
+    out.to_csv(P / "phytochemicals.csv", index=False)
     # ---- ChEMBL targets (separate, share-alike) ----
     n_try, failed, trows = chembl_step(out, top_chembl)
     status = {"chembl_compounds_attempted": n_try, "chembl_failures": failed,
@@ -177,7 +192,7 @@ def main(top_chembl=300, chembl_only=False):
             "Filter: human SINGLE PROTEIN targets, pChEMBL >= 6 (potency <= 1 uM); compounds matched by InChIKey.\n")
     (ROOT / "reports/phytochem_ids_report.json").write_text(json.dumps({
         "compounds_in_scope": len(out), "pubchem_matched": int(out.pubchem_match.str.startswith("matched").sum()),
-        "pubchem_service_errors": errors, **status}, indent=2))
+        "pubchem_service_errors": errors, "skipped_enzymes_or_proteins": n_macro, **status}, indent=2))
     print(json.dumps(status))
 
 if __name__ == "__main__":
