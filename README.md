@@ -9,7 +9,7 @@
 [![Release v1.2](https://img.shields.io/badge/release-v1.2-0f8a5f?style=flat-square)](docs/DATASHEET.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](requirements.txt)
-[![Tests: 90 passing](https://img.shields.io/badge/tests-90%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Tests: 91 passing](https://img.shields.io/badge/tests-91%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Frictionless Data Package](https://img.shields.io/badge/Frictionless-data%20package-1f6feb?style=flat-square)](release/datapackage.json)
 [![Languages: English, Hindi, Sanskrit](https://img.shields.io/badge/languages-English%20%7C%20Hindi%20%7C%20Sanskrit-e67e22?style=flat-square)](#whats-inside)
 
@@ -247,7 +247,7 @@ flowchart TB
 | | `09_docs.py`, `11_embed_index.py` | data dictionary; multilingual embedding index |
 | | `12_report.py`, `13_package.sh` | dataset report and the result tables in this README; release zip |
 | | `21_review_workbooks.py`, `22_build_tools.py` | expert-review workbook (build / merge) and the interactive tools |
-| Test | `tests/` | 90 automated checks: transliteration, keys, references, encoding, domain and safety rules, bilingual coverage, ML baselines, the demo |
+| Test | `tests/` | 91 automated checks: transliteration, keys, references, encoding, domain and safety rules, bilingual coverage, ML baselines, the demo |
 
 **Built with**
 
@@ -317,7 +317,7 @@ Measured on the same rows and folds as the original experiments:
 | Disorders with a definition | 55.5% | 69.8% | 415 WHO definitions for disorders NAMASTE leaves undefined |
 | Disorders with a symptom profile | 1,595 | 2,243 | 13,639 edges from WHO sign lists + inherited profiles for subtypes (flagged) |
 | Disorders with a doṣa suggestion | 0 | 1,420 | text model, cross-validated accuracy 0.90; flagged for expert review |
-| Hindi translation errors fixed by rule | - | 35 rows | e.g. 'stiffness' had been translated as 'bitterness' |
+| Hindi translation errors fixed by rule | - | 104 rows | e.g. 'stiffness' had been translated as 'bitterness' |
 <!-- UPGRADES_END -->
 
 ## Repository layout
@@ -346,7 +346,7 @@ Ayurveda-dataset/
 
 Release **v1.2**. Done:
 
-- [x] 26 pipeline stages, experiments E1–E8 and 90 automated checks
+- [x] 26 pipeline stages, experiments E1–E8 and 91 automated checks
 - [x] Dataset report, Review Desk and Prakṛti questionnaire (source pages in `release/tools/`)
 - [x] ChEMBL compound–target links: 323 links, 62 compounds, 196 human proteins (built locally, see below)
 

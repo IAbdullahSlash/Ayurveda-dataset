@@ -61,8 +61,9 @@ def postedit(df, en_col, hi_col, method_col, rules):
     """deterministic post-edits for systematic machine-translation errors (curation/mt_postedit_rules.csv)"""
     n = 0
     for r in rules.itertuples():
-        m = (df[en_col].str.contains(r.en_regex, case=False, regex=True) & ~df[en_col].str.contains(r.en_exclude_regex, case=False, regex=True)
-             & df[hi_col].str.contains(r.hi_wrong_regex, regex=True))
+        m = df[en_col].str.contains(r.en_regex, case=False, regex=True) & df[hi_col].str.contains(r.hi_wrong_regex, regex=True)
+        if r.en_exclude_regex:     # blank = no exclusion (an empty pattern matches every row and would disable the rule)
+            m &= ~df[en_col].str.contains(r.en_exclude_regex, case=False, regex=True)
         if m.any():
             df.loc[m, hi_col] = df.loc[m, hi_col].str.replace(r.hi_wrong_regex, r.hi_right, regex=True)
             if method_col in df:

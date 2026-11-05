@@ -285,3 +285,5 @@ ear lobule,कर्णपालि (कान की लौ),anatomy
 ulceration,व्रण निर्माण,lesion
 ulcers,व्रण (घाव),lesion
 stiffness,जकड़न,NLLB rendered it as कड़वाहट (bitterness) in some glosses; fixed by rule
+nausea,मतली,"symptom; NLLB rendered it as उल्टी (vomiting), बुखार (fever), जलन (burning) or उलझन (confusion) in some glosses; fixed by rule"
+nauseating,मतली लाने वाला,symptom; NLLB rendered it as अपच (indigestion); fixed by rule

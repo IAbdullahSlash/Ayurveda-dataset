@@ -201,6 +201,20 @@ def test_dosha_suggestions_flagged_not_merged():
     assert (d.loc[s.disease_id].dosha_label == "unspecified").all(), "suggestions are only for unspecified disorders"
     assert s.confidence.between(0, 1).all() and (s.margin >= 0).all()
 
+def test_nausea_not_mistranslated():
+    """NLLB rendered 'nausea' as fever, burning, vomiting, ...; curation/mt_postedit_rules.csv fixes it (stage 25)"""
+    s = rd("symptoms")
+    nausea = s[s.gloss_en.str.contains("nausea", case=False)]
+    assert len(nausea) >= 10
+    wrong = nausea[nausea.gloss_hi.str.contains("बुखार|जलन") & ~nausea.gloss_en.str.contains("fever|burn", case=False)]
+    assert wrong.empty, wrong[["symptom_id", "gloss_en", "gloss_hi"]].to_string()
+    # every nausea symptom (also the source typo 'nause') and every translated disorder definition says मतली / जी मिचलाना
+    sym = s[s.gloss_en.str.contains(r"\bnause", case=False)]
+    assert sym.gloss_hi.str.contains("मतली|मिचल").all(), sym[["symptom_id", "gloss_en", "gloss_hi"]].to_string()
+    d = rd("diseases")
+    d = d[d.definition_en.str.contains(r"\bnause", case=False) & (d.definition_hi != "")]
+    assert len(d) >= 50 and d.definition_hi.str.contains("मतली|मिचल").all(), d[~d.definition_hi.str.contains("मतली|मिचल")].disease_id.tolist()
+
 def test_matching_improvements_beat_baselines():
     f = ROOT / "reports/ml/E6b_matching_improvements.json"
     if not f.exists():
