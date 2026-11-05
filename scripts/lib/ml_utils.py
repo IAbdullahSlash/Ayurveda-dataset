@@ -2,7 +2,8 @@
 Shared ML machinery: model zoo, repeated stratified cross-validation, metrics, calibration (ECE),
 selective prediction (abstain-and-refer curves) and plotting.
 """
-import json, time, warnings
+import json, time, warnings, hashlib, os
+from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -76,12 +77,21 @@ def ece(y_true_idx, proba, n_bins=10):
             e += m.mean() * abs(acc[m].mean() - conf[m].mean())
     return float(e)
 
-def evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, label=None, fit_kw=None, topk=(3,), skip_slow=()):
+def evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, label=None, fit_kw=None, topk=(3,), skip_slow=(), preprocessor=None):
     """repeated stratified k-fold; returns per-model mean/std metrics and pooled out-of-fold probabilities."""
     classes = np.unique(y)
     yi = np.searchsorted(classes, y)
     cv = RepeatedStratifiedKFold(n_splits=n_splits, n_repeats=n_repeats, random_state=SEED)
     splits = list(cv.split(np.zeros(len(y)), yi))
+    manifest_dir = os.environ.get("AYURKB_SPLIT_DIR")
+    if manifest_dir:
+        digest = hashlib.sha256(np.asarray(y, dtype=str).tobytes()).hexdigest()
+        manifest = {"label": label, "label_sha256": digest, "seed": SEED,
+                    "n_splits": n_splits, "n_repeats": n_repeats,
+                    "folds": [{"train": tr.tolist(), "test": te.tolist()} for tr, te in splits]}
+        directory = Path(manifest_dir)
+        directory.mkdir(parents=True, exist_ok=True)
+        (directory / f"{digest[:16]}-{n_splits}-{n_repeats}.json").write_text(json.dumps(manifest, indent=2))
     rows, oof = [], {}
     for name, model in zoo.items():
         if name in skip_slow:
@@ -93,17 +103,20 @@ def evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, label=None, fit_kw=None, top
         for r, (tr, te) in enumerate(splits):
             est = clone(model)
             t0 = time.time()
-            if name.startswith(("XGBoost",)):
-                est.fit(X[tr], yi[tr])
-            else:
-                est.fit(X[tr], yi[tr])
+            xtr = X.iloc[tr] if hasattr(X, "iloc") else X[tr]
+            xte = X.iloc[te] if hasattr(X, "iloc") else X[te]
+            if preprocessor is not None:
+                transform = clone(preprocessor)
+                xtr = transform.fit_transform(xtr, yi[tr])
+                xte = transform.transform(xte)
+            est.fit(xtr, yi[tr])
             m["fit_s"].append(time.time() - t0)
             if hasattr(est, "predict_proba"):
-                pr = est.predict_proba(X[te])
+                pr = est.predict_proba(xte)
                 full = np.zeros((len(te), len(classes)))
                 full[:, est.classes_.astype(int)] = pr
             else:
-                d = est.decision_function(X[te]); full = np.zeros((len(te), len(classes)))
+                d = est.decision_function(xte); full = np.zeros((len(te), len(classes)))
                 full[:, est.classes_.astype(int)] = np.exp(d) / np.exp(d).sum(1, keepdims=True)
             pred = full.argmax(1)
             m["accuracy"].append(accuracy_score(yi[te], pred))

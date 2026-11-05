@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.7603951890034364,
+      "accuracy_std": 0.016940744282759216,
+      "balanced_accuracy_mean": 0.5986014121940896,
+      "balanced_accuracy_std": 0.01788348657875051,
+      "macro_f1_mean": 0.603753021756791,
+      "macro_f1_std": 0.018164768005383053,
+      "weighted_f1_mean": 0.7485167147926395,
+      "weighted_f1_std": 0.016198522238120044,
+      "roc_auc_ovr_mean": 0.8503241916772956,
+      "roc_auc_ovr_std": 0.015382151121130989,
+      "log_loss_mean": 0.7591393927722441,
+      "log_loss_std": 0.025916629418609054,
+      "ece_mean": 0.10184178021630814,
+      "ece_std": 0.024855406516101252,
+      "fit_s_mean": 0.7329757213592529,
+      "fit_s_std": 0.04744014487445192,
+      "top3_accuracy_mean": 0.9420962199312715,
+      "top3_accuracy_std": 0.019344973120326566
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.38842353951890035,
+      "accuracy_std": 0.004266439276918872,
+      "balanced_accuracy_mean": 0.2,
+      "balanced_accuracy_std": 0.0,
+      "macro_f1_mean": 0.1119007468921059,
+      "macro_f1_std": 0.0008870951593278901,
+      "weighted_f1_mean": 0.21734334457727128,
+      "weighted_f1_std": 0.0040974145115199355,
+      "roc_auc_ovr_mean": 0.5,
+      "roc_auc_ovr_std": 0.0,
+      "log_loss_mean": 9.857447887908895,
+      "log_loss_std": 0.06876687635438408,
+      "ece_mean": 0.6115764604810996,
+      "ece_std": 0.004266439276918838,
+      "fit_s_mean": 0.34769434928894044,
+      "fit_s_std": 0.038304995075603296,
+      "top3_accuracy_mean": 0.5413015463917525,
+      "top3_accuracy_std": 0.006418767734748571
+    }
+  ],
+  "n": 484,
+  "class_counts": {
+    "vata": 188,
+    "pitta": 115,
+    "kapha": 107,
+    "vata+pitta+kapha": 58,
+    "vata+pitta": 16
+  },
+  "masking_regex": "\\b(v[a\u0101]t\\w*|pitt\\w*|paitt\\w*|kaph\\w*|[s\u015b][l\u1e37]e[s\u1e63]m\\w*|[s\u015b]lai[s\u1e63]m\\w*|sann?ip[a\u0101]t\\w*|s[a\u0101]nnip[a\u0101]t\\w*|trido[s\u1e63]\\w*|v[a\u0101]y[u\u016b]\\w*|d[o\u014d][s\u1e63]a\\w*|pr\u0101\u1e47a\\w*|ud\u0101na\\w*|vy\u0101na\\w*|ap\u0101na\\w*|sam\u0101na\\w*)",
+  "data_origin": "real (NAMASTE S1)"
+}

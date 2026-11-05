@@ -31,7 +31,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
-from sklearn.pipeline import Pipeline, make_pipeline
+from sklearn.pipeline import Pipeline, make_pipeline, FeatureUnion
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.metrics import f1_score, roc_auc_score, accuracy_score, classification_report
@@ -55,10 +55,14 @@ DOSHA_MASK = re.compile(r"\b(v[aā]t\w*|pitt\w*|paitt\w*|kaph\w*|[sś][lḷ]e[s�
                         r"s[aā]nnip[aā]t\w*|trido[sṣ]\w*|v[aā]y[uū]\w*|d[oō][sṣ]a\w*|prāṇa\w*|udāna\w*|vyāna\w*|apāna\w*|samāna\w*)",
                         re.I)
 
-def text_features(texts, fit=None):
+def text_preprocessor():
     w = TfidfVectorizer(ngram_range=(1, 2), min_df=2, sublinear_tf=True, max_features=30000)
     c = TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 5), min_df=3, sublinear_tf=True, max_features=40000)
-    return sparse.hstack([w.fit_transform(texts), c.fit_transform(texts)]).tocsr()
+    return FeatureUnion([("word", w), ("character", c)])
+
+def text_features(texts, fit=None):
+    """Full-corpus features for final fitting only; CV must use text_preprocessor."""
+    return text_preprocessor().fit_transform(texts)
 
 def e1(bilingual=False):
     d = rd("diseases")
@@ -70,9 +74,9 @@ def e1(bilingual=False):
     a = d[d.system_code.isin(keep)].copy()
     names = a.drop_duplicates("system_code").set_index("system_code").system_name_en.to_dict()
     texts = (a.name_en + " . " + a.definition_en).tolist()
-    X = text_features(texts)
-    print(f"[E1a] organ-system from text: n={len(a)} classes={a.system_code.nunique()} features={X.shape[1]}")
-    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(a.system_code), n_splits=5, n_repeats=1)
+    X = np.asarray(texts, dtype=object)
+    print(f"[E1a] organ-system from text: n={len(a)} classes={a.system_code.nunique()} inputs={len(X)}")
+    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(a.system_code), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
     best = res.iloc[0].model
     plot_bars(res, "macro_f1", "E1a  NAMASTE disorder -> organ-system category (text, 5-fold CV)", FIG / "E1a_models_macroF1.png")
     plot_confusion(yi, oof[best].argmax(1), [f"{c}:{names.get(c, '')[:18]}" for c in cls], f"E1a confusion ({best})", FIG / "E1a_confusion.png")
@@ -83,9 +87,9 @@ def e1(bilingual=False):
     b = d[(d.dosha_source == "term") & (d.dosha_label != "unspecified")].copy()
     vc = b.dosha_label.value_counts(); b = b[b.dosha_label.isin(vc[vc >= 15].index)]
     masked = b.definition_en.map(lambda t: DOSHA_MASK.sub(" ", t))
-    X = text_features(masked.tolist())
+    X = np.asarray(masked.tolist(), dtype=object)
     print(f"[E1b] dosha from masked symptom text: n={len(b)} classes={b.dosha_label.value_counts().to_dict()}")
-    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(b.dosha_label), n_splits=5, n_repeats=1)
+    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(b.dosha_label), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
     plot_bars(res, "macro_f1", "E1b  doṣa involvement from symptom text (doṣa words masked)", FIG / "E1b_models_macroF1.png")
     plot_confusion(yi, oof[res.iloc[0].model].argmax(1), list(cls), f"E1b confusion ({res.iloc[0].model})", FIG / "E1b_confusion.png")
     save_result("E1b_dosha_from_masked_text", res, dict(n=len(b), class_counts=b.dosha_label.value_counts().to_dict(),
@@ -105,12 +109,12 @@ def e1c():
     if "definition_hi" in d.columns:
         h = a.copy()
         h = h[h.definition_hi.str.len() > 10]
-        Xh = text_features((h.name_en_hi + " । " + h.definition_hi).tolist())
-        Xe = text_features((h.name_en + " . " + h.definition_en).tolist())
+        Xh = np.asarray((h.name_en_hi + " । " + h.definition_hi).tolist(), dtype=object)
+        Xe = np.asarray((h.name_en + " . " + h.definition_en).tolist(), dtype=object)
         print(f"[E1c] bilingual: n={len(h)}")
         zoo = {k: v for k, v in text_zoo().items() if k in ("Logistic Regression", "Linear SVM (calibrated)", "Multinomial Naive Bayes", "LightGBM", "Dummy (majority)")}
-        rh, *_ = evaluate_cv(zoo, Xh, lab(h.system_code), n_splits=5, n_repeats=1)
-        re_, *_ = evaluate_cv(zoo, Xe, lab(h.system_code), n_splits=5, n_repeats=1)
+        rh, *_ = evaluate_cv(zoo, Xh, lab(h.system_code), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
+        re_, *_ = evaluate_cv(zoo, Xe, lab(h.system_code), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
         rh["language"], re_["language"] = "Hindi (MT)", "English"
         both = pd.concat([re_, rh])
         save_result("E1c_bilingual_system_from_text", both, dict(n=len(h), data_origin="real text; Hindi = NLLB machine translation"))
@@ -170,7 +174,7 @@ def e2():
     # ---- E2a vīrya
     X = herb_matrix(h, use=("rasa", "guna", "vipaka", "karma", "parts", "family")).values.astype(float)
     y = lab(h.virya)
-    print(f"[E2a] virya: n={len(h)} features={X.shape[1]} classes={Counter(y)}")
+    print(f"[E2a] virya: n={len(h)} inputs={len(X)} classes={Counter(y)}")
     res, oof, cls, yi = evaluate_cv(tabular_zoo(2), X, y, n_splits=5, n_repeats=3, topk=())
     # classical rule baselines
     def rasa_rule(r):
@@ -402,10 +406,13 @@ def e4():
                             ("oh", OneHotEncoder(handle_unknown="ignore"))]), items),
         ("sex", OneHotEncoder(handle_unknown="ignore"), ["sex"]),
         ("num", Pipeline([("imp", SimpleImputer(strategy="median")), ("sc", StandardScaler())]), ["age", "bmi"])])
-    X = pre.fit_transform(df[items + ["sex", "age", "bmi"]])
-    X = X.toarray() if sparse.issparse(X) else X
-    print(f"[E4] prakriti: n={len(df)} features={X.shape[1]} classes={Counter(y)}")
-    res, oof, cls, yi = evaluate_cv(tabular_zoo(len(set(y)), binary_features=True), X, y, n_splits=5, n_repeats=2)
+    pre.set_params(sparse_threshold=0)
+    development, holdout = train_test_split(np.arange(len(df)), test_size=0.25, stratify=y, random_state=SEED)
+    final_df, final_y = df.iloc[holdout].copy(), y[holdout]
+    df, y = df.iloc[development].copy(), y[development]
+    X = df[items + ["sex", "age", "bmi"]]
+    print(f"[E4] prakriti: n={len(df)} inputs={len(X)} classes={Counter(y)}")
+    res, oof, cls, yi = evaluate_cv(tabular_zoo(len(set(y)), binary_features=True), X, y, n_splits=5, n_repeats=2, preprocessor=pre)
     # classical questionnaire scoring = share of V/P/K answers -> same labelling rule
     cnt = np.stack([(df[items] == d).sum(1).values for d in "VPK"], 1).astype(float)
     sh = cnt / cnt.sum(1, keepdims=True)
@@ -417,12 +424,12 @@ def e4():
     best = [m for m in res.model if m in oof][0]
     plot_confusion(yi, oof[best].argmax(1), list(cls), f"E4 confusion ({best})", FIG / "E4_confusion.png")
     # ---- post-processing: calibration + abstention, on a held-out split
-    Xtr, Xte, ytr, yte = train_test_split(X, yi, test_size=0.25, stratify=yi, random_state=SEED)
+    Xtr, Xte, ytr, yte = X, final_df[items + ["sex", "age", "bmi"]], yi, np.searchsorted(cls, final_y)
     base_name = best if "Ensemble" not in best else "Logistic Regression"
-    raw = clone(tabular_zoo(7)[base_name]).fit(Xtr, ytr)
-    cal = CalibratedClassifierCV(clone(tabular_zoo(7)[base_name]), method="isotonic", cv=5).fit(Xtr, ytr)
+    raw = make_pipeline(clone(pre), clone(tabular_zoo(7)[base_name])).fit(Xtr, ytr)
+    cal = CalibratedClassifierCV(make_pipeline(clone(pre), clone(tabular_zoo(7)[base_name])), method="isotonic", cv=5).fit(Xtr, ytr)
     pr_raw, pr_cal = raw.predict_proba(Xte), cal.predict_proba(Xte)
-    post = dict(model=base_name, test_accuracy_raw=float((pr_raw.argmax(1) == yte).mean()),
+    post = dict(development_ids=df.person_id.tolist(), holdout_ids=final_df.person_id.tolist(), model=base_name, test_accuracy_raw=float((pr_raw.argmax(1) == yte).mean()),
                 test_accuracy_calibrated=float((pr_cal.argmax(1) == yte).mean()),
                 ece_raw=ece(yte, pr_raw), ece_calibrated=ece(yte, pr_cal),
                 selective_raw=selective_curve(yte, pr_raw), selective_calibrated=selective_curve(yte, pr_cal))
@@ -431,11 +438,11 @@ def e4():
     # explainability: permutation importance of questionnaire items
     lr = clone(tabular_zoo(7)["Logistic Regression"])
     pipe = make_pipeline(pre, lr).fit(df.loc[:, items + ["sex", "age", "bmi"]].iloc[:2250], y[:2250])
-    pi = permutation_importance(pipe, df.loc[:, items + ["sex", "age", "bmi"]].iloc[2250:], y[2250:], n_repeats=5, random_state=SEED, n_jobs=1)
+    pi = permutation_importance(pipe, Xte, final_y, n_repeats=5, random_state=SEED, n_jobs=1)
     imp = sorted(zip(items + ["sex", "age", "bmi"], pi.importances_mean), key=lambda t: -t[1])
     qtext = dict(zip(q.item_id, q.question_en))
     post["permutation_importance"] = [{"feature": f, "question": qtext.get(f, f), "importance": float(v)} for f, v in imp]
-    joblib.dump({"pipeline": make_pipeline(pre, CalibratedClassifierCV(clone(tabular_zoo(7)[base_name]), method="isotonic", cv=5)).fit(
+    joblib.dump({"pipeline": CalibratedClassifierCV(make_pipeline(clone(pre), clone(tabular_zoo(7)[base_name])), method="isotonic", cv=5).fit(
                     df[items + ["sex", "age", "bmi"]], y), "items": items}, MOD / "E4_prakriti_classifier.joblib")
     save_result("E4_prakriti", res, dict(n=len(df), class_counts=dict(Counter(y)), best_model=best, post_processing=post,
                 data_origin="synthetic - metrics measure recovery of the generating model, NOT clinical validity"))

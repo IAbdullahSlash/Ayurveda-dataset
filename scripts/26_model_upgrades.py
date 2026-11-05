@@ -23,7 +23,9 @@ ml = import_module("07_ml")
 xl = import_module("10_crosslingual")
 from lib.ml_utils import tabular_zoo, evaluate_cv, SEED
 from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import normalize
+from sklearn.preprocessing import normalize, MaxAbsScaler
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import make_pipeline
 
 ROOT = Path(__file__).resolve().parents[1]
 REP = ROOT / "reports/ml"
@@ -56,16 +58,21 @@ def e2c_plus():
     names = ["Logistic Regression", "Random Forest", "LightGBM", "XGBoost", "Dummy (majority)"]
     out = {}
     from sklearn.decomposition import TruncatedSVD
-    Xs = TruncatedSVD(20, random_state=SEED).fit_transform(Xc[:, :n_act])          # compressed chemistry (less overfitting)
-    Xs = Xs / (np.abs(Xs).max(0, keepdims=True) + 1e-9)
+    combined = np.hstack([Xb, Xc])
+    compression = ColumnTransformer([
+        ("base", "passthrough", list(range(Xb.shape[1]))),
+        ("chemistry", make_pipeline(TruncatedSVD(20, random_state=SEED), MaxAbsScaler()),
+         list(range(Xb.shape[1], Xb.shape[1] + n_act))),
+        ("present", "passthrough", [combined.shape[1] - 1])])
     variants = (("original features", Xb), ("+ chemistry + family", np.hstack([Xb, Xc])),
-                ("+ chemistry compressed to 20 components", np.hstack([Xb, Xs, Xc[:, -1:]])))
+                ("+ chemistry compressed to 20 components", combined))
     for label, X in variants:
         zoo = {k: v for k, v in tabular_zoo(2).items() if k in names}
         rows = []
         for lab in top:
             y = Y[lab].values
-            res, *_ = evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, topk=())
+            res, *_ = evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, topk=(),
+                                  preprocessor=compression if "compressed" in label else None)
             res["label"] = lab; rows.append(res)
         allr = pd.concat(rows)
         summ = allr.groupby("model")[["accuracy_mean", "macro_f1_mean", "roc_auc_ovr_mean"]].mean().sort_values("macro_f1_mean", ascending=False)
@@ -80,12 +87,19 @@ def e1_plus(enc):
     out = {}
     lr = lambda: LogisticRegression(max_iter=4000, C=8.0, class_weight="balanced")
     def run(tag, texts, y):
-        Xt = ml.text_features(texts)
-        Xe = enc.encode(texts, "passage: ")
-        Xboth = sparse.hstack([Xt, sparse.csr_matrix(normalize(Xe) * 3.0)]).tocsr()
+        Xe = normalize(enc.encode(texts, "passage: ")) * 3.0
+        frame = pd.DataFrame(Xe)
+        frame["text"] = texts
+        embedding_columns = list(range(Xe.shape[1]))
+        variants = [
+            ("TF-IDF + LR (stage 07)", np.asarray(texts, dtype=object), ml.text_preprocessor()),
+            ("e5 embeddings + LR", Xe, None),
+            ("TF-IDF + e5 + LR", frame, ColumnTransformer([
+                ("text", ml.text_preprocessor(), "text"),
+                ("embeddings", "passthrough", embedding_columns)], sparse_threshold=1.0))]
         zoo_rows = {}
-        for name, X in (("TF-IDF + LR (stage 07)", Xt), ("e5 embeddings + LR", Xe), ("TF-IDF + e5 + LR", Xboth)):
-            res, *_ = evaluate_cv({name: lr()}, X, y, n_splits=5, n_repeats=1, topk=())
+        for name, X, preprocessor in variants:
+            res, *_ = evaluate_cv({name: lr()}, X, y, n_splits=5, n_repeats=1, topk=(), preprocessor=preprocessor)
             zoo_rows[name] = {k: round(float(res.iloc[0][k]), 4) for k in ("accuracy_mean", "macro_f1_mean", "roc_auc_ovr_mean") if k in res}
         out[tag] = dict(n=len(texts), classes=len(set(y)), results=zoo_rows)
         print(f"[E1+] {tag} n={len(texts)}: " + "; ".join(f"{k} F1={v['macro_f1_mean']:.3f}" for k, v in zoo_rows.items()), flush=True)

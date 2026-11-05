@@ -1,0 +1,337 @@
+{
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.6788888888888889,
+      "accuracy_std": 0.011342044582377647,
+      "balanced_accuracy_mean": 0.6179374492968088,
+      "balanced_accuracy_std": 0.013500006158615782,
+      "macro_f1_mean": 0.60873401062339,
+      "macro_f1_std": 0.011873031255129512,
+      "weighted_f1_mean": 0.6918031943369333,
+      "weighted_f1_std": 0.011343286815743552,
+      "roc_auc_ovr_mean": 0.9197086214153062,
+      "roc_auc_ovr_std": 0.006512461385839683,
+      "log_loss_mean": 0.9249905881236259,
+      "log_loss_std": 0.03352528820328272,
+      "ece_mean": 0.08097896742474331,
+      "ece_std": 0.010546552513577136,
+      "fit_s_mean": 0.13108832836151124,
+      "fit_s_std": 0.017609037752437173,
+      "top3_accuracy_mean": 0.936888888888889,
+      "top3_accuracy_std": 0.0042397297840753
+    },
+    {
+      "model": "Classical questionnaire scoring (count V/P/K answers)",
+      "accuracy_mean": 0.7133333333333334,
+      "accuracy_std": 0.0,
+      "balanced_accuracy_mean": NaN,
+      "balanced_accuracy_std": NaN,
+      "macro_f1_mean": 0.6062938937549619,
+      "macro_f1_std": 0.0,
+      "weighted_f1_mean": NaN,
+      "weighted_f1_std": NaN,
+      "roc_auc_ovr_mean": NaN,
+      "roc_auc_ovr_std": NaN,
+      "log_loss_mean": NaN,
+      "log_loss_std": NaN,
+      "ece_mean": NaN,
+      "ece_std": NaN,
+      "fit_s_mean": NaN,
+      "fit_s_std": NaN,
+      "top3_accuracy_mean": NaN,
+      "top3_accuracy_std": NaN
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.22577777777777777,
+      "accuracy_std": 0.001088662107903628,
+      "balanced_accuracy_mean": 0.14285714285714285,
+      "balanced_accuracy_std": 0.0,
+      "macro_f1_mean": 0.05262594266776386,
+      "macro_f1_std": 0.0002070901361823631,
+      "weighted_f1_mean": 0.0831739568812085,
+      "weighted_f1_std": 0.0007276932625307009,
+      "roc_auc_ovr_mean": 0.5,
+      "roc_auc_ovr_std": 0.0,
+      "log_loss_mean": 12.478987832875285,
+      "log_loss_std": 0.01754715998676452,
+      "ece_mean": 0.7742222222222223,
+      "ece_std": 0.0010886621079036418,
+      "fit_s_mean": 0.04608132839202881,
+      "fit_s_std": 0.012898945455159412,
+      "top3_accuracy_mean": 0.39155555555555555,
+      "top3_accuracy_std": 0.0008888888888888725
+    }
+  ],
+  "n": 2250,
+  "class_counts": {
+    "VK": 204,
+    "V": 508,
+    "K": 462,
+    "P": 497,
+    "PK": 206,
+    "VPK": 124,
+    "VP": 249
+  },
+  "best_model": "Logistic Regression",
+  "post_processing": {
+    "model": "Logistic Regression",
+    "test_accuracy_raw": 0.7346666666666667,
+    "test_accuracy_calibrated": 0.6533333333333333,
+    "ece_raw": 0.040663017137285436,
+    "ece_calibrated": 0.17280849365463594,
+    "selective_raw": [
+      {
+        "coverage": 1.0,
+        "accuracy": 0.7346666666666667,
+        "threshold": 0.3187908554397709
+      },
+      {
+        "coverage": 0.9093333333333333,
+        "accuracy": 0.7741935483870968,
+        "threshold": 0.48754129636773796
+      },
+      {
+        "coverage": 0.82,
+        "accuracy": 0.7951219512195122,
+        "threshold": 0.5649481478244255
+      },
+      {
+        "coverage": 0.7293333333333333,
+        "accuracy": 0.8208409506398537,
+        "threshold": 0.6281552153716518
+      },
+      {
+        "coverage": 0.64,
+        "accuracy": 0.8520833333333333,
+        "threshold": 0.7038929183742016
+      },
+      {
+        "coverage": 0.5493333333333333,
+        "accuracy": 0.866504854368932,
+        "threshold": 0.7509742978444842
+      },
+      {
+        "coverage": 0.46,
+        "accuracy": 0.8956521739130435,
+        "threshold": 0.8142305756582849
+      },
+      {
+        "coverage": 0.37066666666666664,
+        "accuracy": 0.920863309352518,
+        "threshold": 0.873207977881154
+      },
+      {
+        "coverage": 0.28,
+        "accuracy": 0.9523809523809523,
+        "threshold": 0.9119464785143592
+      },
+      {
+        "coverage": 0.19066666666666668,
+        "accuracy": 0.951048951048951,
+        "threshold": 0.9469109797494255
+      },
+      {
+        "coverage": 0.1,
+        "accuracy": 0.9866666666666667,
+        "threshold": 0.975757693581911
+      }
+    ],
+    "selective_calibrated": [
+      {
+        "coverage": 1.0,
+        "accuracy": 0.6533333333333333,
+        "threshold": 0.18102340452946905
+      },
+      {
+        "coverage": 0.9093333333333333,
+        "accuracy": 0.6906158357771262,
+        "threshold": 0.36296835110814
+      },
+      {
+        "coverage": 0.82,
+        "accuracy": 0.7317073170731707,
+        "threshold": 0.4180603487766065
+      },
+      {
+        "coverage": 0.7293333333333333,
+        "accuracy": 0.7861060329067642,
+        "threshold": 0.4761397647315278
+      },
+      {
+        "coverage": 0.64,
+        "accuracy": 0.85,
+        "threshold": 0.543638308865808
+      },
+      {
+        "coverage": 0.5493333333333333,
+        "accuracy": 0.8956310679611651,
+        "threshold": 0.6147854695780876
+      },
+      {
+        "coverage": 0.46,
+        "accuracy": 0.9130434782608695,
+        "threshold": 0.64833109824553
+      },
+      {
+        "coverage": 0.37066666666666664,
+        "accuracy": 0.9136690647482014,
+        "threshold": 0.6627233094665069
+      },
+      {
+        "coverage": 0.28,
+        "accuracy": 0.9047619047619048,
+        "threshold": 0.672753885450846
+      },
+      {
+        "coverage": 0.19066666666666668,
+        "accuracy": 0.8811188811188811,
+        "threshold": 0.6835367852297562
+      },
+      {
+        "coverage": 0.1,
+        "accuracy": 0.84,
+        "threshold": 0.6986032740124961
+      }
+    ],
+    "permutation_importance": [
+      {
+        "feature": "bmi",
+        "question": "bmi",
+        "importance": 0.04826666666666668
+      },
+      {
+        "feature": "Q01",
+        "question": "Body build",
+        "importance": 0.04080000000000004
+      },
+      {
+        "feature": "Q06",
+        "question": "Hunger and thirst",
+        "importance": 0.03360000000000003
+      },
+      {
+        "feature": "Q17",
+        "question": "Temperament",
+        "importance": 0.03066666666666671
+      },
+      {
+        "feature": "Q11",
+        "question": "Voice",
+        "importance": 0.02960000000000005
+      },
+      {
+        "feature": "Q05",
+        "question": "Climate tolerance",
+        "importance": 0.029333333333333322
+      },
+      {
+        "feature": "Q03",
+        "question": "Skin",
+        "importance": 0.027200000000000023
+      },
+      {
+        "feature": "Q23",
+        "question": "Weight tendency",
+        "importance": 0.027200000000000023
+      },
+      {
+        "feature": "Q14",
+        "question": "Sleep",
+        "importance": 0.027200000000000002
+      },
+      {
+        "feature": "Q09",
+        "question": "Stool and urine",
+        "importance": 0.02506666666666668
+      },
+      {
+        "feature": "Q02",
+        "question": "Joints",
+        "importance": 0.023466666666666726
+      },
+      {
+        "feature": "Q07",
+        "question": "Eating habit",
+        "importance": 0.02080000000000002
+      },
+      {
+        "feature": "Q24",
+        "question": "Body warmth",
+        "importance": 0.017066666666666674
+      },
+      {
+        "feature": "Q16",
+        "question": "Learning and memory",
+        "importance": 0.016800000000000016
+      },
+      {
+        "feature": "Q18",
+        "question": "Attachments",
+        "importance": 0.016266666666666697
+      },
+      {
+        "feature": "Q15",
+        "question": "Starting tasks",
+        "importance": 0.015733333333333356
+      },
+      {
+        "feature": "Q20",
+        "question": "Signs of ageing",
+        "importance": 0.015200000000000036
+      },
+      {
+        "feature": "Q04",
+        "question": "Hair",
+        "importance": 0.014133333333333354
+      },
+      {
+        "feature": "Q12",
+        "question": "Speech",
+        "importance": 0.013333333333333353
+      },
+      {
+        "feature": "Q10",
+        "question": "Body odour",
+        "importance": 0.00986666666666669
+      },
+      {
+        "feature": "Q22",
+        "question": "Restlessness",
+        "importance": 0.009866666666666668
+      },
+      {
+        "feature": "Q13",
+        "question": "Gait",
+        "importance": 0.00960000000000003
+      },
+      {
+        "feature": "Q19",
+        "question": "Sexual vigour",
+        "importance": 0.00853333333333337
+      },
+      {
+        "feature": "Q08",
+        "question": "Sweating",
+        "importance": 0.007733333333333347
+      },
+      {
+        "feature": "Q21",
+        "question": "Mouth ulcers",
+        "importance": 0.005866666666666709
+      },
+      {
+        "feature": "sex",
+        "question": "sex",
+        "importance": 0.002666666666666706
+      },
+      {
+        "feature": "age",
+        "question": "age",
+        "importance": -0.0005333333333332968
+      }
+    ]
+  },
+  "data_origin": "synthetic - metrics measure recovery of the generating model, NOT clinical validity"
+}
