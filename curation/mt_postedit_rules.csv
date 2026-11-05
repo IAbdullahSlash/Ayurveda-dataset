@@ -1,5 +1,13 @@
-en_regex,en_exclude_regex,hi_wrong_regex,hi_right,note
-\bstiff,bitter,कड़वाहट|कड़वापन,जकड़न,"NLLB rendered 'stiffness' as bitterness"
-\bstiff,bitter,कड़वी,अकड़ी,"adjective form of the same error"
-\bstiff,bitter,कड़वे,अकड़े,"adjective form of the same error"
-\bstiff,bitter,कड़वा,अकड़ा,"adjective form of the same error"
+en_regex,en_exclude_regex,hi_wrong_regex,hi_right,note,tables
+\bstiff,bitter,कड़वाहट|कड़वापन,जकड़न,NLLB rendered 'stiffness' as bitterness,symptoms;diseases
+\bstiff,bitter,कड़वी,अकड़ी,adjective form of the same error,symptoms;diseases
+\bstiff,bitter,कड़वे,अकड़े,adjective form of the same error,symptoms;diseases
+\bstiff,bitter,कड़वा,अकड़ा,adjective form of the same error,symptoms;diseases
+excessive salivation; nausea; loss of appetite,,(?<=प्रसेक \(अधिक लार आना\); )उल्टी(?=; अरुचि),मतली,WHO ITA-5.6.37: 'nausea' rendered as vomiting,terminology;diseases
+cold catarrh; nausea/provocation of dosha; horripilation,,दोष का नशा/उत्प्रेरणा,मतली/ दोष का प्रकोप,WHO ITA-5.18.4: rendered as 'intoxication/catalysis of doṣa',terminology;diseases
+heaviness of body; cold; nausea; sleep,,(?<=; ठंड; )जलन(?=; नींद),मतली,WHO ITA-5.29.4 (and its disorder copy): rendered as 'burning',terminology;diseases
+syncope or swooning; nausea; pedal oedema,,(?<=या सूजन; )नाजुकता(?=; पेडल),मतली,WHO ITA-5.37.5: rendered as 'delicacy',terminology;diseases
+swelling in thighs; nausea/provocation of dosha; sleep,,दोष की उदासीनता / उत्तेजना,मतली/ दोष का प्रकोप,WHO ITA-5.43.4 (and its disorder copy): rendered as 'apathy / excitement of doṣa',terminology;diseases
+yawning; nausea/provocation of dosha; loss of taste,,नर्वसता / दोष के प्रलोभन,मतली/ दोष का प्रकोप,WHO ITA-5.52.4: rendered as 'nervousness / temptations of doṣa',terminology;diseases
+gripping pain; nausea; retention of flatus,,(?<=पकड़ने का दर्द; )उल्टी; उल्टी(?=; फ्लैटस),मतली,WHO ITA-5.76.100: 'nausea' rendered twice as vomiting,terminology;diseases
+excessive salivation; precordial discomfort with nausea,,पूर्वकृति में उल्टी,मतली के साथ पूर्व-हृदय असुविधा,WHO ITA-5.76.100: rendered as 'vomiting in the precordium',terminology;diseases

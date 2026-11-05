@@ -14,7 +14,7 @@ Stage 25 - Fill gaps with clearly flagged, source-traceable additions (never sil
      phytochemistry - written only if cross-validated macro-F1 >= 0.65.
 Output: the tables above + reports/fill_missing_report.json
 """
-import json, re, sys
+import argparse, json, re, sys, unicodedata
 from collections import Counter, defaultdict
 from importlib import import_module
 from pathlib import Path
@@ -24,6 +24,7 @@ from scipy import sparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 cr = import_module("14_case_reports")
+from lib.indic import iast_to_deva, iso_to_iast
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
@@ -57,29 +58,172 @@ def map_sign(sign, exact, entries):
     cand = sorted((n, sid) for sid, ws, n in entries if w <= ws)[:3]
     return {sid for _, sid in cand}, ("all_words_entry" if cand else "")
 
-def postedit(df, en_col, hi_col, method_col, rules):
-    """deterministic post-edits for systematic machine-translation errors (curation/mt_postedit_rules.csv)"""
+# ------------------------------------------------------------------------------------------------ Hindi post-edits
+# Machine-translated Hindi (stage 06) lives in these columns.  Disorder definitions are composed from symptom-level
+# glosses; terminology definitions are copied to the derived tables, so every copy is corrected the same way.
+MT_COLUMNS = {"symptoms": ("gloss_en", "gloss_hi", "gloss_hi_method"),
+              "terminology": ("definition_en", "definition_hi", "definition_hi_method"),
+              "therapies": ("definition_en", "definition_hi", "definition_hi_method"),
+              "pharmaceutics": ("definition_en", "definition_hi", "definition_hi_method"),
+              "diet_lifestyle": ("definition_en", "definition_hi", "definition_hi_method"),
+              "diseases": ("definition_en", "definition_hi", "definition_hi_method")}
+
+def mark(df, m, method_col, source):
+    if method_col in df:
+        df.loc[m & ~df[method_col].str.contains(source, regex=False), method_col] += f" + post-edited ({source})"
+
+def postedit(df, table, en_col, hi_col, method_col, rules):
+    """regex post-edits for systematic machine-translation errors (curation/mt_postedit_rules.csv): a rule applies to the
+    tables in its `tables` column, to rows whose English matches en_regex and not en_exclude_regex (when given)"""
     n = 0
     for r in rules.itertuples():
-        m = (df[en_col].str.contains(r.en_regex, case=False, regex=True) & ~df[en_col].str.contains(r.en_exclude_regex, case=False, regex=True)
-             & df[hi_col].str.contains(r.hi_wrong_regex, regex=True))
+        if table not in [t.strip() for t in r.tables.split(";")]:
+            continue
+        m = df[en_col].str.contains(r.en_regex, case=False, regex=True) & df[hi_col].str.contains(r.hi_wrong_regex, regex=True)
+        if r.en_exclude_regex:
+            m &= ~df[en_col].str.contains(r.en_exclude_regex, case=False, regex=True)
         if m.any():
             df.loc[m, hi_col] = df.loc[m, hi_col].str.replace(r.hi_wrong_regex, r.hi_right, regex=True)
-            if method_col in df:
-                df.loc[m & ~df[method_col].str.contains("post-edited"), method_col] += " + post-edited (mt_postedit_rules)"
+            mark(df, m, method_col, "mt_postedit_rules")
             n += int(m.sum())
     return n
 
-def main():
-    rep = {}
-    D, T, S = rd("diseases"), rd("terminology"), rd("symptoms")
+def item_key(s):
+    """English list item -> lookup key; case, diacritics (doṣa = dōṣa), spacing and end punctuation are ignored"""
+    s = unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"\s+", " ", re.sub(r"\s*/\s*", "/", s)).strip(" .,;:")
+
+def load_item_corrections():
+    """curation/mt_item_corrections.csv: reviewed Hindi for English items that the MT model got wrong"""
+    f = ROOT / "curation/mt_item_corrections.csv"
+    if not f.exists():
+        return {}
+    c = pd.read_csv(f, keep_default_na=False)
+    return {item_key(r.en_item): (r.hi_item, re.compile(r.hi_ok_regex) if r.hi_ok_regex else None) for r in c.itertuples()}
+
+def corrected(en, hi, corr):
+    """reviewed Hindi for one English item, or None if there is none or the current Hindi is already acceptable"""
+    c = corr.get(item_key(en))
+    if not c or not hi.strip():
+        return None
+    new, ok = c
+    return None if (ok and ok.search(hi)) or hi.strip() == new else new
+
+def fix_list(en, hi, corr):
+    """'... signs and symptoms: a; b; c.' (WHO style): correct the Hindi item aligned with a corrected English item.
+    Used only when the translation kept the list (same number of ';'-separated items on both sides)."""
+    if ":" not in en or not hi:
+        return hi
+    e_items = en.split(":", 1)[1].split(";")
+    if not any(item_key(e) in corr for e in e_items):
+        return hi
+    m = re.search(r"[:ः]\s", hi)          # the Hindi lead-in ends with ':' or a visarga used as a colon
+    if not m:
+        return hi
+    h_items = hi[m.end():].split(";")
+    if len(h_items) != len(e_items):
+        return hi
+    changed = False
+    for i, (e, h) in enumerate(zip(e_items, h_items)):
+        core = h.strip()
+        end = re.search(r"\s*[।.]$", core)
+        suffix = end.group(0) if end else ""
+        new = corrected(e, core[:len(core) - len(suffix)], corr)
+        if new:
+            h_items[i] = h[:len(h) - len(h.lstrip())] + new + suffix + h[len(h.rstrip()):]
+            changed = True
+    return hi[:m.end()] + ";".join(h_items) if changed else hi
+
+def fix_composed(hi, mentions, corr):
+    """composed disorder definitions 'लक्षण: i1; ...; in।[ explanation]' (stage 06 builds one item per symptom mention,
+    '<Devanagari term> (<Hindi gloss>)'): correct the gloss of items whose English mention has a reviewed translation.
+    The split is trusted only if every item with a Sanskrit term starts with that term."""
+    head = "लक्षण: "
+    if not hi.startswith(head) or not any(item_key(en) in corr for _, en in mentions):
+        return hi
+    n = len(mentions)
+    parts = hi[len(head):].split("; ")
+    if len(parts) < n:
+        return hi
+    last, sep, tail = "; ".join(parts[n - 1:]).partition("।")
+    items = parts[:n - 1] + [last]
+    if any(dev and not it.startswith(dev) for (dev, _), it in zip(mentions, items)):
+        return hi
+    changed = False
+    for i, ((dev, en), it) in enumerate(zip(mentions, items)):
+        if dev and it.startswith(dev + " (") and it.endswith(")"):
+            new = corrected(en, it[len(dev) + 2:-1], corr)
+            if new:
+                items[i], changed = f"{dev} ({new})", True
+        elif not dev:
+            new = corrected(en, it, corr)
+            if new:
+                items[i], changed = new, True
+    return head + "; ".join(items) + sep + tail if changed else hi
+
+def item_fix(df, table, en_col, hi_col, method_col, corr, mentions):
+    def fix(r):
+        en, hi = r[en_col], r[hi_col]
+        if not hi:
+            return hi
+        if table == "symptoms":
+            return corrected(en, hi, corr) or hi
+        if table == "diseases" and str(r.get(method_col, "")).startswith("composed"):
+            return fix_composed(hi, mentions.get(r["disease_id"], []), corr)
+        return fix_list(en, hi, corr)
+    if not corr or not len(df):
+        return 0
+    out = df.apply(fix, axis=1)
+    m = out != df[hi_col]
+    df.loc[m, hi_col] = out[m]
+    mark(df, m, method_col, "mt_item_corrections")
+    return int(m.sum())
+
+def write_table(df, name):
+    df.to_csv(P / f"{name}.csv", index=False)
+    df.astype({c: str for c in df.columns if df[c].dtype == object}).to_parquet(P / f"{name}.parquet", index=False)
+
+def mt_corrections(D, T, S):
+    """apply both curated post-edit files to every machine-translated column; writes S, T and the derived tables
+    (D is written by the caller).  Idempotent: an applied correction no longer matches."""
     rules = pd.read_csv(ROOT / "curation/mt_postedit_rules.csv", keep_default_na=False)
-    n_s = postedit(S, "gloss_en", "gloss_hi", "gloss_hi_method", rules)
-    n_d = postedit(D, "definition_en", "definition_hi", "definition_hi_method", rules)
-    S.to_csv(P / "symptoms.csv", index=False); S.to_parquet(P / "symptoms.parquet", index=False)
-    rep["mt_postedits"] = {   # cumulative: rows carrying a post-edit mark from this or an earlier run
-        "symptom_glosses": int(S.gloss_hi_method.str.contains("post-edited|rule-corrected").sum()),
-        "disorder_definitions": int(D.definition_hi_method.str.contains("post-edited|rule-corrected").sum())}
+    corr = load_item_corrections()
+    ds = rd("disease_symptom").sort_values(["disease_id", "mention_rank"], kind="stable")
+    mentions = {d: [(iast_to_deva(iso_to_iast(sa).lower()) if sa else "", en) for sa, en in zip(g.mention_sa_iast, g.mention_en)]
+                for d, g in ds.groupby("disease_id", sort=False)}
+    tables = {"symptoms": S, "terminology": T, "diseases": D}
+    tables.update({t: rd(t) for t in ("therapies", "pharmaceutics", "diet_lifestyle") if (P / f"{t}.csv").exists()})
+    changed = {}
+    for name, df in tables.items():
+        en, hi, meth = MT_COLUMNS[name]
+        if {en, hi} <= set(df.columns):
+            changed[name] = postedit(df, name, en, hi, meth, rules) + item_fix(df, name, en, hi, meth, corr, mentions)
+    for name, df in tables.items():
+        if name != "diseases":
+            write_table(df, name)
+    return changed
+
+def mt_counts(D, T, S):
+    """cumulative: rows carrying a post-edit mark from this or an earlier run (derived tables mirror terminology)"""
+    pe = lambda df, c: int(df[c].str.contains("post-edited|rule-corrected").sum()) if c in df else 0
+    return {"symptom_glosses": pe(S, "gloss_hi_method"), "disorder_definitions": pe(D, "definition_hi_method"),
+            "term_definitions": pe(T, "definition_hi_method")}
+
+def main(mt_only=False):
+    rep = {"mt_postedits": None}
+    D, T, S = rd("diseases"), rd("terminology"), rd("symptoms")
+    changed = mt_corrections(D, T, S)          # before the WHO definitions are copied, so copies are corrected too
+    print("Hindi post-edits applied now:", changed)
+    if mt_only:                                # quick path after editing curation/mt_*.csv
+        D.to_csv(P / "diseases.csv", index=False)
+        if (P / "diseases.parquet").exists():
+            D.to_parquet(P / "diseases.parquet", index=False)
+        f = ROOT / "reports/fill_missing_report.json"
+        old = json.loads(f.read_text()) if f.exists() else {}
+        old["mt_postedits"] = mt_counts(D, T, S)
+        f.write_text(json.dumps(old, indent=2, default=int))
+        print("cumulative:", old["mt_postedits"])
+        return
     who = T.set_index("term_uid")
     # ---- 1. definitions from WHO
     if "definition_source" not in D:                      # idempotent: a re-run never relabels filled rows
@@ -207,8 +351,12 @@ def main():
         rep["virya_from_family_and_chemistry"]["suggested"] = 0
         rep["virya_from_family_and_chemistry"]["note"] = "below the 0.65 macro-F1 bar: no suggestions written"
         (P / "herb_property_suggestions.csv").unlink(missing_ok=True)
+    rep["mt_postedits"] = mt_counts(D, T, S)
     (ROOT / "reports/fill_missing_report.json").write_text(json.dumps(rep, indent=2, default=int))
     print(json.dumps(rep, indent=1, default=int))
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--mt-only", action="store_true",
+                    help="only re-apply the curated Hindi post-edits (curation/mt_postedit_rules.csv, curation/mt_item_corrections.csv)")
+    main(mt_only=ap.parse_args().mt_only)

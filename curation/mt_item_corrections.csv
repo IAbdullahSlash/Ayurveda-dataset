@@ -1,0 +1,12 @@
+en_item,hi_item,hi_ok_regex,note
+nausea,मतली,मतली|मिचल|उबकाई,"NLLB rendered 'nausea' as उल्टी (vomiting); seen in symptom glosses, composed and WHO definitions"
+nause,मतली,मतली|मिचल|उबकाई,typo for 'nausea' in the source; was उल्टी
+with nausea,मतली के साथ,मतली|मिचल|उबकाई,sahṛllāsa; was उल्टी के साथ ('with vomiting')
+feeling of nausea,मतली की अनुभूति,मतली|मिचल|उबकाई,was बुखार की भावना ('feeling of fever')
+nausea with mucous,श्लेष्मयुक्त मतली,मतली|मिचल|उबकाई,kaphotkleśa; was श्लेष्मयुक्त जलन ('burning with mucus')
+nausea/provocation of doṣa,मतली/ दोष का प्रकोप,मतली|मिचल|उबकाई,"utkleśa / utkleda (any doṣa spelling with diacritics); was उल्टी/, उलझन/ ('confusion')"
+nausea/provocation of dosha,मतली/ दोष का प्रकोप,मतली|मिचल|उबकाई,"WHO spelling; was उल्टी, खाँसी ('cough'), नाकबंदी, नशा, जलन, उलझन and others"
+dry vomiting/nausea,सूखी छर्दि (उल्टी) / मतली,मतली|मिचल|उबकाई,śuṣkacchardi; was … / नाजुकता ('delicacy')
+sour eructation nausea,"खट्टा उद्गार (डकार), मतली",मतली|मिचल|उबकाई,was खट्टा उद्गार (डकार) बुखार ('fever')
+nauseating,जी मिचलाने वाला,मतली|मिचल|उबकाई,bībhatsatva; was अपच ('indigestion')
+precordial discomfort with nausea,मतली के साथ पूर्व-हृदय असुविधा,मतली|मिचल|उबकाई,the reviewed rendering already used for SYM-09366

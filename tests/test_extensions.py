@@ -257,3 +257,51 @@ def test_evidence_counts_are_whole_numbers():
             v = e[c].astype(str)
             assert v.str.fullmatch(r"\d*").all(), f"{name}.{c} has non-integer values"
             assert ((v == "") == (e.evidence_tier == "not_queryable")).all()
+
+# ----------------------------------------------------------------------------- Hindi post-edits (stage 25)
+NAUSEA_OK = r"मतली|मिचल|उबकाई"
+
+def test_nausea_rendered_correctly_in_hindi():
+    """'nausea' was machine-translated as vomiting, fever, burning, confusion, cough ...: every translated text that mentions
+    nausea must now say मतली (or जी मिचलाना), unless its whole translation is flagged as degenerate (QE 'repetition')"""
+    for tab, en, hi in [("symptoms", "gloss_en", "gloss_hi"), ("diseases", "definition_en", "definition_hi"),
+                        ("terminology", "definition_en", "definition_hi")]:
+        d = rd(tab)
+        m = d[d[en].str.contains("nause", case=False) & (d[hi] != "")]
+        assert len(m) > 0
+        bad = m[~m[hi].str.contains(NAUSEA_OK) & ~m[f"{hi}_qe_flags"].str.contains("repetition")]
+        assert bad.empty, f"{tab}: nausea mistranslated in {bad.iloc[:, 0].tolist()}"
+
+def test_short_nausea_glosses_never_say_vomiting():
+    s = rd("symptoms")
+    only_nausea = s[s.gloss_en.str.contains("nause", case=False) & ~s.gloss_en.str.contains("vomit", case=False)]
+    assert not only_nausea.gloss_hi.str.contains("उल्टी|बुखार|जलन|अपच|उलझन|नाजुकता").any()
+
+def test_mt_corrections_curated_and_marked():
+    c = pd.read_csv(ROOT / "curation/mt_item_corrections.csv", keep_default_na=False)
+    assert {"en_item", "hi_item", "hi_ok_regex", "note"} <= set(c.columns) and c.en_item.is_unique
+    assert c.hi_item.str.contains(r"[ऀ-ॿ]").all()
+    assert all(re.search(r.hi_ok_regex, r.hi_item) for r in c.itertuples() if r.hi_ok_regex)   # a correction is never re-applied
+    rules = pd.read_csv(ROOT / "curation/mt_postedit_rules.csv", keep_default_na=False)
+    assert (rules.tables != "").all()
+    for r in rules.itertuples():
+        re.compile(r.hi_wrong_regex)
+    # every corrected row says so, and the report counts them
+    marked = sum(int(rd(t)[col].str.contains("post-edited|rule-corrected").sum())
+                 for t, col in [("symptoms", "gloss_hi_method"), ("diseases", "definition_hi_method"), ("terminology", "definition_hi_method")])
+    rep = json.loads((ROOT / "reports/fill_missing_report.json").read_text())["mt_postedits"]
+    assert sum(rep.values()) == marked and marked >= 100
+
+def test_mt_postedits_idempotent(tmp_path, monkeypatch):
+    """re-applying the curated post-edits to the released tables changes nothing"""
+    import importlib, shutil
+    fm = importlib.import_module("25_fill_missing")
+    D, T, S = rd("diseases"), rd("terminology"), rd("symptoms")
+    before = (D.definition_hi.copy(), T.definition_hi.copy(), S.gloss_hi.copy())
+    monkeypatch.setattr(fm, "P", tmp_path)              # write into a scratch folder, never over the release
+    for n in ("disease_symptom", "therapies", "pharmaceutics", "diet_lifestyle"):
+        if (P / f"{n}.csv").exists():
+            shutil.copy(P / f"{n}.csv", tmp_path / f"{n}.csv")
+    changed = fm.mt_corrections(D, T, S)
+    assert sum(changed.values()) == 0, changed
+    assert D.definition_hi.equals(before[0]) and T.definition_hi.equals(before[1]) and S.gloss_hi.equals(before[2])
