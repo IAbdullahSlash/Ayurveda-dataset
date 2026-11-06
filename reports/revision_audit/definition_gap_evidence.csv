@@ -1,0 +1,874 @@
+disease_id,who_record,linked_definition_available,reason
+AYD-00003,WHO:ITA-5.2.1,False,linked record has no definition
+AYD-00004,,False,no linked WHO record
+AYD-00005,WHO:ITA-5.2.2,False,linked record has no definition
+AYD-00016,,False,no linked WHO record
+AYD-00019,,False,no linked WHO record
+AYD-00020,,False,no linked WHO record
+AYD-00024,,False,no linked WHO record
+AYD-00025,WHO:ITA-5.75.3,False,linked record has no definition
+AYD-00026,,False,no linked WHO record
+AYD-00027,,False,no linked WHO record
+AYD-00028,,False,no linked WHO record
+AYD-00029,,False,no linked WHO record
+AYD-00032,,False,no linked WHO record
+AYD-00035,,False,no linked WHO record
+AYD-00036,,False,no linked WHO record
+AYD-00037,,False,no linked WHO record
+AYD-00039,WHO:ITA-5.64.2,False,linked record has no definition
+AYD-00041,,False,no linked WHO record
+AYD-00044,,False,no linked WHO record
+AYD-00047,WHO:ITA-5.2.1.41,False,linked record has no definition
+AYD-00048,,False,no linked WHO record
+AYD-00052,,False,no linked WHO record
+AYD-00055,,False,no linked WHO record
+AYD-00056,,False,no linked WHO record
+AYD-00058,,False,no linked WHO record
+AYD-00060,,False,no linked WHO record
+AYD-00061,,False,no linked WHO record
+AYD-00062,,False,no linked WHO record
+AYD-00063,WHO:ITA-5.2.1.26,False,linked record has no definition
+AYD-00064,,False,no linked WHO record
+AYD-00065,,False,no linked WHO record
+AYD-00067,,False,no linked WHO record
+AYD-00068,,False,no linked WHO record
+AYD-00070,,False,no linked WHO record
+AYD-00071,,False,no linked WHO record
+AYD-00072,,False,no linked WHO record
+AYD-00073,,False,no linked WHO record
+AYD-00075,,False,no linked WHO record
+AYD-00076,,False,no linked WHO record
+AYD-00077,,False,no linked WHO record
+AYD-00079,,False,no linked WHO record
+AYD-00081,,False,no linked WHO record
+AYD-00082,,False,no linked WHO record
+AYD-00084,,False,no linked WHO record
+AYD-00085,,False,no linked WHO record
+AYD-00087,,False,no linked WHO record
+AYD-00088,,False,no linked WHO record
+AYD-00089,,False,no linked WHO record
+AYD-00093,,False,no linked WHO record
+AYD-00095,,False,no linked WHO record
+AYD-00096,,False,no linked WHO record
+AYD-00097,,False,no linked WHO record
+AYD-00098,,False,no linked WHO record
+AYD-00099,,False,no linked WHO record
+AYD-00100,,False,no linked WHO record
+AYD-00101,,False,no linked WHO record
+AYD-00103,,False,no linked WHO record
+AYD-00104,WHO:ITA-5.2.1.44,False,linked record has no definition
+AYD-00105,,False,no linked WHO record
+AYD-00106,,False,no linked WHO record
+AYD-00108,,False,no linked WHO record
+AYD-00109,,False,no linked WHO record
+AYD-00110,,False,no linked WHO record
+AYD-00111,,False,no linked WHO record
+AYD-00112,,False,no linked WHO record
+AYD-00113,,False,no linked WHO record
+AYD-00115,,False,no linked WHO record
+AYD-00117,,False,no linked WHO record
+AYD-00119,,False,no linked WHO record
+AYD-00120,,False,no linked WHO record
+AYD-00121,,False,no linked WHO record
+AYD-00122,,False,no linked WHO record
+AYD-00123,,False,no linked WHO record
+AYD-00125,,False,no linked WHO record
+AYD-00126,,False,no linked WHO record
+AYD-00127,,False,no linked WHO record
+AYD-00130,,False,no linked WHO record
+AYD-00131,,False,no linked WHO record
+AYD-00138,,False,no linked WHO record
+AYD-00144,,False,no linked WHO record
+AYD-00150,,False,no linked WHO record
+AYD-00152,,False,no linked WHO record
+AYD-00155,WHO:ITA-5.2.1.41,False,linked record has no definition
+AYD-00166,,False,no linked WHO record
+AYD-00171,,False,no linked WHO record
+AYD-00179,,False,no linked WHO record
+AYD-00184,,False,no linked WHO record
+AYD-00197,,False,no linked WHO record
+AYD-00198,,False,no linked WHO record
+AYD-00199,,False,no linked WHO record
+AYD-00200,,False,no linked WHO record
+AYD-00201,,False,no linked WHO record
+AYD-00202,,False,no linked WHO record
+AYD-00203,,False,no linked WHO record
+AYD-00204,,False,no linked WHO record
+AYD-00205,,False,no linked WHO record
+AYD-00206,,False,no linked WHO record
+AYD-00207,,False,no linked WHO record
+AYD-00208,,False,no linked WHO record
+AYD-00209,,False,no linked WHO record
+AYD-00210,,False,no linked WHO record
+AYD-00211,,False,no linked WHO record
+AYD-00212,,False,no linked WHO record
+AYD-00213,,False,no linked WHO record
+AYD-00214,,False,no linked WHO record
+AYD-00215,,False,no linked WHO record
+AYD-00216,,False,no linked WHO record
+AYD-00217,,False,no linked WHO record
+AYD-00218,,False,no linked WHO record
+AYD-00219,,False,no linked WHO record
+AYD-00220,,False,no linked WHO record
+AYD-00221,,False,no linked WHO record
+AYD-00222,,False,no linked WHO record
+AYD-00223,,False,no linked WHO record
+AYD-00224,,False,no linked WHO record
+AYD-00225,,False,no linked WHO record
+AYD-00226,,False,no linked WHO record
+AYD-00227,,False,no linked WHO record
+AYD-00228,,False,no linked WHO record
+AYD-00230,,False,no linked WHO record
+AYD-00232,,False,no linked WHO record
+AYD-00250,,False,no linked WHO record
+AYD-00251,,False,no linked WHO record
+AYD-00254,WHO:ITA-5.2.2.1,False,linked record has no definition
+AYD-00255,WHO:ITA-5.2.2,False,linked record has no definition
+AYD-00261,,False,no linked WHO record
+AYD-00262,WHO:ITA-5.66.24,False,linked record has no definition
+AYD-00264,,False,no linked WHO record
+AYD-00265,,False,no linked WHO record
+AYD-00266,,False,no linked WHO record
+AYD-00267,,False,no linked WHO record
+AYD-00268,,False,no linked WHO record
+AYD-00269,,False,no linked WHO record
+AYD-00271,,False,no linked WHO record
+AYD-00272,,False,no linked WHO record
+AYD-00275,,False,no linked WHO record
+AYD-00276,,False,no linked WHO record
+AYD-00277,,False,no linked WHO record
+AYD-00278,,False,no linked WHO record
+AYD-00279,,False,no linked WHO record
+AYD-00280,,False,no linked WHO record
+AYD-00281,,False,no linked WHO record
+AYD-00282,,False,no linked WHO record
+AYD-00283,,False,no linked WHO record
+AYD-00284,,False,no linked WHO record
+AYD-00286,,False,no linked WHO record
+AYD-00287,,False,no linked WHO record
+AYD-00289,,False,no linked WHO record
+AYD-00290,,False,no linked WHO record
+AYD-00291,,False,no linked WHO record
+AYD-00293,,False,no linked WHO record
+AYD-00294,,False,no linked WHO record
+AYD-00296,,False,no linked WHO record
+AYD-00297,,False,no linked WHO record
+AYD-00298,,False,no linked WHO record
+AYD-00300,,False,no linked WHO record
+AYD-00301,,False,no linked WHO record
+AYD-00302,,False,no linked WHO record
+AYD-00303,,False,no linked WHO record
+AYD-00304,,False,no linked WHO record
+AYD-00318,,False,no linked WHO record
+AYD-00319,WHO:ITA-5.2.2,False,linked record has no definition
+AYD-00325,,False,no linked WHO record
+AYD-00326,,False,no linked WHO record
+AYD-00327,,False,no linked WHO record
+AYD-00330,,False,no linked WHO record
+AYD-00331,,False,no linked WHO record
+AYD-00332,,False,no linked WHO record
+AYD-00333,,False,no linked WHO record
+AYD-00334,,False,no linked WHO record
+AYD-00336,,False,no linked WHO record
+AYD-00337,,False,no linked WHO record
+AYD-00339,,False,no linked WHO record
+AYD-00341,,False,no linked WHO record
+AYD-00345,,False,no linked WHO record
+AYD-00346,,False,no linked WHO record
+AYD-00347,,False,no linked WHO record
+AYD-00348,,False,no linked WHO record
+AYD-00349,,False,no linked WHO record
+AYD-00350,,False,no linked WHO record
+AYD-00351,,False,no linked WHO record
+AYD-00352,,False,no linked WHO record
+AYD-00353,,False,no linked WHO record
+AYD-00354,,False,no linked WHO record
+AYD-00355,,False,no linked WHO record
+AYD-00369,,False,no linked WHO record
+AYD-00370,,False,no linked WHO record
+AYD-00371,,False,no linked WHO record
+AYD-00372,,False,no linked WHO record
+AYD-00373,,False,no linked WHO record
+AYD-00374,,False,no linked WHO record
+AYD-00375,,False,no linked WHO record
+AYD-00376,,False,no linked WHO record
+AYD-00377,,False,no linked WHO record
+AYD-00378,,False,no linked WHO record
+AYD-00379,,False,no linked WHO record
+AYD-00380,,False,no linked WHO record
+AYD-00381,,False,no linked WHO record
+AYD-00382,,False,no linked WHO record
+AYD-00384,WHO:ITA-5.3.2,False,linked record has no definition
+AYD-00412,WHO:ITA-5.3.30,False,linked record has no definition
+AYD-00421,,False,no linked WHO record
+AYD-00422,,False,no linked WHO record
+AYD-00438,,False,no linked WHO record
+AYD-00439,,False,no linked WHO record
+AYD-00444,WHO:ITA-5.4.1,False,linked record has no definition
+AYD-00445,WHO:ITA-5.4.2,False,linked record has no definition
+AYD-00461,,False,no linked WHO record
+AYD-00462,,False,no linked WHO record
+AYD-00469,,False,no linked WHO record
+AYD-00472,,False,no linked WHO record
+AYD-00495,,False,no linked WHO record
+AYD-00496,,False,no linked WHO record
+AYD-00498,,False,no linked WHO record
+AYD-00499,,False,no linked WHO record
+AYD-00504,,False,no linked WHO record
+AYD-00507,,False,no linked WHO record
+AYD-00508,,False,no linked WHO record
+AYD-00509,,False,no linked WHO record
+AYD-00511,,False,no linked WHO record
+AYD-00513,,False,no linked WHO record
+AYD-00525,,False,no linked WHO record
+AYD-00535,,False,no linked WHO record
+AYD-00541,WHO:ITA-5.11.9,False,linked record has no definition
+AYD-00542,WHO:ITA-5.11.10,False,linked record has no definition
+AYD-00549,,False,no linked WHO record
+AYD-00551,,False,no linked WHO record
+AYD-00556,,False,no linked WHO record
+AYD-00557,,False,no linked WHO record
+AYD-00559,,False,no linked WHO record
+AYD-00560,,False,no linked WHO record
+AYD-00575,,False,no linked WHO record
+AYD-00576,,False,no linked WHO record
+AYD-00577,,False,no linked WHO record
+AYD-00578,,False,no linked WHO record
+AYD-00579,,False,no linked WHO record
+AYD-00580,,False,no linked WHO record
+AYD-00581,,False,no linked WHO record
+AYD-00582,,False,no linked WHO record
+AYD-00583,,False,no linked WHO record
+AYD-00584,,False,no linked WHO record
+AYD-00585,WHO:ITA-5.22.6,False,linked record has no definition
+AYD-00587,,False,no linked WHO record
+AYD-00592,WHO:ITA-5.23.6,False,linked record has no definition
+AYD-00594,,False,no linked WHO record
+AYD-00595,,False,no linked WHO record
+AYD-00596,,False,no linked WHO record
+AYD-00597,WHO:ITA-5.23.7,False,linked record has no definition
+AYD-00598,,False,no linked WHO record
+AYD-00599,,False,no linked WHO record
+AYD-00600,,False,no linked WHO record
+AYD-00606,,False,no linked WHO record
+AYD-00610,,False,no linked WHO record
+AYD-00627,,False,no linked WHO record
+AYD-00640,WHO:ITA-5.34.7,False,linked record has no definition
+AYD-00642,,False,no linked WHO record
+AYD-00644,WHO:ITA-5.34.10,False,linked record has no definition
+AYD-00648,,False,no linked WHO record
+AYD-00649,,False,no linked WHO record
+AYD-00650,,False,no linked WHO record
+AYD-00652,,False,no linked WHO record
+AYD-00657,,False,no linked WHO record
+AYD-00671,,False,no linked WHO record
+AYD-00675,,False,no linked WHO record
+AYD-00677,,False,no linked WHO record
+AYD-00679,,False,no linked WHO record
+AYD-00696,,False,no linked WHO record
+AYD-00714,,False,no linked WHO record
+AYD-00715,,False,no linked WHO record
+AYD-00716,,False,no linked WHO record
+AYD-00717,,False,no linked WHO record
+AYD-00718,,False,no linked WHO record
+AYD-00719,,False,no linked WHO record
+AYD-00720,,False,no linked WHO record
+AYD-00721,,False,no linked WHO record
+AYD-00722,,False,no linked WHO record
+AYD-00723,,False,no linked WHO record
+AYD-00724,,False,no linked WHO record
+AYD-00725,,False,no linked WHO record
+AYD-00726,,False,no linked WHO record
+AYD-00727,,False,no linked WHO record
+AYD-00728,,False,no linked WHO record
+AYD-00729,,False,no linked WHO record
+AYD-00730,,False,no linked WHO record
+AYD-00731,,False,no linked WHO record
+AYD-00732,,False,no linked WHO record
+AYD-00733,,False,no linked WHO record
+AYD-00734,,False,no linked WHO record
+AYD-00735,,False,no linked WHO record
+AYD-00736,,False,no linked WHO record
+AYD-00737,,False,no linked WHO record
+AYD-00738,,False,no linked WHO record
+AYD-00740,,False,no linked WHO record
+AYD-00741,,False,no linked WHO record
+AYD-00742,,False,no linked WHO record
+AYD-00743,,False,no linked WHO record
+AYD-00752,,False,no linked WHO record
+AYD-00759,,False,no linked WHO record
+AYD-00771,WHO:ITA-5.6.24,False,linked record has no definition
+AYD-00774,,False,no linked WHO record
+AYD-00787,,False,no linked WHO record
+AYD-00788,,False,no linked WHO record
+AYD-00792,,False,no linked WHO record
+AYD-00794,,False,no linked WHO record
+AYD-00795,,False,no linked WHO record
+AYD-00796,,False,no linked WHO record
+AYD-00797,,False,no linked WHO record
+AYD-00810,WHO:ITA-5.70.13,False,linked record has no definition
+AYD-00817,WHO:ITA-5.14.5,False,linked record has no definition
+AYD-00822,,False,no linked WHO record
+AYD-00828,,False,no linked WHO record
+AYD-00832,,False,no linked WHO record
+AYD-00836,,False,no linked WHO record
+AYD-00842,,False,no linked WHO record
+AYD-00843,,False,no linked WHO record
+AYD-00844,,False,no linked WHO record
+AYD-00847,,False,no linked WHO record
+AYD-00848,,False,no linked WHO record
+AYD-00850,WHO:ITA-5.75.3,False,linked record has no definition
+AYD-00852,,False,no linked WHO record
+AYD-00854,,False,no linked WHO record
+AYD-00855,,False,no linked WHO record
+AYD-00857,,False,no linked WHO record
+AYD-00863,,False,no linked WHO record
+AYD-00866,,False,no linked WHO record
+AYD-00868,,False,no linked WHO record
+AYD-00869,,False,no linked WHO record
+AYD-00871,,False,no linked WHO record
+AYD-00872,,False,no linked WHO record
+AYD-00879,,False,no linked WHO record
+AYD-00883,WHO:ITA-5.59.1,False,linked record has no definition
+AYD-00887,,False,no linked WHO record
+AYD-00894,,False,no linked WHO record
+AYD-00906,,False,no linked WHO record
+AYD-00918,,False,no linked WHO record
+AYD-00934,,False,no linked WHO record
+AYD-00942,,False,no linked WHO record
+AYD-00948,,False,no linked WHO record
+AYD-00953,,False,no linked WHO record
+AYD-00954,,False,no linked WHO record
+AYD-00955,,False,no linked WHO record
+AYD-00960,,False,no linked WHO record
+AYD-00961,,False,no linked WHO record
+AYD-00962,,False,no linked WHO record
+AYD-00966,,False,no linked WHO record
+AYD-00967,,False,no linked WHO record
+AYD-00968,,False,no linked WHO record
+AYD-00970,,False,no linked WHO record
+AYD-00971,,False,no linked WHO record
+AYD-00981,,False,no linked WHO record
+AYD-00982,,False,no linked WHO record
+AYD-00983,,False,no linked WHO record
+AYD-00984,,False,no linked WHO record
+AYD-00986,,False,no linked WHO record
+AYD-00987,,False,no linked WHO record
+AYD-00989,,False,no linked WHO record
+AYD-00991,,False,no linked WHO record
+AYD-00992,,False,no linked WHO record
+AYD-00993,,False,no linked WHO record
+AYD-00995,,False,no linked WHO record
+AYD-00996,,False,no linked WHO record
+AYD-00998,,False,no linked WHO record
+AYD-00999,,False,no linked WHO record
+AYD-01000,,False,no linked WHO record
+AYD-01012,,False,no linked WHO record
+AYD-01016,,False,no linked WHO record
+AYD-01021,,False,no linked WHO record
+AYD-01023,,False,no linked WHO record
+AYD-01043,,False,no linked WHO record
+AYD-01045,,False,no linked WHO record
+AYD-01046,,False,no linked WHO record
+AYD-01058,,False,no linked WHO record
+AYD-01062,,False,no linked WHO record
+AYD-01075,,False,no linked WHO record
+AYD-01077,,False,no linked WHO record
+AYD-01082,,False,no linked WHO record
+AYD-01083,,False,no linked WHO record
+AYD-01087,,False,no linked WHO record
+AYD-01088,,False,no linked WHO record
+AYD-01089,,False,no linked WHO record
+AYD-01091,,False,no linked WHO record
+AYD-01093,,False,no linked WHO record
+AYD-01094,,False,no linked WHO record
+AYD-01102,,False,no linked WHO record
+AYD-01103,,False,no linked WHO record
+AYD-01104,,False,no linked WHO record
+AYD-01105,,False,no linked WHO record
+AYD-01107,,False,no linked WHO record
+AYD-01108,,False,no linked WHO record
+AYD-01111,,False,no linked WHO record
+AYD-01112,WHO:ITA-5.41.2,False,linked record has no definition
+AYD-01127,WHO:ITA-5.41.17,False,linked record has no definition
+AYD-01135,WHO:ITA-5.41.25,False,linked record has no definition
+AYD-01140,,False,no linked WHO record
+AYD-01141,WHO:ITA-5.41.1.1,False,linked record has no definition
+AYD-01143,WHO:ITA-5.41.1.3,False,linked record has no definition
+AYD-01148,WHO:ITA-5.41.1.8,False,linked record has no definition
+AYD-01152,,False,no linked WHO record
+AYD-01153,,False,no linked WHO record
+AYD-01154,,False,no linked WHO record
+AYD-01155,,False,no linked WHO record
+AYD-01156,,False,no linked WHO record
+AYD-01157,,False,no linked WHO record
+AYD-01158,,False,no linked WHO record
+AYD-01159,,False,no linked WHO record
+AYD-01160,,False,no linked WHO record
+AYD-01162,,False,no linked WHO record
+AYD-01163,,False,no linked WHO record
+AYD-01165,,False,no linked WHO record
+AYD-01167,,False,no linked WHO record
+AYD-01168,,False,no linked WHO record
+AYD-01170,,False,no linked WHO record
+AYD-01171,,False,no linked WHO record
+AYD-01178,,False,no linked WHO record
+AYD-01179,,False,no linked WHO record
+AYD-01180,,False,no linked WHO record
+AYD-01188,,False,no linked WHO record
+AYD-01210,,False,no linked WHO record
+AYD-01214,,False,no linked WHO record
+AYD-01227,,False,no linked WHO record
+AYD-01237,,False,no linked WHO record
+AYD-01245,,False,no linked WHO record
+AYD-01246,,False,no linked WHO record
+AYD-01254,,False,no linked WHO record
+AYD-01256,,False,no linked WHO record
+AYD-01257,,False,no linked WHO record
+AYD-01260,,False,no linked WHO record
+AYD-01261,,False,no linked WHO record
+AYD-01274,,False,no linked WHO record
+AYD-01275,,False,no linked WHO record
+AYD-01276,,False,no linked WHO record
+AYD-01277,,False,no linked WHO record
+AYD-01283,WHO:ITA-5.39.6,False,linked record has no definition
+AYD-01289,,False,no linked WHO record
+AYD-01300,,False,no linked WHO record
+AYD-01301,,False,no linked WHO record
+AYD-01302,,False,no linked WHO record
+AYD-01303,,False,no linked WHO record
+AYD-01310,WHO:ITA-5.44.5,False,linked record has no definition
+AYD-01319,,False,no linked WHO record
+AYD-01320,,False,no linked WHO record
+AYD-01322,,False,no linked WHO record
+AYD-01323,,False,no linked WHO record
+AYD-01325,,False,no linked WHO record
+AYD-01340,,False,no linked WHO record
+AYD-01341,,False,no linked WHO record
+AYD-01345,,False,no linked WHO record
+AYD-01347,,False,no linked WHO record
+AYD-01348,,False,no linked WHO record
+AYD-01355,,False,no linked WHO record
+AYD-01356,,False,no linked WHO record
+AYD-01357,,False,no linked WHO record
+AYD-01358,,False,no linked WHO record
+AYD-01361,,False,no linked WHO record
+AYD-01366,,False,no linked WHO record
+AYD-01367,,False,no linked WHO record
+AYD-01368,,False,no linked WHO record
+AYD-01369,,False,no linked WHO record
+AYD-01371,,False,no linked WHO record
+AYD-01372,,False,no linked WHO record
+AYD-01373,,False,no linked WHO record
+AYD-01375,,False,no linked WHO record
+AYD-01376,,False,no linked WHO record
+AYD-01383,,False,no linked WHO record
+AYD-01384,,False,no linked WHO record
+AYD-01385,,False,no linked WHO record
+AYD-01386,,False,no linked WHO record
+AYD-01387,,False,no linked WHO record
+AYD-01388,,False,no linked WHO record
+AYD-01389,,False,no linked WHO record
+AYD-01390,,False,no linked WHO record
+AYD-01391,,False,no linked WHO record
+AYD-01396,,False,no linked WHO record
+AYD-01397,,False,no linked WHO record
+AYD-01399,,False,no linked WHO record
+AYD-01401,,False,no linked WHO record
+AYD-01411,,False,no linked WHO record
+AYD-01421,,False,no linked WHO record
+AYD-01424,,False,no linked WHO record
+AYD-01425,,False,no linked WHO record
+AYD-01435,,False,no linked WHO record
+AYD-01444,,False,no linked WHO record
+AYD-01445,,False,no linked WHO record
+AYD-01446,,False,no linked WHO record
+AYD-01447,,False,no linked WHO record
+AYD-01448,,False,no linked WHO record
+AYD-01449,,False,no linked WHO record
+AYD-01450,,False,no linked WHO record
+AYD-01451,,False,no linked WHO record
+AYD-01458,,False,no linked WHO record
+AYD-01463,,False,no linked WHO record
+AYD-01464,,False,no linked WHO record
+AYD-01465,,False,no linked WHO record
+AYD-01480,,False,no linked WHO record
+AYD-01481,,False,no linked WHO record
+AYD-01482,,False,no linked WHO record
+AYD-01483,,False,no linked WHO record
+AYD-01484,,False,no linked WHO record
+AYD-01486,,False,no linked WHO record
+AYD-01487,,False,no linked WHO record
+AYD-01488,,False,no linked WHO record
+AYD-01489,,False,no linked WHO record
+AYD-01490,,False,no linked WHO record
+AYD-01500,,False,no linked WHO record
+AYD-01501,,False,no linked WHO record
+AYD-01502,,False,no linked WHO record
+AYD-01503,,False,no linked WHO record
+AYD-01504,,False,no linked WHO record
+AYD-01505,,False,no linked WHO record
+AYD-01506,,False,no linked WHO record
+AYD-01507,,False,no linked WHO record
+AYD-01508,,False,no linked WHO record
+AYD-01509,,False,no linked WHO record
+AYD-01510,,False,no linked WHO record
+AYD-01511,,False,no linked WHO record
+AYD-01512,,False,no linked WHO record
+AYD-01513,,False,no linked WHO record
+AYD-01514,,False,no linked WHO record
+AYD-01515,,False,no linked WHO record
+AYD-01516,,False,no linked WHO record
+AYD-01517,,False,no linked WHO record
+AYD-01518,,False,no linked WHO record
+AYD-01532,WHO:ITA-5.67.11,False,linked record has no definition
+AYD-01533,,False,no linked WHO record
+AYD-01534,,False,no linked WHO record
+AYD-01536,,False,no linked WHO record
+AYD-01538,,False,no linked WHO record
+AYD-01539,,False,no linked WHO record
+AYD-01540,,False,no linked WHO record
+AYD-01541,,False,no linked WHO record
+AYD-01542,,False,no linked WHO record
+AYD-01551,,False,no linked WHO record
+AYD-01552,,False,no linked WHO record
+AYD-01553,WHO:ITA-5.63.1,False,linked record has no definition
+AYD-01554,WHO:ITA-5.63.2,False,linked record has no definition
+AYD-01563,,False,no linked WHO record
+AYD-01564,,False,no linked WHO record
+AYD-01565,,False,no linked WHO record
+AYD-01582,,False,no linked WHO record
+AYD-01583,,False,no linked WHO record
+AYD-01587,,False,no linked WHO record
+AYD-01592,,False,no linked WHO record
+AYD-01596,,False,no linked WHO record
+AYD-01608,,False,no linked WHO record
+AYD-01616,WHO:ITA-5.63.50,False,linked record has no definition
+AYD-01623,WHO:ITA-5.63.57,False,linked record has no definition
+AYD-01638,,False,no linked WHO record
+AYD-01640,,False,no linked WHO record
+AYD-01642,,False,no linked WHO record
+AYD-01646,,False,no linked WHO record
+AYD-01649,WHO:ITA-5.63.70,False,linked record has no definition
+AYD-01650,,False,no linked WHO record
+AYD-01652,,False,no linked WHO record
+AYD-01654,,False,no linked WHO record
+AYD-01656,,False,no linked WHO record
+AYD-01657,,False,no linked WHO record
+AYD-01659,,False,no linked WHO record
+AYD-01660,,False,no linked WHO record
+AYD-01661,,False,no linked WHO record
+AYD-01662,WHO:ITA-5.66.1,False,linked record has no definition
+AYD-01663,,False,no linked WHO record
+AYD-01664,,False,no linked WHO record
+AYD-01665,,False,no linked WHO record
+AYD-01666,,False,no linked WHO record
+AYD-01667,,False,no linked WHO record
+AYD-01668,,False,no linked WHO record
+AYD-01669,,False,no linked WHO record
+AYD-01670,,False,no linked WHO record
+AYD-01671,,False,no linked WHO record
+AYD-01672,,False,no linked WHO record
+AYD-01673,,False,no linked WHO record
+AYD-01674,,False,no linked WHO record
+AYD-01675,,False,no linked WHO record
+AYD-01676,,False,no linked WHO record
+AYD-01677,,False,no linked WHO record
+AYD-01689,WHO:ITA-5.66.69,False,linked record has no definition
+AYD-01693,,False,no linked WHO record
+AYD-01710,WHO:ITA-5.66.90,False,linked record has no definition
+AYD-01711,,False,no linked WHO record
+AYD-01712,,False,no linked WHO record
+AYD-01713,,False,no linked WHO record
+AYD-01715,,False,no linked WHO record
+AYD-01716,,False,no linked WHO record
+AYD-01719,,False,no linked WHO record
+AYD-01735,,False,no linked WHO record
+AYD-01736,,False,no linked WHO record
+AYD-01738,,False,no linked WHO record
+AYD-01739,,False,no linked WHO record
+AYD-01759,,False,no linked WHO record
+AYD-01760,,False,no linked WHO record
+AYD-01761,,False,no linked WHO record
+AYD-01764,,False,no linked WHO record
+AYD-01765,,False,no linked WHO record
+AYD-01766,,False,no linked WHO record
+AYD-01767,,False,no linked WHO record
+AYD-01769,,False,no linked WHO record
+AYD-01770,,False,no linked WHO record
+AYD-01771,,False,no linked WHO record
+AYD-01772,,False,no linked WHO record
+AYD-01773,,False,no linked WHO record
+AYD-01774,,False,no linked WHO record
+AYD-01775,,False,no linked WHO record
+AYD-01776,,False,no linked WHO record
+AYD-01777,,False,no linked WHO record
+AYD-01780,,False,no linked WHO record
+AYD-01781,,False,no linked WHO record
+AYD-01782,,False,no linked WHO record
+AYD-01783,,False,no linked WHO record
+AYD-01784,,False,no linked WHO record
+AYD-01794,,False,no linked WHO record
+AYD-01795,,False,no linked WHO record
+AYD-01796,,False,no linked WHO record
+AYD-01797,,False,no linked WHO record
+AYD-01798,,False,no linked WHO record
+AYD-01799,,False,no linked WHO record
+AYD-01800,,False,no linked WHO record
+AYD-01802,,False,no linked WHO record
+AYD-01804,,False,no linked WHO record
+AYD-01809,,False,no linked WHO record
+AYD-01810,,False,no linked WHO record
+AYD-01813,WHO:ITA-5.65.1,False,linked record has no definition
+AYD-01827,,False,no linked WHO record
+AYD-01834,,False,no linked WHO record
+AYD-01835,,False,no linked WHO record
+AYD-01836,,False,no linked WHO record
+AYD-01837,,False,no linked WHO record
+AYD-01838,,False,no linked WHO record
+AYD-01840,,False,no linked WHO record
+AYD-01841,,False,no linked WHO record
+AYD-01842,,False,no linked WHO record
+AYD-01843,,False,no linked WHO record
+AYD-01844,,False,no linked WHO record
+AYD-01845,,False,no linked WHO record
+AYD-01846,,False,no linked WHO record
+AYD-01857,WHO:ITA-5.65.25,False,linked record has no definition
+AYD-01859,,False,no linked WHO record
+AYD-01860,WHO:ITA-5.64.1,False,linked record has no definition
+AYD-01865,,False,no linked WHO record
+AYD-01873,,False,no linked WHO record
+AYD-01874,,False,no linked WHO record
+AYD-01876,,False,no linked WHO record
+AYD-01877,,False,no linked WHO record
+AYD-01878,,False,no linked WHO record
+AYD-01879,,False,no linked WHO record
+AYD-01881,WHO:ITA-5.64.15,False,linked record has no definition
+AYD-01882,,False,no linked WHO record
+AYD-01883,,False,no linked WHO record
+AYD-01884,,False,no linked WHO record
+AYD-01885,,False,no linked WHO record
+AYD-01886,,False,no linked WHO record
+AYD-01887,,False,no linked WHO record
+AYD-01888,,False,no linked WHO record
+AYD-01889,WHO:ITA-5.64.16,False,linked record has no definition
+AYD-01890,,False,no linked WHO record
+AYD-01891,,False,no linked WHO record
+AYD-01892,,False,no linked WHO record
+AYD-01893,,False,no linked WHO record
+AYD-01898,,False,no linked WHO record
+AYD-01899,,False,no linked WHO record
+AYD-01900,WHO:ITA-5.64.21,False,linked record has no definition
+AYD-01903,,False,no linked WHO record
+AYD-01907,,False,no linked WHO record
+AYD-01909,,False,no linked WHO record
+AYD-01910,,False,no linked WHO record
+AYD-01911,,False,no linked WHO record
+AYD-01912,,False,no linked WHO record
+AYD-01955,,False,no linked WHO record
+AYD-01956,,False,no linked WHO record
+AYD-01958,,False,no linked WHO record
+AYD-01965,,False,no linked WHO record
+AYD-01970,,False,no linked WHO record
+AYD-01980,,False,no linked WHO record
+AYD-01992,,False,no linked WHO record
+AYD-01993,,False,no linked WHO record
+AYD-01994,,False,no linked WHO record
+AYD-01995,,False,no linked WHO record
+AYD-01996,,False,no linked WHO record
+AYD-01997,,False,no linked WHO record
+AYD-01998,,False,no linked WHO record
+AYD-01999,,False,no linked WHO record
+AYD-02000,,False,no linked WHO record
+AYD-02001,,False,no linked WHO record
+AYD-02002,,False,no linked WHO record
+AYD-02003,,False,no linked WHO record
+AYD-02004,,False,no linked WHO record
+AYD-02005,,False,no linked WHO record
+AYD-02006,,False,no linked WHO record
+AYD-02007,,False,no linked WHO record
+AYD-02008,,False,no linked WHO record
+AYD-02009,,False,no linked WHO record
+AYD-02012,,False,no linked WHO record
+AYD-02013,,False,no linked WHO record
+AYD-02019,,False,no linked WHO record
+AYD-02025,,False,no linked WHO record
+AYD-02028,,False,no linked WHO record
+AYD-02043,,False,no linked WHO record
+AYD-02059,,False,no linked WHO record
+AYD-02098,,False,no linked WHO record
+AYD-02099,,False,no linked WHO record
+AYD-02100,WHO:ITA-5.73.12,False,linked record has no definition
+AYD-02101,WHO:ITA-5.73.13,False,linked record has no definition
+AYD-02103,WHO:ITA-5.73.15,False,linked record has no definition
+AYD-02108,WHO:ITA-5.73.20,False,linked record has no definition
+AYD-02110,WHO:ITA-5.73.22,False,linked record has no definition
+AYD-02111,WHO:ITA-5.73.23,False,linked record has no definition
+AYD-02114,WHO:ITA-5.73.26,False,linked record has no definition
+AYD-02119,WHO:ITA-5.73.31,False,linked record has no definition
+AYD-02124,,False,no linked WHO record
+AYD-02125,WHO:ITA-5.76.16,False,linked record has no definition
+AYD-02126,WHO:ITA-5.73.37,False,linked record has no definition
+AYD-02131,WHO:ITA-5.73.41,False,linked record has no definition
+AYD-02133,,False,no linked WHO record
+AYD-02134,,False,no linked WHO record
+AYD-02135,,False,no linked WHO record
+AYD-02136,,False,no linked WHO record
+AYD-02137,,False,no linked WHO record
+AYD-02138,,False,no linked WHO record
+AYD-02139,,False,no linked WHO record
+AYD-02140,,False,no linked WHO record
+AYD-02153,,False,no linked WHO record
+AYD-02158,,False,no linked WHO record
+AYD-02160,,False,no linked WHO record
+AYD-02161,,False,no linked WHO record
+AYD-02168,,False,no linked WHO record
+AYD-02174,,False,no linked WHO record
+AYD-02176,WHO:ITA-5.71.5,False,linked record has no definition
+AYD-02177,,False,no linked WHO record
+AYD-02180,,False,no linked WHO record
+AYD-02181,,False,no linked WHO record
+AYD-02182,,False,no linked WHO record
+AYD-02183,,False,no linked WHO record
+AYD-02189,WHO:ITA-5.13.4,False,linked record has no definition
+AYD-02205,,False,no linked WHO record
+AYD-02216,,False,no linked WHO record
+AYD-02230,,False,no linked WHO record
+AYD-02245,,False,no linked WHO record
+AYD-02282,,False,no linked WHO record
+AYD-02288,,False,no linked WHO record
+AYD-02289,,False,no linked WHO record
+AYD-02290,,False,no linked WHO record
+AYD-02291,,False,no linked WHO record
+AYD-02301,WHO:ITA-5.61.5,False,linked record has no definition
+AYD-02309,,False,no linked WHO record
+AYD-02310,,False,no linked WHO record
+AYD-02312,,False,no linked WHO record
+AYD-02314,WHO:ITA-5.72.1,False,linked record has no definition
+AYD-02321,,False,no linked WHO record
+AYD-02393,,False,no linked WHO record
+AYD-02407,,False,no linked WHO record
+AYD-02410,,False,no linked WHO record
+AYD-02411,,False,no linked WHO record
+AYD-02416,,False,no linked WHO record
+AYD-02424,,False,no linked WHO record
+AYD-02426,,False,no linked WHO record
+AYD-02435,,False,no linked WHO record
+AYD-02452,,False,no linked WHO record
+AYD-02454,,False,no linked WHO record
+AYD-02521,,False,no linked WHO record
+AYD-02522,WHO:ITA-5.72.16,False,linked record has no definition
+AYD-02542,,False,no linked WHO record
+AYD-02554,,False,no linked WHO record
+AYD-02562,WHO:ITA-5.74.1,False,linked record has no definition
+AYD-02567,WHO:ITA-5.74.6,False,linked record has no definition
+AYD-02569,WHO:ITA-5.74.8,False,linked record has no definition
+AYD-02570,WHO:ITA-5.74.9,False,linked record has no definition
+AYD-02571,WHO:ITA-5.74.10,False,linked record has no definition
+AYD-02572,WHO:ITA-5.74.11,False,linked record has no definition
+AYD-02573,WHO:ITA-5.74.12,False,linked record has no definition
+AYD-02575,WHO:ITA-5.74.14,False,linked record has no definition
+AYD-02582,WHO:ITA-5.75.1,False,linked record has no definition
+AYD-02583,WHO:ITA-5.75.2,False,linked record has no definition
+AYD-02586,,False,no linked WHO record
+AYD-02587,,False,no linked WHO record
+AYD-02588,,False,no linked WHO record
+AYD-02589,,False,no linked WHO record
+AYD-02591,WHO:ITA-5.75.6,False,linked record has no definition
+AYD-02593,WHO:ITA-5.75.8,False,linked record has no definition
+AYD-02597,WHO:ITA-5.75.12,False,linked record has no definition
+AYD-02608,WHO:ITA-5.75.23,False,linked record has no definition
+AYD-02609,WHO:ITA-5.75.24,False,linked record has no definition
+AYD-02610,WHO:ITA-5.75.25,False,linked record has no definition
+AYD-02611,WHO:ITA-5.75.26,False,linked record has no definition
+AYD-02615,WHO:ITA-5.76.2,False,linked record has no definition
+AYD-02620,WHO:ITA-5.76.7,False,linked record has no definition
+AYD-02622,WHO:ITA-5.76.9,False,linked record has no definition
+AYD-02624,WHO:ITA-5.76.11,False,linked record has no definition
+AYD-02628,WHO:ITA-5.76.15,False,linked record has no definition
+AYD-02629,WHO:ITA-5.76.17,False,linked record has no definition
+AYD-02631,WHO:ITA-5.76.19,False,linked record has no definition
+AYD-02633,WHO:ITA-5.76.21,False,linked record has no definition
+AYD-02652,WHO:ITA-5.76.40,False,linked record has no definition
+AYD-02665,WHO:ITA-5.76.51,False,linked record has no definition
+AYD-02698,WHO:ITA-5.76.84,False,linked record has no definition
+AYD-02699,,False,no linked WHO record
+AYD-02712,,False,no linked WHO record
+AYD-02715,WHO:ITA-5.76.101,False,linked record has no definition
+AYD-02730,WHO:ITA-5.76.116,False,linked record has no definition
+AYD-02733,WHO:ITA-5.76.119,False,linked record has no definition
+AYD-02740,,False,no linked WHO record
+AYD-02748,WHO:ITA-5.76.133,False,linked record has no definition
+AYD-02753,WHO:ITA-5.76.138,False,linked record has no definition
+AYD-02756,WHO:ITA-5.76.141,False,linked record has no definition
+AYD-02775,WHO:ITA-5.76.160,False,linked record has no definition
+AYD-02780,WHO:ITA-5.76.165,False,linked record has no definition
+AYD-02783,WHO:ITA-5.76.168,False,linked record has no definition
+AYD-02789,,False,no linked WHO record
+AYD-02792,WHO:ITA-5.76.176,False,linked record has no definition
+AYD-02795,WHO:ITA-5.76.179,False,linked record has no definition
+AYD-02797,,False,no linked WHO record
+AYD-02798,WHO:ITA-5.76.182,False,linked record has no definition
+AYD-02800,WHO:ITA-5.76.184,False,linked record has no definition
+AYD-02801,WHO:ITA-5.76.185,False,linked record has no definition
+AYD-02804,WHO:ITA-5.76.188,False,linked record has no definition
+AYD-02807,WHO:ITA-5.76.191,False,linked record has no definition
+AYD-02816,WHO:ITA-5.76.200,False,linked record has no definition
+AYD-02818,WHO:ITA-5.76.202,False,linked record has no definition
+AYD-02822,,False,no linked WHO record
+AYD-02827,WHO:ITA-5.76.211,False,linked record has no definition
+AYD-02831,WHO:ITA-5.76.215,False,linked record has no definition
+AYD-02840,WHO:ITA-5.76.224,False,linked record has no definition
+AYD-02841,WHO:ITA-5.76.225,False,linked record has no definition
+AYD-02843,,False,no linked WHO record
+AYD-02844,WHO:ITA-5.76.228,False,linked record has no definition
+AYD-02849,WHO:ITA-5.76.233,False,linked record has no definition
+AYD-02851,,False,no linked WHO record
+AYD-02852,,False,no linked WHO record
+AYD-02859,,False,no linked WHO record
+AYD-02860,,False,no linked WHO record
+AYD-02861,,False,no linked WHO record
+AYD-02870,,False,no linked WHO record
+AYD-02884,,False,no linked WHO record
+AYD-02887,,False,no linked WHO record
+AYD-02896,,False,no linked WHO record
+AYD-02900,,False,no linked WHO record
+AYD-02912,,False,no linked WHO record
+AYD-02920,,False,no linked WHO record
+AYD-02923,,False,no linked WHO record
+AYD-02924,,False,no linked WHO record
+AYD-02925,,False,no linked WHO record
+AYD-02926,,False,no linked WHO record
+AYD-02927,,False,no linked WHO record
+AYD-02928,,False,no linked WHO record
+AYD-02929,,False,no linked WHO record
+AYD-02930,,False,no linked WHO record
+AYD-02931,,False,no linked WHO record
+AYD-02932,,False,no linked WHO record
+AYD-02933,,False,no linked WHO record
+AYD-02934,,False,no linked WHO record
+AYD-02935,,False,no linked WHO record
+AYD-02936,,False,no linked WHO record
+AYD-02937,,False,no linked WHO record
+AYD-02938,,False,no linked WHO record
+AYD-02939,,False,no linked WHO record
+AYD-02940,,False,no linked WHO record
+AYD-02941,,False,no linked WHO record
+AYD-02942,,False,no linked WHO record
+AYD-02943,,False,no linked WHO record
+AYD-02950,,False,no linked WHO record
+AYD-02963,,False,no linked WHO record
+AYD-02964,,False,no linked WHO record
+AYD-02967,,False,no linked WHO record
+AYD-02968,,False,no linked WHO record
+AYD-02972,,False,no linked WHO record
+AYD-02973,,False,no linked WHO record
+AYD-02974,,False,no linked WHO record
+AYD-02975,,False,no linked WHO record
+AYD-02976,,False,no linked WHO record
+AYD-02977,,False,no linked WHO record
+AYD-02978,,False,no linked WHO record
+AYD-02979,,False,no linked WHO record
+AYD-02980,,False,no linked WHO record
+AYD-02981,,False,no linked WHO record
+AYD-02982,,False,no linked WHO record

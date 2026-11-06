@@ -66,3 +66,26 @@ def connected_record_groups(frame, ids_column='record_ids'):
             union(refs[0],ref)
         keys.append(refs[0])
     return [find(key) for key in keys]
+
+
+def validate_external_cases(external, internal):
+    """Check supplied evidence and overlap; this does not certify reviewer credentials."""
+    required=['case_id','pmcid','doi','title','independence_group','adjudicated_label','reviewer_1','reviewer_2','adjudication_reference']
+    if not set(required)<=set(external):raise ValueError('Missing external annotation columns')
+    if external.empty:raise ValueError('No independent cases supplied')
+    for column in ['case_id','title','independence_group','adjudicated_label','reviewer_1','reviewer_2','adjudication_reference']:
+        if external[column].isna().any() or external[column].astype(str).str.strip().eq('').any():
+            raise ValueError('Missing annotation evidence: '+column)
+    if external.case_id.duplicated().any():raise ValueError('Duplicate external case IDs')
+    if external.reviewer_1.eq(external.reviewer_2).any():raise ValueError('Two distinct reviewers required')
+    for column in ['case_id','pmcid','doi','title']:
+        if column not in internal:continue
+        def norm(value):
+            value=str(value).casefold().strip()
+            if column=='doi':value=value.removeprefix('https://doi.org/').removeprefix('doi:').strip()
+            return ' '.join(value.split())
+        known={norm(value) for value in internal[column] if str(value).strip()}
+        if any(norm(value) in known for value in external[column] if str(value).strip()):
+            raise ValueError('External set overlaps internal '+column)
+    return {'cases':len(external),'publication_groups':external.independence_group.nunique(),
+            'identifier_and_title_overlap':False,'reviewer_credentials':'not independently verified'}
