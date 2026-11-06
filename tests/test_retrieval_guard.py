@@ -34,3 +34,11 @@ def test_full_corpus_retrieval_uses_candidate_ids(monkeypatch):
             return np.array([[0.,1.] if text=='distractor' else [1.,0.] for text in texts])
     scores=module.evaluate(Encoder(),{'diseases':query})
     assert scores['diseases']['hindi_headword']['recall_at_1']==1.0
+
+
+@pytest.mark.parametrize('field,value',[('reference','source-page-12'),('split','test')])
+def test_partial_review_is_not_overwritten(tmp_path,field,value):
+    path=tmp_path/'review.csv'
+    pd.DataFrame({field:[value],'verdict':['']}).to_csv(path,index=False)
+    with pytest.raises(ValueError,match='annotated'):
+        write_review_csv(pd.DataFrame({'verdict':['']}),path)
