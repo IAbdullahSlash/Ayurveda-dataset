@@ -18,7 +18,7 @@ sources). Raw files are kept unchanged in `data/raw/` with SHA-256 checksums in 
 | S7 | GBIF Backbone Taxonomy (species match + search API) | GBIF | CC BY 4.0 | validating botanical names, resolving synonyms |
 | S8 | PubMed (NCBI E-utilities) | US National Library of Medicine | public domain (counts are facts) | literature evidence counts |
 | S9 | ClinicalTrials.gov API v2 | US National Library of Medicine | public domain | registered clinical trials per herb / formulation |
-| S10 | Europe PMC REST API: Ayurveda case reports and case series (565 records; 374 open-access full texts mined) | EMBL-EBI | metadata freely reusable; text mining of the open-access subset permitted; per-article licence recorded. Only identifiers, titles and extracted KB entities are stored, never article text | real-world validation (E6), practice patterns, adverse-event signals |
+| S10 | Europe PMC REST API: Ayurveda case reports and case series (565 records; 374 open-access full texts mined) | EMBL-EBI | metadata freely reusable; text mining of the open-access subset permitted; per-article licence recorded. The release also contains source-derived symptom phrases and short clauses; full article caches are excluded and per-article terms need review | real-world validation (E6), practice patterns, adverse-event signals |
 | S11 | PubChem PUG REST | US National Library of Medicine | public domain | CID, InChIKey, formula, SMILES of key phytochemicals |
 | S12 | MED117 (DOI 10.17632/dtvbwrhznz.4), Medicinal Leaf Dataset (10.17632/nnytj2v3n5.1), Indian Medicinal Leaves (10.17632/748f8jkphb.3) | Mendeley Data (dataset authors) | CC BY 4.0 | species-level links to plant-image datasets (class labels only; no images copied) |
 | S13 | WHO ICTRP (includes CTRI, India) - optional manual export | World Health Organization | ICTRP terms: free download from the Search Portal, non-commercial use, attribution, keep current, show processing date. robots.txt forbids automated crawling, so the importer only reads a CSV the user exported by hand | Indian trial registrations (optional stage 19) |
@@ -41,14 +41,9 @@ sources). Raw files are kept unchanged in `data/raw/` with SHA-256 checksums in 
 
 ## Licence of the combined release
 
-The integrated release contains WHO-derived content (CC BY-NC-SA 3.0 IGO), so **the combined dataset is
-distributed under CC BY-NC-SA** (non-commercial, share-alike). Every row carries `source_id` and `licence`
-columns, so a commercial-safe subset can be cut by excluding `S3` rows and NLLB machine translations
-(NLLB-200 weights are CC BY-NC 4.0). NAMASTE content (S1, S2) is a Government of India public standard
-published for adoption by health systems; keep the attribution and check its terms for commercial products.
+The integrated release declares CC BY-NC-SA 4.0. This does not resolve source-specific permissions. NAMASTE has no explicit open licence in the recorded source notes. Field-level mixing, translations and derived links require dependency-aware review; removing S3 rows does not certify a commercial-safe subset. Model weights, use and generated text need separate assessment. See `curation/source_rights_review.csv` and `docs/RIGHTS_AND_SAFETY_REVIEW.md`.
 
 ## Permission requests
 
 Letters asking for licences or machine-readable data from PCIM&H (API/AFI), the Ministry of Ayush NAMASTE team,
-WHO, the IMPPAT team and CCRAS are in `docs/permission_requests/`. Nothing from those sources is included until a
-written permission is on file.
+WHO, the IMPPAT team and CCRAS are in `docs/permission_requests/`. These are request templates, not evidence of permission granted. Some listed sources already contribute to the dataset; their recorded terms and outstanding permissions must be reviewed explicitly.

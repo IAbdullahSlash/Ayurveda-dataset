@@ -1,0 +1,93 @@
+{
+  "tests": {
+    "passed": 124,
+    "skipped": 0,
+    "failed": 0,
+    "errors": 0,
+    "junit_sha256": "5f66c82f489ca20ad2885608d7f15316465851120cdb202b215d9174b348809e"
+  },
+  "tables": {
+    "case_report_entities": 8023,
+    "case_report_links": 867,
+    "case_report_symptoms_semantic": 1539,
+    "case_reports": 565,
+    "clinical_trials": 6435,
+    "concept_members": 8597,
+    "controlled_vocabulary": 135,
+    "diagnostic_methods": 43,
+    "diet_lifestyle": 381,
+    "disease_symptom": 11884,
+    "disease_symptom_from_cases": 3905,
+    "disease_symptom_inferred": 10082,
+    "disease_symptom_who": 13639,
+    "diseases": 2892,
+    "dosha_suggestions": 1420,
+    "evidence_queries": 1539,
+    "formulation_indication_evidence": 121,
+    "formulation_indications": 155,
+    "formulation_ingredients": 500,
+    "formulations": 43,
+    "headword_concepts": 3347,
+    "herb_ethnobotany": 2872,
+    "herb_group_members": 500,
+    "herb_groups": 50,
+    "herb_image_datasets": 214,
+    "herb_indication": 1693,
+    "herb_indication_evidence": 1427,
+    "herb_karma": 829,
+    "herb_names": 3639,
+    "herb_phytochemicals": 23771,
+    "herbs": 466,
+    "multiscript_names": 20895,
+    "pharmaceutics": 393,
+    "phytochemical_activities": 13538,
+    "phytochemicals": 1959,
+    "prakriti_synthetic_cohort": 3000,
+    "qa_pairs": 4836,
+    "sources": 14,
+    "symptoms": 11081,
+    "terminology": 6233,
+    "therapies": 1325,
+    "therapy_disease": 6474,
+    "therapy_evidence": 12
+  },
+  "rows": 181333,
+  "benchmarks": {
+    "E1a_system_from_text": {
+      "file": "reports/revision_full/REP/E1a_system_from_text.json",
+      "n": 1950
+    },
+    "E1b_dosha_from_masked_text": {
+      "file": "reports/revision_full/REP/E1b_dosha_from_masked_text.json",
+      "n": 484
+    },
+    "E1c_bilingual_system_from_text": {
+      "file": "reports/revision_full/REP/E1c_bilingual_system_from_text.json",
+      "n": 1946
+    },
+    "E2a_virya": {
+      "file": "reports/revision_full/REP/E2a_virya.json",
+      "n": 344
+    },
+    "E2b_dosha_pacify": {
+      "file": "reports/revision_full/REP/E2b_dosha_pacify.json",
+      "n": 344
+    },
+    "E2c_indications": {
+      "file": "reports/revision_full/REP/E2c_indications.json",
+      "n": 344
+    },
+    "E4_prakriti": {
+      "file": "reports/revision_full/REP/E4_prakriti.json",
+      "n": 2250
+    },
+    "E7_tuning": {
+      "file": "reports/revision_full/REP/E7_tuning.json",
+      "n": null
+    },
+    "E2c_plus": {
+      "file": "reports/revision_full/REP/E2c_plus.json",
+      "n": 344
+    }
+  }
+}

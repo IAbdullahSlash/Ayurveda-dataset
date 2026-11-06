@@ -629,7 +629,7 @@ def main(no_fetch=False):
         herb_ids=j(c["herb_ids"]), form_ids=j(c["form_ids"]), formulation_names_observed=j(c["other_formulation_names"]),
         procedures=j(c["procedures"]), modern_assessments=j(c["modern"]), metals_implicated=j(c["metals"]),
         source_id="S10", data_origin="text-mined (KB lexicons) from Europe PMC; verify against the article",
-        licence="bibliographic metadata + extracted KB identifiers (facts); article text not redistributed")
+        licence="bibliographic metadata, extracted identifiers and short source-derived phrases; full article caches excluded; per-article terms require review")
         for c in rows])
     out.to_csv(P / "case_reports.csv", index=False)
     E = pd.DataFrame(ents, columns=["case_id", "entity_type", "mention_key", "kb_ids"])

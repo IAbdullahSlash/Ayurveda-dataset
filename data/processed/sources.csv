@@ -9,7 +9,7 @@ S6,Wikidata (plant taxon labels in hi/sa/en),https://query.wikidata.org,CC0 1.0,
 S7,GBIF Backbone Taxonomy (species match API),https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c,CC BY 4.0,linked_open_data
 S8,NCBI PubMed E-utilities (literature counts),https://eutils.ncbi.nlm.nih.gov,public domain (US Gov) - counts are facts,modern_evidence
 S9,ClinicalTrials.gov API v2 (registered trials),https://clinicaltrials.gov/data-api/api,public domain (US Gov),modern_evidence
-S10,Europe PMC - Ayurveda case reports (REST API; open-access subset text-mined),https://europepmc.org/RestfulWebService,bibliographic metadata + extracted KB identifiers (facts); article texts not redistributed; per-article licence recorded,real_world_evidence
+S10,Europe PMC - Ayurveda case reports (REST API; open-access subset text-mined),https://europepmc.org/RestfulWebService,"bibliographic metadata, extracted identifiers and short source-derived phrases; full article caches excluded; per-article terms require review",real_world_evidence
 S11,PubChem (NCBI) compound identifiers and properties (PUG REST),https://pubchem.ncbi.nlm.nih.gov,public domain (US Gov),linked_open_data
 S12,Medicinal-plant image datasets on Mendeley Data (MED117; Medicinal Leaf Dataset; Indian Medicinal Leaves) - class labels only,https://data.mendeley.com/datasets/dtvbwrhznz/4,CC BY 4.0,linked_open_data
 S13,"WHO International Clinical Trials Registry Platform (ICTRP, incl. CTRI) - optional manual export",https://trialsearch.who.int,"WHO ICTRP terms: non-commercial, attribution, show processing date",modern_evidence

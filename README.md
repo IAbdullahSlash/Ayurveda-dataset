@@ -31,10 +31,12 @@
 
 ## About
 
+**Revision notice:** See [peer-review revision status](docs/REVISION_STATUS.md) and [current validation](docs/REVISION_VALIDATION.md). Corrected E1/E4 reruns are available; the historical release tables below are retained for comparison. Independent expert review remains pending.
+
 AyurKB links Ayurvedic **diagnosis, materia medica, remedies and modern scientific evidence** in one relational
 dataset. Everything is in **English and Hindi**, and every Sanskrit term is given in **IAST and Devanagari**.
 
-It is built only from authoritative or openly licensed sources: the Ministry of Ayush NAMASTE portal, WHO, USDA,
+It integrates authoritative, openly licensed and permission-sensitive sources: the Ministry of Ayush NAMASTE portal, WHO, USDA,
 GBIF, Wikidata, NLM (PubMed, ClinicalTrials.gov, PubChem), Europe PMC and one DOI-registered CC BY herb database.
 The data is cleaned and cross-validated, checked against 565 published case reports, and benchmarked with
 18 machine-learning model configurations across experiments E1–E8.
@@ -42,7 +44,7 @@ The data is cleaned and cross-validated, checked against 565 published case repo
 ### Highlights
 
 - **Traceable sources.** Every file comes from an official download or API and is logged with a SHA-256 hash in
-  `data/raw/PROVENANCE.json`. Every row carries its `source_id` and `licence`.
+  `data/raw/PROVENANCE.json`. Source dependencies and terms are resolved through explicit fields, documented joins and the [provenance export](docs/PROVENANCE_CONTRACT.md); not every CSV carries both columns.
 - **Bilingual by design.** English and Hindi throughout, Sanskrit in IAST and Devanagari, names in 8 regional
   scripts and 4,836 bilingual question–answer pairs.
 - **Classical and modern side by side.** NAMASTE morbidity codes with 789 ICD-11 TM2 codes; Dravyaguṇa herb profiles
@@ -265,7 +267,7 @@ Every number below comes from `reports/ml/` (one JSON/CSV per experiment) and is
 `scripts/12_report.py`. Figures are in [`reports/figures/`](reports/figures/), and the full dataset report is
 `release/report.html` (open it in a browser).
 
-### Machine-learning benchmarks (E1–E4)
+### Historical v1.2 machine-learning benchmarks (E1–E4)
 
 <!-- ML_TABLE_START -->
 | Exp. | Task | Data | Best model | Score | Reference point |
@@ -403,9 +405,7 @@ requests. Make data changes in the pipeline or in `curation/` rather than by han
 
 ## Licence and attribution
 
-The combined release is licensed **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**, as
-required by the WHO component (CC BY-NC-SA 3.0 IGO) and the NLLB-200 licence. Each row carries `source_id` and
-`licence`, so a commercial-safe subset can be cut.
+The combined release declares **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**. Component permissions and terms require separate review, including NAMASTE and WHO content and model-derived translations. Source filtering alone does not certify a commercial-safe subset. See [rights review](docs/RIGHTS_AND_SAFETY_REVIEW.md).
 
 | ID | Source | Licence |
 |---|---|---|
@@ -418,7 +418,7 @@ required by the WHO component (CC BY-NC-SA 3.0 IGO) and the NLLB-200 licence. Ea
 | S7 | GBIF Backbone Taxonomy | CC BY 4.0 |
 | S8 | PubMed (NCBI E-utilities) | public domain (US Government) |
 | S9 | ClinicalTrials.gov | public domain (US Government) |
-| S10 | Europe PMC case reports | bibliographic metadata and extracted identifiers only; article texts not redistributed |
+| S10 | Europe PMC case reports | metadata, identifiers and short extracted phrases/clauses; full article caches excluded; per-article terms need review |
 | S11 | PubChem | public domain (US Government) |
 | S12 | MED117, Medicinal Leaf and Indian Medicinal Leaves image datasets (Mendeley Data) | CC BY 4.0 |
 | S13 | WHO ICTRP, optional manual export | WHO ICTRP terms (non-commercial, attribution) |

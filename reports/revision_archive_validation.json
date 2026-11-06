@@ -1,0 +1,10 @@
+{
+  "archive_integrity": "passed",
+  "fresh_offline_install": "passed",
+  "lexical_demo": "passed",
+  "explicit_unknown_safety": "passed",
+  "descriptor_resources": 43,
+  "sqlite_integrity": "passed",
+  "working_directory": "arbitrary /tmp",
+  "network_install": "not tested (cached pinned packages used)"
+}

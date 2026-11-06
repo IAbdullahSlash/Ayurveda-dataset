@@ -20,9 +20,10 @@ def test_case_reports_schema_and_no_article_text():
     c = rd("case_reports")
     assert len(c) >= 300 and c.case_id.is_unique
     assert set(c.case_kind) <= {"therapeutic", "adverse_event"}
-    # only identifiers, titles and KB entities - never abstract or body text
+    # Short source-derived phrases are present; full abstracts and bodies remain excluded.
     assert not any(k in c.columns for k in ("abstract", "abstractText", "body", "full_text", "fulltext"))
-    assert c.licence.str.contains("not redistributed").all()
+    assert c.licence.str.contains("short source-derived phrases").all()
+    assert c.licence.str.contains("per-article terms require review").all()
     d = rd("diseases").disease_id
     ids = {x for s in c.dx_disease_ids for x in s.split("; ") if x}
     assert ids <= set(d)
@@ -237,7 +238,7 @@ def test_finetuned_search_reported_without_leakage():
 # ----------------------------------------------------------------------------- expert-system demo (README quick start)
 @pytest.mark.parametrize("symptoms,lang,sections", [
     # the English case reaches the herb list with literature-evidence tiers (the path that once crashed on '7.0')
-    ("fever; burning sensation; excessive thirst; vomiting", "en", ("Candidate disorders", "Herbs recorded", "clinical studies (")),
+    ("fever; burning sensation; excessive thirst; vomiting", "en", ("Candidate disorders", "Herbs recorded", "clinical-publication matches (not efficacy assessed)")),
     ("बुखार; जलन; अधिक प्यास", "hi", ("Candidate disorders", "Classical procedures"))])
 def test_expert_system_demo_runs_end_to_end(symptoms, lang, sections):
     """the README commands must work on a fresh clone: lexical mode needs no model download"""

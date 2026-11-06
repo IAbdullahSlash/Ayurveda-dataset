@@ -43,7 +43,7 @@ Complaint clauses of case reports matched to SAT symptoms by multilingual embedd
 
 ## `case_reports`  (565 rows × 28 columns)
 
-REAL-WORLD layer: 565 published Ayurveda case reports / case series (Europe PMC), with the Ayurvedic diagnosis mapped to NAMASTE, presenting symptoms, herbs, formulations, procedures, modern assessments (lab, imaging, scales) and, for adverse-event reports, the implicated metals. Text-mined with the KB lexicons; bibliographic metadata and KB identifiers only (no article text).
+REAL-WORLD layer: 565 published Ayurveda case reports / case series (Europe PMC), with the Ayurvedic diagnosis mapped to NAMASTE, presenting symptoms, herbs, formulations, procedures, modern assessments (lab, imaging, scales) and, for adverse-event reports, the implicated metals. Text-mined with the KB lexicons; bibliographic metadata, extracted identifiers and short source-derived phrases; full article caches are excluded.
 
 | column | type | filled | example | description |
 |---|---|---|---|---|
@@ -74,7 +74,7 @@ REAL-WORLD layer: 565 published Ayurveda case reports / case series (Europe PMC)
 | `metals_implicated` | text | 12% | lead |  |
 | `source_id` | text | 100% | S10 | Source (see sources table) |
 | `data_origin` | text | 100% | text-mined (KB lexicons) from Europe PMC; verify against the… | authoritative / community_open / integrated / curated / derived / synthetic |
-| `licence` | text | 100% | bibliographic metadata + extracted KB identifiers (facts); a… | Licence of the row |
+| `licence` | text | 100% | bibliographic metadata, extracted identifiers and short sour… | Licence of the row |
 
 ## `clinical_trials`  (6,435 rows × 12 columns)
 
@@ -148,7 +148,7 @@ Classical Ayurvedic examination methods (trividha, ṣaḍvidha, aṣṭasthāna
 | `licence` | text | 100% | CC BY 4.0 (curation); classical texts are public domain | Licence of the row |
 | `pubmed_count` | number | 100% | 0.0 | PubMed papers mentioning the name in title/abstract |
 | `what_is_assessed_hi` | text | 100% | अवलोकन द्वारा रोगी की जांच; स्पर्श और पूछताछ |  |
-| `what_is_assessed_hi_qe_flags` | text | 2% | low_devanagari | Machine-translation quality flags (empty = passed all checks) |
+| `what_is_assessed_hi_qe_flags` | text | 2% | low_devanagari | Automated translation quality flags (empty does not establish human validation) |
 | `what_is_assessed_hi_method` | text | 100% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `diet_lifestyle`  (381 rows × 25 columns)
@@ -178,9 +178,9 @@ Diet, daily/seasonal regimen and preventive health (WHO ch. 8, 10 + SAT-H, J).
 | `data_origin` | text | 100% | authoritative | authoritative / community_open / integrated / curated / derived / synthetic |
 | `licence` | text | 100% | CC BY-NC-SA 3.0 IGO | Licence of the row |
 | `term_en_hi` | text | 100% | खाद्य एवं पेय पदार्थों की तैयारी |  |
-| `term_en_hi_qe_flags` | text | 3% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `term_en_hi_qe_flags` | text | 3% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi` | text | 96% | किसी भी पदार्थ का जो पोषण और ऊर्जा के प्रयोजनों के लिए उपभोग… | Hindi translation of the definition (NLLB-200 + Ayurveda glossary; QE flags) |
-| `definition_hi_qe_flags` | text | 13% | repetition | Machine-translation quality flags (empty = passed all checks) |
+| `definition_hi_qe_flags` | text | 13% | repetition | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 96% | nllb200_600m_glossary_injected_greedy | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `disease_symptom`  (11,884 rows × 7 columns)
@@ -233,7 +233,7 @@ Disorder → symptom edges from the sign lists in WHO (2022) definitions, mapped
 | `symptom_id` | text | 100% | SYM-05731 |  |
 | `mention_order` | number | 100% | 1 |  |
 | `sign_text_who` | text | 100% | dislocation/prolapse | The sign as written in the WHO definition |
-| `match_method` | text | 100% | exact_gloss | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
+| `match_method` | text | 100% | exact_gloss | Entity-linking procedure (for example exact_skeleton, exact_gloss or gbif_accepted_key) |
 | `source_id` | text | 100% | S3 | Source (see sources table) |
 | `data_origin` | text | 100% | WHO definition sign list mapped to the SAT lexicon | authoritative / community_open / integrated / curated / derived / synthetic |
 
@@ -286,10 +286,10 @@ NAMASTE Ayurveda morbidity codes: 2,892 disorders and patterns with hierarchy, W
 | `data_origin` | text | 100% | authoritative | authoritative / community_open / integrated / curated / derived / synthetic |
 | `licence` | text | 100% | Govt. of India public standard; attribution; no explicit ope… | Licence of the row |
 | `definition_hi` | text | 70% | जानकारी के सावधानीपूर्वक विचार और ज्ञान के आवेदन के माध्यम स… | Hindi translation of the definition (NLLB-200 + Ayurveda glossary; QE flags) |
-| `definition_hi_qe_flags` | text | 21% | repetition | Machine-translation quality flags (empty = passed all checks) |
+| `definition_hi_qe_flags` | text | 21% | repetition | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 70% | nllb200_600m_glossary_injected_greedy (WHO term) | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 | `name_en_hi` | text | 100% | निदान की स्थिति | Hindi translation of the English name (machine translation, see *_method / *_qe_flags) |
-| `name_en_hi_qe_flags` | text | 11% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `name_en_hi_qe_flags` | text | 11% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `name_en_hi_method` | text | 100% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 | `definition_source` | text | 70% | WHO ITA 2022 (linked term) | Where the definition comes from: NAMASTE, or WHO ITA 2022 (linked term) when NAMASTE has none |
 
@@ -305,7 +305,7 @@ MODEL SUGGESTIONS (not authoritative) for disorders whose doṣa is unspecified:
 | `confidence` | number | 100% | 0.51 | Model probability of the suggestion |
 | `second_choice` | text | 100% | pitta |  |
 | `margin` | number | 100% | 0.259 | Probability gap between the first and second choice (small = model unsure) |
-| `model` | text | 100% | TF-IDF word+char + logistic regression (CV macro-F1 0.786, a… |  |
+| `model` | text | 100% | TF-IDF word+char + logistic regression (CV macro-F1 0.785, a… |  |
 | `status` | text | 100% | model suggestion - not authoritative; confirm with an expert |  |
 
 ## `evidence_queries`  (1,539 rows × 6 columns)
@@ -398,10 +398,10 @@ Ingredients of each formulation, linked to herbs where possible.
 | `pubmed_count` | number | 100% | 337.0 | PubMed papers mentioning the name in title/abstract |
 | `clinicaltrials_count` | number | 100% | 11.0 | ClinicalTrials.gov registered studies |
 | `indications_hi` | text | 100% | विबंध (कब्ज़); आंख विकार; मूत्र/चिकित्सा विकार; स्थौल्य (मोट… |  |
-| `indications_hi_qe_flags` | text | 5% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `indications_hi_qe_flags` | text | 5% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `indications_hi_method` | text | 100% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 | `safety_note_hi` | text | 51% | उच्च पित्त / अतिशीघ्रता से बचें |  |
-| `safety_note_hi_qe_flags` | text | 0% |  | Machine-translation quality flags (empty = passed all checks) |
+| `safety_note_hi_qe_flags` | text | 0% |  | Automated translation quality flags (empty does not establish human validation) |
 | `safety_note_hi_method` | text | 51% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `headword_concepts`  (3,347 rows × 9 columns)
@@ -462,7 +462,7 @@ Caraka's 50 mahākaṣāya (therapeutic groups of ten herbs) from SAT-F.
 | `n_members_parsed` | number | 100% | 10 |  |
 | `source_id` | text | 100% | S2 | Source (see sources table) |
 | `action_hi` | text | 100% | दस जीवंत द्रव्य समूह |  |
-| `action_hi_qe_flags` | text | 22% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `action_hi_qe_flags` | text | 22% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `action_hi_method` | text | 100% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `herb_image_datasets`  (214 rows × 11 columns)
@@ -478,7 +478,7 @@ Species-level links from KB herbs to three CC BY 4.0 medicinal-plant image datas
 | `label_mapping` | text | 100% | binomial_in_label |  |
 | `gbif_key` | text | 99% | 8312665 | GBIF taxon key |
 | `herb_id` | text | 62% | HERB-0001 |  |
-| `match_method` | text | 100% | gbif_accepted_key | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
+| `match_method` | text | 100% | gbif_accepted_key | Entity-linking procedure (for example exact_skeleton, exact_gloss or gbif_accepted_key) |
 | `licence` | text | 100% | CC BY 4.0 | Licence of the row |
 | `citation` | text | 100% | Sarma P, Boruah PA. MED117 Medicinal Plant Leaf Dataset & Na… |  |
 | `source_id` | text | 100% | S12 | Source (see sources table) |
@@ -492,7 +492,7 @@ Herb → NAMASTE disease links (from Amidha indications; match method and score 
 | `herb_id` | text | 100% | HERB-0001 |  |
 | `indication_raw` | text | 100% | Daurbalya |  |
 | `disease_id` | text | 85% | AYD-02170 |  |
-| `match_method` | text | 100% | exact_skeleton | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
+| `match_method` | text | 100% | exact_skeleton | Entity-linking procedure (for example exact_skeleton, exact_gloss or gbif_accepted_key) |
 | `match_score` | number | 100% | 100.0 |  |
 | `disease_term_iast` | text | 85% | daurbalyam |  |
 | `disease_name_en` | text | 85% | General debility disorder |  |
@@ -509,10 +509,10 @@ PubMed co-occurrence evidence for every herb -> disorder link: paper counts, cli
 | `biomedical_concept` | text | 100% | general debility / fatigue |  |
 | `correspondence` | text | 100% | approximate |  |
 | `query` | text | 98% | ("Abelmoschus moschatus"[tiab]) AND (fatigue[mh] OR debility… |  |
-| `n_entity` | text | 98% | 29.0 |  |
-| `n_disorder` | text | 98% | 48021.0 |  |
-| `n_pair` | text | 98% | 0.0 | PubMed papers mentioning both the entity and the disorder's biomedical concept |
-| `n_clinical` | text | 98% | 0.0 | Of those, clinical trials / RCTs / meta-analyses / systematic reviews |
+| `n_entity` | text | 98% | 29 |  |
+| `n_disorder` | text | 98% | 48021 |  |
+| `n_pair` | text | 98% | 0 | PubMed papers mentioning both the entity and the disorder's biomedical concept |
+| `n_clinical` | text | 98% | 0 | Of those, clinical trials / RCTs / meta-analyses / systematic reviews |
 | `lift` | text | 98% | 0.0 | Co-occurrence over chance: N x n_pair / (n_entity x n_disorder); > 1 = studied together more often than chance |
 | `top_pmids` | text | 61% | 21849051;17362507 |  |
 | `clinical_pmids` | text | 14% | 36871902;39212516;30610931 |  |
@@ -618,10 +618,10 @@ Materia medica master (466 plants): official SAT-F names, GBIF-validated accepte
 | `pubmed_ayurveda_count` | number | 100% | 1.0 | Same, restricted to Ayurveda context |
 | `clinicaltrials_count` | number | 100% | 0.0 | ClinicalTrials.gov registered studies |
 | `name_en_hi` | text | 97% | मस्क मल्लो | Hindi translation of the English name (machine translation, see *_method / *_qe_flags) |
-| `name_en_hi_qe_flags` | text | 0% | repetition | Machine-translation quality flags (empty = passed all checks) |
+| `name_en_hi_qe_flags` | text | 0% | repetition | Automated translation quality flags (empty does not establish human validation) |
 | `name_en_hi_method` | text | 97% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 | `description_hi` | text | 74% | Abelmoschus moschatus बीज एक वाजीकर हैं और पेशाब प्रणाली के … |  |
-| `description_hi_qe_flags` | text | 12% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `description_hi_qe_flags` | text | 12% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `description_hi_method` | text | 74% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `multiscript_names`  (20,895 rows × 12 columns)
@@ -670,9 +670,9 @@ Dosage forms and pharmaceutical processes (WHO ch. 7 + SAT-G).
 | `data_origin` | text | 100% | authoritative | authoritative / community_open / integrated / curated / derived / synthetic |
 | `licence` | text | 100% | CC BY-NC-SA 3.0 IGO | Licence of the row |
 | `term_en_hi` | text | 100% | दवाओं की तैयारी |  |
-| `term_en_hi_qe_flags` | text | 2% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `term_en_hi_qe_flags` | text | 2% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi` | text | 85% | वांछित द्रव्य को डिबॉक्टेड, फ़िल्टर किया जाता है और मोटा सिर… | Hindi translation of the definition (NLLB-200 + Ayurveda glossary; QE flags) |
-| `definition_hi_qe_flags` | text | 10% | low_devanagari | Machine-translation quality flags (empty = passed all checks) |
+| `definition_hi_qe_flags` | text | 10% | low_devanagari | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 85% | nllb200_600m_glossary_injected_greedy | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `phytochemical_activities`  (13,538 rows × 5 columns)
@@ -791,7 +791,7 @@ Signs-and-symptoms lexicon: NAMASTE SAT-D (9,400 Sanskrit symptom phrases with E
 | `licence` | text | 100% | Govt. of India public standard; attribution; no explicit ope… | Licence of the row |
 | `data_origin` | text | 100% | authoritative | authoritative / community_open / integrated / curated / derived / synthetic |
 | `gloss_hi` | text | 100% | कंधे में संकुचन भावना |  |
-| `gloss_hi_qe_flags` | text | 5% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `gloss_hi_qe_flags` | text | 5% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `gloss_hi_method` | text | 100% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `terminology`  (6,233 rows × 25 columns)
@@ -820,10 +820,10 @@ Unified standard terminology from WHO (2022) and NAMASTE SAT: fundamentals, anat
 | `data_origin` | text | 100% | authoritative | authoritative / community_open / integrated / curated / derived / synthetic |
 | `licence` | text | 100% | CC BY-NC-SA 3.0 IGO | Licence of the row |
 | `term_en_hi` | text | 100% | आयुर्वेद |  |
-| `term_en_hi_qe_flags` | text | 4% | length_ratio | Machine-translation quality flags (empty = passed all checks) |
+| `term_en_hi_qe_flags` | text | 4% | length_ratio | Automated translation quality flags (empty does not establish human validation) |
 | `term_en_hi_method` | text | 100% | glossary_exact | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 | `definition_hi` | text | 88% | आयुर्वेद चिकित्सा और स्वास्थ्य देखभाल की एक पारंपरिक प्रणाली… | Hindi translation of the definition (NLLB-200 + Ayurveda glossary; QE flags) |
-| `definition_hi_qe_flags` | text | 18% | repetition | Machine-translation quality flags (empty = passed all checks) |
+| `definition_hi_qe_flags` | text | 18% | repetition | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 88% | nllb200_600m_glossary_injected_greedy | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `therapies`  (1,325 rows × 26 columns)
@@ -854,9 +854,9 @@ Treatment terminology (WHO ch. 9 + SAT-I), tagged pañcakarma / pūrvakarma / ra
 | `licence` | text | 100% | CC BY-NC-SA 3.0 IGO | Licence of the row |
 | `therapy_tags` | text | 52% | śamana |  |
 | `term_en_hi` | text | 100% | सामान्य चिकित्सा |  |
-| `term_en_hi_qe_flags` | text | 3% | terms_lost | Machine-translation quality flags (empty = passed all checks) |
+| `term_en_hi_qe_flags` | text | 3% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi` | text | 100% | आयुर्वेद की आठ चिकित्सा शाखाओं में से एक: यह सामान्य प्रणाली… | Hindi translation of the definition (NLLB-200 + Ayurveda glossary; QE flags) |
-| `definition_hi_qe_flags` | text | 12% | repetition | Machine-translation quality flags (empty = passed all checks) |
+| `definition_hi_qe_flags` | text | 12% | repetition | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 100% | nllb200_600m_glossary_injected_greedy | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `therapy_disease`  (6,474 rows × 11 columns)

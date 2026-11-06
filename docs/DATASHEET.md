@@ -20,7 +20,7 @@ none links diagnosis, materia medica, remedies and modern evidence together.
 
 | Layer | Tables | Origin |
 |---|---|---|
-| Diagnosis | `diseases` (2,892 NAMASTE codes, 789 with ICD-11 TM2 codes, 1,188 linked to WHO terms), `symptoms` (11,081), `disease_symptom` (11,880 edges), `diagnostic_methods` (43) | authoritative + curated |
+| Diagnosis | `diseases` (2,892 NAMASTE codes, 789 with ICD-11 TM2 codes, 1,188 linked to WHO terms), `symptoms` (11,081), `disease_symptom` (11,884 edges), `diagnostic_methods` (43) | authoritative + curated |
 | Terminology | `terminology` (6,233 WHO + SAT terms), `therapies` (1,325), `pharmaceutics` (393), `diet_lifestyle` (381), `controlled_vocabulary` (135) | authoritative |
 | Materia medica | `herbs` (466), `herb_names` (3.6k), `herb_indication` (1,693), `herb_karma` (829), `herb_groups` (50 mahākaṣāya), `herb_group_members` (500) | authoritative + community + linked open data |
 | Remedies | `formulations` (43 classical), `formulation_ingredients` (500), `formulation_indications` (155), plus herb indications, therapies, diet & lifestyle | curated (flagged) + authoritative |
@@ -30,7 +30,7 @@ none links diagnosis, materia medica, remedies and modern evidence together.
 **Hybrid by design.** The dataset mixes:
 - authoritative standards, community-curated open data, linked open data and modern evidence;
 - record types: categorical, text, graph edges, numeric (ppm, counts) and multilingual text;
-- real records and clearly labelled synthetic or derived records. Every row has a `data_origin` column.
+- real records and clearly labelled synthetic or derived records. Origin is explicit in some tables and inherited through documented construction/source relationships in others; see the provenance contract.
 
 **Languages.** English. Sanskrit in IAST and Devanagari. Hindi comes from four routes:
 - the Hindi usage form of each Sanskrit term (rule-based);
@@ -119,13 +119,10 @@ the synthetic Prakṛti cohort as evidence about real people.
 
 ## 7. Distribution and licence
 
-Combined release: **CC BY-NC-SA 4.0**. This is required by the WHO component (CC BY-NC-SA 3.0 IGO) and
-the NLLB-200 model licence (CC BY-NC 4.0). Per-row `source_id` / `licence` columns allow commercial-safe
-subsets. Attribute the Ministry of Ayush (NAMASTE), WHO, USDA-ARS (Dr. Duke), Amidha Ayurveda (S. Varshney),
+Declared combined release licence: **CC BY-NC-SA 4.0**. Source permissions, component terms, and the applicability of model terms to generated translations require separate review. Source-ID filtering does not certify commercial-safe subsets. Attribute the Ministry of Ayush (NAMASTE), WHO, USDA-ARS (Dr. Duke), Amidha Ayurveda (S. Varshney),
 GBIF, Wikidata and NLM as listed in `docs/SOURCES.md`.
 
 ## 8. Maintenance
 
-Re-run `scripts/01…11` to refresh from the sources. All API responses are cached, so a rebuild is
-deterministic offline. Run `python3 -m pytest tests/` after any change; the suite has 64 checks covering
+Re-run the documented pipeline stages to refresh from sources. Some API responses are cached; model weights and excluded article caches require separate retrieval. A complete offline rebuild has not been established. Run `python3 -m pytest tests/` after changes; see `docs/REVISION_VALIDATION.md` for executed test counts. Checks cover
 keys, references, encoding, domain rules, bilingual coverage, safety flags, ML baselines and expert-system behaviour.

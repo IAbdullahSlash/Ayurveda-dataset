@@ -393,7 +393,7 @@ def main():
         "Hindi descriptions are machine-translated and flagged per row; Hindi names of Sanskrit terms are rule-derived.",
         "E3 cases are simulated from the real disease–symptom graph and the E4 cohort is fully synthetic, so those scores do not measure clinical accuracy.",
         "Case-report entities are text-mined with the KB lexicons (precision over recall); verify against the article before reuse.",
-        "Licence: CC BY-NC-SA 4.0 overall (WHO component); per-row licence columns allow commercial-safe subsets. ChEMBL-derived targets, if built, ship separately under CC BY-SA 3.0.",
+        "Licence: CC BY-NC-SA 4.0 overall (WHO component); source dependencies and permissions require review; source filtering does not certify commercial-safe subsets. ChEMBL-derived targets, if built, ship separately under CC BY-SA 3.0.",
     ]
     # README machine-learning table (generated, so the numbers always match reports/ml/)
     md = ["| Exp. | Task | Data | Best model | Score | Reference point |", "|---|---|---|---|---|---|"]

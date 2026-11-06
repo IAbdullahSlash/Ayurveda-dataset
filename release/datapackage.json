@@ -62,7 +62,7 @@
     {
       "title": "Europe PMC - Ayurveda case reports (REST API; open-access subset text-mined)",
       "path": "https://europepmc.org/RestfulWebService",
-      "licence": "bibliographic metadata + extracted KB identifiers (facts); article texts not redistributed; per-article licence recorded"
+      "licence": "bibliographic metadata, extracted identifiers and short source-derived phrases; full article caches excluded; per-article terms require review"
     },
     {
       "title": "PubChem (NCBI) compound identifiers and properties (PUG REST)",

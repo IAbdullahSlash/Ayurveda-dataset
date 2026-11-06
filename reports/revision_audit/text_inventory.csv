@@ -39,7 +39,7 @@ case_reports,modern_assessments,428,293,not_adjudicated
 case_reports,metals_implicated,70,22,not_adjudicated
 case_reports,source_id,565,3,not_adjudicated
 case_reports,data_origin,565,68,not_adjudicated
-case_reports,licence,565,89,not_adjudicated
+case_reports,licence,565,142,not_adjudicated
 clinical_trials,entity_type,6435,11,not_adjudicated
 clinical_trials,entity_id,6435,9,not_adjudicated
 clinical_trials,nct_id,6435,11,not_adjudicated
@@ -451,7 +451,7 @@ qa_pairs,data_origin,4836,35,not_adjudicated
 sources,source_id,14,3,not_adjudicated
 sources,title,14,125,not_adjudicated
 sources,url,14,65,not_adjudicated
-sources,licence,14,120,not_adjudicated
+sources,licence,14,142,not_adjudicated
 sources,role,14,19,not_adjudicated
 symptoms,symptom_id,11081,10,not_adjudicated
 symptoms,source_id,11081,2,not_adjudicated

@@ -38,7 +38,7 @@ TABLE_DOC = {
     "qa_pairs": "Bilingual (EN / HI) question-answer pairs generated from KB records, each traceable to record ids.",
     "prakriti_synthetic_cohort": "SYNTHETIC Prakṛti questionnaire cohort (3,000 simulated people) generated from WHO ITA-2.8.3–2.8.5 trait definitions, for training/benchmarking constitution classifiers.",
     "sources": "Provenance and licence of every source.",
-    "case_reports": "REAL-WORLD layer: 565 published Ayurveda case reports / case series (Europe PMC), with the Ayurvedic diagnosis mapped to NAMASTE, presenting symptoms, herbs, formulations, procedures, modern assessments (lab, imaging, scales) and, for adverse-event reports, the implicated metals. Text-mined with the KB lexicons; bibliographic metadata and KB identifiers only (no article text).",
+    "case_reports": "REAL-WORLD layer: 565 published Ayurveda case reports / case series (Europe PMC), with the Ayurvedic diagnosis mapped to NAMASTE, presenting symptoms, herbs, formulations, procedures, modern assessments (lab, imaging, scales) and, for adverse-event reports, the implicated metals. Text-mined with the KB lexicons; bibliographic metadata, extracted identifiers and short source-derived phrases; full article caches are excluded.",
     "case_report_entities": "Every entity mention extracted from each case report (symptom, herb, formulation, formulation name not in the KB, procedure, modern assessment, implicated metal) with its KB ids.",
     "case_report_links": "Diagnosis x herb / formulation co-occurrences across real case reports, with a flag telling whether the KB already records the link for that disorder family (curation queue, not merged).",
     "herb_indication_evidence": "PubMed co-occurrence evidence for every herb -> disorder link: paper counts, clinical-study counts, lift over chance, top PMIDs and an evidence tier (clinical_evidence / literature_supported / sparse / no_literature / not_queryable).",
@@ -56,6 +56,7 @@ TABLE_DOC = {
     "case_report_symptoms_semantic": "Complaint clauses of case reports matched to SAT symptoms by multilingual embeddings (clause text, symptom id, similarity).",
 }
 COL_DOC = {
+    "match_method": "Entity-linking procedure (for example exact_skeleton, exact_gloss or gbif_accepted_key)",
     "term_iast": "Sanskrit term in IAST transliteration", "term_deva": "Sanskrit term in Devanagari",
     "term_hi": "Form used in Hindi (Sanskrit stem without case ending, Hindi orthography)",
     "name_en": "English name", "name_en_hi": "Hindi translation of the English name (machine translation, see *_method / *_qe_flags)",
@@ -104,7 +105,7 @@ def main():
             typ = "number" if pd.api.types.is_numeric_dtype(s) else "bool" if pd.api.types.is_bool_dtype(s) else "text"
             desc = COL_DOC.get(c, "")
             if not desc and c.endswith("_qe_flags"):
-                desc = "Machine-translation quality flags (empty = passed all checks)"
+                desc = "Automated translation quality flags (empty does not establish human validation)"
             if not desc and c.endswith("_method"):
                 desc = "How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected)"
             out.append(f"| `{c}` | {typ} | {filled:.0%} | {ex} | {desc} |")
