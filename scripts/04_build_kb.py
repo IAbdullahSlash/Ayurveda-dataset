@@ -281,7 +281,8 @@ def build_symptoms(diseases):
             if not sid:                                    # new symptom concept only seen in NAMASTE
                 key = skeleton(sa) if sa else en.lower()
                 if key not in extra_key:
-                    extra_key[key] = f"SYM-N{len(extra_key)+1:05d}"
+                    from lib.stable_ids import allocate
+                    extra_key[key] = allocate("symptoms", [key])[key]
                     extra.append(dict(symptom_id=extra_key[key], source_id="S1", sat_code="", term_sa_iast=sa,
                                       term_sa_deva=iast_to_deva(sa) if sa else "", term_hi=hindi_usage_form(iast_to_deva(sa)) if sa else "",
                                       term_ascii=ascii_fold(sa), gloss_en=en))
@@ -354,9 +355,11 @@ def build_herbs(diseases):
         a, *_ = acc(r.botanical_name)
         saf_map[a or r.botanical_name] = r
         saf_map[r.botanical_name] = r
+    from lib.stable_ids import allocate
+    herb_ids = allocate("herbs", recs.keys())
     rows, names_long = [], []
     for i, (a, h) in enumerate(sorted(recs.items()), 1):
-        hid = f"HERB-{i:04d}"
+        hid = herb_ids[a]
         sat = h["sat"][0] if h["sat"] else None
         am = h["amidha"]
         mk = h["mk"]

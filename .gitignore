@@ -54,3 +54,4 @@ release/current_export.json
 release/.export.lock
 .export-stage-*/
 .export-backup-*/
+curation/id_registry.lock
