@@ -1,0 +1,477 @@
+disease_id,who_record,pdf_page,source_excerpt,definition_available_in_parsed_source,assessment
+AYD-00003,WHO:ITA-5.2.1,139,"ITA-5.2.1     Derangement                                                                                   doṣavaiṣamyam                 दोषवैषम्यम्
+              of dosha
+
+ITA-5.2.2     State of dosha                                                                                doṣāvasthā                    दोषावस्था",False,source entry located; name is not promoted into an invented definition
+AYD-00005,WHO:ITA-5.2.2,139,"ITA-5.2.2     State of dosha                                                                                doṣāvasthā                    दोषावस्था
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-00025,WHO:ITA-5.75.3,342,"               ITA-5.75.3     Disorder due to loss                                                                               nidrānāśaḥ/ asvapnaḥ     निद्रानाशः/अस्वप्नः
+                              of sleep, insomnia
+
+               ITA-5.75.4     Disorder due to             Untimely sleeping habits causing specific disorders                    akālaśayanam             अकालशयनम्",False,source entry located; name is not promoted into an invented definition
+AYD-00039,WHO:ITA-5.64.2,291,"ITA-5.64.2   Ear pain; otalgia                                                                      karṇaśūlaḥ                    कर्णशूलः
+
+
+ITA-5.64.3   Abnormal perception    A disorder characterized by hearing various kinds of sound in   karṇa-nādaḥ                   कर्ण-नादः",False,source entry located; name is not promoted into an invented definition
+AYD-00047,WHO:ITA-5.2.1.41,146,"               ITA-5.2.1.41   Lameness                                                                                      khañjaḥ                  खञ्जः
+
+               ITA-5.2.1.42   Paraplegia                                                                                    paṅguḥ                   पङ्गुः
+Chapter 5",False,source entry located; name is not promoted into an invented definition
+AYD-00063,WHO:ITA-5.2.1.26,144,"               ITA-5.2.1.26   Tonic convulsion                                                                              daṇḍakaḥ                 दण्डकः
+
+               ITA-5.2.1.27   Convulsive fit             A disorder characterized by some or all the following signs        apatantrakaḥ             अपतन्त्रकः
+                                                         and symptoms: the body bending like a bow, convulsive",False,source entry located; name is not promoted into an invented definition
+AYD-00104,WHO:ITA-5.2.1.44,147,"ITA-5.2.1.44   Pain specific to heels                                                                   vātakhuḍḍatā/                 वातखुड्डता/वातकण्टकः
+                                                                                                        vātakaṇṭakaḥ
+
+ITA-5.2.1.45   Burning feet             A disorder characterized by burning sensation in feet.          pādadāhaḥ                     पाददाहः",False,source entry located; name is not promoted into an invented definition
+AYD-00155,WHO:ITA-5.2.1.41,146,"               ITA-5.2.1.41   Lameness                                                                                      khañjaḥ                  खञ्जः
+
+               ITA-5.2.1.42   Paraplegia                                                                                    paṅguḥ                   पङ्गुः
+Chapter 5",False,source entry located; name is not promoted into an invented definition
+AYD-00254,WHO:ITA-5.2.2.1,148,"               ITA-5.2.2.1    Derangement of pitta                                                                           pittavikāraḥ             पित्तविकारः
+
+
+               ITA-5.2.2.2    Morbid state of pitta                                                                          pittadoṣāvasthā          पित्तदोषावस्था",False,source entry located; name is not promoted into an invented definition
+AYD-00255,WHO:ITA-5.2.2,139,"ITA-5.2.2     State of dosha                                                                                doṣāvasthā                    दोषावस्था
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-00262,WHO:ITA-5.66.24,304,"               ITA-5.66.24 Reddish coloration                                                                               akṣipākaḥ                अक्षिपाकः
+                           of eye
+
+               ITA-5.66.25 Prolapsed iris or             A disorder characterized by some or all the following signs        ajakā                    अजका",False,source entry located; name is not promoted into an invented definition
+AYD-00319,WHO:ITA-5.2.2,139,"ITA-5.2.2     State of dosha                                                                                doṣāvasthā                    दोषावस्था
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-00384,WHO:ITA-5.3.2,150,"               ITA-5.3.2      Derangement of                                                                               rasavaiṣamyam            रसवैषम्यम्
+                              primary circulating
+                              nutrient fluid
+",False,source entry located; name is not promoted into an invented definition
+AYD-00412,WHO:ITA-5.3.30,155,"ITA-5.3.30   Vitiation of                                                                           stanyavaiṣamyam               स्तन्यवैषम्यम्
+             breast milk
+
+ITA-5.3.31   Diminution of         A disorder characterized by emaciated breasts/loss of            stanyakṣayaḥ                  स्तन्यक्षयः",False,source entry located; name is not promoted into an invented definition
+AYD-00444,WHO:ITA-5.4.1,156,"               ITA-5.4.1      Derangement of                                                                               malavaiṣamyam            मलवैषम्यम्
+                              excretory products
+
+               ITA-5.4.2      Derangement of urine                                                                         mūtravaiṣamyam           मूत्रवैषम्यम्",False,source entry located; name is not promoted into an invented definition
+AYD-00445,WHO:ITA-5.4.2,156,"               ITA-5.4.2      Derangement of urine                                                                         mūtravaiṣamyam           मूत्रवैषम्यम्
+
+
+               ITA-5.4.3      Diminution of urine        A disorder characterized by some or all the following signs       mūtrakṣayaḥ              मूत्रक्षयः",False,source entry located; name is not promoted into an invented definition
+AYD-00541,WHO:ITA-5.11.9,184,"               ITA-5.11.9     Indigestion, when                                                                              dinapāki-ajīrṇam         दिनपाकि-अजीर्णम्
+                              food takes a full day
+                              to get digested
+",False,source entry located; name is not promoted into an invented definition
+AYD-00542,WHO:ITA-5.11.10,184,"               ITA-5.11.10    Indigestion                                                                                    prativāsara-ajīrṇam      प्रतिवासर-अजीर्णम्
+                              recurring every day
+
+               ITA-5.11.11    Intumescence of            A disorder characterized by some or all the following signs         alasaka-ajīrṇam          अलसक-अजीर्णम्",False,source entry located; name is not promoted into an invented definition
+AYD-00585,WHO:ITA-5.22.6,201,"ITA-5.22.6   Anorexia due to injury                                                                      abhighātaja-arocakaḥ             अभिघातज-अरोचकः
+
+5.23         Vomiting
+",False,source entry located; name is not promoted into an invented definition
+AYD-00592,WHO:ITA-5.23.6,203,"ITA-5.23.6   Vomiting due to                                                                          āgantujachardiḥ                 आगन्तुजछर्दिः
+             extrinsic causes
+
+ITA-5.23.7   Vomiting due to worm                                                                     kṛmijachardiḥ                   कृ मिजछर्दिः",False,source entry located; name is not promoted into an invented definition
+AYD-00597,WHO:ITA-5.23.7,203,"ITA-5.23.7   Vomiting due to worm                                                                     kṛmijachardiḥ                   कृ मिजछर्दिः
+             infestation
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-00640,WHO:ITA-5.34.7,220,"               ITA-5.34.7     Abdominal colic due                                                                             dvandvajaśūlaḥ           द्वन्द्वजशूलः
+                              to any two vitiated
+                              dosha
+",False,source entry located; name is not promoted into an invented definition
+AYD-00644,WHO:ITA-5.34.10,220,"               ITA-5.34.10 Abdominal colic                                                                                    vātikapariṇāmaśūlaḥ      वातिकपरिणामशूलः
+                           occurring during
+                           digestion of food
+                           due to vitiated vata",False,source entry located; name is not promoted into an invented definition
+AYD-00771,WHO:ITA-5.6.24,169,"ITA-5.6.24   Intermittent fever                                                                        pittajacaturthakajvaraḥ       पित्तजचतुर्थकज्वरः
+             recurring every fourth
+             day due to predomi-
+             nance of pitta",False,source entry located; name is not promoted into an invented definition
+AYD-00810,WHO:ITA-5.70.13,322,"               ITA-5.70.13 Breast milk vitiated                                                                              sannipātajakṣīradoṣaḥ    सन्निपातजक्षीरदोषः
+                           by tridosha
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-00817,WHO:ITA-5.14.5,189,"ITA-5.14.5   Anaemic syndrome                                                                            sannipātajapāṇḍurogaḥ         सन्निपातजपाण्डुरोगः
+             due to vitiated
+             tridosha
+",False,source entry located; name is not promoted into an invented definition
+AYD-00850,WHO:ITA-5.75.3,342,"               ITA-5.75.3     Disorder due to loss                                                                               nidrānāśaḥ/ asvapnaḥ     निद्रानाशः/अस्वप्नः
+                              of sleep, insomnia
+
+               ITA-5.75.4     Disorder due to             Untimely sleeping habits causing specific disorders                    akālaśayanam             अकालशयनम्",False,source entry located; name is not promoted into an invented definition
+AYD-00883,WHO:ITA-5.59.1,263,"ITA-5.59.1   Multiple dermatologi-                                                                       kuṣṭhaḥ                       कु ष्ठः
+             cal diseases
+
+ITA-5.59.2   Skin disease with        A skin disease characterized by dryness; reddish colour of         kapālaḥ/ aruṇakuṣṭhaḥ/        कपालः/अरुणकु ष्ठः/",False,source entry located; name is not promoted into an invented definition
+AYD-01112,WHO:ITA-5.41.2,235,"ITA-5.41.2   Polyuria disorder due                                                                       kaphajapramehaḥ               कफजप्रमेहः
+             to vitiated kapha
+
+ITA-5.41.3   Polyuria disorder with   A disorder characterized by some or all the following signs        udakamehaḥ                    उदकमेहः",False,source entry located; name is not promoted into an invented definition
+AYD-01127,WHO:ITA-5.41.17,236,"               ITA-5.41.17 Polyuria disorder due                                                                          pittajapramehaḥ          पित्तजप्रमेहः
+                           to vitiated pitta
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-01135,WHO:ITA-5.41.25,237,"ITA-5.41.25 Polyuria disorder due                                                                        vātajapramehaḥ                 वातजप्रमेहः
+            to vitiated vata
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-01141,WHO:ITA-5.41.1.1,238,"               ITA-5.41.1.1   Carbuncles                                                                                   pramehapiḍakā            प्रमेहपिडका
+
+               ITA-5.41.1.2   Carbuncle resembling       A disorder characterized by some or all the following signs       śarāvikā-pramehapiḍakā   शराविका-प्रमेहपिडका
+                              earthenware vessel         and symptoms: a boil with raised margins; bluish-black",False,source entry located; name is not promoted into an invented definition
+AYD-01143,WHO:ITA-5.41.1.3,238,"               ITA-5.41.1.3   Carbuncle resembling                                                                         kacchapikā-              कच्छपिका-प्रमेहपिडका
+                              tortoise shell                                                                               pramehapiḍakā
+
+               ITA-5.41.1.4   Carbuncle resembling       A disorder characterized by some or all the following signs       jālinī-pramehapiḍakā     जालिनी-प्रमेहपिडका",False,source entry located; name is not promoted into an invented definition
+AYD-01148,WHO:ITA-5.41.1.8,239,"ITA-5.41.1.8   Carbuncle with                                                                              vidradhikā/ vidradhi-          विद्रधिका/
+               symptoms including                                                                          pramehapiḍakā                  विद्रधि-प्रमेहपिडका
+               abscess
+",False,source entry located; name is not promoted into an invented definition
+AYD-01283,WHO:ITA-5.39.6,230,"               ITA-5.39.6     Difficulty in urination                                                                         aśmarījamūtrakṛcchram     अश्मरीजमूत्रकृच्छ्रम्
+                              due to calculi
+
+               ITA-5.39.7     Difficulty in urination    A disorder characterized by abdominal distension; pain due to        purīṣarodha-              पुरीषरोधजमूत्रकृच्छ्रम्",False,source entry located; name is not promoted into an invented definition
+AYD-01310,WHO:ITA-5.44.5,245,"ITA-5.44.5   Oedema due to any                                                                       dvandvaja-śophaḥ              द्वन्द्वज-शोफः
+             two vitiated dosha
+
+ITA-5.44.6   Oedema due to        A disorder characterized by various colours on the nails;          sannipātajaśophaḥ             सन्निपातजशोफः",False,source entry located; name is not promoted into an invented definition
+AYD-01532,WHO:ITA-5.67.11,317,"ITA-5.67.11   Severe pain at                                                                          śaṅkhakaḥ                     शङ्खकः
+              temporal region
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-01553,WHO:ITA-5.63.1,280,"               ITA-5.63.1     Disorders of                                                                                      mukharogaḥ               मुखरोगः
+                              oral cavity
+
+               ITA-5.63.2     Disorders of lips                                                                                 oṣṭharogaḥ               ओष्ठरोगः",False,source entry located; name is not promoted into an invented definition
+AYD-01554,WHO:ITA-5.63.2,280,"               ITA-5.63.2     Disorders of lips                                                                                 oṣṭharogaḥ               ओष्ठरोगः
+
+
+               ITA-5.63.3     Disorders of lip due       A disorder characterized by some or all the following signs            vātaja-oṣṭhaprakopaḥ     वातज-ओष्ठप्रकोपः",False,source entry located; name is not promoted into an invented definition
+AYD-01616,WHO:ITA-5.63.50,288,"               ITA-5.63.50 Disorders of throat                                                                            kaṇṭhagatarogaḥ          कण्ठगतरोगः
+
+
+               ITA-5.63.51 Diphtheria                    A disorder characterized by some or all the following signs      rohiṇī                   रोहिणी",False,source entry located; name is not promoted into an invented definition
+AYD-01623,WHO:ITA-5.63.57,289,"ITA-5.63.57 Diphtheria due to                                                                        medajarohiṇī                  मेदजरोहिणी
+            vitiated fat
+
+ITA-5.63.58 Adenoids             A disorder characterized by some or all the following signs         kaṇṭhaśālūkaḥ                 कण्ठशालूकः",False,source entry located; name is not promoted into an invented definition
+AYD-01649,WHO:ITA-5.63.70,291,"ITA-5.63.70 Global oral cavity                                                                      sarvasaramukharogaḥ           सर्वसरमुखरोगः
+            disorder
+
+5.64         Disorders of the ear",False,source entry located; name is not promoted into an invented definition
+AYD-01662,WHO:ITA-5.66.1,299,"ITA-5.66.1   Eye disorders                                                                            netrarogaḥ                      नेत्ररोगः
+
+
+ITA-5.66.2   Conjunctivitis                                                                           abhiṣyandaḥ                     अभिष्यन्दः",False,source entry located; name is not promoted into an invented definition
+AYD-01689,WHO:ITA-5.66.69,310,"               ITA-5.66.69 Disorders of eyelids                                                                                  vartma-rogaḥ             वर्त्म-रोगः
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-01710,WHO:ITA-5.66.90,313,"ITA-5.66.90 Constriction of eyelids                                                                   kuñcanaḥ                        कु ञ्चनः
+ITA-5.66.91 Trichiasis, entropion     A disorder characterized by some or all the following signs and pakṣmakopaḥ/                    पक्ष्मकोपः/पक्ष्मोपरोधः
+                                      symptoms: the development of sharp eyelashes; rough                 pakṣmoparodhaḥ
+                                      eyelashes; repeated rubbing of eyeball; vitiation of eye; releif on",False,source entry located; name is not promoted into an invented definition
+AYD-01813,WHO:ITA-5.65.1,295,"ITA-5.65.1   Disorders of nose                                                                              nāsārogaḥ                     नासारोगः
+             and paranasal
+             sinuses
+",False,source entry located; name is not promoted into an invented definition
+AYD-01857,WHO:ITA-5.65.25,299,"ITA-5.65.25 Nasal polyp due to                                                                        sannipātajanāsārśaḥ             सन्निपातजनासार्शः
+            vitiated tridosha
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-01860,WHO:ITA-5.64.1,291,"ITA-5.64.1   Disorders of ear                                                                       karṇarogaḥ                    कर्णरोगः
+
+
+ITA-5.64.2   Ear pain; otalgia                                                                      karṇaśūlaḥ                    कर्णशूलः",False,source entry located; name is not promoted into an invented definition
+AYD-01881,WHO:ITA-5.64.15,292,"               ITA-5.64.15 Tumours of ear                                                                                  karṇa-arbudaḥ            कर्ण-अर्बुदः
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-01889,WHO:ITA-5.64.16,293,"ITA-5.64.16 Auricular polyp                                                                             karṇa-arśaḥ                    कर्ण-अर्शः
+
+
+ITA-5.64.17 Ear disorder due to        A disorder characterized by some or all the following signs      vātajakarṇarogaḥ/              वातजकर्णरोगः/",False,source entry located; name is not promoted into an invented definition
+AYD-01900,WHO:ITA-5.64.21,293,"ITA-5.64.21 Disorders of ear                                                                            karṇapālirogaḥ                 कर्णपालिरोगः
+            lobule
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02100,WHO:ITA-5.73.12,332,"               ITA-5.73.12 Injury to perineal                                                                             sevanī-chedaḥ            सेवनी-छेदः
+                           raphe
+
+               ITA-5.73.13 Stab injury                                                                                    bhinna-sadyovraṇaḥ       भिन्न-सद्योव्रणः",False,source entry located; name is not promoted into an invented definition
+AYD-02101,WHO:ITA-5.73.13,332,"               ITA-5.73.13 Stab injury                                                                                    bhinna-sadyovraṇaḥ       भिन्न-सद्योव्रणः
+Chapter 5
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02103,WHO:ITA-5.73.15,333,"ITA-5.73.15 Accumulation of                                                                            raktapūrṇakoṣṭhaḥ             रक्तपूर्णकोष्ठः
+            blood in the thoraco-
+            abdominal cavity
+            due to injury",False,source entry located; name is not promoted into an invented definition
+AYD-02108,WHO:ITA-5.73.20,333,"ITA-5.73.20 Penetrating or                                                                             sirāviddhaḥ                   सिराविद्धः
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02110,WHO:ITA-5.73.22,334,"               ITA-5.73.22 Injury to movable and                                                                           calācala-sandhikṣataḥ    चलाचल-सन्धिक्षतः
+                           immovable joints
+
+               ITA-5.73.23 Injury or damage to                                                                             srotoviddhaḥ             स्रोतोविद्धः",False,source entry located; name is not promoted into an invented definition
+AYD-02111,WHO:ITA-5.73.23,334,"               ITA-5.73.23 Injury or damage to                                                                             srotoviddhaḥ             स्रोतोविद्धः
+                           the body channels
+
+               ITA-5.73.24 Injury to the conduit         A disorder characterized by flexion/bending of body;              prāṇavahasrotoviddhaḥ    प्राणवहस्रोतोविद्धः",False,source entry located; name is not promoted into an invented definition
+AYD-02114,WHO:ITA-5.73.26,334,"               ITA-5.73.26 Injury to the water-                                                                            udakavahasrotoviddhaḥ    उदकवहस्रोतोविद्धः
+                           carrying channels
+
+               ITA-5.73.27 Injury to the channels        A disorder characterized by dryness/wasting/emaciation;           rasavahasrotoviddhaḥ     रसवहस्रोतोविद्धः",False,source entry located; name is not promoted into an invented definition
+AYD-02119,WHO:ITA-5.73.31,334,"               ITA-5.73.31 Injury to the channels                                                                          asthivahasrotoviddhaḥ    अस्थिवहस्रोतोविद्धः
+                           that nourish bone
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02125,WHO:ITA-5.76.16,349,"ITA-5.76.16 Condition of severe                                                                         raktātipravṛttiḥ                 रक्तातिप्रवृत्तिः
+            haemorrhage
+
+ITA-5.76.17 Condition due to                                                                            laṅghana-apacāraḥ                लङ्घन-अपचारः",False,source entry located; name is not promoted into an invented definition
+AYD-02126,WHO:ITA-5.73.37,335,"ITA-5.73.37 Urethral injury                                                                             mūtrapraseka-kṣaṇanam         मूत्रप्रसेक-क्षणनम्
+ITA-5.73.38 Head injury              A disorder characterized by some or all the following signs        śirobhighātaḥ                 शिरोभिघातः
+                                     and symptoms: torticollis/stiffness of neck; facial paralysis;
+                                     agitation of eyes; confusion/delirium; cramps; loss of motor",False,source entry located; name is not promoted into an invented definition
+AYD-02131,WHO:ITA-5.73.41,336,"               ITA-5.73.41 Frostbite                                                                                        śītābhihataḥ             शीताभिहतः
+
+
+               5.74           Disorders related to faulty diet and eating habits",False,source entry located; name is not promoted into an invented definition
+AYD-02176,WHO:ITA-5.71.5,323,"ITA-5.71.5   Paediatric erysipelas                                                                     mahāpadmaḥ                    महापद्मः
+
+
+ITA-5.71.6   Nodular skin disease    A disorder characterized by hard nodules/papular lesions;         ajagallikā                    अजगल्लिका",False,source entry located; name is not promoted into an invented definition
+AYD-02189,WHO:ITA-5.13.4,186,"               ITA-5.13.4     Internal worm                                                                                 ābhyantara-kṛmiḥ           आभ्यन्तर-कृ मिः
+                              infestation
+
+               ITA-5.13.5     Worm or parasite           A disorder characterized by some or all the following signs        kaphajakṛmiḥ               कफजकृ मिः [अन्त्रादः,",False,source entry located; name is not promoted into an invented definition
+AYD-02301,WHO:ITA-5.61.5,272,"               ITA-5.61.5     Bullous eruptions due                                                                       dvandvajavisphoṭakaḥ     द्वन्द्वजविस्फोटकः
+                              to any two
+                              vitiated dosha
+",False,source entry located; name is not promoted into an invented definition
+AYD-02314,WHO:ITA-5.72.1,326,"               ITA-5.72.1     Poisoning                                                                                     viṣaḥ                    विषः
+Chapter 5
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02522,WHO:ITA-5.72.16,328,"               ITA-5.72.16 Poisoning due to                                                                                   lūtāviṣaḥ                 लूताविषः
+                           spider bite
+Chapter 5
+",False,source entry located; name is not promoted into an invented definition
+AYD-02562,WHO:ITA-5.74.1,336,"               ITA-5.74.1     Disorders due to                                                                              āhāravaiṣamyam           आहारवैषम्यम्
+                              unwholesome diet
+
+               ITA-5.74.2     Disorder due to            A disorder characterized by some or all the following signs        hīnamātrāhāraḥ           हीनमात्राहारः",False,source entry located; name is not promoted into an invented definition
+AYD-02567,WHO:ITA-5.74.6,337,"ITA-5.74.6   Disorder due to                                                                                 jāṅgalamā-                    जाङ्गलमांसात्युपयोगः
+             excessive intake of                                                                             ṃsātyupayogaḥ
+             animal meat from
+             region with dry forests",False,source entry located; name is not promoted into an invented definition
+AYD-02569,WHO:ITA-5.74.8,338,"               ITA-5.74.8     Disorder due to                                                                          uṣṇavīrya-dravyātiyogaḥ /   उष्णवीर्य-द्रव्यातियोगः /
+                              excess intake of food                                                                    āgneya-dravyātiyogaḥ        आग्नेय-द्रव्यातियोगः
+                              able to increase heat
+                              in body or increase",False,source entry located; name is not promoted into an invented definition
+AYD-02570,WHO:ITA-5.74.9,338,"               ITA-5.74.9     Disorder due to                                                                          navaguḍa-atyupayogaḥ        नवगुड-अत्युपयोगः
+                              excessive intake of
+                              fresh jaggery
+",False,source entry located; name is not promoted into an invented definition
+AYD-02571,WHO:ITA-5.74.10,338,"               ITA-5.74.10 Disorder due to                                                                             śālidhānya-atiyogaḥ         शालिधान्य-अतियोगः
+                           excessive intake of
+                           cereals, e.g. rice
+",False,source entry located; name is not promoted into an invented definition
+AYD-02572,WHO:ITA-5.74.11,338,"               ITA-5.74.11    Disorder due to                                                                          tailasevana-atiyogaḥ        तैलसेवन-अतियोगः
+                              excessive intake of
+                              oil, e.g. sesame oil
+",False,source entry located; name is not promoted into an invented definition
+AYD-02573,WHO:ITA-5.74.12,338,"               ITA-5.74.12 Disorder due to                                                                             madyapānātiyogaḥ            मद्यपानातियोगः
+                           abusive ingestion of
+                           alcoholic beverages
+",False,source entry located; name is not promoted into an invented definition
+AYD-02575,WHO:ITA-5.74.14,338,"               ITA-5.74.14 Disorder due to                                                                             rasātiyogaḥ                 रसातियोगः
+                           excessive intake of
+                           drugs or diet with
+                           predominantly",False,source entry located; name is not promoted into an invented definition
+AYD-02582,WHO:ITA-5.75.1,342,"               ITA-5.75.1     Disorders due to                                                                                   vihāravaiṣamyam          विहारवैषम्यम्
+                              improper lifestyle
+
+               ITA-5.75.2     Disorders due to                                                                                   nidrā-vaiṣamyam          निद्रा-वैषम्यम्",False,source entry located; name is not promoted into an invented definition
+AYD-02583,WHO:ITA-5.75.2,342,"               ITA-5.75.2     Disorders due to                                                                                   nidrā-vaiṣamyam          निद्रा-वैषम्यम्
+                              improper sleep
+
+               ITA-5.75.3     Disorder due to loss                                                                               nidrānāśaḥ/ asvapnaḥ     निद्रानाशः/अस्वप्नः",False,source entry located; name is not promoted into an invented definition
+AYD-02591,WHO:ITA-5.75.6,342,"               ITA-5.75.6     Disorder due to                                                                                    snāna-vaiṣamyam          स्नान-वैषम्यम्
+                              improper bathing
+                              habits
+",False,source entry located; name is not promoted into an invented definition
+AYD-02593,WHO:ITA-5.75.8,343,"ITA-5.75.8    Disorder due to                                                                            vegāvarodhaḥ                  वेगावरोधः
+              suppression of
+              natural urges
+",False,source entry located; name is not promoted into an invented definition
+AYD-02597,WHO:ITA-5.75.12,343,"ITA-5.75.12 Disorder due to                                                                              hikkāvegarodhaḥ               हिक्कावेगरोधः
+            withholding of
+            hiccups
+",False,source entry located; name is not promoted into an invented definition
+AYD-02608,WHO:ITA-5.75.23,346,"               ITA-5.75.23 Disorders due to faulty                                                                        vyavāya-vaiṣamyam/       व्यवाय-वैषम्यम्/
+                           sexual practices                                                                               maithunāpacāram          मैथुनापचारम्
+               ITA-5.75.24 Disorder due to                                                                                vyavāyamithyāyogaḥ/      व्यवायमिथ्यायोगः/
+                           deviated sexual                                                                                mithyāvyavāyam           मिथ्याव्यवायम्",False,source entry located; name is not promoted into an invented definition
+AYD-02609,WHO:ITA-5.75.24,346,"               ITA-5.75.24 Disorder due to                                                                                vyavāyamithyāyogaḥ/      व्यवायमिथ्यायोगः/
+                           deviated sexual                                                                                mithyāvyavāyam           मिथ्याव्यवायम्
+                           activity
+",False,source entry located; name is not promoted into an invented definition
+AYD-02610,WHO:ITA-5.75.25,346,"               ITA-5.75.25 Disorder due to                                                                                vyavāyātiyogaḥ           व्यवायातियोगः
+                           excessive sexual
+                           activity
+",False,source entry located; name is not promoted into an invented definition
+AYD-02611,WHO:ITA-5.75.26,346,"               ITA-5.75.26 Disorders due to                                                                               vyāyāma-vaiṣamyam        व्यायाम-वैषम्यम्
+                           improper exercise
+
+               ITA-5.75.27 Disorder due to               A disorder characterized by some or all the following signs      ativyāyāmaḥ/             अतिव्यायामः/",False,source entry located; name is not promoted into an invented definition
+AYD-02615,WHO:ITA-5.76.2,347,"ITA-5.76.2   Condition of improper                                                                      snehana-apacāraḥ              स्नेहन-अपचारः
+             oleation therapy
+
+ITA-5.76.3   Condition of sub-        A condition characterized by some or all the following signs      snehana-ayogaḥ                स्नेहन-अयोगः",False,source entry located; name is not promoted into an invented definition
+AYD-02620,WHO:ITA-5.76.7,347,"ITA-5.76.7   Condition of sub-                                                                          svedana-ayogaḥ                स्वेदन-अयोगः
+             normal sudation
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02622,WHO:ITA-5.76.9,348,"               ITA-5.76.9     Condition due to                                                                               rūkṣaṇa-apacāraḥ         रूक्षण-अपचारः
+                              improper drying
+                              therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02624,WHO:ITA-5.76.11,348,"               ITA-5.76.11    Condition due to                                                                               stambhana-apacāraḥ       स्तम्भन-अपचारः
+                              improper astringent
+                              therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02628,WHO:ITA-5.76.15,349,"ITA-5.76.15 Condition of forceful                                                                       akṣīṇabalamāṃsasya               अक्षीणबलमांसस्य
+            haemostasis of                                                                              raktapittastambhanam             रक्तपित्तस्तम्भनम्
+            haemorrhage in
+            overnourished",False,source entry located; name is not promoted into an invented definition
+AYD-02629,WHO:ITA-5.76.17,349,"ITA-5.76.17 Condition due to                                                                            laṅghana-apacāraḥ                लङ्घन-अपचारः
+            improper depletion
+            therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02631,WHO:ITA-5.76.19,349,"ITA-5.76.19 Condition due to                                                                            bṛṃhaṇa-apacāraḥ                 बृंहण-अपचारः
+            improper nourishing
+            therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02633,WHO:ITA-5.76.21,349,"ITA-5.76.21 Condition due to                                                                            vamana-apacāraḥ                  वमन-अपचारः
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02652,WHO:ITA-5.76.40,352,"               ITA-5.76.40 Condition of improper                                                                        vamana-vyāpadaḥ          वमन-व्यापदः
+                           administration of
+                           emetic therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02665,WHO:ITA-5.76.51,354,"               ITA-5.76.51 Condition due to                                                                                virecanakarma-            विरे चनकर्म-चिकित्सापचारः
+                           improper                                                                                        cikitsāpacāraḥ
+                           purgation therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02698,WHO:ITA-5.76.84,358,"               ITA-5.76.84 Condition due to                                                                                 bastikarmacikitsāpacāraḥ   बस्तिकर्मचिकित्सापचारः
+Chapter 5
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02715,WHO:ITA-5.76.101,361,"ITA-5.76.101   Condition of improper                                                                      nirūhamithyāyogaḥ             निरूहमिथ्यायोगः
+               administration of
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02730,WHO:ITA-5.76.116,364,"               ITA-5.76.116   Condition due to                                                                            anuvāsana/ sneha basti    अनुवासन/स्नेह बस्ति
+                              improper medicated                                                                          karma cikitsāpacāra,      कर्म चिकित्सापचार,
+                              oily enema                                                                                  sneha basti vyāpad        स्नेहबस्ति व्यापद
+",False,source entry located; name is not promoted into an invented definition
+AYD-02733,WHO:ITA-5.76.119,365,"ITA-5.76.119   Condition of improper                                                              anuvāsanamityayoga            अनुवासनमित्ययोग
+               administration medicated
+               oily enema
+",False,source entry located; name is not promoted into an invented definition
+AYD-02748,WHO:ITA-5.76.133,367,"ITA-5.76.133   Condition due to                                                                          raktamokṣaṇa-apacāraḥ         रक्तमोक्षण-अपचारः
+               improper application
+               of bloodletting
+",False,source entry located; name is not promoted into an invented definition
+AYD-02753,WHO:ITA-5.76.138,368,"               ITA-5.76.138   Condition due to                                                                           nasyakar-                  नस्यकर्मचिकित्सापचारः
+                              improper errhine                                                                           macikitsāpacāraḥ
+                              therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02756,WHO:ITA-5.76.141,368,"               ITA-5.76.141   Condition due to                                                                           nasyamithyāyogaḥ/          नस्यमिथ्यायोगः /
+                              improper administra-                                                                       śirovirecanamithyāyogaḥ/   शिरोविरे चनमिथ्यायोगः/
+                              tion of inhalation                                                                         nasyavyāpat                नस्यव्यापत्
+                              therapy",False,source entry located; name is not promoted into an invented definition
+AYD-02775,WHO:ITA-5.76.160,371,"ITA-5.76.160   Condition due to                                                                             dhūmapāna-apacāraḥ            धूमपान-अपचारः
+               improper application
+               of medicated smoke
+",False,source entry located; name is not promoted into an invented definition
+AYD-02780,WHO:ITA-5.76.165,372,"               ITA-5.76.165   Condition due to                                                                              kavalacikitsāpacāraḥ     कवलचिकित्सापचारः
+                              improper gargling
+                              therapy
+",False,source entry located; name is not promoted into an invented definition
+AYD-02783,WHO:ITA-5.76.168,372,"               ITA-5.76.168   Condition due to                                                                              āścyotana-apacāraḥ       आश्च्योतन-अपचारः
+                              improper application
+                              of eyedrops
+",False,source entry located; name is not promoted into an invented definition
+AYD-02792,WHO:ITA-5.76.176,373,"ITA-5.76.176   Condition due to                                                                                 lekhanāñjana-apacāraḥ          लेखनाञ्जन-अपचारः
+
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02795,WHO:ITA-5.76.179,374,"               ITA-5.76.179   Condition due to                                                                           prasādāñjana-apacāraḥ    प्रसादाञ्जन-अपचारः
+                              improper application
+                              of soothing collyrium
+",False,source entry located; name is not promoted into an invented definition
+AYD-02798,WHO:ITA-5.76.182,374,"               ITA-5.76.182   Condition due to                                                                           ropaṇāñjana-apacāraḥ     रोपणाञ्जन-अपचारः
+                              improper application
+                              of healing collyrium
+",False,source entry located; name is not promoted into an invented definition
+AYD-02800,WHO:ITA-5.76.184,374,"               ITA-5.76.184   Condition due to                                                                           ropaṇāñjana-atiyogaḥ     रोपणाञ्जन-अतियोगः
+                              overdosage of
+                              healing collyrium
+",False,source entry located; name is not promoted into an invented definition
+AYD-02801,WHO:ITA-5.76.185,374,"               ITA-5.76.185   Condition due to                                                                           tarpaṇa-apacāraḥ         तर्पण-अपचारः
+Chapter 5
+
+",False,source entry located; name is not promoted into an invented definition
+AYD-02804,WHO:ITA-5.76.188,375,"ITA-5.76.188   Condition due to                                                                         puṭapāka-apacāraḥ;             पुटपाक-अपचारः
+               improper application
+               of juice expressed
+               from warm herbal",False,source entry located; name is not promoted into an invented definition
+AYD-02807,WHO:ITA-5.76.191,375,"ITA-5.76.191   Condition due to one                                                                     parihārakāla-vyāpadaḥ/         परिहारकाल-व्यापदः/
+               of the eight                                                                             aparihārasevanam               अपरिहारसेवनम्
+               impediments
+               during a gap between",False,source entry located; name is not promoted into an invented definition
+AYD-02816,WHO:ITA-5.76.200,377,"ITA-5.76.200   Condition of improper                                                                      śastrakarma-apacāraḥ           शस्त्रकर्म-अपचारः
+               surgical intervention
+
+ITA-5.76.201   Condition due to        A condition characterized by loss of strength; loss of function;   śastravibhramaḥ                शस्त्रविभ्रमः",False,source entry located; name is not promoted into an invented definition
+AYD-02818,WHO:ITA-5.76.202,378,"               ITA-5.76.202   Condition due to                                                                            karṇavyadhajanyarogaḥ    कर्णव्यधजन्यरोगः
+                              improper piercing of
+                              ear lobule or pinna
+",False,source entry located; name is not promoted into an invented definition
+AYD-02827,WHO:ITA-5.76.211,379,"ITA-5.76.211   Condition due to                                                                           alpapravṛttaraktaḥ                अल्पप्रवृत्तरक्तः
+               scanty bleeding
+               condition
+",False,source entry located; name is not promoted into an invented definition
+AYD-02831,WHO:ITA-5.76.215,379,"ITA-5.76.215   Condition due to                                                                           kṣārakarma-apacāraḥ               क्षारकर्म-अपचारः
+               improper application
+               of alkali substance
+",False,source entry located; name is not promoted into an invented definition
+AYD-02840,WHO:ITA-5.76.224,381,"ITA-5.76.224   Condition due to                                                                              agnikarma-apacāraḥ              अग्निकर्म-अपचारः
+                due to improper
+               application of
+               thermal cautery",False,source entry located; name is not promoted into an invented definition
+AYD-02841,WHO:ITA-5.76.225,381,"ITA-5.76.225   Condition due to                                                                              agnivibhramaḥ                   अग्निविभ्रमः
+               due to improper
+               application of
+               thermal cautery",False,source entry located; name is not promoted into an invented definition
+AYD-02844,WHO:ITA-5.76.228,381,"ITA-5.76.228   Condition due to                                                                              atidagdha-gudaḥ                 अतिदग्ध-गुदः
+               excessive cautery of
+               anus
+",False,source entry located; name is not promoted into an invented definition
+AYD-02849,WHO:ITA-5.76.233,382,"               ITA-5.76.233   Condition due to due                                                                       vraṇa-apacāraḥ           व्रण-अपचारः
+                              to improper wound
+                              care
+",False,source entry located; name is not promoted into an invented definition
