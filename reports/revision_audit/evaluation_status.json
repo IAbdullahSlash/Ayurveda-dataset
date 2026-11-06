@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "case_split_scope": "internal existing published reports; not an external test set",
+  "case_split_counts": {
+    "train": 396,
+    "test": 113,
+    "validation": 56
+  },
+  "qa_split_counts": {
+    "train": 3595,
+    "test": 828,
+    "validation": 413
+  },
+  "qa_largest_connected_group": 696,
+  "qa_grouping": "all shared record IDs, including English/Hindi versions",
+  "external_validation": "requires newly sourced independent cases and adjudicated labels",
+  "paired_intervals": "not computed: paired per-case baseline/model results not supplied"
+}
