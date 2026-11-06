@@ -61,7 +61,7 @@ def main():
         result['benchmarks']['E2c_plus']={'file':str(upgrades.relative_to(ROOT)),'n':variants['n_herbs']}
     lines+=['','Results and split manifests are in `reports/revision_full/`. The historical v1.2 reports remain in `reports/ml/` for comparison. E4 reserves a final holdout before model selection; its revised CV denominator differs from the original release.',
             '', 'The E2c chemistry-upgrade report is stored separately as `E2c_plus.json` because it compares feature variants. Embedding-dependent E1 upgrades and semantic retrieval were not rerun: the model host is blocked by the current network policy.',
-            '', 'Independent clinical review, bilingual adjudication, source-rights decisions and an external test set remain pending. See `REVISION_STATUS.md` and the dedicated review protocols.']
+            '', 'Benchmark results refer to their frozen input snapshots in `reports/revision_full/`; subsequent language and graph repairs are not a new benchmark rerun.', '', 'Independent clinical review, bilingual adjudication, source-rights decisions and an external test set remain pending. See `REVISION_STATUS.md` and the dedicated review protocols.']
     (ROOT/'reports/revision_validation_summary.json').write_text(json.dumps(result,indent=2)+'\n')
     (ROOT/'docs/REVISION_VALIDATION.md').write_text('\n'.join(lines)+'\n')
 if __name__=='__main__':

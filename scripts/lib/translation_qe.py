@@ -1,8 +1,6 @@
 """Detect consecutive decoding loops without treating ordinary symptom lists as loops."""
-import re
 FUNCTION_WORDS={'के','की','का','में','से','को','पर','और','है','हैं','एक','या','तथा','भी'}
 def has_decoding_loop(text):
-    tokens=re.findall(r'\w+',text,flags=re.UNICODE)
     # Whitespace tokenization preserves Devanagari combining marks.
     tokens=[token.strip('.,;:।!?()') for token in text.split() if token.strip('.,;:।!?()')]
     for width in range(1,9):

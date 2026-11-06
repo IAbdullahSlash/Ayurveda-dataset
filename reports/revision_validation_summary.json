@@ -1,10 +1,10 @@
 {
   "tests": {
-    "passed": 127,
+    "passed": 130,
     "skipped": 0,
     "failed": 0,
     "errors": 0,
-    "junit_sha256": "d9d40fe500b43bb6365c4ab74e7c50de55b3c686a6079b7deb99081a1ec0c217"
+    "junit_sha256": "4243769757cf15d43448ef9c5c7f763961f7174f0e0808597c98c952e5506bf3"
   },
   "tables": {
     "case_report_entities": 8023,

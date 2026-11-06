@@ -1,6 +1,6 @@
 # Revision validation
 
-Executed test suite: **127 passed, 0 skipped, 0 failed, 0 errors**.
+Executed test suite: **130 passed, 0 skipped, 0 failed, 0 errors**.
 
 Current processed data: **43 tables, 181,333 rows**. Rows include links, derived records and synthetic observations; they are not independent patients.
 
@@ -48,5 +48,7 @@ Preprocessing is fitted inside both inner and outer folds. Fold-score p-values a
 Results and split manifests are in `reports/revision_full/`. The historical v1.2 reports remain in `reports/ml/` for comparison. E4 reserves a final holdout before model selection; its revised CV denominator differs from the original release.
 
 The E2c chemistry-upgrade report is stored separately as `E2c_plus.json` because it compares feature variants. Embedding-dependent E1 upgrades and semantic retrieval were not rerun: the model host is blocked by the current network policy.
+
+Benchmark results refer to their frozen input snapshots in `reports/revision_full/`; subsequent language and graph repairs are not a new benchmark rerun.
 
 Independent clinical review, bilingual adjudication, source-rights decisions and an external test set remain pending. See `REVISION_STATUS.md` and the dedicated review protocols.
