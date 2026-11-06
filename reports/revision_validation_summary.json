@@ -1,10 +1,10 @@
 {
   "tests": {
-    "passed": 124,
+    "passed": 127,
     "skipped": 0,
     "failed": 0,
     "errors": 0,
-    "junit_sha256": "5f66c82f489ca20ad2885608d7f15316465851120cdb202b215d9174b348809e"
+    "junit_sha256": "d9d40fe500b43bb6365c4ab74e7c50de55b3c686a6079b7deb99081a1ec0c217"
   },
   "tables": {
     "case_report_entities": 8023,
@@ -16,7 +16,7 @@
     "controlled_vocabulary": 135,
     "diagnostic_methods": 43,
     "diet_lifestyle": 381,
-    "disease_symptom": 11884,
+    "disease_symptom": 11883,
     "disease_symptom_from_cases": 3905,
     "disease_symptom_inferred": 10082,
     "disease_symptom_who": 13639,
@@ -45,7 +45,7 @@
     "prakriti_synthetic_cohort": 3000,
     "qa_pairs": 4836,
     "sources": 14,
-    "symptoms": 11081,
+    "symptoms": 11082,
     "terminology": 6233,
     "therapies": 1325,
     "therapy_disease": 6474,

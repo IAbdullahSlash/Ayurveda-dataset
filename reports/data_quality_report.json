@@ -37,7 +37,7 @@
       "columns": 25
     },
     "disease_symptom": {
-      "rows": 11884,
+      "rows": 11883,
       "columns": 7
     },
     "disease_symptom_from_cases": {
@@ -153,7 +153,7 @@
       "columns": 5
     },
     "symptoms": {
-      "rows": 11081,
+      "rows": 11082,
       "columns": 14
     },
     "terminology": {
@@ -230,11 +230,11 @@
     "empty": 0
   },
   "fk:disease_symptom.disease_id->diseases.disease_id": {
-    "checked": 11884,
+    "checked": 11883,
     "orphans": 0
   },
   "fk:disease_symptom.symptom_id->symptoms.symptom_id": {
-    "checked": 11884,
+    "checked": 11883,
     "orphans": 0
   },
   "fk:herb_indication.herb_id->herbs.herb_id": {
@@ -418,7 +418,7 @@
       "formulation": 86
     }
   },
-  "corpus_documents": 20758,
+  "corpus_documents": 20759,
   "provenance": {
     "case_report_entities": {
       "rows": 8023,
@@ -457,7 +457,7 @@
       "unresolved": 0
     },
     "disease_symptom": {
-      "rows": 11884,
+      "rows": 11883,
       "unresolved": 0
     },
     "disease_symptom_from_cases": {
@@ -573,7 +573,7 @@
       "unresolved": 0
     },
     "symptoms": {
-      "rows": 11081,
+      "rows": 11082,
       "unresolved": 0
     },
     "terminology": {

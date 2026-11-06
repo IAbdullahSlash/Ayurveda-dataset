@@ -14,7 +14,7 @@
 [![Languages: English, Hindi, Sanskrit](https://img.shields.io/badge/languages-English%20%7C%20Hindi%20%7C%20Sanskrit-e67e22?style=flat-square)](#whats-inside)
 
 [![Disorders: 2,892](https://img.shields.io/badge/disorders-2%2C892-0f766e?style=flat-square)](#whats-inside)
-[![Symptoms: 11,081](https://img.shields.io/badge/symptoms-11%2C081-0f766e?style=flat-square)](#whats-inside)
+[![Symptoms: 11,082](https://img.shields.io/badge/symptoms-11%2C082-0f766e?style=flat-square)](#whats-inside)
 [![Herbs: 466](https://img.shields.io/badge/herbs-466-0f766e?style=flat-square)](#whats-inside)
 [![Therapies: 1,325](https://img.shields.io/badge/therapies-1%2C325-0f766e?style=flat-square)](#whats-inside)
 [![Case reports: 565](https://img.shields.io/badge/case%20reports-565-0f766e?style=flat-square)](#whats-inside)
@@ -65,8 +65,8 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 | Area | Table | Rows | Highlights |
 |---|---|---:|---|
 | **Diagnosis** | `diseases` | 2,892 | NAMASTE morbidity codes, hierarchy, 789 WHO ICD-11 TM2 codes, 1,188 linked to WHO terms, doṣa labels |
-| | `symptoms` | 11,081 | SAT-D lexicon (9,400 Sanskrit symptom phrases + English glosses) and 1,681 more from NAMASTE definitions |
-| | `disease_symptom` | 11,884 | disease → symptom graph parsed from clinical definitions |
+| | `symptoms` | 11,082 | SAT-D lexicon (9,400 Sanskrit symptom phrases + English glosses) and 1,681 more from NAMASTE definitions |
+| | `disease_symptom` | 11,883 | disease → symptom graph parsed from clinical definitions |
 | | `diagnostic_methods` | 43 | trividha, ṣaḍvidha, aṣṭasthāna (nāḍī, mūtra, jihvā …), daśavidha, nidāna pañcaka, kriyākāla, plus modern and computational counterparts with PubMed evidence |
 | **Herbs** | `herbs` | 466 | official Sanskrit names, GBIF-accepted botanical names, Hindi names, rasa / guṇa / vīrya / vipāka / karma / doṣa, safety class, PubMed & trial counts |
 | | `herb_indication`, `herb_karma`, `herb_names` | 1,693 / 829 / 3.6k | herb → disease, herb → action, multilingual synonyms |

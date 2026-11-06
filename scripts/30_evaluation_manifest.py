@@ -4,14 +4,19 @@ import argparse
 import json
 from pathlib import Path
 import pandas as pd
-from lib.evaluation import grouped_partition, connected_record_groups, paired_cluster_interval
+from lib.evaluation import grouped_partition, connected_record_groups, paired_cluster_interval, validate_external_cases
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--paired-results',type=Path)
+    ap.add_argument('--external-cases',type=Path)
     args=ap.parse_args()
     out=ROOT/'reports/revision_audit';out.mkdir(exist_ok=True)
+    if args.external_cases:
+        print(json.dumps(validate_external_cases(pd.read_csv(args.external_cases,keep_default_na=False),
+            pd.read_csv(ROOT/'data/processed/case_reports.csv',keep_default_na=False)),indent=2))
+        return
     if args.paired_results:
         print(json.dumps(paired_cluster_interval(pd.read_csv(args.paired_results,keep_default_na=False)),indent=2))
         return

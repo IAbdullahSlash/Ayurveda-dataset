@@ -20,7 +20,7 @@ none links diagnosis, materia medica, remedies and modern evidence together.
 
 | Layer | Tables | Origin |
 |---|---|---|
-| Diagnosis | `diseases` (2,892 NAMASTE codes, 789 with ICD-11 TM2 codes, 1,188 linked to WHO terms), `symptoms` (11,081), `disease_symptom` (11,884 edges), `diagnostic_methods` (43) | authoritative + curated |
+| Diagnosis | `diseases` (2,892 NAMASTE codes, 789 with ICD-11 TM2 codes, 1,188 linked to WHO terms), `symptoms` (11,082), `disease_symptom` (11,883 edges), `diagnostic_methods` (43) | authoritative + curated |
 | Terminology | `terminology` (6,233 WHO + SAT terms), `therapies` (1,325), `pharmaceutics` (393), `diet_lifestyle` (381), `controlled_vocabulary` (135) | authoritative |
 | Materia medica | `herbs` (466), `herb_names` (3.6k), `herb_indication` (1,693), `herb_karma` (829), `herb_groups` (50 mahākaṣāya), `herb_group_members` (500) | authoritative + community + linked open data |
 | Remedies | `formulations` (43 classical), `formulation_ingredients` (500), `formulation_indications` (155), plus herb indications, therapies, diet & lifestyle | curated (flagged) + authoritative |

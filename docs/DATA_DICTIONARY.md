@@ -183,7 +183,7 @@ Diet, daily/seasonal regimen and preventive health (WHO ch. 8, 10 + SAT-H, J).
 | `definition_hi_qe_flags` | text | 13% | repetition | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 96% | nllb200_600m_glossary_injected_greedy | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
-## `disease_symptom`  (11,884 rows × 7 columns)
+## `disease_symptom`  (11,883 rows × 7 columns)
 
 Disease → symptom edges parsed from NAMASTE clinical definitions (mention order kept).
 
@@ -773,7 +773,7 @@ Provenance and licence of every source.
 | `licence` | text | 100% | CC BY 4.0 (curation); classical texts are public domain | Licence of the row |
 | `role` | text | 100% | curated |  |
 
-## `symptoms`  (11,081 rows × 14 columns)
+## `symptoms`  (11,082 rows × 14 columns)
 
 Signs-and-symptoms lexicon: NAMASTE SAT-D (9,400 Sanskrit symptom phrases with English glosses) plus symptoms that occur only in NAMASTE clinical definitions.
 
@@ -856,7 +856,7 @@ Treatment terminology (WHO ch. 9 + SAT-I), tagged pañcakarma / pūrvakarma / ra
 | `term_en_hi` | text | 100% | सामान्य चिकित्सा |  |
 | `term_en_hi_qe_flags` | text | 3% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi` | text | 100% | आयुर्वेद की आठ चिकित्सा शाखाओं में से एक: यह सामान्य प्रणाली… | Hindi translation of the definition (NLLB-200 + Ayurveda glossary; QE flags) |
-| `definition_hi_qe_flags` | text | 12% | repetition | Automated translation quality flags (empty does not establish human validation) |
+| `definition_hi_qe_flags` | text | 12% | expert_review_pending | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 100% | nllb200_600m_glossary_injected_greedy | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
 ## `therapy_disease`  (6,474 rows × 11 columns)
