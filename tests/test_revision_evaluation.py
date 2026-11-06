@@ -25,3 +25,12 @@ def test_preprocessor_never_fits_heldout_rows():
                             np.array([0, 1] * 6), n_splits=3, n_repeats=1,
                             preprocessor=FoldGuard())
     assert len(result) == 1
+
+def test_herb_vocabulary_is_learned_on_training_rows_only():
+    import pandas as pd
+    from lib.herb_features import HerbFeatures
+    train=pd.DataFrame({'rasa':['common','common','rare']})
+    test=pd.DataFrame({'rasa':['test-only','rare']})
+    transformer=HerbFeatures(use=('rasa',),min_count=2).fit(train)
+    assert transformer.features_==[('rasa','common')]
+    assert transformer.transform(test).tolist()==[[0.0],[0.0]]

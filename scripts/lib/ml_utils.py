@@ -77,7 +77,7 @@ def ece(y_true_idx, proba, n_bins=10):
             e += m.mean() * abs(acc[m].mean() - conf[m].mean())
     return float(e)
 
-def evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, label=None, fit_kw=None, topk=(3,), skip_slow=(), preprocessor=None):
+def evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, label=None, fit_kw=None, topk=(3,), skip_slow=(), preprocessor=None, sample_ids=None):
     """repeated stratified k-fold; returns per-model mean/std metrics and pooled out-of-fold probabilities."""
     classes = np.unique(y)
     yi = np.searchsorted(classes, y)
@@ -86,7 +86,7 @@ def evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, label=None, fit_kw=None, top
     manifest_dir = os.environ.get("AYURKB_SPLIT_DIR")
     if manifest_dir:
         digest = hashlib.sha256(np.asarray(y, dtype=str).tobytes()).hexdigest()
-        manifest = {"label": label, "label_sha256": digest, "seed": SEED,
+        manifest = {"label": label, "sample_ids": list(map(str,sample_ids)) if sample_ids is not None else None, "label_sha256": digest, "seed": SEED,
                     "n_splits": n_splits, "n_repeats": n_repeats,
                     "folds": [{"train": tr.tolist(), "test": te.tolist()} for tr, te in splits]}
         directory = Path(manifest_dir)

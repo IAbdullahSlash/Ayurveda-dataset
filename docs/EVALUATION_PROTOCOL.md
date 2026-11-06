@@ -14,6 +14,6 @@ Report the same cases for the lexical matcher, training-frequency baseline, case
 
 E1 TF-IDF and E4 imputation/encoding/scaling now fit within training folds; E4 reserves 750 synthetic records before choosing its model. Stage 26 TF-IDF and chemistry SVD/scaling use the same fold-local API. Frozen pretrained embedding inference is allowed across the corpus; corpus-fitted transforms are not.
 
-Additional E2 feature/label choices in `herb_matrix(min_count=6)`, the top-12 indication target definition and stage 26 family/activity selection are cohort-defined. Those historical E2 scores remain exploratory and must not be represented as fully nested prospective estimates. Repeating the complete E2 model-selection study is a separate remaining scientific validation step; no change to E1/E4 repairs those estimates by implication.
+E2 property-vocabulary frequency filtering now fits within each training fold, and stage 26 family encoding also fits locally. The chemistry activity vocabulary comes from the fixed external phytochemical-activity source. The top-12 indication labels remain a declared cohort-defined task; results are conditional on that task and do not estimate generalization to newly selected indication labels. Historical E2 scores predate the feature-selection correction.
 
 Synthetic E3/E4 results remain explicitly synthetic. They cannot certify patient-level performance. Matched original-versus-revised score comparisons should use the same models, records and ranking units; the altered E4 development/holdout design changes its denominator.

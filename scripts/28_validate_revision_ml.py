@@ -11,7 +11,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--all-models', action='store_true')
-    ap.add_argument('--exp', choices=['e1','e4','both'], default='both')
+    ap.add_argument('--exp', choices=['e1','e2','e4','both'], default='both')
     args = ap.parse_args()
     m = importlib.import_module('07_ml')
     out = ROOT / 'reports' / ('revision_full' if args.all_models else 'revision_validation')
@@ -31,6 +31,8 @@ def main():
     d[['disease_id','definition_en','definition_hi','system_code','dosha_label']].to_csv(out / 'input_records.csv',index=False)
     if args.exp in ['e1','both']:
         m.e1(True)
+    if args.exp == 'e2':
+        m.e2()
     if args.exp in ['e4','both']:
         m.e4()
     print('Requested corrected benchmark run complete')

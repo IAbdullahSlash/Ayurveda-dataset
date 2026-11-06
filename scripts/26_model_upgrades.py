@@ -23,7 +23,8 @@ ml = import_module("07_ml")
 xl = import_module("10_crosslingual")
 from lib.ml_utils import tabular_zoo, evaluate_cv, SEED
 from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import normalize, MaxAbsScaler
+from sklearn.preprocessing import normalize, MaxAbsScaler, OneHotEncoder
+from lib.herb_features import HerbFeatures
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import make_pipeline
 
@@ -44,35 +45,39 @@ def chem_features(h):
                 if a in ai:
                     F[idx[hid], ai[a]] += 1
     F = np.log1p(F)
-    fam = pd.get_dummies(h.family.where(h.family.map(h.family.value_counts()) >= 3, "other")).values.astype(float)
-    return np.hstack([F, fam, (F.sum(1, keepdims=True) > 0).astype(float)]), len(top)
+    return np.hstack([F, (F.sum(1, keepdims=True) > 0).astype(float)]), len(top)
 
 def e2c_plus():
     h = rd("herbs")
     h = h[(h.rasa != "") & (h.virya != "") & (~h.virya.str.contains(";"))].copy().reset_index(drop=True)
-    Xb = ml.herb_matrix(h, use=("rasa", "guna", "vipaka", "virya", "dosha_pacify", "dosha_aggravate", "parts")).values.astype(float)
+    use=("rasa", "guna", "vipaka", "virya", "dosha_pacify", "dosha_aggravate", "parts")
     Xc, n_act = chem_features(h)
+    frame=h.copy()
+    chemistry_columns=[f"chemistry_{i}" for i in range(n_act)]
+    frame=pd.concat([frame,pd.DataFrame(Xc[:,:n_act],columns=chemistry_columns)],axis=1)
+    frame["has_chemistry"]=Xc[:,-1]
     ind = Counter(x for s in h.indications_sa_ascii for x in s.split("; ") if x)
     top = [k for k, _ in ind.most_common(12)]
     Y = pd.DataFrame({k: h.indications_sa_ascii.map(lambda s, k=k: int(k in s.split("; "))) for k in top})
     names = ["Logistic Regression", "Random Forest", "LightGBM", "XGBoost", "Dummy (majority)"]
     out = {}
     from sklearn.decomposition import TruncatedSVD
-    combined = np.hstack([Xb, Xc])
-    compression = ColumnTransformer([
-        ("base", "passthrough", list(range(Xb.shape[1]))),
-        ("chemistry", make_pipeline(TruncatedSVD(20, random_state=SEED), MaxAbsScaler()),
-         list(range(Xb.shape[1], Xb.shape[1] + n_act))),
-        ("present", "passthrough", [combined.shape[1] - 1])])
-    variants = (("original features", Xb), ("+ chemistry + family", np.hstack([Xb, Xc])),
-                ("+ chemistry compressed to 20 components", combined))
-    for label, X in variants:
+    base=("herb",HerbFeatures(use=use),list(h.columns))
+    family=("family",OneHotEncoder(handle_unknown="ignore",sparse_output=False),["family"])
+    presence=("present","passthrough",["has_chemistry"])
+    variants = [
+        ("original features",HerbFeatures(use=use)),
+        ("+ chemistry + family",ColumnTransformer([base,("chemistry","passthrough",chemistry_columns),family,presence])),
+        ("+ chemistry compressed to 20 components",ColumnTransformer([
+            base,("chemistry",make_pipeline(TruncatedSVD(20,random_state=SEED),MaxAbsScaler()),chemistry_columns),presence]))]
+    for label, preprocessor in variants:
+        X=frame
         zoo = {k: v for k, v in tabular_zoo(2).items() if k in names}
         rows = []
         for lab in top:
             y = Y[lab].values
             res, *_ = evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, topk=(),
-                                  preprocessor=compression if "compressed" in label else None)
+                                  preprocessor=preprocessor, sample_ids=h.herb_id.tolist())
             res["label"] = lab; rows.append(res)
         allr = pd.concat(rows)
         summ = allr.groupby("model")[["accuracy_mean", "macro_f1_mean", "roc_auc_ovr_mean"]].mean().sort_values("macro_f1_mean", ascending=False)

@@ -25,6 +25,7 @@ from scipy import sparse
 import joblib
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.herb_features import HerbFeatures
 from lib.ml_utils import (tabular_zoo, text_zoo, evaluate_cv, selective_curve, plot_bars, plot_confusion,
                           plot_selective, ece, SEED)
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -76,7 +77,7 @@ def e1(bilingual=False):
     texts = (a.name_en + " . " + a.definition_en).tolist()
     X = np.asarray(texts, dtype=object)
     print(f"[E1a] organ-system from text: n={len(a)} classes={a.system_code.nunique()} inputs={len(X)}")
-    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(a.system_code), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
+    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(a.system_code), sample_ids=lab(a.disease_id), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
     best = res.iloc[0].model
     plot_bars(res, "macro_f1", "E1a  NAMASTE disorder -> organ-system category (text, 5-fold CV)", FIG / "E1a_models_macroF1.png")
     plot_confusion(yi, oof[best].argmax(1), [f"{c}:{names.get(c, '')[:18]}" for c in cls], f"E1a confusion ({best})", FIG / "E1a_confusion.png")
@@ -89,7 +90,7 @@ def e1(bilingual=False):
     masked = b.definition_en.map(lambda t: DOSHA_MASK.sub(" ", t))
     X = np.asarray(masked.tolist(), dtype=object)
     print(f"[E1b] dosha from masked symptom text: n={len(b)} classes={b.dosha_label.value_counts().to_dict()}")
-    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(b.dosha_label), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
+    res, oof, cls, yi = evaluate_cv(text_zoo(), X, lab(b.dosha_label), sample_ids=lab(b.disease_id), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
     plot_bars(res, "macro_f1", "E1b  doṣa involvement from symptom text (doṣa words masked)", FIG / "E1b_models_macroF1.png")
     plot_confusion(yi, oof[res.iloc[0].model].argmax(1), list(cls), f"E1b confusion ({res.iloc[0].model})", FIG / "E1b_confusion.png")
     save_result("E1b_dosha_from_masked_text", res, dict(n=len(b), class_counts=b.dosha_label.value_counts().to_dict(),
@@ -113,8 +114,8 @@ def e1c():
         Xe = np.asarray((h.name_en + " . " + h.definition_en).tolist(), dtype=object)
         print(f"[E1c] bilingual: n={len(h)}")
         zoo = {k: v for k, v in text_zoo().items() if k in ("Logistic Regression", "Linear SVM (calibrated)", "Multinomial Naive Bayes", "LightGBM", "Dummy (majority)")}
-        rh, *_ = evaluate_cv(zoo, Xh, lab(h.system_code), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
-        re_, *_ = evaluate_cv(zoo, Xe, lab(h.system_code), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
+        rh, *_ = evaluate_cv(zoo, Xh, lab(h.system_code), sample_ids=lab(h.disease_id), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
+        re_, *_ = evaluate_cv(zoo, Xe, lab(h.system_code), sample_ids=lab(h.disease_id), n_splits=5, n_repeats=1, preprocessor=text_preprocessor())
         rh["language"], re_["language"] = "Hindi (MT)", "English"
         both = pd.concat([re_, rh])
         save_result("E1c_bilingual_system_from_text", both, dict(n=len(h), data_origin="real text; Hindi = NLLB machine translation"))
@@ -144,14 +145,14 @@ def herb_matrix(h, use=("rasa", "guna", "vipaka", "virya", "karma", "parts", "fa
     if "dosha_aggravate" in use: multi("aggravate", h.dosha_aggravate)
     return pd.DataFrame(cols, index=h.index)
 
-def multilabel_eval(X, Y, labels, zoo_names, title, fname, baseline=None):
+def multilabel_eval(X, Y, labels, zoo_names, title, fname, baseline=None, preprocessor=None):
     zoo = {k: v for k, v in tabular_zoo(2).items() if k in zoo_names}
     rows = []
     for lab in labels:
         y = Y[lab].values
         if y.sum() < 10 or (1 - y).sum() < 10:
             continue
-        res, oof, cls, yi = evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, topk=())
+        res, oof, cls, yi = evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, topk=(), preprocessor=preprocessor)
         res["label"] = lab
         if baseline is not None and lab in baseline:
             bp = baseline[lab]
@@ -172,10 +173,11 @@ def e2():
     h = h[(h.rasa != "") & (h.virya != "") & (~h.virya.str.contains(";"))].copy()
     out = {}
     # ---- E2a vīrya
-    X = herb_matrix(h, use=("rasa", "guna", "vipaka", "karma", "parts", "family")).values.astype(float)
+    X = h.copy()
+    pre = HerbFeatures(use=("rasa", "guna", "vipaka", "karma", "parts", "family"))
     y = lab(h.virya)
     print(f"[E2a] virya: n={len(h)} inputs={len(X)} classes={Counter(y)}")
-    res, oof, cls, yi = evaluate_cv(tabular_zoo(2), X, y, n_splits=5, n_repeats=3, topk=())
+    res, oof, cls, yi = evaluate_cv(tabular_zoo(2), X, y, n_splits=5, n_repeats=3, topk=(), preprocessor=pre)
     # classical rule baselines
     def rasa_rule(r):
         rs = set(r.split("; ")); hot, cold = len(rs & HOT_RASA), len(rs & COLD_RASA)
@@ -192,14 +194,15 @@ def e2():
     best = [m for m in res.model if m in oof][0]
     # explainability: permutation importance for best tree/linear model on full data
     feat = herb_matrix(h, use=("rasa", "guna", "vipaka", "karma", "parts", "family")).columns.tolist()
-    est = clone(tabular_zoo(2)["Logistic Regression"]).fit(X, np.searchsorted(cls, y))
+    est = clone(tabular_zoo(2)["Logistic Regression"]).fit(herb_matrix(h, use=("rasa", "guna", "vipaka", "karma", "parts", "family")).values.astype(float), np.searchsorted(cls, y))
     coef = sorted(zip(feat, est.coef_[0]), key=lambda t: -abs(t[1]))[:15]
     save_result("E2a_virya", res, dict(n=len(h), features=feat, class_counts=dict(Counter(y)), best_model=best,
                 logistic_top_coefficients={k: float(v) for k, v in coef},
                 interpretation="positive coefficient -> Ushna (classes sorted: %s)" % list(cls), data_origin="real (Amidha S5)"))
     out["E2a"] = res.iloc[0].to_dict()
     # ---- E2b doṣa-pacifying profile
-    X = herb_matrix(h, use=("rasa", "guna", "vipaka", "virya", "karma", "parts", "family")).values.astype(float)
+    X = h.copy()
+    pre = HerbFeatures(use=("rasa", "guna", "vipaka", "virya", "karma", "parts", "family"))
     Y = pd.DataFrame({d: h.dosha_pacify.map(lambda s, d=d: int(d in s.split("; "))) for d in ["Vata", "Pitta", "Kapha"]})
     # classical: uṣṇa vīrya pacifies vāta & kapha; śīta vīrya pacifies pitta
     base = {"Vata": (h.virya == "Ushna").astype(int).values, "Kapha": (h.virya == "Ushna").astype(int).values,
@@ -208,21 +211,22 @@ def e2():
     names = ["Logistic Regression", "Naive Bayes", "k-Nearest Neighbours", "SVM (RBF)", "Decision Tree", "Random Forest",
              "Extra Trees", "Gradient Boosting (HistGB)", "XGBoost", "LightGBM", "MLP (neural net)", "Dummy (majority)"]
     allr, summ = multilabel_eval(X, Y, ["Vata", "Pitta", "Kapha"], names,
-                                 "E2b  doṣa-pacifying profile (mean over V/P/K, CV)", "E2b", baseline=base)
+                                 "E2b  doṣa-pacifying profile (mean over V/P/K, CV)", "E2b", baseline=base, preprocessor=pre)
     allr.to_csv(REP / "E2b_dosha_pacify_per_label.csv", index=False)
     (REP / "E2b_dosha_pacify.json").write_text(json.dumps({"summary": summ.to_dict(orient="records"),
                                                            "prevalence": Y.mean().to_dict(), "n": len(h),
                                                            "data_origin": "real (Amidha S5)"}, indent=2, default=float))
     out["E2b"] = summ.iloc[0].to_dict()
     # ---- E2c indications from pharmacodynamic properties only (no karma -> no lexical leakage)
-    X = herb_matrix(h, use=("rasa", "guna", "vipaka", "virya", "dosha_pacify", "dosha_aggravate", "parts")).values.astype(float)
+    X = h.copy()
+    pre = HerbFeatures(use=("rasa", "guna", "vipaka", "virya", "dosha_pacify", "dosha_aggravate", "parts"))
     ind = Counter(x for s in h.indications_sa_ascii for x in s.split("; ") if x)
     top = [k for k, n in ind.most_common(12)]
     Y = pd.DataFrame({k: h.indications_sa_ascii.map(lambda s, k=k: int(k in s.split("; "))) for k in top})
     print(f"[E2c] indications multi-label: n={len(h)} labels={top}")
     allr, summ = multilabel_eval(X, Y, top, ["Logistic Regression", "Random Forest", "LightGBM", "k-Nearest Neighbours",
                                             "MLP (neural net)", "XGBoost", "Dummy (majority)"],
-                                 "E2c  indication prediction from rasa/guṇa/vīrya/vipāka/doṣa (mean over 12 labels)", "E2c")
+                                 "E2c  indication prediction from rasa/guṇa/vīrya/vipāka/doṣa (mean over 12 labels)", "E2c", preprocessor=pre)
     allr.to_csv(REP / "E2c_indications_per_label.csv", index=False)
     (REP / "E2c_indications.json").write_text(json.dumps({"summary": summ.to_dict(orient="records"), "labels": top,
                                                           "label_prevalence": Y.mean().to_dict(), "n": len(h),
@@ -412,7 +416,7 @@ def e4():
     df, y = df.iloc[development].copy(), y[development]
     X = df[items + ["sex", "age", "bmi"]]
     print(f"[E4] prakriti: n={len(df)} inputs={len(X)} classes={Counter(y)}")
-    res, oof, cls, yi = evaluate_cv(tabular_zoo(len(set(y)), binary_features=True), X, y, n_splits=5, n_repeats=2, preprocessor=pre)
+    res, oof, cls, yi = evaluate_cv(tabular_zoo(len(set(y)), binary_features=True), X, y, n_splits=5, n_repeats=2, preprocessor=pre, sample_ids=lab(df.person_id))
     # classical questionnaire scoring = share of V/P/K answers -> same labelling rule
     cnt = np.stack([(df[items] == d).sum(1).values for d in "VPK"], 1).astype(float)
     sh = cnt / cnt.sum(1, keepdims=True)
