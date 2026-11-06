@@ -83,7 +83,7 @@
   "resources": [
     {
       "name": "case_report_entities",
-      "path": "data/processed/case_report_entities.csv",
+      "path": "../data/processed/case_report_entities.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -109,7 +109,7 @@
     },
     {
       "name": "case_report_links",
-      "path": "data/processed/case_report_links.csv",
+      "path": "../data/processed/case_report_links.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -159,7 +159,7 @@
     },
     {
       "name": "case_report_symptoms_semantic",
-      "path": "data/processed/case_report_symptoms_semantic.csv",
+      "path": "../data/processed/case_report_symptoms_semantic.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -185,7 +185,7 @@
     },
     {
       "name": "case_reports",
-      "path": "data/processed/case_reports.csv",
+      "path": "../data/processed/case_reports.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -308,7 +308,7 @@
     },
     {
       "name": "clinical_trials",
-      "path": "data/processed/clinical_trials.csv",
+      "path": "../data/processed/clinical_trials.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -366,7 +366,7 @@
     },
     {
       "name": "concept_members",
-      "path": "data/processed/concept_members.csv",
+      "path": "../data/processed/concept_members.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -404,7 +404,7 @@
     },
     {
       "name": "controlled_vocabulary",
-      "path": "data/processed/controlled_vocabulary.csv",
+      "path": "../data/processed/controlled_vocabulary.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -442,7 +442,7 @@
     },
     {
       "name": "diagnostic_methods",
-      "path": "data/processed/diagnostic_methods.csv",
+      "path": "../data/processed/diagnostic_methods.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -537,7 +537,7 @@
     },
     {
       "name": "diet_lifestyle",
-      "path": "data/processed/diet_lifestyle.csv",
+      "path": "../data/processed/diet_lifestyle.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -648,7 +648,7 @@
     },
     {
       "name": "disease_symptom",
-      "path": "data/processed/disease_symptom.csv",
+      "path": "../data/processed/disease_symptom.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -686,7 +686,7 @@
     },
     {
       "name": "disease_symptom_from_cases",
-      "path": "data/processed/disease_symptom_from_cases.csv",
+      "path": "../data/processed/disease_symptom_from_cases.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -724,7 +724,7 @@
     },
     {
       "name": "disease_symptom_inferred",
-      "path": "data/processed/disease_symptom_inferred.csv",
+      "path": "../data/processed/disease_symptom_inferred.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -754,7 +754,7 @@
     },
     {
       "name": "disease_symptom_who",
-      "path": "data/processed/disease_symptom_who.csv",
+      "path": "../data/processed/disease_symptom_who.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -792,7 +792,7 @@
     },
     {
       "name": "diseases",
-      "path": "data/processed/diseases.csv",
+      "path": "../data/processed/diseases.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -999,7 +999,7 @@
     },
     {
       "name": "dosha_suggestions",
-      "path": "data/processed/dosha_suggestions.csv",
+      "path": "../data/processed/dosha_suggestions.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1041,7 +1041,7 @@
     },
     {
       "name": "evidence_queries",
-      "path": "data/processed/evidence_queries.csv",
+      "path": "../data/processed/evidence_queries.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1075,7 +1075,7 @@
     },
     {
       "name": "formulation_indication_evidence",
-      "path": "data/processed/formulation_indication_evidence.csv",
+      "path": "../data/processed/formulation_indication_evidence.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1149,7 +1149,7 @@
     },
     {
       "name": "formulation_indications",
-      "path": "data/processed/formulation_indications.csv",
+      "path": "../data/processed/formulation_indications.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1171,7 +1171,7 @@
     },
     {
       "name": "formulation_ingredients",
-      "path": "data/processed/formulation_ingredients.csv",
+      "path": "../data/processed/formulation_ingredients.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1209,7 +1209,7 @@
     },
     {
       "name": "formulations",
-      "path": "data/processed/formulations.csv",
+      "path": "../data/processed/formulations.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1336,7 +1336,7 @@
     },
     {
       "name": "headword_concepts",
-      "path": "data/processed/headword_concepts.csv",
+      "path": "../data/processed/headword_concepts.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1383,7 +1383,7 @@
     },
     {
       "name": "herb_ethnobotany",
-      "path": "data/processed/herb_ethnobotany.csv",
+      "path": "../data/processed/herb_ethnobotany.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1417,7 +1417,7 @@
     },
     {
       "name": "herb_group_members",
-      "path": "data/processed/herb_group_members.csv",
+      "path": "../data/processed/herb_group_members.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1455,7 +1455,7 @@
     },
     {
       "name": "herb_groups",
-      "path": "data/processed/herb_groups.csv",
+      "path": "../data/processed/herb_groups.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1510,7 +1510,7 @@
     },
     {
       "name": "herb_image_datasets",
-      "path": "data/processed/herb_image_datasets.csv",
+      "path": "../data/processed/herb_image_datasets.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1564,7 +1564,7 @@
     },
     {
       "name": "herb_indication",
-      "path": "data/processed/herb_indication.csv",
+      "path": "../data/processed/herb_indication.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1606,7 +1606,7 @@
     },
     {
       "name": "herb_indication_evidence",
-      "path": "data/processed/herb_indication_evidence.csv",
+      "path": "../data/processed/herb_indication_evidence.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1680,7 +1680,7 @@
     },
     {
       "name": "herb_karma",
-      "path": "data/processed/herb_karma.csv",
+      "path": "../data/processed/herb_karma.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1722,7 +1722,7 @@
     },
     {
       "name": "herb_names",
-      "path": "data/processed/herb_names.csv",
+      "path": "../data/processed/herb_names.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1748,7 +1748,7 @@
     },
     {
       "name": "herb_phytochemicals",
-      "path": "data/processed/herb_phytochemicals.csv",
+      "path": "../data/processed/herb_phytochemicals.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -1794,7 +1794,7 @@
     },
     {
       "name": "herbs",
-      "path": "data/processed/herbs.csv",
+      "path": "../data/processed/herbs.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2021,7 +2021,7 @@
     },
     {
       "name": "multiscript_names",
-      "path": "data/processed/multiscript_names.csv",
+      "path": "../data/processed/multiscript_names.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2079,7 +2079,7 @@
     },
     {
       "name": "pharmaceutics",
-      "path": "data/processed/pharmaceutics.csv",
+      "path": "../data/processed/pharmaceutics.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2190,7 +2190,7 @@
     },
     {
       "name": "phytochemical_activities",
-      "path": "data/processed/phytochemical_activities.csv",
+      "path": "../data/processed/phytochemical_activities.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2220,7 +2220,7 @@
     },
     {
       "name": "phytochemicals",
-      "path": "data/processed/phytochemicals.csv",
+      "path": "../data/processed/phytochemicals.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2283,7 +2283,7 @@
     },
     {
       "name": "prakriti_synthetic_cohort",
-      "path": "data/processed/prakriti_synthetic_cohort.csv",
+      "path": "../data/processed/prakriti_synthetic_cohort.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2425,7 +2425,7 @@
     },
     {
       "name": "qa_pairs",
-      "path": "data/processed/qa_pairs.csv",
+      "path": "../data/processed/qa_pairs.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2463,7 +2463,7 @@
     },
     {
       "name": "sources",
-      "path": "data/processed/sources.csv",
+      "path": "../data/processed/sources.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2494,7 +2494,7 @@
     },
     {
       "name": "symptoms",
-      "path": "data/processed/symptoms.csv",
+      "path": "../data/processed/symptoms.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2561,7 +2561,7 @@
     },
     {
       "name": "terminology",
-      "path": "data/processed/terminology.csv",
+      "path": "../data/processed/terminology.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2672,7 +2672,7 @@
     },
     {
       "name": "therapies",
-      "path": "data/processed/therapies.csv",
+      "path": "../data/processed/therapies.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2787,7 +2787,7 @@
     },
     {
       "name": "therapy_disease",
-      "path": "data/processed/therapy_disease.csv",
+      "path": "../data/processed/therapy_disease.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {
@@ -2841,7 +2841,7 @@
     },
     {
       "name": "therapy_evidence",
-      "path": "data/processed/therapy_evidence.csv",
+      "path": "../data/processed/therapy_evidence.csv",
       "format": "csv",
       "encoding": "utf-8",
       "schema": {

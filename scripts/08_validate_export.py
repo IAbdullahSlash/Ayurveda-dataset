@@ -8,11 +8,12 @@ Stage 08 - Post-processing: validation, bilingual QA corpus, exports.
   * relational SQLite database with unique indexes and pre-export reference validation  -> release/ayurkb.sqlite
   * Frictionless Data package descriptor  -> release/datapackage.json
 """
-import json, re, sqlite3, sys, unicodedata
+import json, re, sqlite3, sys, unicodedata, tempfile, shutil
 from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.export_transaction import publish, export_lock
 from lib.provenance import write_sidecar, build_index, metadata
 from lib.indic import iast_to_deva, deva_to_iast, has_devanagari
 
@@ -257,8 +258,7 @@ def datapackage(t):
            "resources": res}
     (REL / "datapackage.json").write_text(json.dumps(pkg, indent=2, ensure_ascii=False))
 
-def main():
-    rep, t = checks()
+def write_exports(rep, t):
     if rep["failures"]:
         raise ValueError("Export blocked: " + "; ".join(rep["failures"]))
     q = qa_pairs(t)
@@ -276,6 +276,33 @@ def main():
     (ROOT / "reports/data_quality_report.json").write_text(json.dumps(rep, indent=2, ensure_ascii=False, default=str))
     print(json.dumps({k: v for k, v in rep.items() if k not in ("tables",) and not k.startswith(("pk:", "fk:"))}, indent=2, ensure_ascii=False, default=str))
     print("integrity:", {k: v for k, v in rep.items() if k.startswith(("pk:", "fk:")) and (v.get("orphans") or v.get("duplicates"))} or "all keys OK")
+
+def main():
+    global ROOT, P, REL
+    original = ROOT, P, REL
+    # Serialize builders; readers use the immutable snapshot pointer.
+    with export_lock(ROOT / "release/.export.lock"):
+        rep, tables = checks()
+        if rep["failures"]:
+            raise ValueError("Export blocked: " + "; ".join(rep["failures"]))
+        with tempfile.TemporaryDirectory(prefix=".export-stage-", dir=original[0]) as directory:
+            stage = Path(directory)
+            try:
+                ROOT, P, REL = stage, stage / "data/processed", stage / "release"
+                P.mkdir(parents=True)
+                REL.mkdir()
+                (stage / "reports").mkdir()
+                # Include the descriptor's resources in the immutable snapshot.
+                for source in original[1].glob("*.csv"):
+                    shutil.copy2(source, P / source.name)
+                write_exports(rep, tables)
+                with sqlite3.connect(REL / "ayurkb.sqlite") as connection:
+                    if connection.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
+                        raise ValueError("SQLite integrity check failed")
+                paths = [str(path.relative_to(stage)) for path in stage.rglob("*") if path.is_file()]
+            finally:
+                ROOT, P, REL = original
+            publish(ROOT, stage, paths)
 
 if __name__ == "__main__":
     main()

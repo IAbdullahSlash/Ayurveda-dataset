@@ -1,18 +1,32 @@
 #!/usr/bin/env bash
-# Package the AyurKB release. Excludes downloaded third-party model weights (NLLB-200, opus-mt, e5:
-# ~3 GB, fetchable from Hugging Face), Python caches and cached article texts.
+# Package only a validated export. Publish the archive by atomic rename.
 set -euo pipefail
 cd "$(dirname "$0")/.."
+PYTHON_BIN=${PYTHON_BIN:-python3}
+"$PYTHON_BIN" - <<'PY'
+import hashlib,json
+from pathlib import Path
+manifest=json.loads(Path('release/current_export.json').read_text())
+for name, expected in manifest['sha256'].items():
+    with open(name,'rb') as stream:
+        if hashlib.file_digest(stream,'sha256').hexdigest()!=expected:
+            raise SystemExit('Export changed since validation: '+name+'; rerun stage 08')
+PY
 OUT=release/AyurKB_v1.2.zip
-rm -f "$OUT"
-zip -qr "$OUT" README.md run_all.sh docs curation scripts tests examples \
-  data/raw data/processed data/interim/cache \
-  release/ayurkb.sqlite release/ayurkb_corpus.jsonl release/datapackage.json release/report.html release/embeddings \
-  release/tools review reports models/trained \
-  $( [ -d release/chembl ] && echo release/chembl ) \
-  -x "*/__pycache__/*" "*.pyc" \
-     "data/interim/cache/epmc_fulltext/*" "data/interim/cache/epmc_case_reports.json"
-# Europe PMC full texts and abstracts are third-party articles: they stay out of the package
-# (stage 14 re-downloads them); only identifiers and extracted KB entities are distributed.
-ls -la "$OUT"
-unzip -l "$OUT" | tail -1
+TEMP_ARCHIVE=$(mktemp release/.AyurKB-package-XXXXXX.zip)
+rm "$TEMP_ARCHIVE"
+trap 'rm -f "$TEMP_ARCHIVE"' EXIT
+inputs=(README.md requirements.txt CITATION.cff run_all.sh docs curation scripts tests examples
+  data/raw data/processed data/interim/cache
+  release/ayurkb.sqlite release/ayurkb_corpus.jsonl release/ayurkb_provenance.jsonl
+  release/datapackage.json release/report.html release/tools review reports models/trained)
+for optional in release/embeddings release/chembl; do
+  if [ -d "$optional" ]; then inputs+=("$optional"); fi
+done
+zip -qr "$TEMP_ARCHIVE" "${inputs[@]}" -x '*/__pycache__/*' '*.pyc' \
+  'data/interim/cache/epmc_fulltext/*' 'data/interim/cache/epmc_case_reports.json' \
+  'reports/revision_full/MOD/*' 'reports/revision_full/P/*' 'reports/revision_validation/*'
+unzip -tq "$TEMP_ARCHIVE"
+mv "$TEMP_ARCHIVE" "$OUT"
+# Processed tables include extracted clauses; see the distribution inventory and source terms.
+ls -lh "$OUT"
