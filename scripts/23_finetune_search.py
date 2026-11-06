@@ -156,6 +156,7 @@ def main(epochs=1):
     (REP / "E5b_finetuned_retrieval.json").write_text(json.dumps({
         "candidate_scope": "complete eligible corpus", "query_scope": "800 record-derived queries per task; not independently authored",
         "test_ids": {name:task["ids"] for name,task in test.items()},
+        "candidate_counts": {name:len(task["ids"]) for name,task in e5_samples(limit=None).items()},
         "base": base, "finetuned": tuned, "training_pairs": len(pairs), "pair_kinds": kinds, "epochs": epochs,
         "train_seconds": round(time.time() - t0), "leakage_guard": "test IDs, transitive concept members, exact/near-duplicate descriptions and test headword skeletons excluded; semantic paraphrase overlap remains unmeasured",
         "model_dir": str(OUTM.relative_to(ROOT))}, indent=2))

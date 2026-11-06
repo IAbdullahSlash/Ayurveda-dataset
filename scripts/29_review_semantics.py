@@ -4,6 +4,7 @@ import importlib
 import json
 from pathlib import Path
 import pandas as pd
+from lib.review import write_review_csv
 ROOT = Path(__file__).resolve().parents[1]
 
 def main():
@@ -21,13 +22,13 @@ def main():
                 source_definition=row.long_definition, released_phrases=json.dumps(old,ensure_ascii=False),
                 candidate_phrases=json.dumps(new,ensure_ascii=False),
                 review_status='pending', reviewer_1='', reviewer_2='', adjudicated_phrases='',reference=''))
-    pd.DataFrame(changes).to_csv(out/'symptom_extraction_changes.csv',index=False)
+    write_review_csv(pd.DataFrame(changes),out/'symptom_extraction_changes.csv')
     # Stratify existing edges by extraction method, retain the source context.
     sampled=pd.concat([group.sample(min(50,len(group)),random_state=42)
                        for _, group in edges.groupby('link_method')],ignore_index=True)
     sampled=sampled.merge(diseases[['disease_id','long_definition']],on='disease_id',validate='many_to_one')
     sampled['verdict']='';sampled['reviewer']='';sampled['error_category']=''
-    sampled.to_csv(out/'symptom_edge_review_sample.csv',index=False)
+    write_review_csv(sampled,out/'symptom_edge_review_sample.csv')
     (out/'semantic_review_status.json').write_text(json.dumps({
         'changed_disorders':len(changes),'sampled_edges':len(sampled),'sampling_seed':42,
         'precision':None,'recall':None,'reason':'No independently adjudicated gold annotations supplied',
