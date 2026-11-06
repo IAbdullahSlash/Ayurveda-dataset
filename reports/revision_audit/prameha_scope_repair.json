@@ -1,0 +1,34 @@
+{
+  "source_definition": "It is characterised by frequent and excessive urination. This may be explained by: (a) Vitiation of kapha along with watery part of the primary structural components of the body.",
+  "previous_edges": [
+    {
+      "disease_id": "AYD-01110",
+      "symptom_id": "SYM-N00779",
+      "mention_rank": 1,
+      "mention_sa_iast": "",
+      "mention_en": "frequent",
+      "link_method": "new_from_namaste",
+      "source_id": "S1"
+    },
+    {
+      "disease_id": "AYD-01110",
+      "symptom_id": "SYM-N00780",
+      "mention_rank": 2,
+      "mention_sa_iast": "",
+      "mention_en": "excessive urination",
+      "link_method": "new_from_namaste",
+      "source_id": "S1"
+    }
+  ],
+  "replacement": {
+    "disease_id": "AYD-01110",
+    "symptom_id": "SYM-N01682",
+    "mention_rank": 1,
+    "mention_sa_iast": "",
+    "mention_en": "frequent and excessive urination",
+    "link_method": "source_coordination_preserved_unreviewed",
+    "source_id": "S1"
+  },
+  "clinical_adjudication": false,
+  "retired_ids_preserved": true
+}

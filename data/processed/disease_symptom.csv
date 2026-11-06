@@ -4663,8 +4663,6 @@ AYD-01109,SYM-09011,2,,oiliness of the body,english_gloss,S1
 AYD-01109,SYM-03585,3,,dryness of the palate,english_gloss,S1
 AYD-01109,SYM-N00778,4,,non-pitting oedema,new_from_namaste,S1
 AYD-01109,SYM-03666,5,,thirst,english_gloss,S1
-AYD-01110,SYM-N00779,1,,frequent,new_from_namaste,S1
-AYD-01110,SYM-N00780,2,,excessive urination,new_from_namaste,S1
 AYD-01131,SYM-N00781,1,,passing of blood in the urine,new_from_namaste,S1
 AYD-01139,SYM-01133,1,,Increased thirst,english_gloss,S1
 AYD-01139,SYM-N00782,2,,increased urination,new_from_namaste,S1
@@ -11883,3 +11881,4 @@ AYD-02986,SYM-N01680,5,,discharge of blood,new_from_namaste,S1
 AYD-02986,SYM-N00150,6,,urine,new_from_namaste,S1
 AYD-02986,SYM-N01681,7,,pleurisy,new_from_namaste,S1
 AYD-02986,SYM-N01666,8,,like,new_from_namaste,S1
+AYD-01110,SYM-N01682,1,,frequent and excessive urination,source_coordination_preserved_unreviewed,S1

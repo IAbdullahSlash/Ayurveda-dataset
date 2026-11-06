@@ -10177,8 +10177,8 @@ SYM-N00775,S1,,,,,,heaviness in the legs,1,Govt. of India public standard; attri
 SYM-N00776,S1,,,,,,skin discolouration,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,त्वचा का रंग बदलने,,nllb200_600m_glossary_injected
 SYM-N00777,S1,,,,,,muscle cramps,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,मांसपेशियों में संकोचन,,nllb200_600m_glossary_injected
 SYM-N00778,S1,,,,,,non-pitting oedema,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,नॉन-पिटिंग शोथ (सूजन),,nllb200_600m_glossary_injected
-SYM-N00779,S1,,,,,,frequent,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,अक्सर,,nllb200_600m_glossary_injected
-SYM-N00780,S1,,,,,,excessive urination,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,अतिशयोक्ति (पेशाब),terms_lost,nllb200_600m_glossary_injected_greedy
+SYM-N00779,S1,,,,,,frequent,0,Govt. of India public standard; attribution; no explicit open licence,authoritative,अक्सर,,nllb200_600m_glossary_injected
+SYM-N00780,S1,,,,,,excessive urination,0,Govt. of India public standard; attribution; no explicit open licence,authoritative,अतिशयोक्ति (पेशाब),terms_lost,nllb200_600m_glossary_injected_greedy
 SYM-N00781,S1,,,,,,passing of blood in the urine,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,मूत्र में रक्त का प्रवाह,,nllb200_600m_glossary_injected
 SYM-N00782,S1,,,,,,increased urination,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,मूत्र प्रवृत्ति में वृद्धि (पेशाब),,nllb200_600m_glossary_injected_greedy
 SYM-N00783,S1,,,,,,sweet urine,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,मीठा मूत्र,,nllb200_600m_glossary_injected
@@ -11080,3 +11080,4 @@ SYM-N01678,S1,,,,,,edema in both of the lungs,1,Govt. of India public standard; 
 SYM-N01679,S1,,,,,,dropsy,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,धूल,,nllb200_600m_glossary_injected
 SYM-N01680,S1,,,,,,discharge of blood,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,रक्त का स्राव,,nllb200_600m_glossary_injected_greedy
 SYM-N01681,S1,,,,,,pleurisy,1,Govt. of India public standard; attribution; no explicit open licence,authoritative,धनुष,,nllb200_600m_glossary_injected
+SYM-N01682,S1,,,,,,frequent and excessive urination,1,Govt. of India public standard; attribution; no explicit open licence,source-derived coordination repair; not clinically adjudicated,बार-बार और अत्यधिक पेशाब आना,expert_review_pending,ai_postedit_unreviewed
