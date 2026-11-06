@@ -66,6 +66,12 @@ def metadata(table, row, index, licences):
                     'quality_flags':row.get(field + '_qe_flags','')}
                 sources.add(origin)
     if table == 'herbs':
+        for field in ['rasa','guna','virya','vipaka','karma_actions','dosha_pacify','dosha_aggravate','parts_used','description_en']:
+            if row.get(field) and row.get('amidha_ids'):
+                fields[field] = {'source_ids':['S5'],
+                    'source_record_ids':[str(row['amidha_ids'])], 'method':'Amidha property extraction; variants retained'}
+        if row.get('name_hi_common') and row.get('wikidata_qid'):
+            fields['name_hi_common']={'source_ids':['S6'],'source_record_ids':[str(row['wikidata_qid'])]}
         for field in ['safety_class','safety_hazard_en','safety_hazard_hi','requires_shodhana']:
             fields[field] = {'source_ids':['S0'] if row.get(field) else [],
                 'source_record_ids':[row.get('herb_id','')],
