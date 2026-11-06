@@ -65,6 +65,13 @@ def metadata(table, row, index, licences):
                     'method':row.get(field + '_method', row.get('definition_source','')),
                     'quality_flags':row.get(field + '_qe_flags','')}
                 sources.add(origin)
+    if table == 'herbs':
+        for field in ['safety_class','safety_hazard_en','safety_hazard_hi','requires_shodhana']:
+            fields[field] = {'source_ids':['S0'] if row.get(field) else [],
+                'source_record_ids':[row.get('herb_id','')],
+                'review_status':'not_independently_adjudicated' if row.get('safety_class') else 'unassessed'}
+        if row.get('safety_class'):
+            sources.add('S0')
     for field in row:
         if field.endswith('_hi') and row.get(field) and field not in fields:
             fields[field] = {'source_ids':sorted(sources), 'attribution':'record_dependency',

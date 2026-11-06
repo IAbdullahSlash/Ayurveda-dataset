@@ -31,6 +31,11 @@ rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=Fal
 SHODHANA = {"vata": ("basti (medicated enema)", "बस्ति"), "pitta": ("virecana (therapeutic purgation)", "विरेचन"),
             "kapha": ("vamana (therapeutic emesis)", "वमन")}
 
+def safety_notice(classification, hazard):
+    if not classification:
+        return " | safety: unassessed (missing flags do not establish safety)"
+    return f"  ⚠ {classification}: {hazard} | safety review: not independently adjudicated"
+
 def load():
     kb = {n: rd(n) for n in ["symptoms", "diseases", "disease_symptom", "herb_indication", "herbs",
                              "formulation_indications", "formulations"]}
@@ -39,7 +44,7 @@ def load():
         kb[n] = rd(n) if (P / f"{n}.csv").exists() else pd.DataFrame()
     return kb
 
-TIER = {"clinical_evidence": "clinical studies", "literature_supported": "literature", "sparse": "sparse literature",
+TIER = {"clinical_evidence": "clinical-publication matches (not efficacy assessed)", "literature_supported": "literature co-mentions", "sparse": "sparse literature",
         "no_literature": "no literature found", "not_queryable": "not searchable"}
 
 def as_int(v):
@@ -200,7 +205,7 @@ def main():
         print("   Herbs recorded for this condition (sorted by literature evidence) / औषधियाँ:")
         for h in hl:
             x = herbs.loc[h]
-            warn = f"  ⚠ {x.safety_class}: {x.safety_hazard_en}" if x.safety_class else ""
+            warn = safety_notice(x.safety_class, x.safety_hazard_en)
             e = best.get(h)
             evs = ""
             if e is not None:
