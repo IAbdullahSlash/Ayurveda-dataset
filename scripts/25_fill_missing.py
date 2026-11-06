@@ -27,6 +27,9 @@ cr = import_module("14_case_reports")
 from lib.indic import iast_to_deva, iso_to_iast
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline, FeatureUnion
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.metrics import f1_score, accuracy_score
 
@@ -297,14 +300,15 @@ def main(mt_only=False):
     vc = lab.dosha_label.value_counts(); lab = lab[lab.dosha_label.isin(vc[vc >= 15].index)]
     vec_w = TfidfVectorizer(ngram_range=(1, 2), min_df=2, sublinear_tf=True)
     vec_c = TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 5), min_df=3, sublinear_tf=True)
-    Xl = sparse.hstack([vec_w.fit_transform(txt[lab.index]), vec_c.fit_transform(txt[lab.index])]).tocsr()
+    Xl = np.asarray(txt[lab.index].tolist(), dtype=object)
     y = np.asarray(lab.dosha_label.astype(str).tolist(), dtype=object)     # pandas 3 Arrow strings -> numpy
-    clf = LogisticRegression(max_iter=4000, C=8.0, class_weight="balanced")
+    clf = Pipeline([("features", FeatureUnion([("word", vec_w), ("character", vec_c)])),
+                    ("classifier", LogisticRegression(max_iter=4000, C=8.0, class_weight="balanced"))])
     oof = cross_val_predict(clf, Xl, y, cv=StratifiedKFold(5, shuffle=True, random_state=SEED))
     cv_f1, cv_acc = f1_score(y, oof, average="macro"), accuracy_score(y, oof)
     clf.fit(Xl, y)
     tgt = D[(D.dosha_label == "unspecified") & (D.definition_en.str.len() >= 30)]
-    Xt = sparse.hstack([vec_w.transform(txt[tgt.index]), vec_c.transform(txt[tgt.index])]).tocsr()
+    Xt = np.asarray(txt[tgt.index].tolist(), dtype=object)
     pr = clf.predict_proba(Xt)
     o = np.argsort(-pr, axis=1)
     sug = pd.DataFrame(dict(disease_id=tgt.disease_id.values, term_iast=tgt.term_iast.values,
@@ -329,18 +333,22 @@ def main(mt_only=False):
             if a in ai and h in hidx:
                 F[hidx[h], ai[a]] += 1
     F = np.log1p(F)
-    fam = pd.get_dummies(H.family.where(H.family.map(H.family.value_counts()) >= 3, "other")).values.astype(float)
-    X = np.hstack([F, fam, (F.sum(1, keepdims=True) > 0)])
+    X = pd.DataFrame(F, columns=[f"activity_{i}" for i in range(F.shape[1])])
+    X["family"] = H.family.to_numpy()
+    X["has_chemistry"] = (F.sum(1) > 0).astype(float)
     known = (H.virya != "") & (~H.virya.str.contains(";"))
-    Xk, yk = X[known.values], np.asarray(H.virya[known].astype(str).tolist(), dtype=object)
-    rf = LogisticRegression(max_iter=3000, C=0.5, class_weight="balanced")
+    Xk, yk = X.loc[known.values], np.asarray(H.virya[known].astype(str).tolist(), dtype=object)
+    rf = Pipeline([("features", ColumnTransformer([
+        ("family", OneHotEncoder(handle_unknown="ignore", sparse_output=False), ["family"]),
+        ("chemistry", "passthrough", [c for c in X if c != "family"])])),
+        ("classifier", LogisticRegression(max_iter=3000, C=0.5, class_weight="balanced"))])
     oofv = cross_val_predict(rf, Xk, yk, cv=StratifiedKFold(5, shuffle=True, random_state=SEED))
     f1v = f1_score(yk, oofv, average="macro")
     rep["virya_from_family_and_chemistry"] = {"cv_macro_f1": round(f1v, 3), "n_train": int(known.sum())}
     if f1v >= 0.65:
         rf.fit(Xk, yk)
-        miss = H[(H.virya == "") & (X.sum(1) > 0)]
-        prv = rf.predict_proba(X[miss.index])
+        miss = H[(H.virya == "") & (F.sum(1) > 0)]
+        prv = rf.predict_proba(X.loc[miss.index])
         hs = pd.DataFrame(dict(herb_id=miss.herb_id.values, accepted_name=miss.accepted_name.values,
                                suggested_virya=rf.classes_[prv.argmax(1)], confidence=prv.max(1).round(3),
                                model=f"family + phytochemical activity profile, logistic regression (CV macro-F1 {f1v:.3f})",

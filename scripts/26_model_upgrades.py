@@ -92,8 +92,8 @@ def e1_plus(enc):
     out = {}
     lr = lambda: LogisticRegression(max_iter=4000, C=8.0, class_weight="balanced")
     def run(tag, texts, y):
-        Xe = normalize(enc.encode(texts, "passage: ")) * 3.0
-        frame = pd.DataFrame(Xe)
+        Xe = enc.encode(texts, "passage: ")
+        frame = pd.DataFrame(normalize(Xe) * 3.0)
         frame["text"] = texts
         embedding_columns = list(range(Xe.shape[1]))
         variants = [

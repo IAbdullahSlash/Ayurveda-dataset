@@ -1,0 +1,82 @@
+experiment,model,language,historical_macro_f1,revised_macro_f1,protocol_change,interpretation
+E1c_bilingual_system_from_text,Logistic Regression,English,0.8006322084189582,0.8049518295868439,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,Linear SVM (calibrated),English,0.7625072648945964,0.7952889083360776,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,LightGBM,English,0.7117706285413838,0.7453490127151728,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,Multinomial Naive Bayes,English,0.5192970311431039,0.5569680611949899,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,Dummy (majority),English,0.03376753390373087,0.03254467860982244,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,Logistic Regression,Hindi (MT),0.7254159065897858,0.7287042927255195,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,Linear SVM (calibrated),Hindi (MT),0.6837541741095079,0.7003985642341358,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,LightGBM,Hindi (MT),0.6398677903562817,0.6998048279738519,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,Multinomial Naive Bayes,Hindi (MT),0.4382115645031268,0.4714220784931917,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1c_bilingual_system_from_text,Dummy (majority),Hindi (MT),0.03376753390373087,0.03254467860982244,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2c_indications,LightGBM,,0.6044318008681066,0.6061922169806065,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2c_indications,XGBoost,,0.6020704831511691,0.6025847822011888,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2c_indications,Logistic Regression,,0.5922575987494688,0.5934001939759413,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2c_indications,Random Forest,,0.5890856953838269,0.5840322361464584,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2c_indications,k-Nearest Neighbours,,0.5653077638514535,0.5666770241071729,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2c_indications,MLP (neural net),,0.4928335054644004,0.48167868288894056,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2c_indications,Dummy (majority),,0.45266513350784393,0.45266513350784393,training-fold learned transforms,not a causal estimate of leakage magnitude
+E4_prakriti,Naive Bayes,,0.6531886467289796,0.6363102167547623,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,"Stacking Ensemble (LR,RF,SVM -> LR)",,0.633686286563871,0.6153043517402489,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Logistic Regression,,0.6337938007836794,0.60873401062339,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Classical questionnaire scoring (count V/P/K answers),,0.6179923553243859,0.6062938937549619,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,MLP (neural net),,0.6298677782411991,0.5996884081880807,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,SVM (RBF),,0.621710807975423,0.5989622141055542,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Soft-Voting Ensemble (LR+RF+LGBM),,0.6124211734030329,0.5970518223084121,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,XGBoost,,0.590584223817591,0.5624677972845589,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,LightGBM,,0.5659895430997073,0.5579162319691181,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Gradient Boosting (HistGB),,0.5620418423819509,0.5519505897620947,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Extra Trees,,0.4878187587334855,0.4810212273033853,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Random Forest,,0.4803167716485096,0.4680496154801844,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,k-Nearest Neighbours,,0.4454761610822617,0.4524380082425501,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Decision Tree,,0.4187769518401292,0.4053439688989515,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E4_prakriti,Dummy (majority),,0.052604892888832556,0.05262594266776386,development CV after holdout reservation,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,Logistic Regression,,0.7378193400931613,0.603753021756791,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,Linear SVM (calibrated),,0.7252292341410329,0.602106628040765,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,Complement Naive Bayes,,0.7041274305296996,0.5990499084289602,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,Multinomial Naive Bayes,,0.712953650790299,0.5935097353481273,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,MLP (neural net),,0.6424385807593902,0.5916427109168343,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,LightGBM,,0.659035836754802,0.5558642427953068,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,SGD (modified Huber),,0.6750840725724003,0.5478790601673263,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,Random Forest,,0.6718226234786338,0.5282593568948398,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,k-Nearest Neighbours (cosine),,0.6585546823582188,0.5200674809038323,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1b_dosha_from_masked_text,Dummy (majority),,0.14545021645021644,0.1119007468921059,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,SVM (RBF),,0.8570118881520107,0.8522322552780809,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Random Forest,,0.8477438045684328,0.8461785217109604,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Logistic Regression,,0.8488775484390936,0.8455099394400444,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Extra Trees,,0.8486337253806077,0.8386729636513949,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,LightGBM,,0.838341737223875,0.8371733349988176,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,XGBoost,,0.8375192237413249,0.8355258697516191,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Naive Bayes,,0.837333156332506,0.8336036326347966,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Gradient Boosting (HistGB),,0.8312747428112349,0.8312747428112349,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,k-Nearest Neighbours,,0.8272551008881602,0.829530463252986,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,MLP (neural net),,0.8120654116449821,0.7876396158877493,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Decision Tree,,0.7755866578276328,0.7745823454538706,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Classical rule (Ayurvedic theory),,0.7426486002063643,0.7426486002063643,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2b_dosha_pacify,Dummy (majority),,0.37581484341153715,0.37581484341153715,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,Logistic Regression,,0.8006322084189582,0.8107110160725133,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,SGD (modified Huber),,0.7801791886267516,0.7875960421049162,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,Linear SVM (calibrated),,0.7625072648945964,0.7820659653241814,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,LightGBM,,0.7117706285413838,0.7636201567991593,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,MLP (neural net),,0.6859930367985418,0.7161574493067093,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,k-Nearest Neighbours (cosine),,0.717431749985237,0.7141419547227255,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,Complement Naive Bayes,,0.7075840302510745,0.7113715034312273,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,Random Forest,,0.6179065058254509,0.669200948021276,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,Multinomial Naive Bayes,,0.5192970311431039,0.5488408483096655,training-fold learned transforms,not a causal estimate of leakage magnitude
+E1a_system_from_text,Dummy (majority),,0.03376753390373087,0.032635414869760224,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Extra Trees,,0.7967731284418471,0.7919082362161022,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Random Forest,,0.7918482556839465,0.7908014563784995,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Soft-Voting Ensemble (LR+RF+LGBM),,0.7890865792368109,0.7890599288037379,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,"Stacking Ensemble (LR,RF,SVM -> LR)",,0.7813481425573592,0.7802626128702871,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,LightGBM,,0.7803001658956116,0.78007885991355,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,SVM (RBF),,0.7715873267270169,0.7772694454410476,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Naive Bayes,,0.777932497786,0.776956583210781,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Logistic Regression,,0.7805458083291541,0.7747521531560752,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,XGBoost,,0.7693592614719851,0.7732821277230296,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,k-Nearest Neighbours,,0.7648046112215184,0.7678569004412277,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Classical rule: rasa majority (hot vs cold tastes),,0.7596584292922759,0.7596584292922759,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Gradient Boosting (HistGB),,0.7459113168539576,0.7459113168539576,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Decision Tree,,0.7157190852437192,0.7187092080561222,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,MLP (neural net),,0.7348199482483236,0.7105413092598326,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Classical rule: vipāka (madhura -> śīta),,0.6351809954751131,0.6351809954751131,training-fold learned transforms,not a causal estimate of leakage magnitude
+E2a_virya,Dummy (majority),,0.3447563756997719,0.3447563756997719,training-fold learned transforms,not a causal estimate of leakage magnitude

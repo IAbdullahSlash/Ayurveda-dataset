@@ -1,0 +1,24 @@
+{
+  "records": 1420,
+  "changed_labels": 0,
+  "dosha_validation": {
+    "suggested": 1420,
+    "cv_macro_f1_on_labelled": 0.785,
+    "cv_accuracy": 0.901,
+    "confidence>=0.6": 621,
+    "labels": {
+      "vata": 188,
+      "pitta": 115,
+      "kapha": 107,
+      "vata+pitta+kapha": 58,
+      "vata+pitta": 16
+    }
+  },
+  "virya_validation": {
+    "cv_macro_f1": 0.584,
+    "n_train": 344,
+    "suggested": 0,
+    "note": "below the 0.65 macro-F1 bar: no suggestions written"
+  },
+  "status": "unreviewed model suggestions; no authoritative labels changed"
+}

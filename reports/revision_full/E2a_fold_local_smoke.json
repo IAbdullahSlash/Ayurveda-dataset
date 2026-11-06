@@ -1,0 +1,24 @@
+{
+  "scope": "single model validation; not full E2 rerun",
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.775149190110827,
+      "accuracy_std": 0.03581687329288595,
+      "balanced_accuracy_mean": 0.777905177905178,
+      "balanced_accuracy_std": 0.03540460808773016,
+      "macro_f1_mean": 0.7747521531560752,
+      "macro_f1_std": 0.03588566419158915,
+      "weighted_f1_mean": 0.7746212004218845,
+      "weighted_f1_std": 0.03595187671420335,
+      "roc_auc_ovr_mean": 0.8547586412169744,
+      "roc_auc_ovr_std": 0.030497569411956586,
+      "log_loss_mean": 0.4777874330615747,
+      "log_loss_std": 0.05153582572317887,
+      "ece_mean": 0.08782165924465989,
+      "ece_std": 0.028613923547524914,
+      "fit_s_mean": 0.021390899022420248,
+      "fit_s_std": 0.0011595031830952383
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "scope": "all targets and transforms, dummy model only; not an efficacy benchmark",
+  "results": {
+    "original features": [
+      {
+        "model": "Dummy (majority)",
+        "accuracy_mean": 0.8285,
+        "macro_f1_mean": 0.4527,
+        "roc_auc_ovr_mean": 0.5
+      }
+    ],
+    "+ chemistry + family": [
+      {
+        "model": "Dummy (majority)",
+        "accuracy_mean": 0.8285,
+        "macro_f1_mean": 0.4527,
+        "roc_auc_ovr_mean": 0.5
+      }
+    ],
+    "+ chemistry compressed to 20 components": [
+      {
+        "model": "Dummy (majority)",
+        "accuracy_mean": 0.8285,
+        "macro_f1_mean": 0.4527,
+        "roc_auc_ovr_mean": 0.5
+      }
+    ],
+    "n_herbs": 344,
+    "herbs_with_chemistry": 185,
+    "labels": [
+      "Raktapitta",
+      "Kushta",
+      "Kasa",
+      "Vrana",
+      "Jwara",
+      "Krimi",
+      "Mutrakrichha",
+      "Shwasa",
+      "Trishna",
+      "Daha",
+      "Prameha",
+      "Atisara"
+    ]
+  }
+}

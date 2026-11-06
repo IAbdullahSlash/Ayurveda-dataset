@@ -1,0 +1,13 @@
+{
+  "scope": "corrected internal experiments; synthetic E4",
+  "E1_E4_implementation": "09482ff (split record IDs attached afterward using input order and matching label hashes)",
+  "E2_implementation": "5bbfc5a",
+  "input_sha256": {
+    "herb_input_records.csv": "f7c066aa4029e8defa3df740534424e30b52608e6653cb41a2cb9e9f442c047b",
+    "prakriti_input_records.csv": "b0baaffc4115503fa0f3d8be6d28818abdede54f47dd93b06b71213abf496e20",
+    "input_records.csv": "5592a5b2b4c516fd36f2abb80cb9101ecaefd6466e54c85099f29da1f587dd41"
+  },
+  "model_artifact_sha256": "b8e4f25ac4155662c98bdf643f2ea673feb443bfdb2dcdf892aa85c8e644a139",
+  "semantic_models": "not downloaded; network policy denied model host",
+  "external_validation": false
+}

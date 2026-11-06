@@ -1,0 +1,114 @@
+{
+  "original features": [
+    {
+      "model": "LightGBM",
+      "accuracy_mean": 0.8107,
+      "macro_f1_mean": 0.6062,
+      "roc_auc_ovr_mean": 0.6997
+    },
+    {
+      "model": "XGBoost",
+      "accuracy_mean": 0.8187,
+      "macro_f1_mean": 0.6026,
+      "roc_auc_ovr_mean": 0.7014
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.6932,
+      "macro_f1_mean": 0.5934,
+      "roc_auc_ovr_mean": 0.71
+    },
+    {
+      "model": "Random Forest",
+      "accuracy_mean": 0.8251,
+      "macro_f1_mean": 0.584,
+      "roc_auc_ovr_mean": 0.7063
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.8285,
+      "macro_f1_mean": 0.4527,
+      "roc_auc_ovr_mean": 0.5
+    }
+  ],
+  "+ chemistry + family": [
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.7499,
+      "macro_f1_mean": 0.6004,
+      "roc_auc_ovr_mean": 0.6872
+    },
+    {
+      "model": "XGBoost",
+      "accuracy_mean": 0.8215,
+      "macro_f1_mean": 0.5816,
+      "roc_auc_ovr_mean": 0.6868
+    },
+    {
+      "model": "LightGBM",
+      "accuracy_mean": 0.8164,
+      "macro_f1_mean": 0.5812,
+      "roc_auc_ovr_mean": 0.6838
+    },
+    {
+      "model": "Random Forest",
+      "accuracy_mean": 0.8335,
+      "macro_f1_mean": 0.5365,
+      "roc_auc_ovr_mean": 0.6923
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.8285,
+      "macro_f1_mean": 0.4527,
+      "roc_auc_ovr_mean": 0.5
+    }
+  ],
+  "+ chemistry compressed to 20 components": [
+    {
+      "model": "Logistic Regression",
+      "accuracy_mean": 0.7081,
+      "macro_f1_mean": 0.5991,
+      "roc_auc_ovr_mean": 0.7101
+    },
+    {
+      "model": "XGBoost",
+      "accuracy_mean": 0.82,
+      "macro_f1_mean": 0.5826,
+      "roc_auc_ovr_mean": 0.7015
+    },
+    {
+      "model": "LightGBM",
+      "accuracy_mean": 0.8136,
+      "macro_f1_mean": 0.5806,
+      "roc_auc_ovr_mean": 0.6936
+    },
+    {
+      "model": "Random Forest",
+      "accuracy_mean": 0.8338,
+      "macro_f1_mean": 0.5561,
+      "roc_auc_ovr_mean": 0.708
+    },
+    {
+      "model": "Dummy (majority)",
+      "accuracy_mean": 0.8285,
+      "macro_f1_mean": 0.4527,
+      "roc_auc_ovr_mean": 0.5
+    }
+  ],
+  "n_herbs": 344,
+  "herbs_with_chemistry": 185,
+  "labels": [
+    "Raktapitta",
+    "Kushta",
+    "Kasa",
+    "Vrana",
+    "Jwara",
+    "Krimi",
+    "Mutrakrichha",
+    "Shwasa",
+    "Trishna",
+    "Daha",
+    "Prameha",
+    "Atisara"
+  ]
+}

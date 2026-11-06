@@ -32,6 +32,7 @@ def main():
     if args.exp in ['e1','both']:
         m.e1(True)
     if args.exp == 'e2':
+        m.rd('herbs').to_csv(out / 'herb_input_records.csv', index=False)
         m.e2()
     if args.exp in ['e4','both']:
         m.e4()
