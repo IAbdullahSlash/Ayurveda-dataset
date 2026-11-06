@@ -1,0 +1,10 @@
+{
+  "training_pairs_after_guard": 7500,
+  "queries": {
+    "diseases": 800,
+    "symptoms": 800
+  },
+  "residual_description_overlaps": 0,
+  "semantic_paraphrase_overlap": "not_measured",
+  "semantic_benchmarks": "blocked: model download denied by network policy"
+}

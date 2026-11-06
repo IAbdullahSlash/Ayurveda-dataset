@@ -6,9 +6,8 @@ multilingual-e5-small is fine-tuned contrastively (InfoNCE with in-batch negativ
   Hindi / Sanskrit headword (Devanagari)  ->  English description      ("query: " / "passage: ")
   Hindi gloss (machine translation)        ->  English description
 drawn from WHO + SAT terminology, herbs, and every disorder and symptom record that is NOT in the E5 test sample.
-Leakage guard: any training pair whose headword skeleton equals the skeleton of a test-set headword is dropped, so
-the model never sees a test concept, even under another table's id.
-The E5 benchmark (same 800-candidate samples, same seed) is then re-run with the base and the fine-tuned model.
+Leakage guard: any training pair whose headword skeleton equals the skeleton of a test-set headword is dropped, and known concept memberships and description overlaps are excluded. Unannotated paraphrases may remain.
+The E5 benchmark (same 800-query samples against the complete eligible corpus) is then re-run with the base and the fine-tuned model.
 Output: models/multilingual-e5-small-ayurkb/ (safetensors, not packaged: ~470 MB, rebuilt by this script),
         reports/ml/E5b_finetuned_retrieval.json
 """
@@ -21,6 +20,7 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.keys import skeleton
+from lib.retrieval_guard import concept_exclusions, DescriptionGuard
 xl = import_module("10_crosslingual")
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,7 +29,7 @@ REP = ROOT / "reports/ml"
 rd = xl.rd
 SEED = 7
 
-def e5_samples():
+def e5_samples(limit=800):
     """exactly the candidate sets of stage 10 (same filters, same shuffle, first 800)"""
     d = rd("diseases"); d = d[(d.definition_en != "") & (d.term_hi != "")]
     s = rd("symptoms"); s = s[(s.term_sa_iast != "") & (s.gloss_en != "")]
@@ -42,7 +42,8 @@ def e5_samples():
     for name, (docs, qt, qx, ids) in tasks.items():
         idx = [i for i in range(len(docs)) if docs[i].strip() and qt[i].strip() and qx[i].strip()]
         random.Random(SEED).shuffle(idx)
-        idx = idx[:800]
+        if limit is not None:
+            idx = idx[:limit]
         out[name] = dict(docs=[docs[i] for i in idx], q_term=[qt[i] for i in idx], q_text=[qx[i] for i in idx],
                          ids=[ids[i] for i in idx])
     return out
@@ -50,32 +51,35 @@ def e5_samples():
 def training_pairs(test):
     from lib.indic import deva_to_iast
     banned_ids = set(test["diseases"]["ids"]) | set(test["symptoms"]["ids"])
+    banned_ids = concept_exclusions(banned_ids, rd("concept_members"))
+    description_guard = DescriptionGuard([p for task in test.values() for p in task["docs"]])
     banned_sk = {skeleton(deva_to_iast(q)) for t in test.values() for q in t["q_term"]}
     pairs = []
-    def add(q, p, kind):
-        if q and p and len(p) > 2 and skeleton(deva_to_iast(q)) not in banned_sk:
+    def add(q, p, kind, record_id):
+        if (record_id not in banned_ids and q and p and len(p) > 2
+                and skeleton(deva_to_iast(q)) not in banned_sk and not description_guard.overlaps(p)):
             pairs.append((q, p[:400], kind))
     t = rd("terminology")
     for r in t.itertuples():
         en = (r.term_en + ". " + r.definition_en).strip(". ")
-        add(r.term_hi or r.term_sa_deva_primary, en, "term_headword")
+        add(r.term_hi or r.term_sa_deva_primary, en, "term_headword", r.term_uid)
         if getattr(r, "term_en_hi", ""):
-            add(r.term_en_hi, en, "term_gloss")
+            add(r.term_en_hi, en, "term_gloss", r.term_uid)
     h = rd("herbs")
     for r in h.itertuples():
         en = f"{r.accepted_name} {r.name_en}. {r.description_en}".strip()
-        add(r.name_sa_deva, en, "herb_headword"); add(r.name_hi_common, en, "herb_hindi")
+        add(r.name_sa_deva, en, "herb_headword", r.herb_id); add(r.name_hi_common, en, "herb_hindi", r.herb_id)
     d = rd("diseases")
     for r in d.itertuples():
         if r.disease_id in banned_ids or not r.definition_en:
             continue
         en = r.name_en + ". " + r.definition_en
-        add(r.term_hi, en, "disease_headword"); add(r.name_en_hi + "। " + r.definition_hi, en, "disease_gloss")
+        add(r.term_hi, en, "disease_headword", r.disease_id); add(r.name_en_hi + "। " + r.definition_hi, en, "disease_gloss", r.disease_id)
     s = rd("symptoms")
     for r in s.itertuples():
         if r.symptom_id in banned_ids or not r.gloss_en:
             continue
-        add(r.term_hi, r.gloss_en, "symptom_headword"); add(r.gloss_hi, r.gloss_en, "symptom_gloss")
+        add(r.term_hi, r.gloss_en, "symptom_headword", r.symptom_id); add(r.gloss_hi, r.gloss_en, "symptom_gloss", r.symptom_id)
     random.Random(SEED).shuffle(pairs)
     # the headword task is the weak one (gloss queries already reach R@10 0.86-0.93): train on all headword pairs plus a
     # 25% sample of gloss pairs so the model keeps its cross-lingual alignment
@@ -120,11 +124,14 @@ def train(enc, pairs, epochs=1, bs=32, lr=4e-5, scale=20.0, max_q=32, max_p=64):
                 print(f"  step {step}/{steps}  loss {loss.item():.3f}  {time.time() - t0:.0f}s", flush=True)
     m.eval()
 
-def evaluate(enc, test):
+def evaluate(enc, test, full_corpus=True):
     out = {}
+    candidates = e5_samples(limit=None) if full_corpus else test
     for name, t in test.items():
-        De = enc.encode(t["docs"], "passage: ")
-        gold = np.arange(len(t["docs"]))
+        candidate = candidates[name]
+        De = enc.encode(candidate["docs"], "passage: ")
+        lookup = {record_id:i for i,record_id in enumerate(candidate["ids"])}
+        gold = np.array([lookup[record_id] for record_id in t["ids"]])
         out[name] = {}
         for qn in ("q_term", "q_text"):
             S = enc.encode(t[qn], "query: ") @ De.T
@@ -147,8 +154,10 @@ def main(epochs=1):
     OUTM.mkdir(parents=True, exist_ok=True)
     enc.m.save_pretrained(OUTM, safe_serialization=True); enc.tok.save_pretrained(OUTM)
     (REP / "E5b_finetuned_retrieval.json").write_text(json.dumps({
+        "candidate_scope": "complete eligible corpus", "query_scope": "800 record-derived queries per task; not independently authored",
+        "test_ids": {name:task["ids"] for name,task in test.items()},
         "base": base, "finetuned": tuned, "training_pairs": len(pairs), "pair_kinds": kinds, "epochs": epochs,
-        "train_seconds": round(time.time() - t0), "leakage_guard": "test records and any pair sharing a test headword skeleton excluded",
+        "train_seconds": round(time.time() - t0), "leakage_guard": "test IDs, transitive concept members, exact/near-duplicate descriptions and test headword skeletons excluded; semantic paraphrase overlap remains unmeasured",
         "model_dir": str(OUTM.relative_to(ROOT))}, indent=2))
 
 if __name__ == "__main__":
