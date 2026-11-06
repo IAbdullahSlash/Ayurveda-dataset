@@ -167,7 +167,7 @@ def parse_symptoms(defn):
             sa = re.sub(r"^(and|or|with)\s+", "", sa.strip(" ,;.")).strip()
             out.append((iso_to_iast(sa), fix_text(en).strip(" ,;.")))
     else:
-        for part in re.split(r",|;|\band\b|\bwith\b", body):
+        for part in re.split(r",|;", body):
             p = fix_text(part).strip(" ,;.")
             p = re.sub(r"^(by|of|the|a|an)\s+", "", p)
             if 3 <= len(p) <= 90:

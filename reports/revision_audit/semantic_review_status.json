@@ -1,0 +1,9 @@
+{
+  "changed_disorders": 212,
+  "sampled_edges": 150,
+  "sampling_seed": 42,
+  "precision": null,
+  "recall": null,
+  "reason": "No independently adjudicated gold annotations supplied",
+  "processed_tables_rebuilt": false
+}
