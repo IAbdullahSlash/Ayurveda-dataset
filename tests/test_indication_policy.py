@@ -61,3 +61,20 @@ def test_reviewed_alias_requires_equivalent_target_and_audit_fields():
     for field, value in [('reviewer', ''), ('reference', ''), ('relation', 'broader'), ('disease_id', 'missing')]:
         with pytest.raises(ValueError):
             apply_mapping_policy(links, diseases, pd.DataFrame([{**alias, field: value}]))
+
+
+def test_current_evidence_and_qa_do_not_reintroduce_withdrawn_targets():
+    import importlib
+    links = pd.read_csv(ROOT / 'data/processed/herb_indication.csv', keep_default_na=False)
+    evidence = pd.read_csv(ROOT / 'data/processed/herb_indication_evidence.csv', keep_default_na=False)
+    assert len(evidence) == len(supported_evidence(evidence, links))
+    qa = pd.read_csv(ROOT / 'data/processed/qa_pairs.csv', keep_default_na=False)
+    indication_qa = qa[qa.topic.eq('herbs_for_condition')]
+    active = active_indications(links)
+    pairs = set(zip(active.herb_id, active.disease_id))
+    for row in indication_qa.itertuples():
+        disease, *herbs = row.record_ids.split(';')
+        assert all((herb, disease) in pairs for herb in herbs)
+    exporter = importlib.import_module('08_validate_export')
+    report, _ = exporter.checks()
+    assert not report['failures']

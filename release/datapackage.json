@@ -1600,6 +1600,42 @@
           {
             "name": "source_id",
             "type": "string"
+          },
+          {
+            "name": "original_disease_id",
+            "type": "string"
+          },
+          {
+            "name": "original_disease_term_iast",
+            "type": "string"
+          },
+          {
+            "name": "original_disease_name_en",
+            "type": "string"
+          },
+          {
+            "name": "mapping_status",
+            "type": "string"
+          },
+          {
+            "name": "mapping_reason",
+            "type": "string"
+          },
+          {
+            "name": "mapping_reference",
+            "type": "string"
+          },
+          {
+            "name": "original_match_method",
+            "type": "string"
+          },
+          {
+            "name": "original_match_score",
+            "type": "number"
+          },
+          {
+            "name": "candidate_disease_ids",
+            "type": "string"
           }
         ]
       }

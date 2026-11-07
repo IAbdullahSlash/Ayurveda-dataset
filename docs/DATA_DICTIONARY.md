@@ -483,7 +483,7 @@ Species-level links from KB herbs to three CC BY 4.0 medicinal-plant image datas
 | `citation` | text | 100% | Sarma P, Boruah PA. MED117 Medicinal Plant Leaf Dataset & Na… |  |
 | `source_id` | text | 100% | S12 | Source (see sources table) |
 
-## `herb_indication`  (1,693 rows × 8 columns)
+## `herb_indication`  (1,693 rows × 17 columns)
 
 Herb → NAMASTE disease links (from Amidha indications; match method and score kept).
 
@@ -491,14 +491,23 @@ Herb → NAMASTE disease links (from Amidha indications; match method and score 
 |---|---|---|---|---|
 | `herb_id` | text | 100% | HERB-0001 |  |
 | `indication_raw` | text | 100% | Daurbalya |  |
-| `disease_id` | text | 85% | AYD-02170 |  |
+| `disease_id` | text | 62% | AYD-02170 |  |
 | `match_method` | text | 100% | exact_skeleton | Entity-linking procedure (for example exact_skeleton, exact_gloss or gbif_accepted_key) |
 | `match_score` | number | 100% | 100.0 |  |
-| `disease_term_iast` | text | 85% | daurbalyam |  |
-| `disease_name_en` | text | 85% | General debility disorder |  |
+| `disease_term_iast` | text | 62% | daurbalyam |  |
+| `disease_name_en` | text | 62% | General debility disorder |  |
 | `source_id` | text | 100% | S5 | Source (see sources table) |
+| `original_disease_id` | text | 85% | AYD-02170 | Historical target before containment or alias correction; not an active assertion |
+| `original_disease_term_iast` | text | 85% | daurbalyam | Historical target name retained for audit only |
+| `original_disease_name_en` | text | 85% | General debility disorder | Historical English target name retained for audit only |
+| `mapping_status` | text | 100% | source_matched_unreviewed | source_matched_unreviewed / candidate_review_pending / quarantined / unmatched / alias_reviewed; only active disease_id supplies a link |
+| `mapping_reason` | text | 23% | fuzzy spelling is not semantic equivalence | Reason for containment, ambiguity or a supplied reviewed alias decision |
+| `mapping_reference` | text | 23% | indication policy v1; source targets retained for review | Evidence for the mapping decision; a PDF review finding is containment evidence, not expert approval |
+| `original_match_method` | text | 100% | exact_skeleton | Historical matching method before the current policy |
+| `original_match_score` | number | 100% | 100.0 | Historical spelling-similarity score; not a probability of semantic correctness |
+| `candidate_disease_ids` | text | 23% | AYD-01278 | Proposed disorder IDs retained for review; these are not accepted links |
 
-## `herb_indication_evidence`  (1,427 rows × 16 columns)
+## `herb_indication_evidence`  (1,039 rows × 16 columns)
 
 PubMed co-occurrence evidence for every herb -> disorder link: paper counts, clinical-study counts, lift over chance, top PMIDs and an evidence tier (clinical_evidence / literature_supported / sparse / no_literature / not_queryable).
 
@@ -508,14 +517,14 @@ PubMed co-occurrence evidence for every herb -> disorder link: paper counts, cli
 | `disease_id` | text | 100% | AYD-02170 |  |
 | `biomedical_concept` | text | 100% | general debility / fatigue |  |
 | `correspondence` | text | 100% | approximate |  |
-| `query` | text | 98% | ("Abelmoschus moschatus"[tiab]) AND (fatigue[mh] OR debility… |  |
-| `n_entity` | text | 98% | 29 |  |
-| `n_disorder` | text | 98% | 48021 |  |
-| `n_pair` | text | 98% | 0 | PubMed papers mentioning both the entity and the disorder's biomedical concept |
-| `n_clinical` | text | 98% | 0 | Of those, clinical trials / RCTs / meta-analyses / systematic reviews |
-| `lift` | text | 98% | 0.0 | Co-occurrence over chance: N x n_pair / (n_entity x n_disorder); > 1 = studied together more often than chance |
-| `top_pmids` | text | 61% | 21849051;17362507 |  |
-| `clinical_pmids` | text | 14% | 36871902;39212516;30610931 |  |
+| `query` | text | 100% | ("Abelmoschus moschatus"[tiab]) AND (fatigue[mh] OR debility… |  |
+| `n_entity` | text | 100% | 29 |  |
+| `n_disorder` | text | 100% | 48021 |  |
+| `n_pair` | text | 100% | 0 | PubMed papers mentioning both the entity and the disorder's biomedical concept |
+| `n_clinical` | text | 100% | 0 | Of those, clinical trials / RCTs / meta-analyses / systematic reviews |
+| `lift` | text | 100% | 0.0 | Co-occurrence over chance: N x n_pair / (n_entity x n_disorder); > 1 = studied together more often than chance |
+| `top_pmids` | text | 65% | 21849051;17362507 |  |
+| `clinical_pmids` | text | 16% | 36871902;39212516;30610931 |  |
 | `evidence_tier` | text | 100% | no_literature | clinical_evidence (>=1 trial/RCT/meta-analysis) / literature_supported (>=3 papers, lift >= 2) / sparse / no_literature / not_queryable |
 | `pubmed_total_N` | number | 100% | 41390945 |  |
 | `source_id` | text | 100% | S8 | Source (see sources table) |
@@ -747,7 +756,7 @@ SYNTHETIC Prakṛti questionnaire cohort (3,000 simulated people) generated from
 | `bmi` | number | 100% | 24.5 |  |
 | `data_origin` | text | 100% | synthetic (simulated from WHO ITA-2.8.3-2.8.5 trait definiti… | authoritative / community_open / integrated / curated / derived / synthetic |
 
-## `qa_pairs`  (4,836 rows × 7 columns)
+## `qa_pairs`  (4,790 rows × 7 columns)
 
 Bilingual (EN / HI) question-answer pairs generated from KB records, each traceable to record ids.
 

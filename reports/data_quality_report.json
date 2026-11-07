@@ -102,10 +102,10 @@
     },
     "herb_indication": {
       "rows": 1693,
-      "columns": 8
+      "columns": 17
     },
     "herb_indication_evidence": {
-      "rows": 1427,
+      "rows": 1039,
       "columns": 16
     },
     "herb_karma": {
@@ -242,7 +242,7 @@
     "orphans": 0
   },
   "fk:herb_indication.disease_id->diseases.disease_id": {
-    "checked": 1432,
+    "checked": 1044,
     "orphans": 0
   },
   "fk:herb_karma.herb_id->herbs.herb_id": {
@@ -298,11 +298,11 @@
     "orphans": 0
   },
   "fk:herb_indication_evidence.herb_id->herbs.herb_id": {
-    "checked": 1427,
+    "checked": 1039,
     "orphans": 0
   },
   "fk:herb_indication_evidence.disease_id->diseases.disease_id": {
-    "checked": 1427,
+    "checked": 1039,
     "orphans": 0
   },
   "fk:formulation_indication_evidence.form_id->formulations.form_id": {
@@ -405,15 +405,15 @@
   },
   "failures": [],
   "qa_pairs": {
-    "total": 4836,
+    "total": 4790,
     "by_language": {
-      "en": 2420,
-      "hi": 2416
+      "en": 2397,
+      "hi": 2393
     },
     "by_topic": {
       "disease_definition": 4014,
       "herb_properties": 492,
-      "herbs_for_condition": 158,
+      "herbs_for_condition": 112,
       "diagnostic_method": 86,
       "formulation": 86
     }
@@ -525,7 +525,7 @@
       "unresolved": 0
     },
     "herb_indication_evidence": {
-      "rows": 1427,
+      "rows": 1039,
       "unresolved": 0
     },
     "herb_karma": {
@@ -565,7 +565,7 @@
       "unresolved": 0
     },
     "qa_pairs": {
-      "rows": 4836,
+      "rows": 4790,
       "unresolved": 0
     },
     "sources": {
@@ -593,5 +593,5 @@
       "unresolved": 0
     }
   },
-  "sqlite_bytes": 55709696
+  "sqlite_bytes": 55705600
 }

@@ -1,10 +1,10 @@
 {
   "tests": {
-    "passed": 136,
+    "passed": 142,
     "skipped": 0,
     "failed": 0,
     "errors": 0,
-    "junit_sha256": "3aee02acb419f8a1c2838f9cc5462a9f214b7e1c1c02d5d00ee1f20bd16796a7"
+    "junit_sha256": "b505c3de1227d9f5304b03614902e820dde655afa9fc3ce648c6134cd5d49e9e"
   },
   "tables": {
     "case_report_entities": 8023,
@@ -33,7 +33,7 @@
     "herb_groups": 50,
     "herb_image_datasets": 214,
     "herb_indication": 1693,
-    "herb_indication_evidence": 1427,
+    "herb_indication_evidence": 1039,
     "herb_karma": 829,
     "herb_names": 3639,
     "herb_phytochemicals": 23771,
@@ -43,7 +43,7 @@
     "phytochemical_activities": 13538,
     "phytochemicals": 1959,
     "prakriti_synthetic_cohort": 3000,
-    "qa_pairs": 4836,
+    "qa_pairs": 4790,
     "sources": 14,
     "symptoms": 11082,
     "terminology": 6233,
@@ -51,7 +51,7 @@
     "therapy_disease": 6474,
     "therapy_evidence": 12
   },
-  "rows": 181333,
+  "rows": 180899,
   "benchmarks": {
     "E1a_system_from_text": {
       "file": "reports/revision_full/REP/E1a_system_from_text.json",

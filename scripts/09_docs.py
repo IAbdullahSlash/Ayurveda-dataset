@@ -56,6 +56,15 @@ TABLE_DOC = {
     "case_report_symptoms_semantic": "Complaint clauses of case reports matched to SAT symptoms by multilingual embeddings (clause text, symptom id, similarity).",
 }
 COL_DOC = {
+    "mapping_status": "source_matched_unreviewed / candidate_review_pending / quarantined / unmatched / alias_reviewed; only active disease_id supplies a link",
+    "mapping_reason": "Reason for containment, ambiguity or a supplied reviewed alias decision",
+    "mapping_reference": "Evidence for the mapping decision; a PDF review finding is containment evidence, not expert approval",
+    "candidate_disease_ids": "Proposed disorder IDs retained for review; these are not accepted links",
+    "original_disease_id": "Historical target before containment or alias correction; not an active assertion",
+    "original_disease_term_iast": "Historical target name retained for audit only",
+    "original_disease_name_en": "Historical English target name retained for audit only",
+    "original_match_method": "Historical matching method before the current policy",
+    "original_match_score": "Historical spelling-similarity score; not a probability of semantic correctness",
     "match_method": "Entity-linking procedure (for example exact_skeleton, exact_gloss or gbif_accepted_key)",
     "term_iast": "Sanskrit term in IAST transliteration", "term_deva": "Sanskrit term in Devanagari",
     "term_hi": "Form used in Hindi (Sanskrit stem without case ending, Hindi orthography)",

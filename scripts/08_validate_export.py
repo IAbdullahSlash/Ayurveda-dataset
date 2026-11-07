@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.export_transaction import publish, export_lock
 from lib.provenance import write_sidecar, build_index, metadata
 from lib.indic import iast_to_deva, deva_to_iast, has_devanagari
-from lib.indication_policy import active_indications
+from lib.indication_policy import active_indications, supported_evidence, apply_mapping_policy
 
 ROOT = Path(__file__).resolve().parents[1]
 P, REL = ROOT / "data/processed", ROOT / "release"
@@ -54,6 +54,13 @@ def checks():
     rep, fails = {}, []
     tables = {f.stem: rd(f.stem) for f in sorted(P.glob("*.csv"))}
     rep["tables"] = {k: dict(rows=len(v), columns=v.shape[1]) for k, v in tables.items()}
+    indications = tables['herb_indication']
+    policy = apply_mapping_policy(indications, diseases=tables['diseases'])
+    if not indications.disease_id.equals(policy.disease_id):
+        fails.append('herb indications violate containment/ambiguity policy; run stage 44')
+    evidence = tables.get('herb_indication_evidence')
+    if evidence is not None and len(evidence) != len(supported_evidence(evidence, indications)):
+        fails.append('unsupported herb indication evidence; run stage 45')
     for t, k in PK.items():
         if t in tables:
             dup = int(tables[t][k].duplicated().sum()); empty = int((tables[t][k] == "").sum())
