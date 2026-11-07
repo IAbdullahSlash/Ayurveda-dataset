@@ -1,0 +1,107 @@
+{
+  "E1a organ system | NAMASTE-only source definitions": {
+    "n": 1548,
+    "classes": 15,
+    "results": {
+      "TF-IDF + LR (stage 07)": {
+        "accuracy_mean": 0.8424,
+        "macro_f1_mean": 0.7989,
+        "roc_auc_ovr_mean": 0.9833
+      },
+      "e5 embeddings + LR": {
+        "accuracy_mean": 0.7571,
+        "macro_f1_mean": 0.7525,
+        "roc_auc_ovr_mean": 0.9724
+      },
+      "TF-IDF + e5 + LR": {
+        "accuracy_mean": 0.876,
+        "macro_f1_mean": 0.842,
+        "roc_auc_ovr_mean": 0.9875
+      }
+    }
+  },
+  "E1b do\u1e63a from masked text | NAMASTE-only source definitions": {
+    "n": 351,
+    "classes": 4,
+    "results": {
+      "TF-IDF + LR (stage 07)": {
+        "accuracy_mean": 0.7635,
+        "macro_f1_mean": 0.7379,
+        "roc_auc_ovr_mean": 0.9231
+      },
+      "e5 embeddings + LR": {
+        "accuracy_mean": 0.7064,
+        "macro_f1_mean": 0.671,
+        "roc_auc_ovr_mean": 0.8924
+      },
+      "TF-IDF + e5 + LR": {
+        "accuracy_mean": 0.7805,
+        "macro_f1_mean": 0.7509,
+        "roc_auc_ovr_mean": 0.9339
+      }
+    }
+  },
+  "E1c Hindi (MT) | NAMASTE-only source definitions": {
+    "n": 1548,
+    "classes": 15,
+    "results": {
+      "TF-IDF + LR (stage 07)": {
+        "accuracy_mean": 0.7894,
+        "macro_f1_mean": 0.7173,
+        "roc_auc_ovr_mean": 0.9683
+      },
+      "e5 embeddings + LR": {
+        "accuracy_mean": 0.7093,
+        "macro_f1_mean": 0.7003,
+        "roc_auc_ovr_mean": 0.9621
+      },
+      "TF-IDF + e5 + LR": {
+        "accuracy_mean": 0.8301,
+        "macro_f1_mean": 0.8026,
+        "roc_auc_ovr_mean": 0.9788
+      }
+    }
+  },
+  "E1a organ system | + WHO-filled definitions (stage 25)": {
+    "n": 1950,
+    "classes": 16,
+    "results": {
+      "TF-IDF + LR (stage 07)": {
+        "accuracy_mean": 0.8431,
+        "macro_f1_mean": 0.8107,
+        "roc_auc_ovr_mean": 0.9822
+      },
+      "e5 embeddings + LR": {
+        "accuracy_mean": 0.7349,
+        "macro_f1_mean": 0.7515,
+        "roc_auc_ovr_mean": 0.9733
+      },
+      "TF-IDF + e5 + LR": {
+        "accuracy_mean": 0.8785,
+        "macro_f1_mean": 0.8559,
+        "roc_auc_ovr_mean": 0.9864
+      }
+    }
+  },
+  "E1b do\u1e63a from masked text | + WHO-filled definitions (stage 25)": {
+    "n": 484,
+    "classes": 5,
+    "results": {
+      "TF-IDF + LR (stage 07)": {
+        "accuracy_mean": 0.7604,
+        "macro_f1_mean": 0.6038,
+        "roc_auc_ovr_mean": 0.8503
+      },
+      "e5 embeddings + LR": {
+        "accuracy_mean": 0.6571,
+        "macro_f1_mean": 0.5391,
+        "roc_auc_ovr_mean": 0.8006
+      },
+      "TF-IDF + e5 + LR": {
+        "accuracy_mean": 0.7728,
+        "macro_f1_mean": 0.6133,
+        "roc_auc_ovr_mean": 0.8535
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "base_model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "finetuned_weights_sha256": "00894acfd5fd9389a40e2e2a41dbd15fa3c502eaabcd3d286071f5bb839e7947",
+  "epochs": 1,
+  "training_pairs": 7500,
+  "candidate_scope": "complete eligible corpus",
+  "candidate_counts": {
+    "diseases": 2015,
+    "symptoms": 10049
+  },
+  "independent_clinical_validation": false
+}

@@ -1,0 +1,14 @@
+{
+  "base_model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "retrieval_queries_per_task": 800,
+  "data_snapshot_sha256": {
+    "diseases": "9c21de8d13abf58aa5b79aa9d9fc7f5d61a440614b5a35e195fc3b549e2c0502",
+    "symptoms": "bb96cc836daf793448a2b9ee7184bca7129058853577915aa4082588db31e7b2",
+    "terminology": "1d6ecb1e7b7fbe99581e5770a8492d3205f966f78a834a395244e5ddc76f3b70",
+    "herbs": "cdfff11694d9ead189fdbcc70bd52c34f194beb1272426b4727a7214ac55326a"
+  },
+  "e1_scope_labels_clarified_after_run": true,
+  "e1_numeric_results_modified": false,
+  "independent_user_queries": false,
+  "independent_clinical_validation": false
+}
