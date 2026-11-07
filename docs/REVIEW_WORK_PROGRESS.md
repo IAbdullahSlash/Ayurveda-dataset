@@ -49,3 +49,53 @@ The report generator can reuse a successful current JUnit run with `--junit` and
 ## 22. Related-resource comparison — initial evidence completed; systematic comparison pending
 
 Primary-publication metadata and abstracts were consulted for IMPPAT, IMPPAT 2.0 and GRAYU. [The comparison](RELATED_RESOURCE_COMPARISON.md) records author-reported scope, differing entity units, candidate AyurKB differentiators and a reproducible next-comparison protocol. It expressly avoids novelty, accuracy or clinical-superiority claims from row counts. Only publication metadata and search-manifest hashes are retained; full abstracts and bulk resource data were not redistributed. Wider resource discovery, live terms/interface audits and permitted record-level/task comparisons remain pending.
+
+## 20. Current archive verification — bounded checks complete; full upstream rebuild remains open
+
+The reusable `scripts/48_validate_followup_archive.py` verified ZIP integrity, equality with all 43 current CSVs, descriptor paths, SQLite integrity, accepted-indication/evidence consistency, explicit safety states, and English/Hindi semantic execution after fresh extraction from an arbitrary working directory. No unsupported indication-evidence pairs were present. The base model was supplied by a local symlink to verified weights; weights are not bundled. [Archive verification evidence](../reports/followup_archive_validation.json) includes CSV hashes, model hash, archive hash and the 153-test JUnit digest.
+
+These checks reuse the pinned Python environment. They do not establish a clean dependency install or a complete reconstruction of unavailable historical article caches and every upstream source. A new collection must have a new version rather than silently replace old experiment inputs.
+
+Reproduce these bounded checks from the repository root after producing a successful current JUnit run:
+
+```bash
+python scripts/08_validate_export.py
+python scripts/09_docs.py
+python scripts/12_report.py --junit /path/to/current-successful-tests.xml
+PYTHON_BIN=python bash scripts/13_package.sh
+python scripts/48_validate_followup_archive.py \
+  --junit /path/to/current-successful-tests.xml \
+  --model models/multilingual-e5-small
+```
+
+Omit `--model` for a lexical-only archive check. Local snapshot/archive generation is not a public release or a cloud-environment publication.
+
+## State of all 23 work items
+
+| Item | State after this batch | Remaining input or work |
+|---:|---|---|
+| 1 | Reported errors contained | Qualified replacement-target decisions remain separate. |
+| 2 | Conservative matcher and protected queues implemented | Adjudicate aliases/groups and measure semantic mapping accuracy. |
+| 3 | Current derivatives rebuilt and verified | Repeat targeted refreshes after approved corrections. |
+| 4 | Explicit safety-state engineering complete | No clinical assessment has been invented. |
+| 5 | Fourteen-source rights batch prepared | Qualified terms/permission decisions and any authorized correspondence. |
+| 6 | Prioritized herb/formulation safety batches prepared | Qualified scoped safety reviews. |
+| 7 | Mapping, symptom and workbook materials available | Independent semantic verdicts and adjudication. |
+| 8 | New workflow decision provenance implemented | Historical assertion backfill where actual evidence becomes available. |
+| 9 | Flagged materials and 598-field unflagged sample prepared | Bilingual review, approved glossary and correction decisions. |
+| 10 | Existing 736-publication candidate pool available | Eligibility, patient-unit independence and adjudicated labels. |
+| 11 | Existing paired evaluator available | Actual same-case predictions against strongest baselines after item 10. |
+| 12 | Independent-query template prepared | Collect independently authored queries and reviewed relevance labels. |
+| 13 | Distribution audit completed | Independent target labels for calibration and threshold validation. |
+| 14 | Definition candidates/source evidence available | Sense/permission decisions and verified new source text. |
+| 15 | All 261 unmatched rows prioritized into 79 term groups | Reviewed aliases and appropriate scope decisions. |
+| 16 | Existing citation leads retained for 26 herbs | Extract and adjudicate properties from permitted sources. |
+| 17 | All 254 link-gap rows triaged | Reviewed identities, material classes or justified non-links. |
+| 18 | Study-appraisal schema prepared | Article-level evidence extraction and qualified appraisal. |
+| 19 | Baseline name/chemistry gaps documented | Source/identity/language review before adding coverage. |
+| 20 | Fresh-archive functional verification complete | Full clean/upstream reconstruction remains unestablished. |
+| 21 | Current counts, claims and validation reporting synchronized | Maintainer release/version and reviewer-role decisions; no public release made. |
+| 22 | Three-publication preliminary comparison completed | Systematic discovery, live terms audits and permitted record/task comparisons. |
+| 23 | Conditional future milestone documented | Clinical collaborators and governed studies only if clinical use is pursued. |
+
+All progress commits in this follow-up batch use Abdullah Azmi <ywtywbbdallh424@gmail.com> and remain local. No push or cloud/public publication was performed.
