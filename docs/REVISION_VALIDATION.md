@@ -1,6 +1,6 @@
 # Revision validation
 
-Executed test suite: **153 passed, 0 skipped, 0 failed, 0 errors**.
+Executed test suite: **159 passed, 0 skipped, 0 failed, 0 errors**.
 
 Current processed data: **43 tables, 180,899 rows**. Rows include links, derived records and synthetic observations; they are not independent patients.
 

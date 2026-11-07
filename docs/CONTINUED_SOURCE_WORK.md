@@ -40,3 +40,27 @@ Six records do have a recorded source-name variant present in Duke's chemistry l
 These counts are source observation rows, not independent compounds, clinical studies or verified synonym relationships. The Curcuma and Swertia source names also identify other published master records. Transferring their chemistry automatically could mix species or silently merge identities. The [protected chemistry review queue](../reports/source_gap_research/chemistry_gap_review.csv) therefore records source taxon IDs, compound counts, existing master-name collisions and blank decision fields. [Input hashes and summary](../reports/source_gap_research/chemistry_gap_status.json) make the audit reproducible.
 
 No chemistry rows or biological aliases were added. Qualified botanical alignment can resolve these six leads before expanding searches to additional sources; the remaining gaps are not treated as evidence that the plants contain no chemicals.
+
+## Clean dependency installation and validation
+
+A new, isolated CPython **3.13.5** environment was created with system site packages disabled. The CPU torch wheel was downloaded from the official CPU index, followed by the repository's exact direct requirements. Compatibility checking passed for all **73 installed packages**. The environment probe confirms that user site packages are disabled, no external site-packages directory is imported, every direct requirement matches its pin (including `torch==2.15.0+cpu`), and the base interpreter is separate from the virtual environment.
+
+The initial clean-environment suite passed 155 tests. After material and ingredient-category corrections, the full clean-environment suite passed **159 tests, zero failures, errors or skips**. An extracted local archive also passed descriptor/CSV equality, SQLite integrity, current mapping/material consistency and English/Hindi semantic execution using this new environment and locally supplied verified base-model weights. Model weights are not bundled. [Environment and dependency evidence](../reports/clean_install/validation.json), [installation logs](../reports/clean_install/requirements_install.txt) and [archive evidence](../reports/clean_install/archive_validation.json) record the scope.
+
+`requirements.cpu-py313.lock` captures the 73 exact direct/transitive versions from this tested Linux x86_64 environment. It supplements `requirements.txt`, is bundled in the local archive, and is not a wheel-hash or system-library lock. Other operating systems and Python versions have not been validated by this run. The workflow used the runtime-provided `uv` installer; an equivalent clean environment can be created as follows:
+
+```bash
+uv venv --python /usr/bin/python3.13 --cache-dir /tmp/ayurkb-uv-cache .venv-clean
+uv pip install --python .venv-clean/bin/python --cache-dir /tmp/ayurkb-uv-cache \
+  --index-url https://download.pytorch.org/whl/cpu --no-deps torch==2.15.0+cpu
+uv pip install --python .venv-clean/bin/python --cache-dir /tmp/ayurkb-uv-cache \
+  -r requirements.cpu-py313.lock
+uv pip check --python .venv-clean/bin/python --cache-dir /tmp/ayurkb-uv-cache
+.venv-clean/bin/python -m pytest -q tests/ --junitxml=/tmp/ayurkb-clean-tests.xml
+.venv-clean/bin/python scripts/50_record_clean_install.py \
+  --python .venv-clean/bin/python --junit /tmp/ayurkb-clean-tests.xml
+```
+
+For an archive test on a fresh clone, first build the validated exports and package using the documented stage 08/13 commands; otherwise its ZIP check is skipped. `scripts/50_record_clean_install.py --write-lock` deliberately regenerates the platform-specific version lock from a verified environment. Tests and archive checks do not establish a complete upstream source reconstruction, restore the unavailable original case-report cache, or supply independent clinical/language/rights approval.
+
+The current archive validator also checks that both dependency specifications are bundled unchanged. Its optional `--environment-evidence reports/clean_install/validation.json` verifies the receipt against the running interpreter, every installed version, the direct/transitive dependency hashes and the exact JUnit run before describing the archive check as bound to clean-install evidence. The final validation used this option; its model weights and source data were still supplied separately.

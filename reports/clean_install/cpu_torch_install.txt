@@ -1,0 +1,7 @@
+Using Python 3.13.5 environment at: /tmp/ayurkb-clean-py313
+Resolved 1 package in 708ms
+Downloading torch (199.8MiB)
+ Downloaded torch
+Prepared 1 package in 4.09s
+Installed 1 package in 209ms
+ + torch==2.15.0+cpu

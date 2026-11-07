@@ -2,6 +2,7 @@
 """Exercise a fresh local archive without claiming an upstream rebuild or clinical test."""
 import argparse
 import hashlib
+import importlib.metadata
 import json
 import os
 import sqlite3
@@ -25,6 +26,7 @@ def main():
     parser.add_argument('--archive', type=Path, default=ROOT / 'release/AyurKB_v1.2.zip')
     parser.add_argument('--junit', type=Path, required=True)
     parser.add_argument('--model', type=Path, help='Optional verified local base-model directory; not bundled')
+    parser.add_argument('--environment-evidence', type=Path, help='Optional clean-install receipt to bind to this interpreter, dependency files and test run')
     parser.add_argument('--output', type=Path, default=ROOT / 'reports/followup_archive_validation.json')
     args = parser.parse_args()
     tests = ET.parse(args.junit).getroot().findall('.//testcase')
@@ -34,6 +36,18 @@ def main():
     if skipped == len(tests):
         raise ValueError('No passing tests supplied')
     hashes = {str(path.relative_to(ROOT)): digest(path) for path in sorted((ROOT / 'data/processed').glob('*.csv'))}
+    dependency_hashes = {name:digest(ROOT / name) for name in ['requirements.txt', 'requirements.cpu-py313.lock']}
+    if args.environment_evidence:
+        receipt = json.loads(args.environment_evidence.read_text())
+        recorded = receipt['environment']
+        current_versions = {d.metadata['Name']:d.version for d in importlib.metadata.distributions() if d.metadata.get('Name')}
+        if (Path(recorded['executable']).absolute() != Path(sys.executable).absolute()
+                or recorded['all_installed_versions'] != current_versions
+                or not recorded['isolated'] or recorded['external_site_packages'] or recorded['mismatched_pins']
+                or receipt['requirements_sha256'] != dependency_hashes['requirements.txt']
+                or receipt['transitive_version_lock']['sha256'] != dependency_hashes['requirements.cpu-py313.lock']
+                or receipt['tests']['junit_sha256'] != digest(args.junit)):
+            raise ValueError('Clean-install receipt does not match current interpreter/dependencies/tests')
     commands = []
     with tempfile.TemporaryDirectory(prefix='ayurkb-followup-archive-') as temp:
         target = Path(temp)
@@ -43,6 +57,9 @@ def main():
             for name, expected in hashes.items():
                 if hashlib.sha256(archive.read(name)).hexdigest() != expected:
                     raise ValueError('Stale archive CSV: ' + name)
+            for name, expected in dependency_hashes.items():
+                if hashlib.sha256(archive.read(name)).hexdigest() != expected:
+                    raise ValueError('Missing or stale dependency specification: ' + name)
             archive.extractall(target)
         descriptor = json.loads((target / 'release/datapackage.json').read_text())
         for resource in descriptor['resources']:
@@ -83,7 +100,7 @@ def main():
             if 'decision support for a qualified practitioner' not in result.stdout:
                 raise ValueError('Expected scoped demo output missing')
             commands.append(dict(language=language, status='passed', mode='base semantic' if args.model else 'lexical'))
-    report = dict(archive_sha256=digest(args.archive), csv_sha256=hashes,
+    report = dict(archive_sha256=digest(args.archive), csv_sha256=hashes, dependency_sha256=dependency_hashes,
         zip_integrity='passed', descriptor_resources=len(descriptor['resources']), sqlite_integrity='passed',
         unsupported_indication_evidence=0, safety_states=states, material_categories=material_categories, extracted_demos=commands,
         test_run=dict(passed=len(tests)-skipped, skipped=skipped, failed=0, errors=0, junit_sha256=digest(args.junit)),
@@ -91,6 +108,9 @@ def main():
         model_scope='verified base weights supplied locally; not bundled' if args.model else 'lexical only; no model used',
         model_sha256=digest(args.model / 'model.safetensors') if args.model else None,
         upstream_rebuild_established=False, external_clinical_validation=False)
+    if args.environment_evidence:
+        report['dependency_scope'] = 'Clean-install receipt matches this isolated interpreter, all installed versions, dependency specifications and JUnit run; weights/data supplied separately.'
+        report['clean_install_receipt_sha256'] = digest(args.environment_evidence)
     args.output.write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps({key:value for key,value in report.items() if key != 'csv_sha256'}, indent=2))
 

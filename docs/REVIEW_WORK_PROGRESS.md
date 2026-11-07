@@ -52,6 +52,8 @@ Primary-publication metadata and abstracts were consulted for IMPPAT, IMPPAT 2.0
 
 ## 20. Current archive verification — bounded checks complete; full upstream rebuild remains open
 
+This section records the preceding 153-test archive-only check. The later [continued source work](CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) completes a fresh dependency installation and a 159-test run, with new archive evidence bound to that environment. Full upstream source reconstruction remains open.
+
 The reusable `scripts/48_validate_followup_archive.py` verified ZIP integrity, equality with all 43 current CSVs, descriptor paths, SQLite integrity, accepted-indication/evidence consistency, explicit safety states, and English/Hindi semantic execution after fresh extraction from an arbitrary working directory. No unsupported indication-evidence pairs were present. The base model was supplied by a local symlink to verified weights; weights are not bundled. [Archive verification evidence](../reports/followup_archive_validation.json) includes CSV hashes, model hash, archive hash and the 153-test JUnit digest.
 
 These checks reuse the pinned Python environment. They do not establish a clean dependency install or a complete reconstruction of unavailable historical article caches and every upstream source. A new collection must have a new version rather than silently replace old experiment inputs.
@@ -90,10 +92,10 @@ Omit `--model` for a lexical-only archive check. Local snapshot/archive generati
 | 14 | Definition candidates/source evidence available | Sense/permission decisions and verified new source text. |
 | 15 | All 261 unmatched rows prioritized into 79 term groups | Reviewed aliases and appropriate scope decisions. |
 | 16 | Existing citation leads retained for 26 herbs | Extract and adjudicate properties from permitted sources. |
-| 17 | All 254 link-gap rows triaged | Reviewed identities, material classes or justified non-links. |
+| 17 | All 254 link-gap rows triaged; three linked non-botanical ingredient categories corrected | Reviewed identities or justified non-links for remaining gaps. |
 | 18 | Study-appraisal schema prepared | Article-level evidence extraction and qualified appraisal. |
-| 19 | Baseline name/chemistry gaps documented | Source/identity/language review before adding coverage. |
-| 20 | Fresh-archive functional verification complete | Full clean/upstream reconstruction remains unestablished. |
+| 19 | Refreshed 213 Wikidata entities and 13 taxonomy gaps; six chemistry-alignment leads identified | Source/identity/language decisions before adding coverage; no labels or compounds guessed. |
+| 20 | Fresh dependency install and fresh-archive verification complete; 159 tests passed in isolated Python 3.13 | Full upstream reconstruction remains unestablished; weights were supplied locally. |
 | 21 | Current counts, claims and validation reporting synchronized | Maintainer release/version and reviewer-role decisions; no public release made. |
 | 22 | Three-publication preliminary comparison completed | Systematic discovery, live terms audits and permitted record/task comparisons. |
 | 23 | Conditional future milestone documented | Clinical collaborators and governed studies only if clinical use is pursued. |

@@ -116,6 +116,8 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+For the verified Linux x86_64 / Python 3.13 CPU setup, [the clean-install recipe](docs/CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) installs the CPU torch wheel first and supplies an exact direct/transitive version lock. This records package versions rather than locking system libraries or model weights.
+
 Run the checks (about 10 seconds). On a fresh clone the release-zip check is skipped until the zip is built with
 `bash scripts/13_package.sh`:
 
