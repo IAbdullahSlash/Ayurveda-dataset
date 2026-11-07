@@ -1,0 +1,15 @@
+{
+  "rows": 1693,
+  "states": {
+    "source_matched_unreviewed": 1044,
+    "candidate_review_pending": 339,
+    "unmatched": 261,
+    "quarantined": 49
+  },
+  "fuzzy_groups": 20,
+  "ambiguous_exact_groups": 19,
+  "exact_sample": 60,
+  "seed": 42,
+  "expert_approval": false,
+  "note": "Conservative abstention reduces active coverage; candidates are not all established errors."
+}
