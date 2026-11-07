@@ -15,14 +15,21 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from importlib import import_module
 E5 = import_module("10_crosslingual").E5
-from lib.embedding_integrity import record_index
+from lib.embedding_integrity import record_index, verify_index
+from lib.export_transaction import export_lock
 
 ROOT = Path(__file__).resolve().parents[1]
 P, OUT = ROOT / "data/processed", ROOT / "release/embeddings"
 OUT.mkdir(parents=True, exist_ok=True)
 rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=False)
 
-def main(part="all", model=None, out=None, threads=3):
+def main(part="all", model=None, out=None, threads=3, force=False):
+    folder=Path(out) if out else OUT
+    folder.mkdir(parents=True,exist_ok=True)
+    with export_lock(folder / '.embedding.lock'):
+        return build_indexes(part,model,out,threads,force)
+
+def build_indexes(part="all", model=None, out=None, threads=3, force=False):
     global OUT
     if out:
         OUT = Path(out); OUT.mkdir(parents=True, exist_ok=True)
@@ -47,6 +54,14 @@ def main(part="all", model=None, out=None, threads=3):
         if part == "all":
             sets.update(hindi)
     for name, (ids, texts) in sets.items():
+        if not force and (OUT / 'manifest.json').exists():
+            try:
+                verify_index(OUT,name,enc.path,P / f"{name.removesuffix('_hi')}.csv")
+            except (ValueError,OSError,KeyError):
+                pass
+            else:
+                print(f"  {name}: reusing verified model/source index",flush=True)
+                continue
         t0 = time.time()
         X = enc.encode(texts.tolist(), "passage: ").astype(np.float16)
         np.save(OUT / f"{name}.npy", X)
@@ -62,5 +77,6 @@ if __name__ == "__main__":
     ap.add_argument("--model", default=None, help="encoder directory (default: models/multilingual-e5-small)")
     ap.add_argument("--out", default=None, help="output directory (default: release/embeddings)")
     ap.add_argument("--threads",type=int,default=3)
+    ap.add_argument("--force",action="store_true",help="rebuild after changes to the encoding recipe")
     a = ap.parse_args()
-    main(a.part, a.model, a.out, a.threads)
+    main(a.part, a.model, a.out, a.threads, a.force)

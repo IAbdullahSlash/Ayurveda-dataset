@@ -1,0 +1,55 @@
+{
+  "indexes": [
+    {
+      "index": "embeddings/symptoms",
+      "rows": 11082,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings/diseases",
+      "rows": 2892,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings/herbs",
+      "rows": 466,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings/terminology",
+      "rows": 6233,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings/symptoms_hi",
+      "rows": 11082,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings/diseases_hi",
+      "rows": 2892,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings_ft/symptoms_hi",
+      "rows": 11082,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings_ft/diseases_hi",
+      "rows": 2892,
+      "dimensions": 384,
+      "verified": true
+    }
+  ],
+  "english_demo": "passed with base model",
+  "hindi_demo": "passed with fine-tuned model",
+  "clinical_accuracy_claim": false
+}

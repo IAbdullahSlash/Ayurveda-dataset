@@ -11,7 +11,7 @@ The E5 benchmark (same 800-query samples against the complete eligible corpus) i
 Output: models/multilingual-e5-small-ayurkb/ (safetensors, not packaged: ~470 MB, rebuilt by this script),
         reports/ml/E5b_finetuned_retrieval.json
 """
-import json, math, random, sys, time
+import argparse, json, math, random, sys, time
 from importlib import import_module
 from pathlib import Path
 import numpy as np
@@ -138,7 +138,11 @@ def evaluate(enc, test, full_corpus=True):
             out[name][{"q_term": "hindi_headword", "q_text": "hindi_text"}[qn]] = xl.metrics(xl.ranks_from_scores(S, gold))
     return out
 
-def main(epochs=1):
+def main(epochs=1, report_dir=None):
+    global REP
+    if report_dir is not None:
+        REP=Path(report_dir);REP.mkdir(parents=True,exist_ok=True)
+    if epochs<1:raise ValueError("epochs must be positive")
     torch.manual_seed(SEED)
     test = e5_samples()
     pairs = training_pairs(test)
@@ -162,4 +166,8 @@ def main(epochs=1):
         "model_dir": str(OUTM.relative_to(ROOT))}, indent=2))
 
 if __name__ == "__main__":
-    main()
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--epochs",type=int,default=1)
+    parser.add_argument("--report-dir",default=None,help="separate corrected results from historical reports")
+    args=parser.parse_args()
+    main(args.epochs,args.report_dir)
