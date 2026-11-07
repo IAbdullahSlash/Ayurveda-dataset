@@ -77,6 +77,8 @@ def semantic_symptoms(phrases, lang="en", k=15, margin=0.035, floor=0.85):
     sys.path.insert(0, str(ROOT / "scripts"))
     from importlib import import_module
     enc = import_module("10_crosslingual").E5(threads=2, model=model)
+    from lib.embedding_integrity import verify_index
+    verify_index(emb,name,enc.path,P / "symptoms.csv")
     X = np.load(emb / f"{name}.npy").astype("float32")
     ids = pd.read_csv(emb / f"{name}_ids.csv", keep_default_na=False)
     Q = enc.encode(phrases, "query: ")

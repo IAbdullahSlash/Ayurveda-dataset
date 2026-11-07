@@ -108,7 +108,7 @@ def e1_plus(enc):
             zoo_rows[name] = {k: round(float(res.iloc[0][k]), 4) for k in ("accuracy_mean", "macro_f1_mean", "roc_auc_ovr_mean") if k in res}
         out[tag] = dict(n=len(texts), classes=len(set(y)), results=zoo_rows)
         print(f"[E1+] {tag} n={len(texts)}: " + "; ".join(f"{k} F1={v['macro_f1_mean']:.3f}" for k, v in zoo_rows.items()), flush=True)
-    for scope, mask in (("NAMASTE definitions (as stage 07)", d.definition_source == "NAMASTE" if "definition_source" in d else d.definition_en != ""),
+    for scope, mask in (("NAMASTE-only source definitions", d.definition_source == "NAMASTE" if "definition_source" in d else d.definition_en != ""),
                         ("+ WHO-filled definitions (stage 25)", d.definition_en != "")):
         x = d[mask & (d.definition_en.str.len() >= 30)].copy()
         vc = x.system_code.value_counts(); a = x[x.system_code.isin(vc[vc >= 20].index)]

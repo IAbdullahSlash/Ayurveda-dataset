@@ -15,17 +15,18 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from importlib import import_module
 E5 = import_module("10_crosslingual").E5
+from lib.embedding_integrity import record_index
 
 ROOT = Path(__file__).resolve().parents[1]
 P, OUT = ROOT / "data/processed", ROOT / "release/embeddings"
 OUT.mkdir(parents=True, exist_ok=True)
 rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=False)
 
-def main(part="all", model=None, out=None):
+def main(part="all", model=None, out=None, threads=3):
     global OUT
     if out:
         OUT = Path(out); OUT.mkdir(parents=True, exist_ok=True)
-    enc = E5(threads=3, model=model)
+    enc = E5(threads=threads, model=model)
     (OUT / "MODEL.txt").write_text(str(enc.path.relative_to(ROOT) if enc.path.is_relative_to(ROOT) else enc.path) + "\n")
     s, d, h, t = rd("symptoms"), rd("diseases"), rd("herbs"), rd("terminology")
     hindi = {}
@@ -50,6 +51,7 @@ def main(part="all", model=None, out=None):
         X = enc.encode(texts.tolist(), "passage: ").astype(np.float16)
         np.save(OUT / f"{name}.npy", X)
         pd.DataFrame({"id": ids, "text": texts}).to_csv(OUT / f"{name}_ids.csv", index=False)
+        record_index(OUT,name,enc.path,P / f"{name.removesuffix('_hi')}.csv")
         print(f"  {name:12s} {X.shape}  {time.time() - t0:.0f}s", flush=True)
 
 if __name__ == "__main__":
@@ -59,5 +61,6 @@ if __name__ == "__main__":
                     help="en = English/IAST indices, hi = Hindi indices (needs 06 --merge), all = both")
     ap.add_argument("--model", default=None, help="encoder directory (default: models/multilingual-e5-small)")
     ap.add_argument("--out", default=None, help="output directory (default: release/embeddings)")
+    ap.add_argument("--threads",type=int,default=3)
     a = ap.parse_args()
-    main(a.part, a.model, a.out)
+    main(a.part, a.model, a.out, a.threads)
