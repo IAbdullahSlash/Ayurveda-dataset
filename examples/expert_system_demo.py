@@ -25,6 +25,8 @@ for _stream in (sys.stdout, sys.stderr):
 
 ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "data/processed"
+sys.path.insert(0, str(ROOT / 'scripts'))
+from lib.indication_policy import active_indications, supported_evidence
 rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=False)
 
 # Caraka Saṃhitā, Sūtrasthāna 25.40 (agrya-saṅgraha): basti is foremost for vāta, virecana for pitta, vamana for kapha
@@ -42,6 +44,9 @@ def load():
     for n in ["herb_indication_evidence", "therapy_disease", "case_report_links",          # optional layers (stages 14-16)
               "disease_symptom_from_cases"]:                                                # case-learned profiles (stage 24)
         kb[n] = rd(n) if (P / f"{n}.csv").exists() else pd.DataFrame()
+    kb['herb_indication'] = active_indications(kb['herb_indication'])
+    if len(kb['herb_indication_evidence']):
+        kb['herb_indication_evidence'] = supported_evidence(kb['herb_indication_evidence'], kb['herb_indication'])
     return kb
 
 TIER = {"clinical_evidence": "clinical-publication matches (not efficacy assessed)", "literature_supported": "literature co-mentions", "sparse": "sparse literature",

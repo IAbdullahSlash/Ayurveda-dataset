@@ -27,6 +27,7 @@ from rapidfuzz import fuzz, process
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.indic import fix_text, iast_to_deva, hindi_usage_form, ascii_fold, iso_to_iast, has_devanagari, deva_to_iast
 from lib.keys import skeleton, skeleton_variants
+from lib.indication_policy import contain_indications
 
 ROOT = Path(__file__).resolve().parents[1]
 INT, OUT, CUR = ROOT / "data/interim", ROOT / "data/processed", ROOT / "curation"
@@ -466,6 +467,7 @@ def build_herbs(diseases):
     hind["disease_term_iast"] = hind.disease_id.map(t.term_iast).fillna("")
     hind["disease_name_en"] = hind.disease_id.map(t.name_en).fillna("")
     hind["source_id"] = "S5"
+    hind = contain_indications(hind)
 
     # ---- herb -> karma
     kv = vocab[vocab.vocab_type == "karma"].set_index("source_key")

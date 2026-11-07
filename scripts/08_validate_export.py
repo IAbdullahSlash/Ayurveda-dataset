@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.export_transaction import publish, export_lock
 from lib.provenance import write_sidecar, build_index, metadata
 from lib.indic import iast_to_deva, deva_to_iast, has_devanagari
+from lib.indication_policy import active_indications
 
 ROOT = Path(__file__).resolve().parents[1]
 P, REL = ROOT / "data/processed", ROOT / "release"
@@ -146,7 +147,7 @@ def qa_pairs(t):
                        question=f"What are the Ayurvedic pharmacological properties (rasa, guṇa, vīrya, vipāka) of {r.name_sa_iast}?", answer=en))
         qa.append(dict(qa_id=f"QA-H-{r.herb_id}-hi", topic="herb_properties", record_ids=r.herb_id, language="hi",
                        question=f"{r.name_hi_ayurvedic} के रस, गुण, वीर्य और विपाक क्या हैं?", answer=hi))
-    hi_ = t["herb_indication"]; hi_ = hi_[hi_.disease_id != ""]
+    hi_ = active_indications(t["herb_indication"])
     hn = h.set_index("herb_id")
     for did, g in hi_.groupby("disease_id"):
         if len(g) < 2:

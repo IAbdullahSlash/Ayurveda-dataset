@@ -26,6 +26,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.indic import ascii_fold
+from lib.indication_policy import active_indications
 
 ROOT = Path(__file__).resolve().parents[1]
 P, CACHE, CUR = ROOT / "data/processed", ROOT / "data/interim/cache", ROOT / "curation"
@@ -123,7 +124,7 @@ def main():
     H, F = rd("herbs"), rd("formulations")
     hc = {r.herb_id: herb_clause(r) for r in H.itertuples()}
     fc = {r.form_id: form_clause(r) for r in F.itertuples()}
-    he = run(rd("herb_indication"), "herb_id", hc, "herb links")
+    he = run(active_indications(rd("herb_indication")), "herb_id", hc, "herb links")
     fe = run(rd("formulation_indications"), "form_id", fc, "formulation links")
     he.to_csv(P / "herb_indication_evidence.csv", index=False)
     fe.to_csv(P / "formulation_indication_evidence.csv", index=False)
