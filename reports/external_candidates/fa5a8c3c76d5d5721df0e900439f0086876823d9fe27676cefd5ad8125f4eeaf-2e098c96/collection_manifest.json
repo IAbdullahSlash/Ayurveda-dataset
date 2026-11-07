@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+  "query": "Ayurveda AND (\"case report\" OR \"case series\")",
+  "metadata_response_sha256": "fa5a8c3c76d5d5721df0e900439f0086876823d9fe27676cefd5ad8125f4eeaf",
+  "extractor_sha256": "2e098c962b124cea6c422b4e08207697d6628578e0914cdda665794646b36d16",
+  "retrieved_utc": "2026-11-07T10:44:45.370168+00:00",
+  "maximum_pages": 5,
+  "total_hits_reported": 1131,
+  "collection_is_exhaustive": false,
+  "retrieved_records": 500,
+  "candidate_records": 214,
+  "gold_labels_supplied": false,
+  "article_text_downloaded": false,
+  "internal_snapshot_sha256": "257da359578788ab31d79260f027286af84d55fb6290f7620211b17fbbcd943b"
+}
