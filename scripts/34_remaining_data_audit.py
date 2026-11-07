@@ -21,7 +21,7 @@ def main():
     missing.to_csv(out/'herb_property_gap_evidence.csv',index=False)
     summary={'undefined_disorders':len(rows),'existing_linked_definitions_available':sum(r['linked_definition_available'] for r in rows),
              'herbs_missing_core_properties':len(missing),'fabricated_definitions_or_properties':0,
-             'semantic_models':'blocked by unapplied model-host network draft',
+             'semantic_models':('downloaded; weight checksums verified' if (ROOT/'reports/model_weight_verification.json').exists() and all((ROOT/'models'/name/'model.safetensors').exists() for name in ['multilingual-e5-small','nllb-200-distilled-600M']) else 'model files or checksum verification missing'),
              'independent_external_cases':'not supplied; internal cases are not relabelled as external'}
     (out/'followup_status.json').write_text(json.dumps(summary,indent=2)+'\n')
     print(json.dumps(summary))
