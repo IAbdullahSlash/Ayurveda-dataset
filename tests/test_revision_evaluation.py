@@ -58,7 +58,7 @@ def test_tuning_fits_preprocessing_inside_inner_folds():
 def test_embedding_baseline_scale_is_preserved(tmp_path,monkeypatch):
     import pandas as pd
     upgrades=importlib.import_module('26_model_upgrades')
-    d=pd.DataFrame({'definition_en':['persistent clinical presentation lasting several days']*40,
+    d=pd.DataFrame({'disease_id':[f'D{i}' for i in range(40)],'definition_en':['persistent clinical presentation lasting several days']*40,
         'definition_source':['NAMASTE']*40,'name_en':['record']*40,'system_code':['A']*20+['B']*20,
         'dosha_source':['term']*40,'dosha_label':['vata']*20+['pitta']*20,
         'name_en_hi':['नाम']*40,'definition_hi':['लक्षणों का विस्तृत विवरण']*40})

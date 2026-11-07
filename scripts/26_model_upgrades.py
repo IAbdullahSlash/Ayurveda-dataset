@@ -5,8 +5,8 @@ Stage 26 - Model upgrades measured against the original experiments on IDENTICAL
   E2c+  herb indications: original pharmacodynamic features  +  phytochemical activity profile (Dr. Duke: how many
         of the plant's chemicals carry each reported activity, log-scaled, top 300 activities)  +  plant family
   E1+   text tasks (E1a organ system, E1b doṣa from masked text, E1c Hindi): TF-IDF  vs  multilingual-e5 sentence
-        embeddings  vs  both concatenated, all with logistic regression; rows restricted to NAMASTE definitions so the
-        comparison with stage 07 is like-for-like.  A second run adds the WHO definitions filled in by stage 25
+        embeddings  vs  both concatenated, all with logistic regression; source-stratified scopes reported separately. NAMASTE-only rows must not be compared directly with
+        stage 07 runs containing WHO-filled rows. A second run adds the WHO definitions filled in by stage 25
         (more training data) and reports it separately.
 Output: reports/ml/E2c_plus.json, reports/ml/E1_plus.json
 """
@@ -91,7 +91,7 @@ def e1_plus(enc):
     d = rd("diseases")
     out = {}
     lr = lambda: LogisticRegression(max_iter=4000, C=8.0, class_weight="balanced")
-    def run(tag, texts, y):
+    def run(tag, texts, y, record_ids):
         Xe = enc.encode(texts, "passage: ")
         frame = pd.DataFrame(normalize(Xe) * 3.0)
         frame["text"] = texts
@@ -104,7 +104,7 @@ def e1_plus(enc):
                 ("embeddings", "passthrough", embedding_columns)], sparse_threshold=1.0))]
         zoo_rows = {}
         for name, X, preprocessor in variants:
-            res, *_ = evaluate_cv({name: lr()}, X, y, n_splits=5, n_repeats=1, topk=(), preprocessor=preprocessor)
+            res, *_ = evaluate_cv({name: lr()}, X, y, n_splits=5, n_repeats=1, topk=(), preprocessor=preprocessor, sample_ids=record_ids)
             zoo_rows[name] = {k: round(float(res.iloc[0][k]), 4) for k in ("accuracy_mean", "macro_f1_mean", "roc_auc_ovr_mean") if k in res}
         out[tag] = dict(n=len(texts), classes=len(set(y)), results=zoo_rows)
         print(f"[E1+] {tag} n={len(texts)}: " + "; ".join(f"{k} F1={v['macro_f1_mean']:.3f}" for k, v in zoo_rows.items()), flush=True)
@@ -112,13 +112,13 @@ def e1_plus(enc):
                         ("+ WHO-filled definitions (stage 25)", d.definition_en != "")):
         x = d[mask & (d.definition_en.str.len() >= 30)].copy()
         vc = x.system_code.value_counts(); a = x[x.system_code.isin(vc[vc >= 20].index)]
-        run(f"E1a organ system | {scope}", (a.name_en + " . " + a.definition_en).tolist(), ml.lab(a.system_code))
+        run(f"E1a organ system | {scope}", (a.name_en + " . " + a.definition_en).tolist(), ml.lab(a.system_code), a.disease_id.tolist())
         b = x[(x.dosha_source == "term") & (x.dosha_label != "unspecified")]
         vb = b.dosha_label.value_counts(); b = b[b.dosha_label.isin(vb[vb >= 15].index)]
-        run(f"E1b doṣa from masked text | {scope}", b.definition_en.map(lambda t: ml.DOSHA_MASK.sub(" ", t)).tolist(), ml.lab(b.dosha_label))
+        run(f"E1b doṣa from masked text | {scope}", b.definition_en.map(lambda t: ml.DOSHA_MASK.sub(" ", t)).tolist(), ml.lab(b.dosha_label), b.disease_id.tolist())
         if scope.startswith("NAMASTE"):
             hh = a[a.definition_hi.str.len() > 10]
-            run(f"E1c Hindi (MT) | {scope}", (hh.name_en_hi + " । " + hh.definition_hi).tolist(), ml.lab(hh.system_code))
+            run(f"E1c Hindi (MT) | {scope}", (hh.name_en_hi + " । " + hh.definition_hi).tolist(), ml.lab(hh.system_code), hh.disease_id.tolist())
     (REP / "E1_plus.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
     return out
 
