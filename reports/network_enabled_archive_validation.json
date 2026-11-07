@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "0c5159d802f22ae271daf741e74bcafe5eb7d6c59576fd344e8b79b098307d5f",
+  "zip_integrity": "passed",
+  "source_files_match": "passed",
+  "lexical_demo": "passed",
+  "base_semantic_demo": "passed",
+  "working_directory": "arbitrary /tmp",
+  "descriptor_resources": 43,
+  "sqlite_integrity": "passed",
+  "dependency_scope": "existing pinned Python environment; dependencies unchanged",
+  "model_scope": "verified base weights supplied locally; weights are not bundled in archive"
+}

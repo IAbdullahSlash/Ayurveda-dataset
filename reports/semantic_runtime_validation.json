@@ -37,6 +37,30 @@
       "verified": true
     },
     {
+      "index": "embeddings_ft/symptoms",
+      "rows": 11082,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings_ft/diseases",
+      "rows": 2892,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings_ft/herbs",
+      "rows": 466,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
+      "index": "embeddings_ft/terminology",
+      "rows": 6233,
+      "dimensions": 384,
+      "verified": true
+    },
+    {
       "index": "embeddings_ft/symptoms_hi",
       "rows": 11082,
       "dimensions": 384,

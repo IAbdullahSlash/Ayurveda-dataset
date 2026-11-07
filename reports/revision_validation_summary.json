@@ -1,10 +1,10 @@
 {
   "tests": {
-    "passed": 130,
+    "passed": 136,
     "skipped": 0,
     "failed": 0,
     "errors": 0,
-    "junit_sha256": "4243769757cf15d43448ef9c5c7f763961f7174f0e0808597c98c952e5506bf3"
+    "junit_sha256": "3aee02acb419f8a1c2838f9cc5462a9f214b7e1c1c02d5d00ee1f20bd16796a7"
   },
   "tables": {
     "case_report_entities": 8023,
@@ -89,5 +89,15 @@
       "file": "reports/revision_full/REP/E2c_plus.json",
       "n": 344
     }
+  },
+  "semantic_retrieval": {
+    "file": "reports/revision_semantic/E5b_finetuned_retrieval.json",
+    "candidate_counts": {
+      "diseases": 2015,
+      "symptoms": 10049
+    }
+  },
+  "embedding_upgrades": {
+    "file": "reports/revision_semantic/E1_plus.json"
   }
 }

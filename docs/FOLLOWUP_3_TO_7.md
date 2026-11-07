@@ -1,5 +1,7 @@
 # Follow-up on remaining items 3–7
 
+**Current status:** network access is now active and computational reruns are complete. Earlier blocker descriptions below are historical; see [network-enabled work](NETWORK_ENABLED_WORK.md).
+
 Clinical/safety review and permissions review were excluded from this batch.
 
 - Hindi: 11 malformed or inaccurate terminology definitions were replaced with source-checked AI post-edits, propagated to three derived records. Old text, English source and source hashes are preserved in `curation/hindi_definition_postedits.csv`. Every correction remains `expert_review_pending`; these are not independent language approvals.
