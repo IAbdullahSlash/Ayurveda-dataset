@@ -70,7 +70,9 @@ def test_embedding_baseline_scale_is_preserved(tmp_path,monkeypatch):
         if name=='e5 embeddings + LR':
             assert np.allclose(X,[3.,4.])
         if name=='TF-IDF + e5 + LR':
-            assert np.allclose(X[[0,1]],[1.8,2.4])
+            assert np.allclose(X[['embedding_0','embedding_1']],[1.8,2.4])
+            transformed=kwargs['preprocessor'].fit_transform(X,y)
+            assert transformed.shape[0]==len(X)
         return pd.DataFrame([{'accuracy_mean':0.,'macro_f1_mean':0.,'roc_auc_ovr_mean':0.}]),None,None,None
     monkeypatch.setattr(upgrades,'evaluate_cv',evaluate)
     class Encoder:

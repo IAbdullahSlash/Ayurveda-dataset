@@ -93,9 +93,9 @@ def e1_plus(enc):
     lr = lambda: LogisticRegression(max_iter=4000, C=8.0, class_weight="balanced")
     def run(tag, texts, y, record_ids):
         Xe = enc.encode(texts, "passage: ")
-        frame = pd.DataFrame(normalize(Xe) * 3.0)
+        embedding_columns = [f"embedding_{i}" for i in range(Xe.shape[1])]
+        frame = pd.DataFrame(normalize(Xe) * 3.0, columns=embedding_columns)
         frame["text"] = texts
-        embedding_columns = list(range(Xe.shape[1]))
         variants = [
             ("TF-IDF + LR (stage 07)", np.asarray(texts, dtype=object), ml.text_preprocessor()),
             ("e5 embeddings + LR", Xe, None),
