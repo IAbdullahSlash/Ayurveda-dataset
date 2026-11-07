@@ -1,6 +1,6 @@
 # Network-enabled continuation — 7 November 2026
 
-The user-published environment's policy is unrestricted and enforced. Fresh model-configuration and Europe PMC requests succeeded. The agent did not reapply old settings or publish the environment.
+On 7 November 2026 the model host and Europe PMC were reachable, so the network-dependent steps below were run.
 
 ## Verified models and corrected experiments
 
@@ -25,6 +25,7 @@ Indexes carry per-entity model/source/array/ID fingerprints. The demo verifies t
 Commands:
 
 ```bash
+# optional cache locations (POSIX shell; on Windows PowerShell use $env:NAME = "...")
 export HF_HOME=/tmp/ayurkb-hf-cache
 export HF_HUB_DISABLE_XET=1
 export MPLCONFIGDIR=/tmp/ayurkb-mpl

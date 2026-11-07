@@ -9,7 +9,7 @@
 [![Release v1.2](https://img.shields.io/badge/release-v1.2-0f8a5f?style=flat-square)](docs/DATASHEET.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](requirements.txt)
-[![Tests: 94 passing](https://img.shields.io/badge/tests-94%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Tests: 135 passing](https://img.shields.io/badge/tests-135%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Frictionless Data Package](https://img.shields.io/badge/Frictionless-data%20package-1f6feb?style=flat-square)](release/datapackage.json)
 [![Languages: English, Hindi, Sanskrit](https://img.shields.io/badge/languages-English%20%7C%20Hindi%20%7C%20Sanskrit-e67e22?style=flat-square)](#whats-inside)
 
@@ -211,7 +211,7 @@ flowchart TB
         direction LR
         S1["NAMASTE<br/>WHO 2022"] ~~~ S2["USDA Duke<br/>Amidha"] ~~~ S3["GBIF<br/>Wikidata"] ~~~ S4["PubMed · ClinicalTrials.gov<br/>Europe PMC · PubChem"]
     end
-    subgraph PIPE["Pipeline: scripts 00–26"]
+    subgraph PIPE["Pipeline: scripts 00–42"]
         direction LR
         P1["Fetch with<br/>SHA-256 provenance"] --> P2["Parse, transliterate,<br/>repair diacritics"] --> P3["Integrate,<br/>translate EN → HI"] --> P4["Evidence, case reports,<br/>accuracy layers"] --> P5["Validate<br/>and export"]
     end
@@ -249,7 +249,8 @@ flowchart TB
 | | `09_docs.py`, `11_embed_index.py` | data dictionary; multilingual embedding index |
 | | `12_report.py`, `13_package.sh` | dataset report and the result tables in this README; release zip |
 | | `21_review_workbooks.py`, `22_build_tools.py` | expert-review workbook (build / merge) and the interactive tools |
-| Test | `tests/` | 94 automated checks: transliteration, keys, references, encoding, domain and safety rules, bilingual coverage, ML baselines, the demo |
+| Revision | `27`–`42` | peer-review revision: Hindi post-edits (32) and the Prameha symptom repair (33), both run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns. See [`docs/REVISION_STATUS.md`](docs/REVISION_STATUS.md) |
+| Test | `tests/` | 136 automated checks: transliteration, keys, references, encoding, domain and safety rules, bilingual coverage, ML baselines, the demo |
 
 **Built with**
 
@@ -331,7 +332,7 @@ Ayurveda-dataset/
 │   ├── interim/        parsed intermediates; cached API responses and translations
 │   └── processed/      the knowledge base: 43 CSV tables
 ├── curation/           curated layers: formulations, safety, glossary, crosswalks (flagged for review)
-├── scripts/            pipeline stages 00–26 and shared helpers (lib/)
+├── scripts/            pipeline stages 00–42 and shared helpers (lib/)
 ├── tests/              automated checks
 ├── examples/           expert-system demo
 ├── models/trained/     small trained classifiers (E3, E4)
@@ -348,7 +349,7 @@ Ayurveda-dataset/
 
 Release **v1.2**. Done:
 
-- [x] 26 pipeline stages, experiments E1–E8 and 94 automated checks
+- [x] 42 pipeline scripts, experiments E1–E8 and 136 automated checks
 - [x] Dataset report, Review Desk and Prakṛti questionnaire (source pages in `release/tools/`)
 - [x] ChEMBL compound–target links: 323 links, 62 compounds, 196 human proteins (built locally, see below)
 

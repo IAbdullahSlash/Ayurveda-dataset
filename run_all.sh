@@ -26,6 +26,8 @@ py scripts/17_phytochem_ids.py            # PubChem identifiers (+ ChEMBL target
 py scripts/18_image_datasets.py           # links to CC BY 4.0 plant-image datasets
 # optional: py scripts/19_ictrp_import.py --csv <manual WHO ICTRP export>
 py scripts/25_fill_missing.py             # WHO definitions + sign lists, inherited profiles, doṣa suggestions, MT post-edits
+py scripts/32_apply_hindi_postedits.py    # source-hash-checked Hindi definition fixes (curation/hindi_definition_postedits.csv)
+py scripts/33_repair_symptom_scope.py     # Prameha coordination repair in the symptom graph (idempotent)
 py scripts/24_improve_matching.py         # experiment E6b: crosswalk, semantic matching, group ranking, case-learned profiles
 py scripts/26_model_upgrades.py           # E2c+ (chemistry features) and E1+ (multilingual embeddings) vs the originals
 py scripts/23_finetune_search.py          # E5b: domain fine-tuning of the multilingual search model (~40 min CPU)

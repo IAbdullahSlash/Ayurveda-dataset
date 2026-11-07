@@ -1,10 +1,10 @@
 # Peer-review revision status
 
-This revision addresses the nine agreed work areas. Technical changes are committed locally; nothing has been pushed. Completed engineering work is distinguished below from independent review or access prerequisites. No review verdict or clinical result has been invented.
+This revision addresses the nine agreed work areas. The work was developed on branch `codex/ayurkb-review-fixes`. Completed engineering work is distinguished below from independent review or access prerequisites. No review verdict or clinical result has been invented.
 
 | Task | Completed technical work | Remaining prerequisite or limitation |
 |---|---|---|
-| 1 Evaluation | Fold-local TF-IDF, E4 imputation/encoding/scaling, herb vocabulary, chemistry SVD/scaling and family encoding; E4 holdout before model selection; full E1/E2/E4 and nested E7 reruns; corrected suggestion validation; split manifests and model comparisons | Stage 26 embedding upgrades and full-corpus retrieval reruns completed after network activation; independent clinical validation remains pending |
+| 1 Evaluation | Fold-local TF-IDF, E4 imputation/encoding/scaling, herb vocabulary, chemistry SVD/scaling and family encoding; E4 holdout before model selection; full E1/E2/E4 and nested E7 reruns; corrected suggestion validation; split manifests and model comparisons | Stage 26 embedding upgrades and full-corpus retrieval reruns completed with the pinned models; independent clinical validation remains pending |
 | 2 Provenance | Source-dependency sidecar for every processed row; corpus metadata; WHO definition overrides; bilingual QA references; all-table regression validation | Conservative record dependencies are explicit; exact historical field attribution is unavailable where source data never recorded it; rights approval is separate |
 | 3 Export/release | Validate before generation, staged immutable snapshots, atomic publication pointer, rollback of compatibility paths, correct descriptor paths, manifest verification and atomic ZIP publication | Snapshot pointer is the consistent multi-file reader API; legacy paths can be interrupted by process termination |
 | 4 Rights/safety | Source-rights ledger and text inventory; corrected excerpt disclosures; explicit unassessed safety in demo/corpus; retrieval tiers distinguished from efficacy | Qualified rights and safety decisions; permission evidence is not supplied by request templates |
@@ -30,6 +30,6 @@ The identity registry is append-only. Unknown safety states remain unknown, and 
 
 ## Network activation and resumed work
 
-The user-published environment now has enforced unrestricted networking. Fresh requests to Hugging Face and Europe PMC succeeded on 7 November 2026. Both pinned models were downloaded and their weights verified against revision-specific SHA-256 values. See `model_weight_verification.json`, `revision_semantic/`, `retranslation/` and the current publication annotation pool under `reports/`.
+On 7 November 2026 the full Europe PMC query ran and both pinned models were downloaded and their weights verified against revision-specific SHA-256 values. See `model_weight_verification.json`, `revision_semantic/`, `retranslation/` and the current publication annotation pool under `reports/`.
 
-No further network change is needed for those operations. Independent clinical/safety review and source-permission decisions remain outside this batch. Machine retranslation proposals and publication candidates are not adjudicated labels or approved language corrections. See [network-enabled work](NETWORK_ENABLED_WORK.md).
+Independent clinical/safety review and source-permission decisions remain outside this batch. Machine retranslation proposals and publication candidates are not adjudicated labels or approved language corrections. See [network-enabled work](NETWORK_ENABLED_WORK.md).

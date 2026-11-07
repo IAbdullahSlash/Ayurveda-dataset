@@ -9,7 +9,7 @@ The supplied review assessed commit `c30c158cce0a3c26d0b3fb3b9bfcc69216fe9a7e`; 
 | M3 Permissions | Source-rights ledger, actual text inventory and corrected commercial-subset claims | Technical disclosure fixed; qualified permissions assessment pending |
 | M4 Semantic extraction | Modifier/conjunction preservation with tests, candidate diff and stratified review sample | Parser fixed; semantic accuracy requires adjudication |
 | M5 Expert review | Source-visible queues and protocols; regeneration protects annotations | Review infrastructure complete; no verdicts fabricated |
-| M6 Preprocessing | Training-fold transforms and E4 pre-selection holdout; additional herb/chemistry audit | Local fixes and E1/E2/E4/E7 reruns complete; suggestion validation corrected; embedding reruns completed after network activation |
+| M6 Preprocessing | Training-fold transforms and E4 pre-selection holdout; additional herb/chemistry audit | Local fixes and E1/E2/E4/E7 reruns complete; suggestion validation corrected; embedding reruns completed with the pinned models |
 | M7 Real-case comparators | Same-case paired evaluation interface, publication-cluster intervals, explicit baseline protocol | Tooling complete; external/adjudicated paired predictions pending |
 | M8 Synthetic scope | Synthetic metrics kept separate and labelled; grouped QA manifests | Disclosure fixed; clinical study remains external work |
 | M9 Hindi quality | Flagged translation queue with source text, IDs and hashes; fuller retrieval evaluation and stronger concept exclusions | Tooling complete; language review pending; model reruns completed |
