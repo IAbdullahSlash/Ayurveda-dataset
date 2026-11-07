@@ -1,0 +1,28 @@
+{
+  "suggestions": 1420,
+  "predicted_classes": {
+    "vata": 959,
+    "pitta": 255,
+    "kapha": 181,
+    "vata+pitta+kapha": 23,
+    "vata+pitta": 2
+  },
+  "own_term_labelled_records": 832,
+  "own_term_classes": {
+    "vata": 319,
+    "pitta": 182,
+    "kapha": 155,
+    "vata+pitta+kapha": 120,
+    "vata+pitta": 22,
+    "vata+kapha": 20,
+    "pitta+kapha": 14
+  },
+  "median_confidence": 0.5694999999999999,
+  "confidence_quartiles": {
+    "0.25": 0.444,
+    "0.75": 0.7062499999999999
+  },
+  "expert_target_labels_available": false,
+  "calibrated_threshold_selected": false,
+  "note": "Descriptive distribution shift, not an error rate. Class-specific calibration needs independent target labels; no class quotas imposed."
+}
