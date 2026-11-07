@@ -21,3 +21,22 @@ Three linked formulation-ingredient rows had incorrectly labeled these materials
 The corpus, demo and generated indication-QA wording use materia-medica terminology where appropriate. The legacy table name `herbs` and ID prefix remain compatible. Safety-review batches expose material and taxon-identity scope and prioritize the non-botanical records for qualified review. Source category is not independent authentication of a physical preparation, species identification, safety approval or efficacy evidence.
 
 Both herb embedding indexes were rebuilt, and all 12 base/fine-tuned indexes were checked against their current source/model hashes, finite arrays and unit norms. Updated classification, source references and scope are documented in the dictionary and datasheet.
+
+## Chemistry coverage: six concrete alignment leads
+
+`scripts/52_audit_chemistry_coverage.py` checks the existing Duke taxon and chemistry tables before acquiring new data. Of the 466 materia-medica records, 224 currently have chemistry and 242 do not. Those 242 comprise 229 botanical taxon links, 11 unresolved identities and the two non-botanical materials. None of their current master names occurs verbatim among Duke taxa with chemistry, so a simple exact-name join does not recover missing coverage.
+
+Six records do have a recorded source-name variant present in Duke's chemistry layer:
+
+| Current master record | Recorded variant with Duke observations | Candidate source rows |
+|---|---|---:|
+| HERB-0031, Anethum sowa | Anethum graveolens | 420 |
+| HERB-0228, Hippophae tibetana | Hippophae rhamnoides | 65 |
+| HERB-0152, Curcuma aromatica | Curcuma zedoaria | 49 |
+| HERB-0412, Swertia chirayita | Swertia chirata | 25 |
+| HERB-0035, Aquilaria malaccensis | Aquilaria agallocha | 18 |
+| HERB-0138, Crateva magna | Crateva religiosa | 1 |
+
+These counts are source observation rows, not independent compounds, clinical studies or verified synonym relationships. The Curcuma and Swertia source names also identify other published master records. Transferring their chemistry automatically could mix species or silently merge identities. The [protected chemistry review queue](../reports/source_gap_research/chemistry_gap_review.csv) therefore records source taxon IDs, compound counts, existing master-name collisions and blank decision fields. [Input hashes and summary](../reports/source_gap_research/chemistry_gap_status.json) make the audit reproducible.
+
+No chemistry rows or biological aliases were added. Qualified botanical alignment can resolve these six leads before expanding searches to additional sources; the remaining gaps are not treated as evidence that the plants contain no chemicals.
