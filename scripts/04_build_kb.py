@@ -29,6 +29,7 @@ from lib.indic import fix_text, iast_to_deva, hindi_usage_form, ascii_fold, iso_
 from lib.keys import skeleton, skeleton_variants
 from lib.indication_policy import apply_mapping_policy
 from lib.safety import apply_safety_states
+from lib.materials import apply_material_types
 
 ROOT = Path(__file__).resolve().parents[1]
 INT, OUT, CUR = ROOT / "data/interim", ROOT / "data/processed", ROOT / "curation"
@@ -438,7 +439,7 @@ def build_herbs(diseases):
         for nm, lang, src in nl:
             if nm and str(nm).strip():
                 names_long.append(dict(herb_id=hid, name=str(nm).strip(), language_script=lang, source=src))
-    herbs = apply_safety_states(pd.DataFrame(rows))
+    herbs = apply_material_types(apply_safety_states(pd.DataFrame(rows)))
     herbs["data_origin"] = "integrated"
     names = pd.DataFrame(names_long).drop_duplicates()
 
@@ -579,6 +580,7 @@ def build_formulations(herbs, names, diseases):
         "tāmra": "copper (calx)", "gairika": "red ochre (purified)", "śilājatu": "shilajit (mineral pitch)",
         "śaṅkha": "conch shell", "godantī": "gypsum", "karpūra": "camphor", "hiṅgu": "asafoetida (resin)",
         "vaṃśalocana": "bamboo manna", "nāgavallī": "betel leaf juice"}
+    non_botanical_ids = set(herbs.loc[herbs.material_type.eq('non_botanical_material'), 'herb_id'])
     ing, ind = [], []
     dis_idx = defaultdict(list)
     for did, term, depth in zip(diseases.disease_id, diseases.term_iast, diseases.depth):
@@ -588,7 +590,7 @@ def build_formulations(herbs, names, diseases):
         for k, x in enumerate([y.strip() for y in r.ingredients_sa_iast.split(";") if y.strip()], 1):
             hid = idx.get(skeleton(x), "")
             ing.append(dict(form_id=r.form_id, rank=k, ingredient_sa_iast=x, ingredient_sa_deva=iast_to_deva(x),
-                            herb_id=hid, ingredient_type="herb" if hid else ("mineral/animal/other" if x in NONHERB else "herb (unlinked)"),
+                            herb_id=hid, ingredient_type="mineral/animal/other" if hid in non_botanical_ids else "herb" if hid else ("mineral/animal/other" if x in NONHERB else "herb (unlinked)"),
                             ingredient_en=NONHERB.get(x, "")))
         for x in [y.strip() for y in r.indications_sa_iast.split(";") if y.strip()]:
             k = skeleton(x)

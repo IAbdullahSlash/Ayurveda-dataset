@@ -80,6 +80,12 @@ def metadata(table, row, index, licences):
                     'quality_flags':row.get(field + '_qe_flags','')}
                 sources.add(origin)
     if table == 'herbs':
+        for field in ['material_type', 'taxon_identity_status', 'material_type_source_id', 'material_type_source_record', 'material_type_note']:
+            if field in row:
+                fields[field] = {'source_ids': [row['material_type_source_id']] if row.get('material_type_source_id') else [],
+                    'source_record_ids': [row['material_type_source_record']] if row.get('material_type_source_record') else [],
+                    'method': 'source identifier/category; material_type_overrides.csv',
+                    'review_status': 'source_category_only; not physical authentication or safety approval'}
         for field in ['rasa','guna','virya','vipaka','karma_actions','dosha_pacify','dosha_aggravate','parts_used','description_en']:
             if row.get(field) and row.get('amidha_ids'):
                 fields[field] = {'source_ids':['S5'],

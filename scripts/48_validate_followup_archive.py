@@ -61,6 +61,13 @@ def main():
             states = dict(connection.execute('SELECT safety_assessment_status,COUNT(*) FROM herbs GROUP BY safety_assessment_status'))
             if '' in states or not set(states) <= {'unassessed', 'review_pending', 'assessed'}:
                 raise ValueError('Missing or unknown safety assessment state')
+            material_categories = dict(connection.execute('SELECT material_type,COUNT(*) FROM herbs GROUP BY material_type'))
+            if not set(material_categories) <= {'botanical_taxon_linked', 'non_botanical_material', 'identity_unresolved'}:
+                raise ValueError('Missing or unknown material category')
+            if connection.execute("SELECT COUNT(*) FROM herbs WHERE material_type='non_botanical_material' AND gbif_key!=''").fetchone()[0]:
+                raise ValueError('Non-botanical category contradicts stored plant taxon link')
+            if connection.execute("SELECT COUNT(*) FROM formulation_ingredients i JOIN herbs h ON i.herb_id=h.herb_id WHERE h.material_type='non_botanical_material' AND i.ingredient_type!='mineral/animal/other'").fetchone()[0]:
+                raise ValueError('Non-botanical ingredient is still classified as an herb')
         if args.model:
             model = args.model.resolve()
             (target / 'models/multilingual-e5-small').symlink_to(model, target_is_directory=True)
@@ -78,7 +85,7 @@ def main():
             commands.append(dict(language=language, status='passed', mode='base semantic' if args.model else 'lexical'))
     report = dict(archive_sha256=digest(args.archive), csv_sha256=hashes,
         zip_integrity='passed', descriptor_resources=len(descriptor['resources']), sqlite_integrity='passed',
-        unsupported_indication_evidence=0, safety_states=states, extracted_demos=commands,
+        unsupported_indication_evidence=0, safety_states=states, material_categories=material_categories, extracted_demos=commands,
         test_run=dict(passed=len(tests)-skipped, skipped=skipped, failed=0, errors=0, junit_sha256=digest(args.junit)),
         dependency_scope='existing pinned Python environment; no clean dependency install claimed',
         model_scope='verified base weights supplied locally; not bundled' if args.model else 'lexical only; no model used',

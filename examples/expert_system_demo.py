@@ -210,10 +210,11 @@ def main():
     hl = sorted(hl, key=lambda h: "viṣa" in str(herbs.loc[h].safety_class))
     hl = list(hl)[:12]
     if len(hl):
-        print("   Herbs recorded for this condition (sorted by literature evidence) / औषधियाँ:")
+        print("   Materia medica recorded for this condition (sorted by literature evidence) / द्रव्य:")
         for h in hl:
             x = herbs.loc[h]
             warn = ' | ' + safety_text(x.to_dict())
+            warn += ' | material category: ' + x.material_type
             e = best.get(h)
             evs = ""
             if e is not None:

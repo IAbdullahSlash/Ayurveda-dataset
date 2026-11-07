@@ -227,7 +227,7 @@ FORM-022,3,āmalakī,आमलकी,HERB-0324,herb,
 FORM-022,4,gandhaka,गन्धक,,mineral/animal/other,sulphur (purified)
 FORM-022,5,eraṇḍataila,एरण्डतैल,,mineral/animal/other,castor oil
 FORM-022,6,guggulu,गुग्गुलु,HERB-0132,herb,
-FORM-023,1,śilājatu,शिलाजतु,HERB-0045,herb,shilajit (mineral pitch)
+FORM-023,1,śilājatu,शिलाजतु,HERB-0045,mineral/animal/other,shilajit (mineral pitch)
 FORM-023,2,guggulu,गुग्गुलु,HERB-0132,herb,
 FORM-023,3,karpūra,कर्पूर,HERB-0112,herb,camphor
 FORM-023,4,vacā,वचा,HERB-0010,herb,
@@ -263,7 +263,7 @@ FORM-024,5,tāmra,ताम्र,,mineral/animal/other,copper (calx)
 FORM-024,6,harītakī,हरीतकी,HERB-0426,herb,
 FORM-024,7,bibhītaka,बिभीतक,HERB-0425,herb,
 FORM-024,8,āmalakī,आमलकी,HERB-0324,herb,
-FORM-024,9,śilājatu,शिलाजतु,HERB-0045,herb,shilajit (mineral pitch)
+FORM-024,9,śilājatu,शिलाजतु,HERB-0045,mineral/animal/other,shilajit (mineral pitch)
 FORM-024,10,guggulu,गुग्गुलु,HERB-0132,herb,
 FORM-024,11,citraka,चित्रक,HERB-0341,herb,
 FORM-024,12,kaṭukī,कटुकी,,herb (unlinked),
@@ -278,7 +278,7 @@ FORM-025,7,vacā,वचा,HERB-0010,herb,
 FORM-025,8,guḍūcī,गुडूची,HERB-0431,herb,
 FORM-025,9,bhallātaka,भल्लातक,HERB-0379,herb,
 FORM-025,10,vatsanābha,वत्सनाभ,HERB-0006,herb,
-FORM-026,1,gairika,गैरिक,HERB-0189,herb,red ochre (purified)
+FORM-026,1,gairika,गैरिक,HERB-0189,mineral/animal/other,red ochre (purified)
 FORM-026,2,śuṇṭhī,शुण्ठी,,herb (unlinked),
 FORM-026,3,nāgavallī,नागवल्ली,,mineral/animal/other,betel leaf juice
 FORM-027,1,aśvagandhā,अश्वगन्धा,HERB-0460,herb,

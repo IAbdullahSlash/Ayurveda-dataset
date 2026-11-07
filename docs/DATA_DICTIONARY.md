@@ -356,7 +356,7 @@ Formulation → NAMASTE disease links.
 
 ## `formulation_ingredients`  (500 rows × 7 columns)
 
-Ingredients of each formulation, linked to herbs where possible.
+Ingredients of each formulation, linked to the historical materia-medica master where possible. A nonempty herb_id can refer to a non-botanical material; ingredient_type preserves that distinction.
 
 | column | type | filled | example | description |
 |---|---|---|---|---|
@@ -365,7 +365,7 @@ Ingredients of each formulation, linked to herbs where possible.
 | `ingredient_sa_iast` | text | 100% | harītakī |  |
 | `ingredient_sa_deva` | text | 100% | हरीतकी |  |
 | `herb_id` | text | 77% | HERB-0426 |  |
-| `ingredient_type` | text | 100% | herb |  |
+| `ingredient_type` | text | 100% | herb | herb / herb (unlinked) / mineral/animal/other; linked non-botanical material IDs retain the latter category |
 | `ingredient_en` | text | 11% | sugar candy |  |
 
 ## `formulations`  (43 rows × 29 columns)
@@ -572,9 +572,9 @@ USDA Duke: phytochemicals reported per plant and part, with amounts (ppm) and re
 | `reference` | text | 73% | WO2 | Classical text reference or supporting case reports |
 | `source_id` | text | 100% | S4 | Source (see sources table) |
 
-## `herbs`  (466 rows × 59 columns)
+## `herbs`  (466 rows × 64 columns)
 
-Materia medica master (466 plants): official SAT-F names, GBIF-validated accepted botanical names, Wikidata Hindi names, Dravyaguṇa properties, mahākaṣāya membership, safety flags and modern evidence counts.
+Historical materia-medica master: botanical taxon links, non-botanical materials and unresolved identities are distinguished explicitly. Source names and herb IDs are retained; a linked taxon is not physical-material authentication. Includes SAT-F/Amidha names, properties, groups, safety states and evidence counts.
 
 | column | type | filled | example | description |
 |---|---|---|---|---|
@@ -637,6 +637,11 @@ Materia medica master (466 plants): official SAT-F names, GBIF-validated accepte
 | `safety_review_reference` | text | 0% |  | Source evidence supporting the scoped safety assessment |
 | `safety_review_assessment_date` | text | 0% |  | Assessment date (YYYY-MM-DD) |
 | `safety_review_scope` | text | 0% |  | Species, preparation, population or other scope of the recorded assessment |
+| `material_type` | text | 100% | botanical_taxon_linked | botanical_taxon_linked / non_botanical_material / identity_unresolved; source classification, not clinical approval |
+| `taxon_identity_status` | text | 100% | linked_gbif_taxon | linked_gbif_taxon / unresolved / not_applicable_non_botanical |
+| `material_type_source_id` | text | 98% | S7 | Source supporting the material category (S7 for a taxon linkage; S2/S5 for recorded non-botanical source categories) |
+| `material_type_source_record` | text | 98% | 8312665 | GBIF key or exact recorded source/category locator |
+| `material_type_note` | text | 100% | Taxon identifier linkage; not independent authentication of … | Category evidence and scope limitations; no species identity inferred from higher-rank fallback |
 
 ## `multiscript_names`  (20,895 rows × 12 columns)
 

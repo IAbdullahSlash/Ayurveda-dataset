@@ -18,6 +18,7 @@ from lib.provenance import write_sidecar, build_index, metadata
 from lib.indic import iast_to_deva, deva_to_iast, has_devanagari
 from lib.indication_policy import active_indications, supported_evidence, apply_mapping_policy
 from lib.safety import apply_safety_states, safety_text
+from lib.materials import apply_material_types, apply_ingredient_material_types
 
 ROOT = Path(__file__).resolve().parents[1]
 P, REL = ROOT / "data/processed", ROOT / "release"
@@ -104,6 +105,14 @@ def checks():
             df = tables[t]; m = df[en] != ""
             cov[f"{t}.{hi}"] = round(float((df.loc[m, hi] != "").mean()), 4) if m.any() else None
     h = tables["herbs"]
+    expected_materials = apply_material_types(h)
+    material_fields = ['material_type', 'taxon_identity_status', 'material_type_source_id', 'material_type_source_record', 'material_type_note']
+    if any(field not in h or not h[field].equals(expected_materials[field]) for field in material_fields):
+        fails.append('material identity scope is missing or inconsistent; run stage 51')
+    rep['material_identity_categories'] = expected_materials.material_type.value_counts().to_dict()
+    _, incorrect_ingredient_types = apply_ingredient_material_types(tables['formulation_ingredients'], expected_materials)
+    if incorrect_ingredient_types:
+        fails.append('non-botanical formulation ingredients are classified as herbs; run stage 51')
     expected_safety = apply_safety_states(h)
     safety_fields = ['safety_assessment_status'] + ['safety_review_' + field for field in ('reviewer', 'reference', 'assessment_date', 'scope')]
     if any(field not in h or not h[field].equals(expected_safety[field]) for field in safety_fields):
@@ -168,12 +177,12 @@ def qa_pairs(t):
         dr = d.set_index("disease_id").loc[did]
         names = [f"{hn.loc[x].name_sa_iast or hn.loc[x].name_ascii} ({hn.loc[x].accepted_name})" for x in g.herb_id.unique()[:15]]
         qa.append(dict(qa_id=f"QA-I-{did}", topic="herbs_for_condition", record_ids=";".join([did] + list(g.herb_id.unique()[:15])), language="en",
-                       question=f"Which single herbs are indicated for {dr.term_iast} ({dr.name_en})?",
-                       answer="Herbs recorded with this indication: " + "; ".join(names) + ". (Knowledge-base listing, not a prescription.)"))
+                       question=f"Which materia-medica items are recorded for {dr.term_iast} ({dr.name_en})?",
+                       answer="Materials recorded with this indication: " + "; ".join(names) + ". (Knowledge-base listing, not a prescription.)"))
         names_hi = [hn.loc[x].name_hi_ayurvedic or hn.loc[x].name_hi_common or hn.loc[x].accepted_name for x in g.herb_id.unique()[:15]]
         qa.append(dict(qa_id=f"QA-I-{did}-hi", topic="herbs_for_condition", record_ids=";".join([did] + list(g.herb_id.unique()[:15])), language="hi",
-                       question=f"{dr.term_hi} में कौन-सी औषधियाँ बताई गई हैं?",
-                       answer="इस संकेत के लिए दर्ज औषधियाँ: " + "; ".join(names_hi) + "। (ज्ञानकोश सूची - चिकित्सकीय पर्चा नहीं।)"))
+                       question=f"{dr.term_hi} के लिए कौन-से द्रव्य दर्ज हैं?",
+                       answer="इस संकेत के लिए दर्ज द्रव्य: " + "; ".join(names_hi) + "। (ज्ञानकोश सूची - चिकित्सकीय पर्चा नहीं।)"))
     for r in t["diagnostic_methods"].itertuples():
         qa.append(dict(qa_id=f"QA-X-{r.dx_id}", topic="diagnostic_method", record_ids=r.dx_id, language="en",
                        question=f"What is {r.name_en}" + (f" ({r.name_sa_iast})" if r.name_sa_iast not in ("", "—") else "") + " and what is its modern counterpart?",
@@ -211,8 +220,8 @@ def corpus(t):
                          translation_flags=getattr(r, "definition_hi_qe_flags", "")))
     for r in t["herbs"].itertuples():
         docs.append(dict(doc_id=r.herb_id, type="herb", title_en=r.name_en, title_sa=r.name_sa_iast, title_hi=r.name_hi_common or r.name_hi_ayurvedic,
-                         text_en=f"{r.name_sa_iast or r.name_ascii} | {r.accepted_name} ({r.family}) | rasa {r.rasa} | guṇa {r.guna} | vīrya {r.virya} | vipāka {r.vipaka} | pacifies {r.dosha_pacify} | aggravates {r.dosha_aggravate} | actions {r.karma_actions} | indications {r.indications_sa_ascii} | {r.description_en} | {safety_text(r._asdict())}",
-                         text_hi=f"{r.name_sa_deva} | {r.name_hi_common} | {getattr(r, 'description_hi', '')} | {safety_text(r._asdict(), 'hi')}", source=r.source_ids, safety_review_status=r.safety_assessment_status))
+                         text_en=f"{r.name_sa_iast or r.name_ascii} | {r.accepted_name} ({r.family}) | material category {r.material_type}; {r.material_type_note} | rasa {r.rasa} | guṇa {r.guna} | vīrya {r.virya} | vipāka {r.vipaka} | pacifies {r.dosha_pacify} | aggravates {r.dosha_aggravate} | actions {r.karma_actions} | indications {r.indications_sa_ascii} | {r.description_en} | {safety_text(r._asdict())}",
+                         text_hi=f"{r.name_sa_deva} | {r.name_hi_common} | material_type={r.material_type} | {getattr(r, 'description_hi', '')} | {safety_text(r._asdict(), 'hi')}", source=r.source_ids, safety_review_status=r.safety_assessment_status, material_type=r.material_type))
     for r in t["terminology"].itertuples():
         docs.append(dict(doc_id=r.term_uid, type=f"term:{r.domain}", title_en=r.term_en, title_sa=r.term_sa_iast_primary, title_hi=r.term_hi,
                          text_en=f"{r.term_sa_iast} | {r.term_en} | {r.definition_en}",

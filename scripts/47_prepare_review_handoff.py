@@ -37,13 +37,13 @@ def main():
                 case_refs[herb.strip()].add(row.case_id)
                 if row.case_kind == 'adverse_event':
                     adverse_refs[herb.strip()].add(row.case_id)
-    safety = herbs[['herb_id', 'accepted_name', 'name_sa_iast', 'parts_used', 'safety_class',
+    safety = herbs[['herb_id', 'accepted_name', 'material_type', 'taxon_identity_status', 'name_sa_iast', 'parts_used', 'safety_class',
                     'safety_hazard_en', 'safety_assessment_status', 'source_ids']].copy()
     safety['formulation_ids'] = safety.herb_id.map(lambda h: ';'.join(sorted(form_refs[h])))
     safety['case_report_ids'] = safety.herb_id.map(lambda h: ';'.join(sorted(case_refs[h])))
     safety['adverse_report_mentions'] = safety.herb_id.map(lambda h: len(adverse_refs[h]))
-    safety['priority'] = [0 if flag or adverse_refs[h] else 1 if form_refs[h] else 2 if case_refs[h] else 3
-                          for h, flag in zip(safety.herb_id, safety.safety_class)]
+    safety['priority'] = [0 if flag or adverse_refs[h] or material == 'non_botanical_material' else 1 if form_refs[h] else 2 if case_refs[h] else 3
+                          for h, flag, material in zip(safety.herb_id, safety.safety_class, safety.material_type)]
     safety['interpretation'] = 'Review priority only: article mentions do not establish herb-specific causation; unassessed is not safe.'
     write_review_csv(annotation_columns(safety.sort_values(['priority', 'herb_id'])), OUT / 'safety_review_batch.csv')
     form_batch = forms[['form_id', 'name_sa_iast', 'classical_reference', 'ingredients_sa_iast',

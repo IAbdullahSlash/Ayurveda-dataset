@@ -2070,6 +2070,26 @@
           {
             "name": "safety_review_scope",
             "type": "string"
+          },
+          {
+            "name": "material_type",
+            "type": "string"
+          },
+          {
+            "name": "taxon_identity_status",
+            "type": "string"
+          },
+          {
+            "name": "material_type_source_id",
+            "type": "string"
+          },
+          {
+            "name": "material_type_source_record",
+            "type": "string"
+          },
+          {
+            "name": "material_type_note",
+            "type": "string"
           }
         ],
         "primaryKey": "herb_id"

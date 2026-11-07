@@ -122,7 +122,7 @@
     },
     "herbs": {
       "rows": 466,
-      "columns": 59
+      "columns": 64
     },
     "multiscript_names": {
       "rows": 20895,
@@ -372,6 +372,11 @@
   "mojibake_cells": {},
   "non_devanagari_in_devanagari_columns": {},
   "iast_devanagari_roundtrip_rate": 1.0,
+  "material_identity_categories": {
+    "botanical_taxon_linked": 453,
+    "identity_unresolved": 11,
+    "non_botanical_material": 2
+  },
   "safety_assessment_states": {
     "unassessed": 442,
     "review_pending": 24
@@ -597,5 +602,5 @@
       "unresolved": 0
     }
   },
-  "sqlite_bytes": 55750656
+  "sqlite_bytes": 55832576
 }

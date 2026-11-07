@@ -68,7 +68,7 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 | | `symptoms` | 11,082 | SAT-D lexicon (9,400 Sanskrit symptom phrases + English glosses) and 1,682 further source-derived records |
 | | `disease_symptom` | 11,883 | disease → symptom graph parsed from clinical definitions |
 | | `diagnostic_methods` | 43 | trividha, ṣaḍvidha, aṣṭasthāna (nāḍī, mūtra, jihvā …), daśavidha, nidāna pañcaka, kriyākāla, plus modern and computational counterparts with PubMed evidence |
-| **Herbs** | `herbs` | 466 | official Sanskrit names, GBIF-accepted botanical names, Hindi names, rasa / guṇa / vīrya / vipāka / karma / doṣa, safety class, PubMed & trial counts |
+| **Materia medica** | `herbs` (historical table name) | 466 | 453 botanical taxon links, 2 non-botanical materials, 11 unresolved identities; source names/IDs preserved, properties and safety states explicit |
 | | `herb_indication`, `herb_karma`, `herb_names` | 1,693 / 829 / 3.6k | 1,044 active source matches, 339 pending candidates, 49 quarantined, 261 unmatched; source rows preserved |
 | | `herb_groups`, `herb_group_members` | 50 / 500 | Caraka's 50 mahākaṣāya |
 | **Remedies** | `formulations` (+ ingredients, indications) | 43 | classical compound remedies with classical source, dosage form, doṣa action, safety (curated, flagged) |
@@ -96,7 +96,7 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 **Coverage at a glance**
 
 - **Remedies:** herb indications, mahākaṣāya groups, 43 classical formulations, therapies, diet and lifestyle.
-- **Herbs:** 466 records; 344 have core Dravyaguṇa properties. Safety states are 442 unassessed and 24 review pending; none independently assessed.
+- **Materia medica:** 466 historical `herbs` records; 344 have core Dravyaguṇa properties. Material category and taxon-identity scope are explicit. Safety states are 442 unassessed and 24 review pending; none independently assessed.
 - **Diagnosing techniques:** classical examination methods with their references.
 - **Old and modern methods:** classical texts and standards alongside phytochemistry, clinical trials, ICD-11 coding
   and computational diagnostics.

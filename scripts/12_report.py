@@ -223,7 +223,7 @@ def main(junit=None):
     q = rd("qa_pairs")
     data = {"generated": pd.Timestamp.now(tz='Asia/Kolkata').strftime("%d %b %Y"),
             "test_evidence": str(junit) if junit is not None else 'pytest executed by report generator'}
-    data["figures"] = [["disorders (NAMASTE codes)", len(d)], ["symptoms in the lexicon", len(s)], ["herbs (GBIF-validated)", len(h)],
+    data["figures"] = [["disorders (NAMASTE codes)", len(d)], ["symptoms in the lexicon", len(s)], ["materia-medica records", len(h)],
                        ["standard terms (WHO + SAT)", len(t)], ["classical formulations", len(f)],
                        ["phytochemical records", len(rd("herb_phytochemicals"))], ["clinical trials linked", ev.get("distinct_trials", 0)],
                        ["bilingual Q&A pairs", len(q)], ["automated checks passing", n_pass]]

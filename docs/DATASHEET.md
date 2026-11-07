@@ -53,6 +53,8 @@ scripts; 3,347 cross-source headword concepts.
 
 **Current working revision after PDF review.** All 1,693 indication source rows remain: 1,044 unique exact source matches are active but unreviewed, 339 candidates await review, 49 are quarantined, and 261 are unmatched. The current evidence table retains 1,039 supported pairs; 388 withdrawn pairs are audit history. QA has 4,790 rows, and all 43 tables total 180,899 rows. Herb safety has 442 unassessed and 24 review-pending records, with no independently assessed records. See [follow-up work](REVIEW_WORK_PROGRESS.md). Historical benchmark counts describe earlier frozen inputs.
 
+**Material identity scope.** The historical `herbs` inventory includes 453 records linked to botanical taxa, two source-identified non-botanical materials (mineral pitch and gairika/Ferrum haematite), and 11 unresolved identities. `accepted_name` remains a compatibility field and is not a verified species name for every row. Material categories preserve source references; they do not authenticate physical preparations or establish safety. No names, identifiers or species records were merged by this classification.
+
 **Accuracy upgrades (v1.2).** 415 WHO definitions fill disorders NAMASTE leaves undefined (definitions 55.5% → 69.8%);
 13,639 disorder → symptom edges from WHO sign lists; inherited profiles for 470 subtypes (flagged); 1,420 doṣa
 suggestions (model output, flagged); symptom associations learned from published cases; a clinical-term crosswalk;

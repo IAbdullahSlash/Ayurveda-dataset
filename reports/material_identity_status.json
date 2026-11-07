@@ -1,0 +1,43 @@
+{
+  "records": 466,
+  "categories": {
+    "botanical_taxon_linked": 453,
+    "identity_unresolved": 11,
+    "non_botanical_material": 2
+  },
+  "ids_preserved": true,
+  "names_changed": 0,
+  "species_merges": 0,
+  "safety_assessments_created": 0,
+  "previous_ingredient_records": [
+    {
+      "form_id": "FORM-023",
+      "rank": 1,
+      "ingredient_sa_iast": "\u015bil\u0101jatu",
+      "ingredient_sa_deva": "\u0936\u093f\u0932\u093e\u091c\u0924\u0941",
+      "herb_id": "HERB-0045",
+      "ingredient_type": "herb",
+      "ingredient_en": "shilajit (mineral pitch)"
+    },
+    {
+      "form_id": "FORM-024",
+      "rank": 9,
+      "ingredient_sa_iast": "\u015bil\u0101jatu",
+      "ingredient_sa_deva": "\u0936\u093f\u0932\u093e\u091c\u0924\u0941",
+      "herb_id": "HERB-0045",
+      "ingredient_type": "herb",
+      "ingredient_en": "shilajit (mineral pitch)"
+    },
+    {
+      "form_id": "FORM-026",
+      "rank": 1,
+      "ingredient_sa_iast": "gairika",
+      "ingredient_sa_deva": "\u0917\u0948\u0930\u093f\u0915",
+      "herb_id": "HERB-0189",
+      "ingredient_type": "herb",
+      "ingredient_en": "red ochre (purified)"
+    }
+  ],
+  "linked_non_botanical_ingredient_rows": 3,
+  "note": "The historical herbs table is a materia-medica inventory; not every row is an identified plant species."
+}
