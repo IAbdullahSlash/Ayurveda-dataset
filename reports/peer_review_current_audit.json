@@ -1,0 +1,198 @@
+{
+  "reviewed_utc": "2026-11-07T20:32:35.077505+00:00",
+  "snapshot_commit": "73bbd3189a0ad70a524375bb1302d0a32b7c3a44",
+  "method": "Direct CSV counts and workbook verdict audit; existing benchmark/test evidence is cited separately in the report. No new model training or expert adjudication.",
+  "table_rows": {
+    "case_report_entities": 8023,
+    "case_report_links": 867,
+    "case_report_symptoms_semantic": 1539,
+    "case_reports": 565,
+    "clinical_trials": 6435,
+    "concept_members": 8597,
+    "controlled_vocabulary": 135,
+    "diagnostic_methods": 43,
+    "diet_lifestyle": 381,
+    "disease_symptom": 11883,
+    "disease_symptom_from_cases": 3905,
+    "disease_symptom_inferred": 10082,
+    "disease_symptom_who": 13639,
+    "diseases": 2892,
+    "dosha_suggestions": 1420,
+    "evidence_queries": 1539,
+    "formulation_indication_evidence": 121,
+    "formulation_indications": 155,
+    "formulation_ingredients": 500,
+    "formulations": 43,
+    "headword_concepts": 3347,
+    "herb_ethnobotany": 2872,
+    "herb_group_members": 500,
+    "herb_groups": 50,
+    "herb_image_datasets": 214,
+    "herb_indication": 1693,
+    "herb_indication_evidence": 1427,
+    "herb_karma": 829,
+    "herb_names": 3639,
+    "herb_phytochemicals": 23771,
+    "herbs": 466,
+    "multiscript_names": 20895,
+    "pharmaceutics": 393,
+    "phytochemical_activities": 13538,
+    "phytochemicals": 1959,
+    "prakriti_synthetic_cohort": 3000,
+    "qa_pairs": 4836,
+    "sources": 14,
+    "symptoms": 11082,
+    "terminology": 6233,
+    "therapies": 1325,
+    "therapy_disease": 6474,
+    "therapy_evidence": 12
+  },
+  "total_rows": 181333,
+  "disorders": {
+    "total": 2892,
+    "with_english_definition": 2019,
+    "with_who_link": 1188,
+    "with_icd11_tm2_code": 789,
+    "dosha_labels": {
+      "unspecified": 1956,
+      "vata": 376,
+      "vata+kapha": 20,
+      "kapha": 188,
+      "pitta": 196,
+      "vata+pitta": 22,
+      "vata+pitta+kapha": 120,
+      "pitta+kapha": 14
+    },
+    "base_symptom_profiles": 1595,
+    "expanded_symptom_profiles": 2243
+  },
+  "herbs": {
+    "total": 466,
+    "property_coverage": {
+      "rasa": 344,
+      "guna": 344,
+      "virya": 344,
+      "vipaka": 344,
+      "karma_actions": 344
+    },
+    "with_safety_class": 24
+  },
+  "herb_indications": {
+    "rows": 1693,
+    "unlinked": 261,
+    "distinct_linked_disorders": 105
+  },
+  "herb_evidence_tiers": {
+    "no_literature": 518,
+    "sparse": 431,
+    "literature_supported": 241,
+    "not_queryable": 33,
+    "clinical_evidence": 204
+  },
+  "formulation_evidence_tiers": {
+    "clinical_evidence": 6,
+    "sparse": 33,
+    "literature_supported": 9,
+    "no_literature": 73
+  },
+  "formulation_unlinked_ingredients": {
+    "herb (unlinked)": 67,
+    "mineral/animal/other": 48
+  },
+  "therapy_strengths": {
+    "specific": 3246,
+    "category": 1626,
+    "n/a": 182,
+    "generic": 1204,
+    "observed": 216
+  },
+  "case_kinds": {
+    "therapeutic": 450,
+    "adverse_event": 115
+  },
+  "case_reports_with_diagnosis_id": 176,
+  "case_link_kb_overlap": {
+    "False": 751,
+    "True": 116
+  },
+  "distinct_trial_ids": 5289,
+  "expert_workbook": {
+    "herb_properties": {
+      "items": 344,
+      "nonblank_verdicts": 0
+    },
+    "herb_disorder_links": {
+      "items": 1427,
+      "nonblank_verdicts": 0
+    },
+    "therapy_disorder_links": {
+      "items": 1499,
+      "nonblank_verdicts": 0
+    },
+    "biomedical_map": {
+      "items": 109,
+      "nonblank_verdicts": 0
+    },
+    "formulations": {
+      "items": 43,
+      "nonblank_verdicts": 0
+    },
+    "hindi_translations": {
+      "items": 398,
+      "nonblank_verdicts": 0
+    },
+    "case_reports": {
+      "items": 150,
+      "nonblank_verdicts": 0
+    }
+  },
+  "rights_review_states": {
+    "not_reviewed": 14
+  },
+  "nonempty_rights_approved_scopes": 0,
+  "csv_sha256": {
+    "case_report_entities.csv": "017e06cbc4ecb46851d5b94c3a2c80f42f419203f7d73653295db0aea6015138",
+    "case_report_links.csv": "bcb75f49e5d5ff57b506c372dc95bb92df7e945c7b750f44ded767d63aeb4c4a",
+    "case_report_symptoms_semantic.csv": "1c314791b257037a79a7dcffe058450728b0cac68c73dc111baa70afa7f33ef6",
+    "case_reports.csv": "257da359578788ab31d79260f027286af84d55fb6290f7620211b17fbbcd943b",
+    "clinical_trials.csv": "20b5990a4ca5736d1c8d0941e775e03c1807c3437e2aa9bd7282e879fa462c59",
+    "concept_members.csv": "3fdc2c64ecae0bf7140ab3260eda865c76434dc3045af2853f623bdc1b64dbb7",
+    "controlled_vocabulary.csv": "e325a7c976694c39aa93c569b19ad7de6297e641e7c8541ec61c553193c302a7",
+    "diagnostic_methods.csv": "3c65af6ec26bd49c4b3c4e48e142e3b252418e144798d13ba373af2f367b977f",
+    "diet_lifestyle.csv": "b7fc9874622cf6d78845e1e76ac853d50f9b1b41d1663407ddf2220f69d1f5c9",
+    "disease_symptom.csv": "7f5dac6cb2ef6ce548cf3aadd72b802662140105c9fd7f07ccad99eff2d0cb3c",
+    "disease_symptom_from_cases.csv": "2627673826ae3cf7907eaf46ae4de0d85c83722273412be2874f7eb9c57c59ae",
+    "disease_symptom_inferred.csv": "c07d7f68a96a35d4ff8b4cf8202e1f6a6b60aa628ada5ca1391d5697cd296915",
+    "disease_symptom_who.csv": "c5eab2a1f88a30e61c221ef8539776b91b996a82074b874723e3380878405a84",
+    "diseases.csv": "9c21de8d13abf58aa5b79aa9d9fc7f5d61a440614b5a35e195fc3b549e2c0502",
+    "dosha_suggestions.csv": "09a0c5ffcb4f1ae5a798d4dba019931452c3054127cb6cb8a893134ef1103364",
+    "evidence_queries.csv": "ecb2fc962cdf2a7fd1f554652dd185e5498872eb9294093162505c1a7bf97609",
+    "formulation_indication_evidence.csv": "8703358abdc58b8b6f88e4f7de59b0389f6dcf1ec07bffd6b22c33deff30fb56",
+    "formulation_indications.csv": "77b86ef9a8a87a9c7379989499f48572cabfa1ff56f6cafcb51b55d099352841",
+    "formulation_ingredients.csv": "ac80839001069270c77a84bcdc8a2cb8db2538a1d350fa8a7eaeeadfb4517542",
+    "formulations.csv": "c6ac630decf362743298b1de44b837546ddb468819a1f6affd1283f7aa26d678",
+    "headword_concepts.csv": "b4786f16373cde3b5f5b137cc0636a7e38405b2f60682a26298358fd131285aa",
+    "herb_ethnobotany.csv": "ef842f55c309fd92c4d09e48578f1f59a72ceb453a32fd4a931e209f64efd00f",
+    "herb_group_members.csv": "e589c0a47b605a6d8c056409fe2dddfee9ce40970d3d19e5dffb9db5194324a7",
+    "herb_groups.csv": "b6e0bc5ade7349cc2d6111d28f7dcd321e717d4e82c1bc9e8fd1ee224eedd8b8",
+    "herb_image_datasets.csv": "d82a3fa35018ff59fcf0d496b5e91308caf57f163d068fd04a01afd324312ade",
+    "herb_indication.csv": "40bfbafa6dd67835accb1f893591bf9ed183e8403c955e4295b40f648713fd08",
+    "herb_indication_evidence.csv": "6c03ec025abe97afa038f9e4699ece282794112a8ad036a0580b3d48668f1a8b",
+    "herb_karma.csv": "5aaa3dfa84ae0ffc1fac5c3b9d0467a6a98f80be2607ce92696b9d75e48b4f46",
+    "herb_names.csv": "1555d7a96c0ccbc32b99735732faeefdca1dea8c395ecf0300dba7a6aca8c1a4",
+    "herb_phytochemicals.csv": "6f613ce9e130be1550de70014464f59e737c50a53bc5bfb9ebb2b65a7f851974",
+    "herbs.csv": "cdfff11694d9ead189fdbcc70bd52c34f194beb1272426b4727a7214ac55326a",
+    "multiscript_names.csv": "1b80e7b71cdb644651964ff3e4002b22e8398a006bcc05d8d2db50741bb302d4",
+    "pharmaceutics.csv": "a69179cc45eae429c00c40f1b214017dc921e6c28d9c08fae28c81c2fcf98a4b",
+    "phytochemical_activities.csv": "2116272b8c38759a8d7be5529744a718b90301ee396f02bf0d5fb423beb802c7",
+    "phytochemicals.csv": "555cfa7dd459ac04b307d165a2081c72269d8466ec511358b1d5fa5361540b71",
+    "prakriti_synthetic_cohort.csv": "b0baaffc4115503fa0f3d8be6d28818abdede54f47dd93b06b71213abf496e20",
+    "qa_pairs.csv": "6fe709319017c6c92d16d878934fd01b4bac797e04eca0406062c0ae0fc09e43",
+    "sources.csv": "5a68482122306f3162b9ec5fdcc8c43ecac646be119f7d0a2b8d323a2909f55c",
+    "symptoms.csv": "bb96cc836daf793448a2b9ee7184bca7129058853577915aa4082588db31e7b2",
+    "terminology.csv": "1d6ecb1e7b7fbe99581e5770a8492d3205f966f78a834a395244e5ddc76f3b70",
+    "therapies.csv": "0973ce6d0ef81143907f66b6ea83235de28f221be8c1d15a55062d99b05c2584",
+    "therapy_disease.csv": "86a457fb35d3e3a311ec148ee4de56c621250baadb9ec7ca50abac5cc558d79d",
+    "therapy_evidence.csv": "4959425b7e256b3ec709b5f4ad0c97d86c34306ff78d3048e0956aaf7bde2fe9"
+  }
+}
