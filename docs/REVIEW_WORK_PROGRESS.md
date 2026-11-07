@@ -39,3 +39,9 @@ The doṣa audit confirms 959/1,420 vāta predictions and median confidence 0.56
 Indication metadata now separates the active assertion, historical target and proposed candidates, and retains the decision reason/reference, mapping method, policy version and explicit review state. Raw indication attribution remains conservative when an exact historical upstream record is unavailable. Safety metadata carries its supplied review scope and reference. No historical lineage or qualified approval was invented.
 
 Unknown mapping states and reviewed-alias claims without an accepted ledger decision fail closed. Alias score serialization also supports blank scores without inventing a spelling score for a reviewed decision. Seventeen targeted policy, safety and export tests passed before the final combined validation. The remaining assertion-provenance backfill depends on actual source/reviewer evidence.
+
+## 21. Documentation and validation reporting — current revision synchronized
+
+README, datasheet, citation wording and QA evaluation scope now distinguish the current 180,899-row working revision from frozen historical benchmarks. Claims of full herb-property coverage and broad patient validation were corrected. The last published citation version/date are retained; no new public release is claimed. Pipeline comments no longer promise an established deterministic offline rebuild.
+
+The report generator can reuse a successful current JUnit run with `--junit` and refuses empty, all-skipped, failed or errored evidence. Its default execution also refuses nonzero pytest results, including error-only outcomes. This avoids both unnecessary repeated suites during documentation builds and false passing reports. Generated dates use Asia/Kolkata. The final combined suite passed **153 tests with zero failures, errors or skips**; the report reused that execution evidence.

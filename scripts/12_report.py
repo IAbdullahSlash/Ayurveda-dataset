@@ -3,7 +3,8 @@
 Stage 12 - Build the HTML dataset report (release/report.html) from the processed tables and the JSON
 reports written by every stage.  All numbers on the page come from those files.
 """
-import json, re, subprocess, sys
+import argparse, json, re, subprocess, sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 import pandas as pd
 
@@ -12,9 +13,22 @@ P, R, ML = ROOT / "data/processed", ROOT / "reports", ROOT / "reports/ml"
 rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=False)
 js = lambda p: json.loads(Path(p).read_text()) if Path(p).exists() else {}
 
-def tests_passed():
-    out = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")], capture_output=True, text=True, cwd=ROOT).stdout
+def tests_passed(junit=None):
+    if junit is not None:
+        cases = ET.parse(junit).getroot().findall('.//testcase')
+        if not cases or any(c.find('failure') is not None or c.find('error') is not None for c in cases):
+            raise ValueError('Cannot generate passing report from empty or unsuccessful JUnit evidence')
+        passed = sum(c.find('skipped') is None for c in cases)
+        if not passed:
+            raise ValueError('JUnit evidence contains no passing tests')
+        return passed, 0
+    run = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")], capture_output=True, text=True, cwd=ROOT)
+    if run.returncode:
+        raise ValueError('Test execution failed; report was not generated: ' + run.stdout[-1500:] + run.stderr[-500:])
+    out = run.stdout
     m = re.search(r"(\d+) passed", out); f = re.search(r"(\d+) failed", out)
+    if not m:
+        raise ValueError('No passing test evidence; report was not generated')
     return int(m.group(1)) if m else 0, int(f.group(1)) if f else 0
 
 def exp_rows(df, metric="macro_f1", best_from=None):
@@ -200,14 +214,15 @@ def upgrades_data(data):
                                       "Model suggestions are kept in separate, flagged tables and never overwrite curated values."),
                                 rows=rows, chart=chart, finding=data_finding)
 
-def main():
+def main(junit=None):
     kb = js(R / "kb_build_report.json"); tax = js(R / "taxonomy_report.json"); nam = js(R / "namaste_parse_report.json")
     who = js(R / "who_parse_validation.json"); ev = js(R / "evidence_report.json"); dq = js(R / "data_quality_report.json")
     qe = js(R / "translation_qe.json"); cov = js(R / "translation_coverage.json")
-    n_pass, n_fail = tests_passed()
+    n_pass, n_fail = tests_passed(junit)
     d, h, s, f, t, dx = rd("diseases"), rd("herbs"), rd("symptoms"), rd("formulations"), rd("terminology"), rd("diagnostic_methods")
     q = rd("qa_pairs")
-    data = {"generated": pd.Timestamp.now().strftime("%d %b %Y")}
+    data = {"generated": pd.Timestamp.now(tz='Asia/Kolkata').strftime("%d %b %Y"),
+            "test_evidence": str(junit) if junit is not None else 'pytest executed by report generator'}
     data["figures"] = [["disorders (NAMASTE codes)", len(d)], ["symptoms in the lexicon", len(s)], ["herbs (GBIF-validated)", len(h)],
                        ["standard terms (WHO + SAT)", len(t)], ["classical formulations", len(f)],
                        ["phytochemical records", len(rd("herb_phytochemicals"))], ["clinical trials linked", ev.get("distinct_trials", 0)],
@@ -417,4 +432,6 @@ def main():
     print(f"wrote {out} ({len(html) / 1024:.0f} KB); experiments: {[e['id'] for e in E]}")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--junit', type=Path, help='Reuse a successful current JUnit run instead of rerunning pytest')
+    main(parser.parse_args().junit)

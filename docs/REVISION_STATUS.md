@@ -1,6 +1,6 @@
 # Peer-review revision status
 
-This revision addresses the nine agreed work areas. Technical changes are committed locally; nothing has been pushed. Completed engineering work is distinguished below from independent review or access prerequisites. No review verdict or clinical result has been invented.
+This revision addresses the original nine agreed work areas. Earlier progress through `73bbd31` was pushed at the user's request; subsequent review and follow-up commits remain local. Completed engineering work is distinguished below from independent review or access prerequisites. No review verdict or clinical result has been invented. For the newer PDF's 23-item plan, see [follow-up progress](REVIEW_WORK_PROGRESS.md) and [review handoff](REVIEW_HANDOFF.md).
 
 | Task | Completed technical work | Remaining prerequisite or limitation |
 |---|---|---|
