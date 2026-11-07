@@ -98,4 +98,4 @@ Omit `--model` for a lexical-only archive check. Local snapshot/archive generati
 | 22 | Three-publication preliminary comparison completed | Systematic discovery, live terms audits and permitted record/task comparisons. |
 | 23 | Conditional future milestone documented | Clinical collaborators and governed studies only if clinical use is pursued. |
 
-All progress commits in this follow-up batch use Abdullah Azmi <ywtywbbdallh424@gmail.com> and remain local. No push or cloud/public publication was performed.
+All progress commits use Abdullah Azmi <ywtywbbdallh424@gmail.com>. On the user's subsequent instruction, the 11 local report/follow-up commits through `e83be4d` were pushed to `codex/ayurkb-review-fixes` and the remote tip was verified. `main` was not changed, and no cloud-environment or release publication was performed. See [continued source work](CONTINUED_SOURCE_WORK.md) for the next batch; its new commits remain local unless explicitly recorded as pushed.
