@@ -34,7 +34,11 @@ def main():
     write_review_csv(queue, out / 'candidate_groups.csv')
     write_review_csv(exact, out / 'exact_match_sample.csv')
     result.to_csv(path, index=False)
-    result.to_parquet(path.with_suffix('.parquet'), index=False)
+    parquet = result.copy()
+    for field in parquet:
+        if parquet[field].dtype == object:
+            parquet[field] = parquet[field].astype(str)
+    parquet.to_parquet(path.with_suffix('.parquet'), index=False)
     report = dict(rows=len(result), states=result.mapping_status.value_counts().to_dict(),
         fuzzy_groups=int(queue.method.eq('fuzzy_skeleton').sum()),
         ambiguous_exact_groups=int(queue.method.eq('exact_skeleton').sum()),

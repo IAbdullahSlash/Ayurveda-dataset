@@ -56,6 +56,19 @@ def metadata(table, row, index, licences):
     inherited = set().union(*(index.get(ref, set()) for ref in refs)) if refs else set()
     sources = direct | inherited
     fields = {}
+    if table == 'herb_indication':
+        fields['indication_raw'] = {'source_ids': ['S5'],
+            'source_record_ids': [row.get('herb_id', '')],
+            'attribution': 'referenced herb dependencies; exact historical upstream indication record may be unavailable'}
+        fields['disease_id'] = {'source_ids': sorted(sources),
+            'method': row.get('match_method', ''), 'policy': 'indication_policy_v1',
+            'review_status': row.get('mapping_status', 'not_adjudicated'),
+            'decision_reference': row.get('mapping_reference', ''),
+            'decision_reason': row.get('mapping_reason', ''),
+            'active_target': row.get('disease_id', ''),
+            'historical_target': row.get('original_disease_id', ''),
+            'candidate_targets': [v for v in row.get('candidate_disease_ids', '').split(';') if v],
+            'note': 'Historical/proposed targets are audit references, not accepted assertions. Reviewer identity and qualifications require separate verification.'}
     if table == 'diseases':
         is_who = str(row.get('definition_source', '')).startswith('WHO')
         origin = 'S3' if is_who else 'S1'
@@ -95,7 +108,7 @@ def metadata(table, row, index, licences):
         'source_record_ids':sorted(refs), 'source_terms':{s:licences[s] for s in sorted(sources) if s in licences},
         'default_field_attribution':'conservative_record_dependencies', 'field_overrides':fields,
         'data_origin':row.get('data_origin','derived_or_inherited; see construction script'),
-        'review_status':row.get('verification_status', row.get('status','not_adjudicated')),
+        'review_status':row.get('mapping_status', row.get('verification_status', row.get('status','not_adjudicated'))),
         'rights_status':'requires_review',
         'unresolved_sources':unresolved,
         'provenance_status':'resolved_dependencies' if sources and not unresolved else 'unresolved'}

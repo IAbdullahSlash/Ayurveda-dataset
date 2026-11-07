@@ -8,6 +8,7 @@ from lib.keys import skeleton, skeleton_variants
 ROOT = Path(__file__).resolve().parents[2]
 TARGET_FIELDS = ('disease_id', 'disease_term_iast', 'disease_name_en')
 BLOCKED = {'quarantined', 'candidate_review_pending', 'unmatched'}
+ACTIVE = {'source_matched_unreviewed', 'alias_reviewed'}
 
 
 def contain_indications(frame, decisions=None):
@@ -38,7 +39,7 @@ def contain_indications(frame, decisions=None):
 
 def active_indications(frame):
     out = apply_mapping_policy(frame)
-    return out.loc[out.disease_id.ne('') & ~out.mapping_status.isin(BLOCKED)].copy()
+    return out.loc[out.disease_id.ne('') & out.mapping_status.isin(ACTIVE)].copy()
 
 
 def alias_key(text):
@@ -80,6 +81,8 @@ def apply_mapping_policy(frame, diseases=None, aliases=None):
             index[key].add(row.disease_id)
     names = diseases.set_index('disease_id')
     out = contain_indications(frame)
+    if not out.mapping_status.isin(ACTIVE | BLOCKED).all():
+        raise ValueError('Unknown indication mapping status')
     for field in ('match_method', 'match_score'):
         if 'original_' + field not in out:
             out['original_' + field] = out[field] if field in out else ''
@@ -100,6 +103,8 @@ def apply_mapping_policy(frame, diseases=None, aliases=None):
                 out.at[i, 'mapping_reason'] = 'fuzzy spelling is not semantic equivalence' if fuzzy else 'multiple disorders share normalized spelling'
                 out.at[i, 'mapping_reference'] = 'indication policy v1; source targets retained for review'
         alias = decisions.get(alias_key(row.indication_raw))
+        if row.mapping_status == 'alias_reviewed' and (not alias or alias['decision'] != 'accepted'):
+            raise ValueError('Reviewed indication state has no accepted alias decision')
         if alias:
             if alias['decision'] == 'accepted':
                 did = alias['disease_id']

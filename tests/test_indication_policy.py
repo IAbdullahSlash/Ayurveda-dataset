@@ -78,3 +78,27 @@ def test_current_evidence_and_qa_do_not_reintroduce_withdrawn_targets():
     exporter = importlib.import_module('08_validate_export')
     report, _ = exporter.checks()
     assert not report['failures']
+
+
+def test_decision_provenance_distinguishes_history_and_active_assertions():
+    from lib.provenance import metadata
+    row = dict(herb_id='H1', indication_raw='Kshaya', disease_id='',
+        original_disease_id='AYD-02923', candidate_disease_ids='AYD-02923',
+        match_method='fuzzy_skeleton', mapping_status='quarantined',
+        mapping_reference='test-fixture PDF reference', mapping_reason='test-fixture wrong sense', source_id='S5')
+    result = metadata('herb_indication', row, {'AYD-02923': {'S1'}}, {'S1': 'test', 'S5': 'test'})
+    decision = result['field_overrides']['disease_id']
+    assert decision['active_target'] == ''
+    assert decision['historical_target'] == 'AYD-02923'
+    assert decision['review_status'] == 'quarantined'
+    assert decision['decision_reference'] == row['mapping_reference']
+    assert 'not accepted assertions' in decision['note']
+
+
+def test_unknown_or_forged_reviewed_mapping_states_fail_closed():
+    diseases = pd.DataFrame([dict(disease_id='D1', term_iast='jvaraḥ', name_en='fever')])
+    row = dict(herb_id='H1', indication_raw='Jwara', disease_id='D1', disease_term_iast='jvaraḥ',
+        disease_name_en='fever', match_method='exact_skeleton', match_score=100.0)
+    for state in ['unknown', 'alias_reviewed']:
+        with pytest.raises(ValueError):
+            apply_mapping_policy(pd.DataFrame([{**row, 'mapping_status': state}]), diseases, pd.DataFrame())
