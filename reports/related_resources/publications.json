@@ -1,0 +1,32 @@
+[
+  {
+    "id": "41657773",
+    "source": "MED",
+    "title": "GRAYU: graph-based database integrating Ayurvedic formulations, medicinal plants, phytochemicals and diseases.",
+    "doi": "10.3389/fphar.2025.1727224",
+    "pubYear": "2025",
+    "firstPublicationDate": "2026-01-22",
+    "pmcid": "PMC12872832",
+    "publication_url": "https://doi.org/10.3389/fphar.2025.1727224"
+  },
+  {
+    "id": "29531263",
+    "source": "MED",
+    "title": "IMPPAT: A curated database of Indian Medicinal Plants, Phytochemistry And Therapeutics.",
+    "doi": "10.1038/s41598-018-22631-z",
+    "pubYear": "2018",
+    "firstPublicationDate": "2018-03-12",
+    "pmcid": "PMC5847565",
+    "publication_url": "https://doi.org/10.1038/s41598-018-22631-z"
+  },
+  {
+    "id": "36910986",
+    "source": "MED",
+    "title": "IMPPAT 2.0: An Enhanced and Expanded Phytochemical Atlas of Indian Medicinal Plants.",
+    "doi": "10.1021/acsomega.3c00156",
+    "pubYear": "2023",
+    "firstPublicationDate": "2023-02-23",
+    "pmcid": "PMC9996785",
+    "publication_url": "https://doi.org/10.1021/acsomega.3c00156"
+  }
+]
