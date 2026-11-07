@@ -78,14 +78,15 @@ class Translator:
         return t, used + prot
 
     @torch.no_grad()
-    def _gen(self, batch, tgt, beams, src_lang="eng_Latn"):
+    def _gen(self, batch, tgt, beams, src_lang="eng_Latn", prevent_repetition=False):
         self.tok.src_lang = src_lang
         enc = self.tok(batch, return_tensors="pt", padding=True, truncation=True, max_length=256)
         out = self.model.generate(**enc, forced_bos_token_id=tgt, num_beams=beams,
-                                  max_new_tokens=min(400, int(enc["input_ids"].shape[1] * 2.2) + 10))
+                                  max_new_tokens=min(400, int(enc["input_ids"].shape[1] * 2.2) + 10),
+                                  no_repeat_ngram_size=4 if prevent_repetition else 0)
         return self.tok.batch_decode(out, skip_special_tokens=True)
 
-    def translate(self, texts, beams=2, batch_size=16):
+    def translate(self, texts, beams=2, batch_size=16, prevent_repetition=False):
         prepared = [self.prepare(t) for t in texts]
         res = [None] * len(texts)
         # inputs fully covered by the glossary / Sanskrit protection are already Hindi: do NOT send them
@@ -101,7 +102,7 @@ class Translator:
         for s in range(0, len(order), batch_size):
             idx = order[s:s + batch_size]
             b = beams if len(prepared[idx[-1]][0]) >= 40 else 1      # greedy for short phrases
-            outs = self._gen([prepared[i][0] for i in idx], self.hin, b)
+            outs = self._gen([prepared[i][0] for i in idx], self.hin, b, prevent_repetition=prevent_repetition)
             for i, o in zip(idx, outs):
                 src, keep = texts[i], prepared[i][1]
                 retained = (sum(k in o for k in keep) / len(keep)) if keep else 1.0
