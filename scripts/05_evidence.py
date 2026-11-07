@@ -22,7 +22,7 @@ S = requests.Session()
 
 def cached(name):
     f = CACHE / name
-    return f, (json.loads(f.read_text()) if f.exists() else {})
+    return f, (json.loads(f.read_text(encoding="utf-8")) if f.exists() else {})
 
 PM_FILE, PM = cached("pubmed_counts.json")
 CT_FILE, CT = cached("ctgov_studies.json")
@@ -85,8 +85,8 @@ def ctgov(query):
     return CT[query]
 
 def flush():
-    PM_FILE.write_text(json.dumps(PM))
-    CT_FILE.write_text(json.dumps(CT))
+    PM_FILE.write_text(json.dumps(PM), encoding="utf-8")
+    CT_FILE.write_text(json.dumps(CT), encoding="utf-8")
 
 GENERIC = {"amla", "bala", "neem", "rasna", "musta", "vacha", "kusta", "arka", "bhanga"}
 
@@ -174,7 +174,7 @@ def main():
                formulations_with_pubmed=int((pd.to_numeric(forms.pubmed_count, errors="coerce") > 0).sum()),
                formulations_with_trials=int((pd.to_numeric(forms.clinicaltrials_count, errors="coerce") > 0).sum()),
                queries=len(qdf), retrieved_utc=ts)
-    (ROOT / "reports/evidence_report.json").write_text(json.dumps(rep, indent=2))
+    (ROOT / "reports/evidence_report.json").write_text(json.dumps(rep, indent=2), encoding="utf-8")
     print(json.dumps(rep, indent=2))
 
 if __name__ == "__main__":

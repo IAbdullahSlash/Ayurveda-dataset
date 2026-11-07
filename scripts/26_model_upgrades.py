@@ -84,7 +84,7 @@ def e2c_plus():
         out[label] = summ.round(4).reset_index().to_dict(orient="records")
         print(f"[E2c+] {label}: features={X.shape[1]}\n{summ.round(3)}", flush=True)
     out["n_herbs"] = len(h); out["herbs_with_chemistry"] = int((Xc[:, :n_act].sum(1) > 0).sum()); out["labels"] = top
-    (REP / "E2c_plus.json").write_text(json.dumps(out, indent=2, default=float))
+    (REP / "E2c_plus.json").write_text(json.dumps(out, indent=2, default=float), encoding="utf-8")
     return out
 
 def e1_plus(enc):
@@ -119,7 +119,7 @@ def e1_plus(enc):
         if scope.startswith("NAMASTE"):
             hh = a[a.definition_hi.str.len() > 10]
             run(f"E1c Hindi (MT) | {scope}", (hh.name_en_hi + " । " + hh.definition_hi).tolist(), ml.lab(hh.system_code), hh.disease_id.tolist())
-    (REP / "E1_plus.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
+    (REP / "E1_plus.json").write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     return out
 
 def main(part="all"):

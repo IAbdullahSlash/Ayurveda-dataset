@@ -29,7 +29,7 @@ def approved_aliases(namespace, path):
 def allocate(namespace, keys):
     prefix, width = PREFIXES[namespace]
     with export_lock(REGISTRY.with_suffix('.lock')):
-        registry = json.loads(REGISTRY.read_text())
+        registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
         mapping = registry.setdefault(namespace, {})
         if len(set(mapping.values())) != len(mapping):
             raise ValueError('Duplicate IDs in registry: ' + namespace)

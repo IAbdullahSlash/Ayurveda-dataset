@@ -111,7 +111,7 @@ def main():
             out.append(f"| `{c}` | {typ} | {filled:.0%} | {ex} | {desc} |")
         out.append("")
     (ROOT / "docs/DATA_DICTIONARY.md").write_text("\n".join(out), encoding="utf-8")
-    (ROOT / "reports/kb_summary.json").write_text(json.dumps(summary, indent=2))
+    (ROOT / "reports/kb_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(f"documented {len(summary)} tables")
 
 if __name__ == "__main__":

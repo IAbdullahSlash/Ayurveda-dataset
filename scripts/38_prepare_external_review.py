@@ -3,6 +3,9 @@
 import argparse,json
 from pathlib import Path
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.review import write_review_csv
 
 def prepare(path):

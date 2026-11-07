@@ -3,6 +3,9 @@
 import json, hashlib
 from pathlib import Path
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.review import write_review_csv
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -39,7 +42,7 @@ def main():
     write_review_csv(case_manifest,out / 'case_annotation_manifest.csv')
     (out / 'status.json').write_text(json.dumps(dict(
         independently_adjudicated=False, external_test_set=False,
-        note='Current published cases are a review pool, not an independent external test set.'),indent=2)+'\n')
+        note='Current published cases are a review pool, not an independent external test set.'),indent=2)+'\n', encoding="utf-8")
     print(f'Wrote review inventories to {out}')
 if __name__ == '__main__':
     main()

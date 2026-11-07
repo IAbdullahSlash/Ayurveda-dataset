@@ -10,7 +10,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 P, R, ML = ROOT / "data/processed", ROOT / "reports", ROOT / "reports/ml"
 rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=False)
-js = lambda p: json.loads(Path(p).read_text()) if Path(p).exists() else {}
+js = lambda p: json.loads(Path(p).read_text(encoding="utf-8")) if Path(p).exists() else {}
 
 def tests_passed():
     out = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")], capture_output=True, text=True, cwd=ROOT).stdout
@@ -310,7 +310,7 @@ def main():
         p = ML / file
         if not p.exists():
             return
-        res = pd.DataFrame(json.loads(p.read_text())["results"]) if file.endswith(".json") else pd.read_csv(p)
+        res = pd.DataFrame(json.loads(p.read_text(encoding="utf-8"))["results"]) if file.endswith(".json") else pd.read_csv(p)
         rows, head, tab, best = exp_rows(res, metric)
         E.append(dict(id=eid, title=title, metric=metric.replace("_", "-").replace("macro-f1", "macro-F1").replace("accuracy", "top-1 accuracy"),
                       tags=tags, finding=finding_fn(res, best), rows=rows, table_head=head, table=tab))
@@ -323,7 +323,7 @@ def main():
         lambda r, b: f"With every vāta / pitta / kapha word removed, {b} still infers the doṣa from the symptom picture alone (macro-F1 {val(r, b):.2f} vs {val(r, 'Dummy (majority)'):.2f} baseline).")
     p = ML / "E1c_bilingual_system_from_text.json"
     if p.exists():
-        r1 = pd.DataFrame(json.loads(p.read_text())["results"])
+        r1 = pd.DataFrame(json.loads(p.read_text(encoding="utf-8"))["results"])
         r1["model"] = r1.model + " · " + r1.language
         rows, head, tab, best = exp_rows(r1, "macro_f1")
         en = r1[r1.language == "English"].macro_f1_mean.max(); hi_ = r1[r1.language != "English"].macro_f1_mean.max()
@@ -334,7 +334,7 @@ def main():
         lambda r, b: f"{b} {val(r, b):.2f} vs the classical rasa rule {val(r, 'Classical rule: rasa majority (hot vs cold tastes)'):.2f} and the vipāka rule {val(r, 'Classical rule: vipāka (madhura -> śīta)'):.2f}: classical theory explains most, but not all, vīrya assignments.")
     p = ML / "E2b_dosha_pacify.json"
     if p.exists():
-        j = json.loads(p.read_text()); sm = pd.DataFrame(j["summary"])
+        j = json.loads(p.read_text(encoding="utf-8")); sm = pd.DataFrame(j["summary"])
         sm["accuracy_std"] = 0.0
         rows, head, tab, best = exp_rows(sm.rename(columns={}), "macro_f1")
         cr = sm[sm.model.str.startswith("Classical")].macro_f1_mean
@@ -343,7 +343,7 @@ def main():
                       rows=rows, table_head=head, table=tab))
     p = ML / "E2c_indications.json"
     if p.exists():
-        j = json.loads(p.read_text()); sm = pd.DataFrame(j["summary"]); sm["accuracy_std"] = 0.0
+        j = json.loads(p.read_text(encoding="utf-8")); sm = pd.DataFrame(j["summary"]); sm["accuracy_std"] = 0.0
         rows, head, tab, best = exp_rows(sm, "macro_f1")
         E.append(dict(id="E2c", title="Herb indications from rasa / guṇa / vīrya / vipāka / doṣa", metric="macro-F1", tags=["real · herbs", "12 labels"],
                       finding=f"Pharmacodynamic properties alone predict indications only modestly ({best} macro-F1 {sm[sm.model == best].macro_f1_mean.iloc[0]:.2f}, ROC-AUC {sm[sm.model == best].roc_auc_ovr_mean.iloc[0]:.2f}): therapeutic use carries information beyond rasa-guṇa-vīrya.",

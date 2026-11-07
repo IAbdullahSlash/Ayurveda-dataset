@@ -11,8 +11,8 @@ def test_failure_preserves_previous_publication(tmp_path,monkeypatch):
     for directory in [root,stage]:
         (directory/'release').mkdir(parents=True)
     for name in ['a','b']:
-        (root/'release'/name).write_text('old')
-        (stage/'release'/name).write_text('new')
+        (root/'release'/name).write_text('old', encoding="utf-8")
+        (stage/'release'/name).write_text('new', encoding="utf-8")
     real = transaction.os.replace
     failed = False
     def fail_once(source,target):
@@ -24,9 +24,9 @@ def test_failure_preserves_previous_publication(tmp_path,monkeypatch):
     monkeypatch.setattr(transaction.os,'replace',fail_once)
     with pytest.raises(OSError,match='injected'):
         transaction.publish(root,stage,['release/a','release/b'])
-    assert (root/'release/a').read_text()=='old'
-    assert (root/'release/b').read_text()=='old'
+    assert (root/'release/a').read_text(encoding="utf-8")=='old'
+    assert (root/'release/b').read_text(encoding="utf-8")=='old'
     assert not (root/'release/current_export.json').exists()
     transaction.publish(root,stage,['release/a','release/b'])
-    pointer=json.loads((root/'release/current_export.json').read_text())
-    assert (root/pointer['snapshot']/'release/a').read_text()=='new'
+    pointer=json.loads((root/'release/current_export.json').read_text(encoding="utf-8"))
+    assert (root/pointer['snapshot']/'release/a').read_text(encoding="utf-8")=='new'

@@ -19,6 +19,6 @@ def main():
         records.append({'model':name,'repository':repo,'revision':revision,'resolved_revision':info.sha,
                         'file':'model.safetensors','sha256':actual,'bytes':path.stat().st_size,'verified':True})
     out=ROOT/'reports/model_weight_verification.json'
-    out.write_text(json.dumps(records,indent=2)+'\n')
+    out.write_text(json.dumps(records,indent=2)+'\n', encoding="utf-8")
     print('Verified pinned weight checksums for '+', '.join(record['model'] for record in records))
 if __name__=='__main__':main()

@@ -61,6 +61,6 @@ def main():
         'retrieved_utc':datetime.now(timezone.utc).isoformat(),'maximum_pages':args.pages,
         'total_hits_reported':body.get('hitCount'),'collection_is_exhaustive':len(all_results)>=body.get('hitCount',len(all_results)+1),'retrieved_records':len(all_results),'candidate_records':len(rows),
         'gold_labels_supplied':False,'article_text_downloaded':False,'internal_snapshot_sha256':
-        hashlib.sha256((ROOT/'data/processed/case_reports.csv').read_bytes()).hexdigest()},indent=2)+'\n')
+        hashlib.sha256((ROOT/'data/processed/case_reports.csv').read_bytes()).hexdigest()},indent=2)+'\n', encoding="utf-8")
     print(folder)
 if __name__=='__main__':main()

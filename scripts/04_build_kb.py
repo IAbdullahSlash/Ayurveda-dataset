@@ -620,7 +620,7 @@ def main():
     save(f, "formulations"); save(ing, "formulation_ingredients"); save(ind, "formulation_indications")
     save(pd.DataFrame(SOURCES, columns=["source_id", "title", "url", "licence", "role"]), "sources")
     save(pd.read_csv(CUR / "controlled_vocabulary.csv", keep_default_na=False), "controlled_vocabulary")
-    (ROOT / "reports/kb_build_report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False, default=str))
+    (ROOT / "reports/kb_build_report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False, default=str), encoding="utf-8")
     print(json.dumps(report, indent=2, ensure_ascii=False, default=str))
 
 if __name__ == "__main__":

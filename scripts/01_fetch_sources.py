@@ -29,7 +29,7 @@ def sha256(p: Path) -> str:
 
 def record(manifest, source_id, path, url, licence, publisher, note=""):
     manifest.append({
-        "source_id": source_id, "file": str(path.relative_to(ROOT)), "url": url,
+        "source_id": source_id, "file": path.relative_to(ROOT).as_posix(), "url": url,
         "licence": licence, "publisher": publisher, "note": note,
         "retrieved_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "bytes": path.stat().st_size, "sha256": sha256(path),
@@ -126,7 +126,7 @@ def main():
     for fn in (fetch_namaste, fetch_who, fetch_duke, fetch_amidha):
         print(f"[{fn.__name__}]")
         fn(manifest, a.force)
-    (RAW / "PROVENANCE.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False))
+    (RAW / "PROVENANCE.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {len(manifest)} provenance records -> data/raw/PROVENANCE.json")
 
 if __name__ == "__main__":

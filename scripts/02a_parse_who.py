@@ -226,7 +226,7 @@ def main():
     terms.to_csv(OUT / "who_terms.csv", index=False)
     sec.to_csv(OUT / "who_sections.csv", index=False)
     (ROOT / "reports").mkdir(exist_ok=True)
-    (ROOT / "reports/who_parse_validation.json").write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    (ROOT / "reports/who_parse_validation.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":

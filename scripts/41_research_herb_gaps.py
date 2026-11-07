@@ -15,7 +15,7 @@ def main():
     out=ROOT/'reports/herb_property_research';out.mkdir(exist_ok=True)
     path=out/'queries.jsonl';cache={}
     if path.exists():
-        for line in path.read_text().splitlines():
+        for line in path.read_text(encoding="utf-8").splitlines():
             row=json.loads(line);cache[row['herb_id']]=row
     session=requests.Session();last=0
     with path.open('a',encoding='utf-8') as stream:
@@ -38,5 +38,5 @@ def main():
     pd.DataFrame(rows).to_csv(out/'coverage.csv',index=False)
     status={'herbs_queried':len(selected),'herbs_with_citation_leads':sum(bool(r['hit_count']) for r in selected),
         'canonical_properties_filled':0,'note':'Exact botanical-name keyword search; zero hits do not prove absence of evidence'}
-    (out/'summary.json').write_text(json.dumps(status,indent=2)+'\n');print(json.dumps(status))
+    (out/'summary.json').write_text(json.dumps(status,indent=2)+'\n', encoding="utf-8");print(json.dumps(status))
 if __name__=='__main__':main()

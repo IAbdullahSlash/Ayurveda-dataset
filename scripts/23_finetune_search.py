@@ -163,7 +163,7 @@ def main(epochs=1, report_dir=None):
         "candidate_counts": {name:len(task["ids"]) for name,task in e5_samples(limit=None).items()},
         "base": base, "finetuned": tuned, "training_pairs": len(pairs), "pair_kinds": kinds, "epochs": epochs,
         "train_seconds": round(time.time() - t0), "leakage_guard": "test IDs, transitive concept members, exact/near-duplicate descriptions and test headword skeletons excluded; semantic paraphrase overlap remains unmeasured",
-        "model_dir": str(OUTM.relative_to(ROOT))}, indent=2))
+        "model_dir": OUTM.relative_to(ROOT).as_posix()}, indent=2), encoding="utf-8")
 
 if __name__ == "__main__":
     parser=argparse.ArgumentParser()

@@ -4,6 +4,9 @@ import importlib
 import json
 from pathlib import Path
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.review import write_review_csv
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -32,7 +35,7 @@ def main():
     (out/'semantic_review_status.json').write_text(json.dumps({
         'changed_disorders':len(changes),'sampled_edges':len(sampled),'sampling_seed':42,
         'precision':None,'recall':None,'reason':'No independently adjudicated gold annotations supplied',
-        'processed_tables_rebuilt':False},indent=2)+'\n')
+        'processed_tables_rebuilt':False},indent=2)+'\n', encoding="utf-8")
     print(f'{len(changes)} candidate disorder changes; {len(sampled)} stratified review edges')
 if __name__=='__main__':
     main()

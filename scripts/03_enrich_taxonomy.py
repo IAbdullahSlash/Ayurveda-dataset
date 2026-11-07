@@ -35,7 +35,7 @@ def clean_binomial(s):
 # ----------------------------------------------------------------------------- GBIF
 def gbif_match_all(names):
     cf = CACHE / "gbif_match.json"
-    cache = json.loads(cf.read_text()) if cf.exists() else {}
+    cache = json.loads(cf.read_text(encoding="utf-8")) if cf.exists() else {}
     todo = [n for n in names if n and n not in cache]
     s = requests.Session()
     def one(n):
@@ -53,9 +53,9 @@ def gbif_match_all(names):
         for i, (n, js) in enumerate(ex.map(one, todo), 1):
             cache[n] = js
             if i % 200 == 0:
-                cf.write_text(json.dumps(cache))
+                cf.write_text(json.dumps(cache), encoding="utf-8")
                 print(f"   gbif {i}/{len(todo)}")
-    cf.write_text(json.dumps(cache))
+    cf.write_text(json.dumps(cache), encoding="utf-8")
     rows = []
     for n in names:
         js = cache.get(n, {})
@@ -91,7 +91,7 @@ def gbif_search_exact(names, authors=None):
     from rapidfuzz import fuzz
     authors = authors or {}
     cf = CACHE / "gbif_search.json"
-    cache = json.loads(cf.read_text()) if cf.exists() else {}
+    cache = json.loads(cf.read_text(encoding="utf-8")) if cf.exists() else {}
     s = requests.Session()
     for n in names:
         if n in cache:
@@ -100,7 +100,7 @@ def gbif_search_exact(names, authors=None):
                   headers=UA, timeout=30)
         cache[n] = r.json().get("results", []) if r.status_code == 200 else []
         time.sleep(0.2)
-    cf.write_text(json.dumps(cache))
+    cf.write_text(json.dumps(cache), encoding="utf-8")
     out, ambiguous = {}, {}
     for n in names:
         hits = [h for h in cache.get(n, []) if h.get("canonicalName") == n]
@@ -172,7 +172,7 @@ SPARQL = """SELECT ?gbif ?item ?en ?hi ?sa (GROUP_CONCAT(DISTINCT ?hialt; separa
 
 def wikidata_by_gbif(keys):
     cf = CACHE / "wikidata_by_gbif.json"
-    cache = json.loads(cf.read_text()) if cf.exists() else {}
+    cache = json.loads(cf.read_text(encoding="utf-8")) if cf.exists() else {}
     todo = [k for k in keys if k not in cache]
     for i in range(0, len(todo), 80):
         batch = todo[i:i + 80]
@@ -190,7 +190,7 @@ def wikidata_by_gbif(keys):
             g = lambda f: b.get(f, {}).get("value", "")
             cache[g("gbif")].append(dict(qid=g("item").rsplit("/", 1)[-1], en=g("en"), hi=g("hi"), sa=g("sa"),
                                          hi_alias=g("hi_alias")))
-        cf.write_text(json.dumps(cache, ensure_ascii=False))
+        cf.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
         print(f"   wikidata {min(i+80, len(todo))}/{len(todo)}")
         time.sleep(1.5)
     rows = []
@@ -279,7 +279,7 @@ def main():
                synonyms_resolved=int((src.gbif_status == "SYNONYM").sum()),
                wikidata_taxa=len(wd), wikidata_with_hindi=int((wd.wd_label_hi != "").sum()),
                wikidata_with_sanskrit=int((wd.wd_label_sa != "").sum()))
-    (ROOT / "reports/taxonomy_report.json").write_text(json.dumps(rep, indent=2))
+    (ROOT / "reports/taxonomy_report.json").write_text(json.dumps(rep, indent=2), encoding="utf-8")
 
 if __name__ == "__main__":
     main()

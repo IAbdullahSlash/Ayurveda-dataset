@@ -49,7 +49,7 @@ lab = lambda s: np.asarray(s.astype(str).tolist(), dtype=object)
 
 def save_result(name, res, extra):
     res.to_csv(REP / f"{name}_cv_results.csv", index=False)
-    (REP / f"{name}.json").write_text(json.dumps({"results": res.to_dict(orient="records"), **extra}, indent=2, default=float))
+    (REP / f"{name}.json").write_text(json.dumps({"results": res.to_dict(orient="records"), **extra}, indent=2, default=float), encoding="utf-8")
 
 # ============================================================================== E1 text -> diagnosis
 DOSHA_MASK = re.compile(r"\b(v[aā]t\w*|pitt\w*|paitt\w*|kaph\w*|[sś][lḷ]e[sṣ]m\w*|[sś]lai[sṣ]m\w*|sann?ip[aā]t\w*|"
@@ -215,7 +215,7 @@ def e2():
     allr.to_csv(REP / "E2b_dosha_pacify_per_label.csv", index=False)
     (REP / "E2b_dosha_pacify.json").write_text(json.dumps({"summary": summ.to_dict(orient="records"),
                                                            "prevalence": Y.mean().to_dict(), "n": len(h),
-                                                           "data_origin": "real (Amidha S5)"}, indent=2, default=float))
+                                                           "data_origin": "real (Amidha S5)"}, indent=2, default=float), encoding="utf-8")
     out["E2b"] = summ.iloc[0].to_dict()
     # ---- E2c indications from pharmacodynamic properties only (no karma -> no lexical leakage)
     X = h.copy()
@@ -230,7 +230,7 @@ def e2():
     allr.to_csv(REP / "E2c_indications_per_label.csv", index=False)
     (REP / "E2c_indications.json").write_text(json.dumps({"summary": summ.to_dict(orient="records"), "labels": top,
                                                           "label_prevalence": Y.mean().to_dict(), "n": len(h),
-                                                          "data_origin": "real (Amidha S5)"}, indent=2, default=float))
+                                                          "data_origin": "real (Amidha S5)"}, indent=2, default=float), encoding="utf-8")
     out["E2c"] = summ.iloc[0].to_dict()
     return out
 
@@ -458,10 +458,10 @@ if __name__ == "__main__":
     ap.add_argument("--bilingual", action="store_true")
     a = ap.parse_args()
     summary_f = REP / "summary.json"
-    summary = json.loads(summary_f.read_text()) if summary_f.exists() else {}
+    summary = json.loads(summary_f.read_text(encoding="utf-8")) if summary_f.exists() else {}
     for e in a.exp:
         t0 = time.time()
         r = {"e1": lambda: e1(a.bilingual), "e1c": e1c, "e2": e2, "e3": e3, "e4": e4}[e]()
         summary.update(r)
-        summary_f.write_text(json.dumps(summary, indent=2, default=float))
+        summary_f.write_text(json.dumps(summary, indent=2, default=float), encoding="utf-8")
         print(f"== {e} done in {time.time()-t0:.0f}s")

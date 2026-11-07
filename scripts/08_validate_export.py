@@ -256,7 +256,7 @@ def datapackage(t):
            "version": "1.2.0", "licenses": [{"name": "CC-BY-NC-SA-4.0", "title": "Combined release (WHO component is CC BY-NC-SA 3.0 IGO)"}],
            "sources": [{"title": r.title, "path": r.url, "licence": r.licence} for r in t["sources"].itertuples()],
            "resources": res}
-    (REL / "datapackage.json").write_text(json.dumps(pkg, indent=2, ensure_ascii=False))
+    (REL / "datapackage.json").write_text(json.dumps(pkg, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def write_exports(rep, t):
     if rep["failures"]:
@@ -273,7 +273,7 @@ def write_exports(rep, t):
     db = sqlite_export(t)
     datapackage(t)
     rep["sqlite_bytes"] = db.stat().st_size
-    (ROOT / "reports/data_quality_report.json").write_text(json.dumps(rep, indent=2, ensure_ascii=False, default=str))
+    (ROOT / "reports/data_quality_report.json").write_text(json.dumps(rep, indent=2, ensure_ascii=False, default=str), encoding="utf-8")
     print(json.dumps({k: v for k, v in rep.items() if k not in ("tables",) and not k.startswith(("pk:", "fk:"))}, indent=2, ensure_ascii=False, default=str))
     print("integrity:", {k: v for k, v in rep.items() if k.startswith(("pk:", "fk:")) and (v.get("orphans") or v.get("duplicates"))} or "all keys OK")
 
@@ -299,7 +299,7 @@ def main():
                 with sqlite3.connect(REL / "ayurkb.sqlite") as connection:
                     if connection.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
                         raise ValueError("SQLite integrity check failed")
-                paths = [str(path.relative_to(stage)) for path in stage.rglob("*") if path.is_file()]
+                paths = [path.relative_to(stage).as_posix() for path in stage.rglob("*") if path.is_file()]
             finally:
                 ROOT, P, REL = original
             publish(ROOT, stage, paths)

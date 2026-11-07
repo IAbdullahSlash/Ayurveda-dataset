@@ -67,7 +67,7 @@ def _get(url, params=None, tries=4, as_json=True):
 def fetch():
     cache = CACHE / "epmc_case_reports.json"
     if cache.exists():
-        recs = json.loads(cache.read_text())
+        recs = json.loads(cache.read_text(encoding="utf-8"))
     else:
         recs, cursor = [], "*"
         while True:
@@ -82,7 +82,7 @@ def fetch():
             if not page or not nxt or nxt == cursor:
                 break
             cursor = nxt
-        cache.write_text(json.dumps(recs))
+        cache.write_text(json.dumps(recs), encoding="utf-8")
     n_new = 0
     for r in recs:
         pmc = r.get("pmcid")
@@ -607,7 +607,7 @@ def extract(recs, lex, keep_text=False):
     return rows, ents, unknown_forms
 
 def main(no_fetch=False):
-    recs = json.loads((CACHE / "epmc_case_reports.json").read_text()) if no_fetch else fetch()
+    recs = json.loads((CACHE / "epmc_case_reports.json").read_text(encoding="utf-8")) if no_fetch else fetch()
     # de-duplicate (MED and PMC records of the same article)
     seen, uniq = set(), []
     for r in recs:
@@ -684,7 +684,7 @@ def main(no_fetch=False):
         "E6_matcher_on_real_presentations": metrics,
     }
     REP.mkdir(parents=True, exist_ok=True)
-    (REP / "E6_case_reports.json").write_text(json.dumps(summ, indent=2, ensure_ascii=False))
+    (REP / "E6_case_reports.json").write_text(json.dumps(summ, indent=2, ensure_ascii=False), encoding="utf-8")
     if len(R):
         R.to_csv(REP / "E6_case_reports_ranks.csv", index=False)
     print(json.dumps({k: v for k, v in summ.items() if not k.startswith("top_")}, indent=1, ensure_ascii=False)[:3000])

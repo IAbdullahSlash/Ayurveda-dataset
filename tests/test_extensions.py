@@ -42,7 +42,7 @@ def test_e6_matcher_beats_baselines():
     f = ROOT / "reports/ml/E6_case_reports.json"
     if not f.exists():
         pytest.skip("E6 not run")
-    m = json.loads(f.read_text())["E6_matcher_on_real_presentations"]
+    m = json.loads(f.read_text(encoding="utf-8"))["E6_matcher_on_real_presentations"]
     assert m["n_cases_evaluated"] >= 50
     assert m["family_hit@10"] > m["baseline_popularity_family_hit@10"] > m["baseline_random_exact_hit@10"]
 
@@ -116,10 +116,10 @@ def test_pubchem_identifiers():
 def test_chembl_data_kept_separate():
     core = (ROOT / "release/datapackage.json")
     if core.exists():
-        assert "chembl" not in core.read_text().lower(), "share-alike ChEMBL data must not enter the core package"
+        assert "chembl" not in core.read_text(encoding="utf-8").lower(), "share-alike ChEMBL data must not enter the core package"
     f = ROOT / "release/chembl/phytochemical_targets_chembl.csv"
     if f.exists():
-        assert (ROOT / "release/chembl/LICENSE_CHEMBL.txt").read_text().count("CC BY-SA 3.0") >= 1
+        assert (ROOT / "release/chembl/LICENSE_CHEMBL.txt").read_text(encoding="utf-8").count("CC BY-SA 3.0") >= 1
 
 # ----------------------------------------------------------------------------- image datasets (stage 18)
 @need("herb_image_datasets")
@@ -147,7 +147,7 @@ def test_tuning_report():
     f = ROOT / "reports/ml/E7_tuning.json"
     if not f.exists():
         pytest.skip("E7 not run")
-    r = pd.DataFrame(json.loads(f.read_text())["results"])
+    r = pd.DataFrame(json.loads(f.read_text(encoding="utf-8"))["results"])
     assert {"default_macro_f1_mean", "tuned_macro_f1_mean", "wilcoxon_p"} <= set(r.columns) and len(r) >= 10
 
 def test_review_workbook_has_dropdowns():
@@ -165,7 +165,7 @@ def test_tool_pages_embed_data_and_guard_capabilities(page):
     f = ROOT / "release/tools" / page
     if not f.exists():
         pytest.skip("tools not built")
-    html = f.read_text()
+    html = f.read_text(encoding="utf-8")
     assert "/*__DATA__*/null" not in html, "data placeholder not filled"
     assert '.use("db")' in html and "window.claude" in html and "?.use" in html   # guarded: absent outside claude.ai
     assert re.search(r"<title>[^<]{3,40}</title>", html)
@@ -206,7 +206,7 @@ def test_matching_improvements_beat_baselines():
     f = ROOT / "reports/ml/E6b_matching_improvements.json"
     if not f.exists():
         pytest.skip("stage 24 not run")
-    v = json.loads(f.read_text())["variants"]
+    v = json.loads(f.read_text(encoding="utf-8"))["variants"]
     base = v["V0 baseline (lexical, flat ranking)"]["hit@10"]
     best = v["V4 + profiles learned from real cases (5-fold CV)"]
     assert best["hit@10"] > base and best["hit@10"] > v["baseline_training_diagnosis_frequency (no symptoms)"]["hit@10"]
@@ -230,7 +230,7 @@ def test_finetuned_search_reported_without_leakage():
     f = ROOT / "reports/ml/E5b_finetuned_retrieval.json"
     if not f.exists():
         pytest.skip("stage 23 not run")
-    r = json.loads(f.read_text())
+    r = json.loads(f.read_text(encoding="utf-8"))
     assert "test records" in r["leakage_guard"] and r["training_pairs"] > 1000
     for task in ("diseases", "symptoms"):
         assert 0 <= r["finetuned"][task]["hindi_headword"]["recall_at_10"] <= 1
@@ -290,7 +290,7 @@ def test_mt_corrections_curated_and_marked():
     # every corrected row says so, and the report counts them
     marked = sum(int(rd(t)[col].str.contains("post-edited|rule-corrected").sum())
                  for t, col in [("symptoms", "gloss_hi_method"), ("diseases", "definition_hi_method"), ("terminology", "definition_hi_method")])
-    rep = json.loads((ROOT / "reports/fill_missing_report.json").read_text())["mt_postedits"]
+    rep = json.loads((ROOT / "reports/fill_missing_report.json").read_text(encoding="utf-8"))["mt_postedits"]
     assert sum(rep.values()) == marked and marked >= 100
 
 def test_mt_postedits_idempotent(tmp_path, monkeypatch):

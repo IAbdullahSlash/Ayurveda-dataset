@@ -108,7 +108,7 @@ def main():
     out["note"] = ("Q-text queries are machine translations of the English side, so they measure cross-lingual alignment of the "
                    "retriever (bitext retrieval), not independent user queries. Q-term queries are independent Sanskrit/Hindi headwords.")
     out["seconds"] = round(time.time() - t0, 1)
-    (REP / "E5_crosslingual_retrieval.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
+    (REP / "E5_crosslingual_retrieval.json").write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     # figure
     fig, axes = plt.subplots(1, 2, figsize=(10, 3.6), sharey=True)
     for ax, task in zip(axes, ["diseases", "symptoms"]):

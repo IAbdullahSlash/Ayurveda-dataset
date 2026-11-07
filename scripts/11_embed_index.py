@@ -34,7 +34,7 @@ def build_indexes(part="all", model=None, out=None, threads=3, force=False):
     if out:
         OUT = Path(out); OUT.mkdir(parents=True, exist_ok=True)
     enc = E5(threads=threads, model=model)
-    (OUT / "MODEL.txt").write_text(str(enc.path.relative_to(ROOT) if enc.path.is_relative_to(ROOT) else enc.path) + "\n")
+    (OUT / "MODEL.txt").write_text(str(enc.path.relative_to(ROOT) if enc.path.is_relative_to(ROOT) else enc.path) + "\n", encoding="utf-8")
     s, d, h, t = rd("symptoms"), rd("diseases"), rd("herbs"), rd("terminology")
     hindi = {}
     if "gloss_hi" in s.columns:          # Hindi-side indices (after 06 --merge): Hindi query -> Hindi passage

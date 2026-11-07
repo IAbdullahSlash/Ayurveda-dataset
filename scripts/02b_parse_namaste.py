@@ -200,7 +200,7 @@ def main():
     morb.to_csv(OUT / "namaste_morbidity.csv", index=False)
     sat.to_csv(OUT / "namaste_sat.csv", index=False)
     rep = {"morbidity": mrep, "sat": srep}
-    (ROOT / "reports/namaste_parse_report.json").write_text(json.dumps(rep, indent=2, ensure_ascii=False))
+    (ROOT / "reports/namaste_parse_report.json").write_text(json.dumps(rep, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(rep, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":

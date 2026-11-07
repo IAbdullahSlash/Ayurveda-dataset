@@ -143,7 +143,7 @@ def run_tasks():
     (REP / "E7_tuning.json").write_text(json.dumps({"results": R.to_dict(orient="records"),
         "method": "nested CV: inner 3-fold grid/random search on macro-F1 inside each outer fold; default vs tuned on identical "
                   "outer folds; transforms fitted inside inner and outer folds. Wilcoxon fold-score p-values are descriptive because CV training sets overlap",
-        "outer_cv": {"E1a": "5-fold", "E2a": "5-fold x 2 repeats", "E4": "5-fold"}}, indent=2, default=float))
+        "outer_cv": {"E1a": "5-fold", "E2a": "5-fold x 2 repeats", "E4": "5-fold"}}, indent=2, default=float), encoding="utf-8")
     try:
         import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
         fig, ax = plt.subplots(figsize=(9, 0.42 * len(R) + 1.2))

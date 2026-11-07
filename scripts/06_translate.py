@@ -145,7 +145,7 @@ def do_qe(n, threads):
                share_chrF_ge_50=round(sum(s >= 50 for s in scores) / len(scores), 4),
                examples=[dict(en=r["en"][:160], hi=r["hi"][:160], back=b[:160], chrF=round(s, 1))
                          for r, b, s in list(zip(rows, bt, scores))[:12]])
-    (ROOT / "reports/translation_qe.json").write_text(json.dumps(rep, indent=2, ensure_ascii=False))
+    (ROOT / "reports/translation_qe.json").write_text(json.dumps(rep, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps({k: v for k, v in rep.items() if k != "examples"}, indent=2))
 
 def write(df, name):
@@ -228,7 +228,7 @@ def do_merge():
         for c in ["term_en_hi", "term_en_hi_qe_flags", "definition_hi", "definition_hi_qe_flags", "definition_hi_method"]:
             df[c] = df.term_uid.map(term[c]).fillna("")
         write(df, t)
-    (ROOT / "reports/translation_coverage.json").write_text(json.dumps(stats, indent=2))
+    (ROOT / "reports/translation_coverage.json").write_text(json.dumps(stats, indent=2), encoding="utf-8")
     print(json.dumps(stats, indent=2))
 
 def do_purge(regex):

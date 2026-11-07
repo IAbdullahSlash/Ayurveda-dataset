@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def main():
     upgrades=importlib.import_module('26_model_upgrades')
-    records=json.loads((ROOT/'reports/model_weight_verification.json').read_text())
+    records=json.loads((ROOT/'reports/model_weight_verification.json').read_text(encoding="utf-8"))
     expected=next(row['sha256'] for row in records if row['model']=='multilingual-e5-small')
     model=ROOT/'models/multilingual-e5-small'
     with (model/'model.safetensors').open('rb') as stream:

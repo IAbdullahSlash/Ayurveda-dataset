@@ -60,7 +60,7 @@ def publish(root, staged, paths):
                     temporary.unlink(missing_ok=True)
             pointer = root / 'release/current_export.json'
             temporary = pointer.with_suffix('.pending')
-            temporary.write_text(json.dumps({'snapshot':str(snapshot.relative_to(root)), 'sha256':hashes},indent=2)+'\n')
+            temporary.write_text(json.dumps({'snapshot':snapshot.relative_to(root).as_posix(), 'sha256':hashes},indent=2)+'\n', encoding="utf-8")
             os.replace(temporary,pointer)
         except BaseException:
             for relative in reversed(touched):

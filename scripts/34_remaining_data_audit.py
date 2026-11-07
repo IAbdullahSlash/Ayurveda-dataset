@@ -23,6 +23,6 @@ def main():
              'herbs_missing_core_properties':len(missing),'fabricated_definitions_or_properties':0,
              'semantic_models':('downloaded; weight checksums verified' if (ROOT/'reports/model_weight_verification.json').exists() and all((ROOT/'models'/name/'model.safetensors').exists() for name in ['multilingual-e5-small','nllb-200-distilled-600M']) else 'model files or checksum verification missing'),
              'independent_external_cases':('publication candidates collected; independent reference labels still absent' if (ROOT/'reports/external_candidates/current_collection.json').exists() else 'not supplied; internal cases are not relabelled as external')}
-    (out/'followup_status.json').write_text(json.dumps(summary,indent=2)+'\n')
+    (out/'followup_status.json').write_text(json.dumps(summary,indent=2)+'\n', encoding="utf-8")
     print(json.dumps(summary))
 if __name__=='__main__':main()

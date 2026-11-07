@@ -4,6 +4,9 @@ from collections import defaultdict
 import hashlib,json
 from pathlib import Path
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.keys import skeleton_variants
 ROOT=Path(__file__).resolve().parents[1]
 def main():
@@ -32,5 +35,5 @@ def main():
     status={'undefined_disorders':int(diseases.definition_en.eq('').sum()),'candidate_pairs':len(rows),
         'disorders_with_alternative_candidates':frame.disease_id.nunique(),'canonical_definitions_filled':0,
         'note':'Headword matching may conflate senses; clinical alignment review required'}
-    (out/'alternative_definition_status.json').write_text(json.dumps(status,indent=2)+'\n');print(json.dumps(status))
+    (out/'alternative_definition_status.json').write_text(json.dumps(status,indent=2)+'\n', encoding="utf-8");print(json.dumps(status))
 if __name__=='__main__':main()

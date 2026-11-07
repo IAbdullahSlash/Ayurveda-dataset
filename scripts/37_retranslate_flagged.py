@@ -3,6 +3,9 @@
 import argparse,hashlib,json
 from pathlib import Path
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.translation_qe import has_decoding_loop
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -30,7 +33,7 @@ def main():
     out=ROOT/'reports/retranslation';out.mkdir(exist_ok=True)
     cache_path=out/'proposals.jsonl';cache={}
     if cache_path.exists():
-        for line in cache_path.read_text().splitlines():
+        for line in cache_path.read_text(encoding="utf-8").splitlines():
             item=json.loads(line);cache[item['source_sha256']]=item
     todo=list(dict.fromkeys(queue.source_text))
     if args.limit:todo=todo[:args.limit]
@@ -62,5 +65,5 @@ def main():
     summary={'scope':args.scope,'unique_sources_selected':len(todo),'sources_cached':len(cache),
         'record_proposals':len(records),'proposals_with_loops':sum(r['consecutive_loop'] for r in records),
         'canonical_records_overwritten':0,'independent_language_approval':False}
-    (out/'summary.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary),flush=True)
+    (out/'summary.json').write_text(json.dumps(summary,indent=2)+'\n', encoding="utf-8");print(json.dumps(summary),flush=True)
 if __name__=='__main__':main()

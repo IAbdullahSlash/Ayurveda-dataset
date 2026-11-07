@@ -3,6 +3,9 @@
 from pathlib import Path
 import json
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.translation_qe import has_decoding_loop
 ROOT=Path(__file__).resolve().parents[1]
 def main():
@@ -21,6 +24,6 @@ def main():
     pd.DataFrame(rows).to_csv(out/'translation_repetition_reassessment.csv',index=False)
     summary={'flagged_fields_including_derived_copies':len(rows),'consecutive_loops':sum(r['consecutive_decoding_loop'] for r in rows),
         'flags_cleared':0,'meaning_validated':False,'note':'Distributed repetition may be legitimate or erroneous; no automatic approval'}
-    (out/'translation_repetition_reassessment.json').write_text(json.dumps(summary,indent=2)+'\n')
+    (out/'translation_repetition_reassessment.json').write_text(json.dumps(summary,indent=2)+'\n', encoding="utf-8")
     print(json.dumps(summary))
 if __name__=='__main__':main()

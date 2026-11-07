@@ -4,6 +4,9 @@ import argparse
 import json
 from pathlib import Path
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.evaluation import grouped_partition, connected_record_groups, paired_cluster_interval, validate_external_cases
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -46,7 +49,7 @@ def main():
         'qa_grouping':'all shared record IDs, including English/Hindi versions',
         'external_validation':'requires newly sourced independent cases and adjudicated labels',
         'paired_intervals':'not computed: paired per-case baseline/model results not supplied'}
-    (out/'evaluation_status.json').write_text(json.dumps(status,indent=2)+'\n')
+    (out/'evaluation_status.json').write_text(json.dumps(status,indent=2)+'\n', encoding="utf-8")
     print(json.dumps(status,indent=2))
 if __name__=='__main__':
     main()

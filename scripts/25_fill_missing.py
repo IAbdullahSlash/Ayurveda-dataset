@@ -222,9 +222,9 @@ def main(mt_only=False):
         if (P / "diseases.parquet").exists():
             D.to_parquet(P / "diseases.parquet", index=False)
         f = ROOT / "reports/fill_missing_report.json"
-        old = json.loads(f.read_text()) if f.exists() else {}
+        old = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
         old["mt_postedits"] = mt_counts(D, T, S)
-        f.write_text(json.dumps(old, indent=2, default=int))
+        f.write_text(json.dumps(old, indent=2, default=int), encoding="utf-8")
         print("cumulative:", old["mt_postedits"])
         return
     who = T.set_index("term_uid")
@@ -360,7 +360,7 @@ def main(mt_only=False):
         rep["virya_from_family_and_chemistry"]["note"] = "below the 0.65 macro-F1 bar: no suggestions written"
         (P / "herb_property_suggestions.csv").unlink(missing_ok=True)
     rep["mt_postedits"] = mt_counts(D, T, S)
-    (ROOT / "reports/fill_missing_report.json").write_text(json.dumps(rep, indent=2, default=int))
+    (ROOT / "reports/fill_missing_report.json").write_text(json.dumps(rep, indent=2, default=int), encoding="utf-8")
     print(json.dumps(rep, indent=1, default=int))
 
 if __name__ == "__main__":

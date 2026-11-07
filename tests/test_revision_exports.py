@@ -35,7 +35,7 @@ def test_descriptor_resolves_from_release_directory(tmp_path, monkeypatch):
     monkeypatch.setattr(export, 'REL', tmp_path)
     export.datapackage(tables)
     root = Path(__file__).resolve().parents[1]
-    for resource in json.loads((tmp_path / 'datapackage.json').read_text())['resources']:
+    for resource in json.loads((tmp_path / 'datapackage.json').read_text(encoding="utf-8"))['resources']:
         assert (root / 'release' / resource['path']).is_file()
 
 def test_all_tables_have_source_dependencies():

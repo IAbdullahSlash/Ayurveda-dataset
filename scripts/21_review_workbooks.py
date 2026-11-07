@@ -200,7 +200,7 @@ def merge():
         agree[name] = {"items_reviewed": int(g.item_key.nunique()), "reviewers": int(g.reviewer_id.nunique()),
                        "items_with_>=2_reviewers": len(tab), "fleiss_kappa": fleiss_kappa(tab) if tab else None,
                        "verdicts": g.verdict.value_counts().to_dict()}
-    (ROOT / "reports/expert_review_agreement.json").write_text(json.dumps(agree, indent=2))
+    (ROOT / "reports/expert_review_agreement.json").write_text(json.dumps(agree, indent=2), encoding="utf-8")
     print(f"merged {len(R)} verdicts from {len(files)} workbook(s)"); print(json.dumps(agree, indent=1))
 
 if __name__ == "__main__":

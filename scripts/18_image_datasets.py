@@ -56,7 +56,7 @@ def folders(did, ver):
         r = requests.get(f"https://data.mendeley.com/public-api/datasets/{did}/folders/{ver}", headers=UA, timeout=60)
         r.raise_for_status()
         f.write_bytes(r.content)
-    return [x["name"].strip() for x in json.loads(f.read_text())]
+    return [x["name"].strip() for x in json.loads(f.read_text(encoding="utf-8"))]
 
 def binomial(label):
     m = re.match(r"^\s*([A-Z][a-z]+)\s+([a-z][a-z\-]+)", label.strip().replace("Rosa-sinensis", "rosa-sinensis"), re.I)
@@ -65,7 +65,7 @@ def binomial(label):
     return f"{m.group(1).capitalize()} {m.group(2).lower()}"
 
 GB_F = CACHE / "gbif_match_images.json"
-GB = json.loads(GB_F.read_text()) if GB_F.exists() else {}
+GB = json.loads(GB_F.read_text(encoding="utf-8")) if GB_F.exists() else {}
 
 def gbif_key(name):
     if name not in GB:
@@ -106,7 +106,7 @@ def main():
             rows.append(dict(dataset=short, dataset_doi=f"10.17632/{did}.{ver}", class_label=lab, species=b,
                              label_mapping=how, gbif_key=k or "", herb_id=h or "", match_method=method if h else "not_in_kb",
                              licence="CC BY 4.0", citation=cite, source_id="S12"))
-    GB_F.write_text(json.dumps(GB))
+    GB_F.write_text(json.dumps(GB), encoding="utf-8")
     df = pd.DataFrame(rows).drop_duplicates(["dataset", "species", "herb_id"])
     df.to_csv(P / "herb_image_datasets.csv", index=False)
     inkb = df[df.herb_id != ""]

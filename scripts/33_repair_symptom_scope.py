@@ -3,6 +3,9 @@
 import json
 from pathlib import Path
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 from lib.stable_ids import allocate
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -36,6 +39,6 @@ def main():
     report=ROOT/'reports/revision_audit/prameha_scope_repair.json'
     if not report.exists():
         report.write_text(json.dumps({'source_definition':source,'previous_edges':removed,'replacement':row,
-            'clinical_adjudication':False,'retired_ids_preserved':True},ensure_ascii=False,indent=2)+'\n')
+            'clinical_adjudication':False,'retired_ids_preserved':True},ensure_ascii=False,indent=2)+'\n', encoding="utf-8")
     print(sid)
 if __name__=='__main__':main()

@@ -91,7 +91,7 @@ def evaluate_cv(zoo, X, y, n_splits=5, n_repeats=2, label=None, fit_kw=None, top
                     "folds": [{"train": tr.tolist(), "test": te.tolist()} for tr, te in splits]}
         directory = Path(manifest_dir)
         directory.mkdir(parents=True, exist_ok=True)
-        (directory / f"{digest[:16]}-{n_splits}-{n_repeats}.json").write_text(json.dumps(manifest, indent=2))
+        (directory / f"{digest[:16]}-{n_splits}-{n_repeats}.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     rows, oof = [], {}
     for name, model in zoo.items():
         if name in skip_slow:

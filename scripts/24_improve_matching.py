@@ -216,7 +216,7 @@ def mesh_terms(topics):
 
 def main(ft=False):
     """ft=True: same experiment with the domain fine-tuned search model (stage 23); writes only its JSON"""
-    recs = json.loads((CACHE / "epmc_case_reports.json").read_text())
+    recs = json.loads((CACHE / "epmc_case_reports.json").read_text(encoding="utf-8"))
     seen, uniq = set(), []
     for r in recs:
         k = r.get("pmcid") or r.get("pmid") or r.get("id")
@@ -348,7 +348,7 @@ def main(ft=False):
            "notes": "Same cases and gold labels as stage 14 (diagnosis named in title/keywords/abstract). Group = disorder or its "
                     "depth-3 ancestor. V4 uses 5-fold CV over cases; V5 assumes the biomedical diagnosis is known."}
     out["search_model"] = "domain fine-tuned (stage 23)" if ft else "multilingual-e5-small (base)"
-    (REP / ("E6b_matching_improvements_finetuned.json" if ft else "E6b_matching_improvements.json")).write_text(json.dumps(out, indent=2))
+    (REP / ("E6b_matching_improvements_finetuned.json" if ft else "E6b_matching_improvements.json")).write_text(json.dumps(out, indent=2), encoding="utf-8")
     print(json.dumps(out["median_symptom_ids"]))
 
 if __name__ == "__main__":

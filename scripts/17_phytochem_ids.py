@@ -42,7 +42,7 @@ def drop_macromolecules(out):
 
 def cache(name):
     f = CACHE / name
-    return f, (json.loads(f.read_text()) if f.exists() else {})
+    return f, (json.loads(f.read_text(encoding="utf-8")) if f.exists() else {})
 
 PCF, PC = cache("pubchem_names.json")
 CHF, CHC = cache("chembl.json")
@@ -138,8 +138,8 @@ def chembl_step(out, top_chembl):
         for k, res in zip(keys, ex.map(chembl_targets, keys)):
             done += 1; failed += res is None
             if done % 10 == 0:
-                CHF.write_text(json.dumps(dict(CHC))); print(f"  chembl {done}/{len(keys)} (failed {failed})", flush=True)
-    CHF.write_text(json.dumps(dict(CHC)))
+                CHF.write_text(json.dumps(dict(CHC)), encoding="utf-8"); print(f"  chembl {done}/{len(keys)} (failed {failed})", flush=True)
+    CHF.write_text(json.dumps(dict(CHC)), encoding="utf-8")
     trows = []
     for r in top.itertuples():
         t_ = CHC.get(r.inchikey)
@@ -163,11 +163,11 @@ def main(top_chembl=300, chembl_only=False):
         rows.append(dict(chemical=chem, n_herbs=r.n_herbs, n_activities=r.n_activities, **{k: res.get(k, "") for k in
                          ["status", "lookup_name", "cid", "inchikey", "formula", "mw", "smiles", "iupac"]}))
         if i % 200 == 0:
-            PCF.write_text(json.dumps(PC)); print(f"  pubchem {i}/{len(df)}", flush=True)
+            PCF.write_text(json.dumps(PC), encoding="utf-8"); print(f"  pubchem {i}/{len(df)}", flush=True)
     if chembl_only:
         out = pd.read_csv(P / "phytochemicals.csv", keep_default_na=False)
     else:
-        PCF.write_text(json.dumps(PC))
+        PCF.write_text(json.dumps(PC), encoding="utf-8")
         out = pd.DataFrame(rows).rename(columns={"status": "pubchem_match", "cid": "pubchem_cid", "iupac": "iupac_name",
                                              "lookup_name": "pubchem_lookup_name", "mw": "molecular_weight"})
         out["pubchem_cid"] = out.pubchem_cid.astype(str).str.replace(r"\.0$", "", regex=True).replace("nan", "")
@@ -189,10 +189,10 @@ def main(top_chembl=300, chembl_only=False):
             "Licence: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).\n"
             "Cite: Zdrazil B. et al. The ChEMBL Database in 2023. Nucleic Acids Res. 2024;52(D1):D1180-D1192.\n"
             "This file is distributed separately from the AyurKB core (CC BY-NC-SA 4.0) because of share-alike terms.\n"
-            "Filter: human SINGLE PROTEIN targets, pChEMBL >= 6 (potency <= 1 uM); compounds matched by InChIKey.\n")
+            "Filter: human SINGLE PROTEIN targets, pChEMBL >= 6 (potency <= 1 uM); compounds matched by InChIKey.\n", encoding="utf-8")
     (ROOT / "reports/phytochem_ids_report.json").write_text(json.dumps({
         "compounds_in_scope": len(out), "pubchem_matched": int(out.pubchem_match.str.startswith("matched").sum()),
-        "pubchem_service_errors": errors, "skipped_enzymes_or_proteins": n_macro, **status}, indent=2))
+        "pubchem_service_errors": errors, "skipped_enzymes_or_proteins": n_macro, **status}, indent=2), encoding="utf-8")
     print(json.dumps(status))
 
 if __name__ == "__main__":

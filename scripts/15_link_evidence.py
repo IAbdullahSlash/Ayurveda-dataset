@@ -33,7 +33,7 @@ rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=Fal
 UA = {"User-Agent": "ayurveda-open-dataset-builder/1.0 (research)"}
 S = requests.Session()
 CF = CACHE / "pubmed_esearch.json"
-C = json.loads(CF.read_text()) if CF.exists() else {}
+C = json.loads(CF.read_text(encoding="utf-8")) if CF.exists() else {}
 CLINICAL = ('(clinical trial[pt] OR randomized controlled trial[pt] OR meta-analysis[pt] OR '
             'systematic review[pt] OR "clinical study"[pt])')
 _calls = 0
@@ -54,7 +54,7 @@ def esearch(term, retmax=3):
                     C[term] = {"count": int(js["count"]), "ids": js.get("idlist", [])[:retmax]}
                     _calls += 1
                     if _calls % 50 == 0:
-                        CF.write_text(json.dumps(C))
+                        CF.write_text(json.dumps(C), encoding="utf-8")
                     return C[term]
         except Exception:
             pass
@@ -110,7 +110,7 @@ def run(links, entity_col, clause_of, label):
         out.append(rec)
         if i % 100 == 0:
             print(f"  {label}: {i}/{len(pairs)}", flush=True)
-    CF.write_text(json.dumps(C))
+    CF.write_text(json.dumps(C), encoding="utf-8")
     df = pd.DataFrame(out).rename(columns={"entity_id": entity_col})
     for c in ("n_entity", "n_disorder", "n_pair", "n_clinical"):
         df[c] = df[c].astype("Int64")   # whole numbers, blank when the link is not queryable (not '7.0')
@@ -136,7 +136,7 @@ def main():
                      "share_enriched_lift>=2": round(float((q.lift >= 2).mean()), 3) if len(q) else None,
                      "share_with_clinical_study": round(float((q.n_clinical > 0).mean()), 3) if len(q) else None,
                      "median_lift_when_cooccurring": float(q[q.n_pair > 0].lift.median()) if (q.n_pair > 0).any() else None}
-    (ROOT / "reports/link_evidence_report.json").write_text(json.dumps(rep, indent=2))
+    (ROOT / "reports/link_evidence_report.json").write_text(json.dumps(rep, indent=2), encoding="utf-8")
     print(json.dumps(rep, indent=1))
 
 if __name__ == "__main__":
