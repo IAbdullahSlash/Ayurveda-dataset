@@ -2,7 +2,8 @@
 import pandas as pd
 
 ANNOTATIONS = ('verdict','corrected_value','reviewer','reviewer_1','reviewer_2',
-               'adjudicated_label','adjudicated_phrases','independent_case_unit','reference','comment')
+               'adjudicated_label','adjudicated_phrases','independent_case_unit','reference','comment','adjudication_reference','eligibility_verdict',
+               'patient_unit_definition','presentation_only_text')
 
 def write_review_csv(frame, path):
     if path.exists():

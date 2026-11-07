@@ -16,3 +16,15 @@ def test_pubmed_identifier_alias_is_not_missed():
     internal=pd.DataFrame([{'pmcid':'','pmid':'123','doi':''}])
     assert module.candidates([{'source':'MED','id':'123','title':'Known'}],internal)==[]
     assert module.candidates([{'source':'MED','id':'456','title':'New'}],internal)[0]['pmid']=='456'
+
+
+def test_external_review_template_preserves_eligibility_decisions(tmp_path):
+    import pytest
+    review=importlib.import_module('38_prepare_external_review')
+    path=tmp_path/'candidates.csv'
+    pd.DataFrame([{'candidate_id':'PMC-new','pmcid':'PMC-new','pmid':'','doi':'','title':'New',
+                   'adjudicated_label':'','reviewer_1':'','reviewer_2':'','adjudication_reference':''}]).to_csv(path,index=False)
+    output=review.prepare(path)
+    data=pd.read_csv(output,keep_default_na=False);data['eligibility_verdict']='exclude';data.to_csv(output,index=False)
+    with pytest.raises(ValueError,match='annotated'):
+        review.prepare(path)
