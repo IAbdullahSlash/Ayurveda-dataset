@@ -1,0 +1,22 @@
+[
+  {
+    "model": "nllb-200-distilled-600M",
+    "repository": "facebook/nllb-200-distilled-600M",
+    "revision": "38bd1c6a0f58097b26ef7c7cd73a0dcac034350a",
+    "resolved_revision": "38bd1c6a0f58097b26ef7c7cd73a0dcac034350a",
+    "file": "model.safetensors",
+    "sha256": "ca41e084084466b348cdc519f9762bcfc6c352f35c2fbee5588194de8da63da8",
+    "bytes": 2460355968,
+    "verified": true
+  },
+  {
+    "model": "multilingual-e5-small",
+    "repository": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "resolved_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "file": "model.safetensors",
+    "sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+    "bytes": 470641600,
+    "verified": true
+  }
+]
