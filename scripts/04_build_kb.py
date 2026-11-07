@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.indic import fix_text, iast_to_deva, hindi_usage_form, ascii_fold, iso_to_iast, has_devanagari, deva_to_iast
 from lib.keys import skeleton, skeleton_variants
 from lib.indication_policy import apply_mapping_policy
+from lib.safety import apply_safety_states
 
 ROOT = Path(__file__).resolve().parents[1]
 INT, OUT, CUR = ROOT / "data/interim", ROOT / "data/processed", ROOT / "curation"
@@ -437,7 +438,7 @@ def build_herbs(diseases):
         for nm, lang, src in nl:
             if nm and str(nm).strip():
                 names_long.append(dict(herb_id=hid, name=str(nm).strip(), language_script=lang, source=src))
-    herbs = pd.DataFrame(rows)
+    herbs = apply_safety_states(pd.DataFrame(rows))
     herbs["data_origin"] = "integrated"
     names = pd.DataFrame(names_long).drop_duplicates()
 

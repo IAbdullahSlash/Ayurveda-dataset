@@ -2050,6 +2050,26 @@
           {
             "name": "description_hi_method",
             "type": "string"
+          },
+          {
+            "name": "safety_assessment_status",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_reviewer",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_reference",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_assessment_date",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_scope",
+            "type": "string"
           }
         ],
         "primaryKey": "herb_id"

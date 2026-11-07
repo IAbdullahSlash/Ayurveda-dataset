@@ -572,7 +572,7 @@ USDA Duke: phytochemicals reported per plant and part, with amounts (ppm) and re
 | `reference` | text | 73% | WO2 | Classical text reference or supporting case reports |
 | `source_id` | text | 100% | S4 | Source (see sources table) |
 
-## `herbs`  (466 rows × 54 columns)
+## `herbs`  (466 rows × 59 columns)
 
 Materia medica master (466 plants): official SAT-F names, GBIF-validated accepted botanical names, Wikidata Hindi names, Dravyaguṇa properties, mahākaṣāya membership, safety flags and modern evidence counts.
 
@@ -632,6 +632,11 @@ Materia medica master (466 plants): official SAT-F names, GBIF-validated accepte
 | `description_hi` | text | 74% | Abelmoschus moschatus बीज एक वाजीकर हैं और पेशाब प्रणाली के … |  |
 | `description_hi_qe_flags` | text | 12% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `description_hi_method` | text | 74% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
+| `safety_assessment_status` | text | 100% | unassessed | unassessed / review_pending / assessed; independent of hazard classification and never a blanket safe-use claim |
+| `safety_review_reviewer` | text | 0% |  | Reviewer identifier supplied with the scoped safety assessment; qualifications require separate verification |
+| `safety_review_reference` | text | 0% |  | Source evidence supporting the scoped safety assessment |
+| `safety_review_assessment_date` | text | 0% |  | Assessment date (YYYY-MM-DD) |
+| `safety_review_scope` | text | 0% |  | Species, preparation, population or other scope of the recorded assessment |
 
 ## `multiscript_names`  (20,895 rows × 12 columns)
 

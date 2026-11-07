@@ -19,7 +19,8 @@ POLICIES = {
 ID_FIELDS = ('disease_id', 'herb_id', 'form_id', 'symptom_id', 'term_uid', 'case_id',
              'therapy_id', 'dx_id', 'group_id', 'concept_id', 'qa_id', 'person_id')
 REFERENCE_FIELDS = set(ID_FIELDS) | {'entity_id', 'kb_ids', 'record_ids', 'case_ids',
-    'herb_ids', 'form_ids', 'dx_disease_ids', 'inherited_from', 'who_term_id', 'term_uid'}
+    'herb_ids', 'form_ids', 'dx_disease_ids', 'inherited_from', 'who_term_id', 'term_uid',
+    'original_disease_id', 'candidate_disease_ids'}
 
 def source_ids(row):
     return set(re.findall(r'\bS\d+\b', ';'.join(str(row.get(k, '')) for k in
@@ -78,6 +79,12 @@ def metadata(table, row, index, licences):
                 'review_status':'not_independently_adjudicated' if row.get('safety_class') else 'unassessed'}
         if row.get('safety_class'):
             sources.add('S0')
+        for field in ['safety_assessment_status', 'safety_review_reviewer', 'safety_review_reference', 'safety_review_assessment_date', 'safety_review_scope']:
+            if field in row:
+                fields[field] = {'method': 'explicit assessment state; herb_safety_reviews.csv',
+                    'review_status': row.get('safety_assessment_status', 'unassessed'),
+                    'reference': row.get('safety_review_reference', ''),
+                    'scope': row.get('safety_review_scope', '')}
     for field in row:
         if field.endswith('_hi') and row.get(field) and field not in fields:
             fields[field] = {'source_ids':sorted(sources), 'attribution':'record_dependency',

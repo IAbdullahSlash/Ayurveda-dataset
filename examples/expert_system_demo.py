@@ -27,6 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "data/processed"
 sys.path.insert(0, str(ROOT / 'scripts'))
 from lib.indication_policy import active_indications, supported_evidence
+from lib.safety import safety_text
 rd = lambda n: pd.read_csv(P / f"{n}.csv", keep_default_na=False, low_memory=False)
 
 # Caraka Saṃhitā, Sūtrasthāna 25.40 (agrya-saṅgraha): basti is foremost for vāta, virecana for pitta, vamana for kapha
@@ -212,7 +213,7 @@ def main():
         print("   Herbs recorded for this condition (sorted by literature evidence) / औषधियाँ:")
         for h in hl:
             x = herbs.loc[h]
-            warn = safety_notice(x.safety_class, x.safety_hazard_en)
+            warn = ' | ' + safety_text(x.to_dict())
             e = best.get(h)
             evs = ""
             if e is not None:

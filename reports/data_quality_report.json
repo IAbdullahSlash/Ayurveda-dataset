@@ -122,7 +122,7 @@
     },
     "herbs": {
       "rows": 466,
-      "columns": 54
+      "columns": 59
     },
     "multiscript_names": {
       "rows": 20895,
@@ -145,7 +145,7 @@
       "columns": 33
     },
     "qa_pairs": {
-      "rows": 4836,
+      "rows": 4790,
       "columns": 7
     },
     "sources": {
@@ -372,6 +372,10 @@
   "mojibake_cells": {},
   "non_devanagari_in_devanagari_columns": {},
   "iast_devanagari_roundtrip_rate": 1.0,
+  "safety_assessment_states": {
+    "unassessed": 442,
+    "review_pending": 24
+  },
   "bilingual_coverage": {
     "diseases.term_hi": 0.9986,
     "diseases.name_en_hi": 1.0,
@@ -593,5 +597,5 @@
       "unresolved": 0
     }
   },
-  "sqlite_bytes": 55705600
+  "sqlite_bytes": 55750656
 }

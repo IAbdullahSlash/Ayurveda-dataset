@@ -17,6 +17,7 @@ from lib.export_transaction import publish, export_lock
 from lib.provenance import write_sidecar, build_index, metadata
 from lib.indic import iast_to_deva, deva_to_iast, has_devanagari
 from lib.indication_policy import active_indications, supported_evidence, apply_mapping_policy
+from lib.safety import apply_safety_states, safety_text
 
 ROOT = Path(__file__).resolve().parents[1]
 P, REL = ROOT / "data/processed", ROOT / "release"
@@ -103,6 +104,11 @@ def checks():
             df = tables[t]; m = df[en] != ""
             cov[f"{t}.{hi}"] = round(float((df.loc[m, hi] != "").mean()), 4) if m.any() else None
     h = tables["herbs"]
+    expected_safety = apply_safety_states(h)
+    safety_fields = ['safety_assessment_status'] + ['safety_review_' + field for field in ('reviewer', 'reference', 'assessment_date', 'scope')]
+    if any(field not in h or not h[field].equals(expected_safety[field]) for field in safety_fields):
+        fails.append('herb safety states disagree with review ledger; run stage 46')
+    rep['safety_assessment_states'] = expected_safety.safety_assessment_status.value_counts().to_dict()
     cov["herbs.any_hindi_or_devanagari_name"] = round(float(((h.name_hi_ayurvedic != "") | (h.name_hi_common != "") |
                                                              (h.get("name_en_hi", pd.Series([""] * len(h))) != "")).mean()), 4)
     rep["bilingual_coverage"] = cov
@@ -146,10 +152,10 @@ def qa_pairs(t):
         en = (f"{r.name_sa_iast} ({r.accepted_name}): rasa {r.rasa}; guṇa {r.guna}; vīrya {r.virya}; vipāka {r.vipaka}; "
               f"pacifies {r.dosha_pacify or '-'}; aggravates {r.dosha_aggravate or '-'}."
               + (f" Main actions: {r.karma_actions}." if r.karma_actions else "")
-              + (f" SAFETY: {r.safety_class} - {r.safety_hazard_en}." if r.safety_class else ""))
+              + ' ' + safety_text(r._asdict()))
         hi = (f"{r.name_hi_ayurvedic} ({r.accepted_name}): रस {hi_list('rasa', r.rasa)}; गुण {hi_list('guna', r.guna)}; "
               f"वीर्य {hi_list('virya', r.virya)}; विपाक {hi_list('vipaka', r.vipaka)}; शमन {hi_list('dosha', r.dosha_pacify) or '-'}; "
-              f"प्रकोप {hi_list('dosha', r.dosha_aggravate) or '-'}।" + (f" सावधानी: {r.safety_hazard_hi}।" if r.safety_class else ""))
+              f"प्रकोप {hi_list('dosha', r.dosha_aggravate) or '-'}। " + safety_text(r._asdict(), 'hi'))
         qa.append(dict(qa_id=f"QA-H-{r.herb_id}", topic="herb_properties", record_ids=r.herb_id, language="en",
                        question=f"What are the Ayurvedic pharmacological properties (rasa, guṇa, vīrya, vipāka) of {r.name_sa_iast}?", answer=en))
         qa.append(dict(qa_id=f"QA-H-{r.herb_id}-hi", topic="herb_properties", record_ids=r.herb_id, language="hi",
@@ -205,8 +211,8 @@ def corpus(t):
                          translation_flags=getattr(r, "definition_hi_qe_flags", "")))
     for r in t["herbs"].itertuples():
         docs.append(dict(doc_id=r.herb_id, type="herb", title_en=r.name_en, title_sa=r.name_sa_iast, title_hi=r.name_hi_common or r.name_hi_ayurvedic,
-                         text_en=f"{r.name_sa_iast or r.name_ascii} | {r.accepted_name} ({r.family}) | rasa {r.rasa} | guṇa {r.guna} | vīrya {r.virya} | vipāka {r.vipaka} | pacifies {r.dosha_pacify} | aggravates {r.dosha_aggravate} | actions {r.karma_actions} | indications {r.indications_sa_ascii} | {r.description_en} | safety {r.safety_class} {r.safety_hazard_en}",
-                         text_hi=f"{r.name_sa_deva} | {r.name_hi_common} | {getattr(r, 'description_hi', '')} | {r.safety_hazard_hi}", source=r.source_ids, safety_review_status="flagged_unreviewed" if r.safety_class else "unassessed"))
+                         text_en=f"{r.name_sa_iast or r.name_ascii} | {r.accepted_name} ({r.family}) | rasa {r.rasa} | guṇa {r.guna} | vīrya {r.virya} | vipāka {r.vipaka} | pacifies {r.dosha_pacify} | aggravates {r.dosha_aggravate} | actions {r.karma_actions} | indications {r.indications_sa_ascii} | {r.description_en} | {safety_text(r._asdict())}",
+                         text_hi=f"{r.name_sa_deva} | {r.name_hi_common} | {getattr(r, 'description_hi', '')} | {safety_text(r._asdict(), 'hi')}", source=r.source_ids, safety_review_status=r.safety_assessment_status))
     for r in t["terminology"].itertuples():
         docs.append(dict(doc_id=r.term_uid, type=f"term:{r.domain}", title_en=r.term_en, title_sa=r.term_sa_iast_primary, title_hi=r.term_hi,
                          text_en=f"{r.term_sa_iast} | {r.term_en} | {r.definition_en}",

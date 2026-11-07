@@ -1,0 +1,19 @@
+{
+  "verified_indexes": [
+    "embeddings/symptoms",
+    "embeddings/diseases",
+    "embeddings/herbs",
+    "embeddings/terminology",
+    "embeddings/symptoms_hi",
+    "embeddings/diseases_hi",
+    "embeddings_ft/symptoms",
+    "embeddings_ft/diseases",
+    "embeddings_ft/herbs",
+    "embeddings_ft/terminology",
+    "embeddings_ft/symptoms_hi",
+    "embeddings_ft/diseases_hi"
+  ],
+  "count": 12,
+  "model_and_source_fingerprints_verified": true,
+  "clinical_accuracy_claim": false
+}

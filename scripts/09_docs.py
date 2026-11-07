@@ -56,6 +56,11 @@ TABLE_DOC = {
     "case_report_symptoms_semantic": "Complaint clauses of case reports matched to SAT symptoms by multilingual embeddings (clause text, symptom id, similarity).",
 }
 COL_DOC = {
+    "safety_assessment_status": "unassessed / review_pending / assessed; independent of hazard classification and never a blanket safe-use claim",
+    "safety_review_reviewer": "Reviewer identifier supplied with the scoped safety assessment; qualifications require separate verification",
+    "safety_review_reference": "Source evidence supporting the scoped safety assessment",
+    "safety_review_assessment_date": "Assessment date (YYYY-MM-DD)",
+    "safety_review_scope": "Species, preparation, population or other scope of the recorded assessment",
     "mapping_status": "source_matched_unreviewed / candidate_review_pending / quarantined / unmatched / alias_reviewed; only active disease_id supplies a link",
     "mapping_reason": "Reason for containment, ambiguity or a supplied reviewed alias decision",
     "mapping_reference": "Evidence for the mapping decision; a PDF review finding is containment evidence, not expert approval",
