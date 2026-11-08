@@ -8,12 +8,14 @@ Drafted on 8 November 2026 by Claude (Anthropic) from the NAMASTE entries, their
 
 | Suggestion | Groups | Rows | Meaning |
 |---|---:|---:|---|
-| `accept` | 35 | 453 | The suggested disorder is the same sense as the source term. Covers the 19 ambiguous duplicates, the 14 correct fuzzy matches and clear unmatched terms such as Agnimandya, Grahani and Pandu. |
+| `accept` | 76 | 529 | The suggested disorder is the same sense as the source term. Covers the 16 resolvable ambiguous duplicates, the 14 correct fuzzy matches and 46 unmatched terms such as Agnimandya, Grahani and Pandu. |
 | `accept_replacement` | 9 | 49 | A correct target for a quarantined wrong match, for example Kantharoga → disorders of the throat instead of ear diseases. |
-| `needs_expert` | 3 | 3 | A leaning is given, but a clinical decision is needed (the three spellings of *śukrakṣaya*). |
-| `no_target` | 3 | 28 | NAMASTE has no matching disorder; the term should stay unmatched (Yakrit Roga, Malabaddhata, Vibandha). |
+| `needs_expert` | 11 | 16 | A leaning is given, but a clinical decision is needed, for example the *śukrakṣaya* spellings, low-back pain and liver-and-spleen disorders. |
+| `no_target` | 22 | 55 | NAMASTE has no matching disorder, or the term names an action rather than a disorder (rasāyana, vṛṣya, varṇya). These stay unmatched. |
 
-Confidence is high for 33 groups, medium for 13 and low for 4. If a reviewer confirmed every `accept` and `accept_replacement`, active links would rise from 1,044 to 1,546 of 1,693, every quarantined row would get a correct target, and 144 rows would stay unmatched.
+The file covers every row that is currently not active: all 339 pending, 49 quarantined and 261 unmatched rows (118 groups, 649 rows). Confidence is high for 61 groups, medium for 45 and low for 12. If a reviewer confirmed every `accept` and `accept_replacement`, active links would rise from 1,044 to 1,622 of 1,693, every quarantined row would get a correct target, distinct linked disorders would rise from 74 to 127, and 71 rows would stay unmatched or pending.
+
+**Seven terms name actions, not disorders.** Rasāyana, Vṛṣya, Varṇya, Keśya, Pācana, Ārtava janana and Garbhāśaya śodhana describe what a herb does. **"Meha" is probably a misspelling of *medhya*:** both of its herbs (brāhmī, maṇḍūkaparṇī) are intellect-promoting drugs, so linking it to prameha would be wrong.
 
 **Why most "ambiguous" matches are not really ambiguous.** NAMASTE lists many disorders twice: once in the single-doṣa (*nānātmaja*) lists, for example "jaundice (due only to pittadōṣa)", and once as the general clinical entry with a full definition. A plain herb indication such as *Kāmalā* means the general disorder, so the suggestion picks that entry. Two groups are true spelling collisions with unrelated disorders (Gandamala, Krimi).
 
@@ -32,7 +34,9 @@ These groups have medium or low confidence, or carry the most rows:
 | Kshata | 3 | uraḥkṣata/kṣatakṣīṇa (AYD-00511) | Or a wound (vraṇa, AYD-01913)? |
 | Vidradhi | 3 | general abscess (AYD-01221) | Or internal vidradhi (AYD-00972)? |
 | Udavarta | 2 | udāvartaḥ (AYD-00656) | Definition fits; English label "volvulus" is misleading |
-| Śukrakṣaya (3 spellings) | 3 | dhātu-depletion pattern (AYD-00407) | Or oligospermia (AYD-00114)? |
+| Śukrakṣaya (3 spellings) and Shukra Alpata | 4 | dhātu-depletion pattern (AYD-00407); oligospermia for *alpatā* | Decide the four together |
+| Kati Shoola, Pakwashaya Shoola, Sandhishoola | 4 | closest pain entries | NAMASTE has no exact low-back, colon or joint-pain disorder |
+| Meha | 2 | none | Confirm the *medhya* reading |
 
 Each row of the CSV gives the rationale and the alternatives that were considered.
 
