@@ -1,0 +1,35 @@
+# End-to-end rebuild check, 8 November 2026
+
+`bash run_all.sh` had never been run end to end against the committed data. This records an attempt on Windows 10 with Python 3.13.12, the pinned requirements and the checksum-verified NLLB-200 and multilingual-e5 models.
+
+**Result: not yet verified end to end.** Stages 00, 01 and 02b to 06 (translation) ran; the run stopped before the remaining stages. It found one real bug, now fixed, and showed that the committed data cannot be reproduced exactly from the committed code.
+
+## What happened
+
+| Stage | Outcome |
+|---|---|
+| 00 models | Downloaded; checksums match the Hugging Face revisions (stage 39). |
+| 01 fetch | All sources already present; nothing re-downloaded. Two problems, both fixed: every `retrieved_utc` was rewritten on each run (stage 01 now keeps it while a file's hash is unchanged), and the four Amidha files did not match their recorded hashes on Windows, because git converted their line endings on checkout (`.gitattributes` now stops conversion under `data/raw/`). |
+| 02a WHO parse | Not run. It needs Poppler's `pdftotext -bbox-layout`; this machine had the Xpdf build of `pdftotext` (4.00), which lacks that option. The committed parse in `data/interim/who_*.csv` was used instead. |
+| 02b NAMASTE parse | **Non-deterministic.** Two runs on identical input disagreed. Fixed in commit `1ccae7a` (see below). |
+| 02c–05 | Ran. |
+| 06 translation | Translated 351 strings missing from the cache, all caused by the 02b differences. |
+| 06 quality check | Stopped by a disk-space watchdog when free space fell to 378 MB while both translation directions were loaded. |
+
+Stages 07 to 55 did not run in this attempt.
+
+## The stage 02b bug
+
+The diacritic repair added spelling variants to a counter in set order, which changes with Python's per-run hash seed, and then kept whichever equally frequent candidate came first. Three runs of the fixed code now give byte-identical output with the committed repair counts.
+
+The committed interim parse came from one random order. Regenerating it from the fixed code changes 104 SAT definitions and 61 mahākaṣāya member names. Most changes restore long final vowels that the old run dropped: guḍūca → guḍūcī, punarnava → punarnavā, haridra → haridrā, musta → mustā, sāriva → sārivā. A few are doubtful (bādhanam → bṛṃhaṇam in one definition). Downstream, the changed text alters symptom phrases, so the ID registry would allocate new symptom IDs (225 in this run) and stage 06 needs new translations.
+
+**The regeneration has not been applied.** It is a data change that needs review of the changed spellings and a full run of stages 02b to 08.
+
+## To finish the check
+
+1. Install Poppler (so that `pdftotext -bbox-layout` works) and free about 4 GB of disk space beyond the 2.9 GB of model weights.
+2. Decide whether to regenerate the stage 02b output with the fixed code, after reviewing the 104 + 61 changed spellings.
+3. Run `bash run_all.sh` in a separate copy and compare `data/processed/` with the committed tables.
+
+Existing Windows checkouts made before `.gitattributes` was added still hold converted copies of the Amidha files. Restore the exact bytes once with `git show HEAD:<path> > <path>` for each file under `data/raw/amidha_herb_db/`, or re-clone.
