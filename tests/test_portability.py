@@ -81,6 +81,10 @@ def isolated_import_problem(path):
             first_lib = line if first_lib is None else min(first_lib, line)
         elif isinstance(node, ast.Import) and any(a.name.split(".")[0] == "lib" for a in node.names):
             first_lib = line if first_lib is None else min(first_lib, line)
+        elif (isinstance(node, ast.Call) and getattr(node.func, "attr", getattr(node.func, "id", None)) == "import_module"
+              and node.args and isinstance(node.args[0], ast.Constant) and str(node.args[0].value)[:1].isdigit()):
+            # import_module("10_crosslingual") loads a sibling script, which also needs the script folder on sys.path
+            first_lib = line if first_lib is None else min(first_lib, line)
         elif (isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute) and node.func.attr == "insert"
               and isinstance(node.func.value, ast.Attribute) and node.func.value.attr == "path"):
             first_insert = line if first_insert is None else min(first_insert, line)
@@ -108,7 +112,7 @@ def test_numbered_scripts_import_lib_under_isolated_mode():
     for p in sorted((ROOT / "scripts").glob("[0-9]*.py")):
         line = isolated_import_problem(p)
         if line:
-            problems.append((p, line, "imports lib/ without sys.path.insert(0, script folder) first"))
+            problems.append((p, line, "imports lib/ or a sibling script without sys.path.insert(0, script folder) first"))
     assert not problems, "run_all.sh runs stages with `python -I`, which omits the script folder:\n" + _report(problems)
 
 
@@ -142,6 +146,17 @@ with p.open("a", encoding="utf-8") as f: pass
 with zipfile.ZipFile("a.zip").open("member.txt") as f: pass
 name = p.relative_to(Path(".")).as_posix()
 '''
+
+
+@pytest.mark.parametrize("source,flagged", [
+    ("import importlib\nspecs = importlib.import_module('00_get_models')\n", True),
+    ("import sys, importlib\nfrom pathlib import Path\nsys.path.insert(0, str(Path(__file__).resolve().parent))\nspecs = importlib.import_module('00_get_models')\n", False),
+    ("import importlib\njson = importlib.import_module('json')\n", False),
+])
+def test_checker_catches_sibling_script_imports(tmp_path, source, flagged):
+    f = tmp_path / "39_sample.py"
+    f.write_text(source, encoding="utf-8")
+    assert (isolated_import_problem(f) is not None) == flagged
 
 
 @pytest.mark.parametrize("source,expected", [(BAD, 6), (GOOD, 0)])

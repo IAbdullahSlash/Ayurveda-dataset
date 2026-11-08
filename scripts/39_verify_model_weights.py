@@ -3,6 +3,8 @@
 import hashlib,importlib,json
 from pathlib import Path
 from huggingface_hub import HfApi
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():

@@ -3,6 +3,8 @@
 import hashlib,importlib,json,os
 from pathlib import Path
 import numpy as np
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # python -I omits the script folder
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
