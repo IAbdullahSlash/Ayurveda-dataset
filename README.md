@@ -438,7 +438,7 @@ The combined release declares **[CC BY-NC-SA 4.0](https://creativecommons.org/li
 | S13 | WHO ICTRP, optional manual export | WHO ICTRP terms (non-commercial, attribution) |
 
 ChEMBL-derived targets are distributed separately under CC BY-SA 3.0. The NLLB-200 translation model is
-CC BY-NC 4.0 and multilingual-e5 is MIT. More detail: [`docs/SOURCES.md`](docs/SOURCES.md),
+CC BY-NC 4.0 and multilingual-e5 is MIT. More detail: [`docs/GLOSSARY.md`](docs/GLOSSARY.md) (Ayurveda and technical terms), [`docs/SOURCES.md`](docs/SOURCES.md),
 [`docs/DATASHEET.md`](docs/DATASHEET.md), [`docs/EXPERT_SYSTEM_GUIDE.md`](docs/EXPERT_SYSTEM_GUIDE.md).
 
 ## Citation
