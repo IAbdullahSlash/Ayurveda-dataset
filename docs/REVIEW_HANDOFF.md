@@ -6,7 +6,7 @@ These batches were prepared on 8 November 2026 (Asia/Calcutta). They contain sou
 
 | Work-plan items | Material | Current scope |
 |---|---|---|
-| 2, 7 | [Mapping candidates](../reports/indication_review/candidate_groups.csv) and [exact-match sample](../reports/indication_review/exact_match_sample.csv) | 20 fuzzy groups, 19 ambiguous exact groups, 60 sampled exact rows. Quarantine is containment, not final adjudication. |
+| 2, 7 | [Mapping candidates](../reports/indication_review/candidate_groups.csv) and [exact-match sample](../reports/indication_review/exact_match_sample.csv) | 20 fuzzy groups, 19 ambiguous exact groups, 60 sampled exact rows. Quarantine is containment, not final adjudication. An [AI pre-review](INDICATION_PREREVIEW.md) drafts a recommendation for each group and the main unmatched terms; reviewers sign rows and stage 54 copies them into the ledger. |
 | 5 | [Rights review batch](../reports/review_handoff/rights_review_batch.csv) | 14 sources; decisions and permission evidence are still missing. Existing permission-request drafts remain in `docs/permission_requests/`. |
 | 6 | [Herb safety batch](../reports/review_handoff/safety_review_batch.csv) and [formulation safety batch](../reports/review_handoff/formulation_safety_batch.csv) | 466 herbs and 43 formulations, prioritized using existing flags, formulation membership and published mentions. Mentions do not establish causation. |
 | 7 | [Symptom review sample](../reports/revision_audit/symptom_edge_review_sample.csv) and [expert workbook](../review/AyurKB_expert_review.xlsx) | Existing 151-edge sample and workbook; source-visible semantic decisions remain pending. The workbook is a historical review pool, not the current accepted graph. |
