@@ -44,12 +44,16 @@ Every Hindi field is marked by its `*_method` and `*_qe_flags` columns.
 **Identifiers.** Stable prefixed ids: `AYD-`, `SYM-`, `HERB-`, `FORM-`, `DX-`, `WHO:ITA-…`, `SAT:SAT-…`.
 Source codes (NAMASTE, ICD-11 TM2, WHO ITA, GBIF keys, Wikidata QIDs, NCT ids) are kept for linking.
 
-**Sensitive data.** None. There are no patient records. The Prakṛti cohort is simulated.
+**Clinical-data scope.** No privately collected patient cohort is included. Publication-derived metadata and short clinical phrases can still describe sensitive conditions; public availability is not a separate privacy or redistribution approval. Published reports are not necessarily independent patient units. The Prakṛti cohort is simulated.
 
 **Extension layers (v1.1).** Real-world layer from 565 published Ayurveda case reports (Europe PMC; 450 therapeutic,
-115 adverse-event); PubMed evidence tiers for 1,427 herb and 121 formulation links; 6,474 disorder → procedure links;
+115 adverse-event); the original layer had PubMed evidence tiers for 1,427 herb and 121 formulation links; 6,474 disorder → procedure links;
 1,959 phytochemicals with PubChem identifiers; links to three CC BY 4.0 plant-image datasets; names in 8 regional
 scripts; 3,347 cross-source headword concepts.
+
+**Current working revision after PDF review.** All 1,693 indication source rows remain: 1,044 unique exact source matches are active but unreviewed, 339 candidates await review, 49 are quarantined, and 261 are unmatched. The current evidence table retains 1,039 supported pairs; 388 withdrawn pairs are audit history. QA has 4,790 rows, and all 43 tables total 180,899 rows. Herb safety has 442 unassessed and 24 review-pending records, with no independently assessed records. See [follow-up work](REVIEW_WORK_PROGRESS.md). Historical benchmark counts describe earlier frozen inputs.
+
+**Material identity scope.** The historical `herbs` inventory includes 453 records linked to botanical taxa, two source-identified non-botanical materials (mineral pitch and gairika/Ferrum haematite), and 11 unresolved identities. `accepted_name` remains a compatibility field and is not a verified species name for every row. Material categories preserve source references; they do not authenticate physical preparations or establish safety. No names, identifiers or species records were merged by this classification.
 
 **Accuracy upgrades (v1.2).** 415 WHO definitions fill disorders NAMASTE leaves undefined (definitions 55.5% → 69.8%);
 13,639 disorder → symptom edges from WHO sign lists; inherited profiles for 470 subtypes (flagged); 1,420 doṣa

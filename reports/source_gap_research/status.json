@@ -1,0 +1,13 @@
+{
+  "missing_hindi_names": 280,
+  "existing_qids": 213,
+  "wikidata_snapshots": 213,
+  "name_states": {
+    "source_has_no_hindi_label": 213,
+    "no_existing_wikidata_identifier": 67
+  },
+  "taxonomy_gap_records": 13,
+  "gbif_snapshots": 13,
+  "canonical_names_changed": 0,
+  "qualified_reviews_supplied": 0
+}

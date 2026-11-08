@@ -1,0 +1,95 @@
+{
+  "verified_indexes": [
+    "embeddings/symptoms",
+    "embeddings/diseases",
+    "embeddings/herbs",
+    "embeddings/terminology",
+    "embeddings/symptoms_hi",
+    "embeddings/diseases_hi",
+    "embeddings_ft/symptoms",
+    "embeddings_ft/diseases",
+    "embeddings_ft/herbs",
+    "embeddings_ft/terminology",
+    "embeddings_ft/symptoms_hi",
+    "embeddings_ft/diseases_hi"
+  ],
+  "count": 12,
+  "model_and_source_fingerprints_verified": true,
+  "finite_unit_norm_arrays": true,
+  "norm_tolerance": 0.003,
+  "fingerprints": {
+    "embeddings/symptoms": {
+      "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+      "source_csv_sha256": "bb96cc836daf793448a2b9ee7184bca7129058853577915aa4082588db31e7b2",
+      "array_sha256": "71d7fc1136545ce655c38ef952121fda4884826ce896a1bad13ec835c60fd098",
+      "ids_sha256": "1dbc32cbd2942093238e67c66887b957a077a62d40305d9880389f35843545ba"
+    },
+    "embeddings/diseases": {
+      "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+      "source_csv_sha256": "9c21de8d13abf58aa5b79aa9d9fc7f5d61a440614b5a35e195fc3b549e2c0502",
+      "array_sha256": "623f4f61e6afa47bc0d97232fd73800ceadb286a304f3c4d2ea5b6307797b769",
+      "ids_sha256": "e924c0d162634bd744d833858fd54c52dd38206c7e80b48fca697951319d620d"
+    },
+    "embeddings/herbs": {
+      "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+      "source_csv_sha256": "0189b1372531b97015695d72a0f789f8ea74985076e4b928d6fa8fec6fa7bcfc",
+      "array_sha256": "00ead43579f76d98315438099747cf85e4f7670931defec475785651fc860579",
+      "ids_sha256": "bcda0ee9d10f3f1c88c513a529e1176a4c7a5f595b3bde204f4d2083da872ee8"
+    },
+    "embeddings/terminology": {
+      "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+      "source_csv_sha256": "1d6ecb1e7b7fbe99581e5770a8492d3205f966f78a834a395244e5ddc76f3b70",
+      "array_sha256": "54f9e73e6d9b59c50232304a463caccb77f5068008073732c6a767ac2dba313b",
+      "ids_sha256": "3df9b8cd354623f0c0c8474b8e0f927aee515d00ff2b7c4bc6c0294f20057bc8"
+    },
+    "embeddings/symptoms_hi": {
+      "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+      "source_csv_sha256": "bb96cc836daf793448a2b9ee7184bca7129058853577915aa4082588db31e7b2",
+      "array_sha256": "5053fc893a4b038398a7a2ff04287ef007d3d76d46eaab9b9569a99678944e25",
+      "ids_sha256": "16176ddcfa8b54f6d489a0b9ecc98de3cb7cce3a7c1cbab197d6bb93ac552b12"
+    },
+    "embeddings/diseases_hi": {
+      "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+      "source_csv_sha256": "9c21de8d13abf58aa5b79aa9d9fc7f5d61a440614b5a35e195fc3b549e2c0502",
+      "array_sha256": "39a149a694d755fb3567380bc2edbfa739fe0bb4718a5726e4875566f354b124",
+      "ids_sha256": "c037479c0acd8af374b91f657b120a91de8e3872593cea1da4c1b6672f703282"
+    },
+    "embeddings_ft/symptoms": {
+      "model_sha256": "00894acfd5fd9389a40e2e2a41dbd15fa3c502eaabcd3d286071f5bb839e7947",
+      "source_csv_sha256": "bb96cc836daf793448a2b9ee7184bca7129058853577915aa4082588db31e7b2",
+      "array_sha256": "736cb56ffc86e2cf5f64b4a2a9dd2a94c4b4d751d9f71f2f21d9c2c7de903068",
+      "ids_sha256": "1dbc32cbd2942093238e67c66887b957a077a62d40305d9880389f35843545ba"
+    },
+    "embeddings_ft/diseases": {
+      "model_sha256": "00894acfd5fd9389a40e2e2a41dbd15fa3c502eaabcd3d286071f5bb839e7947",
+      "source_csv_sha256": "9c21de8d13abf58aa5b79aa9d9fc7f5d61a440614b5a35e195fc3b549e2c0502",
+      "array_sha256": "3f84fc4f0543da386025272e23d97901c0876ea06b24245350f37329e32cdf71",
+      "ids_sha256": "e924c0d162634bd744d833858fd54c52dd38206c7e80b48fca697951319d620d"
+    },
+    "embeddings_ft/herbs": {
+      "model_sha256": "00894acfd5fd9389a40e2e2a41dbd15fa3c502eaabcd3d286071f5bb839e7947",
+      "source_csv_sha256": "0189b1372531b97015695d72a0f789f8ea74985076e4b928d6fa8fec6fa7bcfc",
+      "array_sha256": "ffee74dea4bce05f0c4391555cc9383395f005bef89a706b77ddabc4812c32f4",
+      "ids_sha256": "bcda0ee9d10f3f1c88c513a529e1176a4c7a5f595b3bde204f4d2083da872ee8"
+    },
+    "embeddings_ft/terminology": {
+      "model_sha256": "00894acfd5fd9389a40e2e2a41dbd15fa3c502eaabcd3d286071f5bb839e7947",
+      "source_csv_sha256": "1d6ecb1e7b7fbe99581e5770a8492d3205f966f78a834a395244e5ddc76f3b70",
+      "array_sha256": "6495427ec457ce79d5d288110db08cb51eb91e2b8ac701f3dda160c2a32db0b2",
+      "ids_sha256": "3df9b8cd354623f0c0c8474b8e0f927aee515d00ff2b7c4bc6c0294f20057bc8"
+    },
+    "embeddings_ft/symptoms_hi": {
+      "model_sha256": "00894acfd5fd9389a40e2e2a41dbd15fa3c502eaabcd3d286071f5bb839e7947",
+      "source_csv_sha256": "bb96cc836daf793448a2b9ee7184bca7129058853577915aa4082588db31e7b2",
+      "array_sha256": "86709b03f3961adf88d26ab8fe8894f32ce10871e0e24a33b95ed92b0553e61e",
+      "ids_sha256": "16176ddcfa8b54f6d489a0b9ecc98de3cb7cce3a7c1cbab197d6bb93ac552b12"
+    },
+    "embeddings_ft/diseases_hi": {
+      "model_sha256": "00894acfd5fd9389a40e2e2a41dbd15fa3c502eaabcd3d286071f5bb839e7947",
+      "source_csv_sha256": "9c21de8d13abf58aa5b79aa9d9fc7f5d61a440614b5a35e195fc3b549e2c0502",
+      "array_sha256": "69aaceed4948bf994c736665b303b6a154747be0865ff00f66e92fc1d59dba75",
+      "ids_sha256": "c037479c0acd8af374b91f657b120a91de8e3872593cea1da4c1b6672f703282"
+    }
+  },
+  "clinical_accuracy_claim": false
+}

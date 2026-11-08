@@ -16,7 +16,7 @@ OUT=release/AyurKB_v1.2.zip
 TEMP_ARCHIVE=$(mktemp release/.AyurKB-package-XXXXXX.zip)
 rm "$TEMP_ARCHIVE"
 trap 'rm -f "$TEMP_ARCHIVE"' EXIT
-inputs=(README.md requirements.txt CITATION.cff run_all.sh docs curation scripts tests examples
+inputs=(README.md requirements.txt requirements.cpu-py313.lock CITATION.cff run_all.sh docs curation scripts tests examples
   data/raw data/processed data/interim/cache
   release/ayurkb.sqlite release/ayurkb_corpus.jsonl release/ayurkb_provenance.jsonl
   release/datapackage.json release/report.html release/tools review reports models/trained)

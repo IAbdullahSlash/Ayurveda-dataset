@@ -1,0 +1,13 @@
+{
+  "archive_sha256": "075c7b1af50bd091438b5a0320ad95aa60bf7c7c57a9a3834cbb582a7a3812e6",
+  "csv_match": true,
+  "sqlite_integrity": "ok",
+  "lexical_demo": "passed from extracted archive and arbitrary cwd",
+  "model_scope": "lexical only; weights not bundled",
+  "test_suite": {
+    "passed": 142,
+    "failed": 0,
+    "skipped": 0
+  },
+  "external_clinical_validation": false
+}

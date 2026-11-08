@@ -1600,6 +1600,42 @@
           {
             "name": "source_id",
             "type": "string"
+          },
+          {
+            "name": "original_disease_id",
+            "type": "string"
+          },
+          {
+            "name": "original_disease_term_iast",
+            "type": "string"
+          },
+          {
+            "name": "original_disease_name_en",
+            "type": "string"
+          },
+          {
+            "name": "mapping_status",
+            "type": "string"
+          },
+          {
+            "name": "mapping_reason",
+            "type": "string"
+          },
+          {
+            "name": "mapping_reference",
+            "type": "string"
+          },
+          {
+            "name": "original_match_method",
+            "type": "string"
+          },
+          {
+            "name": "original_match_score",
+            "type": "number"
+          },
+          {
+            "name": "candidate_disease_ids",
+            "type": "string"
           }
         ]
       }
@@ -2013,6 +2049,46 @@
           },
           {
             "name": "description_hi_method",
+            "type": "string"
+          },
+          {
+            "name": "safety_assessment_status",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_reviewer",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_reference",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_assessment_date",
+            "type": "string"
+          },
+          {
+            "name": "safety_review_scope",
+            "type": "string"
+          },
+          {
+            "name": "material_type",
+            "type": "string"
+          },
+          {
+            "name": "taxon_identity_status",
+            "type": "string"
+          },
+          {
+            "name": "material_type_source_id",
+            "type": "string"
+          },
+          {
+            "name": "material_type_source_record",
+            "type": "string"
+          },
+          {
+            "name": "material_type_note",
             "type": "string"
           }
         ],

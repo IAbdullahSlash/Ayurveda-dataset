@@ -19,7 +19,8 @@ POLICIES = {
 ID_FIELDS = ('disease_id', 'herb_id', 'form_id', 'symptom_id', 'term_uid', 'case_id',
              'therapy_id', 'dx_id', 'group_id', 'concept_id', 'qa_id', 'person_id')
 REFERENCE_FIELDS = set(ID_FIELDS) | {'entity_id', 'kb_ids', 'record_ids', 'case_ids',
-    'herb_ids', 'form_ids', 'dx_disease_ids', 'inherited_from', 'who_term_id', 'term_uid'}
+    'herb_ids', 'form_ids', 'dx_disease_ids', 'inherited_from', 'who_term_id', 'term_uid',
+    'original_disease_id', 'candidate_disease_ids'}
 
 def source_ids(row):
     return set(re.findall(r'\bS\d+\b', ';'.join(str(row.get(k, '')) for k in
@@ -55,6 +56,19 @@ def metadata(table, row, index, licences):
     inherited = set().union(*(index.get(ref, set()) for ref in refs)) if refs else set()
     sources = direct | inherited
     fields = {}
+    if table == 'herb_indication':
+        fields['indication_raw'] = {'source_ids': ['S5'],
+            'source_record_ids': [row.get('herb_id', '')],
+            'attribution': 'referenced herb dependencies; exact historical upstream indication record may be unavailable'}
+        fields['disease_id'] = {'source_ids': sorted(sources),
+            'method': row.get('match_method', ''), 'policy': 'indication_policy_v1',
+            'review_status': row.get('mapping_status', 'not_adjudicated'),
+            'decision_reference': row.get('mapping_reference', ''),
+            'decision_reason': row.get('mapping_reason', ''),
+            'active_target': row.get('disease_id', ''),
+            'historical_target': row.get('original_disease_id', ''),
+            'candidate_targets': [v for v in row.get('candidate_disease_ids', '').split(';') if v],
+            'note': 'Historical/proposed targets are audit references, not accepted assertions. Reviewer identity and qualifications require separate verification.'}
     if table == 'diseases':
         is_who = str(row.get('definition_source', '')).startswith('WHO')
         origin = 'S3' if is_who else 'S1'
@@ -66,6 +80,12 @@ def metadata(table, row, index, licences):
                     'quality_flags':row.get(field + '_qe_flags','')}
                 sources.add(origin)
     if table == 'herbs':
+        for field in ['material_type', 'taxon_identity_status', 'material_type_source_id', 'material_type_source_record', 'material_type_note']:
+            if field in row:
+                fields[field] = {'source_ids': [row['material_type_source_id']] if row.get('material_type_source_id') else [],
+                    'source_record_ids': [row['material_type_source_record']] if row.get('material_type_source_record') else [],
+                    'method': 'source identifier/category; material_type_overrides.csv',
+                    'review_status': 'source_category_only; not physical authentication or safety approval'}
         for field in ['rasa','guna','virya','vipaka','karma_actions','dosha_pacify','dosha_aggravate','parts_used','description_en']:
             if row.get(field) and row.get('amidha_ids'):
                 fields[field] = {'source_ids':['S5'],
@@ -78,6 +98,12 @@ def metadata(table, row, index, licences):
                 'review_status':'not_independently_adjudicated' if row.get('safety_class') else 'unassessed'}
         if row.get('safety_class'):
             sources.add('S0')
+        for field in ['safety_assessment_status', 'safety_review_reviewer', 'safety_review_reference', 'safety_review_assessment_date', 'safety_review_scope']:
+            if field in row:
+                fields[field] = {'method': 'explicit assessment state; herb_safety_reviews.csv',
+                    'review_status': row.get('safety_assessment_status', 'unassessed'),
+                    'reference': row.get('safety_review_reference', ''),
+                    'scope': row.get('safety_review_scope', '')}
     for field in row:
         if field.endswith('_hi') and row.get(field) and field not in fields:
             fields[field] = {'source_ids':sorted(sources), 'attribution':'record_dependency',
@@ -88,7 +114,7 @@ def metadata(table, row, index, licences):
         'source_record_ids':sorted(refs), 'source_terms':{s:licences[s] for s in sorted(sources) if s in licences},
         'default_field_attribution':'conservative_record_dependencies', 'field_overrides':fields,
         'data_origin':row.get('data_origin','derived_or_inherited; see construction script'),
-        'review_status':row.get('verification_status', row.get('status','not_adjudicated')),
+        'review_status':row.get('mapping_status', row.get('verification_status', row.get('status','not_adjudicated'))),
         'rights_status':'requires_review',
         'unresolved_sources':unresolved,
         'provenance_status':'resolved_dependencies' if sources and not unresolved else 'unresolved'}

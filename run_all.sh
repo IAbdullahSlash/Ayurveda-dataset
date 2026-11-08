@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Rebuild AyurKB end to end. API responses and translations are cached under data/interim/cache/,
-# so a re-run is fast and deterministic; delete that folder to refetch everything.
+# Rebuild AyurKB end to end. Available API/translation caches are reused.
+# Missing article caches, upstream changes and model acquisition can require network
+# access and produce a new input snapshot; a full offline reconstruction is not established.
 set -euo pipefail
 cd "$(dirname "$0")"
 export OMP_NUM_THREADS=${OMP_NUM_THREADS:-1} OPENBLAS_NUM_THREADS=${OPENBLAS_NUM_THREADS:-1}

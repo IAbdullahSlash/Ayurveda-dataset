@@ -4,10 +4,11 @@ type: dataset
 title: "AyurKB: a bilingual, hybrid Ayurveda knowledge base for expert systems"
 abstract: >-
   AyurKB links Ayurvedic diagnosis, materia medica, remedies and modern scientific evidence in one relational
-  dataset, in English and Hindi, with every Sanskrit term in IAST and Devanagari. It is built only from
-  authoritative or openly licensed sources (Ministry of Ayush NAMASTE, WHO, USDA, GBIF, Wikidata, NLM,
-  PubChem, Europe PMC and a DOI-registered CC BY herb database), cross-validated, checked against 565
-  published case reports and benchmarked with machine-learning experiments E1-E8.
+  dataset with English, Hindi and Sanskrit representations. It integrates authoritative, openly licensed and
+  permission-sensitive sources, including NAMASTE, WHO, USDA, GBIF, Wikidata, NLM, PubChem, Europe PMC
+  and a community herb database. It includes metadata and extracted observations from 565 published case
+  reports and internal computational benchmarks. Source permissions, semantic and language adjudication,
+  and independent clinical validation remain incomplete.
 authors:
   - family-names: Azmi
     given-names: Abdullah

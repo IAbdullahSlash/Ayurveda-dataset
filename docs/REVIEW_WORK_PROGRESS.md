@@ -1,0 +1,101 @@
+# Follow-up review work progress
+
+Work follows [the ordered comparison plan](REVIEW_COMPARISON_AND_WORK_PLAN.md). This log is not a public release. Dates use the user's Asia/Calcutta timezone.
+
+## 1. Contain reported indication errors — completed, 8 November 2026
+
+All 1,693 source indication rows are preserved. The 48 PDF-reported wrong mappings plus the one overly broad fever mapping have blank active targets, retained original targets/names, explicit quarantine states, reasons, and a reference to the uploaded PDF's checksum and page. This is containment, not independent clinical adjudication or approval of a replacement.
+
+Stage 04 reapplies containment, stage 15 excludes contained links from new literature queries, and the demo filters both indications and stale unsupported evidence. QA generation also uses active links. Targeted regression checks passed (five tests including existing safety checks). Rebuilt distributed derivatives are tracked under task 3 rather than claimed complete here.
+
+## 2. Conservative matcher and reviewed-alias interface — engineering complete; adjudication pending
+
+Fuzzy spelling alone no longer supplies an active target. Exact-skeleton matches with multiple disorder candidates also abstain: 266 rows across 19 raw indication groups have that ambiguity. These are candidates, not newly established errors. Current states are 1,044 unique exact source matches (still unreviewed), 339 pending candidates, 49 quarantined rows, and 261 unmatched rows.
+
+`curation/indication_aliases.csv` is intentionally empty. An accepted alias needs an existing disorder ID, an equivalent-sense decision, a reviewer identifier and source reference; rejected aliases are supported too. Reviewer fields record supplied decisions rather than certifying qualifications. No clinical approval was generated. All 20 fuzzy groups and 19 ambiguous exact groups are in the protected review queue; a fixed-seed 60-row exact-match sample is also prepared. Candidate targets, historical methods/scores, reasons and references survive reruns.
+
+Five policy regression tests pass, covering idempotence, blocking old inputs and evidence, preserving separately supported pairs, ambiguous/fuzzy abstention, and reviewed-alias requirements. Independent precision/recall and alias adjudication remain pending.
+
+## 3. Refresh mapping-dependent outputs — completed
+
+The offline derivative refresh retains 1,039 evidence pairs supported by active indications and preserves 388 withdrawn pairs as explicitly historical audit material. It checks for a separate active indication before withdrawing a shared pair and refuses to manufacture literature records for newly approved targets. Original literature counts retain their old query scope; no fresh searches are claimed. Eight case-report KB-overlap flags changed; the observations themselves are unchanged.
+
+QA, corpus, source dependencies, SQLite, descriptor, dictionary, system coverage, grouped QA splits, review desk and local archive were rebuilt. Current QA has 4,790 rows, and the 43 processed tables total 180,899 rows. Historical review and benchmark artifacts retain their original snapshot meaning. Export now fails if indication policy is violated or unsupported evidence remains. The full suite passes: **142 tests, zero failures/skips/errors**. Fresh archive extraction, CSV equality, SQLite integrity and lexical execution from an arbitrary working directory also passed; this check did not reinstall dependencies or bundle model weights.
+
+## 4. Explicit safety states — completed engineering; clinical assessments pending
+
+Every herb now has a separate `safety_assessment_status`: 442 `unassessed`, 24 `review_pending`, and zero `assessed`. Existing hazard classifications are preserved. A scoped assessment requires a supplied reviewer, reference, date and scope in `curation/herb_safety_reviews.csv`; that ledger is empty. Assessment never implies universally safe use. Missing safety evidence is shown in both languages in herb-property QA and corpus text, and in the demo. Export rejects inconsistent states or unsupported claims of assessment.
+
+Source dependency metadata carries the new review-state fields. The two herb embedding indexes were rebuilt after the herb CSV changed; all 12 base/fine-tuned model/source/index fingerprints were verified. The full suite now passes **145 tests, no failures/skips/errors**, including state, scoped-review and generated-content checks. These tests do not establish clinical safety.
+
+## Expert and source-dependent tracks — concrete handoff prepared, decisions pending
+
+[Review handoff](REVIEW_HANDOFF.md) links protected, source-visible batches for all 466 herbs, 43 formulations, 14 rights sources, 598 unflagged Hindi fields, 79 unmatched indication terms and 254 unresolved link rows. The Hindi batch uses seed 42 and 2% per table/field, rounded up; its sampling frame is retained and no accuracy conclusion is inferred. Existing flagged queues, 151 symptom edges, 39 mapping groups, definition candidates, property citation leads and 736 external publication candidates remain available.
+
+The doṣa audit confirms 959/1,420 vāta predictions and median confidence 0.5695. It does not select a threshold or impose class quotas without independent target labels. Empty templates support independent query collection and study-level appraisal. Checks verified blank verdicts, evidence links and sampled unflagged source text. No reviewer decision, permission, clinical label or external message was generated. Items 5–7, 9–19 and 23 are therefore not reported as completed scientific or rights reviews merely because their materials are prepared.
+
+## 8. Decision-level provenance for this correction workflow — engineering complete
+
+Indication metadata now separates the active assertion, historical target and proposed candidates, and retains the decision reason/reference, mapping method, policy version and explicit review state. Raw indication attribution remains conservative when an exact historical upstream record is unavailable. Safety metadata carries its supplied review scope and reference. No historical lineage or qualified approval was invented.
+
+Unknown mapping states and reviewed-alias claims without an accepted ledger decision fail closed. Alias score serialization also supports blank scores without inventing a spelling score for a reviewed decision. Seventeen targeted policy, safety and export tests passed before the final combined validation. The remaining assertion-provenance backfill depends on actual source/reviewer evidence.
+
+## 21. Documentation and validation reporting — current revision synchronized
+
+README, datasheet, citation wording and QA evaluation scope now distinguish the current 180,899-row working revision from frozen historical benchmarks. Claims of full herb-property coverage and broad patient validation were corrected. The last published citation version/date are retained; no new public release is claimed. Pipeline comments no longer promise an established deterministic offline rebuild.
+
+The report generator can reuse a successful current JUnit run with `--junit` and refuses empty, all-skipped, failed or errored evidence. Its default execution also refuses nonzero pytest results, including error-only outcomes. This avoids both unnecessary repeated suites during documentation builds and false passing reports. Generated dates use Asia/Kolkata. The final combined suite passed **153 tests with zero failures, errors or skips**; the report reused that execution evidence.
+
+## 22. Related-resource comparison — initial evidence completed; systematic comparison pending
+
+Primary-publication metadata and abstracts were consulted for IMPPAT, IMPPAT 2.0 and GRAYU. [The comparison](RELATED_RESOURCE_COMPARISON.md) records author-reported scope, differing entity units, candidate AyurKB differentiators and a reproducible next-comparison protocol. It expressly avoids novelty, accuracy or clinical-superiority claims from row counts. Only publication metadata and search-manifest hashes are retained; full abstracts and bulk resource data were not redistributed. Wider resource discovery, live terms/interface audits and permitted record-level/task comparisons remain pending.
+
+## 20. Current archive verification — bounded checks complete; full upstream rebuild remains open
+
+This section records the preceding 153-test archive-only check. The later [continued source work](CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) completes a fresh dependency installation and a 159-test run, with new archive evidence bound to that environment. Full upstream source reconstruction remains open.
+
+The reusable `scripts/48_validate_followup_archive.py` verified ZIP integrity, equality with all 43 current CSVs, descriptor paths, SQLite integrity, accepted-indication/evidence consistency, explicit safety states, and English/Hindi semantic execution after fresh extraction from an arbitrary working directory. No unsupported indication-evidence pairs were present. The base model was supplied by a local symlink to verified weights; weights are not bundled. [Archive verification evidence](../reports/followup_archive_validation.json) includes CSV hashes, model hash, archive hash and the 153-test JUnit digest.
+
+These checks reuse the pinned Python environment. They do not establish a clean dependency install or a complete reconstruction of unavailable historical article caches and every upstream source. A new collection must have a new version rather than silently replace old experiment inputs.
+
+Reproduce these bounded checks from the repository root after producing a successful current JUnit run:
+
+```bash
+python scripts/08_validate_export.py
+python scripts/09_docs.py
+python scripts/12_report.py --junit /path/to/current-successful-tests.xml
+PYTHON_BIN=python bash scripts/13_package.sh
+python scripts/48_validate_followup_archive.py \
+  --junit /path/to/current-successful-tests.xml \
+  --model models/multilingual-e5-small
+```
+
+Omit `--model` for a lexical-only archive check. Local snapshot/archive generation is not a public release or a cloud-environment publication.
+
+## State of all 23 work items
+
+| Item | State after this batch | Remaining input or work |
+|---:|---|---|
+| 1 | Reported errors contained | Qualified replacement-target decisions remain separate. |
+| 2 | Conservative matcher and protected queues implemented | Adjudicate aliases/groups and measure semantic mapping accuracy. |
+| 3 | Current derivatives rebuilt and verified | Repeat targeted refreshes after approved corrections. |
+| 4 | Explicit safety-state engineering complete | No clinical assessment has been invented. |
+| 5 | Fourteen-source rights batch prepared | Qualified terms/permission decisions and any authorized correspondence. |
+| 6 | Prioritized herb/formulation safety batches prepared | Qualified scoped safety reviews. |
+| 7 | Mapping, symptom and workbook materials available | Independent semantic verdicts and adjudication. |
+| 8 | New workflow decision provenance implemented | Historical assertion backfill where actual evidence becomes available. |
+| 9 | Flagged materials and 598-field unflagged sample prepared | Bilingual review, approved glossary and correction decisions. |
+| 10 | Existing 736-publication candidate pool available | Eligibility, patient-unit independence and adjudicated labels. |
+| 11 | Existing paired evaluator available | Actual same-case predictions against strongest baselines after item 10. |
+| 12 | Independent-query template prepared | Collect independently authored queries and reviewed relevance labels. |
+| 13 | Distribution audit completed | Independent target labels for calibration and threshold validation. |
+| 14 | Definition candidates/source evidence available | Sense/permission decisions and verified new source text. |
+| 15 | All 261 unmatched rows prioritized into 79 term groups | Reviewed aliases and appropriate scope decisions. |
+| 16 | Existing citation leads retained for 26 herbs | Extract and adjudicate properties from permitted sources. |
+| 17 | All 254 link-gap rows triaged; three linked non-botanical ingredient categories corrected | Reviewed identities or justified non-links for remaining gaps. |
+| 18 | Study-appraisal schema prepared | Article-level evidence extraction and qualified appraisal. |
+| 19 | Refreshed 213 Wikidata entities and 13 taxonomy gaps; six chemistry-alignment leads identified | Source/identity/language decisions before adding coverage; no labels or compounds guessed. |
+| 20 | Fresh dependency install and fresh-archive verification complete; 159 tests passed in isolated Python 3.13 | Full upstream reconstruction remains unestablished; weights were supplied locally. |
+| 21 | Current counts, claims and validation reporting synchronized | Maintainer release/version and reviewer-role decisions; no public release made. |
+| 22 | Three-publication preliminary comparison completed | Systematic discovery, live terms audits and permitted record/task comparisons. |
+| 23 | Conditional future milestone documented | Clinical collaborators and governed studies only if clinical use is pursued. |

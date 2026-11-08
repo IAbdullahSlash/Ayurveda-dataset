@@ -1,0 +1,19 @@
+{
+  "materia_medica_records": 466,
+  "with_current_chemistry": 224,
+  "without_current_chemistry": 242,
+  "missing_by_material_category": {
+    "botanical_taxon_linked": 229,
+    "identity_unresolved": 11,
+    "non_botanical_material": 2
+  },
+  "exact_master_names_with_unused_source_chemistry": 0,
+  "records_with_recorded_variant_leads": 6,
+  "canonical_chemistry_rows_added": 0,
+  "taxonomic_adjudication": false,
+  "input_sha256": {
+    "data/processed/herbs.csv": "0189b1372531b97015695d72a0f789f8ea74985076e4b928d6fa8fec6fa7bcfc",
+    "data/interim/duke_fnftax.parquet": "19666f1e0092f377806f2a85a43d816ad386855ea76e19c21e3609b819bc9d96",
+    "data/interim/duke_farmacy_new.parquet": "67e1dcc96fcbb7c06d38ec94b775f070d288cebc477216813c2567e0f2dd600c"
+  }
+}

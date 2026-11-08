@@ -1,0 +1,66 @@
+{
+  "retrieved_utc": "2026-11-07T22:25:33.634728+00:00",
+  "queries": [
+    {
+      "query": "TITLE:IMPPAT OR TITLE:Ayurvedic AND TITLE:database OR TITLE:Ayurveda AND TITLE:\"knowledge graph\"",
+      "reported_hits": 0,
+      "records_retrieved": 0,
+      "response_sha256": "0361399f7b7cdb8859150bed31163b2d43410f0b08e0f1cc24edf87d0cbbbdf1",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    },
+    {
+      "query": "IMPPAT",
+      "reported_hits": 498,
+      "records_retrieved": 10,
+      "response_sha256": "a94f6554fb4b38e7ce0d8c94f1ce13300d10a89215f98ab58fbd5b9595dca39a",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    },
+    {
+      "query": "Ayurveda database",
+      "reported_hits": 2477,
+      "records_retrieved": 10,
+      "response_sha256": "71ea7b917e7695e27aca7b4630e4f19619950605ef1ad0acfe11a265cc606f51",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    },
+    {
+      "query": "Ayurveda knowledge graph",
+      "reported_hits": 508,
+      "records_retrieved": 10,
+      "response_sha256": "4903a379028f5df495eaf1b2b2a56e7be95323776381b5b7fa0fd93116972b10",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    },
+    {
+      "query": "DOI:10.1038/s41598-018-22631-z",
+      "reported_hits": 1,
+      "records_retrieved": 1,
+      "response_sha256": "57b432560f5c3a094e3775b3f2566161871d14124a72c657db2a5486c1b534d2",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    },
+    {
+      "query": "\"IMPPAT 2.0\" AND FIRST_PDATE:[2023-01-01 TO 2023-12-31]",
+      "reported_hits": 12,
+      "records_retrieved": 12,
+      "response_sha256": "eb3b96b3c2a08cab06749e3547c7ef939e6aeada1653ac3977bd742f1adeeb04",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    },
+    {
+      "query": "EXT_ID:41657773 AND SRC:MED",
+      "reported_hits": 1,
+      "records_retrieved": 1,
+      "response_sha256": "a21cdc4fc45a71ff5e0a24d473be2ee2ed68dbcf6089b540ec65e537fbe0528e",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    },
+    {
+      "query": "\"Ayurvedic medicinal plants database\"",
+      "reported_hits": 0,
+      "records_retrieved": 0,
+      "response_sha256": "c0e3be859111db8cfdd46b3599aed9407c262f928e57e2182d10f30317842a50",
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  ],
+  "selected_primary_publications": 3,
+  "systematic_review_complete": false,
+  "resource_bulk_data_downloaded": false,
+  "abstracts_redistributed": false,
+  "limitations": "Bounded discovery and primary-publication abstract review; counts are author-reported, not an independent database census. No licence or clinical-validation decision inferred."
+}

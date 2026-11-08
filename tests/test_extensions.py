@@ -238,7 +238,7 @@ def test_finetuned_search_reported_without_leakage():
 # ----------------------------------------------------------------------------- expert-system demo (README quick start)
 @pytest.mark.parametrize("symptoms,lang,sections", [
     # the English case reaches the herb list with literature-evidence tiers (the path that once crashed on '7.0')
-    ("fever; burning sensation; excessive thirst; vomiting", "en", ("Candidate disorders", "Herbs recorded", "clinical-publication matches (not efficacy assessed)")),
+    ("fever; burning sensation; excessive thirst; vomiting", "en", ("Candidate disorders", "Materia medica recorded", "clinical-publication matches (not efficacy assessed)")),
     ("बुखार; जलन; अधिक प्यास", "hi", ("Candidate disorders", "Classical procedures"))])
 def test_expert_system_demo_runs_end_to_end(symptoms, lang, sections):
     """the README commands must work on a fresh clone: lexical mode needs no model download"""

@@ -1,0 +1,8 @@
+{
+  "herbs": 466,
+  "states": {
+    "unassessed": 442,
+    "review_pending": 24
+  },
+  "note": "Existing hazard flags remain unreviewed; assessed never means universally safe."
+}

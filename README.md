@@ -9,7 +9,7 @@
 [![Release v1.2](https://img.shields.io/badge/release-v1.2-0f8a5f?style=flat-square)](docs/DATASHEET.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](requirements.txt)
-[![Tests: 135 passing](https://img.shields.io/badge/tests-135%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Tests: 158 passing](https://img.shields.io/badge/tests-158%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Frictionless Data Package](https://img.shields.io/badge/Frictionless-data%20package-1f6feb?style=flat-square)](release/datapackage.json)
 [![Languages: English, Hindi, Sanskrit](https://img.shields.io/badge/languages-English%20%7C%20Hindi%20%7C%20Sanskrit-e67e22?style=flat-square)](#whats-inside)
 
@@ -31,28 +31,28 @@
 
 ## About
 
-**Revision notice:** See [peer-review revision status](docs/REVISION_STATUS.md) and [current validation](docs/REVISION_VALIDATION.md). Corrected E1/E4 reruns are available; the historical release tables below are retained for comparison. Independent expert review remains pending.
+**Revision notice:** See [follow-up work](docs/REVIEW_WORK_PROGRESS.md), [review handoff](docs/REVIEW_HANDOFF.md) and [current validation](docs/REVISION_VALIDATION.md). The working revision contains 180,899 rows across 43 tables. Incorrect, fuzzy and ambiguous indication mappings are contained; current evidence/QA counts below reflect that change. Historical benchmark tables retain their original frozen inputs. Independent expert review remains pending.
 
 AyurKB links Ayurvedic **diagnosis, materia medica, remedies and modern scientific evidence** in one relational
-dataset. Everything is in **English and Hindi**, and every Sanskrit term is given in **IAST and Devanagari**.
+dataset, with **English, Hindi, Sanskrit IAST and Devanagari** representations. Coverage varies by field; Hindi is largely machine-translated and remains independently unreviewed.
 
 It integrates authoritative, openly licensed and permission-sensitive sources: the Ministry of Ayush NAMASTE portal, WHO, USDA,
 GBIF, Wikidata, NLM (PubMed, ClinicalTrials.gov, PubChem), Europe PMC and one DOI-registered CC BY herb database.
-The data is cleaned and cross-validated, checked against 565 published case reports, and benchmarked with
-18 machine-learning model configurations across experiments E1–E8.
+The data has structural validation and internal machine-learning benchmarks. Metadata and extracted observations
+from 565 published case reports support exploratory experiments and curation; they do not establish independent clinical validation.
 
 ### Highlights
 
-- **Traceable sources.** Every file comes from an official download or API and is logged with a SHA-256 hash in
-  `data/raw/PROVENANCE.json`. Source dependencies and terms are resolved through explicit fields, documented joins and the [provenance export](docs/PROVENANCE_CONTRACT.md); not every CSV carries both columns.
+- **Traceable sources.** Raw downloads have SHA-256 records in `data/raw/PROVENANCE.json`; curated and derived
+  content has separate construction and review history. Source dependencies and terms are resolved through explicit fields, documented joins and the [provenance export](docs/PROVENANCE_CONTRACT.md); not every CSV carries both columns.
 - **Bilingual by design.** English and Hindi throughout, Sanskrit in IAST and Devanagari, names in 8 regional
-  scripts and 4,836 bilingual question–answer pairs.
+  scripts and 4,790 bilingual question–answer pairs.
 - **Classical and modern side by side.** NAMASTE morbidity codes with 789 ICD-11 TM2 codes; Dravyaguṇa herb profiles
   next to USDA phytochemistry, PubChem identifiers, clinical trials and a PubMed evidence tier for every
   herb → disorder link.
-- **Checked against real patients.** 565 published case reports serve as a real-world benchmark and as a curation
-  queue of diagnosis–medicine pairs the knowledge base does not yet record.
-- **Ready for expert systems.** A SQLite database, a Frictionless data package, a RAG corpus, a multilingual
+- **Published observations for research.** 565 published case-report records support selective internal benchmarks and a curation
+  queue of diagnosis–medicine pairs. Reports and case series are not independent patient units.
+- **Tooling for reviewed prototypes.** A SQLite database, a Frictionless data package, a RAG corpus, a multilingual
   embedding index and a working bilingual demo, each built with one command.
 - **Honest numbers.** Every model is compared with a baseline on the same folds, and negative results are reported.
 
@@ -65,11 +65,11 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 | Area | Table | Rows | Highlights |
 |---|---|---:|---|
 | **Diagnosis** | `diseases` | 2,892 | NAMASTE morbidity codes, hierarchy, 789 WHO ICD-11 TM2 codes, 1,188 linked to WHO terms, doṣa labels |
-| | `symptoms` | 11,082 | SAT-D lexicon (9,400 Sanskrit symptom phrases + English glosses) and 1,681 more from NAMASTE definitions |
+| | `symptoms` | 11,082 | SAT-D lexicon (9,400 Sanskrit symptom phrases + English glosses) and 1,682 further source-derived records |
 | | `disease_symptom` | 11,883 | disease → symptom graph parsed from clinical definitions |
 | | `diagnostic_methods` | 43 | trividha, ṣaḍvidha, aṣṭasthāna (nāḍī, mūtra, jihvā …), daśavidha, nidāna pañcaka, kriyākāla, plus modern and computational counterparts with PubMed evidence |
-| **Herbs** | `herbs` | 466 | official Sanskrit names, GBIF-accepted botanical names, Hindi names, rasa / guṇa / vīrya / vipāka / karma / doṣa, safety class, PubMed & trial counts |
-| | `herb_indication`, `herb_karma`, `herb_names` | 1,693 / 829 / 3.6k | herb → disease, herb → action, multilingual synonyms |
+| **Materia medica** | `herbs` (historical table name) | 466 | 453 botanical taxon links, 2 non-botanical materials, 11 unresolved identities; source names/IDs preserved, properties and safety states explicit |
+| | `herb_indication`, `herb_karma`, `herb_names` | 1,693 / 829 / 3.6k | 1,044 active source matches, 339 pending candidates, 49 quarantined, 261 unmatched; source rows preserved |
 | | `herb_groups`, `herb_group_members` | 50 / 500 | Caraka's 50 mahākaṣāya |
 | **Remedies** | `formulations` (+ ingredients, indications) | 43 | classical compound remedies with classical source, dosage form, doṣa action, safety (curated, flagged) |
 | | `therapies` | 1,325 | pañcakarma, pūrvakarma, rasāyana, surgery & para-surgery, external therapies |
@@ -81,7 +81,7 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 | | `clinical_trials` | 6.4k links (5.3k trials) | ClinicalTrials.gov studies per herb and formulation |
 | **Real world** | `case_reports`, `case_report_entities` | 565 / 8,023 | published Ayurveda case reports (Europe PMC): NAMASTE diagnosis, presenting symptoms, herbs, formulations, procedures, modern tests; 115 adverse-event reports with implicated metals |
 | | `case_report_links` | 867 | diagnosis × medicine pairs seen in practice, flagged when the KB lacks them (curation queue) |
-| **Evidence** | `herb_indication_evidence`, `formulation_indication_evidence` | 1,427 / 121 | PubMed co-occurrence, clinical-study counts, lift over chance, top PMIDs and an evidence tier for every link |
+| **Evidence** | `herb_indication_evidence`, `formulation_indication_evidence` | 1,039 / 121 | PubMed search-result tiers for current links; 388 withdrawn historical pairs remain in the audit reports |
 | **Linked data** | `phytochemicals` | 1,959 | PubChem CID, InChIKey, formula, SMILES for key phytochemicals (1,732 matched) |
 | | `herb_image_datasets` | 214 | links to 3 CC BY 4.0 leaf-image datasets for plant identification |
 | **Language** | `multiscript_names`, `headword_concepts` | 20,895 / 3,347 | names in 8 regional scripts; Sanskrit headwords shared across WHO, SAT and NAMASTE |
@@ -89,14 +89,14 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 | | `disease_symptom_from_cases` | 3,905 | symptom associations learned from published case reports (used by the expert system) |
 | | `dosha_suggestions` | 1,420 | **model suggestions** for disorders whose doṣa is unspecified (confidence, second choice); to be confirmed by experts |
 | | `curation/clinical_symptom_crosswalk.csv` | 183 | modern clinical expressions → SAT symptoms (auto-mapped, to review) |
-| **AI-ready** | `qa_pairs` | 4,836 | bilingual Q&A generated from records (traceable ids) |
+| **AI-ready** | `qa_pairs` | 4,790 | bilingual Q&A generated from records (traceable ids) |
 | | `prakriti_synthetic_cohort` | 3,000 | **synthetic** constitution questionnaire cohort (WHO-grounded) |
 | | `release/ayurkb_corpus.jsonl`, `release/embeddings/` | 20k docs | RAG corpus and multilingual semantic index (built locally) |
 
 **Coverage at a glance**
 
 - **Remedies:** herb indications, mahākaṣāya groups, 43 classical formulations, therapies, diet and lifestyle.
-- **Herbs:** 466 with full Dravyaguṇa profiles.
+- **Materia medica:** 466 historical `herbs` records; 344 have core Dravyaguṇa properties. Material category and taxon-identity scope are explicit. Safety states are 442 unassessed and 24 review pending; none independently assessed.
 - **Diagnosing techniques:** classical examination methods with their references.
 - **Old and modern methods:** classical texts and standards alongside phytochemistry, clinical trials, ICD-11 coding
   and computational diagnostics.
@@ -115,6 +115,8 @@ cd Ayurveda-dataset
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+For the verified Linux x86_64 / Python 3.13 CPU setup, [the clean-install recipe](docs/CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) installs the CPU torch wheel first and supplies an exact direct/transitive version lock. This records package versions rather than locking system libraries or model weights.
 
 Run the checks (about 10 seconds). On a fresh clone the release-zip check is skipped until the zip is built with
 `bash scripts/13_package.sh`:
@@ -211,7 +213,7 @@ flowchart TB
         direction LR
         S1["NAMASTE<br/>WHO 2022"] ~~~ S2["USDA Duke<br/>Amidha"] ~~~ S3["GBIF<br/>Wikidata"] ~~~ S4["PubMed · ClinicalTrials.gov<br/>Europe PMC · PubChem"]
     end
-    subgraph PIPE["Pipeline: scripts 00–42"]
+    subgraph PIPE["Pipeline: scripts 00–52"]
         direction LR
         P1["Fetch with<br/>SHA-256 provenance"] --> P2["Parse, transliterate,<br/>repair diacritics"] --> P3["Integrate,<br/>translate EN → HI"] --> P4["Evidence, case reports,<br/>accuracy layers"] --> P5["Validate<br/>and export"]
     end
@@ -249,8 +251,8 @@ flowchart TB
 | | `09_docs.py`, `11_embed_index.py` | data dictionary; multilingual embedding index |
 | | `12_report.py`, `13_package.sh` | dataset report and the result tables in this README; release zip |
 | | `21_review_workbooks.py`, `22_build_tools.py` | expert-review workbook (build / merge) and the interactive tools |
-| Revision | `27`–`42` | peer-review revision: Hindi post-edits (32) and the Prameha symptom repair (33), both run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns. See [`docs/REVISION_STATUS.md`](docs/REVISION_STATUS.md) |
-| Test | `tests/` | 136 automated checks: transliteration, keys, references, encoding, domain and safety rules, bilingual coverage, ML baselines, the demo |
+| Revision | `27`–`52` | peer-review revision: Hindi post-edits (32) and the Prameha symptom repair (33), both run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47) and source-gap audits (49–52). See [`docs/REVISION_STATUS.md`](docs/REVISION_STATUS.md) |
+| Test | `tests/` | 159 automated checks: transliteration, keys, references, encoding, domain and safety rules, bilingual coverage, ML baselines, the demo |
 
 **Built with**
 
@@ -290,15 +292,16 @@ Every number below comes from `reports/ml/` (one JSON/CSV per experiment) and is
 no-training KB matcher ranks the diagnosed disorder family in its top 10 for 20% of cases (top 30: 32%), against 9%
 for a popularity baseline and 0.6% by chance among 1,595 disorders. The upgrades in E8 raise the top-10 rate to 48%.
 Case reports describe patients in modern clinical language, which the classical symptom lexicon only partly covers.
-Only 13% of the diagnosis–herb pairs seen in practice are recorded in the KB, so `case_report_links` doubles as a
-curation queue.
+These are historical internal results on selected publications. The current `case_report_links` table is a
+curation queue; its KB-overlap flags were refreshed after indication containment. Independent paired evaluation remains pending.
 
 **E7, tuning.** Nested cross-validation changes macro-F1 by −0.02 to +0.10. Tuning helped models with poorly suited
 defaults (Complement NB on text, Random Forest on the questionnaire) and slightly hurt on the 344-herb dataset, where
 the inner search overfits.
 
-**Link evidence.** Of 1,427 herb → disorder links, 204 have at least one clinical study in PubMed, 241 have supporting
-literature, 431 are sparse and 518 have none (classical use only).
+**Current link evidence.** Among 1,039 retained herb → disorder evidence pairs, 162 have clinical-publication search matches,
+191 have literature co-occurrence support, 324 are sparse, 361 have no query hits and one is not queryable.
+Search tiers do not appraise efficacy, and zero hits do not establish absence of evidence. Counts retain their original query dates.
 
 ### Accuracy upgrades (E8)
 
@@ -332,7 +335,7 @@ Ayurveda-dataset/
 │   ├── interim/        parsed intermediates; cached API responses and translations
 │   └── processed/      the knowledge base: 43 CSV tables
 ├── curation/           curated layers: formulations, safety, glossary, crosswalks (flagged for review)
-├── scripts/            pipeline stages 00–42 and shared helpers (lib/)
+├── scripts/            pipeline stages 00–52 and shared helpers (lib/)
 ├── tests/              automated checks
 ├── examples/           expert-system demo
 ├── models/trained/     small trained classifiers (E3, E4)
@@ -349,7 +352,7 @@ Ayurveda-dataset/
 
 Release **v1.2**. Done:
 
-- [x] 42 pipeline scripts, experiments E1–E8 and 136 automated checks
+- [x] 52 pipeline scripts, experiments E1–E8 and 159 automated checks
 - [x] Dataset report, Review Desk and Prakṛti questionnaire (source pages in `release/tools/`)
 - [x] ChEMBL compound–target links: 323 links, 62 compounds, 196 human proteins (built locally, see below)
 

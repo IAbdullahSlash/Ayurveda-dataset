@@ -1,0 +1,80 @@
+{
+  "archive_sha256": "dea6edb449a7622a08c2b3909cd75002da7e838e121e16a1a8cf69e1086247b0",
+  "csv_sha256": {
+    "data/processed/case_report_entities.csv": "017e06cbc4ecb46851d5b94c3a2c80f42f419203f7d73653295db0aea6015138",
+    "data/processed/case_report_links.csv": "945de753df198abef9775e22b22274a1f8fbd8030b795b0590c0afb316a2bfb7",
+    "data/processed/case_report_symptoms_semantic.csv": "1c314791b257037a79a7dcffe058450728b0cac68c73dc111baa70afa7f33ef6",
+    "data/processed/case_reports.csv": "257da359578788ab31d79260f027286af84d55fb6290f7620211b17fbbcd943b",
+    "data/processed/clinical_trials.csv": "20b5990a4ca5736d1c8d0941e775e03c1807c3437e2aa9bd7282e879fa462c59",
+    "data/processed/concept_members.csv": "3fdc2c64ecae0bf7140ab3260eda865c76434dc3045af2853f623bdc1b64dbb7",
+    "data/processed/controlled_vocabulary.csv": "e325a7c976694c39aa93c569b19ad7de6297e641e7c8541ec61c553193c302a7",
+    "data/processed/diagnostic_methods.csv": "3c65af6ec26bd49c4b3c4e48e142e3b252418e144798d13ba373af2f367b977f",
+    "data/processed/diet_lifestyle.csv": "b7fc9874622cf6d78845e1e76ac853d50f9b1b41d1663407ddf2220f69d1f5c9",
+    "data/processed/disease_symptom.csv": "7f5dac6cb2ef6ce548cf3aadd72b802662140105c9fd7f07ccad99eff2d0cb3c",
+    "data/processed/disease_symptom_from_cases.csv": "2627673826ae3cf7907eaf46ae4de0d85c83722273412be2874f7eb9c57c59ae",
+    "data/processed/disease_symptom_inferred.csv": "c07d7f68a96a35d4ff8b4cf8202e1f6a6b60aa628ada5ca1391d5697cd296915",
+    "data/processed/disease_symptom_who.csv": "c5eab2a1f88a30e61c221ef8539776b91b996a82074b874723e3380878405a84",
+    "data/processed/diseases.csv": "9c21de8d13abf58aa5b79aa9d9fc7f5d61a440614b5a35e195fc3b549e2c0502",
+    "data/processed/dosha_suggestions.csv": "09a0c5ffcb4f1ae5a798d4dba019931452c3054127cb6cb8a893134ef1103364",
+    "data/processed/evidence_queries.csv": "ecb2fc962cdf2a7fd1f554652dd185e5498872eb9294093162505c1a7bf97609",
+    "data/processed/formulation_indication_evidence.csv": "8703358abdc58b8b6f88e4f7de59b0389f6dcf1ec07bffd6b22c33deff30fb56",
+    "data/processed/formulation_indications.csv": "77b86ef9a8a87a9c7379989499f48572cabfa1ff56f6cafcb51b55d099352841",
+    "data/processed/formulation_ingredients.csv": "ac80839001069270c77a84bcdc8a2cb8db2538a1d350fa8a7eaeeadfb4517542",
+    "data/processed/formulations.csv": "c6ac630decf362743298b1de44b837546ddb468819a1f6affd1283f7aa26d678",
+    "data/processed/headword_concepts.csv": "b4786f16373cde3b5f5b137cc0636a7e38405b2f60682a26298358fd131285aa",
+    "data/processed/herb_ethnobotany.csv": "ef842f55c309fd92c4d09e48578f1f59a72ceb453a32fd4a931e209f64efd00f",
+    "data/processed/herb_group_members.csv": "e589c0a47b605a6d8c056409fe2dddfee9ce40970d3d19e5dffb9db5194324a7",
+    "data/processed/herb_groups.csv": "b6e0bc5ade7349cc2d6111d28f7dcd321e717d4e82c1bc9e8fd1ee224eedd8b8",
+    "data/processed/herb_image_datasets.csv": "d82a3fa35018ff59fcf0d496b5e91308caf57f163d068fd04a01afd324312ade",
+    "data/processed/herb_indication.csv": "5475efe4bfe40db587e587a13751de21b25a76d64b54e3a45376d3f4e652d3e8",
+    "data/processed/herb_indication_evidence.csv": "ba58fc1dc44fdb1d28420682b3210e8d5aa903d3463b1afbfbfc781f1c84f632",
+    "data/processed/herb_karma.csv": "5aaa3dfa84ae0ffc1fac5c3b9d0467a6a98f80be2607ce92696b9d75e48b4f46",
+    "data/processed/herb_names.csv": "1555d7a96c0ccbc32b99735732faeefdca1dea8c395ecf0300dba7a6aca8c1a4",
+    "data/processed/herb_phytochemicals.csv": "6f613ce9e130be1550de70014464f59e737c50a53bc5bfb9ebb2b65a7f851974",
+    "data/processed/herbs.csv": "3b68e87cc90c489ca9d6622868f8320b9937f129c3c85b9d579184f4d67d2595",
+    "data/processed/multiscript_names.csv": "1b80e7b71cdb644651964ff3e4002b22e8398a006bcc05d8d2db50741bb302d4",
+    "data/processed/pharmaceutics.csv": "a69179cc45eae429c00c40f1b214017dc921e6c28d9c08fae28c81c2fcf98a4b",
+    "data/processed/phytochemical_activities.csv": "2116272b8c38759a8d7be5529744a718b90301ee396f02bf0d5fb423beb802c7",
+    "data/processed/phytochemicals.csv": "555cfa7dd459ac04b307d165a2081c72269d8466ec511358b1d5fa5361540b71",
+    "data/processed/prakriti_synthetic_cohort.csv": "b0baaffc4115503fa0f3d8be6d28818abdede54f47dd93b06b71213abf496e20",
+    "data/processed/qa_pairs.csv": "72d0855e764074a0d1d16abdacd9fbbe4a4ca038000823ab314fbfda500918e9",
+    "data/processed/sources.csv": "5a68482122306f3162b9ec5fdcc8c43ecac646be119f7d0a2b8d323a2909f55c",
+    "data/processed/symptoms.csv": "bb96cc836daf793448a2b9ee7184bca7129058853577915aa4082588db31e7b2",
+    "data/processed/terminology.csv": "1d6ecb1e7b7fbe99581e5770a8492d3205f966f78a834a395244e5ddc76f3b70",
+    "data/processed/therapies.csv": "0973ce6d0ef81143907f66b6ea83235de28f221be8c1d15a55062d99b05c2584",
+    "data/processed/therapy_disease.csv": "86a457fb35d3e3a311ec148ee4de56c621250baadb9ec7ca50abac5cc558d79d",
+    "data/processed/therapy_evidence.csv": "4959425b7e256b3ec709b5f4ad0c97d86c34306ff78d3048e0956aaf7bde2fe9"
+  },
+  "zip_integrity": "passed",
+  "descriptor_resources": 43,
+  "sqlite_integrity": "passed",
+  "unsupported_indication_evidence": 0,
+  "safety_states": {
+    "review_pending": 24,
+    "unassessed": 442
+  },
+  "extracted_demos": [
+    {
+      "language": "en",
+      "status": "passed",
+      "mode": "base semantic"
+    },
+    {
+      "language": "hi",
+      "status": "passed",
+      "mode": "base semantic"
+    }
+  ],
+  "test_run": {
+    "passed": 153,
+    "skipped": 0,
+    "failed": 0,
+    "errors": 0,
+    "junit_sha256": "979ff033748237450bae4fd22b824ff6fc201cbc34d25f4c452b67034d3b72d7"
+  },
+  "dependency_scope": "existing pinned Python environment; no clean dependency install claimed",
+  "model_scope": "verified base weights supplied locally; not bundled",
+  "model_sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+  "upstream_rebuild_established": false,
+  "external_clinical_validation": false
+}

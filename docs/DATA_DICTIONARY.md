@@ -356,7 +356,7 @@ Formulation → NAMASTE disease links.
 
 ## `formulation_ingredients`  (500 rows × 7 columns)
 
-Ingredients of each formulation, linked to herbs where possible.
+Ingredients of each formulation, linked to the historical materia-medica master where possible. A nonempty herb_id can refer to a non-botanical material; ingredient_type preserves that distinction.
 
 | column | type | filled | example | description |
 |---|---|---|---|---|
@@ -365,7 +365,7 @@ Ingredients of each formulation, linked to herbs where possible.
 | `ingredient_sa_iast` | text | 100% | harītakī |  |
 | `ingredient_sa_deva` | text | 100% | हरीतकी |  |
 | `herb_id` | text | 77% | HERB-0426 |  |
-| `ingredient_type` | text | 100% | herb |  |
+| `ingredient_type` | text | 100% | herb | herb / herb (unlinked) / mineral/animal/other; linked non-botanical material IDs retain the latter category |
 | `ingredient_en` | text | 11% | sugar candy |  |
 
 ## `formulations`  (43 rows × 29 columns)
@@ -483,7 +483,7 @@ Species-level links from KB herbs to three CC BY 4.0 medicinal-plant image datas
 | `citation` | text | 100% | Sarma P, Boruah PA. MED117 Medicinal Plant Leaf Dataset & Na… |  |
 | `source_id` | text | 100% | S12 | Source (see sources table) |
 
-## `herb_indication`  (1,693 rows × 8 columns)
+## `herb_indication`  (1,693 rows × 17 columns)
 
 Herb → NAMASTE disease links (from Amidha indications; match method and score kept).
 
@@ -491,14 +491,23 @@ Herb → NAMASTE disease links (from Amidha indications; match method and score 
 |---|---|---|---|---|
 | `herb_id` | text | 100% | HERB-0001 |  |
 | `indication_raw` | text | 100% | Daurbalya |  |
-| `disease_id` | text | 85% | AYD-02170 |  |
+| `disease_id` | text | 62% | AYD-02170 |  |
 | `match_method` | text | 100% | exact_skeleton | Entity-linking procedure (for example exact_skeleton, exact_gloss or gbif_accepted_key) |
 | `match_score` | number | 100% | 100.0 |  |
-| `disease_term_iast` | text | 85% | daurbalyam |  |
-| `disease_name_en` | text | 85% | General debility disorder |  |
+| `disease_term_iast` | text | 62% | daurbalyam |  |
+| `disease_name_en` | text | 62% | General debility disorder |  |
 | `source_id` | text | 100% | S5 | Source (see sources table) |
+| `original_disease_id` | text | 85% | AYD-02170 | Historical target before containment or alias correction; not an active assertion |
+| `original_disease_term_iast` | text | 85% | daurbalyam | Historical target name retained for audit only |
+| `original_disease_name_en` | text | 85% | General debility disorder | Historical English target name retained for audit only |
+| `mapping_status` | text | 100% | source_matched_unreviewed | source_matched_unreviewed / candidate_review_pending / quarantined / unmatched / alias_reviewed; only active disease_id supplies a link |
+| `mapping_reason` | text | 23% | fuzzy spelling is not semantic equivalence | Reason for containment, ambiguity or a supplied reviewed alias decision |
+| `mapping_reference` | text | 23% | indication policy v1; source targets retained for review | Evidence for the mapping decision; a PDF review finding is containment evidence, not expert approval |
+| `original_match_method` | text | 100% | exact_skeleton | Historical matching method before the current policy |
+| `original_match_score` | number | 100% | 100.0 | Historical spelling-similarity score; not a probability of semantic correctness |
+| `candidate_disease_ids` | text | 23% | AYD-01278 | Proposed disorder IDs retained for review; these are not accepted links |
 
-## `herb_indication_evidence`  (1,427 rows × 16 columns)
+## `herb_indication_evidence`  (1,039 rows × 16 columns)
 
 PubMed co-occurrence evidence for every herb -> disorder link: paper counts, clinical-study counts, lift over chance, top PMIDs and an evidence tier (clinical_evidence / literature_supported / sparse / no_literature / not_queryable).
 
@@ -508,14 +517,14 @@ PubMed co-occurrence evidence for every herb -> disorder link: paper counts, cli
 | `disease_id` | text | 100% | AYD-02170 |  |
 | `biomedical_concept` | text | 100% | general debility / fatigue |  |
 | `correspondence` | text | 100% | approximate |  |
-| `query` | text | 98% | ("Abelmoschus moschatus"[tiab]) AND (fatigue[mh] OR debility… |  |
-| `n_entity` | text | 98% | 29 |  |
-| `n_disorder` | text | 98% | 48021 |  |
-| `n_pair` | text | 98% | 0 | PubMed papers mentioning both the entity and the disorder's biomedical concept |
-| `n_clinical` | text | 98% | 0 | Of those, clinical trials / RCTs / meta-analyses / systematic reviews |
-| `lift` | text | 98% | 0.0 | Co-occurrence over chance: N x n_pair / (n_entity x n_disorder); > 1 = studied together more often than chance |
-| `top_pmids` | text | 61% | 21849051;17362507 |  |
-| `clinical_pmids` | text | 14% | 36871902;39212516;30610931 |  |
+| `query` | text | 100% | ("Abelmoschus moschatus"[tiab]) AND (fatigue[mh] OR debility… |  |
+| `n_entity` | text | 100% | 29 |  |
+| `n_disorder` | text | 100% | 48021 |  |
+| `n_pair` | text | 100% | 0 | PubMed papers mentioning both the entity and the disorder's biomedical concept |
+| `n_clinical` | text | 100% | 0 | Of those, clinical trials / RCTs / meta-analyses / systematic reviews |
+| `lift` | text | 100% | 0.0 | Co-occurrence over chance: N x n_pair / (n_entity x n_disorder); > 1 = studied together more often than chance |
+| `top_pmids` | text | 65% | 21849051;17362507 |  |
+| `clinical_pmids` | text | 16% | 36871902;39212516;30610931 |  |
 | `evidence_tier` | text | 100% | no_literature | clinical_evidence (>=1 trial/RCT/meta-analysis) / literature_supported (>=3 papers, lift >= 2) / sparse / no_literature / not_queryable |
 | `pubmed_total_N` | number | 100% | 41390945 |  |
 | `source_id` | text | 100% | S8 | Source (see sources table) |
@@ -563,9 +572,9 @@ USDA Duke: phytochemicals reported per plant and part, with amounts (ppm) and re
 | `reference` | text | 73% | WO2 | Classical text reference or supporting case reports |
 | `source_id` | text | 100% | S4 | Source (see sources table) |
 
-## `herbs`  (466 rows × 54 columns)
+## `herbs`  (466 rows × 64 columns)
 
-Materia medica master (466 plants): official SAT-F names, GBIF-validated accepted botanical names, Wikidata Hindi names, Dravyaguṇa properties, mahākaṣāya membership, safety flags and modern evidence counts.
+Historical materia-medica master: botanical taxon links, non-botanical materials and unresolved identities are distinguished explicitly. Source names and herb IDs are retained; a linked taxon is not physical-material authentication. Includes SAT-F/Amidha names, properties, groups, safety states and evidence counts.
 
 | column | type | filled | example | description |
 |---|---|---|---|---|
@@ -623,6 +632,16 @@ Materia medica master (466 plants): official SAT-F names, GBIF-validated accepte
 | `description_hi` | text | 74% | Abelmoschus moschatus बीज एक वाजीकर हैं और पेशाब प्रणाली के … |  |
 | `description_hi_qe_flags` | text | 12% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `description_hi_method` | text | 74% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
+| `safety_assessment_status` | text | 100% | unassessed | unassessed / review_pending / assessed; independent of hazard classification and never a blanket safe-use claim |
+| `safety_review_reviewer` | text | 0% |  | Reviewer identifier supplied with the scoped safety assessment; qualifications require separate verification |
+| `safety_review_reference` | text | 0% |  | Source evidence supporting the scoped safety assessment |
+| `safety_review_assessment_date` | text | 0% |  | Assessment date (YYYY-MM-DD) |
+| `safety_review_scope` | text | 0% |  | Species, preparation, population or other scope of the recorded assessment |
+| `material_type` | text | 100% | botanical_taxon_linked | botanical_taxon_linked / non_botanical_material / identity_unresolved; source classification, not clinical approval |
+| `taxon_identity_status` | text | 100% | linked_gbif_taxon | linked_gbif_taxon / unresolved / not_applicable_non_botanical |
+| `material_type_source_id` | text | 98% | S7 | Source supporting the material category (S7 for a taxon linkage; S2/S5 for recorded non-botanical source categories) |
+| `material_type_source_record` | text | 98% | 8312665 | GBIF key or exact recorded source/category locator |
+| `material_type_note` | text | 100% | Taxon identifier linkage; not independent authentication of … | Category evidence and scope limitations; no species identity inferred from higher-rank fallback |
 
 ## `multiscript_names`  (20,895 rows × 12 columns)
 
@@ -747,7 +766,7 @@ SYNTHETIC Prakṛti questionnaire cohort (3,000 simulated people) generated from
 | `bmi` | number | 100% | 24.5 |  |
 | `data_origin` | text | 100% | synthetic (simulated from WHO ITA-2.8.3-2.8.5 trait definiti… | authoritative / community_open / integrated / curated / derived / synthetic |
 
-## `qa_pairs`  (4,836 rows × 7 columns)
+## `qa_pairs`  (4,790 rows × 7 columns)
 
 Bilingual (EN / HI) question-answer pairs generated from KB records, each traceable to record ids.
 

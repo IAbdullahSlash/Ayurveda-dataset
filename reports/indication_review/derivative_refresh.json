@@ -1,0 +1,10 @@
+{
+  "active_indication_rows": 1044,
+  "active_evidence_pairs": 1039,
+  "withdrawn_historical_pairs": 388,
+  "case_flags_changed": 8,
+  "source_indication_sha256": "5475efe4bfe40db587e587a13751de21b25a76d64b54e3a45376d3f4e652d3e8",
+  "literature_counts": "retained from original queries; no network queries performed",
+  "historical_evidence": "withdrawn_evidence.csv is audit history, not accepted indication support",
+  "external_clinical_validation": false
+}

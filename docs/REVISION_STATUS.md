@@ -1,6 +1,6 @@
 # Peer-review revision status
 
-This revision addresses the nine agreed work areas. The work was developed on branch `codex/ayurkb-review-fixes`. Completed engineering work is distinguished below from independent review or access prerequisites. No review verdict or clinical result has been invented.
+This revision addresses the original nine agreed work areas. The work was developed on branch `codex/ayurkb-review-fixes` and merged into `main`. Completed engineering work is distinguished below from independent review or access prerequisites. No review verdict or clinical result has been invented. For the later 23-item plan, see [follow-up progress](REVIEW_WORK_PROGRESS.md), [continued source work](CONTINUED_SOURCE_WORK.md) and [review handoff](REVIEW_HANDOFF.md).
 
 | Task | Completed technical work | Remaining prerequisite or limitation |
 |---|---|---|

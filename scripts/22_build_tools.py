@@ -92,7 +92,7 @@ def build(template, data, out):
     return len(html)
 
 def main():
-    gen = pd.Timestamp.now().strftime("%d %b %Y")
+    gen = pd.Timestamp.now(tz='Asia/Kolkata').strftime("%d %b %Y")
     items = review_items()
     n1 = build("review_desk_template.html", {"generated": gen, "items": items}, "review_desk.html")
     n2 = build("prakriti_template.html", {"generated": gen, "version": "1.0", "items": prakriti_items()}, "prakriti_questionnaire.html")

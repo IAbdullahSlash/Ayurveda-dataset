@@ -101,10 +101,10 @@
   },
   "herb_indication": {
     "rows": 1693,
-    "columns": 8
+    "columns": 17
   },
   "herb_indication_evidence": {
-    "rows": 1427,
+    "rows": 1039,
     "columns": 16
   },
   "herb_karma": {
@@ -121,7 +121,7 @@
   },
   "herbs": {
     "rows": 466,
-    "columns": 54
+    "columns": 64
   },
   "multiscript_names": {
     "rows": 20895,
@@ -144,7 +144,7 @@
     "columns": 33
   },
   "qa_pairs": {
-    "rows": 4836,
+    "rows": 4790,
     "columns": 7
   },
   "sources": {

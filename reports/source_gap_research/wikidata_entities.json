@@ -1,0 +1,3846 @@
+{
+  "Q104249449": {
+    "qid": "Q104249449",
+    "labels": {
+      "en": "Gymnema sylvestre ex"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "8040540"
+    ],
+    "scientific_names": [
+      "Gymnema sylvestre ex"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q104249449",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q104403015": {
+    "qid": "Q104403015",
+    "labels": {
+      "en": "Oroxylum indicum ex"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7414934"
+    ],
+    "scientific_names": [
+      "Oroxylum indicum ex"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q104403015",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q104664512": {
+    "qid": "Q104664512",
+    "labels": {
+      "en": "Swertia chirata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5596317"
+    ],
+    "scientific_names": [
+      "Swertia chirata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q104664512",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q106903401": {
+    "qid": "Q106903401",
+    "labels": {
+      "en": "Dolomiaea costus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "10864861"
+    ],
+    "scientific_names": [
+      "Dolomiaea costus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q106903401",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10743709": {
+    "qid": "Q10743709",
+    "labels": {
+      "en": "Litsea glutinosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7304140"
+    ],
+    "scientific_names": [
+      "Litsea glutinosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10743709",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10757112": {
+    "qid": "Q10757112",
+    "labels": {
+      "en": "Musa × paradisiaca"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2762752"
+    ],
+    "scientific_names": [
+      "Musa × paradisiaca"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10757112",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10871712": {
+    "qid": "Q10871712",
+    "labels": {
+      "en": "Ferula jaeschkeana"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3638132"
+    ],
+    "scientific_names": [
+      "Ferula jaeschkeana"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10871712",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10910406": {
+    "qid": "Q10910406",
+    "labels": {
+      "en": "Solanum violaceum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2929848"
+    ],
+    "scientific_names": [
+      "Solanum violaceum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10910406",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10910739": {
+    "qid": "Q10910739",
+    "labels": {
+      "en": "Polygonatum cirrhifolium"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2770153"
+    ],
+    "scientific_names": [
+      "Polygonatum cirrhifolium"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10910739",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10932824": {
+    "qid": "Q10932824",
+    "labels": {
+      "en": "Crotalaria verrucosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2942654"
+    ],
+    "scientific_names": [
+      "Crotalaria verrucosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10932824",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10933995": {
+    "qid": "Q10933995",
+    "labels": {
+      "en": "Leea macrophylla"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4160394"
+    ],
+    "scientific_names": [
+      "Leea macrophylla"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10933995",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10935878": {
+    "qid": "Q10935878",
+    "labels": {
+      "en": "Garcinia pedunculata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3713251"
+    ],
+    "scientific_names": [
+      "Garcinia pedunculata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10935878",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10937539": {
+    "qid": "Q10937539",
+    "labels": {
+      "en": "Habenaria intermedia"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2828690"
+    ],
+    "scientific_names": [
+      "Habenaria intermedia"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10937539",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10939436": {
+    "qid": "Q10939436",
+    "labels": {
+      "en": "Euphorbia thomsoniana"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3069845"
+    ],
+    "scientific_names": [
+      "Euphorbia thomsoniana"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10939436",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q10958087": {
+    "qid": "Q10958087",
+    "labels": {
+      "en": "Euphorbia heyneana"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3070419"
+    ],
+    "scientific_names": [
+      "Euphorbia heyneana"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q10958087",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q109902416": {
+    "qid": "Q109902416",
+    "labels": {
+      "en": "Lathyrus oleraceus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5347846"
+    ],
+    "scientific_names": [
+      "Lathyrus oleraceus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q109902416",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q11034878": {
+    "qid": "Q11034878",
+    "labels": {
+      "en": "Phyllanthus amarus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5382589"
+    ],
+    "scientific_names": [
+      "Phyllanthus amarus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q11034878",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q11043318": {
+    "qid": "Q11043318",
+    "labels": {
+      "en": "Aconitum chasmanthum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7277507"
+    ],
+    "scientific_names": [
+      "Aconitum chasmanthum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q11043318",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q11046535": {
+    "qid": "Q11046535",
+    "labels": {
+      "en": "Catunaregam spinosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2910886"
+    ],
+    "scientific_names": [
+      "Catunaregam spinosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q11046535",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q111391147": {
+    "qid": "Q111391147",
+    "labels": {
+      "en": "Vicia lens"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3973001"
+    ],
+    "scientific_names": [
+      "Vicia lens"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q111391147",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q11181633": {
+    "qid": "Q11181633",
+    "labels": {
+      "en": "Ziziphus jujuba"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3039423"
+    ],
+    "scientific_names": [
+      "Ziziphus jujuba"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q11181633",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q115790884": {
+    "qid": "Q115790884",
+    "labels": {
+      "en": "Boerhaavia diffusa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7469489"
+    ],
+    "scientific_names": [
+      "Boerhaavia diffusa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q115790884",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q1209690": {
+    "qid": "Q1209690",
+    "labels": {
+      "en": "Paederia foetida"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2909527"
+    ],
+    "scientific_names": [
+      "Paederia foetida"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1209690",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q12207142": {
+    "qid": "Q12207142",
+    "labels": {
+      "en": "Boerhavia repens"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3086288"
+    ],
+    "scientific_names": [
+      "Boerhavia repens"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q12207142",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q1300611": {
+    "qid": "Q1300611",
+    "labels": {
+      "en": "Sida cordifolia"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5406755"
+    ],
+    "scientific_names": [
+      "Sida cordifolia"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1300611",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13012433": {
+    "qid": "Q13012433",
+    "labels": {
+      "en": "Greater club rush"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2710499"
+    ],
+    "scientific_names": [
+      "Actinoscirpus grossus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13012433",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q130143": {
+    "qid": "Q130143",
+    "labels": {
+      "en": "Toxicodendron succedaneum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3190624"
+    ],
+    "scientific_names": [
+      "Toxicodendron succedaneum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q130143",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13094301": {
+    "qid": "Q13094301",
+    "labels": {
+      "en": "Schleichera oleosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3189945"
+    ],
+    "scientific_names": [
+      "Schleichera oleosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13094301",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13109901": {
+    "qid": "Q13109901",
+    "labels": {
+      "en": "Aconitum heterophyllum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7277241"
+    ],
+    "scientific_names": [
+      "Aconitum heterophyllum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13109901",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13112649": {
+    "qid": "Q13112649",
+    "labels": {
+      "en": "Gentiana kurroo"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7270259"
+    ],
+    "scientific_names": [
+      "Gentiana kurroo"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13112649",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13113872": {
+    "qid": "Q13113872",
+    "labels": {
+      "en": "Coscinium fenestratum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5592750"
+    ],
+    "scientific_names": [
+      "Coscinium fenestratum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13113872",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13139352": {
+    "qid": "Q13139352",
+    "labels": {
+      "en": "Fumaria indica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5530680"
+    ],
+    "scientific_names": [
+      "Fumaria indica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13139352",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13399160": {
+    "qid": "Q13399160",
+    "labels": {
+      "en": "Bombax ceiba"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3152226"
+    ],
+    "scientific_names": [
+      "Bombax ceiba"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13399160",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q13893639": {
+    "qid": "Q13893639",
+    "labels": {
+      "en": "Barleria strigosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3770457"
+    ],
+    "scientific_names": [
+      "Barleria strigosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q13893639",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q140957": {
+    "qid": "Q140957",
+    "labels": {
+      "en": "Dipterocarpus alatus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4096596"
+    ],
+    "scientific_names": [
+      "Dipterocarpus alatus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q140957",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q143525": {
+    "qid": "Q143525",
+    "labels": {
+      "en": "Salvadora persica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5580727"
+    ],
+    "scientific_names": [
+      "Salvadora persica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q143525",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q14490517": {
+    "qid": "Q14490517",
+    "labels": {
+      "en": "Canscora alata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3840335"
+    ],
+    "scientific_names": [
+      "Canscora alata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q14490517",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q14530198": {
+    "qid": "Q14530198",
+    "labels": {
+      "en": "Sapindus mukorossi"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5421133"
+    ],
+    "scientific_names": [
+      "Sapindus mukorossi"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q14530198",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q146202": {
+    "qid": "Q146202",
+    "labels": {
+      "en": "Sinapis alba"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3047621"
+    ],
+    "scientific_names": [
+      "Sinapis alba"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q146202",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q147030": {
+    "qid": "Q147030",
+    "labels": {
+      "en": "Nymphaea alba"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2882437"
+    ],
+    "scientific_names": [
+      "Nymphaea alba"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:30.762709+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q147030",
+    "response_sha256": "27c2b28018db4d6acdd04beef58338216010f91d88811313329250467be12918"
+  },
+  "Q1484310": {
+    "qid": "Q1484310",
+    "labels": {
+      "en": "Alocasia macrorrhizos"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5329904"
+    ],
+    "scientific_names": [
+      "Alocasia macrorrhizos"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1484310",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q150064": {
+    "qid": "Q150064",
+    "labels": {
+      "sa": "नागरङ्गफलम्",
+      "en": "citron"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3190157"
+    ],
+    "scientific_names": [
+      "Citrus medica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q150064",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q150149": {
+    "qid": "Q150149",
+    "labels": {
+      "en": "Prunus cerasoides"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3021409"
+    ],
+    "scientific_names": [
+      "Prunus cerasoides"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q150149",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15041677": {
+    "qid": "Q15041677",
+    "labels": {
+      "en": "Crocus sativus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2747430"
+    ],
+    "scientific_names": [
+      "Crocus sativus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15041677",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15226409": {
+    "qid": "Q15226409",
+    "labels": {
+      "en": "Capparis sepiaria"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7273413"
+    ],
+    "scientific_names": [
+      "Capparis sepiaria"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15226409",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15232012": {
+    "qid": "Q15232012",
+    "labels": {
+      "en": "Merremia emarginata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5549041"
+    ],
+    "scientific_names": [
+      "Merremia emarginata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15232012",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15232815": {
+    "qid": "Q15232815",
+    "labels": {
+      "en": "Nerium indicum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7317019"
+    ],
+    "scientific_names": [
+      "Nerium indicum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15232815",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15239151": {
+    "qid": "Q15239151",
+    "labels": {
+      "en": "Vigna trilobata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2982455"
+    ],
+    "scientific_names": [
+      "Vigna trilobata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15239151",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15240197": {
+    "qid": "Q15240197",
+    "labels": {
+      "en": "Uraria picta"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2956572"
+    ],
+    "scientific_names": [
+      "Uraria picta"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15240197",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15247758": {
+    "qid": "Q15247758",
+    "labels": {
+      "en": "Rheum australe"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4038150"
+    ],
+    "scientific_names": [
+      "Rheum australe"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15247758",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15251141": {
+    "qid": "Q15251141",
+    "labels": {
+      "en": "Bergenia pacumbis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5567668"
+    ],
+    "scientific_names": [
+      "Bergenia pacumbis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15251141",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15316468": {
+    "qid": "Q15316468",
+    "labels": {
+      "en": "Dicliptera paniculata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5575270"
+    ],
+    "scientific_names": [
+      "Dicliptera paniculata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15316468",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15354222": {
+    "qid": "Q15354222",
+    "labels": {
+      "en": "Premna herbacea"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3897506"
+    ],
+    "scientific_names": [
+      "Premna herbacea"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15354222",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15359574": {
+    "qid": "Q15359574",
+    "labels": {
+      "en": "Leptadenia reticulata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3580162"
+    ],
+    "scientific_names": [
+      "Leptadenia reticulata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15359574",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15361466": {
+    "qid": "Q15361466",
+    "labels": {
+      "en": "Aconitum palmatum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3922197"
+    ],
+    "scientific_names": [
+      "Aconitum palmatum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15361466",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15373833": {
+    "qid": "Q15373833",
+    "labels": {
+      "en": "Putranjiva roxburghii"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3076079"
+    ],
+    "scientific_names": [
+      "Putranjiva roxburghii"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15373833",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15386102": {
+    "qid": "Q15386102",
+    "labels": {
+      "en": "Baliospermum solanifolium"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3062296"
+    ],
+    "scientific_names": [
+      "Baliospermum solanifolium"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15386102",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15399563": {
+    "qid": "Q15399563",
+    "labels": {
+      "en": "Breonia chinensis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2911261"
+    ],
+    "scientific_names": [
+      "Breonia chinensis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15399563",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15436592": {
+    "qid": "Q15436592",
+    "labels": {
+      "en": "Crepidium acuminatum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5307089"
+    ],
+    "scientific_names": [
+      "Crepidium acuminatum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15436592",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15451282": {
+    "qid": "Q15451282",
+    "labels": {
+      "en": "Spermacoce hispida"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2916044"
+    ],
+    "scientific_names": [
+      "Spermacoce hispida"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15451282",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15466047": {
+    "qid": "Q15466047",
+    "labels": {
+      "en": "Chamaecrista absus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2949868"
+    ],
+    "scientific_names": [
+      "Chamaecrista absus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15466047",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15470874": {
+    "qid": "Q15470874",
+    "labels": {
+      "en": "Malaxis muscifera"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2808137"
+    ],
+    "scientific_names": [
+      "Malaxis muscifera"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15470874",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15479820": {
+    "qid": "Q15479820",
+    "labels": {
+      "en": "Ophiorrhiza mungos"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5340801"
+    ],
+    "scientific_names": [
+      "Ophiorrhiza mungos"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15479820",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15491883": {
+    "qid": "Q15491883",
+    "labels": {
+      "en": "Smilax ornata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5295217"
+    ],
+    "scientific_names": [
+      "Smilax ornata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15491883",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15509516": {
+    "qid": "Q15509516",
+    "labels": {
+      "en": "Bambusa bambos"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2705752"
+    ],
+    "scientific_names": [
+      "Bambusa bambos"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15509516",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15525344": {
+    "qid": "Q15525344",
+    "labels": {
+      "en": "Soymida febrifuga"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3850622"
+    ],
+    "scientific_names": [
+      "Soymida febrifuga"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15525344",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15532568": {
+    "qid": "Q15532568",
+    "labels": {
+      "en": "Macrotyloma biflorum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2976943"
+    ],
+    "scientific_names": [
+      "Macrotyloma biflorum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15532568",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15533802": {
+    "qid": "Q15533802",
+    "labels": {
+      "en": "Solanum anguivi"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2931542"
+    ],
+    "scientific_names": [
+      "Solanum anguivi"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15533802",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15535916": {
+    "qid": "Q15535916",
+    "labels": {
+      "en": "Acacia catechu"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3796190"
+    ],
+    "scientific_names": [
+      "Acacia catechu"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15535916",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15539496": {
+    "qid": "Q15539496",
+    "labels": {
+      "en": "Buchanania cochinchinensis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5544043"
+    ],
+    "scientific_names": [
+      "Buchanania cochinchinensis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15539496",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15539568": {
+    "qid": "Q15539568",
+    "labels": {
+      "en": "Withania coagulans"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3801167"
+    ],
+    "scientific_names": [
+      "Withania coagulans"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15539568",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15539959": {
+    "qid": "Q15539959",
+    "labels": {
+      "en": "Fagonia indica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "6384811"
+    ],
+    "scientific_names": [
+      "Fagonia indica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15539959",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15543136": {
+    "qid": "Q15543136",
+    "labels": {
+      "en": "Piliostigma malabaricum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2947990"
+    ],
+    "scientific_names": [
+      "Piliostigma malabaricum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15543136",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15561164": {
+    "qid": "Q15561164",
+    "labels": {
+      "en": "Anethum sowa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3631014"
+    ],
+    "scientific_names": [
+      "Anethum sowa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15561164",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15562184": {
+    "qid": "Q15562184",
+    "labels": {
+      "en": "Angelica glauca"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5537742"
+    ],
+    "scientific_names": [
+      "Angelica glauca"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15562184",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15577798": {
+    "qid": "Q15577798",
+    "labels": {
+      "en": "Ferula foetida"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7704723"
+    ],
+    "scientific_names": [
+      "Ferula foetida"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15577798",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15578898": {
+    "qid": "Q15578898",
+    "labels": {
+      "en": "Pandanus odorifer"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5327293"
+    ],
+    "scientific_names": [
+      "Pandanus odorifer"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15578898",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15580426": {
+    "qid": "Q15580426",
+    "labels": {
+      "en": "Ferula narthex"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3034687"
+    ],
+    "scientific_names": [
+      "Ferula narthex"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15580426",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q15602531": {
+    "qid": "Q15602531",
+    "labels": {
+      "en": "Sphagneticola calendulacea"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3116861"
+    ],
+    "scientific_names": [
+      "Sphagneticola calendulacea"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q15602531",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q156251": {
+    "qid": "Q156251",
+    "labels": {
+      "en": "Capparis spinosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "6370689"
+    ],
+    "scientific_names": [
+      "Capparis spinosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:32.431714+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q156251",
+    "response_sha256": "6b52a673d7e5a41dcf75fc485c57408f566374966fccd34ed68afe65b3905906"
+  },
+  "Q159281": {
+    "qid": "Q159281",
+    "labels": {
+      "en": "Polygonatum verticillatum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2770004"
+    ],
+    "scientific_names": [
+      "Polygonatum verticillatum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q159281",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q159565": {
+    "qid": "Q159565",
+    "labels": {
+      "en": "Salix caprea"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5372952"
+    ],
+    "scientific_names": [
+      "Salix caprea"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q159565",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q1595858": {
+    "qid": "Q1595858",
+    "labels": {
+      "en": "Gardenia gummifera"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5335166"
+    ],
+    "scientific_names": [
+      "Gardenia gummifera"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1595858",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q159812": {
+    "qid": "Q159812",
+    "labels": {
+      "en": "Pistacia lentiscus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3190583"
+    ],
+    "scientific_names": [
+      "Pistacia lentiscus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q159812",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q160575": {
+    "qid": "Q160575",
+    "labels": {
+      "en": "Nigella sativa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5371700"
+    ],
+    "scientific_names": [
+      "Nigella sativa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q160575",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q161058": {
+    "qid": "Q161058",
+    "labels": {
+      "sa": "पारसीकयवानी",
+      "en": "Hyoscyamus niger"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2928978"
+    ],
+    "scientific_names": [
+      "Hyoscyamus niger"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q161058",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q161111": {
+    "qid": "Q161111",
+    "labels": {
+      "en": "Nymphaea lotus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2882429"
+    ],
+    "scientific_names": [
+      "Nymphaea lotus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q161111",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q161780": {
+    "qid": "Q161780",
+    "labels": {
+      "en": "Alkekengi officinarum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3797084"
+    ],
+    "scientific_names": [
+      "Alkekengi officinarum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q161780",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q1619005": {
+    "qid": "Q1619005",
+    "labels": {
+      "en": "Abies spectabilis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2685619"
+    ],
+    "scientific_names": [
+      "Abies spectabilis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1619005",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q162117": {
+    "qid": "Q162117",
+    "labels": {
+      "en": "Ipomoea nil"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2928534"
+    ],
+    "scientific_names": [
+      "Ipomoea nil"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q162117",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q162178": {
+    "qid": "Q162178",
+    "labels": {
+      "en": "Fumaria parviflora"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5334215"
+    ],
+    "scientific_names": [
+      "Fumaria parviflora"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q162178",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q16241292": {
+    "qid": "Q16241292",
+    "labels": {
+      "en": "Crateva magna"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3871487"
+    ],
+    "scientific_names": [
+      "Crateva magna"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q16241292",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q163095": {
+    "qid": "Q163095",
+    "labels": {
+      "en": "Smilax china"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5295472"
+    ],
+    "scientific_names": [
+      "Smilax china"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q163095",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q163273": {
+    "qid": "Q163273",
+    "labels": {
+      "en": "Pistacia chinensis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3190586"
+    ],
+    "scientific_names": [
+      "Pistacia chinensis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q163273",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q164609": {
+    "qid": "Q164609",
+    "labels": {
+      "en": "Commiphora myrrha"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3994082"
+    ],
+    "scientific_names": [
+      "Commiphora myrrha"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q164609",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q164844": {
+    "qid": "Q164844",
+    "labels": {
+      "en": "Iris versicolor"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5298019"
+    ],
+    "scientific_names": [
+      "Iris versicolor"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q164844",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q165137": {
+    "qid": "Q165137",
+    "labels": {
+      "en": "Prunus avium"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3020791"
+    ],
+    "scientific_names": [
+      "Prunus avium"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q165137",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q1661611": {
+    "qid": "Q1661611",
+    "labels": {
+      "en": "Cinnamomum tamala"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "9128079"
+    ],
+    "scientific_names": [
+      "Cinnamomum tamala"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1661611",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q17132683": {
+    "qid": "Q17132683",
+    "labels": {
+      "en": "Selinum vaginatum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "6026645"
+    ],
+    "scientific_names": [
+      "Selinum vaginatum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q17132683",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q1722737": {
+    "qid": "Q1722737",
+    "labels": {
+      "en": "Jateorhiza palmata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3033953"
+    ],
+    "scientific_names": [
+      "Jateorhiza palmata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1722737",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q177615": {
+    "qid": "Q177615",
+    "labels": {
+      "en": "Gossypium herbaceum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3152658"
+    ],
+    "scientific_names": [
+      "Gossypium herbaceum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q177615",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q17781617": {
+    "qid": "Q17781617",
+    "labels": {
+      "en": "Liquidambar excelsa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3702551"
+    ],
+    "scientific_names": [
+      "Liquidambar excelsa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q17781617",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q17812911": {
+    "qid": "Q17812911",
+    "labels": {
+      "en": "Grewia hirsuta"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4259716"
+    ],
+    "scientific_names": [
+      "Grewia hirsuta"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q17812911",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q179729": {
+    "qid": "Q179729",
+    "labels": {
+      "en": "Taxus baccata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5284517"
+    ],
+    "scientific_names": [
+      "Taxus baccata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q179729",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q18079861": {
+    "qid": "Q18079861",
+    "labels": {
+      "en": "Searsia parviflora"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5544265"
+    ],
+    "scientific_names": [
+      "Searsia parviflora"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q18079861",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q18182661": {
+    "qid": "Q18182661",
+    "labels": {
+      "en": "Stereospermum chelonoides"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4092354"
+    ],
+    "scientific_names": [
+      "Stereospermum chelonoides"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q18182661",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q1818329": {
+    "qid": "Q1818329",
+    "labels": {
+      "en": "Inula racemosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4933624"
+    ],
+    "scientific_names": [
+      "Inula racemosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1818329",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q1825106": {
+    "qid": "Q1825106",
+    "labels": {
+      "en": "Lilium polyphyllum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2753041"
+    ],
+    "scientific_names": [
+      "Lilium polyphyllum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1825106",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q1888249": {
+    "qid": "Q1888249",
+    "labels": {
+      "en": "Premna serratifolia"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "6411486"
+    ],
+    "scientific_names": [
+      "Premna serratifolia"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q1888249",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q19849772": {
+    "qid": "Q19849772",
+    "labels": {
+      "en": "Gynandropsis gynandra"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3054227"
+    ],
+    "scientific_names": [
+      "Gynandropsis gynandra"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q19849772",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q20878893": {
+    "qid": "Q20878893",
+    "labels": {
+      "en": "Schrebera swietenioides"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5549816"
+    ],
+    "scientific_names": [
+      "Schrebera swietenioides"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q20878893",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2089847": {
+    "qid": "Q2089847",
+    "labels": {
+      "en": "Croton tiglium"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3057656"
+    ],
+    "scientific_names": [
+      "Croton tiglium"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2089847",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2195173": {
+    "qid": "Q2195173",
+    "labels": {
+      "en": "Cymbopogon schoenanthus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2705269"
+    ],
+    "scientific_names": [
+      "Cymbopogon schoenanthus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2195173",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2248481": {
+    "qid": "Q2248481",
+    "labels": {
+      "en": "Barringtonia acutangula",
+      "sa": "हिज्जल"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3082835"
+    ],
+    "scientific_names": [
+      "Barringtonia acutangula"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2248481",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2249031": {
+    "qid": "Q2249031",
+    "labels": {
+      "en": "Heliotropium indicum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2925788"
+    ],
+    "scientific_names": [
+      "Heliotropium indicum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2249031",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2285767": {
+    "qid": "Q2285767",
+    "labels": {
+      "en": "Phoenix sylvestris"
+    },
+    "aliases_hi": [
+      "खजूर",
+      "सेंधी"
+    ],
+    "gbif_ids": [
+      "5293177"
+    ],
+    "scientific_names": [
+      "Phoenix sylvestris"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2285767",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q234529": {
+    "qid": "Q234529",
+    "labels": {
+      "en": "Agaricus campestris"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5243458"
+    ],
+    "scientific_names": [
+      "Agaricus campestris"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q234529",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2367334": {
+    "qid": "Q2367334",
+    "labels": {
+      "en": "Boswellia serrata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5421354"
+    ],
+    "scientific_names": [
+      "Boswellia serrata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2367334",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q24852568": {
+    "qid": "Q24852568",
+    "labels": {
+      "en": "Pongamia pinnata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2965911"
+    ],
+    "scientific_names": [
+      "Pongamia pinnata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q24852568",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2510557": {
+    "qid": "Q2510557",
+    "labels": {
+      "en": "Mallotus philippensis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5378605"
+    ],
+    "scientific_names": [
+      "Mallotus philippensis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:34.408621+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2510557",
+    "response_sha256": "7a4e7ab4e69479a514b73254cf6c9b2361a6b4c298a4fc1f74b320111bbc7558"
+  },
+  "Q2512194": {
+    "qid": "Q2512194",
+    "labels": {
+      "en": "Leonotis nepetifolia"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4924659"
+    ],
+    "scientific_names": [
+      "Leonotis nepetifolia"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2512194",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2562125": {
+    "qid": "Q2562125",
+    "labels": {
+      "en": "Picrorhiza kurroa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3727300"
+    ],
+    "scientific_names": [
+      "Picrorhiza kurroa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2562125",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2576684": {
+    "qid": "Q2576684",
+    "labels": {
+      "en": "Vateria indica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3189688"
+    ],
+    "scientific_names": [
+      "Vateria indica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2576684",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q259318": {
+    "qid": "Q259318",
+    "labels": {
+      "en": "Vitex agnus-castus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2925562"
+    ],
+    "scientific_names": [
+      "Vitex agnus-castus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q259318",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q26325": {
+    "qid": "Q26325",
+    "labels": {
+      "en": "Juniperus communis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2684709"
+    ],
+    "scientific_names": [
+      "Juniperus communis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q26325",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2647500": {
+    "qid": "Q2647500",
+    "labels": {
+      "en": "Aconitum ferox"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3033681"
+    ],
+    "scientific_names": [
+      "Aconitum ferox"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2647500",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2671107": {
+    "qid": "Q2671107",
+    "labels": {
+      "en": "Cymbopogon martini"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4138713",
+      "7421320"
+    ],
+    "scientific_names": [
+      "Cymbopogon martini"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2671107",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q27033": {
+    "qid": "Q27033",
+    "labels": {
+      "en": "Lepidium sativum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5376565"
+    ],
+    "scientific_names": [
+      "Lepidium sativum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q27033",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2707329": {
+    "qid": "Q2707329",
+    "labels": {
+      "en": "Barleria cristata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3173128"
+    ],
+    "scientific_names": [
+      "Barleria cristata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2707329",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2720961": {
+    "qid": "Q2720961",
+    "labels": {
+      "en": "Senna occidentalis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2957966"
+    ],
+    "scientific_names": [
+      "Senna occidentalis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2720961",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2737029": {
+    "qid": "Q2737029",
+    "labels": {
+      "en": "Barleria prionitis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3173129"
+    ],
+    "scientific_names": [
+      "Barleria prionitis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2737029",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2748383": {
+    "qid": "Q2748383",
+    "labels": {
+      "en": "Typha domingensis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5289534"
+    ],
+    "scientific_names": [
+      "Typha domingensis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2748383",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q27978": {
+    "qid": "Q27978",
+    "labels": {
+      "en": "Artemisia maritima"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3121650"
+    ],
+    "scientific_names": [
+      "Artemisia maritima"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q27978",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q28298": {
+    "qid": "Q28298",
+    "labels": {
+      "en": "Apium graveolens",
+      "sa": "कुस्तुम्बरीपर्णम्"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5371879"
+    ],
+    "scientific_names": [
+      "Apium graveolens"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q28298",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2901598": {
+    "qid": "Q2901598",
+    "labels": {
+      "en": "Abutilon indicum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3152634"
+    ],
+    "scientific_names": [
+      "Abutilon indicum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2901598",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q2918709": {
+    "qid": "Q2918709",
+    "labels": {
+      "en": "Alhagi maurorum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2945092"
+    ],
+    "scientific_names": [
+      "Alhagi maurorum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q2918709",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q30046": {
+    "qid": "Q30046",
+    "labels": {
+      "en": "Vitis vinifera"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5372392"
+    ],
+    "scientific_names": [
+      "Vitis vinifera"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q30046",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3025990": {
+    "qid": "Q3025990",
+    "labels": {
+      "en": "Plumbago indica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3082286"
+    ],
+    "scientific_names": [
+      "Plumbago indica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3025990",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3031235": {
+    "qid": "Q3031235",
+    "labels": {
+      "en": "Curcuma amada"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2757535"
+    ],
+    "scientific_names": [
+      "Curcuma amada"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3031235",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q309622": {
+    "qid": "Q309622",
+    "labels": {
+      "en": "Ipomoea mauritiana"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4927144"
+    ],
+    "scientific_names": [
+      "Ipomoea mauritiana"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q309622",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q310127": {
+    "qid": "Q310127",
+    "labels": {
+      "en": "Fagonia cretica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "6384851"
+    ],
+    "scientific_names": [
+      "Fagonia cretica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q310127",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q311239": {
+    "qid": "Q311239",
+    "labels": {
+      "en": "Dioscorea bulbifera"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2755489"
+    ],
+    "scientific_names": [
+      "Dioscorea bulbifera"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q311239",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3116556": {
+    "qid": "Q3116556",
+    "labels": {
+      "en": "Grewia tenax"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7311070"
+    ],
+    "scientific_names": [
+      "Grewia tenax"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3116556",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3136170": {
+    "qid": "Q3136170",
+    "labels": {
+      "en": "Hippophae tibetana"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4048173"
+    ],
+    "scientific_names": [
+      "Hippophae tibetana"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3136170",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q319390": {
+    "qid": "Q319390",
+    "labels": {
+      "en": "Hibiscus sabdariffa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3152582"
+    ],
+    "scientific_names": [
+      "Hibiscus sabdariffa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q319390",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3206585": {
+    "qid": "Q3206585",
+    "labels": {
+      "en": "Sesbania sesban"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2970648"
+    ],
+    "scientific_names": [
+      "Sesbania sesban"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3206585",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3239892": {
+    "qid": "Q3239892",
+    "labels": {
+      "en": "Pinus roxburghii"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5285084"
+    ],
+    "scientific_names": [
+      "Pinus roxburghii"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3239892",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3273836": {
+    "qid": "Q3273836",
+    "labels": {
+      "en": "Phyla nodiflora"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5341112"
+    ],
+    "scientific_names": [
+      "Phyla nodiflora"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3273836",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3281054": {
+    "qid": "Q3281054",
+    "labels": {
+      "en": "Tephrosia purpurea"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5342239"
+    ],
+    "scientific_names": [
+      "Tephrosia purpurea"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3281054",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3291604": {
+    "qid": "Q3291604",
+    "labels": {
+      "en": "Cissampelos pareira"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3033937"
+    ],
+    "scientific_names": [
+      "Cissampelos pareira"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3291604",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3324097": {
+    "qid": "Q3324097",
+    "labels": {
+      "en": "Moringa concanensis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3752341"
+    ],
+    "scientific_names": [
+      "Moringa concanensis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3324097",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3335516": {
+    "qid": "Q3335516",
+    "labels": {
+      "en": "Trianthema portulacastrum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3084848"
+    ],
+    "scientific_names": [
+      "Trianthema portulacastrum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3335516",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3391243": {
+    "qid": "Q3391243",
+    "labels": {
+      "en": "Saccharum officinarum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2703912"
+    ],
+    "scientific_names": [
+      "Saccharum officinarum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3391243",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3534965": {
+    "qid": "Q3534965",
+    "labels": {
+      "en": "Alternanthera sessilis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3084939"
+    ],
+    "scientific_names": [
+      "Alternanthera sessilis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3534965",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3565069": {
+    "qid": "Q3565069",
+    "labels": {
+      "en": "Quercus infectoria"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2881010"
+    ],
+    "scientific_names": [
+      "Quercus infectoria"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3565069",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3595077": {
+    "qid": "Q3595077",
+    "labels": {
+      "en": "Rotheca serrata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3887135"
+    ],
+    "scientific_names": [
+      "Rotheca serrata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3595077",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3595461": {
+    "qid": "Q3595461",
+    "labels": {
+      "en": "Diospyros malabarica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7295796"
+    ],
+    "scientific_names": [
+      "Diospyros malabarica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3595461",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3595468": {
+    "qid": "Q3595468",
+    "labels": {
+      "en": "Salix tetrasperma"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5582578"
+    ],
+    "scientific_names": [
+      "Salix tetrasperma"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3595468",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3595780": {
+    "qid": "Q3595780",
+    "labels": {
+      "en": "Aristolochia indica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7313567"
+    ],
+    "scientific_names": [
+      "Aristolochia indica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3595780",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q3595921": {
+    "qid": "Q3595921",
+    "labels": {
+      "en": "Sida rhombifolia"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5406735"
+    ],
+    "scientific_names": [
+      "Sida rhombifolia"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:36.323655+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q3595921",
+    "response_sha256": "9d043ac4d0b6a5f9b522fce98d502aa3ed158557a8e51a4896b867bcf38def12"
+  },
+  "Q381942": {
+    "qid": "Q381942",
+    "labels": {
+      "sa": "राजसर्षपः",
+      "en": "Brassica nigra"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3042658"
+    ],
+    "scientific_names": [
+      "Brassica nigra"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q381942",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q383947": {
+    "qid": "Q383947",
+    "labels": {
+      "en": "Argyreia nervosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2928692"
+    ],
+    "scientific_names": [
+      "Argyreia nervosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q383947",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q39087854": {
+    "qid": "Q39087854",
+    "labels": {
+      "en": "Coleus amboinicus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5341313"
+    ],
+    "scientific_names": [
+      "Coleus amboinicus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q39087854",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q39089385": {
+    "qid": "Q39089385",
+    "labels": {
+      "en": "Coleus vettiveroides"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5605099"
+    ],
+    "scientific_names": [
+      "Coleus vettiveroides"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q39089385",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q39992194": {
+    "qid": "Q39992194",
+    "labels": {
+      "en": "Cynanchum acidum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3573208"
+    ],
+    "scientific_names": [
+      "Cynanchum acidum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q39992194",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q4157858": {
+    "qid": "Q4157858",
+    "labels": {
+      "en": "Chrysanthemum indicum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3150814"
+    ],
+    "scientific_names": [
+      "Chrysanthemum indicum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q4157858",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q416369": {
+    "qid": "Q416369",
+    "labels": {
+      "en": "Calamus rotang"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5294063"
+    ],
+    "scientific_names": [
+      "Calamus rotang"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q416369",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q419654": {
+    "qid": "Q419654",
+    "labels": {
+      "en": "Euphorbia antiquorum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3069535"
+    ],
+    "scientific_names": [
+      "Euphorbia antiquorum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q419654",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q4272412": {
+    "qid": "Q4272412",
+    "labels": {
+      "en": "Luffa echinata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3622849"
+    ],
+    "scientific_names": [
+      "Luffa echinata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q4272412",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q42744454": {
+    "qid": "Q42744454",
+    "labels": {
+      "en": "Hellenia speciosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7584507"
+    ],
+    "scientific_names": [
+      "Hellenia speciosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q42744454",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q4384108": {
+    "qid": "Q4384108",
+    "labels": {
+      "en": "Pentapetes phoenicea"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3152140"
+    ],
+    "scientific_names": [
+      "Pentapetes phoenicea"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q4384108",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q4676905": {
+    "qid": "Q4676905",
+    "labels": {
+      "en": "Actiniopteris radiata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4205838"
+    ],
+    "scientific_names": [
+      "Actiniopteris radiata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q4676905",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q4765367": {
+    "qid": "Q4765367",
+    "labels": {
+      "en": "Anisomeles malabarica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3884424"
+    ],
+    "scientific_names": [
+      "Anisomeles malabarica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q4765367",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q4926099": {
+    "qid": "Q4926099",
+    "labels": {
+      "en": "Blepharis edulis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5575687"
+    ],
+    "scientific_names": [
+      "Blepharis edulis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q4926099",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q4991487": {
+    "qid": "Q4991487",
+    "labels": {
+      "en": "Cryptolepis buchananii"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5525050"
+    ],
+    "scientific_names": [
+      "Cryptolepis buchananii"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q4991487",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q5021993": {
+    "qid": "Q5021993",
+    "labels": {
+      "en": "Callicarpa macrophylla"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5609508"
+    ],
+    "scientific_names": [
+      "Callicarpa macrophylla"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q5021993",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q50840344": {
+    "qid": "Q50840344",
+    "labels": {
+      "en": "Baccharoides anthelmintica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3087253"
+    ],
+    "scientific_names": [
+      "Baccharoides anthelmintica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q50840344",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q50870338": {
+    "qid": "Q50870338",
+    "labels": {
+      "en": "Senegalia polyacantha"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3795911"
+    ],
+    "scientific_names": [
+      "Senegalia polyacantha"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q50870338",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q50870560": {
+    "qid": "Q50870560",
+    "labels": {
+      "en": "Senegalia rugata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3795863"
+    ],
+    "scientific_names": [
+      "Senegalia rugata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q50870560",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q50873375": {
+    "qid": "Q50873375",
+    "labels": {
+      "en": "Trichosanthes bracteata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3625151"
+    ],
+    "scientific_names": [
+      "Trichosanthes bracteata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q50873375",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q5103157": {
+    "qid": "Q5103157",
+    "labels": {
+      "en": "Chlorophytum tuberosum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2774912"
+    ],
+    "scientific_names": [
+      "Chlorophytum tuberosum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q5103157",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q5131947": {
+    "qid": "Q5131947",
+    "labels": {
+      "en": "Clerodendrum phlomidis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7307662"
+    ],
+    "scientific_names": [
+      "Clerodendrum phlomidis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q5131947",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q515610": {
+    "qid": "Q515610",
+    "labels": {
+      "en": "Jasminum officinale"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3172261"
+    ],
+    "scientific_names": [
+      "Jasminum officinale"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q515610",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q5194664": {
+    "qid": "Q5194664",
+    "labels": {
+      "en": "Curculigo orchioides"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2853024"
+    ],
+    "scientific_names": [
+      "Curculigo orchioides"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q5194664",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q5240308": {
+    "qid": "Q5240308",
+    "labels": {
+      "en": "Plumbago zeylanica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3082282"
+    ],
+    "scientific_names": [
+      "Plumbago zeylanica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q5240308",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q5446612": {
+    "qid": "Q5446612",
+    "labels": {
+      "en": "Ficus lacor"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5572206"
+    ],
+    "scientific_names": [
+      "Ficus lacor"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q5446612",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q5504789": {
+    "qid": "Q5504789",
+    "labels": {
+      "en": "Fritillaria cirrhosa"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5300358"
+    ],
+    "scientific_names": [
+      "Fritillaria cirrhosa"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q5504789",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q56556063": {
+    "qid": "Q56556063",
+    "labels": {
+      "en": "Ligusticopsis wallichiana"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3640486"
+    ],
+    "scientific_names": [
+      "Ligusticopsis wallichiana"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q56556063",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q606704": {
+    "qid": "Q606704",
+    "labels": {
+      "en": "Balanites aegyptiaca",
+      "sa": "इङ्गुदवृक्षः"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5421115"
+    ],
+    "scientific_names": [
+      "Balanites aegyptiaca"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q606704",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q621082": {
+    "qid": "Q621082",
+    "labels": {
+      "en": "Flacourtia indica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5331162"
+    ],
+    "scientific_names": [
+      "Flacourtia indica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q621082",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q6354381": {
+    "qid": "Q6354381",
+    "labels": {
+      "en": "Parmotrema perlatum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2606308"
+    ],
+    "scientific_names": [
+      "Parmotrema perlatum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q6354381",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q640505": {
+    "qid": "Q640505",
+    "labels": {
+      "en": "Rosa × centifolia"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3002410"
+    ],
+    "scientific_names": [
+      "Rosa × centifolia"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q640505",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q654001": {
+    "qid": "Q654001",
+    "labels": {
+      "en": "Pistia stratiotes"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2870583"
+    ],
+    "scientific_names": [
+      "Pistia stratiotes"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q654001",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q659826": {
+    "qid": "Q659826",
+    "labels": {
+      "en": "Desmostachya bipinnata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4142071"
+    ],
+    "scientific_names": [
+      "Desmostachya bipinnata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q659826",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q6744117": {
+    "qid": "Q6744117",
+    "labels": {
+      "en": "Centipeda minima"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5391292"
+    ],
+    "scientific_names": [
+      "Centipeda minima"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q6744117",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q685703": {
+    "qid": "Q685703",
+    "labels": {
+      "en": "Colchicum luteum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2739712"
+    ],
+    "scientific_names": [
+      "Colchicum luteum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q685703",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q715019": {
+    "qid": "Q715019",
+    "labels": {
+      "en": "Datura metel"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2928747"
+    ],
+    "scientific_names": [
+      "Datura metel"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q715019",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q715739": {
+    "qid": "Q715739",
+    "labels": {
+      "en": "Thespesia populnea"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3152795"
+    ],
+    "scientific_names": [
+      "Thespesia populnea"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q715739",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q715744": {
+    "qid": "Q715744",
+    "labels": {
+      "en": "Erythrina variegata"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5349581"
+    ],
+    "scientific_names": [
+      "Erythrina variegata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q715744",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q7402423": {
+    "qid": "Q7402423",
+    "labels": {
+      "en": "Thespesia lampas"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "7279053"
+    ],
+    "scientific_names": [
+      "Thespesia lampas"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:38.245686+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q7402423",
+    "response_sha256": "a0254e366ef26ed70526b487340f0418109153f12f8d51e853394a30ebdf75ba"
+  },
+  "Q7504329": {
+    "qid": "Q7504329",
+    "labels": {
+      "en": "Piper retrofractum"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3086342"
+    ],
+    "scientific_names": [
+      "Piper retrofractum"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q7504329",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q756724": {
+    "qid": "Q756724",
+    "labels": {
+      "en": "common cuttlefish"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2290849"
+    ],
+    "scientific_names": [
+      "Sepia officinalis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q756724",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q8142674": {
+    "qid": "Q8142674",
+    "labels": {
+      "en": "Capparis zeylanica"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5601836"
+    ],
+    "scientific_names": [
+      "Capparis zeylanica"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q8142674",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q81602": {
+    "qid": "Q81602",
+    "labels": {
+      "en": "Cucumis melo"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2874570"
+    ],
+    "scientific_names": [
+      "Cucumis melo"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q81602",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q827098": {
+    "qid": "Q827098",
+    "labels": {
+      "en": "Coix lacryma-jobi"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2706301"
+    ],
+    "scientific_names": [
+      "Coix lacryma-jobi"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q827098",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q854799": {
+    "qid": "Q854799",
+    "labels": {
+      "en": "early marsh-orchid"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "8248593"
+    ],
+    "scientific_names": [
+      "Dactylorhiza incarnata"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q854799",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q90611496": {
+    "qid": "Q90611496",
+    "labels": {
+      "en": "Terminalia anogeissiana"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "9256805"
+    ],
+    "scientific_names": [
+      "Terminalia anogeissiana"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q90611496",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q91317948": {
+    "qid": "Q91317948",
+    "labels": {
+      "en": "Herminium edgeworthii"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "9629542"
+    ],
+    "scientific_names": [
+      "Herminium edgeworthii"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q91317948",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q9256163": {
+    "qid": "Q9256163",
+    "labels": {
+      "en": "Euphorbia neriifolia"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "3064865"
+    ],
+    "scientific_names": [
+      "Euphorbia neriifolia"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q9256163",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q93077342": {
+    "qid": "Q93077342",
+    "labels": {
+      "en": "Tripidium bengalense"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "4116612"
+    ],
+    "scientific_names": [
+      "Tripidium bengalense"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q93077342",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q9334552": {
+    "qid": "Q9334552",
+    "labels": {
+      "en": "Scindapsus officinalis"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "2873716"
+    ],
+    "scientific_names": [
+      "Scindapsus officinalis"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q9334552",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q941464": {
+    "qid": "Q941464",
+    "labels": {
+      "en": "Phyllanthus acidus"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5381567"
+    ],
+    "scientific_names": [
+      "Phyllanthus acidus"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q941464",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  },
+  "Q948690": {
+    "qid": "Q948690",
+    "labels": {
+      "en": "Calotropis procera"
+    },
+    "aliases_hi": [],
+    "gbif_ids": [
+      "5414566"
+    ],
+    "scientific_names": [
+      "Calotropis procera"
+    ],
+    "revision_id": null,
+    "modified": null,
+    "retrieved_utc": "2026-11-07T22:45:39.602297+00:00",
+    "source_url": "https://www.wikidata.org/wiki/Q948690",
+    "response_sha256": "851d124c10f299fb8a10040a01a264c74936b160809d54dc7aa3a29a27395056"
+  }
+}

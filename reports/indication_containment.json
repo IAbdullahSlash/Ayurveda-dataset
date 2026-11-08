@@ -1,0 +1,10 @@
+{
+  "rows_preserved": 1693,
+  "states": {
+    "source_matched_unreviewed": 1383,
+    "unmatched": 261,
+    "quarantined": 49
+  },
+  "replacement_labels_invented": 0,
+  "independent_expert_approval": false
+}
