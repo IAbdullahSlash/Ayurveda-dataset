@@ -133,7 +133,7 @@ def build_vocab(*series):
         for txt in ser:
             for w in re.findall(r"[A-Za-zĀ-žḀ-ỿ̀-ͯ]+", txt or ""):   # hyphens split compounds
                 if any(ord(ch) > 127 for ch in w):          # only words that carry diacritics
-                    for x in _variants(w.lower()):
+                    for x in sorted(_variants(w.lower())):   # sorted: set order varies per run and decides count ties
                         v[x] += 1
     by_len = defaultdict(list)
     for w, c in v.items():
@@ -148,7 +148,10 @@ def repair_token(tok, by_len, cache):
     cands = [(w, c) for w, c in by_len.get(len(low), []) if pat.match(w)]
     res = None
     if cands:
-        res = iso_to_iast(max(cands, key=lambda wc: wc[1])[0])   # back to canonical NFC IAST
+        # Most frequent spelling wins. On equal counts prefer more diacritic letters (a '?' usually replaced one),
+        # then the word itself, so the choice never depends on set or run order.
+        best = max(cands, key=lambda wc: (wc[1], sum(ord(ch) > 127 for ch in wc[0]), wc[0]))
+        res = iso_to_iast(best[0])   # back to canonical NFC IAST
         if tok[:1].isupper():
             res = res[:1].upper() + res[1:]
     cache[tok] = res

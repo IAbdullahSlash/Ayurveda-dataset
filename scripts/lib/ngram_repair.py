@@ -66,7 +66,7 @@ def corrupt(w):
     return "".join("?" if c in LOST else c for c in w)
 
 def evaluate(words, n_test=1500, seed=0):
-    words = [w for w in set(words) if any(c in LOST for c in w) and len(w) >= 4]
+    words = [w for w in sorted(set(words)) if any(c in LOST for c in w) and len(w) >= 4]   # sorted: reproducible split
     rnd = random.Random(seed)
     rnd.shuffle(words)
     test, train = words[:n_test], words[n_test:]
