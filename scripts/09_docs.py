@@ -102,6 +102,8 @@ COL_DOC = {
     "dx_disease_ids": "NAMASTE disorder(s) named as the Ayurvedic diagnosis (title > keywords > abstract)",
     "pubchem_cid": "PubChem compound id", "inchikey": "Standard InChIKey", "concept_id": "Headword concept id (AYC-...)",
     "definition_source": "Where the definition comes from: NAMASTE, or WHO ITA 2022 (linked term) when NAMASTE has none",
+    "definition_locator": "Exact source of the definition text: the NAMASTE morbidity code, or the WHO term ID and PDF page (stage 55)",
+    "source_locator": "Exact source of the term: WHO term ID and PDF page of WHO ITA 2022, or the NAMASTE SAT code (stage 55)",
     "suggested_dosha": "Doṣa suggested by the text model (review before use)", "confidence": "Model probability of the suggestion",
     "margin": "Probability gap between the first and second choice (small = model unsure)",
     "inherited_from": "Ancestor disorder whose profile was inherited", "sign_text_who": "The sign as written in the WHO definition",

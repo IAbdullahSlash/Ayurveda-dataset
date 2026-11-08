@@ -53,7 +53,7 @@
   },
   "diseases": {
     "rows": 2892,
-    "columns": 49
+    "columns": 50
   },
   "dosha_suggestions": {
     "rows": 1420,
@@ -157,7 +157,7 @@
   },
   "terminology": {
     "rows": 6233,
-    "columns": 25
+    "columns": 26
   },
   "therapies": {
     "rows": 1325,

@@ -237,7 +237,7 @@ Disorder → symptom edges from the sign lists in WHO (2022) definitions, mapped
 | `source_id` | text | 100% | S3 | Source (see sources table) |
 | `data_origin` | text | 100% | WHO definition sign list mapped to the SAT lexicon | authoritative / community_open / integrated / curated / derived / synthetic |
 
-## `diseases`  (2,892 rows × 49 columns)
+## `diseases`  (2,892 rows × 50 columns)
 
 NAMASTE Ayurveda morbidity codes: 2,892 disorders and patterns with hierarchy, WHO ICD-11 TM2 codes, doṣa involvement and clinical definitions. Sanskrit (IAST / Devanagari), Hindi and English.
 
@@ -292,6 +292,7 @@ NAMASTE Ayurveda morbidity codes: 2,892 disorders and patterns with hierarchy, W
 | `name_en_hi_qe_flags` | text | 11% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `name_en_hi_method` | text | 100% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 | `definition_source` | text | 70% | WHO ITA 2022 (linked term) | Where the definition comes from: NAMASTE, or WHO ITA 2022 (linked term) when NAMASTE has none |
+| `definition_locator` | text | 70% | WHO ITA 2022, ITA-4.1.1, PDF p. 119 | Exact source of the definition text: the NAMASTE morbidity code, or the WHO term ID and PDF page (stage 55) |
 
 ## `dosha_suggestions`  (1,420 rows × 8 columns)
 
@@ -813,7 +814,7 @@ Signs-and-symptoms lexicon: NAMASTE SAT-D (9,400 Sanskrit symptom phrases with E
 | `gloss_hi_qe_flags` | text | 5% | terms_lost | Automated translation quality flags (empty does not establish human validation) |
 | `gloss_hi_method` | text | 100% | nllb200_600m_glossary_injected | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
 
-## `terminology`  (6,233 rows × 25 columns)
+## `terminology`  (6,233 rows × 26 columns)
 
 Unified standard terminology from WHO (2022) and NAMASTE SAT: fundamentals, anatomy/physiology, diagnosis, pharmacology, pharmaceutics, diet, treatment and prevention, with WHO↔SAT cross-links.
 
@@ -844,6 +845,7 @@ Unified standard terminology from WHO (2022) and NAMASTE SAT: fundamentals, anat
 | `definition_hi` | text | 88% | आयुर्वेद चिकित्सा और स्वास्थ्य देखभाल की एक पारंपरिक प्रणाली… | Hindi translation of the definition (NLLB-200 + Ayurveda glossary; QE flags) |
 | `definition_hi_qe_flags` | text | 18% | repetition | Automated translation quality flags (empty does not establish human validation) |
 | `definition_hi_method` | text | 88% | nllb200_600m_glossary_injected_greedy | How the Hindi text was produced (glossary_exact / nllb200_600m_glossary_injected) |
+| `source_locator` | text | 100% | WHO ITA 2022, ITA-1.1.1, PDF p. 19 | Exact source of the term: WHO term ID and PDF page of WHO ITA 2022, or the NAMASTE SAT code (stage 55) |
 
 ## `therapies`  (1,325 rows × 26 columns)
 

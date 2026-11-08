@@ -992,6 +992,10 @@
           {
             "name": "definition_source",
             "type": "string"
+          },
+          {
+            "name": "definition_locator",
+            "type": "string"
           }
         ],
         "primaryKey": "disease_id"
@@ -2740,6 +2744,10 @@
           },
           {
             "name": "definition_hi_method",
+            "type": "string"
+          },
+          {
+            "name": "source_locator",
             "type": "string"
           }
         ],
