@@ -1,0 +1,3 @@
+# Raw source files are recorded byte-for-byte in data/raw/PROVENANCE.json (SHA-256).
+# Never convert their line endings on checkout, or the hashes stop matching on Windows.
+data/raw/** -text

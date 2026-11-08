@@ -27,12 +27,17 @@ def sha256(p: Path) -> str:
             h.update(chunk)
     return h.hexdigest()
 
+PREVIOUS = {}   # file -> earlier manifest entry, so an unchanged file keeps its original retrieval time
+
 def record(manifest, source_id, path, url, licence, publisher, note=""):
+    rel, digest = path.relative_to(ROOT).as_posix(), sha256(path)
+    before = PREVIOUS.get(rel, {})
+    retrieved = before.get("retrieved_utc") if before.get("sha256") == digest else None
     manifest.append({
-        "source_id": source_id, "file": path.relative_to(ROOT).as_posix(), "url": url,
+        "source_id": source_id, "file": rel, "url": url,
         "licence": licence, "publisher": publisher, "note": note,
-        "retrieved_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "bytes": path.stat().st_size, "sha256": sha256(path),
+        "retrieved_utc": retrieved or dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "bytes": path.stat().st_size, "sha256": digest,
     })
 
 def get(session, url, out: Path, force=False, method="GET", data=None, referer=None, timeout=300):
@@ -122,6 +127,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
+    previous = RAW / "PROVENANCE.json"
+    if previous.exists():
+        PREVIOUS.update({e["file"]: e for e in json.loads(previous.read_text(encoding="utf-8"))})
     manifest = []
     for fn in (fetch_namaste, fetch_who, fetch_duke, fetch_amidha):
         print(f"[{fn.__name__}]")
