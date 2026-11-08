@@ -6,7 +6,7 @@
 
 द्विभाषी आयुर्वेद ज्ञानकोश — निर्णय-सहायता एवं विशेषज्ञ प्रणालियों के लिए
 
-[![Release v1.2](https://img.shields.io/badge/release-v1.2-0f8a5f?style=flat-square)](docs/DATASHEET.md)
+[![Release v1.3](https://img.shields.io/badge/release-v1.3-0f8a5f?style=flat-square)](docs/RELEASE_NOTES_v1.3.0.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](requirements.txt)
 [![Tests: 183 passing](https://img.shields.io/badge/tests-183%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
@@ -350,7 +350,7 @@ Ayurveda-dataset/
 
 ## Status and roadmap
 
-Release **v1.2**. Done:
+Release **v1.3** ([release notes](docs/RELEASE_NOTES_v1.3.0.md)). Done:
 
 - [x] Pipeline stages 00–54, experiments E1–E8 and 184 automated checks
 - [x] Dataset report, Review Desk and Prakṛti questionnaire (source pages in `release/tools/`)

@@ -1,4 +1,4 @@
-# Datasheet: AyurKB v1.2
+# Datasheet: AyurKB v1.3
 
 Structured after *Datasheets for Datasets* (Gebru et al., 2021).
 

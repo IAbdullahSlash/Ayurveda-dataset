@@ -12,7 +12,7 @@ for name, expected in manifest['sha256'].items():
         if hashlib.file_digest(stream,'sha256').hexdigest()!=expected:
             raise SystemExit('Export changed since validation: '+name+'; rerun stage 08')
 PY
-OUT=release/AyurKB_v1.2.zip
+OUT=release/AyurKB_v1.3.zip
 TEMP_ARCHIVE=$(mktemp release/.AyurKB-package-XXXXXX.zip)
 rm "$TEMP_ARCHIVE"
 trap 'rm -f "$TEMP_ARCHIVE"' EXIT

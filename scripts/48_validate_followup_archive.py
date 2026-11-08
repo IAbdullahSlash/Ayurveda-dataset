@@ -24,7 +24,7 @@ def digest(path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--archive', type=Path, default=ROOT / 'release/AyurKB_v1.2.zip')
+    parser.add_argument('--archive', type=Path, default=ROOT / 'release/AyurKB_v1.3.zip')
     parser.add_argument('--junit', type=Path, required=True)
     parser.add_argument('--model', type=Path, help='Optional verified local base-model directory; not bundled')
     parser.add_argument('--environment-evidence', type=Path, help='Optional clean-install receipt to bind to this interpreter, dependency files and test run')
