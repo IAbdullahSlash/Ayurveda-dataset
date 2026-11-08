@@ -4,9 +4,14 @@ import pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 
-def test_hindi_postedits_are_idempotent():
-    m=importlib.import_module('32_apply_hindi_postedits')
-    assert sum(m.apply().values())==0
+def test_hindi_field_corrections_are_applied_and_idempotent():
+    """Whole-field Hindi corrections now run in stage 25 with the other curated Hindi corrections."""
+    m=importlib.import_module('25_fill_missing')
+    rd=lambda n: pd.read_csv(ROOT/f'data/processed/{n}.csv',keep_default_na=False)
+    tables={n: rd(n) for n in m.FIELD_TABLES}
+    edits=m.load_field_corrections(tables['terminology'])
+    assert len(edits)==21
+    assert sum(m.field_fix(tables, edits).values())==0
     terms=pd.read_csv(ROOT/'data/processed/terminology.csv',keep_default_na=False).set_index('term_uid')
     assert terms.loc['SAT:SAT-G.58','definition_hi']=='लंबे हत्थे वाली लोहे की कलछी।'
     assert terms.loc['SAT:SAT-G.58','definition_hi_qe_flags']=='expert_review_pending'

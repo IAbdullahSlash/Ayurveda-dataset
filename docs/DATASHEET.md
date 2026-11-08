@@ -111,7 +111,7 @@ the synthetic Prakṛti cohort as evidence about real people.
 - Hindi descriptions are machine translations: NLLB-200 with an injected Ayurveda glossary, with quality
   flags and back-translation QE (see `reports/translation_qe.json`). Hindi names of Sanskrit terms are
   rule-derived and reliable; translated English glosses are less so. Systematic errors are corrected by curated
-  post-edits (`curation/mt_postedit_rules.csv`, `curation/mt_item_corrections.csv`), marked in each row's
+  corrections (`curation/mt_postedit_rules.csv`, `mt_item_corrections.csv` and `mt_field_corrections.csv`, all applied by stage 25), marked in each row's
   `*_method`. 713 WHO definitions flagged `repetition` are degenerate translations that need re-translation.
 - Herb properties (rasa, guṇa, vīrya, vipāka, doṣa) come from one community database (Amidha, 344 herbs)
   and reflect one reading of the classical texts.

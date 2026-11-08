@@ -14,7 +14,7 @@ Stage 25 - Fill gaps with clearly flagged, source-traceable additions (never sil
      phytochemistry - written only if cross-validated macro-F1 >= 0.65.
 Output: the tables above + reports/fill_missing_report.json
 """
-import argparse, json, re, sys, unicodedata
+import argparse, hashlib, json, re, sys, unicodedata
 from collections import Counter, defaultdict
 from importlib import import_module
 from pathlib import Path
@@ -182,15 +182,63 @@ def item_fix(df, table, en_col, hi_col, method_col, corr, mentions):
     mark(df, m, method_col, "mt_item_corrections")
     return int(m.sum())
 
+FIELD_TABLES = ("terminology", "therapies", "pharmaceutics", "diet_lifestyle", "diseases")
+FIELD_METHOD = "ai_postedit_unreviewed: source-checked language correction"
+
+def load_field_corrections(T):
+    """curation/mt_field_corrections.csv: a whole Hindi definition replaced, tied to a SHA-256 of its English source.
+    Every row is checked before anything is changed; a changed English source stops the run."""
+    f = ROOT / "curation/mt_field_corrections.csv"
+    if not f.exists():
+        return pd.DataFrame(columns=["term_uid", "source_en", "source_sha256", "previous_hi", "replacement_hi", "status", "reason"])
+    e = pd.read_csv(f, keep_default_na=False)
+    if e.term_uid.duplicated().any():
+        raise ValueError("Duplicate term_uid in curation/mt_field_corrections.csv")
+    terms = T.set_index("term_uid")
+    for r in e.itertuples():
+        if r.term_uid not in terms.index:
+            raise ValueError("Field correction for unknown term: " + r.term_uid)
+        if hashlib.sha256(terms.at[r.term_uid, "definition_en"].encode()).hexdigest() != r.source_sha256:
+            raise ValueError("English source changed since the correction was written: " + r.term_uid)
+        if r.status != "ai_postedit_unreviewed" or not r.replacement_hi.strip():
+            raise ValueError("Invalid field correction: " + r.term_uid)
+    return e
+
+def field_fix(tables, edits):
+    """replace whole Hindi definitions in terminology and in every copy of them (derived tables share term_uid;
+    disorders copied from a WHO term match on who_term_id).  Returns rows whose text changed, per table."""
+    counts = {}
+    for name in FIELD_TABLES:
+        df = tables.get(name)
+        if df is None or not len(edits) or "definition_hi" not in df:
+            continue
+        n = 0
+        for r in edits.itertuples():
+            if name == "diseases":
+                m = df.who_term_id.eq(r.term_uid.removeprefix("WHO:")) & df.definition_source.str.startswith("WHO")
+            elif "term_uid" in df:
+                m = df.term_uid.eq(r.term_uid)
+            else:
+                continue
+            m &= df.definition_en.eq(r.source_en)
+            n += int((m & df.definition_hi.ne(r.replacement_hi)).sum())
+            df.loc[m, "definition_hi"] = r.replacement_hi
+            df.loc[m, "definition_hi_method"] = FIELD_METHOD
+            df.loc[m, "definition_hi_qe_flags"] = "expert_review_pending"
+        counts[name] = n
+    return counts
+
 def write_table(df, name):
     df.to_csv(P / f"{name}.csv", index=False)
     df.astype({c: str for c in df.columns if df[c].dtype == object}).to_parquet(P / f"{name}.parquet", index=False)
 
 def mt_corrections(D, T, S):
-    """apply both curated post-edit files to every machine-translated column; writes S, T and the derived tables
-    (D is written by the caller).  Idempotent: an applied correction no longer matches."""
+    """apply the three curated Hindi correction files to every machine-translated column, in this order: regex rules
+    (mt_postedit_rules), item corrections (mt_item_corrections), whole-field replacements (mt_field_corrections).
+    Writes S, T and the derived tables (D is written by the caller).  Idempotent: an applied correction no longer matches."""
     rules = pd.read_csv(ROOT / "curation/mt_postedit_rules.csv", keep_default_na=False)
     corr = load_item_corrections()
+    fields = load_field_corrections(T)
     ds = rd("disease_symptom").sort_values(["disease_id", "mention_rank"], kind="stable")
     mentions = {d: [(iast_to_deva(iso_to_iast(sa).lower()) if sa else "", en) for sa, en in zip(g.mention_sa_iast, g.mention_en)]
                 for d, g in ds.groupby("disease_id", sort=False)}
@@ -201,6 +249,8 @@ def mt_corrections(D, T, S):
         en, hi, meth = MT_COLUMNS[name]
         if {en, hi} <= set(df.columns):
             changed[name] = postedit(df, name, en, hi, meth, rules) + item_fix(df, name, en, hi, meth, corr, mentions)
+    for name, n in field_fix(tables, fields).items():
+        changed[name] = changed.get(name, 0) + n
     for name, df in tables.items():
         if name != "diseases":
             write_table(df, name)
@@ -244,6 +294,7 @@ def main(mt_only=False):
             D.at[i, "definition_hi_qe_flags"] = who.at[uid, "definition_hi_qe_flags"] if "definition_hi_qe_flags" in who else ""
             D.at[i, "definition_source"] = "WHO ITA 2022 (linked term)"
             filled += 1
+    field_fix({"diseases": D}, load_field_corrections(T))      # copies carry the whole-field corrections too
     D.to_csv(P / "diseases.csv", index=False)
     if (P / "diseases.parquet").exists():
         D.to_parquet(P / "diseases.parquet", index=False)
@@ -366,5 +417,5 @@ def main(mt_only=False):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--mt-only", action="store_true",
-                    help="only re-apply the curated Hindi post-edits (curation/mt_postedit_rules.csv, curation/mt_item_corrections.csv)")
+                    help="only re-apply the curated Hindi corrections (curation/mt_postedit_rules.csv, mt_item_corrections.csv, mt_field_corrections.csv)")
     main(mt_only=ap.parse_args().mt_only)

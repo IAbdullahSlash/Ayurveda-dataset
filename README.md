@@ -251,7 +251,7 @@ flowchart TB
 | | `09_docs.py`, `11_embed_index.py` | data dictionary; multilingual embedding index |
 | | `12_report.py`, `13_package.sh` | dataset report and the result tables in this README; release zip |
 | | `21_review_workbooks.py`, `22_build_tools.py` | expert-review workbook (build / merge) and the interactive tools |
-| Revision | `27`–`54` | peer-review revision: Hindi post-edits (32) and the Prameha symptom repair (33), both run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47), source-gap audits (49–52), and an AI pre-review of the indication mappings with a sign-off step (53–54, see [`docs/INDICATION_PREREVIEW.md`](docs/INDICATION_PREREVIEW.md)). See [`docs/REVISION_STATUS.md`](docs/REVISION_STATUS.md) |
+| Revision | `27`–`54` | peer-review revision: the Prameha symptom repair (33), run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47), source-gap audits (49–52), and an AI pre-review of the indication mappings with a sign-off step (53–54, see [`docs/INDICATION_PREREVIEW.md`](docs/INDICATION_PREREVIEW.md)). See [`docs/REVISION_STATUS.md`](docs/REVISION_STATUS.md) |
 | Test | `tests/` | 176 automated checks: transliteration, keys, references, encoding, Windows portability of the scripts, domain and safety rules, bilingual coverage, ML baselines, the demo |
 
 **Built with**
@@ -352,7 +352,7 @@ Ayurveda-dataset/
 
 Release **v1.2**. Done:
 
-- [x] 54 pipeline scripts, experiments E1–E8 and 176 automated checks
+- [x] Pipeline stages 00–54, experiments E1–E8 and 176 automated checks
 - [x] Dataset report, Review Desk and Prakṛti questionnaire (source pages in `release/tools/`)
 - [x] ChEMBL compound–target links: 323 links, 62 compounds, 196 human proteins (built locally, see below)
 
@@ -403,9 +403,19 @@ and few network calls.
 The most valuable contribution is **expert review** by qualified Ayurveda practitioners, through the Review Desk or
 the review workbook. Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
 requests. Make data changes in the pipeline or in `curation/` rather than by hand in `data/processed/`, and run
-`python3 -m pytest -q tests/` before opening a pull request. Hindi corrections go in
-`curation/mt_item_corrections.csv` (one English item and its reviewed Hindi per row) and are applied with
-`python3 -I scripts/25_fill_missing.py --mt-only`.
+`python3 -m pytest -q tests/` before opening a pull request.
+
+Hindi corrections go in one of three files in `curation/`, depending on their scope. Stage 25 applies all three in
+this order, and `python3 -I scripts/25_fill_missing.py --mt-only` re-applies them after an edit.
+
+| File | Use it for | One row holds |
+|---|---|---|
+| `mt_postedit_rules.csv` | a systematic error across many rows ('stiffness' rendered as bitterness) | an English pattern, the wrong Hindi pattern and its replacement |
+| `mt_item_corrections.csv` | one English term that is translated wrongly wherever it appears ('nausea') | the English item and its reviewed Hindi |
+| `mt_field_corrections.csv` | one definition that needs rewriting as a whole (a decoding loop) | the term ID, a SHA-256 of its English source, the old and new Hindi |
+
+Corrected rows are marked in their `*_method` column; whole-field corrections also stay flagged
+`expert_review_pending` until reviewed.
 
 ## Licence and attribution
 

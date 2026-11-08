@@ -4,7 +4,7 @@
 
 Clinical/safety review and permissions review were excluded from this batch.
 
-- Hindi: 11 malformed or inaccurate terminology definitions were replaced with source-checked AI post-edits, propagated to three derived records. Old text, English source and source hashes are preserved in `curation/hindi_definition_postedits.csv`. Every correction remains `expert_review_pending`; these are not independent language approvals.
+- Hindi: 11 malformed or inaccurate terminology definitions were replaced with source-checked AI post-edits, propagated to three derived records. Old text, English source and source hashes are preserved in `curation/mt_field_corrections.csv` (formerly `hindi_definition_postedits.csv`). Every correction remains `expert_review_pending`; these are not independent language approvals.
 - Extraction: the Prameha coordination defect is repaired in the processed graph, with the complete source phrase retained and a corresponding Hindi gloss. Legacy symptom IDs remain available to other layers. The remaining 211 candidate disorder changes require semantic adjudication; no blanket approval was manufactured.
 - Provenance: recorded herb properties resolve to Amidha IDs and Hindi common names to Wikidata QIDs where those references exist. Unknown historical attribution remains explicit.
 - Content gaps: all 873 undefined disorders were checked against their existing WHO links. None has an available definition in that linked record. The 122 missing herb-property records require additional source material. See the gap-evidence CSVs under `reports/revision_audit/`.
