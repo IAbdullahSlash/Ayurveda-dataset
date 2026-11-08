@@ -9,6 +9,7 @@ Stage 08 - Post-processing: validation, bilingual QA corpus, exports.
   * Frictionless Data package descriptor  -> release/datapackage.json
 """
 import json, re, sqlite3, sys, unicodedata, tempfile, shutil
+from contextlib import closing
 from pathlib import Path
 import pandas as pd
 
@@ -319,7 +320,8 @@ def main():
                 for source in original[1].glob("*.csv"):
                     shutil.copy2(source, P / source.name)
                 write_exports(rep, tables)
-                with sqlite3.connect(REL / "ayurkb.sqlite") as connection:
+                # sqlite3's own context manager commits but does not close; an open file blocks cleanup on Windows
+                with closing(sqlite3.connect(REL / "ayurkb.sqlite")) as connection:
                     if connection.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
                         raise ValueError("SQLite integrity check failed")
                 paths = [path.relative_to(stage).as_posix() for path in stage.rglob("*") if path.is_file()]

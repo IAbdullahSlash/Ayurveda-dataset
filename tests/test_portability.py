@@ -93,6 +93,20 @@ def isolated_import_problem(path):
     return None
 
 
+def sqlite_problems(path):
+    """`with sqlite3.connect(...) as c:` commits but never closes; Windows then cannot delete or replace the file."""
+    tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+    found = []
+    for node in ast.walk(tree):
+        if isinstance(node, (ast.With, ast.AsyncWith)):
+            for item in node.items:
+                f = item.context_expr
+                if (isinstance(f, ast.Call) and isinstance(f.func, ast.Attribute) and f.func.attr == "connect"
+                        and isinstance(f.func.value, ast.Name) and f.func.value.id == "sqlite3"):
+                    found.append((node.lineno, "with sqlite3.connect(...) leaves the file open; wrap it in contextlib.closing()"))
+    return found
+
+
 def _report(problems):
     return "\n".join(f"  {p.relative_to(ROOT).as_posix()}:{line}  {msg}" for p, line, msg in problems)
 
@@ -105,6 +119,21 @@ def test_text_io_names_its_encoding():
 def test_manifest_paths_use_forward_slashes():
     problems = [(p, line, msg) for p in python_files() for line, msg in path_problems(p)]
     assert not problems, "Paths written to files must not depend on the OS:\n" + _report(problems)
+
+
+def test_sqlite_connections_are_closed():
+    problems = [(p, line, msg) for p in python_files() for line, msg in sqlite_problems(p)]
+    assert not problems, "An open SQLite file cannot be deleted on Windows:\n" + _report(problems)
+
+
+@pytest.mark.parametrize("source,flagged", [
+    ("import sqlite3\nwith sqlite3.connect('a.db') as c:\n    c.execute('select 1')\n", True),
+    ("import sqlite3\nfrom contextlib import closing\nwith closing(sqlite3.connect('a.db')) as c:\n    c.execute('select 1')\n", False),
+])
+def test_checker_catches_unclosed_sqlite(tmp_path, source, flagged):
+    f = tmp_path / "sample.py"
+    f.write_text(source, encoding="utf-8")
+    assert bool(sqlite_problems(f)) == flagged
 
 
 def test_numbered_scripts_import_lib_under_isolated_mode():

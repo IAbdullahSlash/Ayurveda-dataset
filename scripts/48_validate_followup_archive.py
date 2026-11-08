@@ -11,6 +11,7 @@ import sys
 import tempfile
 import xml.etree.ElementTree as ET
 import zipfile
+from contextlib import closing
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,7 +66,8 @@ def main():
         for resource in descriptor['resources']:
             if not (target / 'release' / resource['path']).is_file():
                 raise ValueError('Unresolved descriptor resource')
-        with sqlite3.connect(target / 'release/ayurkb.sqlite') as connection:
+        # sqlite3's own context manager commits but does not close; an open file blocks cleanup on Windows
+        with closing(sqlite3.connect(target / 'release/ayurkb.sqlite')) as connection:
             if connection.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
                 raise ValueError('SQLite integrity failure')
             rows = connection.execute('SELECT herb_id,disease_id,mapping_status FROM herb_indication').fetchall()
