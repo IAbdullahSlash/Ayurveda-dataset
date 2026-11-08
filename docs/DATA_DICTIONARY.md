@@ -269,10 +269,10 @@ NAMASTE Ayurveda morbidity codes: 2,892 disorders and patterns with hierarchy, W
 | `term_ascii` | text | 100% | vyadhi viniscayah |  |
 | `name_en` | text | 100% | diagnostic conditions | English name |
 | `name_en_alt` | text | 1% | Increased vāta |  |
-| `name_en_who` | text | 41% | Diagnosis |  |
+| `name_en_who` | text | 41% | Diagnosis | English name of the linked WHO ITA 2022 term; where NAMASTE's English label is loose, this is often the better gloss |
 | `who_term_id` | text | 41% | ITA-4.1.1 |  |
-| `short_definition` | text | 0% |  |  |
-| `long_definition` | text | 55% | It is characterized by impaired movements of vāta, fullness … |  |
+| `short_definition` | text | 0% |  | NAMASTE short definition. Always empty: every row of the NAMASTE morbidity export has a '-' placeholder here; kept so the table mirrors the source columns |
+| `long_definition` | text | 55% | It is characterized by impaired movements of vāta, fullness … | NAMASTE long definition as published (source of definition_en for NAMASTE-defined disorders) |
 | `definition_en` | text | 70% | Arrived at through careful consideration of information and … | English definition / description |
 | `ontology_branches` | text | 2% | Note: Also Classifed under #san@annavahasrotovikAraH#[EB] |  |
 | `primary_index` | text | 27% | Primary |  |

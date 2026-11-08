@@ -108,6 +108,11 @@ the synthetic Prakṛti cohort as evidence about real people.
   written for this project from classical texts and standard references. They are flagged
   `curated…` and need review by a qualified Ayurveda expert. Formulations should be checked against the
   Ayurvedic Formulary of India.
+- English disorder names (`diseases.name_en`) are NAMASTE's own labels and are kept as published. A few are
+  loose modern glosses, for example *udāvarta* (AYD-00656) is labelled "Volvulus disorder" although its definition
+  describes retention of faeces, flatus and urine. Where a WHO term is linked, `name_en_who` gives WHO's label
+  ("Disorders of reversed or altered visceral movement" for *udāvarta*). `short_definition` is empty because the
+  NAMASTE export has only a '-' placeholder in that column.
 - Hindi descriptions are machine translations: NLLB-200 with an injected Ayurveda glossary, with quality
   flags and back-translation QE (see `reports/translation_qe.json`). Hindi names of Sanskrit terms are
   rule-derived and reliable; translated English glosses are less so. Systematic errors are corrected by curated
