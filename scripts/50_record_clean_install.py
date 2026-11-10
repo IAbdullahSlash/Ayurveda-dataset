@@ -42,7 +42,7 @@ def main():
         pins[match[1]] = match[2]
     # Resolving the executable symlink would invoke the base interpreter and lose the venv.
     probe = subprocess.run([str(args.python.absolute()), '-I', '-c', PROBE], input=json.dumps(pins),
-                           text=True, capture_output=True, check=True)
+                           text=True, encoding='utf-8', capture_output=True, check=True)
     environment = json.loads(probe.stdout)
     if not environment['python'].startswith('3.13.'):
         raise ValueError('This validation workflow requires the recorded Python 3.13 target')

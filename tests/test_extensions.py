@@ -243,7 +243,7 @@ def test_finetuned_search_reported_without_leakage():
 def test_expert_system_demo_runs_end_to_end(symptoms, lang, sections):
     """the README commands must work on a fresh clone: lexical mode needs no model download"""
     r = subprocess.run([sys.executable, "-I", str(ROOT / "examples/expert_system_demo.py"), "--symptoms", symptoms,
-                        "--lang", lang, "--no-semantic"], capture_output=True, text=True, timeout=300)
+                        "--lang", lang, "--no-semantic"], capture_output=True, text=True, encoding="utf-8", timeout=300)
     assert r.returncode == 0, r.stderr[-2000:]
     for s in sections + ("decision support for a qualified practitioner",):
         assert s in r.stdout, f"missing section: {s}"

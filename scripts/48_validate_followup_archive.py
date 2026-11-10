@@ -96,7 +96,7 @@ def main():
             if not args.model:
                 command.append('--no-semantic')
             environment = dict(os.environ, HF_HUB_OFFLINE='1', TRANSFORMERS_OFFLINE='1')
-            result = subprocess.run(command, cwd='/tmp', env=environment, capture_output=True, text=True, timeout=120)
+            result = subprocess.run(command, cwd=tempfile.gettempdir(), env=environment, capture_output=True, text=True, encoding="utf-8", timeout=120)
             if result.returncode:
                 raise ValueError('Extracted demo failed: ' + result.stderr[-2000:])
             if 'decision support for a qualified practitioner' not in result.stdout:

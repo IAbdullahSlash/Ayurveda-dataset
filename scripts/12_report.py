@@ -22,7 +22,7 @@ def tests_passed(junit=None):
         if not passed:
             raise ValueError('JUnit evidence contains no passing tests')
         return passed, 0
-    run = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")], capture_output=True, text=True, cwd=ROOT)
+    run = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")], capture_output=True, text=True, encoding="utf-8", cwd=ROOT)
     if run.returncode:
         raise ValueError('Test execution failed; report was not generated: ' + run.stdout[-1500:] + run.stderr[-500:])
     out = run.stdout
