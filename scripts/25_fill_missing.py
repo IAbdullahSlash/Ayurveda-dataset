@@ -212,6 +212,8 @@ def field_fix(tables, edits):
         df = tables.get(name)
         if df is None or not len(edits) or "definition_hi" not in df:
             continue
+        if name == "diseases" and "definition_source" not in df:
+            continue        # fresh build: main() labels definition sources first, then re-applies field_fix to diseases
         n = 0
         for r in edits.itertuples():
             if name == "diseases":
