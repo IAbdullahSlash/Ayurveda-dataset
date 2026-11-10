@@ -1,6 +1,6 @@
 # AyurKB v1.3.0 release notes
 
-**Status: draft for maintainer approval.** Merging the `release/v1.3.0` branch approves the version bump; tagging and publishing a GitHub release remain separate steps.
+**Released 11 November 2026** (tag `v1.3.0`).
 
 v1.3.0 is the peer-review revision of v1.2 (5 November 2026). It makes the data more cautious, more traceable and easier to review. It adds no expert-approved content: every curated layer, translation and safety record that was unreviewed in v1.2 is still unreviewed, and the new review material consists of drafts waiting for qualified reviewers.
 
@@ -45,10 +45,14 @@ Rows fell because unsupported literature-evidence rows and Q&A pairs built on wi
 - Stage 02b is deterministic, and `.gitattributes` keeps raw source files byte-exact.
 - Export publishes validated, content-addressed snapshots atomically; a clean CPU install is recorded in `requirements.cpu-py313.lock`.
 - A glossary of Ayurveda and technical terms (`docs/GLOSSARY.md`).
+- The offline Excel review workbook and its stage 21 are retired; reviewers use the HTML review desk and export CSV.
+- Stage 25 no longer crashes on a from-scratch build.
 
 ## Reproducibility
 
-A full `bash run_all.sh` rebuild was attempted on Windows on 8 November 2026 (see `docs/REBUILD_CHECK.md`). Stages 00, 01 and 02b–06 ran; stage 02a needs Poppler's `pdftotext`, and the run was stopped in the stage 06 quality check when disk space ran low. The check found and fixed three reproducibility bugs: stage 02b's diacritic repair depended on Python's per-run hash seed, stage 01 rewrote download timestamps on every run, and on Windows git converted the line endings of raw source files so they no longer matched their recorded hashes. The committed interim parse reflects one random 02b run; regenerating it would change 104 SAT definitions and 61 mahākaṣāya names (mostly restoring long final vowels) and is left for review. **A complete end-to-end rebuild has not been verified.**
+A full `bash run_all.sh` rebuild was attempted on Windows on 8 November 2026 (see `docs/REBUILD_CHECK.md`). Stages 00, 01 and 02b–06 ran; stage 02a needs Poppler's `pdftotext`, and the run was stopped in the stage 06 quality check when disk space ran low. The check found and fixed three reproducibility bugs: stage 02b's diacritic repair depended on Python's per-run hash seed, stage 01 rewrote download timestamps on every run, and on Windows git converted the line endings of raw source files so they no longer matched their recorded hashes. The committed interim parse reflects one random 02b run; regenerating it would change 104 SAT definitions and 61 mahākaṣāya names (mostly restoring long final vowels).
+
+A second rebuild on 10–11 November ran stages 02b to 22 to completion after fixing a stage 25 crash. It was not adopted: the rebuilt tables also apply a symptom-parser change that still awaits review and would retire 351 symptom IDs. v1.3.0 therefore ships the v1.2-era interim parse, and the regeneration waits for that review (`docs/REBUILD_CHECK.md`). **Stages 00–02a and the benchmark stages have not been rerun end to end.**
 
 ## Known limitations
 
