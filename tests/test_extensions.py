@@ -1,6 +1,6 @@
 """
 Tests for the extension layers (stages 14-22): real-world case reports, literature evidence, therapy links,
-regional scripts, headword concepts, PubChem identifiers, image-dataset links, ICTRP importer, review workbook,
+regional scripts, headword concepts, PubChem identifiers, image-dataset links, ICTRP importer,
 tuning report and the interactive tools.  Layers whose (network-built) file is absent are skipped, not failed.
 """
 import json, re, subprocess, sys
@@ -142,7 +142,7 @@ def test_ictrp_importer_drops_personal_data(tmp_path, monkeypatch):
     links = pd.read_csv(tmp_path / "ictrp_trial_links.csv", keep_default_na=False)
     assert {"disease", "herb", "formulation"} <= set(links.entity_type)
 
-# ----------------------------------------------------------------------------- tuning, review workbook, tools
+# ----------------------------------------------------------------------------- tuning, tools
 def test_tuning_report():
     f = ROOT / "reports/ml/E7_tuning.json"
     if not f.exists():
@@ -150,15 +150,6 @@ def test_tuning_report():
     r = pd.DataFrame(json.loads(f.read_text(encoding="utf-8"))["results"])
     assert {"default_macro_f1_mean", "tuned_macro_f1_mean", "wilcoxon_p"} <= set(r.columns) and len(r) >= 10
 
-def test_review_workbook_has_dropdowns():
-    f = ROOT / "review/AyurKB_expert_review.xlsx"
-    if not f.exists():
-        pytest.skip("workbook not built")
-    from openpyxl import load_workbook
-    wb = load_workbook(f)
-    assert {"README", "herb_properties", "herb_disorder_links", "biomedical_map", "hindi_translations"} <= set(wb.sheetnames)
-    ws = wb["herb_disorder_links"]
-    assert ws.data_validations.dataValidation, "verdict column needs a drop-down"
 
 @pytest.mark.parametrize("page", ["review_desk.html", "prakriti_questionnaire.html"])
 def test_tool_pages_embed_data_and_guard_capabilities(page):

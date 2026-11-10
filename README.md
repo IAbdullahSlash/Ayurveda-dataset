@@ -202,7 +202,6 @@ python3 examples/expert_system_demo.py --symptoms "बुखार; जलन; �
 |---|---|
 | **Review Desk** (`release/tools/review_desk.html`) | Invited vaidyas give a verdict on each herb → disorder and procedure → disorder link. Verdicts are stored per anonymous reviewer; the owner sees agreement (Fleiss' κ) and exports CSV. |
 | **Prakṛti questionnaire** (`release/tools/prakriti_questionnaire.html`) | Bilingual, with a consent screen, classical scoring (the E4 rule) and optional anonymous saving by the study team (interviewer mode). |
-| **Offline review workbook** (`review/AyurKB_expert_review.xlsx`) | Drop-down verdicts per sheet. Return completed copies to `review/returned/` and run `python3 scripts/21_review_workbooks.py --merge`. |
 | **Permission letters** (`docs/permission_requests/`) | Ready-to-send requests to PCIM&H (API/AFI), Ministry of Ayush (NAMASTE licence), WHO, the IMPPAT team and CCRAS. |
 
 ## Pipeline
@@ -250,7 +249,7 @@ flowchart TB
 | Export | `08_validate_export.py` | integrity checks, bilingual Q&A, RAG corpus, SQLite, Frictionless `datapackage.json` |
 | | `09_docs.py`, `11_embed_index.py` | data dictionary; multilingual embedding index |
 | | `12_report.py`, `13_package.sh` | dataset report and the result tables in this README; release zip |
-| | `21_review_workbooks.py`, `22_build_tools.py` | expert-review workbook (build / merge) and the interactive tools |
+| | `22_build_tools.py` | the interactive Review Desk and Prakṛti questionnaire |
 | Revision | `27`–`54` | peer-review revision: the Prameha symptom repair (33), run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47), source-gap audits (49–52), and an AI pre-review of the indication mappings with a sign-off step (53–54, see [`docs/INDICATION_PREREVIEW.md`](docs/INDICATION_PREREVIEW.md)). See [`docs/REVISION_STATUS.md`](docs/REVISION_STATUS.md) |
 | Test | `tests/` | 184 automated checks: transliteration, keys, references, encoding, Windows portability of the scripts, domain and safety rules, bilingual coverage, ML baselines, the demo |
 
@@ -341,7 +340,6 @@ Ayurveda-dataset/
 ├── models/trained/     small trained classifiers (E3, E4)
 ├── reports/            build reports, ML results (ml/) and figures
 ├── release/            datapackage.json, dataset report, interactive tools
-├── review/             offline expert-review workbook
 ├── docs/               datasheet, sources, data dictionary, expert-system guide, permission letters
 ├── run_all.sh          rebuilds everything end to end
 ├── requirements.txt    pinned dependencies
@@ -358,9 +356,9 @@ Release **v1.2**. Done:
 
 Next:
 
-- [ ] **Expert review.** Collect verdicts with the Review Desk or `review/AyurKB_expert_review.xlsx`, then run
-  `python3 scripts/21_review_workbooks.py --merge`. Start with the "possible name-mapping error", "model unsure" and
-  "seen in case reports" items.
+- [ ] **Expert review.** Collect verdicts with the Review Desk and the review batches in
+  [`docs/REVIEW_HANDOFF.md`](docs/REVIEW_HANDOFF.md), starting with the
+  [indication pre-review](docs/INDICATION_PREREVIEW.md).
 - [ ] **Permissions.** Send the letters in `docs/permission_requests/`.
 - [ ] **Ethics approval** before collecting Prakṛti questionnaire responses.
 - [ ] **Hindi review.** Have a Hindi speaker correct the flagged translations (sheet `hindi_translations`).
@@ -401,7 +399,7 @@ and few network calls.
 ## Contributing
 
 The most valuable contribution is **expert review** by qualified Ayurveda practitioners, through the Review Desk or
-the review workbook. Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
+the review batches in `docs/REVIEW_HANDOFF.md`. Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
 requests. Make data changes in the pipeline or in `curation/` rather than by hand in `data/processed/`, and run
 `python3 -m pytest -q tests/` before opening a pull request.
 

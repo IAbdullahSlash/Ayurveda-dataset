@@ -35,7 +35,6 @@ py scripts/23_finetune_search.py          # E5b: domain fine-tuning of the multi
 py scripts/20_tuning.py                   # experiment E7: nested-CV hyperparameter tuning
 py scripts/08_validate_export.py          # integrity checks, QA pairs, corpus, SQLite, datapackage
 py scripts/09_docs.py                     # data dictionary
-py scripts/21_review_workbooks.py --build # expert-review workbook
 py scripts/22_build_tools.py              # interactive review desk + Prakṛti questionnaire
 python3 -m pytest -q tests/               # all checks
 py scripts/12_report.py                   # release/report.html + README ML table
