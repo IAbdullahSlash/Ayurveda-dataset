@@ -29,7 +29,6 @@ data/interim/cache/epmc_case_reports.json
 data/interim/who/
 
 # Completed expert reviews contain reviewers' answers: merge them, don't publish the raw files
-review/returned/*.xlsx
 
 # Logs, caches, editor and OS files
 reports/*.log

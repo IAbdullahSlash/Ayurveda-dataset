@@ -97,9 +97,8 @@ answer automatically only above a confidence threshold and refer the rest.
 
 ## 8. Expert review loop
 
-Use `release/tools/review_desk.html` (published as an artifact; invite reviewers as editors) or the offline workbook
-`review/AyurKB_expert_review.xlsx`. Merge returned workbooks with `python3 scripts/21_review_workbooks.py --merge`;
-verdicts land in `curation/expert_reviews.csv` with inter-rater agreement in `reports/expert_review_agreement.json`.
+Use `release/tools/review_desk.html` (published as an artifact; invite reviewers as editors) and the review batches
+listed in `docs/REVIEW_HANDOFF.md`. The Review Desk shows inter-rater agreement and exports verdicts as CSV.
 Apply corrections to the curated layers only after two reviewers agree.
 
 ## 9. Accuracy upgrades you can use directly

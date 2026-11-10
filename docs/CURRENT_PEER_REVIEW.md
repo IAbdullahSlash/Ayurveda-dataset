@@ -228,7 +228,7 @@ AyurKB should be presented as a promising, substantially improved research knowl
 2. [Data dictionary](DATA_DICTIONARY.md), [datasheet](DATASHEET.md), and [system coverage](../reports/revision_audit/coverage_by_system.csv).
 3. [Current recorded validation and benchmark summary](REVISION_VALIDATION.md), [machine-readable validation](../reports/revision_validation_summary.json), and [corrected experiment artifacts](../reports/revision_full/).
 4. [Semantic experiment artifacts](../reports/revision_semantic/) and [historical case-matching results](../reports/ml/E6b_matching_improvements.json).
-5. [Expert workbook](../review/AyurKB_expert_review.xlsx) and [semantic/language protocol](SEMANTIC_AND_LANGUAGE_REVIEW.md).
+5. [Semantic/language protocol](SEMANTIC_AND_LANGUAGE_REVIEW.md) (the offline workbook was retired in v1.3.0).
 6. [Provenance contract](PROVENANCE_CONTRACT.md), [rights ledger](../curation/source_rights_review.csv), and [rights/safety handoff](RIGHTS_AND_SAFETY_REVIEW.md).
 7. [Translation reassessment](../reports/revision_audit/translation_repetition_reassessment.json), [retranslation outcome](../reports/retranslation/summary.json), and [herb-property search outcome](../reports/herb_property_research/summary.json).
 8. [Evaluation protocol](EVALUATION_PROTOCOL.md), [partition/evaluation status](../reports/revision_audit/evaluation_status.json), and [external-candidate pointer](../reports/external_candidates/current_collection.json).

@@ -22,7 +22,7 @@ def tests_passed(junit=None):
         if not passed:
             raise ValueError('JUnit evidence contains no passing tests')
         return passed, 0
-    run = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")], capture_output=True, text=True, cwd=ROOT)
+    run = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")], capture_output=True, text=True, encoding="utf-8", cwd=ROOT)
     if run.returncode:
         raise ValueError('Test execution failed; report was not generated: ' + run.stdout[-1500:] + run.stderr[-500:])
     out = run.stdout
@@ -399,7 +399,6 @@ def main(junit=None):
         "reports/ml/ · reports/figures/         every experiment, every model, every fold summary",
         "curation/                              curated layers (flagged for expert review)",
         "release/tools/                         expert review desk + bilingual Prakṛti questionnaire (interactive)",
-        "review/AyurKB_expert_review.xlsx       offline expert-review workbook (drop-down verdicts)",
         "docs/permission_requests/              letters to PCIM&H, Ayush, WHO, IMPPAT, CCRAS",
         "scripts/01…22 · tests/                 reproducible pipeline and test suite"])
     data["limits"] = [

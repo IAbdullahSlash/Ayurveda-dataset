@@ -56,6 +56,12 @@ def encoding_problems(path):
             mode = _mode(node, 0)
             if (not node.args and not node.keywords) or (mode and "b" not in mode and set(mode) <= set("rwxat+")):
                 found.append((node.lineno, "Path.open() in text mode without encoding"))
+        elif (isinstance(f, ast.Attribute) and isinstance(f.value, ast.Name) and f.value.id == "subprocess"
+              and f.attr in {"run", "check_output", "Popen"}
+              and any(k.arg in {"text", "universal_newlines"} and isinstance(k.value, ast.Constant) and k.value.value
+                      for k in node.keywords)):
+            # text=True decodes the child's output with the locale code page (cp1252 on GitHub's Windows runners)
+            found.append((node.lineno, "subprocess text output without encoding"))
     return found
 
 
@@ -157,6 +163,8 @@ with open("z.csv", "w") as f: pass
 with p.open() as f: pass
 with p.open("a") as f: pass
 name = str(p.relative_to(Path(".")))
+import subprocess
+out = subprocess.run(["x"], capture_output=True, text=True)
 '''
 
 GOOD = '''
@@ -174,6 +182,9 @@ with p.open("wb") as f: pass
 with p.open("a", encoding="utf-8") as f: pass
 with zipfile.ZipFile("a.zip").open("member.txt") as f: pass
 name = p.relative_to(Path(".")).as_posix()
+import subprocess
+out = subprocess.run(["x"], capture_output=True, text=True, encoding="utf-8")
+raw = subprocess.run(["x"], capture_output=True)
 '''
 
 
@@ -188,7 +199,7 @@ def test_checker_catches_sibling_script_imports(tmp_path, source, flagged):
     assert (isolated_import_problem(f) is not None) == flagged
 
 
-@pytest.mark.parametrize("source,expected", [(BAD, 6), (GOOD, 0)])
+@pytest.mark.parametrize("source,expected", [(BAD, 7), (GOOD, 0)])
 def test_checker_catches_known_patterns(tmp_path, source, expected):
     """The guard itself must flag every unsafe pattern above and accept the safe ones."""
     f = tmp_path / "10_sample.py"
