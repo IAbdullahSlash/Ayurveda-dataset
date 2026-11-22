@@ -1,5 +1,5 @@
 # Linux x86_64 / CPython 3.13 CPU environment; generated from the clean-install validation.
-# Install the pinned CPU torch wheel from the official CPU index first; see https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/CONTINUED_SOURCE_WORK.md.
+# Install the pinned CPU torch wheel from the official CPU index first; see https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/history/v1.3.0-revision/CONTINUED_SOURCE_WORK.md.
 # Exact direct and transitive versions; wheel hashes and system libraries are not locked.
 annotated-doc==0.0.5
 anyio==4.16.0

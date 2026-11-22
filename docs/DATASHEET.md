@@ -1,6 +1,6 @@
-# Datasheet: AyurKB v1.3
+# Datasheet: AyurKB v1.3.0
 
-Structured after *Datasheets for Datasets* (Gebru et al., 2021).
+Structured after *Datasheets for Datasets* (Gebru et al., 2021). Describes release v1.3.0 (11 November 2026): 43 tables, 180,899 rows. Changes from earlier versions are in [`releases/`](releases/).
 
 ## 1. Motivation
 
@@ -46,19 +46,34 @@ Source codes (NAMASTE, ICD-11 TM2, WHO ITA, GBIF keys, Wikidata QIDs, NCT ids) a
 
 **Clinical-data scope.** No privately collected patient cohort is included. Publication-derived metadata and short clinical phrases can still describe sensitive conditions; public availability is not a separate privacy or redistribution approval. Published reports are not necessarily independent patient units. The Prakṛti cohort is simulated.
 
-**Extension layers (v1.1).** Real-world layer from 565 published Ayurveda case reports (Europe PMC; 450 therapeutic,
-115 adverse-event); the original layer had PubMed evidence tiers for 1,427 herb and 121 formulation links; 6,474 disorder → procedure links;
-1,959 phytochemicals with PubChem identifiers; links to three CC BY 4.0 plant-image datasets; names in 8 regional
-scripts; 3,347 cross-source headword concepts.
+**Real-world and evidence layers.** 565 published Ayurveda case reports (Europe PMC; 450 therapeutic, 115
+adverse-event; 374 open-access full texts mined); PubMed evidence tiers for 1,039 active herb → disorder links and 121
+formulation links, with 388 withdrawn pairs kept in the audit reports; 6,474 disorder → procedure links; 1,959
+phytochemicals with PubChem identifiers; links to three CC BY 4.0 plant-image datasets; names in 8 regional scripts;
+3,347 cross-source headword concepts; 4,790 bilingual Q&A pairs.
 
-**Current working revision after PDF review.** All 1,693 indication source rows remain: 1,044 unique exact source matches are active but unreviewed, 339 candidates await review, 49 are quarantined, and 261 are unmatched. The current evidence table retains 1,039 supported pairs; 388 withdrawn pairs are audit history. QA has 4,790 rows, and all 43 tables total 180,899 rows. Herb safety has 442 unassessed and 24 review-pending records, with no independently assessed records. See [follow-up work](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_WORK_PROGRESS.md). Historical benchmark counts describe earlier frozen inputs.
+**Herb → disorder links.** All 1,693 source indication rows are kept. 1,044 exact source matches are active but
+unreviewed, 339 candidates await review, 49 are quarantined (wrong matches, kept with the original target and the
+reason) and 261 are unmatched. Approximate matches, and exact matches that fit more than one disorder, do not link
+automatically; they wait for a reviewed alias in `curation/indication_aliases.csv`.
 
-**Material identity scope.** The historical `herbs` inventory includes 453 records linked to botanical taxa, two source-identified non-botanical materials (mineral pitch and gairika/Ferrum haematite), and 11 unresolved identities. `accepted_name` remains a compatibility field and is not a verified species name for every row. Material categories preserve source references; they do not authenticate physical preparations or establish safety. No names, identifiers or species records were merged by this classification.
+**Safety states.** Every herb has `safety_assessment_status`: 442 are `unassessed` and 24 `review_pending`. None has
+an approved assessment. A blank or unassessed state never means safe.
 
-**Accuracy upgrades (v1.2).** 415 WHO definitions fill disorders NAMASTE leaves undefined (definitions 55.5% → 69.8%);
-13,639 disorder → symptom edges from WHO sign lists; inherited profiles for 470 subtypes (flagged); 1,420 doṣa
-suggestions (model output, flagged); symptom associations learned from published cases; a clinical-term crosswalk;
-curated fixes for systematic Hindi translation errors ('stiffness' rendered as 'bitterness', 'nausea' as 'vomiting').
+**Material identity scope.** The `herbs` table (name kept for compatibility) includes 453 records linked to botanical
+taxa, two source-identified non-botanical materials (mineral pitch and gairika/Ferrum haematite), and 11 unresolved
+identities. `accepted_name` remains a compatibility field and is not a verified species name for every row. Material
+categories preserve source references; they do not authenticate physical preparations or establish safety. No names,
+identifiers or species records were merged by this classification.
+
+**Accuracy layers.** 415 WHO definitions fill disorders NAMASTE leaves undefined, so 2,019 of 2,892 disorders (69.8%)
+have a definition; 13,639 disorder → symptom edges come from WHO sign lists; inherited profiles cover 470 subtypes
+(flagged); 1,420 doṣa suggestions are model output (flagged); 3,905 symptom associations are learned from published
+cases; a clinical-term crosswalk maps modern expressions to SAT symptoms; curated corrections fix systematic Hindi
+translation errors ('stiffness' rendered as 'bitterness', 'nausea' as 'vomiting').
+
+**Review state.** No layer has been reviewed by a qualified expert. Curated layers, translations, safety records and
+model suggestions are labelled as unreviewed in their method, flag or status columns.
 
 ## 3. Collection
 
@@ -117,11 +132,11 @@ the synthetic Prakṛti cohort as evidence about real people.
   flags and back-translation QE (see `reports/translation_qe.json`). Hindi names of Sanskrit terms are
   rule-derived and reliable; translated English glosses are less so. Systematic errors are corrected by curated
   corrections (`curation/mt_postedit_rules.csv`, `mt_item_corrections.csv` and `mt_field_corrections.csv`, all applied by stage 25), marked in each row's
-  `*_method`. 713 WHO definitions flagged `repetition` are degenerate translations that need re-translation.
+  `*_method`. 692 term definitions (582 of them WHO) are flagged `repetition`: degenerate translations that need re-translation.
 - Herb properties (rasa, guṇa, vīrya, vipāka, doṣa) come from one community database (Amidha, 344 herbs)
   and reflect one reading of the classical texts.
-- 76 Amidha-only herbs have no authoritative Sanskrit IAST spelling. Rather than invent one, the ASCII name
-  is kept.
+- 95 herbs that come only from Amidha have no authoritative Sanskrit IAST spelling (109 herb records in all have an
+  empty `name_sa_iast`). Rather than invent one, the source's ASCII name is kept in `name_ascii`.
 - Evidence counts (PubMed, trials) measure research volume, not efficacy.
 - Case-report extraction uses the KB lexicons; diagnoses were found for 38% of therapeutic reports. Literature tiers are
   co-occurrence counts. Procedure links are rule-based and need practitioner judgement.
@@ -133,5 +148,5 @@ GBIF, Wikidata and NLM as listed in `docs/SOURCES.md`.
 
 ## 8. Maintenance
 
-Re-run the documented pipeline stages to refresh from sources. Some API responses are cached; model weights and excluded article caches require separate retrieval. A complete offline rebuild has not been established. Run `python3 -m pytest tests/` after changes; see [`REVISION_VALIDATION.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVISION_VALIDATION.md) (review/testing branch) for executed test counts. Checks cover
+Re-run the documented pipeline stages (`run_all.sh`) to refresh from sources. Some API responses are cached; model weights and excluded article caches require separate retrieval. Stages 02b–22 were rebuilt end to end on 10–11 November 2026; stages 00–02a and the benchmark stages have not been rerun in one pass. Run `python3 -m pytest tests/` after changes: release v1.3.0 has 184 checks (183 pass, 1 skipped until the release zip is built). Checks cover
 keys, references, encoding, domain rules, bilingual coverage, safety flags, ML baselines and expert-system behaviour.

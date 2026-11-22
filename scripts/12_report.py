@@ -408,14 +408,14 @@ def main(junit=None):
         "Case-report entities are text-mined with the KB lexicons (precision over recall); verify against the article before reuse.",
         "Licence: CC BY-NC-SA 4.0 overall (WHO component); source dependencies and permissions require review; source filtering does not certify commercial-safe subsets. ChEMBL-derived targets, if built, ship separately under CC BY-SA 3.0.",
     ]
-    # README machine-learning table (generated, so the numbers always match reports/ml/)
+    # v1.2 benchmark tables (generated, so the numbers always match reports/ml/); the README shows the current release
     md = ["| Exp. | Task | Data | Best model | Score | Reference point |", "|---|---|---|---|---|---|"]
     for e in E:
         best = next(r for r in e["rows"] if r["kind"] == "best")
         refs = [r for r in e["rows"] if r["kind"] == "baseline"]
         ref = "; ".join(f"{r['label'].replace('Classical rule: ', 'rule: ')} {r['value']:.3f}" for r in refs[:2]) or "-"
         md.append(f"| {e['id']} | {e['title']} | {e['tags'][0]} | {best['label']} | {e['metric']} {best['value']:.3f} | {ref} |")
-    readme = ROOT / "README.md"
+    readme = ROOT / "docs/history/v1.2/BENCHMARKS.md"
     txt = readme.read_text(encoding="utf-8")
     txt = re.sub(r"<!-- ML_TABLE_START -->.*<!-- ML_TABLE_END -->",
                  "<!-- ML_TABLE_START -->\n" + "\n".join(md) + "\n<!-- ML_TABLE_END -->", txt, flags=re.S)

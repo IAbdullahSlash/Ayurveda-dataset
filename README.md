@@ -6,10 +6,10 @@
 
 द्विभाषी आयुर्वेद ज्ञानकोश — निर्णय-सहायता एवं विशेषज्ञ प्रणालियों के लिए
 
-[![Release v1.3](https://img.shields.io/badge/release-v1.3-0f8a5f?style=flat-square)](docs/RELEASE_NOTES_v1.3.0.md)
+[![Release v1.3](https://img.shields.io/badge/release-v1.3-0f8a5f?style=flat-square)](docs/releases/v1.3.0.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)](requirements.txt)
-[![Tests: 183 passing](https://img.shields.io/badge/tests-183%20passing-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Tests: 184](https://img.shields.io/badge/tests-184%20(183%20pass%2C%201%20skipped)-2ea44f?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![Frictionless Data Package](https://img.shields.io/badge/Frictionless-data%20package-1f6feb?style=flat-square)](release/datapackage.json)
 [![Languages: English, Hindi, Sanskrit](https://img.shields.io/badge/languages-English%20%7C%20Hindi%20%7C%20Sanskrit-e67e22?style=flat-square)](#whats-inside)
 
@@ -31,7 +31,7 @@
 
 ## About
 
-**Revision notice:** See [follow-up work](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_WORK_PROGRESS.md), [review handoff](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) and [current validation](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVISION_VALIDATION.md). The working revision contains 180,899 rows across 43 tables. Incorrect, fuzzy and ambiguous indication mappings are contained; current evidence/QA counts below reflect that change. Historical benchmark tables retain their original frozen inputs. Independent expert review remains pending.
+**Release v1.3.0** (11 November 2026): 43 tables, 180,899 rows. Incorrect, fuzzy and ambiguous herb → disorder mappings are contained, every herb has an explicit safety state, and all benchmarks are recomputed with fold-local preprocessing. No layer has been reviewed by a qualified expert yet. See the [release notes](docs/releases/v1.3.0.md).
 
 AyurKB links Ayurvedic **diagnosis, materia medica, remedies and modern scientific evidence** in one relational
 dataset, with **English, Hindi, Sanskrit IAST and Devanagari** representations. Coverage varies by field; Hindi is largely machine-translated and remains independently unreviewed.
@@ -54,7 +54,7 @@ from 565 published case reports support exploratory experiments and curation; th
   queue of diagnosis–medicine pairs. Reports and case series are not independent patient units.
 - **Tooling for reviewed prototypes.** A SQLite database, a Frictionless data package, a RAG corpus, a multilingual
   embedding index and a working bilingual demo, each built with one command.
-- **Honest numbers.** Every model is compared with a baseline on the same folds, and negative results are reported.
+- **Honest numbers.** Every model is compared with a baseline on the same folds, preprocessing is fitted inside each fold, and negative results are reported.
 
 ## What's inside
 
@@ -68,7 +68,7 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 | | `symptoms` | 11,082 | SAT-D lexicon (9,400 Sanskrit symptom phrases + English glosses) and 1,682 further source-derived records |
 | | `disease_symptom` | 11,883 | disease → symptom graph parsed from clinical definitions |
 | | `diagnostic_methods` | 43 | trividha, ṣaḍvidha, aṣṭasthāna (nāḍī, mūtra, jihvā …), daśavidha, nidāna pañcaka, kriyākāla, plus modern and computational counterparts with PubMed evidence |
-| **Materia medica** | `herbs` (historical table name) | 466 | 453 botanical taxon links, 2 non-botanical materials, 11 unresolved identities; source names/IDs preserved, properties and safety states explicit |
+| **Materia medica** | `herbs` (name kept for compatibility; includes 2 minerals) | 466 | 453 botanical taxon links, 2 non-botanical materials, 11 unresolved identities; source names/IDs preserved, properties and safety states explicit |
 | | `herb_indication`, `herb_karma`, `herb_names` | 1,693 / 829 / 3.6k | 1,044 active source matches, 339 pending candidates, 49 quarantined, 261 unmatched; source rows preserved |
 | | `herb_groups`, `herb_group_members` | 50 / 500 | Caraka's 50 mahākaṣāya |
 | **Remedies** | `formulations` (+ ingredients, indications) | 43 | classical compound remedies with classical source, dosage form, doṣa action, safety (curated, flagged) |
@@ -81,7 +81,7 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 | | `clinical_trials` | 6.4k links (5.3k trials) | ClinicalTrials.gov studies per herb and formulation |
 | **Real world** | `case_reports`, `case_report_entities` | 565 / 8,023 | published Ayurveda case reports (Europe PMC): NAMASTE diagnosis, presenting symptoms, herbs, formulations, procedures, modern tests; 115 adverse-event reports with implicated metals |
 | | `case_report_links` | 867 | diagnosis × medicine pairs seen in practice, flagged when the KB lacks them (curation queue) |
-| **Evidence** | `herb_indication_evidence`, `formulation_indication_evidence` | 1,039 / 121 | PubMed search-result tiers for current links; 388 withdrawn historical pairs remain in the audit reports |
+| **Evidence** | `herb_indication_evidence`, `formulation_indication_evidence` | 1,039 / 121 | PubMed search-result tiers for current links; 388 withdrawn pairs are kept in the audit reports |
 | **Linked data** | `phytochemicals` | 1,959 | PubChem CID, InChIKey, formula, SMILES for key phytochemicals (1,732 matched) |
 | | `herb_image_datasets` | 214 | links to 3 CC BY 4.0 leaf-image datasets for plant identification |
 | **Language** | `multiscript_names`, `headword_concepts` | 20,895 / 3,347 | names in 8 regional scripts; Sanskrit headwords shared across WHO, SAT and NAMASTE |
@@ -96,7 +96,7 @@ Every column is documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.m
 **Coverage at a glance**
 
 - **Remedies:** herb indications, mahākaṣāya groups, 43 classical formulations, therapies, diet and lifestyle.
-- **Materia medica:** 466 historical `herbs` records; 344 have core Dravyaguṇa properties. Material category and taxon-identity scope are explicit. Safety states are 442 unassessed and 24 review pending; none independently assessed.
+- **Materia medica:** 466 `herbs` records; 344 have core Dravyaguṇa properties. Material category and taxon-identity scope are explicit. Safety states are 442 unassessed and 24 review pending; none independently assessed.
 - **Diagnosing techniques:** classical examination methods with their references.
 - **Old and modern methods:** classical texts and standards alongside phytochemistry, clinical trials, ICD-11 coding
   and computational diagnostics.
@@ -116,9 +116,9 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-For the verified Linux x86_64 / Python 3.13 CPU setup, [the clean-install recipe](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) installs the CPU torch wheel first and supplies an exact direct/transitive version lock. This records package versions rather than locking system libraries or model weights.
+For the verified Linux x86_64 / Python 3.13 CPU setup, [the clean-install recipe](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/history/v1.3.0-revision/CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) installs the CPU torch wheel first and supplies an exact direct/transitive version lock. This records package versions rather than locking system libraries or model weights.
 
-Run the checks (about 10 seconds). On a fresh clone the release-zip check is skipped until the zip is built with
+Run the checks (about 5–10 minutes on a 4-core CPU). On a fresh clone the release-zip check is skipped until the zip is built with
 `bash scripts/13_package.sh`:
 
 ```bash
@@ -150,8 +150,8 @@ python3 -I scripts/00_get_models.py
 python3 -I scripts/11_embed_index.py --part all
 ```
 
-Rebuild everything from the sources. This takes about 2 hours on 4 CPUs, mostly translation and API calls; responses
-are cached, so re-runs are fast. The WHO PDF parser also needs `poppler-utils` (`pdftotext`).
+Rebuild everything from the sources. This takes about 3 hours on 4 CPUs, mostly translation, the embedding index and
+case-report downloads; responses are cached, so re-runs are faster. The WHO PDF parser also needs `poppler-utils` (`pdftotext`).
 
 ```bash
 bash run_all.sh
@@ -202,7 +202,7 @@ python3 examples/expert_system_demo.py --symptoms "बुखार; जलन; �
 |---|---|
 | **Review Desk** (`release/tools/review_desk.html`) | Invited vaidyas give a verdict on each herb → disorder and procedure → disorder link. Verdicts are stored per anonymous reviewer; the owner sees agreement (Fleiss' κ) and exports CSV. |
 | **Prakṛti questionnaire** (`release/tools/prakriti_questionnaire.html`) | Bilingual, with a consent screen, classical scoring (the E4 rule) and optional anonymous saving by the study team (interviewer mode). |
-| **Permission letters** ([`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch)) | Ready-to-send requests to PCIM&H (API/AFI), Ministry of Ayush (NAMASTE licence), WHO, the IMPPAT team and CCRAS. |
+| **Permission letters** ([`docs/review/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/review/permission_requests) (review/testing branch)) | Ready-to-send requests to PCIM&H (API/AFI), Ministry of Ayush (NAMASTE licence), WHO, the IMPPAT team and CCRAS. |
 
 ## Pipeline
 
@@ -248,10 +248,10 @@ flowchart TB
 | | `26_model_upgrades.py` | E2c+ and E1+: chemistry features and multilingual embeddings compared with the originals |
 | Export | `08_validate_export.py` | integrity checks, bilingual Q&A, RAG corpus, SQLite, Frictionless `datapackage.json` |
 | | `09_docs.py`, `11_embed_index.py` | data dictionary; multilingual embedding index |
-| | `12_report.py`, `13_package.sh` | dataset report and the result tables in this README; release zip |
+| | `12_report.py`, `13_package.sh` | v1.2 dataset report and benchmark tables (`docs/history/v1.2/`); release zip |
 | | `22_build_tools.py` | the interactive Review Desk and Prakṛti questionnaire |
-| Revision | `27`–`54` | peer-review revision: the Prameha symptom repair (33), run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47), source-gap audits (49–52), and an AI pre-review of the indication mappings with a sign-off step (53–54, see [`INDICATION_PREREVIEW.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/INDICATION_PREREVIEW.md) (review/testing branch)). See [`REVISION_STATUS.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVISION_STATUS.md) (review/testing branch) |
-| Test | `tests/` | 184 automated checks: transliteration, keys, references, encoding, Windows portability of the scripts, domain and safety rules, bilingual coverage, ML baselines, the demo |
+| Revision | `27`–`54` | peer-review revision: the Prameha symptom repair (33), run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47), source-gap audits (49–52), and an AI pre-review of the indication mappings with a sign-off step (53–54, see [`INDICATION_PREREVIEW.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/review/INDICATION_PREREVIEW.md) (review/testing branch)). See [`REVISION_STATUS.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/history/v1.3.0-revision/REVISION_STATUS.md) (review/testing branch) |
+| Test | `tests/` | 184 automated checks (183 pass, 1 skipped until the release zip is built): transliteration, keys, references, encoding, Windows portability of the scripts, domain and safety rules, bilingual coverage, ML baselines, the demo |
 
 **Built with**
 
@@ -265,65 +265,61 @@ flowchart TB
 
 ## Results
 
-Every number below comes from `reports/ml/` (one JSON/CSV per experiment) and is regenerated by
-`scripts/12_report.py`. Figures are in [`reports/figures/`](reports/figures/), and the full dataset report is
-`release/report.html` (open it in a browser).
+All figures describe release v1.3.0. Benchmarks are internal cross-validation on the v1.3.0 data, with preprocessing
+fitted inside each fold; they are not clinical validation. Results and split manifests are in `reports/revision_full/`
+(benchmarks and tuning) and `reports/revision_semantic/` (embeddings and retrieval). Earlier v1.2 results are kept
+separately in [`docs/history/v1.2/BENCHMARKS.md`](docs/history/v1.2/BENCHMARKS.md).
 
-### Historical v1.2 machine-learning benchmarks (E1–E4)
+### Machine-learning benchmarks
 
-<!-- ML_TABLE_START -->
-| Exp. | Task | Data | Best model | Score | Reference point |
-|---|---|---|---|---|---|
-| E1a | Disorder → organ system from clinical text | real · NAMASTE | Logistic Regression | macro-F1 0.801 | Dummy (majority) 0.034 |
-| E1b | Doṣa involvement from symptom text (doṣa words masked) | real · NAMASTE | Logistic Regression | macro-F1 0.738 | Dummy (majority) 0.145 |
-| E1c | Same task in English vs Hindi text | real · NAMASTE | Logistic Regression · English | macro-F1 0.801 | Dummy (majority) · English 0.034; Dummy (majority) · Hindi (MT) 0.034 |
-| E2a | Herb vīrya (uṣṇa / śīta) from rasa, guṇa, vipāka, karma | real · herbs | Extra Trees | macro-F1 0.797 | rule: rasa majority (hot vs cold tastes) 0.760; rule: vipāka (madhura -> śīta) 0.635 |
-| E2b | Doṣa-pacifying profile (V / P / K, mean of three labels) | real · herbs | SVM (RBF) | macro-F1 0.857 | Classical rule (Ayurvedic theory) 0.743; Dummy (majority) 0.376 |
-| E2c | Herb indications from rasa / guṇa / vīrya / vipāka / doṣa | real · herbs | LightGBM | macro-F1 0.604 | Dummy (majority) 0.453 |
-| E3a | Symptom set → disorder (60 disorders) | hybrid · simulated cases | MLP (neural net) | top-1 accuracy 0.928 | Knowledge-base matcher (IDF-cosine, no training) 0.967; Dummy (majority) 0.017 |
-| E3b | Symptom set → disorder (all distinguishable disorders) | hybrid · simulated cases | Naive Bayes | top-1 accuracy 0.882 | Knowledge-base matcher (IDF-cosine, no training) 0.893 |
-| E4 | Prakṛti (7 constitution types) from questionnaire | synthetic · WHO-grounded | Naive Bayes | macro-F1 0.653 | Classical questionnaire scoring (count V/P/K answers) 0.618; Dummy (majority) 0.053 |
-<!-- ML_TABLE_END -->
+| Exp. | Task | Data | Best model | Macro-F1 | Reference point |
+|---|---|---|---|---:|---|
+| E1a | Disorder → organ system from clinical text | real · NAMASTE + WHO-filled definitions | Logistic Regression | 0.811 | Dummy (majority) 0.033 |
+| E1b | Doṣa involvement from symptom text (doṣa words masked), 484 records | real · NAMASTE + WHO-filled definitions | Logistic Regression | 0.604 | Dummy (majority) 0.112 |
+| E1c | Same task as E1a in English vs Hindi text | real · NAMASTE | Logistic Regression | English 0.805 · Hindi (MT) 0.729 | Dummy (majority) 0.033 |
+| E2a | Herb vīrya (uṣṇa / śīta) from rasa, guṇa, vipāka, karma | real · 344 herbs | Extra Trees | 0.792 | rule: rasa majority 0.760; rule: vipāka 0.635; Dummy 0.345 |
+| E2b | Doṣa-pacifying profile (V / P / K, mean of three labels) | real · herbs | SVM (RBF) | 0.852 | Classical rule (Ayurvedic theory) 0.743; Dummy 0.376 |
+| E2c | Herb indications from rasa / guṇa / vīrya / vipāka / doṣa | real · herbs | LightGBM | 0.606 | Dummy (majority) 0.453 |
+| E4 | Prakṛti (7 constitution types) from questionnaire, 750-record final holdout | synthetic · WHO-grounded | Naive Bayes | 0.636 | Classical questionnaire scoring 0.606; Dummy 0.053 |
 
-### Real-world validation and evidence (E6, E7)
+E1b is harder than E1a: only 484 disorders carry a doṣa label, and most disorders have none.
 
-**E6, real case reports.** On 85 published cases with a NAMASTE diagnosis and two or more presenting symptoms, the
-no-training KB matcher ranks the diagnosed disorder family in its top 10 for 20% of cases (top 30: 32%), against 9%
-for a popularity baseline and 0.6% by chance among 1,595 disorders. The upgrades in E8 raise the top-10 rate to 48%.
-Case reports describe patients in modern clinical language, which the classical symptom lexicon only partly covers.
-These are historical internal results on selected publications. The current `case_report_links` table is a
-curation queue; its KB-overlap flags were refreshed after indication containment. Independent paired evaluation remains pending.
+### Embeddings, tuning and chemistry
 
-**E7, tuning.** Nested cross-validation changes macro-F1 by −0.02 to +0.10. Tuning helped models with poorly suited
-defaults (Complement NB on text, Random Forest on the questionnaire) and slightly hurt on the 344-herb dataset, where
-the inner search overfits.
+| Comparison | Baseline | Upgraded | Notes |
+|---|---:|---:|---|
+| E1a organ system, TF-IDF vs TF-IDF + multilingual-e5 | 0.811 | 0.856 | NAMASTE-only definitions: 0.799 → 0.842 |
+| E1b doṣa, same comparison | 0.604 | 0.613 | |
+| E1c Hindi (MT) text, same comparison (NAMASTE-only) | 0.717 | 0.803 | |
+| E7 nested tuning, E1a Complement Naive Bayes | 0.711 | 0.765 | tuning helps models with poorly suited defaults |
+| E7 nested tuning, E4 Random Forest | 0.494 | 0.593 | |
+| E7 nested tuning, E2a herb vīrya (five models) | 0.774–0.788 | 0.773–0.786 | no gain: the inner search overfits on 344 herbs |
+| E2c herb indications, + chemistry and plant family | 0.606 | 0.600 | phytochemistry does not predict classical indications here |
 
-**Current link evidence.** Among 1,039 retained herb → disorder evidence pairs, 162 have clinical-publication search matches,
-191 have literature co-occurrence support, 324 are sparse, 361 have no query hits and one is not queryable.
-Search tiers do not appraise efficacy, and zero hits do not establish absence of evidence. Counts retain their original query dates.
+### Bilingual search (E5b)
 
-### Accuracy upgrades (E8)
+Recall@10 over the full corpus (2,015 disorders, 10,049 symptoms), base multilingual-e5 vs the model fine-tuned on the
+dataset's own pairs with test concepts held out:
 
-Measured on the same rows and folds as the original experiments:
+| Query | Base | Fine-tuned |
+|---|---:|---:|
+| Disorders by Hindi headword | 0.161 | 0.440 |
+| Disorders by Hindi description | 0.882 | 0.943 |
+| Symptoms by Hindi headword | 0.069 | 0.199 |
+| Symptoms by Hindi description | 0.720 | 0.854 |
 
-<!-- UPGRADES_START -->
-| Area | Before | After | What changed |
-|---|---|---|---|
-| Real cases: right disorder group in top 10 | 20% | 48% (±4%) | clinical-term crosswalk, meaning-based matching, group ranking, profiles learned from real cases (5-fold CV) |
-| Real cases: right group ranked first | 2% | 17% | same |
-| Adding WHO sign lists to the matcher (top 10) | 28% | 11% | made it worse: the lists are broad, so they are kept for explanation and left out of ranking |
-| Real cases, top 10, with the fine-tuned search model | 48% | 47% | no gain on English case text (within ±4% noise); the fine-tuned model is used for Hindi search, where it helps |
-| Search disorders by Sanskrit headword (recall@10) | 0.24 | 0.56 | search model fine-tuned on the dataset's own pairs, test concepts held out |
-| Search symptoms by Sanskrit headword (recall@10) | 0.20 | 0.45 | search model fine-tuned on the dataset's own pairs, test concepts held out |
-| Organ system from text (E1a), macro-F1 | 0.801 | 0.837 | TF-IDF + e5 + LR |
-| Doṣa from symptom text (E1b), macro-F1 | 0.738 | 0.750 | TF-IDF + e5 + LR |
-| Same task in Hindi (E1c), macro-F1 | 0.724 | 0.802 | TF-IDF + e5 + LR |
-| Herb indications (E2c), macro-F1 | 0.604 | 0.603 | + chemistry + family: no meaningful gain - phytochemistry does not predict classical indications here |
-| Disorders with a definition | 55.5% | 69.8% | 415 WHO definitions for disorders NAMASTE leaves undefined |
-| Disorders with a symptom profile | 1,595 | 2,243 | 13,639 edges from WHO sign lists + inherited profiles for subtypes (flagged) |
-| Disorders with a doṣa suggestion | 0 | 1,420 | text model, cross-validated accuracy 0.90; flagged for expert review |
-| Hindi translation errors fixed by rule | - | 117 rows | curated post-edits, e.g. 'stiffness' had been translated as 'bitterness', 'nausea' as 'vomiting' |
-<!-- UPGRADES_END -->
+### Link evidence
+
+Among 1,039 active herb → disorder evidence pairs, 162 have clinical-publication search matches, 191 have literature
+co-occurrence support, 324 are sparse, 361 have no query hits and one is not queryable. Search tiers do not appraise
+efficacy, and zero hits do not establish absence of evidence. Counts keep their original query dates.
+
+### Not rerun for v1.3.0
+
+The simulated symptom → disorder benchmark (E3) and the case-report matching experiments (E6, E6b, E8) were measured on
+the v1.2 snapshot and have not been rerun on v1.3.0 data. Their v1.2 results are in
+[`docs/history/v1.2/BENCHMARKS.md`](docs/history/v1.2/BENCHMARKS.md). An external, independently labelled test set
+does not exist yet.
 
 ## Repository layout
 
@@ -338,9 +334,11 @@ Ayurveda-dataset/
 ├── tests/              automated checks
 ├── examples/           expert-system demo
 ├── models/trained/     small trained classifiers (E3, E4)
-├── reports/            build reports, ML results (ml/) and figures
+├── reports/            build reports; current results (revision_full/, revision_semantic/); v1.2 results (ml/); figures
 ├── release/            datapackage.json, dataset report, interactive tools
-├── docs/               datasheet, sources, data dictionary, glossary, expert-system guide, release notes
+├── docs/               datasheet, sources, data dictionary, glossary, expert-system guide
+│   ├── releases/       release notes, one file per version
+│   └── history/        results of earlier versions, kept for comparison
 ├── run_all.sh          rebuilds everything end to end
 ├── requirements.txt    pinned dependencies
 └── CITATION.cff        citation metadata
@@ -348,20 +346,20 @@ Ayurveda-dataset/
 
 ## Status and roadmap
 
-Release **v1.3** ([release notes](docs/RELEASE_NOTES_v1.3.0.md)). Done:
+Release **v1.3.0** ([release notes](docs/releases/v1.3.0.md)). Done:
 
-- [x] Pipeline stages 00–54, experiments E1–E8 and 184 automated checks
-- [x] Dataset report, Review Desk and Prakṛti questionnaire (source pages in `release/tools/`)
+- [x] Pipeline stages 00–54, benchmarks recomputed for v1.3.0 and 184 automated checks
+- [x] Review Desk and Prakṛti questionnaire (source pages in `release/tools/`)
 - [x] ChEMBL compound–target links: 323 links, 62 compounds, 196 human proteins (built locally, see below)
 
 Next:
 
 - [ ] **Expert review.** Collect verdicts with the Review Desk and the review batches in
-  [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) (review/testing branch), starting with the
-  [indication pre-review](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/INDICATION_PREREVIEW.md).
-- [ ] **Permissions.** Send the letters in [`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch).
+  [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/review/REVIEW_HANDOFF.md) (review/testing branch), starting with the
+  [indication pre-review](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/review/INDICATION_PREREVIEW.md).
+- [ ] **Permissions.** Send the letters in [`docs/review/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/review/permission_requests) (review/testing branch).
 - [ ] **Ethics approval** before collecting Prakṛti questionnaire responses.
-- [ ] **Hindi review.** Have a Hindi speaker correct the flagged translations (sheet `hindi_translations`).
+- [ ] **Hindi review.** Have a Hindi speaker correct the flagged translations, recording fixes in the `curation/mt_*.csv` files.
 - [ ] **Optional:** import a WHO ICTRP / CTRI export with `scripts/19_ictrp_import.py`.
 
 ### Not in git (rebuilt locally)
@@ -399,7 +397,7 @@ and few network calls.
 ## Contributing
 
 The most valuable contribution is **expert review** by qualified Ayurveda practitioners, through the Review Desk or
-the review batches in [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) (review/testing branch). Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
+the review batches in [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/review/REVIEW_HANDOFF.md) (review/testing branch). Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
 requests. Make data changes in the pipeline or in `curation/` rather than by hand in `data/processed/`, and run
 `python3 -m pytest -q tests/` before opening a pull request.
 
@@ -417,12 +415,12 @@ Corrected rows are marked in their `*_method` column; whole-field corrections al
 
 ## Licence and attribution
 
-The combined release declares **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**. Component permissions and terms require separate review, including NAMASTE and WHO content and model-derived translations. Source filtering alone does not certify a commercial-safe subset. See [rights review](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/RIGHTS_AND_SAFETY_REVIEW.md).
+The combined release declares **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**. Component permissions and terms require separate review, including NAMASTE and WHO content and model-derived translations. Source filtering alone does not certify a commercial-safe subset. See [rights review](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/review/RIGHTS_AND_SAFETY_REVIEW.md).
 
 | ID | Source | Licence |
 |---|---|---|
 | S0 | Curated layers of this project | CC BY 4.0 |
-| S1–S2 | NAMASTE: National Ayurveda Morbidity Codes and Standardised Ayurveda Terminologies, Ministry of Ayush, Govt. of India | public standard, attribution; no explicit open licence (see [`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch)) |
+| S1–S2 | NAMASTE: National Ayurveda Morbidity Codes and Standardised Ayurveda Terminologies, Ministry of Ayush, Govt. of India | public standard, attribution; no explicit open licence (see [`docs/review/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/review/permission_requests) (review/testing branch)) |
 | S3 | WHO international standard terminologies on Ayurveda (2022) | CC BY-NC-SA 3.0 IGO |
 | S4 | USDA-ARS Dr. Duke's Phytochemical and Ethnobotanical Databases | CC0 1.0 |
 | S5 | Amidha Ayurveda Herb Database v2.0, S. Varshney ([10.5281/zenodo.20581467](https://doi.org/10.5281/zenodo.20581467)) | CC BY 4.0 |
@@ -449,7 +447,7 @@ button reads [`CITATION.cff`](CITATION.cff).
   author       = {Azmi, Abdullah},
   title        = {{AyurKB}: A Bilingual, Hybrid Ayurveda Knowledge Base for Expert Systems},
   year         = {2026},
-  note         = {Version 1.2. Dataset licensed CC BY-NC-SA 4.0},
+  note         = {Version 1.3.0. Dataset licensed CC BY-NC-SA 4.0},
   howpublished = {\url{https://github.com/IAbdullahSlash/Ayurveda-dataset}}
 }
 ```

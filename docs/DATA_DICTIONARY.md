@@ -357,7 +357,7 @@ Formulation → NAMASTE disease links.
 
 ## `formulation_ingredients`  (500 rows × 7 columns)
 
-Ingredients of each formulation, linked to the historical materia-medica master where possible. A nonempty herb_id can refer to a non-botanical material; ingredient_type preserves that distinction.
+Ingredients of each formulation, linked to the materia-medica master (`herbs`) where possible. A nonempty herb_id can refer to a non-botanical material; ingredient_type preserves that distinction.
 
 | column | type | filled | example | description |
 |---|---|---|---|---|
@@ -575,7 +575,7 @@ USDA Duke: phytochemicals reported per plant and part, with amounts (ppm) and re
 
 ## `herbs`  (466 rows × 64 columns)
 
-Historical materia-medica master: botanical taxon links, non-botanical materials and unresolved identities are distinguished explicitly. Source names and herb IDs are retained; a linked taxon is not physical-material authentication. Includes SAT-F/Amidha names, properties, groups, safety states and evidence counts.
+Materia-medica master (table name kept for compatibility): botanical taxon links, non-botanical materials and unresolved identities are distinguished explicitly. Source names and herb IDs are retained; a linked taxon is not physical-material authentication. Includes SAT-F/Amidha names, properties, groups, safety states and evidence counts.
 
 | column | type | filled | example | description |
 |---|---|---|---|---|

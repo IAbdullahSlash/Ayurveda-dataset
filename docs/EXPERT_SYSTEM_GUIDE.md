@@ -35,15 +35,17 @@ Rank disorders by the number of complaints they explain, then by IDF-weighted ov
 symptom profile. Also count a complaint as explained when it names the disorder itself: match it against
 `name_en`, `name_en_who` and `term_hi` (for example "cough" → *kāsa*).
 
-In experiment E3 this no-training matcher reached 0.967 top-1 on 60 disorders, ahead of every learned
-model (`reports/ml/E3a_top60.json`). Learned rankers add value when they are trained on real case data.
+On simulated presentations this no-training matcher outperformed every learned model (experiment E3, measured on the
+v1.2 snapshot and not rerun for v1.3.0; see `docs/history/v1.2/BENCHMARKS.md`). Learned rankers add value when they
+are trained on real case data.
 
 Walk `parent_disease_id` upward to collect knowledge recorded at the general level (e.g. *jvara*).
 
 ## 3. Constitution (Prakṛti)
 
 The bundled classifier was trained on a **synthetic** cohort. Use it to demonstrate the workflow, or
-retrain it on real questionnaire data. Its abstain-and-refer curve is in `reports/ml/E4_prakriti.json`:
+retrain it on real questionnaire data. Its v1.3.0 evaluation (macro-F1 0.636 on a 750-record holdout of the synthetic cohort) is in
+`reports/revision_full/REP/E4_prakriti.json`; the abstain-and-refer curve is in `reports/ml/E4_prakriti.json`:
 answer automatically only above a confidence threshold and refer the rest.
 
 ## 4. Knowledge retrieval
@@ -88,8 +90,9 @@ answer automatically only above a confidence threshold and refer the rest.
 - **Safety signals.** `case_reports` with `case_kind = adverse_event` (115 reports, mostly lead, arsenic and mercury
   poisoning from metal-containing products) support the safety gate in section 5: products with
   `contains_metal_or_toxic = yes` need quality-tested sources and supervision.
-- **Measured accuracy on real cases (E6).** A symptom-only matcher ranks the right disorder family in the top 10 for
-  about a fifth of real presentations. Use it to suggest candidates for the practitioner, never to decide.
+- **Accuracy on real cases is limited.** On the v1.2 snapshot, a symptom-only matcher ranked the right disorder family
+  in the top 10 for about a fifth of published case presentations (E6; not rerun for v1.3.0). Use it to suggest
+  candidates for the practitioner, never to decide.
 - **Plant identification.** `herb_image_datasets` maps KB herbs to classes of three CC BY 4.0 leaf-image datasets, so a
   classifier trained on them can hand its prediction to the KB.
 - **Regional scripts.** `multiscript_names` lets the interface show Sanskrit names in Bengali, Gujarati, Gurmukhi,
@@ -98,7 +101,7 @@ answer automatically only above a confidence threshold and refer the rest.
 ## 8. Expert review loop
 
 Use `release/tools/review_desk.html` (published as an artifact; invite reviewers as editors) and the review batches
-listed in [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) (review/testing branch). The Review Desk shows inter-rater agreement and exports verdicts as CSV.
+listed in [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/review/REVIEW_HANDOFF.md) (review/testing branch). The Review Desk shows inter-rater agreement and exports verdicts as CSV.
 Apply corrections to the curated layers only after two reviewers agree.
 
 ## 9. Accuracy upgrades you can use directly
@@ -108,11 +111,11 @@ Apply corrections to the curated layers only after two reviewers agree.
   index for anything left over.
 - **Richer disorder profiles.** Rank with `disease_symptom` + `disease_symptom_from_cases` (symptoms seen in published
   cases). Do NOT add `disease_symptom_who` to the ranking: WHO sign lists are broad "some or all of the following" lists
-  and lowered real-case top-10 accuracy from 28% to 11% (E6b). Use them to explain a candidate, not to rank it.
+  and lowered real-case top-10 accuracy from 28% to 11% (E6b, v1.2 snapshot). Use them to explain a candidate, not to rank it.
   `disease_symptom_inferred` (inherited from a parent) is roughly neutral and is a fallback for disorders with no profile.
 - **Rank disorder groups first.** Collapse subtypes to their group (depth-3 ancestor), show the top groups, then let
   the practitioner pick the doṣa subtype. On real cases this, plus case-learned profiles, raised top-10 accuracy from
-  about 20% to about 49% (experiment E6b).
+  about 20% to about 48% (experiment E6b, v1.2 snapshot; not rerun for v1.3.0).
 - **Doṣa suggestions.** `dosha_suggestions` proposes a doṣa for disorders the sources leave unspecified. Treat as a
   hint until an expert confirms it in the Review Desk.
 
