@@ -1,0 +1,13 @@
+# Semantic and language review protocol
+
+> Applies to release v1.3.0.
+
+Run `python scripts/29_review_semantics.py` for a fixed-seed sample of 50 existing symptom edges per extraction method, with source definitions, plus a candidate diff for revised unbracketed phrase extraction. The current run identifies 211 remaining affected disorders and samples 151 edges. The source parser now retains conjunctions, negation, modifiers and alternatives within clauses; this mechanical improvement does not adjudicate all symptom meanings. The explicit Prameha coordination defect is repaired in the processed graph with its unreviewed derivation status visible; the broader candidate graph has not been substituted.
+
+Two qualified reviewers should independently mark valid, invalid or uncertain edges; label error categories (modifier scope, negation, alternative, temporality, severity, concept mismatch); and enumerate missed gold phrases in the source. A third adjudication resolves disagreements. Precision requires accepted predicted edges; recall additionally requires a complete adjudicated gold set. Until those exist, metrics remain null. Record reviewer qualifications separately from public initials/codes.
+
+The translation queue contains stable record IDs, field names, row-content hashes, source and translated text, flags and review columns. Repetition-flagged fields come first. Review adequacy and terminology separately, including negation, frequency, severity and named entities. Retranslation without expert approval must remain proposed. Regeneration refuses to overwrite human verdicts. Use the existing curated post-edit mechanisms only after approval, then rebuild dependent tables, QA and exports and rerun tests.
+
+Fine-tuning excludes held-out IDs, transitive known concept memberships, normalized headwords, exact description matches and high token-overlap descriptions. This does not prove that all semantic paraphrases are excluded. Record-derived queries remain distinct from independently authored user queries. Evaluation now uses the complete eligible corpus as candidates while retaining the fixed 800-query sample; results are not directly comparable to the old 800-candidate benchmark.
+
+Network access was verified after the user's publication on 7 November 2026. Both pinned models are present and weight checksums match the Hub's revision-specific SHA-256 values. Full-corpus retrieval/fine-tuning and source-stratified embedding comparisons are recorded in `reports/revision_semantic/`. Token-budgeted retranslation proposals are in `reports/retranslation/`; they remain unreviewed and are not copied over canonical fields. Independent natural-query evaluation and language approval are still pending.
