@@ -64,7 +64,7 @@ def main():
             raise ValueError('The named CPU lock targets Linux x86_64 only')
         lock = ROOT / 'requirements.cpu-py313.lock'
         lines = ['# Linux x86_64 / CPython 3.13 CPU environment; generated from the clean-install validation.',
-                 '# Install the pinned CPU torch wheel from the official CPU index first; see docs/CONTINUED_SOURCE_WORK.md.',
+                 '# Install the pinned CPU torch wheel from the official CPU index first; see https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/CONTINUED_SOURCE_WORK.md.',
                  '# Exact direct and transitive versions; wheel hashes and system libraries are not locked.']
         for name, version in sorted(environment['all_installed_versions'].items(), key=lambda item:item[0].casefold()):
             if not re.fullmatch('[A-Za-z0-9_.-]+', name) or re.search(r'\s', version):

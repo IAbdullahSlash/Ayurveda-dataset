@@ -51,7 +51,7 @@ Source codes (NAMASTE, ICD-11 TM2, WHO ITA, GBIF keys, Wikidata QIDs, NCT ids) a
 1,959 phytochemicals with PubChem identifiers; links to three CC BY 4.0 plant-image datasets; names in 8 regional
 scripts; 3,347 cross-source headword concepts.
 
-**Current working revision after PDF review.** All 1,693 indication source rows remain: 1,044 unique exact source matches are active but unreviewed, 339 candidates await review, 49 are quarantined, and 261 are unmatched. The current evidence table retains 1,039 supported pairs; 388 withdrawn pairs are audit history. QA has 4,790 rows, and all 43 tables total 180,899 rows. Herb safety has 442 unassessed and 24 review-pending records, with no independently assessed records. See [follow-up work](REVIEW_WORK_PROGRESS.md). Historical benchmark counts describe earlier frozen inputs.
+**Current working revision after PDF review.** All 1,693 indication source rows remain: 1,044 unique exact source matches are active but unreviewed, 339 candidates await review, 49 are quarantined, and 261 are unmatched. The current evidence table retains 1,039 supported pairs; 388 withdrawn pairs are audit history. QA has 4,790 rows, and all 43 tables total 180,899 rows. Herb safety has 442 unassessed and 24 review-pending records, with no independently assessed records. See [follow-up work](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_WORK_PROGRESS.md). Historical benchmark counts describe earlier frozen inputs.
 
 **Material identity scope.** The historical `herbs` inventory includes 453 records linked to botanical taxa, two source-identified non-botanical materials (mineral pitch and gairika/Ferrum haematite), and 11 unresolved identities. `accepted_name` remains a compatibility field and is not a verified species name for every row. Material categories preserve source references; they do not authenticate physical preparations or establish safety. No names, identifiers or species records were merged by this classification.
 
@@ -133,5 +133,5 @@ GBIF, Wikidata and NLM as listed in `docs/SOURCES.md`.
 
 ## 8. Maintenance
 
-Re-run the documented pipeline stages to refresh from sources. Some API responses are cached; model weights and excluded article caches require separate retrieval. A complete offline rebuild has not been established. Run `python3 -m pytest tests/` after changes; see `docs/REVISION_VALIDATION.md` for executed test counts. Checks cover
+Re-run the documented pipeline stages to refresh from sources. Some API responses are cached; model weights and excluded article caches require separate retrieval. A complete offline rebuild has not been established. Run `python3 -m pytest tests/` after changes; see [`REVISION_VALIDATION.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVISION_VALIDATION.md) (review/testing branch) for executed test counts. Checks cover
 keys, references, encoding, domain rules, bilingual coverage, safety flags, ML baselines and expert-system behaviour.

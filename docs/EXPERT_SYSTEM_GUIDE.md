@@ -98,7 +98,7 @@ answer automatically only above a confidence threshold and refer the rest.
 ## 8. Expert review loop
 
 Use `release/tools/review_desk.html` (published as an artifact; invite reviewers as editors) and the review batches
-listed in `docs/REVIEW_HANDOFF.md`. The Review Desk shows inter-rater agreement and exports verdicts as CSV.
+listed in [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) (review/testing branch). The Review Desk shows inter-rater agreement and exports verdicts as CSV.
 Apply corrections to the curated layers only after two reviewers agree.
 
 ## 9. Accuracy upgrades you can use directly

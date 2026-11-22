@@ -399,7 +399,6 @@ def main(junit=None):
         "reports/ml/ · reports/figures/         every experiment, every model, every fold summary",
         "curation/                              curated layers (flagged for expert review)",
         "release/tools/                         expert review desk + bilingual Prakṛti questionnaire (interactive)",
-        "docs/permission_requests/              letters to PCIM&H, Ayush, WHO, IMPPAT, CCRAS",
         "scripts/01…22 · tests/                 reproducible pipeline and test suite"])
     data["limits"] = [
         "Decision support for qualified practitioners, not autonomous diagnosis or prescribing; no doses are given.",

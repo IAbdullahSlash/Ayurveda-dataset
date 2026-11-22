@@ -83,7 +83,7 @@ show where a concept appears in the data.
 | WHO ITA | WHO international standard terminologies on Ayurveda (2022), ids `ITA-x.y.z` (`terminology`, `diseases.who_term_id`) |
 | ICD-11 TM2 | the Traditional Medicine Module 2 chapter of WHO's ICD-11 (`diseases.icd11_tm2_code`) |
 | AFI | Ayurvedic Formulary of India, the official formulation reference |
-| Ministry of Ayush, CCRAS, PCIM&H | Indian government ministry, research council and pharmacopoeia commission (see `docs/permission_requests/`) |
+| Ministry of Ayush, CCRAS, PCIM&H | Indian government ministry, research council and pharmacopoeia commission (see [`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch)) |
 | Caraka Saṃhitā, Suśruta Saṃhitā, Aṣṭāṅga Hṛdaya | the classical texts cited in curated references |
 
 ## Scripts, languages and transliteration

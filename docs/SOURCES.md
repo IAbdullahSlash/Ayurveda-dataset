@@ -41,9 +41,9 @@ sources). Raw files are kept unchanged in `data/raw/` with SHA-256 checksums in 
 
 ## Licence of the combined release
 
-The integrated release declares CC BY-NC-SA 4.0. This does not resolve source-specific permissions. NAMASTE has no explicit open licence in the recorded source notes. Field-level mixing, translations and derived links require dependency-aware review; removing S3 rows does not certify a commercial-safe subset. Model weights, use and generated text need separate assessment. See `curation/source_rights_review.csv` and `docs/RIGHTS_AND_SAFETY_REVIEW.md`.
+The integrated release declares CC BY-NC-SA 4.0. This does not resolve source-specific permissions. NAMASTE has no explicit open licence in the recorded source notes. Field-level mixing, translations and derived links require dependency-aware review; removing S3 rows does not certify a commercial-safe subset. Model weights, use and generated text need separate assessment. See `curation/source_rights_review.csv` and [`RIGHTS_AND_SAFETY_REVIEW.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/RIGHTS_AND_SAFETY_REVIEW.md) (review/testing branch).
 
 ## Permission requests
 
 Letters asking for licences or machine-readable data from PCIM&H (API/AFI), the Ministry of Ayush NAMASTE team,
-WHO, the IMPPAT team and CCRAS are in `docs/permission_requests/`. These are request templates, not evidence of permission granted. Some listed sources already contribute to the dataset; their recorded terms and outstanding permissions must be reviewed explicitly.
+WHO, the IMPPAT team and CCRAS are in [`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch). These are request templates, not evidence of permission granted. Some listed sources already contribute to the dataset; their recorded terms and outstanding permissions must be reviewed explicitly.

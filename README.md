@@ -31,7 +31,7 @@
 
 ## About
 
-**Revision notice:** See [follow-up work](docs/REVIEW_WORK_PROGRESS.md), [review handoff](docs/REVIEW_HANDOFF.md) and [current validation](docs/REVISION_VALIDATION.md). The working revision contains 180,899 rows across 43 tables. Incorrect, fuzzy and ambiguous indication mappings are contained; current evidence/QA counts below reflect that change. Historical benchmark tables retain their original frozen inputs. Independent expert review remains pending.
+**Revision notice:** See [follow-up work](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_WORK_PROGRESS.md), [review handoff](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) and [current validation](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVISION_VALIDATION.md). The working revision contains 180,899 rows across 43 tables. Incorrect, fuzzy and ambiguous indication mappings are contained; current evidence/QA counts below reflect that change. Historical benchmark tables retain their original frozen inputs. Independent expert review remains pending.
 
 AyurKB links Ayurvedic **diagnosis, materia medica, remedies and modern scientific evidence** in one relational
 dataset, with **English, Hindi, Sanskrit IAST and Devanagari** representations. Coverage varies by field; Hindi is largely machine-translated and remains independently unreviewed.
@@ -116,7 +116,7 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-For the verified Linux x86_64 / Python 3.13 CPU setup, [the clean-install recipe](docs/CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) installs the CPU torch wheel first and supplies an exact direct/transitive version lock. This records package versions rather than locking system libraries or model weights.
+For the verified Linux x86_64 / Python 3.13 CPU setup, [the clean-install recipe](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/CONTINUED_SOURCE_WORK.md#clean-dependency-installation-and-validation) installs the CPU torch wheel first and supplies an exact direct/transitive version lock. This records package versions rather than locking system libraries or model weights.
 
 Run the checks (about 10 seconds). On a fresh clone the release-zip check is skipped until the zip is built with
 `bash scripts/13_package.sh`:
@@ -202,7 +202,7 @@ python3 examples/expert_system_demo.py --symptoms "बुखार; जलन; �
 |---|---|
 | **Review Desk** (`release/tools/review_desk.html`) | Invited vaidyas give a verdict on each herb → disorder and procedure → disorder link. Verdicts are stored per anonymous reviewer; the owner sees agreement (Fleiss' κ) and exports CSV. |
 | **Prakṛti questionnaire** (`release/tools/prakriti_questionnaire.html`) | Bilingual, with a consent screen, classical scoring (the E4 rule) and optional anonymous saving by the study team (interviewer mode). |
-| **Permission letters** (`docs/permission_requests/`) | Ready-to-send requests to PCIM&H (API/AFI), Ministry of Ayush (NAMASTE licence), WHO, the IMPPAT team and CCRAS. |
+| **Permission letters** ([`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch)) | Ready-to-send requests to PCIM&H (API/AFI), Ministry of Ayush (NAMASTE licence), WHO, the IMPPAT team and CCRAS. |
 
 ## Pipeline
 
@@ -250,7 +250,7 @@ flowchart TB
 | | `09_docs.py`, `11_embed_index.py` | data dictionary; multilingual embedding index |
 | | `12_report.py`, `13_package.sh` | dataset report and the result tables in this README; release zip |
 | | `22_build_tools.py` | the interactive Review Desk and Prakṛti questionnaire |
-| Revision | `27`–`54` | peer-review revision: the Prameha symptom repair (33), run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47), source-gap audits (49–52), and an AI pre-review of the indication mappings with a sign-off step (53–54, see [`docs/INDICATION_PREREVIEW.md`](docs/INDICATION_PREREVIEW.md)). See [`docs/REVISION_STATUS.md`](docs/REVISION_STATUS.md) |
+| Revision | `27`–`54` | peer-review revision: the Prameha symptom repair (33), run by `run_all.sh`; review and evaluation manifests, retranslation proposals, model-weight checks and corrected reruns; indication containment and conservative matching (43–45, rules applied in stages 04 and 15), explicit safety states (46), review hand-off batches (47), source-gap audits (49–52), and an AI pre-review of the indication mappings with a sign-off step (53–54, see [`INDICATION_PREREVIEW.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/INDICATION_PREREVIEW.md) (review/testing branch)). See [`REVISION_STATUS.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVISION_STATUS.md) (review/testing branch) |
 | Test | `tests/` | 184 automated checks: transliteration, keys, references, encoding, Windows portability of the scripts, domain and safety rules, bilingual coverage, ML baselines, the demo |
 
 **Built with**
@@ -340,7 +340,7 @@ Ayurveda-dataset/
 ├── models/trained/     small trained classifiers (E3, E4)
 ├── reports/            build reports, ML results (ml/) and figures
 ├── release/            datapackage.json, dataset report, interactive tools
-├── docs/               datasheet, sources, data dictionary, expert-system guide, permission letters
+├── docs/               datasheet, sources, data dictionary, glossary, expert-system guide, release notes
 ├── run_all.sh          rebuilds everything end to end
 ├── requirements.txt    pinned dependencies
 └── CITATION.cff        citation metadata
@@ -357,9 +357,9 @@ Release **v1.3** ([release notes](docs/RELEASE_NOTES_v1.3.0.md)). Done:
 Next:
 
 - [ ] **Expert review.** Collect verdicts with the Review Desk and the review batches in
-  [`docs/REVIEW_HANDOFF.md`](docs/REVIEW_HANDOFF.md), starting with the
-  [indication pre-review](docs/INDICATION_PREREVIEW.md).
-- [ ] **Permissions.** Send the letters in `docs/permission_requests/`.
+  [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) (review/testing branch), starting with the
+  [indication pre-review](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/INDICATION_PREREVIEW.md).
+- [ ] **Permissions.** Send the letters in [`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch).
 - [ ] **Ethics approval** before collecting Prakṛti questionnaire responses.
 - [ ] **Hindi review.** Have a Hindi speaker correct the flagged translations (sheet `hindi_translations`).
 - [ ] **Optional:** import a WHO ICTRP / CTRI export with `scripts/19_ictrp_import.py`.
@@ -399,7 +399,7 @@ and few network calls.
 ## Contributing
 
 The most valuable contribution is **expert review** by qualified Ayurveda practitioners, through the Review Desk or
-the review batches in `docs/REVIEW_HANDOFF.md`. Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
+the review batches in [`REVIEW_HANDOFF.md`](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/REVIEW_HANDOFF.md) (review/testing branch). Corrections to name mappings, formulations and Hindi translations are welcome as issues or pull
 requests. Make data changes in the pipeline or in `curation/` rather than by hand in `data/processed/`, and run
 `python3 -m pytest -q tests/` before opening a pull request.
 
@@ -417,12 +417,12 @@ Corrected rows are marked in their `*_method` column; whole-field corrections al
 
 ## Licence and attribution
 
-The combined release declares **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**. Component permissions and terms require separate review, including NAMASTE and WHO content and model-derived translations. Source filtering alone does not certify a commercial-safe subset. See [rights review](docs/RIGHTS_AND_SAFETY_REVIEW.md).
+The combined release declares **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**. Component permissions and terms require separate review, including NAMASTE and WHO content and model-derived translations. Source filtering alone does not certify a commercial-safe subset. See [rights review](https://github.com/IAbdullahSlash/Ayurveda-dataset/blob/review/testing/docs/RIGHTS_AND_SAFETY_REVIEW.md).
 
 | ID | Source | Licence |
 |---|---|---|
 | S0 | Curated layers of this project | CC BY 4.0 |
-| S1–S2 | NAMASTE: National Ayurveda Morbidity Codes and Standardised Ayurveda Terminologies, Ministry of Ayush, Govt. of India | public standard, attribution; no explicit open licence (see `docs/permission_requests/`) |
+| S1–S2 | NAMASTE: National Ayurveda Morbidity Codes and Standardised Ayurveda Terminologies, Ministry of Ayush, Govt. of India | public standard, attribution; no explicit open licence (see [`docs/permission_requests/`](https://github.com/IAbdullahSlash/Ayurveda-dataset/tree/review/testing/docs/permission_requests) (review/testing branch)) |
 | S3 | WHO international standard terminologies on Ayurveda (2022) | CC BY-NC-SA 3.0 IGO |
 | S4 | USDA-ARS Dr. Duke's Phytochemical and Ethnobotanical Databases | CC0 1.0 |
 | S5 | Amidha Ayurveda Herb Database v2.0, S. Varshney ([10.5281/zenodo.20581467](https://doi.org/10.5281/zenodo.20581467)) | CC BY 4.0 |
